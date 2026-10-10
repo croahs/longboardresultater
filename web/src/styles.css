@@ -228,11 +228,21 @@ input[type="search"]:focus { border-color: var(--accent); outline: none; }
 .class-list li i { width: 10px; height: 10px; border-radius: 3px; background: var(--c); }
 .class-list li b { font: 800 1.1rem/1 var(--display); min-width: 44px; text-align: right; }
 .hill-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; }
-.hill-stat { display: grid; gap: 6px; padding: 16px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); font-size: .85rem; transition: border-color .15s; }
+.hill-stat { display: grid; gap: 6px; padding: 16px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); font-size: .85rem; text-align: left; cursor: pointer; transition: border-color .15s, background .15s; }
 .hill-stat:hover { border-color: var(--accent); }
+.hill-stat[aria-pressed="true"] { border-color: var(--accent); background: var(--accent-soft); }
 .hill-stat-name { font: 800 1.15rem/1.1 var(--display); font-variation-settings: "wdth" 76; text-transform: uppercase; }
-.hill-stat-bar { display: grid; grid-template-columns: 1fr 44px; align-items: center; gap: 8px; }
-.hill-stat-bar b { font: 800 1rem/1 var(--display); text-align: right; }
+.hill-stat-bar { display: grid; grid-template-columns: 1fr 52px; align-items: center; gap: 8px; }
+.hill-stat-bar b { font: 800 1rem/1 var(--display); text-align: right; white-space: nowrap; }
+.hill-runs { display: grid; gap: 4px; animation: rise .35s both; }
+.hill-runs-head { display: flex; align-items: start; justify-content: space-between; gap: 16px; flex-wrap: wrap; padding: 20px 20px 12px; }
+.hill-runs-head > div { display: grid; gap: 6px; }
+.hill-runs .lead { font-size: .95rem; }
+
+.rating-bar { display: flex; flex-wrap: wrap; gap: 10px 24px; margin-bottom: 12px; }
+.rating-lead { margin: 0 0 14px; font-size: .95rem; }
+table.sheet td.season-cell { white-space: nowrap; }
+table.sheet td.season-cell small { display: block; }
 
 /* ---------- chart ---------- */
 .chart { display: grid; gap: 8px; }

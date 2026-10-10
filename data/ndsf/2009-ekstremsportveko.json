@@ -23,49 +23,57 @@
      "place": 1,
      "name": "Christoffer Sanne",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 2,
      "name": "Torbjørn Sunde",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 3,
      "name": "Klaes Johansson",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 4,
      "name": "Robin Sandberg",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 5,
      "name": "Alex Lyngaas",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 6,
      "name": "Morten Bechstrøm",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 7,
      "name": "Johan Simonsen",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 8,
      "name": "Jørgen Stokke Halvorsen",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     }
    ]
   }

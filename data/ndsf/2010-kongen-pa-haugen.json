@@ -27,25 +27,29 @@
      "place": 1,
      "name": "Trygve Jørundland",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 2,
      "name": "Alex Hørthe",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 3,
      "name": "Håkon Wegge",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 4,
      "name": "Kim Anderssen",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     }
    ]
   }

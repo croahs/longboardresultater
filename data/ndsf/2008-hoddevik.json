@@ -23,19 +23,22 @@
      "place": 1,
      "name": "Mikael Sjødal Jensen",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 2,
      "name": "Alex Lyngaas",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 3,
      "name": "Tryggve Jørunlund",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     }
    ]
   },
@@ -49,13 +52,15 @@
      "place": 1,
      "name": "Carolina Bodin",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 2,
      "name": "Melissa Pope",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     }
    ]
   }

@@ -23,277 +23,568 @@
      "place": 1,
      "name": "Adam Persson",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 2,
      "name": "Torbjørn Sunde",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 3,
      "name": "Johan Simonsen",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 4,
      "name": "Herman Ottesen",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 5,
      "name": "Alex Hørthe",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 6,
      "name": "Sondre Selander",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 7,
      "name": "Adrian Jancey",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 8,
      "name": "Sebastian Burr",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 9,
      "name": "Ali Nas",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 10,
      "name": "Trygve Flebu Jørundland",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 11,
      "name": "Marius Jørgensen",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 12,
      "name": "Kristina Engstrand",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 13,
      "name": "Henning Patricksson",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 14,
      "name": "Nico Crozier",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 15,
      "name": "Fredric Jacobsen",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 16,
      "name": "Axel Patricksson",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 17,
      "name": "Lucas Krown",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 18,
      "name": "Aldin Hodzic",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 19,
      "name": "Emile MIller",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 20,
      "name": "Victor Larsen",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 21,
      "name": "Sander Viste Mehus",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 22,
      "name": "Jakob Eriksson",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 23,
      "name": "Jørund Bratset",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 24,
      "name": "Cedric Cornell",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 25,
      "name": "Matias Unsvåg",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 26,
      "name": "Gudmundur Søkjer-Petersen",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 27,
      "name": "Sammy Hasselberg",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 28,
      "name": "Max Eriksson",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 29,
      "name": "Sondre Braa",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 30,
      "name": "Andreas Bru",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 31,
      "name": "Petter Lindheim Reinem",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 32,
      "name": "Njaal Tangye",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 33,
      "name": "Roar Fønseth",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 34,
      "name": "Hans Henriksen",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 35,
      "name": "Tord Tvedten",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 36,
      "name": "Rebekka Gemperle",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 37,
      "name": "Andreas Waal",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 38,
      "name": "Elias Kvarekvål",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 39,
      "name": "Sander Hasselberg",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 40,
      "name": "Fredrik Berven",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 41,
      "name": "Vegard Tvete",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 42,
      "name": "Johannes Aalholm",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 43,
      "name": "Magne Ørvik",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 44,
      "name": "Erik Buene",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 45,
      "name": "Charlie Cockman",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 46,
      "name": "Mathias Bjørkedal",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 47,
+     "name": "Morten Espeseter",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 48,
+     "name": "Anders Eidså",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 49,
+     "name": "Caspar Grette",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 50,
+     "name": "Lars Mikalsen",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 51,
+     "name": "Jarle Asheim",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 52,
+     "name": "Kim Hansen",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 53,
+     "name": "Julian Syversætre",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 54,
+     "name": "Alf Olsen",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 55,
+     "name": "Espen Eliassen",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 56,
+     "name": "Erland Einbu",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 57,
+     "name": "Calle Gårdelöv",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 58,
+     "name": "Roy Helge N. Prestegård",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 59,
+     "name": "Einar Kvam",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 60,
+     "name": "Fredrik Fusdahl",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 61,
+     "name": "Mats Hustad",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 62,
+     "name": "Leif Hatlem",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 63,
+     "name": "Johan Christensson",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 64,
+     "name": "Geir Kristiansen",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 65,
+     "name": "Kari Havnevik",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 66,
+     "name": "Kristian Bjørkedal",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 67,
+     "name": "Rune Askim",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 68,
+     "name": "Sigve Fjell",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 69,
+     "name": "Torstein Tofte",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 70,
+     "name": "Birger Johannsen",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 71,
+     "name": "Erkki Rustad",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 72,
+     "name": "Gorgus Coward",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 73,
+     "name": "Pål Hellesnes",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 74,
+     "name": "Sonso Masiá",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 75,
+     "name": "Henning Hanshaugen",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 76,
+     "name": "Aleksander Teilgård",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 77,
+     "name": "Daniel Heltne",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 78,
+     "name": "Jakob Sjøtun",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 79,
+     "name": "Caroline Boström",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 80,
+     "name": "Håkon Heltne",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 81,
+     "name": "Christer Lunde",
+     "time": null,
+     "dnf": false,
+     "dns": false
     }
    ]
   },
@@ -307,175 +598,449 @@
      "place": 1,
      "name": "Torbjørn Sunde",
      "time": 101.48,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 2,
      "name": "Adam Persson",
      "time": 102.18,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 3,
      "name": "Johan Simonsen",
      "time": 102.63,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 4,
      "name": "Herman Ottesen",
      "time": 102.64,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 5,
      "name": "Caspar Grette",
      "time": 102.86,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 6,
      "name": "Alex Hørthe",
      "time": 103.64,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 7,
      "name": "Ali Nas",
      "time": 103.67,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 8,
      "name": "Trygve Flebu Jørundland",
      "time": 103.75,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 9,
      "name": "Sondre Selander",
      "time": 103.81,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 10,
      "name": "Adrian Jancey",
      "time": 103.92,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 11,
      "name": "Lars Mikalsen",
      "time": 104.16,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 12,
      "name": "Matias Unsvåg",
      "time": 104.26,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 13,
      "name": "Henning Patricksson",
      "time": 104.35,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 14,
      "name": "Lucas Krown",
      "time": 104.86,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 15,
      "name": "Gudmundur Søkjer-Petersen",
      "time": 105.03,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 16,
      "name": "Nico Crozier",
      "time": 105.08,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 17,
      "name": "Aldin Hodzic",
      "time": 105.29,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 18,
      "name": "Emile MIller",
      "time": 105.55,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 19,
      "name": "Sammy Hasselberg",
      "time": 105.6,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 20,
      "name": "Victor Larsen",
      "time": 105.98,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 21,
      "name": "Marius Jørgensen",
      "time": 106.05,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 22,
      "name": "Roar Fønseth",
      "time": 106.25,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 23,
      "name": "Max Eriksson",
      "time": 106.65,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 24,
      "name": "Sander Viste Mehus",
      "time": 106.74,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 25,
      "name": "Kim Hansen",
      "time": 106.84,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 26,
      "name": "Jakob Eriksson",
      "time": 106.87,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 27,
      "name": "Fredric Jacobsen",
      "time": 106.97,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 28,
      "name": "Hans Henriksen",
      "time": 107.2,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 29,
      "name": "Terry Blanche",
      "time": 107.29,
-     "dnf": false
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 30,
+     "name": "Jarle Asheim",
+     "time": 107.29,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 31,
+     "name": "Axel Patricksson",
+     "time": 107.49,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 32,
+     "name": "Tord Tvedten",
+     "time": 107.64,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 33,
+     "name": "Sondre Braa",
+     "time": 107.8,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 34,
+     "name": "Rebekka Gemperle",
+     "time": 107.84,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 35,
+     "name": "Andreas Waal",
+     "time": 108.08,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 36,
+     "name": "Andreas Bru",
+     "time": 108.15,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 37,
+     "name": "Jørund Bratset",
+     "time": 108.21,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 38,
+     "name": "Petter Lindheim Reinem",
+     "time": 108.46,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 39,
+     "name": "Elias Kvarekvål",
+     "time": 108.64,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 40,
+     "name": "Sander Hasselberg",
+     "time": 108.79,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 41,
+     "name": "Fredrik Berven",
+     "time": 108.83,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 42,
+     "name": "Vegard Tvete",
+     "time": 108.88,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 43,
+     "name": "Cedric Cornell",
+     "time": 109.06,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 44,
+     "name": "Sebastian Burr",
+     "time": 109.29,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 45,
+     "name": "Julian Syversætre",
+     "time": 109.4,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 46,
+     "name": "Johannes Aalholm",
+     "time": 109.53,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 47,
+     "name": "Magne Ørvik",
+     "time": 109.57,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 48,
+     "name": "Alf Olsen",
+     "time": 109.72,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 49,
+     "name": "Espen Eliassen",
+     "time": 109.83,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 50,
+     "name": "Erland Einbu",
+     "time": 110.0,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 51,
+     "name": "Kristina Engstrand",
+     "time": 110.14,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 52,
+     "name": "Erik Buene",
+     "time": 110.37,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 53,
+     "name": "Calle Gårdelöv",
+     "time": 110.4,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 54,
+     "name": "Charlie Cockman",
+     "time": 110.55,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 55,
+     "name": "Roy Helge N. Prestegård",
+     "time": 110.66,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 56,
+     "name": "Njaal Tangye",
+     "time": 110.88,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 57,
+     "name": "Einar Kvam",
+     "time": 111.44,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 58,
+     "name": "Fredrik Fusdahl",
+     "time": 111.49,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 59,
+     "name": "Mats Hustad",
+     "time": 111.77,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 60,
+     "name": "Mathias Bjørkedal",
+     "time": 112.59,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 61,
+     "name": "Geir Kristiansen",
+     "time": 112.82,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 62,
+     "name": "Leif Hatlem",
+     "time": 112.96,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 63,
+     "name": "Gorgus Coward",
+     "time": 113.52,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 64,
+     "name": "Johan Christensson",
+     "time": 113.54,
+     "dnf": false,
+     "dns": false
     }
    ]
   }

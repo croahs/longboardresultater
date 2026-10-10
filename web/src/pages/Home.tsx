@@ -71,6 +71,7 @@ export default function Home({ index, example }: { index: IndexRider[]; example:
         <section className="section" aria-labelledby="h-fakta">
           <div className="section-head"><div><p className="eyebrow">Fra listene</p><h2 className="h-section" id="h-fakta">Rekordene</h2></div></div>
           <div className="facts">
+            {s.rating?.race.now[0] && <a className="fact-card" href={href.top("rating")}><p className="eyebrow">Best nå <i aria-hidden="true">→</i></p><b className="fact-num tnum">{s.rating.race.now[0].rating}</b><p>{s.rating.race.now[0].name} leder Elo-ratingen i heat.</p></a>}
             {s.most_wins && <a className="fact-card" href={href.top("seire")}><p className="eyebrow">Flest seire <i aria-hidden="true">→</i></p><b className="fact-num tnum">{s.most_wins.wins}</b><p>{s.most_wins.name}, i finaler og heat.</p></a>}
             {s.closest && <a className="fact-card" href={href.top("jevnest")}><p className="eyebrow">Jevneste tidskjøring <i aria-hidden="true">→</i></p><b className="fact-num tnum">{String(s.closest.gap_s).replace(".", ",")} s</b><p>skilte {s.closest.a.name} og {s.closest.b.name} i {s.closest.name}.</p></a>}
             {s.biggest && <a className="fact-card" href={href.top("felt")}><p className="eyebrow">Største felt <i aria-hidden="true">→</i></p><b className="fact-num tnum">{s.biggest.riders}</b><p>kjørere i {s.biggest.name}{s.biggest.cls ? ` (${s.biggest.cls})` : ""}.</p></a>}

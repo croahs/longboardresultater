@@ -25,8 +25,9 @@ name replace these (sitedata.py reads both). Shape:
    "sources": ["https://ndsf.no/?p=3495"], "notes": [],
    "races": [{"name": "NM Open", "kind": "Open", "format": "bracket" | "timed",
               "source": "sheet …/Results",
-              "results": [{"place": 1, "name": "Peder Bruem", "time": null, "dnf": false}]}]}
+              "results": [{"place": 1, "name": "Peder Bruem", "time": null, "dnf": false, "dns": false}]}]}
 
+dnf: started but got no placing (counts in the field). dns: did not start (listed, but not in the field).
 kind is one of Open, Women, Junior, Masters, Luge, Adaptive, Inline, Other.
 format "timed" means the list is ranked by the time in each row (qualifying,
 time trials); "bracket" means heats, so only the place is known.
@@ -531,7 +532,7 @@ def parse_text(text):
             if cur and place < expect - 1:
                 flush()
             t = next((secs(w) for w in rest.split() if secs(w) is not None), None)
-            note = "DNS" if re.search(r"\b(DNS|DNF|DSQ)\b", rest) else ""
+            note = (re.search(r"\b(DNS|DNF|DSQ)\b", rest) or [""])[0]
             cur.append((place, clean_name(re.sub(TIME_RE.pattern.strip("^$"), " ", rest) if t is None else
                                           " ".join(w for w in rest.split() if secs(w) is None)), t, note))
             expect = place + 1
@@ -554,24 +555,33 @@ def parse_text(text):
 
 
 def parse_pdf(text):
-    """Result and qualifying lists in the 2012–2013 PDFs (Plass Navn Poeng, Kvalplass Startnr Navn … Tid)."""
-    out, cur, heading, timed = [], [], "", False
+    """Result and qualifying lists in the 2012–2013 PDFs (Plass Navn Poeng, Kvalplass Startnr Navn … Tid).
+    A list runs across page breaks and stray lines (a wrapped points value on its own line); it ends
+    when the numbering starts over."""
+    out, cur, heading, pending = [], [], "", ""
+    timed, col = False, None  # col: where the place numbers start; a number further right is a bib on a tied row
     for line in text.splitlines():
-        m = re.match(r"^\s*(\d{1,3})\s{2,}(.+?)\s*$", line)
+        m = re.match(r"^\s*=?(\d{1,3})\s{2,}(.+?)\s*$", line)  # "=29": a shared place
         if m:
-            rest = m.group(2)
+            n, rest = int(m.group(1)), m.group(2)
+            if cur and col is not None and m.start(1) > col + 2:
+                n, rest = cur[-1][0], line.strip()  # no place of its own: shares the place above
             cells = re.split(r"\s{2,}", rest)
             name = next((clean_name(c) for c in cells if clean_name(c) and not re.fullmatch(r"\d+", c)), "")
             if not name:
                 continue
-            ts = [secs(c) for c in cells if secs(c) is not None and not re.fullmatch(r"\d{3}[.,]\d\d", c)]
-            cur.append((int(m.group(1)), name, ts[0] if ts else None, ""))
-        elif line.strip():
-            if cur:
+            if cur and n < cur[-1][0]:  # numbering starts over: a new list (equal = a shared place)
                 out.append((heading, "timed" if timed else "bracket", cur))
                 cur = []
-            heading = line.strip()
-            timed = bool(re.search(r"kval|time|tid", fold(line)))
+            if not cur:
+                heading = pending or heading
+                timed = bool(re.search(r"kval|time|tid", fold(heading)))
+                col = m.start(1)
+            # The time, wherever it sits: later pages often collapse the columns to single spaces.
+            ts = [secs(c) for c in rest.split() if secs(c) is not None and not re.fullmatch(r"\d{3}[.,]\d\d", c)]
+            cur.append((n, name, ts[0] if ts else None, (re.search(r"\b(DNS|DNF|DSQ)\b", rest) or [""])[0]))
+        elif re.search(r"[A-Za-zÀ-ÿ]{3,}", line):
+            pending = line.strip()  # a heading for the next list, if one starts here
     if cur:
         out.append((heading, "timed" if timed else "bracket", cur))
     return [x for x in out if len(x[2]) >= 2]
@@ -644,7 +654,7 @@ def parse_post(p, fetch=False):
             if fmt == "timed":
                 ranked = sorted([r for r in results if r[2]], key=lambda r: r[2])
                 results = [(i + 1, n, t, note) for i, (_, n, t, note) in enumerate(ranked)]
-            if re.search(r"heat|runde|repech", fold(url)) or not results:
+            if re.search(r"heat|runde|repech|\d\d\s*(man|final)", fold(url)) or not results:
                 continue
             kind = kind_of(heading, url) or "Open"
             races.append((race_name(kind, heading, timed=fmt == "timed"), kind, fmt, f"pdf {url}", results))
@@ -691,8 +701,10 @@ def build(fetch=False):
                 if fold(nm) in seen:
                     continue
                 seen.add(fold(nm))
-                rows.append({"place": place, "name": nm, "time": round(t, 2) if t else None,
-                             "dnf": bool(re.search(r"dnf|dns|dsq", note or "", re.I)) or place is None})
+                dns = bool(re.search(r"dns", note or "", re.I))
+                rows.append({"place": None if dns else place, "name": nm, "time": round(t, 2) if t else None,
+                             "dnf": not dns and (bool(re.search(r"dnf|dsq", note or "", re.I)) or place is None),
+                             "dns": dns})
             if len(rows) < 2:
                 continue
             # Two bracket lists of the same kind in one event (the same race posted twice): keep the longer.

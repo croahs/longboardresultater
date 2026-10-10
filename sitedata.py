@@ -32,6 +32,10 @@ MIN_RACES = 3  # to be called a rival
 MAX_LIST = 10
 CONTACT = "peder@holterman.no"
 KINDS = ["Open", "Women", "Junior", "Masters", "Luge", "Adaptive", "Inline", "Other"]
+RATED_KINDS = {"Open", "Women", "Junior", "Masters"}  # stand-up longboard; luge, adaptive and inline are other disciplines
+POOLS = {"race": "bracket", "kvalik": "timed"}  # rating pool -> race format
+ELO_START, ELO_K_NEW, ELO_K, ELO_NEW = 1500, 40, 24, 8  # K for the rider's first ELO_NEW races in a pool, then K
+MIN_RATED, MIN_SEASON, ACTIVE_YEARS, TOP_N = 5, 3, 2, 25
 
 
 def dump(path, obj, indent=None):
@@ -226,6 +230,8 @@ def races_of(events, reg):
         for i, r in enumerate(ev["races"]):
             rows = []
             for x in r["results"]:
+                if x.get("dns"):
+                    continue  # did not start: not part of the field
                 t = _toks(x["name"])
                 rid = (cut(t) if tuple(t) not in full else None) or reg.id_for(x["name"])
                 if any(y[0] == rid for y in rows):
@@ -368,13 +374,70 @@ def insights(opps):
     return out
 
 
+# ---------------------------------------------------------------- rating
+
+def ratings(races, reg, index_ids):
+    """Elo per pool (POOLS: heats and timed runs apart), over the stand-up classes (RATED_KINDS). A race is every
+    pair of riders in it: the better place wins, a DNF loses to everyone placed and draws with another DNF. A
+    rider's score is the share of those pairs won, the expected share is the mean Elo expectation against each,
+    and the rating moves K times the difference. Everyone starts at ELO_START; K is higher for a rider's first
+    races so newcomers settle fast. Ratings never decay: "now" is the rating of riders who raced in the last
+    ACTIVE_YEARS seasons, "peak" the highest rating ever held, and "seasons" the top at the end of each season
+    among those who raced it. Returns (summary per pool, per rider per pool)."""
+    page = lambda rid: {"id": rid, "name": reg.display(rid), "page": rid in index_ids}
+    out, per_rider = {}, defaultdict(dict)
+    for pool, fmt in POOLS.items():
+        rating, n, peak, last, seasons = {}, Counter(), {}, {}, []
+        pool_races = [r for r in races if r["format"] == fmt and r["type"] in RATED_KINDS and len(r["rows"]) > 1]
+        years = sorted({r["date"][:4] for r in pool_races})
+        for i, r in enumerate(pool_races):
+            rows = r["rows"]
+            for y in rows:
+                rating.setdefault(y[0], ELO_START)
+            delta = {}
+            for me in rows:
+                s = e = 0.0
+                for other in rows:
+                    if other is me:
+                        continue
+                    s += {"w": 1.0, "l": 0.0, "d": 0.5}[meeting(r, me, other)[0]]
+                    e += 1 / (1 + 10 ** ((rating[other[0]] - rating[me[0]]) / 400))
+                k = ELO_K_NEW if n[me[0]] < ELO_NEW else ELO_K
+                delta[me[0]] = k * (s - e) / (len(rows) - 1)
+            for rid, d in delta.items():
+                rating[rid] += d
+                n[rid] += 1
+                last[rid] = r["date"]
+                if rating[rid] > peak.get(rid, (0, ""))[0]:
+                    peak[rid] = (rating[rid], r["date"][:4])
+            year = r["date"][:4]
+            if i + 1 == len(pool_races) or pool_races[i + 1]["date"][:4] != year:
+                raced = {y[0] for x in pool_races[:i + 1] if x["date"][:4] == year for y in x["rows"]}
+                top = sorted((rid for rid in raced if n[rid] >= MIN_SEASON), key=lambda rid: -rating[rid])[:5]
+                if top:
+                    seasons.append({"year": int(year), "top": [dict(page(rid), rating=round(rating[rid]), races=n[rid]) for rid in top]})
+        row = lambda rid: dict(page(rid), rating=round(rating[rid]), peak=round(peak[rid][0]), peak_year=int(peak[rid][1]),
+                               races=n[rid], last=int(last[rid][:4]))
+        active = [rid for rid in rating if n[rid] >= MIN_RATED and int(last[rid][:4]) >= int(years[-1]) - ACTIVE_YEARS + 1] if years else []
+        now = sorted(active, key=lambda rid: -rating[rid])
+        best = sorted((rid for rid in rating if n[rid] >= MIN_RATED), key=lambda rid: -peak[rid][0])
+        out[pool] = {"races": len(pool_races), "riders": len(rating), "since": int(years[0]) if years else None, "until": int(years[-1]) if years else None,
+                     "min_races": MIN_RATED, "active_years": ACTIVE_YEARS,
+                     "now": [row(rid) for rid in now[:TOP_N]], "peak": [row(rid) for rid in best[:TOP_N]], "seasons": seasons[::-1]}
+        rank_now = {rid: i + 1 for i, rid in enumerate(now)}
+        for rid in rating:
+            per_rider[rid][pool] = {"rating": round(rating[rid]), "peak": round(peak[rid][0]), "peak_year": int(peak[rid][1]),
+                                    "races": n[rid], "rank": rank_now.get(rid), "of": len(now)}
+    return out, per_rider
+
+
 # ---------------------------------------------------------------- output
 
 def shard_of(rid):
     return f"{int(rid[1:]) % SHARDS:02}"
 
 
-def summary(races, index_ids, reg, sex):
+def summary(races, index_ids, reg, sex, rating):
     """data/summary.json: the front page and its top lists."""
     page = lambda rid: {"id": rid, "name": reg.display(rid), "page": rid in index_ids}
     count, last = Counter(), {}
@@ -388,10 +451,14 @@ def summary(races, index_ids, reg, sex):
             continue
         seen_events.append(r["event"])
         w = r["rows"][0] if r["rows"] and r["rows"][0][2] else None
+        # Best woman: the winner of the same event's women's class if there is one,
+        # else the best-placed woman in the Open bracket.
+        damer = next((d for d in races if d["event"] == r["event"] and d["type"] == "Women" and d["rows"] and d["rows"][0][2]), None)
         women = [y for y in r["rows"] if sex.get(y[0]) == "K" and y[2]]
+        best_w = damer["rows"][0][0] if damer else women[0][0] if women else None
         recent.append({"id": r["id"], "name": r["name"], "cls": r["cls"], "date": r["date"], "type": r["type"],
                        "finishers": sum(1 for y in r["rows"] if y[2]), "fastest": page(w[0]) if w else None,
-                       "fastest_women": page(women[0][0]) if women and r["type"] != "Women" else None})
+                       "fastest_women": page(best_w) if best_w else None})
         if len(recent) == 4:
             break
     race = lambda r: {"id": r["id"], "name": f"{r['name']} {r['date'][:4]}", "cls": r["cls"], "date": r["date"], "type": r["type"]}
@@ -416,6 +483,7 @@ def summary(races, index_ids, reg, sex):
             "closest": [dict(race(r), gap_s=gap, a=page(t[0][0]), b=page(t[1][0])) for gap, r, t in close[:25]],
             "wins": [dict(page(rid), wins=n) for rid, n in wins.most_common(25)],
         },
+        "rating": rating,
     }
     if close:
         gap, r, t = close[0]
@@ -444,6 +512,8 @@ def main():
         "races": [{k: v for k, v in r.items() if k != "rows"} | {"rows": [[y[0], y[1], y[2], y[3], sex.get(y[0])] for y in r["rows"]]}
                   for r in races]})
 
+    index_ids = set(by_rider)
+    rating, rider_rating = ratings(races, reg, index_ids)
     index, shards = [], defaultdict(dict)
     for rid, mine in by_rider.items():
         results, opps = build_rider(rid, mine, sex, reg)
@@ -455,7 +525,7 @@ def main():
                  "wins": sum(1 for r in results if r["place"] == 1 and r["format"] == "bracket")}
         index.append(entry)
         obj = {"id": rid, "name": entry["name"], "club": "", "sex": sex.get(rid), "results": sorted(results, key=lambda r: r["date"]),
-               "rivals": ranked, "insights": ins,
+               "rivals": ranked, "insights": ins, "rating": rider_rating.get(rid, {}),
                "opponents": [[o["id"], o["name"], "", o["w"], o["l"], o["med"], o["ms"], o["sex"]]
                              for o in opps.values() if len(o["ms"]) >= 2 or o["id"] in named],
                "record": {"opponents": len(opps), "wins": sum(o["w"] for o in opps.values()), "losses": sum(o["l"] for o in opps.values())}}
@@ -471,7 +541,7 @@ def main():
     for k, v in shards.items():
         dump(os.path.join(riders_dir, f"shard-{k}.json"), v)
 
-    s = summary(races, {e["id"] for e in index}, reg, sex)
+    s = summary(races, index_ids, reg, sex, rating)
     dump(os.path.join(DATA, "summary.json"), s)
     # site.json: the example rider on the front page is the one with most races.
     dump(os.path.join(DATA, "site", "site.json"), {"default_rider": index[0]["id"] if index else None, "profiles": [], "contact": CONTACT})

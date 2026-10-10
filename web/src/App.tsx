@@ -42,7 +42,7 @@ export default function App() {
       <header className="topbar">
         <a className="brand" href={href.home()} aria-label="Longboardresultater, til forsiden"><BrandMark /><span>Longboard<em>resultater</em></span></a>
         <nav className="topnav" aria-label="Hovedmeny">
-          <a href={href.top("felt")}>Topplister</a>
+          <a href={href.top("rating")}>Topplister</a>
         </nav>
         {!home && <div className="topbar-search"><Search index={index} current={route.kind === "rider" ? route.id : null} /></div>}
       </header>

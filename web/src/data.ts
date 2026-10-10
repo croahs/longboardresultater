@@ -48,6 +48,12 @@ export interface Insights {
   right_behind?: (Who & { right_behind: number })[];
 }
 
+/* Elo rating (sitedata.py): two pools, heats ("race") and timed runs ("kvalik"), over the stand-up classes. */
+export type Pool = "race" | "kvalik";
+export const POOLS: Pool[] = ["race", "kvalik"];
+export const POOL_LABEL: Record<Pool, string> = { race: "Race", kvalik: "Kvalik" };
+export interface RiderRating { rating: number; peak: number; peak_year: number; races: number; rank: number | null; of: number }
+
 export interface Athlete {
   id: string; name: string; club: string;
   sex: Sex;            // K when the rider has placed in a women's race; never from the name
@@ -55,6 +61,7 @@ export interface Athlete {
   channel?: string;    // the rider's own video channel (data/videos.json)
   results: Result[];
   opponents: Map<string, Opponent>; rivals: string[]; insights: Insights;
+  rating: Partial<Record<Pool, RiderRating>>;
 }
 
 export interface IndexRider { id: string; name: string; club: string; races: number; shard: string | null; sex?: Sex; wins?: number }
@@ -62,6 +69,13 @@ export interface Site { default_rider: string | null; contact?: string }
 
 /* summary.json (site.py): the front page and the top lists. */
 export interface TopRace { id: string; name: string; cls: string; date: string; type: RaceType }
+export interface RatedWho extends Who { rating: number; peak: number; peak_year: number; races: number; last: number }
+export interface RatingPool {
+  races: number; riders: number; since: number | null; until: number | null; min_races: number; active_years: number;
+  now: RatedWho[];   // riders who raced in the last active_years seasons, by rating today
+  peak: RatedWho[];  // the highest rating ever held
+  seasons: { year: number; top: (Who & { rating: number; races: number })[] }[]; // the top at the end of each season, newest first
+}
 export interface Summary {
   events: number; races: number; results: number; riders: number; years: number[];
   recent: { id: string; name: string; cls: string; date: string; type: RaceType; finishers: number; fastest: Who | null; fastest_women: Who | null }[];
@@ -70,6 +84,7 @@ export interface Summary {
   closest?: { name: string; gap_s: number; a: Who; b: Who };
   most_wins?: Who & { wins: number };
   top: { biggest: (TopRace & { riders: number })[]; closest: (TopRace & { gap_s: number; a: Who; b: Who })[]; wins: (Who & { wins: number })[] };
+  rating?: Record<Pool, RatingPool>;
 }
 
 const cache = new Map<string, Promise<unknown>>();
@@ -102,7 +117,7 @@ interface RawResult {
 }
 interface RawProfile {
   id: string; name: string; club: string; sex?: Sex; results: RawResult[];
-  opponents?: RawOpp[]; rivals?: string[]; insights?: Insights; rivals_women?: string[];
+  opponents?: RawOpp[]; rivals?: string[]; insights?: Insights; rivals_women?: string[]; rating?: Partial<Record<Pool, RiderRating>>;
 }
 
 function result(r: RawResult): Result | null {
@@ -121,7 +136,7 @@ function athlete(p: RawProfile): Athlete {
   return {
     id: p.id, name: p.name, club: p.club || "", sex: p.sex ?? null, rivalsWomen: p.rivals_women || [],
     results: p.results.map(result).filter((r): r is Result => !!r).sort((a, b) => a.date.localeCompare(b.date)),
-    opponents: opponents(p.opponents), rivals: p.rivals || [], insights: p.insights || {},
+    opponents: opponents(p.opponents), rivals: p.rivals || [], insights: p.insights || {}, rating: p.rating || {},
   };
 }
 

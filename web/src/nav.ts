@@ -10,8 +10,8 @@ export type Tab = "oversikt" | "utvikling" | "rivaler" | "race";
 export const TABS: { id: Tab; label: string }[] = [
   { id: "oversikt", label: "Oversikt" }, { id: "utvikling", label: "Utvikling" }, { id: "rivaler", label: "Rivaler" }, { id: "race", label: "Alle race" },
 ];
-export type TopKind = "felt" | "jevnest" | "seire";
-export const TOP_KINDS: TopKind[] = ["felt", "jevnest", "seire"];
+export type TopKind = "rating" | "felt" | "jevnest" | "seire";
+export const TOP_KINDS: TopKind[] = ["rating", "felt", "jevnest", "seire"];
 
 export type Route =
   | { kind: "home" }

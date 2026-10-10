@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { hills, loadAthlete, median, womenOnly, years, type Athlete, type Hill, type IndexRider, type RaceType, type Result } from "../data";
+import { POOLS, POOL_LABEL, hills, loadAthlete, median, womenOnly, years, type Athlete, type Hill, type IndexRider, type RaceType, type Result } from "../data";
 import { TYPE_LABEL, dateLong, dateShort, firstName, initials, pct, span, clock } from "../format";
 import { KlasseProvider, KlasseToggle, useFelt } from "../klasse";
 import { TABS, href, type Tab } from "../nav";
@@ -71,7 +71,7 @@ function Overview({ a }: { a: Athlete }) {
   const ys = years(a);
   const last = a.results[a.results.length - 1];
   const typical = median(rows.map((r) => r.beaten));
-  const bestRun = rows.reduce<Result | null>((b, r) => (!b || r.beaten > b.beaten ? r : b), null);
+  const bestRun = rows.reduce<Result | null>((b, r) => (!b || r.beaten > b.beaten || (r.beaten === b.beaten && r.field > b.field) ? r : b), null); // ties (every win is 100 %): the bigger field
   const timed = rows.filter((r) => r.behind != null);
   const behind = median(timed.map((r) => r.behind!));
   const who = firstName(a.name);
@@ -91,6 +91,8 @@ function Overview({ a }: { a: Athlete }) {
   const selected = rows.find((r) => raceKey(r) === sel) || null;
   const items = useMemo(() => [...rows].sort((x, y) => y.date.localeCompare(x.date)), [rows]);
   const [all, setAll] = useState(false);
+  const [hillSel, setHillSel] = useState<string | null>(null);
+  const hillOpen = byHill.find((h) => h.id === hillSel) || null;
 
   return (
     <>
@@ -101,6 +103,11 @@ function Overview({ a }: { a: Athlete }) {
           : <div className="stat"><span className="eyebrow">Beste race</span><b>–</b><small>Ingen race</small></div>}
         <div className="stat"><span className="eyebrow">Bak vinneren</span><b className="tnum">{timed.length ? pct(behind, 1) : "–"}</b><small>{timed.length ? `typisk, i ${timed.length} race på tid` : "ingen race på tid"}</small></div>
       </div>
+      {POOLS.some((k) => a.rating[k]) && (
+        <p className="latest" role="note"><Icon.trend /><span>Rating: {POOLS.filter((k) => a.rating[k]).map((k, i) => { const r = a.rating[k]!; return (
+          <span key={k}>{i ? " · " : ""}{POOL_LABEL[k].toLowerCase()} <b className="tnum">{r.rating}</b>{r.rank ? ` (${r.rank}. av ${r.of} aktive)` : ""}{r.peak > r.rating ? `, topp ${r.peak} i ${r.peak_year}` : ""}</span>
+        ); })}.</span><a href={href.top("rating")}>Hele listen</a></p>
+      )}
       {last && <p className="latest" role="note"><Icon.flag /><span>Sist: {last.race} {last.year} <Cls type={last.type} cls={last.cls} />: {last.place}. av {last.field}. {who} slo {Math.round(last.beaten)} % av {felt}.</span><a href={href.race(last.raceId)}>Resultatlisten</a></p>}
 
       <section className="section" aria-labelledby="h-race">
@@ -148,16 +155,51 @@ function Overview({ a }: { a: Athlete }) {
           <div className="section-head"><div><p className="eyebrow">Hvor {who} er best</p><h2 className="h-section" id="h-bakker">Bakkene</h2></div></div>
           <div className="hill-cards">
             {byHill.map((h) => (
-              <a key={h.id} className="hill-stat" href={href.hill(h.id)}>
+              <button key={h.id} type="button" className="hill-stat" aria-pressed={hillSel === h.id} onClick={() => setHillSel(hillSel === h.id ? null : h.id)}>
                 <span className="hill-stat-name">{h.name}</span>
                 <span className="muted tnum">{h.rs.length} race · beste {h.best.place}. av {h.best.field}</span>
                 <span className="hill-stat-bar"><Beaten v={h.med} /><b className="tnum">{Math.round(h.med)} %</b></span>
-              </a>
+              </button>
             ))}
           </div>
+          {hillOpen && <HillRuns hill={hillOpen} who={who} felt={felt} onClose={() => setHillSel(null)} />}
         </section>
       )}
     </>
+  );
+}
+
+/** Every race the rider ran on one hill, newest first, with what the hill usually gives: a comparison across the years. */
+function HillRuns({ hill, who, felt, onClose }: { hill: { id: string; name: string; rs: Result[]; med: number; best: Result }; who: string; felt: string; onClose: () => void }) {
+  const rs = [...hill.rs].sort((x, y) => y.date.localeCompare(x.date));
+  const timed = rs.filter((r) => r.time != null);
+  const first = rs[rs.length - 1], last = rs[0];
+  const trend = rs.length > 1 && first.year !== last.year ? last.beaten - first.beaten : null;
+  return (
+    <div className="card hill-runs" id="hill-runs">
+      <div className="hill-runs-head">
+        <div>
+          <p className="eyebrow">{who} i</p>
+          <h3 className="h-section">{hill.name}</h3>
+          <p className="lead">{rs.length} race{first.year !== last.year ? ` fra ${first.year} til ${last.year}` : ` i ${last.year}`}. Slår typisk {Math.round(hill.med)} % av {felt} her, beste {hill.best.place}. av {hill.best.field} i {hill.best.year}.
+            {trend != null ? ` ${trend >= 0 ? "Opp" : "Ned"} ${Math.abs(Math.round(trend))} prosentpoeng fra første til siste gang.` : ""}</p>
+        </div>
+        <div className="filters"><a className="btn ghost" href={href.hill(hill.id)}>Om bakken <Icon.hill /></a><button type="button" className="btn ghost" onClick={onClose} aria-label="Lukk"><Icon.close /></button></div>
+      </div>
+      <div className="table-wrap"><table className="sheet hill-table">
+        <thead><tr><th className="l">År</th><th className="l">Klasse</th><th>Plass</th><th className="l">Slo</th>{timed.length > 0 && <><th>Tid</th><th>Bak</th></>}<th></th></tr></thead>
+        <tbody>{rs.map((r) => (
+          <tr key={r.raceId} className={`type-${r.type}`}>
+            <td className="l"><b className="tnum">{r.year}</b> <span className="muted">{dateShort(r.date)}</span></td>
+            <td className="l"><Cls type={r.type} cls={r.cls} /></td>
+            <td className="tnum"><b>{r.place}</b><span className="muted">/{r.field}</span></td>
+            <td className="l beaten-cell"><Beaten v={r.beaten} /><span className="tnum">{Math.round(r.beaten)} %</span></td>
+            {timed.length > 0 && <><td className="tnum">{r.time != null ? clock(r.time) : <span className="muted">–</span>}</td><td className="tnum muted">{r.behind != null && r.behind > 0 ? pct(r.behind, 1) : ""}</td></>}
+            <td className="links"><a href={href.race(r.raceId)} aria-label={`Resultatlisten for ${r.race} ${r.year}`} title="Resultatlisten"><Icon.races /></a></td>
+          </tr>
+        ))}</tbody>
+      </table></div>
+    </div>
   );
 }
 

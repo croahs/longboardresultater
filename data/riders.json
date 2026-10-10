@@ -208,7 +208,7 @@
    "aliases": []
   },
   "r51": {
-   "name": "Morten Dale",
+   "name": "Dale Morten",
    "aliases": []
   },
   "r52": {
@@ -290,7 +290,7 @@
    "aliases": []
   },
   "r72": {
-   "name": "Calle Gardløv",
+   "name": "Calle Gårdelöv",
    "aliases": []
   },
   "r73": {
@@ -470,7 +470,7 @@
    "aliases": []
   },
   "r115": {
-   "name": "Jarle Åsheim",
+   "name": "Jarle Asheim",
    "aliases": []
   },
   "r116": {
@@ -746,7 +746,7 @@
    ]
   },
   "r184": {
-   "name": "Tommy Andersson",
+   "name": "Andersson Tommy",
    "aliases": []
   },
   "r185": {
@@ -770,7 +770,7 @@
    "aliases": []
   },
   "r190": {
-   "name": "Reinem Petter",
+   "name": "Petter Lindheim Reinem",
    "aliases": []
   },
   "r191": {
@@ -1069,7 +1069,7 @@
    "aliases": []
   },
   "r266": {
-   "name": "Karl Porsnet",
+   "name": "Karl Porsner",
    "aliases": []
   },
   "r267": {
@@ -1233,7 +1233,7 @@
    "aliases": []
   },
   "r307": {
-   "name": "Tofte Torstein",
+   "name": "Torstein Tofte",
    "aliases": []
   },
   "r308": {
@@ -2386,6 +2386,34 @@
   },
   "r610": {
    "name": "Sigurd Groven",
+   "aliases": []
+  },
+  "r611": {
+   "name": "Julian Syversætre",
+   "aliases": []
+  },
+  "r612": {
+   "name": "Fredrik Fusdahl",
+   "aliases": []
+  },
+  "r613": {
+   "name": "Geir Kristiansen",
+   "aliases": []
+  },
+  "r614": {
+   "name": "Pål Hellesnes",
+   "aliases": []
+  },
+  "r615": {
+   "name": "Sonso Masiá",
+   "aliases": []
+  },
+  "r616": {
+   "name": "Jakob Sjøtun",
+   "aliases": []
+  },
+  "r617": {
+   "name": "Caroline Boström",
    "aliases": []
   }
  }

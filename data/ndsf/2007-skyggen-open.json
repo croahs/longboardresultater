@@ -23,25 +23,29 @@
      "place": 1,
      "name": "Fredric Jacobsen",
      "time": 62.38,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 2,
      "name": "Morten Bechstrøm",
      "time": 63.34,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 3,
      "name": "Christoffer Sanne",
      "time": 64.79,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 4,
      "name": "TørBjørn Sunde",
      "time": 65.5,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     }
    ]
   },
@@ -55,19 +59,22 @@
      "place": 1,
      "name": "Christoffer Sanne",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 2,
      "name": "Andy Helm",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 3,
      "name": "Fredric Jacobsen",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     }
    ]
   }

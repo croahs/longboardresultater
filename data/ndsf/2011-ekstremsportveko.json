@@ -28,13 +28,15 @@
      "place": 38,
      "name": "Repacharge heats: Clikk here",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     },
     {
      "place": 64,
      "name": "Final Heats: Clikk here",
      "time": null,
-     "dnf": false
+     "dnf": false,
+     "dns": false
     }
    ]
   }

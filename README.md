@@ -70,6 +70,17 @@ gul fra 5 %, grønn under 5 % og blå oppover.
 Innbyrdes oppgjør: i hvert race begge kjørte, vinner den beste plassen. DNF taper mot alle som fikk plass og
 deler mot en annen DNF. Tidskjøringer gir i tillegg avstanden i sekunder og prosent.
 
+Rating (`summary.json` → `rating`, og `rating` på hver kjører): Elo i to pooler, `race` (heat, `format: bracket`)
+og `kvalik` (`format: timed`), over klassene Open, Damer, Junior og Masters (luge, adaptive, inline og annet
+er andre disipliner). Hvert race er et oppgjør mot alle andre i listen etter samme regel som innbyrdes oppgjør;
+kjørerens poeng er andelen oppgjør vunnet, forventningen er snittet av Elo-forventningen mot hver, og ratingen
+flyttes K ganger differansen (K = 40 de første 8 racene i poolen, så 24; alle starter på 1500). Ratingen
+faller ikke av seg selv: «nå» er kjørere med minst 5 race i poolen som har kjørt de siste to sesongene,
+«alle tider» er høyeste rating noen har hatt, og «sesong for sesong» er topp 5 ved sesongslutt blant dem som
+kjørte den sesongen. Tallene er bare sammenlignbare innenfor samme pool, og nykommere som kjører ett race og
+forsvinner drar poeng ut av systemet, så ratingene i store felt (2014–) ligger litt høyere enn i de små
+feltene før. Konstantene står øverst i `sitedata.py`.
+
 ## Kjør lokalt
 
 På Windows: bruk `py` (Python-launcheren) i stedet for `python3`, for eksempel `py markhills.py`. I PowerShell
