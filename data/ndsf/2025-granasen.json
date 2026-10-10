@@ -1,0 +1,19 @@
+{
+ "id": "2025-granasen",
+ "name": "Granåsen",
+ "year": 2025,
+ "date": "2025-07-06",
+ "date_known": true,
+ "hill": "granasen",
+ "sources": [
+  "https://ndsf.no/?p=3493"
+ ],
+ "titles": [
+  "Granåsen Downhill Skateboard Race – Reslutater"
+ ],
+ "notes": [
+  "results are in photos; write data/manual/<event>.json by hand"
+ ],
+ "races": [],
+ "needs_manual": true
+}

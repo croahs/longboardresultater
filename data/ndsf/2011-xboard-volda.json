@@ -1,0 +1,22 @@
+{
+ "id": "2011-xboard-volda",
+ "name": "XBoard Volda",
+ "year": 2011,
+ "date": "2011-02-20",
+ "date_known": true,
+ "hill": "volda",
+ "sources": [
+  "https://ndsf.no/?p=518"
+ ],
+ "titles": [
+  "Xboard 2011"
+ ],
+ "notes": [
+  "pdf gone: https://ndsf.no/files/Resultater2011/Xboard2011/Xbord Volda 2011 Timetrails.pdf",
+  "pdf gone: https://ndsf.no/files/Resultater2011/Xboard2011/Xbord Volda 2011 Heats.pdf",
+  "pdf gone: https://ndsf.no/files/Resultater2011/Xboard2011/Xbord Volda 2011 Resultat.pdf",
+  "nothing recognised in https://ndsf.no/?p=518"
+ ],
+ "races": [],
+ "needs_manual": true
+}

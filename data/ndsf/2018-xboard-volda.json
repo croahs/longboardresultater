@@ -1,0 +1,176 @@
+{
+ "id": "2018-xboard-volda",
+ "name": "XBoard Volda",
+ "year": 2018,
+ "date": "2018-04-27",
+ "date_known": true,
+ "hill": "volda",
+ "sources": [
+  "https://ndsf.no/?p=1936"
+ ],
+ "titles": [
+  "Xboard 2018 – Resultater"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "text ()",
+   "results": [
+    {
+     "place": 1,
+     "name": "Ali Nas",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Sander Viste Melhus",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Marius T. Jørgensen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Einar Kvam",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Kristian Bjørkedal",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Leif Ola Stampa Johannsen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Richard Moe",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Erlend Endresen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 9,
+     "name": "Jens Drageset Dydland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 10,
+     "name": "Aldin Hodzic",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 11,
+     "name": "Olav Øye",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 12,
+     "name": "Håkon Heltne",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 13,
+     "name": "Sondre Braa",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 14,
+     "name": "Erik Evensen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 15,
+     "name": "Jan-Petter Hammersland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 16,
+     "name": "Helge François Vignal",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 17,
+     "name": "Elaine Maltezos",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 18,
+     "name": "Cedric Cornell",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 19,
+     "name": "Gard Eymundson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 20,
+     "name": "Mina NW",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 21,
+     "name": "Helene W. Liland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 22,
+     "name": "Odin Gløtheim",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 23,
+     "name": "Fredrik H. Røvik",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 24,
+     "name": "Jan Erik Strømmen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 25,
+     "name": "Peter Andersson",
+     "time": null,
+     "dnf": true
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

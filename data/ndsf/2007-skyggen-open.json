@@ -1,0 +1,76 @@
+{
+ "id": "2007-skyggen-open",
+ "name": "Skyggen Open",
+ "year": 2007,
+ "date": "2007-09-15",
+ "date_known": true,
+ "hill": "skyggen",
+ "sources": [
+  "https://ndsf.no/?p=536"
+ ],
+ "titles": [
+  "Skyggen Open 2007"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "text (Fastest skater i øverste bakken på Skygg)",
+   "results": [
+    {
+     "place": 1,
+     "name": "Fredric Jacobsen",
+     "time": 62.38,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Morten Bechstrøm",
+     "time": 63.34,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Christoffer Sanne",
+     "time": 64.79,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "TørBjørn Sunde",
+     "time": 65.5,
+     "dnf": false
+    }
+   ]
+  },
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "text (Tævlingen avgjordes i Tryvann)",
+   "results": [
+    {
+     "place": 1,
+     "name": "Christoffer Sanne",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Andy Helm",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Fredric Jacobsen",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

@@ -1,0 +1,700 @@
+{
+ "id": "2024-ekstremsportveko",
+ "name": "Ekstremsportveko",
+ "year": 2024,
+ "date": "2024-06-30",
+ "date_known": true,
+ "hill": "voss",
+ "sources": [
+  "https://ndsf.no/?p=3322"
+ ],
+ "titles": [
+  "Resultater – Ekstremsport Veko 2024"
+ ],
+ "notes": [
+  "sheet e/2PACX-1vR37jupma92gCmMca3bovfEcXiNR-oLNS-SmukZNE4sTquc21PW_jb7EwMN_cI-TUD7E_zSgeLoKbF- (Inline 2024 Ekstremsportveko): no result list recognised"
+ ],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "sheet e/2PACX-1vQOhqWjFJKWOjIU76cVEvAagscI-e1dmREbhfL--U657hufAv4plIe9cWlx1ZqEBMCVtA_mKo2nhAM3 / Results / FINAL RESULTS",
+   "results": [
+    {
+     "place": 1,
+     "name": "Adrien Paynel",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Lucas Poulain",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Dave Süess",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Gerrit Geiger",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Hussain Nas",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Deen Mondt",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Aaron Hampshire",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Jørund Bratset",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 9,
+     "name": "Carlos Shärer",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 10,
+     "name": "Olav Øye",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 11,
+     "name": "Oscar Clevö",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 12,
+     "name": "Marjorie Romeo",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 13,
+     "name": "Dre Nubine",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 14,
+     "name": "Jiří Kneifl",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 15,
+     "name": "Njaal Tangye",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 16,
+     "name": "Lukas Kouba",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 17,
+     "name": "Bohumil Šefrna",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 18,
+     "name": "Lisa Peters",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 19,
+     "name": "Peder Bruem",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 20,
+     "name": "Elton Vejux",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 21,
+     "name": "Johannes Aalholm",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 22,
+     "name": "Per Mattis Fürst Holtmann",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 23,
+     "name": "Selina Theiler",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 24,
+     "name": "Jens Drageset Dydland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 25,
+     "name": "Erlend Endresen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 26,
+     "name": "Ali Nas",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 27,
+     "name": "Sindre Kjæreng",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 28,
+     "name": "Fredrik Håland Røvik",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 29,
+     "name": "Mina Nornes Westli",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 30,
+     "name": "Richard Moe",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 31,
+     "name": "Peder Solland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 32,
+     "name": "Erik Tørud",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 33,
+     "name": "Roy Helge Nesbø Prestegard",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 34,
+     "name": "Joris Plaščinskas",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 35,
+     "name": "Matthew Watson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 36,
+     "name": "Helene Walberg Liland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 37,
+     "name": "Sander Viste Mehus",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 38,
+     "name": "Adrian Fjelle Evensen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 39,
+     "name": "Jan-Petter Hammersland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 40,
+     "name": "Cedric Cornell",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "sheet e/2PACX-1vReO5C3rV3aNWcW2qc_yz3GZXh93wLgTVxjmojvnunEF1fpQFHU3sWNl_YOK54YNhi1Y5-hdAHlMp_p / Results / FINAL RESULTS",
+   "results": [
+    {
+     "place": 1,
+     "name": "Lisa Peters",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Selina Theiler",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Marjorie Romeo",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Mina Nornes Westli",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Helene Walberg Liland",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  },
+  {
+   "name": "Masters",
+   "kind": "Masters",
+   "format": "bracket",
+   "source": "sheet e/2PACX-1vRSKnc0hnDKvYqf5eR60GewA93s7DBV600QfdVJqCugev7-zSzR6_BT1QNQzucZeqVtszd-ivOnSzDf / Results / FINAL RESULTS",
+   "results": [
+    {
+     "place": 1,
+     "name": "Gerrit Geiger",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Carlos Shärer",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Richard Moe",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Einar Kvam",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Roy Helge Nesbø Prestegard",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Jan-Petter Hammersland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Cedric Cornell",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  },
+  {
+   "name": "Adaptive",
+   "kind": "Adaptive",
+   "format": "bracket",
+   "source": "sheet e/2PACX-1vTwozNFqJPF6dKAWfPNF-vj-SZYtqffVKVB5AAtRwgOzVxurny84MvpVrwYipp6Rp8ykGcgEfevdL5R / Results / FINAL RESULTS",
+   "results": [
+    {
+     "place": 1,
+     "name": "Candy Dungan",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Ellen Knutzen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Carina Morken Rogers",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "sheet e/2PACX-1vQSUKrFzgwHNhh2O_AnE4NcfoHoPyDRV9Datlv9V185K1k_ub6DZPu6PEnJM_bZ-baSKtkOOKDnMpoU / Results / FINAL RESULTS",
+   "results": [
+    {
+     "place": 1,
+     "name": "Odd Steinar Syversen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Julie Erz",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Carina Morken Rogers",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "sheet e/2PACX-1vQFlsrPisXAvIwgY46lM2u1XOxZuFwT6tiAyjrQQN_h2-Xdf8dKjIJHS8cERe4_BubKoeaVrl0OLkW4 / Times-Open-Luge-Inline-Adaptive / Open",
+   "results": [
+    {
+     "place": 1,
+     "name": "Adrien Paynel",
+     "time": 118.94,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Jørund Bratset",
+     "time": 121.21,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Aaron Hampshire",
+     "time": 121.67,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Lucas Poulain",
+     "time": 121.95,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Bohumil Šefrna",
+     "time": 122.21,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Dre Nubine",
+     "time": 122.33,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Jiří Kneifl",
+     "time": 122.96,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Deen Mondt",
+     "time": 123.06,
+     "dnf": false
+    },
+    {
+     "place": 9,
+     "name": "Njaal Tangye",
+     "time": 123.23,
+     "dnf": false
+    },
+    {
+     "place": 10,
+     "name": "Erlend Endresen",
+     "time": 123.48,
+     "dnf": false
+    },
+    {
+     "place": 11,
+     "name": "Carlos Schärer",
+     "time": 124.68,
+     "dnf": false
+    },
+    {
+     "place": 12,
+     "name": "Hussain Nas",
+     "time": 124.79,
+     "dnf": false
+    },
+    {
+     "place": 13,
+     "name": "Peder Bruem",
+     "time": 125.13,
+     "dnf": false
+    },
+    {
+     "place": 14,
+     "name": "Elton Vejux",
+     "time": 125.58,
+     "dnf": false
+    },
+    {
+     "place": 15,
+     "name": "Olav Øye",
+     "time": 125.62,
+     "dnf": false
+    },
+    {
+     "place": 16,
+     "name": "Dave Süess",
+     "time": 126.2,
+     "dnf": false
+    },
+    {
+     "place": 17,
+     "name": "Oscar Clevö",
+     "time": 126.31,
+     "dnf": false
+    },
+    {
+     "place": 18,
+     "name": "Johannes Aalholm",
+     "time": 126.5,
+     "dnf": false
+    },
+    {
+     "place": 19,
+     "name": "Lukas Kouba",
+     "time": 126.99,
+     "dnf": false
+    },
+    {
+     "place": 20,
+     "name": "Per Mattis Fürst Holtmann",
+     "time": 127.36,
+     "dnf": false
+    },
+    {
+     "place": 21,
+     "name": "Erik Tørud",
+     "time": 132.71,
+     "dnf": false
+    },
+    {
+     "place": 22,
+     "name": "Jens Drageset Dydland",
+     "time": 132.84,
+     "dnf": false
+    },
+    {
+     "place": 23,
+     "name": "Ali Nas",
+     "time": 134.85,
+     "dnf": false
+    },
+    {
+     "place": 24,
+     "name": "Sindre Kjæreng",
+     "time": 140.88,
+     "dnf": false
+    },
+    {
+     "place": 25,
+     "name": "Fredrik Håland Røvik",
+     "time": 142.55,
+     "dnf": false
+    },
+    {
+     "place": 26,
+     "name": "Joris Plaščinskas",
+     "time": 144.35,
+     "dnf": false
+    },
+    {
+     "place": 27,
+     "name": "Matthew Watson",
+     "time": 153.98,
+     "dnf": false
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Masters",
+   "kind": "Masters",
+   "format": "timed",
+   "source": "sheet e/2PACX-1vQFlsrPisXAvIwgY46lM2u1XOxZuFwT6tiAyjrQQN_h2-Xdf8dKjIJHS8cERe4_BubKoeaVrl0OLkW4 / Times-Open-Luge-Inline-Adaptive / Master",
+   "results": [
+    {
+     "place": 1,
+     "name": "Gerrit Geiger",
+     "time": 123.82,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Einar Kvam",
+     "time": 128.47,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Roy Helge Nesbø Prestegard",
+     "time": 142.33,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Richard Moe",
+     "time": 147.72,
+     "dnf": false
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Damer",
+   "kind": "Women",
+   "format": "timed",
+   "source": "sheet e/2PACX-1vQFlsrPisXAvIwgY46lM2u1XOxZuFwT6tiAyjrQQN_h2-Xdf8dKjIJHS8cERe4_BubKoeaVrl0OLkW4 / Times-Open-Luge-Inline-Adaptive / Women",
+   "results": [
+    {
+     "place": 1,
+     "name": "Lisa Peters",
+     "time": 124.94,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Selina Theiler",
+     "time": 128.62,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Marjorie Romeo",
+     "time": 133.79,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Mina Nornes Westli",
+     "time": 143.72,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Helene Walberg Liland",
+     "time": 198.87,
+     "dnf": false
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "sheet e/2PACX-1vQFlsrPisXAvIwgY46lM2u1XOxZuFwT6tiAyjrQQN_h2-Xdf8dKjIJHS8cERe4_BubKoeaVrl0OLkW4 / Times-Open-Luge-Inline-Adaptive / Luge",
+   "results": [
+    {
+     "place": 1,
+     "name": "Julie Erz",
+     "time": 126.83,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Odd Steinar Syversen",
+     "time": 132.94,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Carina Morken Rogers",
+     "time": 134.5,
+     "dnf": false
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Adaptive",
+   "kind": "Adaptive",
+   "format": "timed",
+   "source": "sheet e/2PACX-1vQFlsrPisXAvIwgY46lM2u1XOxZuFwT6tiAyjrQQN_h2-Xdf8dKjIJHS8cERe4_BubKoeaVrl0OLkW4 / Times-Open-Luge-Inline-Adaptive / Adaptive",
+   "results": [
+    {
+     "place": 1,
+     "name": "Carina Morken Rogers",
+     "time": 76.85,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Candy Dungan",
+     "time": 97.26,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Ellen Merete Knutsen",
+     "time": 112.32,
+     "dnf": false
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

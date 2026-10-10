@@ -1,78 +1,75 @@
-import { idsLoader } from "./ids";
-import { clsLabel, fold } from "./format";
-// Data model and loading. The site only reads static JSON under data/ (written by export_web.py).
+import { fold } from "./format";
+// Data model and loading. The site only reads static JSON under data/ (written by site.py).
 
-export type RaceType = "Road" | "Gravel" | "MTB" | "TT" | "TTT" | "Unknown";
+/** The class a race was run in. "Other" covers stock races, intermediate, team and slalom events. */
+export type RaceType = "Open" | "Women" | "Junior" | "Masters" | "Luge" | "Adaptive" | "Inline" | "Other";
+export const RACE_TYPES: RaceType[] = ["Open", "Women", "Junior", "Masters", "Luge", "Adaptive", "Inline", "Other"];
+/** "bracket": heats, only the place is known. "timed": ranked by the time in each row (qualifying, time trials). */
+export type Format = "bracket" | "timed";
 
 export interface Result {
-  race: string; date: string; year: number; type: RaceType; cls: string | null;
+  raceId: string;     // the list in data/races.json
+  race: string;       // the event: "Ekstremsportveko"
+  cls: string;        // the race within the event: "NM Open", "Damer", "Tidskjøring"
+  date: string; year: number; type: RaceType; format: Format;
   place: number; field: number;
-  basis: "i klassen" | "totalt" | "blant kvinnene"; // what place/field count: the rider's class, the whole field, or the women in it
+  basis: "i feltet" | "blant kvinnene"; // what place/field count: the whole list, or the women in it
   top: number;        // place as % of field, lower is better
-  beaten: number;     // % of the field beaten (100 - top), higher is better
-  behind: number | null; // % behind the winner
-  time: string; winner: string;
-  np: number | null; ap: number | null; speed: number | null; km: number | null; climb: number | null;
-  ageClass: string; agePlace: number | null; ageN: number | null;
-  link: string; icu: string;
+  beaten: number;     // % of the others beaten (the winner beat 100 %), higher is better
+  behind: number | null; // % behind the fastest time (timed races)
+  time: number | null; winner: number | null; // seconds (timed races)
+  link: string;       // the post on ndsf.no
+  hill: string | null;
   video?: string;     // the rider's own video from this race (data/videos.json)
   videos?: RaceVideo[]; // every rider's video from this race, the rider's own first
-  women: Women | null; // placing among the women in the same race (rivals.py); null for TTT, DNF or unknown sex
+  women: Women | null; // placing among the women in the same race; null in women's races, for DNF or unknown sex
 }
 
 /** A result counted among the women only: place and field among them, with DNF behind finishers. */
-export interface Women { place: number; field: number; beaten: number; behind: number | null }
-export type Sex = "K" | "M" | null;
-
-export interface PointsRace {
-  name: string; date: string; cls: string; place: string; n: string; pts: string; win: string;
-  laps: string; time: string; speed: string; np: string; ap: string; note: string; icu: string;
-  video?: string;
-}
+export interface Women { place: number; field: number; beaten: number }
+export type Sex = "K" | null;
 
 export interface Meeting {
   race: string; date: string; type: RaceType; res: "w" | "l" | "d";
-  gs: number | null; gp: number | null; pl: number | null;
+  gs: number | null; gp: number | null; // time gap in s and % (timed races; negative = this rider was faster)
+  pl: number | null;  // places between: positive = the other rider finished ahead, negative = behind
   mc: string | null; tc: string | null; same: boolean;
 }
 
 export interface Opponent { id: string; name: string; club: string; w: number; l: number; med: number | null; ms: Meeting[]; sex: Sex }
 
-export interface Who { turritt_id: string; name: string; club: string; races?: number; wins?: number; losses?: number }
+export interface Who { id: string; name: string; club?: string; races?: number; wins?: number; losses?: number; page?: boolean }
 export interface Insights {
-  rivals_by_type?: Partial<Record<RaceType, (Who & { median_gap_pct: number })[]>>;
+  rivals_by_type?: Partial<Record<RaceType, Who[]>>;
   nemesis?: Who[]; victims?: Who[];
   specialists?: (Who & { stronger_than_you_in: RaceType[]; weaker_than_you_in: RaceType[] })[];
   overtaken?: (Who & { lost_in: string; beat_in: string })[];
-  clubs?: { club: string; riders: number; wins: number; losses: number; win_pct: number }[];
   right_ahead?: (Who & { right_ahead: number })[];
   right_behind?: (Who & { right_behind: number })[];
 }
 
 export interface Athlete {
-  id: string; name: string; club: string; ageClass: string;
-  sex: Sex;            // from the classes the result lists put the rider in (rivals.py); never from the name
+  id: string; name: string; club: string;
+  sex: Sex;            // K when the rider has placed in a women's race; never from the name
   rivalsWomen: string[]; // closest rivals among the women (rivals_women)
-  power: boolean; clips: number[];
-  full: boolean;       // own profile from the pipeline (every race), not rebuilt from the shared result lists
-  livePower?: boolean; // watt fetched in this browser from intervals.icu
-  savedPower?: boolean; // watts come from the site's database (the rider saved them), not the static files
-  savedHidden?: boolean; // the rider saved watts but keeps them hidden
-  savedClipYears?: number[]; // season clips built from GPS tracks the rider saved (api/clip), not static files
   channel?: string;    // the rider's own video channel (data/videos.json)
-  results: Result[]; points: PointsRace[];
+  results: Result[];
   opponents: Map<string, Opponent>; rivals: string[]; insights: Insights;
 }
 
-export interface IndexRider { id: string; name: string; club: string; races: number; shard: string | null; sex?: Sex }
-export interface Site { default_rider: string; profiles: string[]; activity_links?: boolean; contact?: string }
+export interface IndexRider { id: string; name: string; club: string; races: number; shard: string | null; sex?: Sex; wins?: number }
+export interface Site { default_rider: string | null; contact?: string }
 
-/** Site-wide switches from site.json. Links to intervals.icu activities are off unless the owner turns them on. */
-export const flags = { activityLinks: false };
-
-export interface ClipData {
-  year: number; step: number; skipped: string[];
-  races: { name: string; date: string; type: RaceType; time: number; place: number; field: number; km: number; pts: [number, number][] }[];
+/* summary.json (site.py): the front page and the top lists. */
+export interface TopRace { id: string; name: string; cls: string; date: string; type: RaceType }
+export interface Summary {
+  events: number; races: number; results: number; riders: number; years: number[];
+  recent: { id: string; name: string; cls: string; date: string; type: RaceType; finishers: number; fastest: Who | null; fastest_women: Who | null }[];
+  biggest: { name: string; cls: string; riders: number } | null;
+  busiest: (Who & { races: number })[];
+  closest?: { name: string; gap_s: number; a: Who; b: Who };
+  most_wins?: Who & { wins: number };
+  top: { biggest: (TopRace & { riders: number })[]; closest: (TopRace & { gap_s: number; a: Who; b: Who })[]; wins: (Who & { wins: number })[] };
 }
 
 const cache = new Map<string, Promise<unknown>>();
@@ -86,87 +83,57 @@ export function getJSON<T>(path: string): Promise<T> {
   return cache.get(path) as Promise<T>;
 }
 
-/** Our rider ids and the data files' keys (see ids.ts). */
-export const ids = idsLoader(getJSON);
-/** Our id ("r17179") for a data key, for URLs and the API. Falls back to the key itself. */
-export const ridOf = async (key: string) => (await ids()).toRid(key) ?? key;
-
-type RawOpp = [string, string, string, number, number, number | null,
-  [string, string, RaceType, string, number | null, number | null, number | null, (string | null)?, (string | null)?, number?][], Sex?];
+type RawMeeting = [string, string, RaceType, string, number | null, number | null, number | null, string | null, string | null, number];
+type RawOpp = [string, string, string, number, number, number | null, RawMeeting[], Sex?];
 
 function opponents(raw: RawOpp[] | undefined): Map<string, Opponent> {
   return new Map((raw || []).map(([id, name, club, w, l, med, ms, sex]) => [id, {
     id, name, club, w, l, med, sex: sex ?? null,
     ms: ms.map(([race, date, type, res, gs, gp, pl, mc, tc, same]) => ({
-      race: race.replace(/\s+20\d\d$/, ""), date: toIso(date), type, res: res[0] as Meeting["res"],
-      gs, gp, pl, mc: clsLabel(mc) ?? null, tc: clsLabel(tc) ?? null, same: same === undefined ? true : !!same,
+      race, date, type, res: res[0] as Meeting["res"], gs, gp, pl, mc, tc, same: !!same,
     })).sort((a, b) => a.date.localeCompare(b.date)),
   }]));
 }
 
-/** "14.09.25" or "2025-09-14" -> "2025-09-14" */
-export function toIso(d: string): string {
-  const m = /^(\d\d)\.(\d\d)\.(\d\d)$/.exec(d);
-  return m ? `20${m[3]}-${m[2]}-${m[1]}` : d;
+interface RawResult {
+  race_id: string; race: string; cls: string; type: RaceType; format: Format; date: string;
+  place: number | null; field: number; beaten_pct: number | null; time: number | null; winner: number | null;
+  behind_pct: number | null; link: string; hill: string | null; women_place?: number; women_field?: number;
 }
-
 interface RawProfile {
-  id: string; name: string; club: string; age_class?: string; power?: boolean; clips?: number[];
-  results: Record<string, unknown>[]; points?: PointsRace[];
-  opponents?: RawOpp[]; rivals?: string[]; insights?: Insights & { closest?: string[] };
-  sex?: Sex; rivals_women?: string[];
+  id: string; name: string; club: string; sex?: Sex; results: RawResult[];
+  opponents?: RawOpp[]; rivals?: string[]; insights?: Insights; rivals_women?: string[];
 }
 
-const num = (v: unknown) => (v === null || v === undefined || v === "" ? null : Number(v));
-
-function result(r: Record<string, unknown>): Result {
-  // Two shapes: the sheet export (place/field/top/np...) and rivals.py's per-rider rows (top_pct/behind_pct).
-  const date = toIso(String(r.date));
-  // Riders from the shared lists are placed against the whole field, not tiny age/bike classes.
-  const overall = r.overall_place != null && r.overall_field != null;
-  const place = Number(overall ? r.overall_place : r.place), field = Number(overall ? r.overall_field : r.field);
-  const rawTop = overall ? (place / field) * 100 : r.top ?? r.top_pct;
-  const top = rawTop === null || rawTop === undefined || rawTop === "" ? NaN : Number(rawTop); // DNF has no placing
-  // Share of the others beaten: the winner beat 100 %, last beat 0 %.
-  const beaten = field > 1 ? ((field - place) / (field - 1)) * 100 : 100;
+function result(r: RawResult): Result | null {
+  if (r.place == null) return null; // DNF: counted in others' fields, no placing of its own
+  const place = r.place, field = Math.max(r.field, place); // a sheet can skip a number: never "8. av 7"
+  const beatenOf = (p: number, f: number) => (f > 1 ? ((f - p) / (f - 1)) * 100 : 100);
   return {
-    race: String(r.name ?? r.race).replace(/\s+20\d\d$/, ""), date, year: Number(date.slice(0, 4)),
-    type: r.type as RaceType, cls: clsLabel(r.class as string) ?? null,
-    place, field, basis: overall || r.class == null && r.top === undefined ? "totalt" : "i klassen", top, beaten: Math.max(0, Math.min(100, beaten)),
-    behind: num(r.behind ?? r.behind_pct), time: String(r.time ?? ""), winner: String(r.winner ?? ""),
-    np: num(r.np), ap: num(r.ap), speed: num(r.speed), km: num(r.km), climb: num(r.climb),
-    ageClass: clsLabel(String(r.age_class ?? "")), agePlace: num(r.age_place), ageN: num(r.age_n),
-    link: String(r.turritt ?? r.link ?? ""), icu: String(r.icu ?? ""),
-    women: r.women_place != null && r.women_field != null ? {
-      place: Number(r.women_place), field: Number(r.women_field),
-      beaten: Number(r.women_beaten_pct ?? (Number(r.women_field) > 1 ? ((Number(r.women_field) - Number(r.women_place)) / (Number(r.women_field) - 1)) * 100 : 100)),
-      behind: num(r.women_behind_pct),
-    } : null,
+    raceId: r.race_id, race: r.race, cls: r.cls, date: r.date, year: Number(r.date.slice(0, 4)), type: r.type, format: r.format,
+    place, field, basis: "i feltet", top: (place / field) * 100, beaten: Math.max(0, Math.min(100, r.beaten_pct ?? beatenOf(place, field))),
+    behind: r.behind_pct, time: r.time, winner: r.winner, link: r.link || "", hill: r.hill,
+    women: r.women_place != null && r.women_field != null ? { place: r.women_place, field: r.women_field, beaten: beatenOf(r.women_place, r.women_field) } : null,
   };
 }
 
-function athlete(p: RawProfile, full = false): Athlete {
-  const ins = { ...(p.insights || {}) } as Insights & { closest?: string[] };
-  const closest = ins.closest; delete ins.closest;
+function athlete(p: RawProfile): Athlete {
   return {
-    id: p.id, name: p.name, club: p.club, ageClass: p.age_class || "",
-    sex: p.sex ?? null, rivalsWomen: p.rivals_women || [],
-    power: !!p.power, clips: p.clips || [], full,
-    results: p.results.map(result).filter((r) => r.field > 0 && Number.isFinite(r.top)).sort((a, b) => a.date.localeCompare(b.date)),
-    points: p.points || [],
-    opponents: opponents(p.opponents), rivals: p.rivals?.length ? p.rivals : closest || [], insights: ins,
+    id: p.id, name: p.name, club: p.club || "", sex: p.sex ?? null, rivalsWomen: p.rivals_women || [],
+    results: p.results.map(result).filter((r): r is Result => !!r).sort((a, b) => a.date.localeCompare(b.date)),
+    opponents: opponents(p.opponents), rivals: p.rivals || [], insights: p.insights || {},
   };
 }
 
 /* Riders' videos, hand-kept in data/videos.json: a channel per rider, and per race the videos riders made of it.
-   A race is found by date and name, so a video shows on the race for everyone who rode it. */
+   A race is found by date and event name, so a video shows on the race for everyone who rode it. */
 export interface VideoFile {
   channels?: Record<string, string>;
   races?: { date: string; race: string; videos: { rid: string; url: string }[] }[];
 }
 export interface RaceVideo { rid: string; by: string; url: string; own: boolean }
 
-const plain = (s: string) => s.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/ø/g, "o").replace(/æ/g, "ae").replace(/[^a-z0-9]/g, "");
+const plain = (s: string) => fold(s).replace(/[^a-z0-9]/g, "");
 
 /** The videos shared from the race on this date with this name (the name may carry the year). */
 export function videosFor(file: VideoFile | null, date: string, name: string) {
@@ -190,53 +157,30 @@ export function withVideos(a: Athlete, file: VideoFile | null, names: (rid: stri
   return {
     ...a, channel,
     results: a.results.map((r) => { const vs = find(r.date, r.race); return vs ? { ...r, videos: vs, video: own(vs) } : r; }),
-    points: a.points.map((p) => { const u = own(find(p.date, p.name)); return u ? { ...p, video: u } : p; }),
   };
 }
 
-export async function loadAthlete(id: string, site: Site, index: IndexRider[], get: <T>(path: string) => Promise<T> = getJSON): Promise<Athlete> {
+export async function loadAthlete(id: string, index: IndexRider[], get: <T>(path: string) => Promise<T> = getJSON): Promise<Athlete> {
   const videos = get<VideoFile>("videos.json").catch(() => null); // optional: a missing file just means no videos
-  return withVideos(await loadRaw(id, site, index, get), await videos, (rid) => index.find((r) => r.id === rid)?.name || "");
-}
-
-async function loadRaw(id: string, site: Site, index: IndexRider[], get: <T>(path: string) => Promise<T>): Promise<Athlete> {
   const entry = index.find((r) => r.id === id);
-  if (site.profiles.includes(id)) {
-    const p = athlete(await get<RawProfile>(`athletes/${id}.json`), true);
-    // The followed riders' own profiles (export_web.py) have no women's placings; rivals.py's copy in the shard has.
-    if (entry?.sex !== "K" || !entry.shard) return { ...p, sex: entry?.sex ?? p.sex };
-    const raw = (await get<Record<string, RawProfile>>(`riders/shard-${entry.shard}.json`).catch(() => ({})) as Record<string, RawProfile>)[id];
-    return raw ? withWomen(p, athlete({ ...raw, id })) : { ...p, sex: "K" };
-  }
-  if (!entry?.shard) throw new Error("Fant ikke rytteren");
+  if (!entry?.shard) throw new Error("Fant ikke kjøreren");
   const shard = await get<Record<string, RawProfile>>(`riders/shard-${entry.shard}.json`);
   const raw = shard[id];
-  if (!raw) throw new Error("Fant ikke rytteren");
-  return athlete({ ...raw, id });
-}
-
-/** A full profile with the women's placings, sexes and women's rivals from rivals.py's copy of the same rider. */
-function withWomen(p: Athlete, s: Athlete): Athlete {
-  const key = (r: Result) => `${r.date}|${fold(r.race)}`;
-  const w = new Map(s.results.map((r) => [key(r), r.women]));
-  return {
-    ...p, sex: s.sex, rivalsWomen: s.rivalsWomen,
-    results: p.results.map((r) => ({ ...r, women: w.get(key(r)) ?? null })),
-    opponents: new Map([...p.opponents].map(([id, o]) => [id, { ...o, sex: s.opponents.get(id)?.sex ?? o.sex }])),
-  };
+  if (!raw) throw new Error("Fant ikke kjøreren");
+  return withVideos(athlete({ ...raw, id }), await videos, (rid) => index.find((r) => r.id === rid)?.name || "");
 }
 
 /** The athlete counted among the women only: every placing, rival and head-to-head is against women. Races with
-    no women's placing (team time trials, DNF) drop out. The rider is a woman, so this is what her own class looks like. */
+    no women's placing drop out. The rider is a woman, so this is what her own class looks like. */
 export function womenOnly(a: Athlete): Athlete {
   const opponents = new Map([...a.opponents].filter(([, o]) => o.sex === "K"));
-  const keep = (w: { turritt_id: string }) => opponents.has(w.turritt_id);
+  const keep = (w: { id: string }) => opponents.has(w.id);
   const ins = a.insights;
   return {
     ...a,
-    results: a.results.flatMap((r) => (r.women ? [{
+    results: a.results.flatMap((r) => (r.type === "Women" ? [r] : r.women ? [{
       ...r, place: r.women.place, field: r.women.field, beaten: r.women.beaten, top: (r.women.place / r.women.field) * 100,
-      behind: r.women.behind, basis: "blant kvinnene" as const, cls: null,
+      behind: null, basis: "blant kvinnene" as const,
     }] : [])),
     opponents, rivals: a.rivalsWomen.filter((id) => opponents.has(id)),
     insights: {
@@ -244,24 +188,7 @@ export function womenOnly(a: Athlete): Athlete {
       rivals_by_type: ins.rivals_by_type && Object.fromEntries(Object.entries(ins.rivals_by_type).map(([t, l]) => [t, l?.filter(keep)])),
       nemesis: ins.nemesis?.filter(keep), victims: ins.victims?.filter(keep), specialists: ins.specialists?.filter(keep),
       overtaken: ins.overtaken?.filter(keep), right_ahead: ins.right_ahead?.filter(keep), right_behind: ins.right_behind?.filter(keep),
-      clubs: undefined, // counted over everyone; there is no women-only version
     },
-  };
-}
-
-/** The athlete with race power from intervals.icu merged in: fetched in this browser, or saved by the rider (saved = true). */
-export function withPower(a: Athlete, p: Map<string, { np: number; ap: number }>, saved = false): Athlete {
-  return { ...a, power: true, savedPower: saved || a.savedPower, livePower: !saved || a.livePower, results: a.results.map((r) => { const x = p.get(`${r.date}|${r.race}`); return x ? { ...r, np: x.np, ap: x.ap } : r; }) };
-}
-
-/** Numbers the rider saved on the site: watts, GPS speed and the years that have a season clip. */
-export function withSaved(a: Athlete, s: { power: Map<string, { np: number; ap: number }>; speed: Map<string, number>; clipYears: number[]; hidden?: boolean }): Athlete {
-  const b = s.power.size ? withPower(a, s.power, true) : a;
-  const extra = s.clipYears.filter((y) => !a.clips.includes(y));
-  return {
-    ...b,
-    results: b.results.map((r) => { const v = s.speed.get(`${r.date}|${r.race}`); return v != null ? { ...r, speed: v } : r; }),
-    clips: [...a.clips, ...extra].sort(), savedClipYears: extra, savedHidden: !!s.hidden,
   };
 }
 
@@ -276,42 +203,45 @@ export const mean = (a: number[]) => (a.length ? a.reduce((x, y) => x + y, 0) / 
 export const years = (a: Athlete) => [...new Set(a.results.map((r) => r.year))].sort();
 export const record = (ms: Meeting[]) => ({ w: ms.filter((m) => m.res === "w").length, l: ms.filter((m) => m.res === "l").length });
 
-/* Head-to-head against any rider, computed from the shared result lists (data/races.json). */
-/** One row of a result list: rider key, name, club, age class, class, time in s (null = DNF), sex,
- *  and for a lapped rider in a lap race: laps down and the official time (the time before is then the ranking time). */
-export type RaceRow = [string, string, string, string, string | null, number | null, Sex?, number?, number?];
-export interface RaceList { id: string; name: string; date: string; type: RaceType; distance_km?: number | null; turritt?: string; rows: RaceRow[] }
+/* The result lists (data/races.json): one per race, for the race pages and head-to-head between any two riders. */
+/** One row: rider id, name, place (null = DNF), time in s (timed races), sex. */
+export type RaceRow = [string, string, number | null, number | null, Sex];
+export interface RaceList {
+  id: string; event: string; name: string; cls: string; type: RaceType; format: Format;
+  date: string; date_known: boolean; hill: string | null; url: string; rows: RaceRow[];
+}
 interface RacesFile { races: RaceList[] }
 export const raceLists = async () => (await getJSON<RacesFile>("races.json")).races;
-/** The shared result list for one of a rider's races (same date, same name), if there is one. */
-export async function raceFor(r: { date: string; race: string }): Promise<RaceList | undefined> {
-  return findRace(await raceLists(), r);
-}
-export function findRace(lists: RaceList[], r: { date: string; race: string }): RaceList | undefined {
-  const n = fold(r.race);
-  return lists.find((x) => x.date === r.date && fold(x.name.replace(/\s+20\d\d$/, "")) === n);
-}
+
+/** Head-to-head against any rider: in every race both rode, the better place wins; a DNF loses to anyone placed. */
 export async function headToHead(meId: string, other: IndexRider): Promise<Opponent> {
-  const { races } = await getJSON<RacesFile>("races.json");
   const ms: Meeting[] = [];
-  for (const race of races) {
+  for (const race of await raceLists()) {
     const me = race.rows.find((r) => r[0] === meId), o = race.rows.find((r) => r[0] === other.id);
     if (!me || !o) continue;
-    const t = me[5], x = o[5];
+    const p = me[2], q = o[2];
     let res: Meeting["res"], gs: number | null = null, gp: number | null = null, pl: number | null = null;
-    if (t == null && x == null) res = "d";
-    else if (x == null) res = "w";
-    else if (t == null) res = "l";
+    if (p == null && q == null) res = "d";
+    else if (q == null) res = "w";
+    else if (p == null) res = "l";
     else {
-      res = t < x ? "w" : t > x ? "l" : "d";
-      gs = t - x; gp = Math.round((1000 * gs) / x) / 10;
-      const times = race.rows.map((r) => r[5]).filter((v): v is number => v != null);
-      pl = x < t ? 1 + times.filter((v) => v > x && v < t).length : t < x ? -(1 + times.filter((v) => v > t && v < x).length) : null;
+      res = p < q ? "w" : p > q ? "l" : "d";
+      pl = p === q ? null : p - q;
+      if (me[3] && o[3]) { gs = Math.round((me[3] - o[3]) * 100) / 100; gp = Math.round((1000 * gs) / o[3]) / 10; }
     }
-    ms.push({ race: race.name.replace(/\s+20\d\d$/, ""), date: race.date, type: race.type, res, gs, gp, pl, mc: me[4], tc: o[4], same: me[4] === o[4] });
+    ms.push({ race: race.name, date: race.date, type: race.type, res, gs, gp, pl, mc: race.cls, tc: race.cls, same: true });
   }
   ms.sort((a, b) => a.date.localeCompare(b.date));
-  const gaps = ms.filter((m) => m.gp != null).map((m) => m.gp!);
+  const pls = ms.filter((m) => m.pl != null).map((m) => m.pl!);
   const rec = record(ms);
-  return { id: other.id, name: other.name, club: other.club, w: rec.w, l: rec.l, med: gaps.length ? median(gaps) : null, ms, sex: other.sex ?? null };
+  return { id: other.id, name: other.name, club: other.club, w: rec.w, l: rec.l, med: pls.length ? median(pls) : null, ms, sex: other.sex ?? null };
 }
+
+/* Hills (data/hills.json) and their tracks (data/tracks/<id>.json, from tracks.py). */
+export interface Hill { id: string; name: string; place: string; center: [number, number] | null; start: [number, number] | null; finish: [number, number] | null }
+export interface Track {
+  id: string; length_m: number; drop_m: number; start_ele: number; finish_ele: number; max_grade: number; avg_grade: number; source: string;
+  pts: [number, number, number, number][]; // lat, lon, elevation m, grade % of the segment starting here (negative = downhill)
+}
+export const hills = async () => (await getJSON<{ hills: Hill[] }>("hills.json")).hills;
+export const loadTrack = (id: string) => getJSON<Track>(`tracks/${id}.json`).catch(() => null);

@@ -1,0 +1,176 @@
+{
+ "id": "2017-beitostolen",
+ "name": "Beitostølen",
+ "year": 2017,
+ "date": "2017-01-01",
+ "date_known": false,
+ "hill": "beitostolen",
+ "sources": [
+  "https://ndsf.no/?p=1630"
+ ],
+ "titles": [
+  "TMI Beito 2017 – Resultater"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "sheet e/2PACX-1vQQNUgX_qZTjLBNrpR1xcBBcr7TPrYQg26kUxhtoS9ch-sSbsZdqF9SmXJDecjhkCF26QKoQjwAR7aT / Sheet1 / Plass",
+   "results": [
+    {
+     "place": 1,
+     "name": "Sander Viste Mehus",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Fredrik Bevren",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Odin Gløtheim",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Christian Torkelsen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Sindre Kjæreng",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Olav Øye",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Jan-Petter Hammersland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Magne Ørvik",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Austin VanDyke",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Even Strand",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Sigbjørn Viste Mehus",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Cornelius Knudsen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Njaal Eide Tangye",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Perder Buem",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Jørgen Munkerud",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Birger er kul Johansen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Agathe Matilda Borg",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Gustav Sigmundstad",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Ketil Thorvalsen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Torstein R Storaas",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Jan Erik Strømmen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Gard Eymundsson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Richar Moe",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Trygve Flebu Jørundland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Fredrik Rørvik",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

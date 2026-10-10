@@ -1,0 +1,600 @@
+{
+ "id": "2014-grefsenkollen",
+ "name": "Grefsenkollen",
+ "year": 2014,
+ "date": "2014-07-17",
+ "date_known": true,
+ "hill": "grefsenkollen",
+ "sources": [
+  "https://ndsf.no/?p=1160"
+ ],
+ "titles": [
+  "TMI Grefsenkollen – Resultater"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "sheet 1Uw7TXjfq3rQ7AOr5gtNxC4tUjZg1AGb5s5Yr7TzBndw / Result Open / FINAL RESULTS",
+   "results": [
+    {
+     "place": 1,
+     "name": "Johan Simonsen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Torbjørn Sunde",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Christoffer Sanne",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Adrian Jancey",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Henning Philip Patricksson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Matthew Kienzle",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Trygve Flebu Jørundland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Ville Hietala",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 9,
+     "name": "Axel Patricksson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 10,
+     "name": "Johannes Aalholm",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 11,
+     "name": "Alex Hørthe",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 12,
+     "name": "Mikael Jensen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 13,
+     "name": "Anders Inde",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 14,
+     "name": "Caspar Grette",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 15,
+     "name": "Herman Ottesen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 16,
+     "name": "Roar Fønseth",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 17,
+     "name": "Terry Blanche",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 18,
+     "name": "Esaja Ekman",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 19,
+     "name": "Jakob Eriksson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 20,
+     "name": "Marius T. Jørgensen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 21,
+     "name": "Ali Nas",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 22,
+     "name": "Lamin Cassama",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 23,
+     "name": "Max Eriksson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 24,
+     "name": "Kim Mengshoel",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 25,
+     "name": "Steffen Eliassen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 26,
+     "name": "Emile Eknes Miller",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 27,
+     "name": "Morten Espeseter",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 28,
+     "name": "Vegard Tvete",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 29,
+     "name": "Magne Ørvik",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 30,
+     "name": "Marcus Tjernström",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 31,
+     "name": "Edwin Schölander",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 32,
+     "name": "Lars Mikalsen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 33,
+     "name": "Max Meurling",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 34,
+     "name": "Matias Unsvåg",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 35,
+     "name": "Ludwig Fahlström",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 36,
+     "name": "Rasmus Klintrot",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 37,
+     "name": "Albin Brunasso",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 38,
+     "name": "Aldin Hodzic",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 39,
+     "name": "Audun Guneriussen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 40,
+     "name": "Benjamin Niklasson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 41,
+     "name": "Jørund Bratset",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 42,
+     "name": "Erik Buene",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 43,
+     "name": "Christoffer Nikolaisen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 44,
+     "name": "Tash Graham",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 45,
+     "name": "Hans Kristian Henriksen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 46,
+     "name": "David Berntsson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 47,
+     "name": "Linus Brundin",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 48,
+     "name": "Johan Christensson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 49,
+     "name": "Cedric Cornell",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 50,
+     "name": "Ivar Boldvik",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 51,
+     "name": "Kristian Bjørkedal",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 52,
+     "name": "Lars Isaksen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 53,
+     "name": "Henning Hanshaugen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 54,
+     "name": "Simen Skjeggerød Evensen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 55,
+     "name": "Adrian Persson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 56,
+     "name": "Gustav Fahlström",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 57,
+     "name": "My Argården Björn",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 58,
+     "name": "Fonzie Forsman",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 59,
+     "name": "Lorenza Walker",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 60,
+     "name": "Sølve Selander",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 61,
+     "name": "Adam Andersson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 62,
+     "name": "Sondre Selander",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 63,
+     "name": "Robin Bergman",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 64,
+     "name": "Christopher Ekwall",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 65,
+     "name": "Anton Ogorodnikov",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 66,
+     "name": "Daniel Parish",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 67,
+     "name": "Erik Sävenäs",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 68,
+     "name": "Emil Franzén",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 69,
+     "name": "Linn Andersson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 73,
+     "name": "Rachel Rayne",
+     "time": null,
+     "dnf": true
+    },
+    {
+     "place": 74,
+     "name": "Lucas Krown",
+     "time": null,
+     "dnf": true
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "sheet 1Uw7TXjfq3rQ7AOr5gtNxC4tUjZg1AGb5s5Yr7TzBndw / Result Women / FINAL RESULTS",
+   "results": [
+    {
+     "place": 1,
+     "name": "Tash Graham",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "My Argården Björn",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Lorenza Walker",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Linn Andersson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Rachel Rayne",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  },
+  {
+   "name": "Junior",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "sheet 1Uw7TXjfq3rQ7AOr5gtNxC4tUjZg1AGb5s5Yr7TzBndw / Results Jr / FINAL RESULTS",
+   "results": [
+    {
+     "place": 1,
+     "name": "Johannes Aalholm",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Max Eriksson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Ludwig Fahlström",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Jørund Bratset",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Edwin Schölander",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Magne Ørvik",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Henning Hanshaugen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Linus Brundin",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 9,
+     "name": "Christopher Ekwall",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 10,
+     "name": "Gustav Fahlström",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 11,
+     "name": "Kristian Bjørkedal",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 12,
+     "name": "Jakob Eriksson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 13,
+     "name": "Erik Sävenäs",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 14,
+     "name": "Simen Skjeggerød Evensen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 15,
+     "name": "Fonzie Forsman",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 16,
+     "name": "Sølve Selander",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 17,
+     "name": "Emil Franzén",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

@@ -1,0 +1,22 @@
+{
+ "id": "2012-xboard-volda",
+ "name": "XBoard Volda",
+ "year": 2012,
+ "date": "2012-04-16",
+ "date_known": true,
+ "hill": "volda",
+ "sources": [
+  "https://ndsf.no/?p=481"
+ ],
+ "titles": [
+  "XBoard 2012 -Resultater"
+ ],
+ "notes": [
+  "pdf gone: https://ndsf.no/files/Resultater%202012/Xboard/XBoardResogpoeng.pdf",
+  "pdf gone: https://ndsf.no/files/Resultater%202012/Xboard/XBoardHeats.pdf",
+  "pdf gone: https://ndsf.no/files/Resultater%202012/Xboard/XBoardVoldakval%20.pdf",
+  "results are in photos; write data/manual/<event>.json by hand"
+ ],
+ "races": [],
+ "needs_manual": true
+}

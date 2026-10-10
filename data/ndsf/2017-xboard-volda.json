@@ -1,0 +1,110 @@
+{
+ "id": "2017-xboard-volda",
+ "name": "XBoard Volda",
+ "year": 2017,
+ "date": "2017-04-24",
+ "date_known": true,
+ "hill": "volda",
+ "sources": [
+  "https://ndsf.no/?p=1568"
+ ],
+ "titles": [
+  "XBoard 2017 – Resultater"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "sheet 17k-F6OTUgZrEnw1dXAAgsgYTPQRwN2bWdqOR6V_BBmM / Sheet1 / Plass",
+   "results": [
+    {
+     "place": 1,
+     "name": "Ali Nas",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Marius T. Jørgensen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Kristian Bjørkedal",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Einar Kvam",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Trygve Flebu Jørundland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Sondre Braa",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Aldin Hodzic",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Håkon Heltne",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 9,
+     "name": "Markus Wegge",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 10,
+     "name": "Cedric Cornell",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 11,
+     "name": "Richard Moe",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 12,
+     "name": "Peter Andersson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 13,
+     "name": "Ådne Håskjold Lade",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 14,
+     "name": "Jan Erik Strømmen",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

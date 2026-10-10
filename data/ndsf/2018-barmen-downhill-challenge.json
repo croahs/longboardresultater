@@ -1,0 +1,346 @@
+{
+ "id": "2018-barmen-downhill-challenge",
+ "name": "Barmen Downhill Challenge",
+ "year": 2018,
+ "date": "2018-05-27",
+ "date_known": true,
+ "hill": "barmen",
+ "sources": [
+  "https://ndsf.no/?p=1953"
+ ],
+ "titles": [
+  "Barmen downhill challange – Resultater"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "sheet e/2PACX-1vTE-6TjFvxqs1Wd5B5o0jm4v8R7-t4HYnwYGpX1PsUvbfDwv1KvWYtGbNqRQTQtpRjSonjS8kTJE8E5 / Kval tider / Plass",
+   "results": [
+    {
+     "place": 1,
+     "name": "Ali Nas",
+     "time": 49.62,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Adrian Jancey",
+     "time": 50.53,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Sander Viste Mehus",
+     "time": 50.9,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Hans Kristian Henriksen",
+     "time": 51.25,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Johannes Sagedal Aalholm",
+     "time": 51.47,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Magne Ørvik",
+     "time": 52.06,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Even Fish Strand",
+     "time": 53.22,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Olav Bakemann Adalberon",
+     "time": 53.44,
+     "dnf": false
+    },
+    {
+     "place": 9,
+     "name": "Josue Ismael Forster",
+     "time": 54.15,
+     "dnf": false
+    },
+    {
+     "place": 10,
+     "name": "Håkon Aavik",
+     "time": 54.28,
+     "dnf": false
+    },
+    {
+     "place": 11,
+     "name": "Cedric Cornell",
+     "time": 54.9,
+     "dnf": false
+    },
+    {
+     "place": 12,
+     "name": "Jens Schøien Øvregård",
+     "time": 55.0,
+     "dnf": false
+    },
+    {
+     "place": 13,
+     "name": "Leif Ole Stampa Johannsen",
+     "time": 55.28,
+     "dnf": false
+    },
+    {
+     "place": 14,
+     "name": "Jan Petter Hammersland",
+     "time": 55.97,
+     "dnf": false
+    },
+    {
+     "place": 15,
+     "name": "Niklas Molander",
+     "time": 57.78,
+     "dnf": false
+    },
+    {
+     "place": 16,
+     "name": "Richard Moe",
+     "time": 61.25,
+     "dnf": false
+    },
+    {
+     "place": 17,
+     "name": "Morten Forsberg",
+     "time": 64.78,
+     "dnf": false
+    },
+    {
+     "place": 18,
+     "name": "Øystein Nygård",
+     "time": 64.97,
+     "dnf": false
+    },
+    {
+     "place": 19,
+     "name": "Odin Odin Gløtheim",
+     "time": 67.5,
+     "dnf": false
+    },
+    {
+     "place": 20,
+     "name": "Mina Nornes Westli",
+     "time": 67.75,
+     "dnf": false
+    },
+    {
+     "place": 21,
+     "name": "Sigbjørn Viste Mehus",
+     "time": 69.38,
+     "dnf": false
+    },
+    {
+     "place": 22,
+     "name": "Fredrik Håland Røvik",
+     "time": 71.44,
+     "dnf": false
+    },
+    {
+     "place": 23,
+     "name": "Kirsti Øfsthus Henriksen",
+     "time": 72.82,
+     "dnf": false
+    },
+    {
+     "place": 24,
+     "name": "Gard Eymundsson",
+     "time": 76.03,
+     "dnf": false
+    },
+    {
+     "place": 25,
+     "name": "Magnus Pastor Harm",
+     "time": 76.38,
+     "dnf": false
+    },
+    {
+     "place": 26,
+     "name": "Agathe Matilda Borg",
+     "time": 99.59,
+     "dnf": false
+    }
+   ]
+  },
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "sheet e/2PACX-1vTE-6TjFvxqs1Wd5B5o0jm4v8R7-t4HYnwYGpX1PsUvbfDwv1KvWYtGbNqRQTQtpRjSonjS8kTJE8E5 / Results / FINAL RESULTS",
+   "results": [
+    {
+     "place": 1,
+     "name": "Ali Nas",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Johannes Sagedal Aalholm",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Sander Viste Mehus",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Magne Ørvik",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Hans Kristian Henriksen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Josue Ismael Forster",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Even Fish Strand",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Adrian Jancey",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 9,
+     "name": "Olav Bakemann Adalberon",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 10,
+     "name": "Håkon Aavik",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 11,
+     "name": "Cedric Cornell",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 12,
+     "name": "Leif Ole Stampa Johannsen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 13,
+     "name": "Jens Schøien Øvregård",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 14,
+     "name": "Jan Petter Hammersland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 15,
+     "name": "Niklas Molander",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 16,
+     "name": "Magnus Pastor Harm",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 17,
+     "name": "Morten Forsberg",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 18,
+     "name": "Øystein Nygård",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 19,
+     "name": "Odin Odin Gløtheim",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 20,
+     "name": "Mina Nornes Westli",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 21,
+     "name": "Sigbjørn Viste Mehus",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 22,
+     "name": "Fredrik Håland Røvik",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 23,
+     "name": "Kirsti Øfsthus Henriksen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 24,
+     "name": "Gard Eymundsson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 25,
+     "name": "Richard Moe",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 26,
+     "name": "Agathe Matilda Borg",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

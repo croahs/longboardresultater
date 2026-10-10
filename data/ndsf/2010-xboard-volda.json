@@ -1,0 +1,53 @@
+{
+ "id": "2010-xboard-volda",
+ "name": "XBoard Volda",
+ "year": 2010,
+ "date": "2010-03-20",
+ "date_known": true,
+ "hill": "volda",
+ "sources": [
+  "https://ndsf.no/?p=562",
+  "https://ndsf.no/?p=535"
+ ],
+ "titles": [
+  "XBoard Volda 2010",
+  "XBoard Volda-resultater"
+ ],
+ "notes": [
+  "pdf gone: https://ndsf.no/files/XBoard Volda Resultatliste ikke betalende.pdf",
+  "pdf gone: https://ndsf.no/files/Heats Xboard Volda 32 uten ikke betalende.pdf",
+  "pdf gone: https://ndsf.no/files/XBoard Volda Kvalifikasjon uten ikke betalende.pdf",
+  "pdf gone: https://ndsf.no/files/XBoard Volda Resultatliste ikke betalende.pdf",
+  "pdf gone: https://ndsf.no/files/Heats Xboard Volda 32 uten ikke betalende.pdf",
+  "pdf gone: https://ndsf.no/files/XBoard Volda Kvalifikasjon uten ikke betalende.pdf"
+ ],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "text (2010-03-20 00:00:00)",
+   "results": [
+    {
+     "place": 1,
+     "name": "Alex Hørthe",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Mikael Jensen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Håkon Wegge",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

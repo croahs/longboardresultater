@@ -1,0 +1,40 @@
+Kvalplass  Startnr                        Navn  XBOARD VOLDA 2013 - KVAL         Best tid
+     1        2     Trygve Jørundsland                                           2.09,47
+     2       10     Mikael "Kula" Jensen                             Kval tid 1  2.11,00
+     3       28     Ali Nas                                            2.09,47   2.11,94
+     4       21     Julian Baxter                                      2.11,00   2.12,37
+     5        1     Simon Hasselberg                                   2.11,94   2.12,47
+     6       19     Andres Waal                                        2.12,37   2.13,50
+     7       34     Emile Eknes Miller                                 2.12,47   2.13,72
+     8       27     Sondre Selander                                    2.13,50   2.13,88
+     9        4     Marius T. Jørgensen                                2.13,72   2.13,91
+    10       24     Aldin Hodzic                                       2.13,88   2.13,93
+    11       31     John Simonsen                                      2.13,91   2.14,46
+    12       12     Morten Espeseter                                   2.13,93   2.15,44
+    13       29     Jens Dragseth Dyrland                              2.14,46   2.15,97
+    14        3     Sondre Braa                                        2.15,44   2.16,96
+    15       11     Roar Fønseth                                       2.15,97   2.17,09
+    16        9     Lasse Morin                                        2.16,96   2.18,09
+    17        8     Caspar Grette                                      2.17,09   2.18,66
+    18       20     Cedric Cornell                                     2.18,09   2.18.90
+    19       30     Andreas Bruu                                       2.18,66   2.20,97
+    20        5     Jorund Brattset                                    2.18.90   2.22,62
+    21        6     Einar Kvam                                         2.20,97   2.23,18
+    22       35     Joakim Løseth                                      2.22,62   2.23,53
+    23       15     Joakim Strømmen                                    2.23,18   2.24,03
+    24       17     Kristian Bjørkedal                                 2.23,53   2.24,71
+    25       26     Johan Sebastian Myhre                              2.24,03   2.25,75
+    26       16     Mathias Bjørkedal                                  2.24,71   2.30,00
+    27       22     Espen Eliassen                                     2.25,75   2.31,13
+    28       13     Hans Kristian Henriksen                            2.30,00   2.32.25
+    29       14     Alexander Teilgård                                 2.31,13   2.33,94
+    30       25     Leif Arne Hatlem                                   2.32.25   2.36,40
+    31       18     Daniel Heltne                                      2.33,94   2.37,94
+    32       23     Nicolas Eriksen                                    2.36,40   2.41,35
+    33       36     Ole Marius Langlo                                  2.37,94   2.42,94
+    34       33     Sigbjørn Melvær                                    2.41,35   2.58,75
+    35       32     Håkon Heltne                                       2.42,94   3.40,78
+    36        7     Andreas Sandnes                                    2.58,75   99.99,99
+                                                                       3.40,78
+                                                                      99.99,99
+

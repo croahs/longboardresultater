@@ -1,0 +1,74 @@
+{
+ "id": "2009-ekstremsportveko",
+ "name": "Ekstremsportveko",
+ "year": 2009,
+ "date": "2009-11-12",
+ "date_known": true,
+ "hill": "voss",
+ "sources": [
+  "https://ndsf.no/?p=585"
+ ],
+ "titles": [
+  "Ekstremsportveko 2009"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "text (Resultater, topp 8)",
+   "results": [
+    {
+     "place": 1,
+     "name": "Christoffer Sanne",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Torbjørn Sunde",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Klaes Johansson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Robin Sandberg",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Alex Lyngaas",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Morten Bechstrøm",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Johan Simonsen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Jørgen Stokke Halvorsen",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

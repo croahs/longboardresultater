@@ -1,0 +1,119 @@
+Rank  Start no  Name                        Class   Nation           Time
+  1      44     Adam Persson                Open    Sweden       01:28,96
+  2      93     Christoffer Sanne           Open    Sweden       01:29,43
+  3       6     Henning Philip Patricksson  Open    Norway       01:30,02
+  4      92     Torbjørn Sunde              Open    Norway       01:30,04
+  5       9     Adrian Jancey               Open    Norway       01:30,30
+  6      13     Johan Simonsen              Open    Norway       01:30,48
+  7      56     Per Christner               Open    Sweden       01:30,54
+  8       1     Herman Ottesen              Open    Norway       01:31,17
+  9      90     Alex Hørthe                 Open    Norway       01:31,21
+ 10      34     Lars Mikalsen               Open    Norway       01:31,26
+ 11      89     Erik Lundberg               Open    Sweden       01:31,84
+ 12      94     Kim Mengshoel Anderssen     Open    Sweden       01:31,90
+ 13      15     Matias Unsvåg               Open    Norway       01:32,10
+ 14      87     Ali Nas                     Open    Norway       01:32,25
+ 15      43     Mikael “Kula” Jensen        Open    Norway       01:32,31
+ 16      78     Audun Guneriussen           Open    Norway       01:32,49
+ 17      33     Caspar Grette               Open    Norway       01:32,69
+ 18      18     Trygve Flebu Jørundland     Open    Norway       01:32,70
+ 19       4     Morten Espeseter            Open    Norway       01:32,90
+ 20       3     Roar Fønseth                Open    Norway       01:33,24
+ 21      54     Marcus Jarlson              Open    Sweden       01:33,30
+ 22      30     Sondre Selander             Open    Norway       01:33,37
+ 23      17     Steffen Eliassen            Open    Norway       01:33,46
+ 24      91     Morten Bechstrøm            Open    Norway       01:33,50
+ 25      77     Esaja Ekman                 Junior  Sweden       01:33,64
+ 26      75     Jens Drageset Dydland       Open    Norway       01:33,71
+ 27      85     Klaes Johansson             Open    Sweden       01:33,82
+ 28      51     Axel Patricksson            Open    Norway       01:33,90
+ 29      50     Anders Inde                 Junior  Sweden       01:33,96
+ 30      83     Alexander Lyngås            Open    Norway       01:33,99
+ 31       2     Jørund Bratset              Junior  Norway       01:34,04
+ 32      52     Simon Hasselberg            Open    Norway       01:34,32
+ 33      11     Erik Buene                  Open    Norway       01:34,40
+ 34      42     Hans Kristian Henriksen     Open    Norway       01:34,40
+ 35      59     Dennis Eriksson             Open    Sweden       01:34,40
+ 36      38     Max Eriksson                Junior  Sweden       01:34,54
+ 37      47     Magne Ørvik                 Open    Norway       01:34,55
+ 38      39     Jakob Eriksson              Junior  Sweden       01:34,60
+ 39       7     Marius T. Jørgensen         Open    Norway       01:34,70
+ 40      40     Victor Bo Larsen            Junior  Norway       01:34,70
+ 41       8     Vegard Tvete                Open    Norway       01:34,72
+ 42      10     Johannes Aalholm            Junior  Norway       01:34,74
+ 43      82     Albin Larsson               Open    Sweden       01:34,78
+ 44      81     Cedric Cornell              Open    Norway       01:34,82
+ 45      28     Rebekka Gemperle            Womens  Switzerland  01:35,10
+ 46      88     Fredric Jacobsen            Open    Norway       01:35,10
+ 47      22     Aldin Hodzic                Open    Norway       01:35,19
+ 48      62     Benjamin Niklasson          Open    Sweden       01:35,30
+ 49      12     Christoffer Nikolaisen      Open    Norway       01:35,40
+ 50      74     Lucas Krown                 Open    Sweden       01:35,40
+ 51      49     Mauritz Armfelt             Open    Sweden       01:35,50
+ 52      55     Kim Nilsson                 Open    Sweden       01:35,77
+ 53      76     Kim André Hansen            Open    Norway       01:35,90
+ 54      19     Emile Eknes Miller          Open    Norway       01:36,38
+ 55      68     Simon Palmhager             Junior  Sweden       01:36,52
+ 56      65     Max Walter                  Open    Sweden       01:36,60
+ 57      29     Eivind Bache Blix           Open    Sweden       01:36,66
+ 58      48     Andreas Waal                Open    Norway       01:36,70
+59  70  Albin Brunasso      Junior  Sweden          01:36,70
+
+60  64  Martin Edoff        Open    Sweden          01:36,88
+
+61  37  Calle Gårdelöv      Open    Norway          01:36,94
+
+62  31  Fredrik Berven      Junior  Norway          01:37,00
+
+63  63  Andrej Frelin       Open    Sweden          01:37,52
+
+64  86  Kristina Engstrand  Womens  Sweden          01:37,69
+
+65  46  Johan Christensson  Open    Sweden          01:37,91
+
+66  71  Yani Nait-Aissa     Open    Norway          01:37,96
+
+67  24  Charlie Cockman     Junior  Norway          01:38,30
+
+68  84  Tommy Andersson     Open    Sweden          01:38,70
+
+69  14  Alf Olsen           Open    Norway          01:38,91
+
+70  41  Kari Havnevik       Womens  Norway          01:39,31
+
+71  23  Einar Kvam          Open    Norway          01:39,40
+
+72  72  Isac Printz         Junior  Sweden          01:39,61
+
+73  80  Rune Askim          Open    Norway          01:39,72
+
+74  35  Adam Hill           Open    Norway          01:39,80
+
+75  79  Erland Lien Einbu   Open    Norway          01:40,00
+
+76  60  Erkki Rustad        Open    Norway          01:40,07
+
+77  73  Emil Olsson         Open    Sweden          01:40,20
+
+78  21  Daniela Gaislerova  Open    Czech Republic  01:40,40
+
+79  67  Tobias Orth         Junior  Sweden          01:41,00
+
+80  16  Christoffer Ekwall  Junior  Sweden          01:41,04
+
+81  53  Sonsoles Masia      Open    Spain           01:41,47
+
+82  61  Tim Davis           Open    United Kingdom  01:41,79
+
+83  26  Hannes Larsson      Open    Sweden          01:42,01
+
+84  20  Karl Porsnet        Open    Sweden          01:43,23
+
+85  69  Erik Sävenäs        Junior  Sweden          01:45,29
+
+86  25  Henning Hanshaugen  Junior  Norway          01:45,40
+
+87  45  Thomas Bjertnes     Open    Norway          01:54,50
+
+88  66  Emil Franzén        Junior  Sweden          01:58,59
+

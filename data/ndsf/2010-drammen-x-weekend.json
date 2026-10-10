@@ -1,0 +1,52 @@
+{
+ "id": "2010-drammen-x-weekend",
+ "name": "Drammen X-Weekend",
+ "year": 2010,
+ "date": "2010-08-01",
+ "date_known": true,
+ "hill": "djupdalsveien",
+ "sources": [
+  "https://ndsf.no/?p=548",
+  "https://ndsf.no/?p=513"
+ ],
+ "titles": [
+  "Padova Grandprix & Rockstar Downhill Jam",
+  "Drammen X-Weekend 2010"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "text (Etter en del heats, kunne endelig Mikael)",
+   "results": [
+    {
+     "place": 1,
+     "name": "Mikael Jensen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Håkon Wegge",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Fridtjof Schei",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Jacob Espenes",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

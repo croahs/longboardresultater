@@ -1,0 +1,43 @@
+{
+ "id": "2011-ekstremsportveko",
+ "name": "Ekstremsportveko",
+ "year": 2011,
+ "date": "2011-08-25",
+ "date_known": true,
+ "hill": "voss",
+ "sources": [
+  "https://ndsf.no/?p=516"
+ ],
+ "titles": [
+  "Extremsportveko 2011"
+ ],
+ "notes": [
+  "pdf gone: https://ndsf.no/files/Resultater2011/Veko2011/Resultatliste.pdf",
+  "pdf gone: https://ndsf.no/files/Resultater2011/Veko2011/Kvalifisering.pdf",
+  "pdf gone: https://ndsf.no/files/Resultater2011/Veko2011/repacharge.pdf",
+  "pdf gone: https://ndsf.no/files/Resultater2011/Veko2011/FINAL.pdf"
+ ],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "text (Qualification: Clikk here)",
+   "results": [
+    {
+     "place": 38,
+     "name": "Repacharge heats: Clikk here",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 64,
+     "name": "Final Heats: Clikk here",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

@@ -1,0 +1,86 @@
+EKSTREMSPORTVEKO
+
+NDSF Norgescup 2 - 27-28-06.2012
+
+Plass  Navn                        Poeng
+  1    Adam Persson                316,87
+  2    Sanne Christopher           304,63
+  3    Jørundland Trygve           298,82
+  4    Ottesen Herman              293,53
+  5    Jancey Adrian               288,62
+  6    Sunde Torbjørn              284,03
+  7    Unsvåg Matias               279,71
+  8    Lundberg Erik               275,61
+  9    Coleman Luca                271,70
+ 10    Søkjer-Petersen Gudmundur   267,95
+ 11    Guneriussen Audun           264,35
+ 12    Hørthe Alexander            260,89
+ 13    Patricksson Axel            257,54
+ 14    Borg Mattias                254,30
+ 15    Patricksson Henning Philip  251,15
+ 16    Baxter Julian               248,09
+ 17    Hasselberg Simon            245,12
+ 18    Moe Lasse                   242,22
+ 19    Waal Andreas                239,39
+ 20    Espeseter Morten            236,62
+ 21    Terblanch Terry             233,92
+ 22    Kvarekvål Elias             231,27
+ 23    Jørgensen Marius T          228,68
+ 24    Giskehaug Vegard            226,13
+ 25    Anderssen Kim               223,64
+ 26    Eliassen Steffen            221,19
+ 27    Lyngaas Alex
+ 28    Croizer Nico                   0
+ 29    Larsen Victor Bo            216,41
+ 30    Drageseth Jens              214,08
+ 31    Henriksen Hans Kristian     211,79
+ 32    Engstrand Kristina          209,53
+ 33    Nas Ali                     207,31
+ 34    Jacobsen Fredric            205,11
+ 35    Bru Andreas                 202,95
+ 36    Miller Emile                200,82
+ 37    Aijala Mikko                198,72
+ 38    Fønseth Roar                196,64
+ 39    Løseth Joakim               194,59
+ 40    Coward Gorgus               192,56
+ 41    Andersson Tommy             190,56
+ 42    Berven Fredrik              188,58
+ 43    Tangye Njaal                186,63
+ 44    Hustad Mats                 184,7
+ 45    Braa Sondre                 182,78
+ 46    Flodin Svante               180,89
+ 47    Dale Morten                 179,02
+ 48    Hodzic Aldin                177,17
+ 49    Gårdeløf Carl Johan         175,33
+ 50    Reinem Petter               173,52
+ 51    Baska Caspian               171,72
+ 52    Inde Anders                 169,94
+ 53    Westphal Dennis             168,17
+ 54    Eliassen Espen              166,42
+ 55    Einbu Erland                164,69
+ 56    Nelson Luke                 162,97
+ 57    Buene Erik                  161,27
+ 58    Nait Ayssa Yani             159,58
+ 59    Løvaas Daniel               157,91
+ 60    Tvete Vegard                156,25
+ 61    Troye Anders                154,6
+ 62    Schei Fridtjof              152,97
+ 63    Canerstam Niklas            151,35
+ 64    Grette Caspar               149,74
+ 65    Olsenlund Mikkel Are        148,14
+ 66    Lunde Christer              146,56
+ 67    Priestley Sam               144,98
+ 68    Alejandro Puente            143,42
+ 69    Johansen Birger             141,87
+ 70    Havnevik Kari               140,33
+ 71    Rustad Erkki                138,8
+ 72    Tveite Kenneth              137,29
+ 73    Hellesnes Pål Magnus        135,78
+ 74    Bjørkedal Kristian          134,28
+ 75    Askim Rune                  132,79
+ 76    Johnsrud Thor-Erik          131,32
+ 77    Bjertnes Thomas             129,85
+ 78    Johansen Christer           128,39
+ 79    Øverland Dan                126,94
+                                   125,5
+

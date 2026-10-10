@@ -3,7 +3,7 @@
 
 export interface Recent { id: string; name: string; club: string }
 
-const KEY = "rittresultater.sist";
+const KEY = "longboardresultater.sist";
 export const MAX_RECENT = 8;
 
 export function getRecent(): Recent[] {

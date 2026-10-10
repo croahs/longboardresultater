@@ -1,0 +1,44 @@
+{
+ "id": "2009-kongen-pa-haugen",
+ "name": "Kongen på Haugen",
+ "year": 2009,
+ "date": "2009-05-29",
+ "date_known": true,
+ "hill": "st-hanshaugen",
+ "sources": [
+  "https://ndsf.no/?p=595"
+ ],
+ "titles": [
+  "Kongen på Haugen 2009"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "text (Og en stoooooooor TAKK til Slipstream Lo)",
+   "results": [
+    {
+     "place": 1,
+     "name": "Christoffer Sanne",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Klaes Johansson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Trygve Flebu Jørundland",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

@@ -1,0 +1,19 @@
+{"_help": "One entry per hill. Set start and finish to [lat, lon] (right-click in Google Maps, copy the numbers), then run python3 tracks.py. center is only used to open the map near the hill before a track exists.",
+ "hills": [
+  {"id": "voss", "name": "Skjervet", "place": "Voss (Ekstremsportveko)", "center": [60.63, 6.42], "start": [60.584338, 6.639277], "finish": [60.585603, 6.646659]},
+  {"id": "volda", "name": "XBoard Volda", "place": "Volda", "center": [62.15, 6.07], "start": null, "finish": null},
+  {"id": "st-hanshaugen", "name": "St. Hanshaugen", "place": "Oslo (Kongen på Haugen)", "center": [59.925, 10.742], "start": null, "finish": null},
+  {"id": "lillehammer", "name": "Lillehammer", "place": "Lillehammer (TMI)", "center": [61.12, 10.47], "start": null, "finish": null},
+  {"id": "grefsenkollen", "name": "Grefsenkollen", "place": "Oslo", "center": [59.955, 10.8], "start": null, "finish": null},
+  {"id": "beitostolen", "name": "Beitostølen", "place": "Beitostølen", "center": [61.25, 8.91], "start": [61.252578, 8.903781], "finish": [61.249641, 8.904081]},
+  {"id": "rullestadjuvet", "name": "Rullestadjuvet", "place": "Etne", "center": [59.8, 6.44], "start": [59.878415, 6.460428], "finish": [59.873435, 6.455224]},
+  {"id": "barmen", "name": "Barmen", "place": "unknown", "center": null, "start": null, "finish": null},
+  {"id": "granasen", "name": "Granåsen", "place": "Trondheim", "center": [63.38, 10.31], "start": null, "finish": null},
+  {"id": "valleras", "name": "Vallerås", "place": "unknown", "center": null, "start": null, "finish": null},
+  {"id": "tryvann", "name": "Tryvann", "place": "Oslo", "center": [59.98, 10.67], "start": null, "finish": null},
+  {"id": "hoddevik", "name": "Hoddevik", "place": "Stad", "center": [62.11, 5.05], "start": [62.115125, 5.197241], "finish": [62.116449, 5.191426]},
+  {"id": "kdf", "name": "KDF", "place": "unknown", "center": null, "start": null, "finish": null},
+  {"id": "djupdalsveien", "name": "Djupdalsveien", "place": "Drammen", "center": [59.75, 10.17], "start": null, "finish": null},
+  {"id": "skyggen", "name": "Skyggen", "place": "unknown", "center": null, "start": null, "finish": null},
+  {"id": "graveyard", "name": "The Graveyard Call", "place": "unknown", "center": null, "start": null, "finish": null}
+ ]}

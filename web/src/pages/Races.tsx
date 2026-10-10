@@ -1,110 +1,65 @@
-import { Fragment, useEffect, useMemo, useState } from "react";
-import { findRace, flags, raceLists, years, type Athlete, type PointsRace, type RaceType, type Result } from "../data";
-import { TYPE_LABEL, TYPE_VAR, dateLong, dec, fold, hms, pct } from "../format";
-import { SelChip, raceKey, useSel } from "../state";
-import { Icon } from "../ui";
-import { KlasseToggle } from "../klasse";
-import RaceVideos from "../RaceVideos";
-import { openRace } from "./Race";
+import { useMemo, useState } from "react";
+import { years, type Athlete, type RaceType, type Result } from "../data";
+import { TYPE_LABEL, clock, dateLong, fold, pct } from "../format";
+import { href } from "../nav";
+import { useSel } from "../state";
+import { Beaten, Cls, Icon } from "../ui";
 
-type SortKey = "date" | "beaten" | "behind" | "np";
+/* Every race the rider has placed in, as a sortable table. A race links to its full result list. */
+
+type SortKey = "date" | "beaten" | "place";
 
 export default function Races({ a }: { a: Athlete }) {
-  const { sel, setSel, season, setSeason } = useSel();
+  const { season, setSeason } = useSel();
   const ys = years(a);
   const [q, setQ] = useState("");
   const [type, setType] = useState<RaceType | "all">("all");
   const [sort, setSort] = useState<{ k: SortKey; desc: boolean }>({ k: "date", desc: true });
-  const pv = a.points.some((p) => p.video);
-  const media = a.results.some((r) => r.videos?.length); // videos riders shared from the race, whoever made them
-  const [open, setOpen] = useState<string | null>(null);
   const types = [...new Set(a.results.map((r) => r.type))];
-  // The whole result list behind each race, where we have one: a tap on the race opens it.
-  const [lists, setLists] = useState<Map<string, string>>(new Map());
-  useEffect(() => {
-    let live = true;
-    raceLists().then((l) => live && setLists(new Map(a.results.flatMap((r) => { const x = findRace(l, r); return x ? [[raceKey(r), x.id] as const] : []; })))).catch(() => {});
-    return () => { live = false; };
-  }, [a]);
   const rows = useMemo(() => {
     const s = fold(q.trim());
-    const val = (r: Result) => (sort.k === "date" ? r.date : sort.k === "beaten" ? r.beaten : sort.k === "behind" ? r.behind ?? 999 : r.np ?? -1);
-    return a.results.filter((r) => (season === "all" || r.year === season) && (type === "all" || r.type === type) && (!s || fold(`${r.race} ${r.year}`).includes(s)))
+    const val = (r: Result) => (sort.k === "date" ? r.date : sort.k === "beaten" ? r.beaten : r.place);
+    return a.results.filter((r) => (season === "all" || r.year === season) && (type === "all" || r.type === type) && (!s || fold(`${r.race} ${r.year} ${r.cls}`).includes(s)))
       .sort((x, y) => { const d = val(x) < val(y) ? -1 : val(x) > val(y) ? 1 : 0; return sort.desc ? -d : d; });
   }, [a, q, type, sort, season]);
-  const th = (k: SortKey, label: string) => (
-    <th aria-sort={sort.k === k ? (sort.desc ? "descending" : "ascending") : "none"}>
-      <button type="button" onClick={() => setSort((s) => ({ k, desc: s.k === k ? !s.desc : k !== "behind" }))}>{label}{sort.k === k ? (sort.desc ? " ↓" : " ↑") : ""}</button>
+  const th = (k: SortKey, label: string, cls = "") => (
+    <th className={cls} aria-sort={sort.k === k ? (sort.desc ? "descending" : "ascending") : "none"}>
+      <button type="button" onClick={() => setSort((s) => ({ k, desc: s.k === k ? !s.desc : k !== "place" }))}>{label}{sort.k === k ? (sort.desc ? " ↓" : " ↑") : ""}</button>
     </th>
   );
   return (
     <>
-      <div><h1 className="h-display">Alle ritt</h1><p className="lead">Alle rittene rytteren har kjørt. Trykk på en kolonne for å sortere, og på et ritt for å se hele resultatlisten.</p><SelChip /></div>
+      <div className="section-head"><div><p className="eyebrow">Hele listen</p><h2 className="h-section">Alle race</h2><p className="lead">Trykk på en kolonne for å sortere, og på et race for hele resultatlisten.</p></div></div>
       <section className="card">
         <div className="toolbar">
-          <input type="search" id="race-filter" placeholder="Filtrer på rittnavn" aria-label="Filtrer på rittnavn" value={q} onChange={(e) => setQ(e.target.value)} />
-          <KlasseToggle />
-          <div className="chips" role="group" aria-label="Rittype">
-            <button type="button" className="chip" aria-pressed={type === "all"} onClick={() => setType("all")}>Alle typer</button>
+          <input type="search" placeholder="Filtrer på navn" aria-label="Filtrer på navn" value={q} onChange={(e) => setQ(e.target.value)} />
+          <div className="chips" role="group" aria-label="Klasse">
+            <button type="button" className="chip" aria-pressed={type === "all"} onClick={() => setType("all")}>Alle</button>
             {types.map((t) => <button key={t} type="button" className="chip" aria-pressed={type === t} onClick={() => setType(t)}>{TYPE_LABEL[t]}</button>)}
           </div>
           {ys.length > 1 && <div className="chips" role="group" aria-label="År">
             {(["all", ...ys] as const).map((y) => <button key={y} type="button" className="chip" aria-pressed={season === y} onClick={() => setSeason(y)}>{y === "all" ? "Alle år" : y}</button>)}
           </div>}
-          <span className="muted tnum" style={{ marginLeft: "auto" }}>{rows.length} av {a.results.length}</span>
+          <span className="muted tnum count">{rows.length} av {a.results.length}</span>
         </div>
-        {rows.length === 0 ? <div className="empty"><b>Ingen ritt passer filteret</b><button className="btn" onClick={() => { setQ(""); setType("all"); setSeason("all"); }}>Nullstill filter</button></div> : (
-          <div className="table-wrap"><table className="sticky">
-            <thead><tr><th className="l">Ritt</th><th>Plass</th>{th("beaten", "Slått")}{th("behind", "Bak vinner")}{th("date", "Dato")}<th className="l">Type</th><th>Tid</th><th>Km</th><th>Fart</th>{a.power && th("np", "NP")}{a.power && <th>Snitt W</th>}{media && <th>Media</th>}<th>Lenker</th></tr></thead>
-            <tbody>{rows.map((r) => {
-              const k = raceKey(r), n = r.videos?.length || 0, list = lists.get(k);
-              // With a result list, a tap opens it; without one, it selects the race for the other tabs as before.
-              const act = () => (list ? openRace(list) : setSel(sel === k ? null : k));
-              return (
-                <Fragment key={k}>
-                <tr aria-selected={sel === k} tabIndex={0} style={{ cursor: "pointer" }} onClick={act}
-                  onKeyDown={(e) => { if (e.key === "Enter" || e.key === " ") { e.preventDefault(); act(); } }}>
-                  <td className="l">{list
-                    ? <a className="race-link" href={`#/ritt/${encodeURIComponent(list)}`} onClick={(e) => e.stopPropagation()} title={`Hele resultatlisten for ${r.race} ${r.year}`}><b style={{ fontWeight: 600 }}>{r.race}</b> <span className="muted">{r.year}</span></a>
-                    : <><b style={{ fontWeight: 600 }}>{r.race}</b> <span className="muted">{r.year}</span></>}</td>
-                  <td>{r.place}/{r.field}{r.agePlace ? <span className="muted age"> ({r.agePlace}/{r.ageN} {r.ageClass})</span> : null}</td>
-                  <td>{pct(r.beaten)}</td><td>{pct(r.behind)}</td>
-                  <td>{dateLong(r.date)}</td>
-                  <td className="l"><span className="swatch"><span className="dot" style={{ background: TYPE_VAR[r.type] }} />{TYPE_LABEL[r.type]}{r.cls ? ` · ${r.cls}` : ""}</span></td>
-                  <td>{hms(r.time)}</td><td>{dec(r.km)}</td><td>{dec(r.speed)}</td>
-                  {a.power && <td>{r.np ? (r.icu && flags.activityLinks ? <a href={r.icu} target="_blank" rel="noopener" onClick={(e) => e.stopPropagation()}>{r.np}</a> : r.np) : "–"}</td>}
-                  {a.power && <td>{r.ap ?? "–"}</td>}
-                  {media && <td className="links">{n > 0 && <button type="button" className="vid media-btn" aria-expanded={open === k} title={n === 1 ? "Video fra rittet" : `${n} videoer fra rittet`}
-                    aria-label={`${n === 1 ? "Video" : `${n} videoer`} fra ${r.race} ${r.year}`} onClick={(e) => { e.stopPropagation(); setOpen(open === k ? null : k); }}><Icon.play />{n > 1 && <span>{n}</span>}</button>}</td>}
-                  <td className="links">{r.link ? <a href={r.link} target="_blank" rel="noopener" aria-label={`Resultatliste for ${r.race} ${r.year}`} onClick={(e) => e.stopPropagation()}>↗</a> : ""}</td>
-                </tr>
-                {open === k && <tr className="media-row"><td colSpan={99}><RaceVideos videos={r.videos} race={`${r.race} ${r.year}`} autoOpen /></td></tr>}
-                </Fragment>
-              );
-            })}</tbody>
+        {rows.length === 0 ? <div className="empty"><b>Ingen race passer filteret</b><button className="btn" onClick={() => { setQ(""); setType("all"); setSeason("all"); }}>Nullstill</button></div> : (
+          <div className="table-wrap"><table className="sheet races">
+            <thead><tr>{th("date", "Dato", "l")}<th className="l">Race</th><th className="l">Klasse</th>{th("place", "Plass")}{th("beaten", "Slo", "l")}<th>Tid</th><th>Bak</th><th></th></tr></thead>
+            <tbody>{rows.map((r) => (
+              <tr key={r.raceId + r.basis} className={`type-${r.type}`}>
+                <td className="l muted nowrap">{dateLong(r.date)}</td>
+                <td className="l"><a href={href.race(r.raceId)}><b>{r.race}</b> <span className="muted">{r.year}</span></a></td>
+                <td className="l"><Cls type={r.type} cls={r.cls} /></td>
+                <td className="tnum"><b>{r.place}</b><span className="muted">/{r.field}</span></td>
+                <td className="l beaten-cell"><Beaten v={r.beaten} /><span className="tnum">{Math.round(r.beaten)} %</span></td>
+                <td className="tnum">{r.time != null ? clock(r.time) : <span className="muted">–</span>}</td>
+                <td className="tnum muted">{r.behind != null && r.behind > 0 ? pct(r.behind, 1) : ""}</td>
+                <td className="links">{r.video && <a href={r.video} target="_blank" rel="noopener" aria-label="Video" title="Video"><Icon.play /></a>}{r.link && <a href={r.link} target="_blank" rel="noopener" aria-label={`Kilden for ${r.race} ${r.year}`} title="Kilden"><Icon.out /></a>}</td>
+              </tr>
+            ))}</tbody>
           </table></div>
         )}
       </section>
-      {a.points.length > 0 && (
-        <section className="card">
-          <div className="card-pad"><h2 className="h-card">Poengritt</h2><p className="note" style={{ margin: "4px 0 0" }}>SSK Cup og kermesse telles i poeng, ikke tid, og er ikke med i plasseringstallene over. Kermesse-listene har ofte bare dem som fikk poeng, så de uten poeng deler plassene etter dem. Watt og fart gjelder bare selve rittet.</p></div>
-          <div className="table-wrap"><table className="sticky">
-            <thead><tr><th className="l">Ritt</th><th>Dato</th><th className="l">Klasse</th><th>Plass</th><th>Poeng</th><th>Runder</th><th>Tid</th><th>Fart</th><th>NP</th><th>Snitt W</th>{pv && <th>Video</th>}</tr></thead>
-            <tbody>{a.points.map((p) => (
-              <tr key={p.date}><td>{p.name}</td><td>{dateLong(p.date)}</td><td className="l">{p.cls}</td>
-                <td>{placeText(p)}</td><td>{p.pts ? `${p.pts} (vinner ${p.win})` : "–"}</td><td>{p.laps}</td><td>{p.time}</td><td>{p.speed}</td><td>{p.np}</td><td>{p.ap}</td>
-                {pv && <td className="links">{p.video && <a className="vid" href={p.video} target="_blank" rel="noopener" title="Video fra rittet" aria-label={`Video fra ${p.name}`}><Icon.play /></a>}</td>}</tr>
-            ))}</tbody>
-          </table></div>
-        </section>
-      )}
     </>
   );
-}
-
-/** "3/10", or "7–53 av 53 (delt)" for riders without points who share the places after the scorers. */
-function placeText(p: PointsRace) {
-  if (!p.place) return "Datt av";
-  const m = p.place.match(/^(\d+)-(\d+)/);
-  return m ? `${m[1]}–${m[2]} av ${p.n} (delt)` : `${p.place}/${p.n}`;
 }

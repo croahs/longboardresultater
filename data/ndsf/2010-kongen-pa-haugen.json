@@ -1,0 +1,54 @@
+{
+ "id": "2010-kongen-pa-haugen",
+ "name": "Kongen på Haugen",
+ "year": 2010,
+ "date": "2010-03-20",
+ "date_known": true,
+ "hill": "st-hanshaugen",
+ "sources": [
+  "https://ndsf.no/?p=561"
+ ],
+ "titles": [
+  "Kongen på Haugen 2010 – Resultater"
+ ],
+ "notes": [
+  "pdf gone: https://ndsf.no/files/KPH 2010 Resultater med poeng ikke medlemmer.pdf",
+  "pdf gone: https://ndsf.no/files/KPH 2010 Heats ikke medlemmer.pdf",
+  "pdf gone: https://ndsf.no/files/KPH 2010 Kvaltider uten medlemmer.pdf"
+ ],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "text (2010-03-20 00:00:00)",
+   "results": [
+    {
+     "place": 1,
+     "name": "Trygve Jørundland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Alex Hørthe",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Håkon Wegge",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Kim Anderssen",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

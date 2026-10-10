@@ -1,0 +1,64 @@
+{
+ "id": "2008-hoddevik",
+ "name": "Hoddevik",
+ "year": 2008,
+ "date": "2008-08-25",
+ "date_known": true,
+ "hill": "hoddevik",
+ "sources": [
+  "https://ndsf.no/?p=514"
+ ],
+ "titles": [
+  "Hoddevik 2008"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "text (Menn)",
+   "results": [
+    {
+     "place": 1,
+     "name": "Mikael Sjødal Jensen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Alex Lyngaas",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Tryggve Jørunlund",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "text (Kvinner)",
+   "results": [
+    {
+     "place": 1,
+     "name": "Carolina Bodin",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Melissa Pope",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

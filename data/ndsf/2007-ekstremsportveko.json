@@ -1,0 +1,50 @@
+{
+ "id": "2007-ekstremsportveko",
+ "name": "Ekstremsportveko",
+ "year": 2007,
+ "date": "2007-08-28",
+ "date_known": true,
+ "hill": "voss",
+ "sources": [
+  "https://ndsf.no/?p=557"
+ ],
+ "titles": [
+  "Ekstremsportveko 2007"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "text (Resultater:)",
+   "results": [
+    {
+     "place": 1,
+     "name": "Jørgen Stokke Halvorsen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Morten Bechstrøm",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Alex Lyngaas",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Cato Lægreid",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

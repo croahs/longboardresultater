@@ -1,70 +1,73 @@
-import { Fragment, useEffect, useMemo, useState } from "react";
-import { loadVideos, raceLists, videosFor, type IndexRider, type RaceList, type RaceVideo, type VideoFile } from "../data";
-import { TYPE_LABEL, TYPE_VAR, clock, clsLabel, dateLong } from "../format";
-import { KlasseToggle, useKlasse } from "../klasse";
-import RaceVideos from "../RaceVideos";
-import { Icon } from "../ui";
+import { useEffect, useMemo, useState } from "react";
+import { hills, loadVideos, raceLists, videosFor, type Hill, type IndexRider, type RaceList, type VideoFile } from "../data";
+import { TYPE_LABEL, clock, dateLong } from "../format";
+import { KlasseProvider, KlasseToggle } from "../klasse";
+import { href } from "../nav";
+import { Sources } from "../sources";
+import { Cls, Empty, Icon, Loading } from "../ui";
 
-/* One race's whole result list (data/races.json), for anyone: «Åpen» is everybody, «Kvinner» the women only,
-   placed among themselves. DNF comes after everyone who finished. */
-/** Opens a race's result list (App reads the hash). */
-export const openRace = (id: string) => { location.hash = `#/ritt/${encodeURIComponent(id)}`; };
+/* One result list, for anyone: «Åpen» is everybody, «Kvinner» the women placed among themselves.
+   DNF comes after everyone who finished. Other lists from the same event sit under it. */
 
-export default function Race({ id, index, onRider }: { id: string; index: IndexRider[]; onRider: (id: string) => void }) {
-  const [race, setRace] = useState<RaceList | null | undefined>(undefined);
-  const { women } = useKlasse();
-  useEffect(() => { let live = true; raceLists().then((l) => live && setRace(l.find((r) => r.id === id) ?? null)).catch(() => live && setRace(null)); return () => { live = false; }; }, [id]);
-  const known = useMemo(() => new Set(index.map((r) => r.id)), [index]);
-  // Riders' own videos from this race (data/videos.json), shown by their name.
+export default function Race({ id, index }: { id: string; index: IndexRider[] }) {
+  const [all, setAll] = useState<RaceList[] | null>(null);
+  const [women, setWomen] = useState(false);
   const [vfile, setVfile] = useState<VideoFile | null>(null);
-  const [open, setOpen] = useState<string | null>(null);
-  useEffect(() => { let live = true; loadVideos().then((f) => live && setVfile(f)); return () => { live = false; }; }, []);
+  const [hs, setHs] = useState<Hill[]>([]);
+  useEffect(() => { let live = true; raceLists().then((l) => live && setAll(l)).catch(() => live && setAll([])); loadVideos().then((f) => live && setVfile(f)); hills().then((h) => live && setHs(h)).catch(() => {}); return () => { live = false; }; }, []);
+  const race = all?.find((r) => r.id === id);
+  const siblings = useMemo(() => (race ? all!.filter((r) => r.event === race.event && r.id !== race.id) : []), [all, race]);
+  const known = useMemo(() => new Set(index.map((r) => r.id)), [index]);
   const vids = useMemo(() => new Map(race ? videosFor(vfile, race.date, race.name).map((v) => [v.rid, v.url]) : []), [vfile, race]);
   const rows = useMemo(() => {
     if (!race) return [];
-    const pick = race.rows.filter((r) => !women || r[6] === "K");
-    const done = pick.filter((r) => r[5] != null).sort((a, b) => a[5]! - b[5]!);
-    return [...done, ...pick.filter((r) => r[5] == null)];
+    const pick = race.rows.filter((r) => !women || r[4] === "K");
+    const done = pick.filter((r) => r[2] != null).sort((a, b) => a[2]! - b[2]!);
+    return [...done, ...pick.filter((r) => r[2] == null)];
   }, [race, women]);
-  if (race === undefined) return <div className="loading">Henter resultatlisten …</div>;
-  if (!race) return <div className="card empty"><b>Fant ikke rittet</b></div>;
-  const best = rows[0]?.[5] ?? null;
-  const finished = rows.filter((r) => r[5] != null).length;
-  const name = race.name.replace(/\s+20\d\d$/, "");
+  if (all === null) return <Loading what="resultatlisten" />;
+  if (!race) return <Empty title="Fant ikke racet"><a href={href.home()}>Til forsiden</a></Empty>;
+  const hill = hs.find((h) => h.id === race.hill);
+  const finished = rows.filter((r) => r[2] != null).length;
+  const best = rows[0]?.[3] ?? null;
+  const timed = race.format === "timed";
+  const hasWomen = race.type !== "Women" && race.rows.some((r) => r[4] === "K");
   return (
-    <section className="race-page" aria-labelledby="h-race">
-      <div className="section-head">
-        <div>
-          <p className="eyebrow" style={{ color: TYPE_VAR[race.type] }}>{TYPE_LABEL[race.type]} · {dateLong(race.date)}{race.distance_km ? ` · ${Math.round(race.distance_km)} km` : ""}</p>
-          <h1 className="h-display" id="h-race">{name} {race.date.slice(0, 4)}</h1>
-          <p className="lead">{women ? `${finished} kvinner i mål` : `${finished} i mål`}{rows.length > finished ? `, ${rows.length - finished} DNF` : ""}. {women ? "Plassene er regnet blant kvinnene." : "Alle klasser i samme liste."}{race.turritt && <> <a href={race.turritt} target="_blank" rel="noopener">Original resultatliste</a>.</>}</p>
+    <KlasseProvider value={{ on: hasWomen, women, setWomen }}>
+      <section className="race-page" aria-labelledby="h-race">
+        <div className={`section-head type-${race.type}`}>
+          <div>
+            <p className="eyebrow"><span className="type-dot" /> {TYPE_LABEL[race.type]} · {race.date_known ? dateLong(race.date) : race.date.slice(0, 4)}{hill && <> · <a href={href.hill(hill.id)}>{hill.name}</a></>}</p>
+            <h1 className="h-display" id="h-race">{race.name} <span className="muted">{race.date.slice(0, 4)}</span></h1>
+            <p className="race-cls"><Cls type={race.type} cls={race.cls} big /></p>
+            <p className="lead">{women ? `${finished} kvinner i mål` : `${finished} i mål`}{rows.length > finished ? `, ${rows.length - finished} DNF` : ""}. {timed ? "Rangert på tid." : "Plassering fra heatene."}{women ? " Plassene er regnet blant kvinnene." : ""}</p>
+          </div>
+          <div className="filters"><KlasseToggle />{race.url && <a className="btn ghost" href={race.url} target="_blank" rel="noopener">Kilden <Icon.out /></a>}</div>
         </div>
-        <div className="filters"><KlasseToggle /></div>
-      </div>
-      {rows.length === 0 ? <div className="card empty"><b>{women ? "Ingen kvinner i denne resultatlisten" : "Tom resultatliste"}</b></div> : (
-        <div className="card"><div className="table-wrap"><table className="sticky race-table">
-          <thead><tr><th>Plass</th><th className="l">Rytter</th><th>Tid</th><th>Bak</th><th className="l">Klubb</th><th className="l">Klasse</th></tr></thead>
-          <tbody>{rows.map((r, i) => {
-            const t = r[5], down = r[7], shown = down ? r[8]! : t;
-            return (
-              <Fragment key={`${r[0]}-${i}`}>
-              <tr>
-                <td className="tnum">{t == null ? "DNF" : i + 1}</td>
-                <td className="l">{known.has(r[0]) ? <button type="button" className="linkish" onClick={() => onRider(r[0])}>{r[1]}</button> : r[1]}
-                  {vids.has(r[0]) && <button type="button" className="vid media-btn name-vid" aria-expanded={open === r[0]} title={`Video fra ${r[1]}`} aria-label={`Video fra ${r[1]}`}
-                    onClick={() => setOpen(open === r[0] ? null : r[0])}><Icon.play /></button>}</td>
-                <td className="tnum">{shown == null ? "–" : clock(shown)}</td>
-                <td className="tnum muted">{down ? `−${down} ${down === 1 ? "runde" : "runder"}` : t == null || best == null || i === 0 ? "" : `+${clock(t - best)}`}</td>
-                <td className="l muted">{r[2]}</td>
-                <td className="l muted">{clsLabel(r[4] || r[3])}</td>
-              </tr>
-              {open === r[0] && vids.has(r[0]) && <tr className="media-row"><td colSpan={99}>
-                <RaceVideos videos={[{ rid: r[0], by: r[1], url: vids.get(r[0])!, own: false } satisfies RaceVideo]} race={`${name} ${race.date.slice(0, 4)}`} autoOpen /></td></tr>}
-              </Fragment>
-            );
-          })}</tbody>
-        </table></div></div>
-      )}
-    </section>
+        {rows.length === 0 ? <Empty title={women ? "Ingen kvinner i denne listen" : "Tom resultatliste"} /> : (
+          <div className="card table-wrap"><table className="sheet results">
+            <thead><tr><th>Plass</th><th className="l">Kjører</th>{timed && <><th>Tid</th><th>Bak</th></>}<th></th></tr></thead>
+            <tbody>{rows.map((r, i) => {
+              const t = r[3], dnf = r[2] == null, place = women ? i + 1 : r[2]; // among the women we rank ourselves; otherwise the sheet's own place, ties included
+              return (
+                <tr key={`${r[0]}-${i}`} className={!dnf && place! <= 3 ? `podium p${place}` : dnf ? "dnf" : ""}>
+                  <td className="tnum place">{dnf ? "DNF" : place}</td>
+                  <td className="l">{known.has(r[0]) ? <a href={href.rider(r[0])}>{r[1]}</a> : r[1]}{r[4] === "K" && !women && race.type !== "Women" && <small className="muted"> K</small>}</td>
+                  {timed && <><td className="tnum">{t == null ? "–" : clock(t)}</td><td className="tnum muted">{t == null || best == null || i === 0 ? "" : `+${clock(t - best)}`}</td></>}
+                  <td className="links">{vids.has(r[0]) && <a href={vids.get(r[0])} target="_blank" rel="noopener" aria-label={`Video fra ${r[1]}`} title="Video"><Icon.play /></a>}</td>
+                </tr>
+              );
+            })}</tbody>
+          </table></div>
+        )}
+        {siblings.length > 0 && (
+          <div className="siblings">
+            <p className="eyebrow">Andre klasser i {race.name} {race.date.slice(0, 4)}</p>
+            <ul>{siblings.map((r) => <li key={r.id} className={`type-${r.type}`}><a href={href.race(r.id)}><b><i className="type-dot" /> {r.cls}</b><span className="muted">{TYPE_LABEL[r.type] !== r.cls ? `${TYPE_LABEL[r.type]} · ` : ""}{r.rows.length} kjørere</span></a></li>)}</ul>
+          </div>
+        )}
+        <p className="fine">Fra <Sources />. {timed ? "Tider er som i kildelisten." : "Heat-formatet gir bare plasseringen, ikke tid."}</p>
+      </section>
+    </KlasseProvider>
   );
 }

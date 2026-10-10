@@ -1,0 +1,43 @@
+XBOARD Volda
+
+NDSF Norgescup 1 - 13.04.2013
+
+Plass  Navn                     Poeng
+  1    Ali Nas                  316,87
+  2    Sondre Selander          304,63
+  3    Emile Eknes Miller       298,82
+  4    Trygve Flebu Jørundland  293,53
+  5    Johan Simonsen           288,62
+  6    Julian Baxter            284,03
+  7    Aldin Hodzic             279,71
+  8    Simon Hasselberg         275,61
+  9    Andreas Waal             271,70
+ 10    Jens Dragseth Dyrland    267,95
+ 11    Roar Fønseth             264,35
+ 12    Caspar Grette            260,89
+ 13    Mikal "Kula" Jensen      257,54
+ 14    Marius T. Jørgensen      254,30
+ 15    Morten Espeseter         251,15
+ 16    Sondre Braa              248,09
+ 17    Lasse Morin              245,12
+ 18    Cedric Cornell           242,22
+ 19    Jorund Brattset          239,39
+ 20    Einar kvam               236,62
+ 21    Joakim Løseth            233,92
+ 22    Joakim Strømmen          231,27
+ 23    Kristian Bjørkedal       228,68
+ 24    Espen Eliassen           226,13
+ 25    Andreas Bruu             223,64
+ 26    Johan Sebastian Myhre    221,19
+ 27    Matias Bjørkedal         218,78
+ 28    Hans Kristian Henriksen  216,41
+ 29    Alexander Teilgård       214,08
+ 30    Leif Arne Hatlem         211,79
+ 31    Daniel Heltne            209,53
+ 32    Nicolas Eriksen          207,31
+ 33    Ole Marius Langlo        205,11
+ 34    Håkon Heltne             202,95
+ 35    Sigbjørn Melvær          200,82
+ 36    Andreas Sandnes
+                                 DNS
+

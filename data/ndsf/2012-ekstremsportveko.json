@@ -1,0 +1,640 @@
+{
+ "id": "2012-ekstremsportveko",
+ "name": "Ekstremsportveko",
+ "year": 2012,
+ "date": "2012-07-12",
+ "date_known": true,
+ "hill": "voss",
+ "sources": [
+  "https://ndsf.no/?p=474"
+ ],
+ "titles": [
+  "Ekstremsportveko 2012 – Resultater"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "pdf https://ndsf.no/files/Resultater/2012/Ekstremsportveko/KvaltiderVeko2012.pdf",
+   "results": [
+    {
+     "place": 1,
+     "name": "Adam Persson",
+     "time": 98.75,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Lundberg Erik",
+     "time": 101.59,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Sanne Christopher",
+     "time": 101.82,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Sunde Torbjørn",
+     "time": 102.18,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Jancey Adrian",
+     "time": 102.27,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Jørundland Trygve",
+     "time": 102.96,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Coleman Luca",
+     "time": 103.04,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Ottesen Herman",
+     "time": 103.13,
+     "dnf": false
+    },
+    {
+     "place": 9,
+     "name": "Patricksson Axel",
+     "time": 103.85,
+     "dnf": false
+    },
+    {
+     "place": 10,
+     "name": "Borg Mattias",
+     "time": 103.98,
+     "dnf": false
+    },
+    {
+     "place": 11,
+     "name": "Guneriussen Audun",
+     "time": 104.15,
+     "dnf": false
+    },
+    {
+     "place": 12,
+     "name": "Anderssen Kim",
+     "time": 104.77,
+     "dnf": false
+    },
+    {
+     "place": 13,
+     "name": "Hasselberg Simon",
+     "time": 104.94,
+     "dnf": false
+    },
+    {
+     "place": 14,
+     "name": "Hørthe Alexander",
+     "time": 104.95,
+     "dnf": false
+    },
+    {
+     "place": 15,
+     "name": "Moe Lasse",
+     "time": 105.0,
+     "dnf": false
+    },
+    {
+     "place": 16,
+     "name": "Unsvåg Matias",
+     "time": 105.14,
+     "dnf": false
+    },
+    {
+     "place": 17,
+     "name": "Waal Andreas",
+     "time": 105.23,
+     "dnf": false
+    },
+    {
+     "place": 18,
+     "name": "Nas Ali",
+     "time": 105.23,
+     "dnf": false
+    },
+    {
+     "place": 19,
+     "name": "Jacobsen Fredric",
+     "time": 105.48,
+     "dnf": false
+    },
+    {
+     "place": 20,
+     "name": "Søkjer-Petersen Gudmundur",
+     "time": 105.91,
+     "dnf": false
+    },
+    {
+     "place": 21,
+     "name": "Bru Andreas",
+     "time": 105.91,
+     "dnf": false
+    },
+    {
+     "place": 22,
+     "name": "Patricksson Henning Philip",
+     "time": 106.68,
+     "dnf": false
+    }
+   ]
+  },
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "pdf https://ndsf.no/files/Resultater/2012/Ekstremsportveko/ResultatlisteVeko2012.pdf",
+   "results": [
+    {
+     "place": 1,
+     "name": "Adam Persson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Sanne Christopher",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Jørundland Trygve",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Ottesen Herman",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Jancey Adrian",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Sunde Torbjørn",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Unsvåg Matias",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Lundberg Erik",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 9,
+     "name": "Coleman Luca",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 10,
+     "name": "Søkjer-Petersen Gudmundur",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 11,
+     "name": "Guneriussen Audun",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 12,
+     "name": "Hørthe Alexander",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 13,
+     "name": "Patricksson Axel",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 14,
+     "name": "Borg Mattias",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 15,
+     "name": "Patricksson Henning Philip",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 16,
+     "name": "Baxter Julian",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 17,
+     "name": "Hasselberg Simon",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 18,
+     "name": "Moe Lasse",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 19,
+     "name": "Waal Andreas",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 20,
+     "name": "Espeseter Morten",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 21,
+     "name": "Terblanch Terry",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 22,
+     "name": "Kvarekvål Elias",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 23,
+     "name": "Jørgensen Marius T",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 24,
+     "name": "Giskehaug Vegard",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 25,
+     "name": "Anderssen Kim",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 26,
+     "name": "Eliassen Steffen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 27,
+     "name": "Lyngaas Alex",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 28,
+     "name": "Croizer Nico",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 29,
+     "name": "Larsen Victor Bo",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 30,
+     "name": "Drageseth Jens",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 31,
+     "name": "Henriksen Hans Kristian",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 32,
+     "name": "Engstrand Kristina",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 33,
+     "name": "Nas Ali",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 34,
+     "name": "Jacobsen Fredric",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 35,
+     "name": "Bru Andreas",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 36,
+     "name": "Miller Emile",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 37,
+     "name": "Aijala Mikko",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 38,
+     "name": "Fønseth Roar",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 39,
+     "name": "Løseth Joakim",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 40,
+     "name": "Coward Gorgus",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 41,
+     "name": "Andersson Tommy",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 42,
+     "name": "Berven Fredrik",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 43,
+     "name": "Tangye Njaal",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 44,
+     "name": "Hustad Mats",
+     "time": 184.7,
+     "dnf": false
+    },
+    {
+     "place": 45,
+     "name": "Braa Sondre",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 46,
+     "name": "Flodin Svante",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 47,
+     "name": "Dale Morten",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 48,
+     "name": "Hodzic Aldin",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 49,
+     "name": "Gårdeløf Carl Johan",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 50,
+     "name": "Reinem Petter",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 51,
+     "name": "Baska Caspian",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 52,
+     "name": "Inde Anders",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 53,
+     "name": "Westphal Dennis",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 54,
+     "name": "Eliassen Espen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 55,
+     "name": "Einbu Erland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 56,
+     "name": "Nelson Luke",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 57,
+     "name": "Buene Erik",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 58,
+     "name": "Nait Ayssa Yani",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 59,
+     "name": "Løvaas Daniel",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 60,
+     "name": "Tvete Vegard",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 61,
+     "name": "Troye Anders",
+     "time": 154.6,
+     "dnf": false
+    },
+    {
+     "place": 62,
+     "name": "Schei Fridtjof",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 63,
+     "name": "Canerstam Niklas",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 64,
+     "name": "Grette Caspar",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 65,
+     "name": "Olsenlund Mikkel Are",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 66,
+     "name": "Lunde Christer",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 67,
+     "name": "Priestley Sam",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 68,
+     "name": "Alejandro Puente",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 69,
+     "name": "Johansen Birger",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 70,
+     "name": "Havnevik Kari",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 71,
+     "name": "Rustad Erkki",
+     "time": 138.8,
+     "dnf": false
+    },
+    {
+     "place": 72,
+     "name": "Tveite Kenneth",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 73,
+     "name": "Hellesnes Pål Magnus",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 74,
+     "name": "Bjørkedal Kristian",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 75,
+     "name": "Askim Rune",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 76,
+     "name": "Johnsrud Thor-Erik",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 77,
+     "name": "Bjertnes Thomas",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 78,
+     "name": "Johansen Christer",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 79,
+     "name": "Øverland Dan",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

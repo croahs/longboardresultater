@@ -1,0 +1,248 @@
+{
+ "id": "2015-kongen-pa-haugen",
+ "name": "Kongen på Haugen",
+ "year": 2015,
+ "date": "2015-06-01",
+ "date_known": true,
+ "hill": "st-hanshaugen",
+ "sources": [
+  "https://ndsf.no/?p=1303"
+ ],
+ "titles": [
+  "Kongen på Haugen 2015 – Resultater"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "sheet 1VROpJavS8jCvuQyGKgFrlN5Y_3o2przGHb2yl2YieLg / Resultater / Open",
+   "results": [
+    {
+     "place": 1,
+     "name": "Ali Nas",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Adrian Jancey",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Axel Patricksson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Henning P Partickson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Trygve Jørunland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Lars Mikalsen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Hansk Kristian Henriksen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Johannes Aalholm",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 9,
+     "name": "Magne Ørvik",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 10,
+     "name": "Hilmar Iversen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 11,
+     "name": "Sondre Selander",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 12,
+     "name": "Marius T Jørgensen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 13,
+     "name": "Elias Kvarekvål",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 14,
+     "name": "Johan Christensson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 15,
+     "name": "Jørun Brattset",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 16,
+     "name": "Morten Espeseter",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 17,
+     "name": "Kimbo",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 18,
+     "name": "Yani",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 19,
+     "name": "Simen Evensen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 20,
+     "name": "Christian Wiik",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 21,
+     "name": "Sølve Selander",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 22,
+     "name": "Roar Fønseth",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 23,
+     "name": "Mikkel tmi",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 24,
+     "name": "Christer Lunde",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 25,
+     "name": "Sonsoles Masia Sanchez",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 26,
+     "name": "Joel Hoholm",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 27,
+     "name": "Morten Forsberg",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 28,
+     "name": "Niklas Molander",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 29,
+     "name": "Sebastian Hoholm",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 30,
+     "name": "Jon Øverdahl",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 31,
+     "name": "Vegard Tvete",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 32,
+     "name": "Alex Hørthe",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 33,
+     "name": "Magnus Syvertsen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 34,
+     "name": "Magnus Kjelland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 35,
+     "name": "Espen H Hansen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 36,
+     "name": "Erland Hoholm",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 37,
+     "name": "Eymund Aadahl",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

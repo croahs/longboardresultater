@@ -1,30 +1,28 @@
 import type { RaceType } from "./data";
 
-export const TYPE_LABEL: Record<RaceType, string> = { Road: "Landevei", Gravel: "Grus", MTB: "Terreng", TT: "Tempo", TTT: "Lagtempo", Unknown: "Ukjent" };
-export const TYPE_LC: Record<RaceType, string> = { Road: "landevei", Gravel: "grus", MTB: "terreng", TT: "tempo", TTT: "lagtempo", Unknown: "ukjent type" };
-/** Class names from the timers in Norwegian: «CX/Gravel» reads «CX/Grus». Race names keep their own spelling. */
-export const clsLabel = <T extends string | null | undefined>(s: T): T => (s ? s.replace(/\bGravel\b/g, "Grus") : s) as T;
-export const TYPE_VAR: Record<RaceType, string> = { Road: "var(--road)", Gravel: "var(--gravel)", MTB: "var(--mtb)", TT: "var(--tt)", TTT: "var(--ttt)", Unknown: "var(--unknown)" };
+export const TYPE_LABEL: Record<RaceType, string> = { Open: "Open", Women: "Damer", Junior: "Junior", Masters: "Masters", Luge: "Luge", Adaptive: "Adaptive", Inline: "Inline", Other: "Annet" };
+export const TYPE_LC: Record<RaceType, string> = { Open: "open", Women: "damer", Junior: "junior", Masters: "masters", Luge: "luge", Adaptive: "adaptive", Inline: "inline", Other: "andre klasser" };
+export const TYPE_VAR: Record<RaceType, string> = { Open: "var(--open)", Women: "var(--women)", Junior: "var(--junior)", Masters: "var(--masters)", Luge: "var(--luge)", Adaptive: "var(--adaptive)", Inline: "var(--inline)", Other: "var(--other)" };
 
 const MON = ["jan", "feb", "mar", "apr", "mai", "jun", "jul", "aug", "sep", "okt", "nov", "des"];
 export const dateLong = (s: string) => { const [y, m, d] = s.split("-").map(Number); return `${d}. ${MON[m - 1]} ${y}`; };
 export const dateShort = (s: string) => { const [, m, d] = s.split("-").map(Number); return `${d}. ${MON[m - 1]}`; };
 
 export const pct = (v: number | null | undefined, digits = 0) =>
-  v === null || v === undefined || Number.isNaN(v) ? "–" : `${v.toFixed(digits).replace(".", ",")}\u00a0%`;
+  v === null || v === undefined || Number.isNaN(v) ? "–" : `${v.toFixed(digits).replace(".", ",")} %`;
 export const dec = (v: number | null | undefined, digits = 1) =>
   v === null || v === undefined || Number.isNaN(v) ? "–" : v.toFixed(digits).replace(".", ",");
-
-/** "00:21:44" -> "21:44", "01:28:08" -> "1:28:08" */
-export const hms = (t: string) => t.replace(/^00:/, "").replace(/^0(\d)/, "$1");
 
 /** "2025" or "2024–2026" */
 export const span = (ys: number[]) => (!ys.length ? "" : ys[0] === ys[ys.length - 1] ? String(ys[0]) : `${ys[0]}–${ys[ys.length - 1]}`);
 
-export const clock = (s: number) => {
-  s = Math.abs(Math.round(s));
-  const h = Math.floor(s / 3600), m = Math.floor(s / 60) % 60, x = s % 60;
-  return h ? `${h}:${String(m).padStart(2, "0")}:${String(x).padStart(2, "0")}` : `${m}:${String(x).padStart(2, "0")}`;
+/** Seconds as a race clock: 69.5 -> "1:09,50", 17.3 -> "17,30". Downhill runs are timed to the hundredth. */
+export const clock = (s: number | null | undefined) => {
+  if (s == null || Number.isNaN(s)) return "–";
+  const neg = s < 0; s = Math.abs(s);
+  const m = Math.floor(s / 60), x = s - m * 60;
+  const sec = x.toFixed(2).replace(".", ",");
+  return (neg ? "−" : "") + (m ? `${m}:${x < 10 ? "0" : ""}${sec}` : sec);
 };
 
 export const initials = (n: string) =>

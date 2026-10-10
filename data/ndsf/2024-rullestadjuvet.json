@@ -1,0 +1,302 @@
+{
+ "id": "2024-rullestadjuvet",
+ "name": "Rullestadjuvet",
+ "year": 2024,
+ "date": "2024-06-17",
+ "date_known": true,
+ "hill": "rullestadjuvet",
+ "sources": [
+  "https://ndsf.no/?p=3213"
+ ],
+ "titles": [
+  "Resultater – NM Rullestadjuvet"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "sheet e/2PACX-1vQwllSfCnkP2o64zO_UuhlIcY0xG9xHJFFoGtdrwCSzl0J5OZvJjBGerpxH7OLEIAeXsoDhVPyqjmMx / Ark 1",
+   "results": [
+    {
+     "place": 1,
+     "name": "Erlend Endresen",
+     "time": 69.5,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Jørund Bratset",
+     "time": 69.73,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Olav Øye",
+     "time": 70.04,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Peder Bruem",
+     "time": 70.13,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Njaal Eide Tangye",
+     "time": 70.47,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Jan-Petter Hammersland",
+     "time": 70.76,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Einar Kvam",
+     "time": 71.12,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Johannes Sagedal Aalholm",
+     "time": 71.14,
+     "dnf": false
+    },
+    {
+     "place": 9,
+     "name": "Jens Drageset Dydland",
+     "time": 71.39,
+     "dnf": false
+    },
+    {
+     "place": 10,
+     "name": "Erik Tørud",
+     "time": 71.41,
+     "dnf": false
+    },
+    {
+     "place": 11,
+     "name": "Per Mattis Fürst Holtmann",
+     "time": 72.37,
+     "dnf": false
+    },
+    {
+     "place": 12,
+     "name": "Peder Holterman Solland",
+     "time": 73.99,
+     "dnf": false
+    },
+    {
+     "place": 13,
+     "name": "Richard Moe",
+     "time": 78.35,
+     "dnf": false
+    },
+    {
+     "place": null,
+     "name": "Cedric Cornell",
+     "time": null,
+     "dnf": true
+    }
+   ]
+  },
+  {
+   "name": "Storslalåm",
+   "kind": "Other",
+   "format": "timed",
+   "source": "sheet e/2PACX-1vTGvxXiDOL8JBh0z7PhUZxzSrn65OQ7wdOmDIPdSuLeZwYt-Ukn0WpX813Gu5fHSL2bWJfNWevbQY-P / Tider / Rank",
+   "results": [
+    {
+     "place": 1,
+     "name": "Erlend Endresen",
+     "time": 20.59,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Jan Petter Hammersland",
+     "time": 20.77,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Johannes Sagedal Aalholm",
+     "time": 21.2,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Sander Viste Mehus",
+     "time": 21.44,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Njaal Eide Tangye",
+     "time": 21.46,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Peder Holtermann Solland",
+     "time": 21.8,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Olav Øye",
+     "time": 22.19,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Einar Kvam",
+     "time": 22.3,
+     "dnf": false
+    },
+    {
+     "place": 9,
+     "name": "Erik Tørud",
+     "time": 22.52,
+     "dnf": false
+    },
+    {
+     "place": 10,
+     "name": "Leif Ole Stampa-Johansen",
+     "time": 22.83,
+     "dnf": false
+    },
+    {
+     "place": 11,
+     "name": "Helge Vignal",
+     "time": 23.38,
+     "dnf": false
+    }
+   ]
+  },
+  {
+   "name": "NM Masters",
+   "kind": "Masters",
+   "format": "bracket",
+   "source": "sheet e/2PACX-1vSr-pPbu64lq999XQi25C8cYLo4zMNynqSN-zZ4Tw0xSQ2hSLkjvocn4I4nXdJIMLnIaSrODk0KWp8K / Masters / #",
+   "results": [
+    {
+     "place": 1,
+     "name": "Jan-Petter Hammersland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Einar Kvam",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Richard Moe",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Cedric Cornell",
+     "time": null,
+     "dnf": true
+    }
+   ]
+  },
+  {
+   "name": "NM Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "sheet e/2PACX-1vR-1PJ8eT9G7S0y3eaKFTLI5fCoenRlmMYyrbljdUSFfnouVZPivZgUxy9PVs3P1DIa6WJwKra2FylV / Results / FINAL RESULTS",
+   "results": [
+    {
+     "place": 1,
+     "name": "Jørund Bratset",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Erlend Endresen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Olav Øye",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Johannes Sagedal Aalholm",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Peder Bruem",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Jan-Petter Hammersland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Njaal Eide Tangye",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Erik Tørud",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 9,
+     "name": "Einar Kvam",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 10,
+     "name": "Jens Dragset Dydland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 11,
+     "name": "Peder Holterman Solland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 12,
+     "name": "Richard Moe",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 13,
+     "name": "Cedric Cornell",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

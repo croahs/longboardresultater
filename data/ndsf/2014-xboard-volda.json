@@ -1,0 +1,466 @@
+{
+ "id": "2014-xboard-volda",
+ "name": "XBoard Volda",
+ "year": 2014,
+ "date": "2014-04-07",
+ "date_known": true,
+ "hill": "volda",
+ "sources": [
+  "https://ndsf.no/?p=1047"
+ ],
+ "titles": [
+  "XBoard Volda – Resultater"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "sheet 1UWPRgD52UTZ53kiRE_wJueUP7hOE6g4sHpNP0UpLpJE / Resultater / Plassering",
+   "results": [
+    {
+     "place": 1,
+     "name": "Ali Nas",
+     "time": 129.72,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Trygve Flebu Jørundland",
+     "time": 131.19,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Alexander Hørthe",
+     "time": 130.28,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Henning Philip Patricksson",
+     "time": 130.87,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Herman Ottesen",
+     "time": 128.15,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Jørund Bratset",
+     "time": 132.44,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Emile Eknes Miller",
+     "time": 131.53,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Sondre Selander",
+     "time": 132.22,
+     "dnf": false
+    },
+    {
+     "place": 9,
+     "name": "Adrian Jancey",
+     "time": 128.0,
+     "dnf": false
+    },
+    {
+     "place": 10,
+     "name": "Aldin Hodzic",
+     "time": 133.1,
+     "dnf": false
+    },
+    {
+     "place": 11,
+     "name": "Magne Ørvik",
+     "time": 133.25,
+     "dnf": false
+    },
+    {
+     "place": 12,
+     "name": "Morten Espeseter",
+     "time": 134.84,
+     "dnf": false
+    },
+    {
+     "place": 13,
+     "name": "Roar Fønseth",
+     "time": 135.81,
+     "dnf": false
+    },
+    {
+     "place": 14,
+     "name": "Johannes Aalholm",
+     "time": 138.56,
+     "dnf": false
+    },
+    {
+     "place": 15,
+     "name": "Lucas Krown",
+     "time": 139.91,
+     "dnf": false
+    },
+    {
+     "place": 16,
+     "name": "Andreas Bru",
+     "time": 147.88,
+     "dnf": false
+    },
+    {
+     "place": 17,
+     "name": "Jens Drageset Dydland",
+     "time": 135.03,
+     "dnf": false
+    },
+    {
+     "place": 18,
+     "name": "Sondre Braa",
+     "time": 137.44,
+     "dnf": false
+    },
+    {
+     "place": 19,
+     "name": "Daniel Heltne",
+     "time": 140.63,
+     "dnf": false
+    },
+    {
+     "place": 20,
+     "name": "Leif Arne Hatlem",
+     "time": 143.0,
+     "dnf": false
+    },
+    {
+     "place": 21,
+     "name": "Joakim Strømmen",
+     "time": 143.75,
+     "dnf": false
+    },
+    {
+     "place": 22,
+     "name": "Aleksander Teilgård",
+     "time": 146.75,
+     "dnf": false
+    },
+    {
+     "place": 23,
+     "name": "Cedric Cornell",
+     "time": 149.59,
+     "dnf": false
+    },
+    {
+     "place": 24,
+     "name": "Håkon Heltne",
+     "time": 159.44,
+     "dnf": false
+    },
+    {
+     "place": 25,
+     "name": "Joakim Løseth",
+     "time": 142.25,
+     "dnf": false
+    },
+    {
+     "place": 26,
+     "name": "David Gjengedal",
+     "time": 149.84,
+     "dnf": false
+    },
+    {
+     "place": 27,
+     "name": "Ivar Boldvik",
+     "time": 153.59,
+     "dnf": false
+    },
+    {
+     "place": 28,
+     "name": "Geir Tom Aasen",
+     "time": 162.75,
+     "dnf": false
+    },
+    {
+     "place": 29,
+     "name": "John-Eirik Ose",
+     "time": 163.41,
+     "dnf": false
+    },
+    {
+     "place": 30,
+     "name": "Erik Evensen",
+     "time": 163.5,
+     "dnf": false
+    },
+    {
+     "place": 31,
+     "name": "Jan Ståle Eriksen",
+     "time": 163.82,
+     "dnf": false
+    },
+    {
+     "place": 32,
+     "name": "Harald Christian Hoff",
+     "time": 170.5,
+     "dnf": false
+    },
+    {
+     "place": 33,
+     "name": "Kristian Bjørkedal",
+     "time": 135.43,
+     "dnf": false
+    },
+    {
+     "place": 34,
+     "name": "Christoffer Nikolaisen",
+     "time": 136.06,
+     "dnf": false
+    },
+    {
+     "place": 35,
+     "name": "Terry Blanche",
+     "time": 135.31,
+     "dnf": true
+    },
+    {
+     "place": 36,
+     "name": "Odne Vassbotn",
+     "time": 176.28,
+     "dnf": true
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "sheet 1UWPRgD52UTZ53kiRE_wJueUP7hOE6g4sHpNP0UpLpJE / Timed run / Kvalplass",
+   "results": [
+    {
+     "place": 1,
+     "name": "Adrian Jancey",
+     "time": 128.0,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Herman Ottesen",
+     "time": 128.15,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Ali Nas",
+     "time": 129.72,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Alexander Hørthe",
+     "time": 130.28,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Henning Philip Patricksson",
+     "time": 130.87,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Trygve Flebu Jørundland",
+     "time": 131.19,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Emile Eknes Miller",
+     "time": 131.53,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Sondre Selander",
+     "time": 132.22,
+     "dnf": false
+    },
+    {
+     "place": 9,
+     "name": "Jørund Bratset",
+     "time": 132.44,
+     "dnf": false
+    },
+    {
+     "place": 10,
+     "name": "Aldin Hodzic",
+     "time": 133.1,
+     "dnf": false
+    },
+    {
+     "place": 11,
+     "name": "Magne Ørvik",
+     "time": 133.25,
+     "dnf": false
+    },
+    {
+     "place": 12,
+     "name": "Morten Espeseter",
+     "time": 134.84,
+     "dnf": false
+    },
+    {
+     "place": 13,
+     "name": "Jens Drageset Dydland",
+     "time": 135.03,
+     "dnf": false
+    },
+    {
+     "place": 14,
+     "name": "Terry Blanche",
+     "time": 135.31,
+     "dnf": false
+    },
+    {
+     "place": 15,
+     "name": "Kristian Bjørkedal",
+     "time": 135.43,
+     "dnf": false
+    },
+    {
+     "place": 16,
+     "name": "Roar Fønseth",
+     "time": 135.81,
+     "dnf": false
+    },
+    {
+     "place": 17,
+     "name": "Christoffer Nikolaisen",
+     "time": 136.06,
+     "dnf": false
+    },
+    {
+     "place": 18,
+     "name": "Sondre Braa",
+     "time": 137.44,
+     "dnf": false
+    },
+    {
+     "place": 19,
+     "name": "Johannes Aalholm",
+     "time": 138.56,
+     "dnf": false
+    },
+    {
+     "place": 20,
+     "name": "Lucas Krown",
+     "time": 139.91,
+     "dnf": false
+    },
+    {
+     "place": 21,
+     "name": "Daniel Heltne",
+     "time": 140.63,
+     "dnf": false
+    },
+    {
+     "place": 22,
+     "name": "Joakim Løseth",
+     "time": 142.25,
+     "dnf": false
+    },
+    {
+     "place": 23,
+     "name": "Leif Arne Hatlem",
+     "time": 143.0,
+     "dnf": false
+    },
+    {
+     "place": 24,
+     "name": "Joakim Strømmen",
+     "time": 143.75,
+     "dnf": false
+    },
+    {
+     "place": 25,
+     "name": "Aleksander Teilgård",
+     "time": 146.75,
+     "dnf": false
+    },
+    {
+     "place": 26,
+     "name": "Andreas Bru",
+     "time": 147.88,
+     "dnf": false
+    },
+    {
+     "place": 27,
+     "name": "Cedric Cornell",
+     "time": 149.59,
+     "dnf": false
+    },
+    {
+     "place": 28,
+     "name": "David Gjengedal",
+     "time": 149.84,
+     "dnf": false
+    },
+    {
+     "place": 29,
+     "name": "Ivar Boldvik",
+     "time": 153.59,
+     "dnf": false
+    },
+    {
+     "place": 30,
+     "name": "Håkon Heltne",
+     "time": 159.44,
+     "dnf": false
+    },
+    {
+     "place": 31,
+     "name": "Geir Tom Aasen*",
+     "time": 162.75,
+     "dnf": false
+    },
+    {
+     "place": 32,
+     "name": "John-Eirik Ose",
+     "time": 163.41,
+     "dnf": false
+    },
+    {
+     "place": 33,
+     "name": "Erik Evensen",
+     "time": 163.5,
+     "dnf": false
+    },
+    {
+     "place": 34,
+     "name": "Jan Ståle Eriksen",
+     "time": 163.82,
+     "dnf": false
+    },
+    {
+     "place": 35,
+     "name": "Harald Christian Hoff",
+     "time": 170.5,
+     "dnf": false
+    },
+    {
+     "place": 36,
+     "name": "Odne Vassbotn",
+     "time": 176.28,
+     "dnf": false
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

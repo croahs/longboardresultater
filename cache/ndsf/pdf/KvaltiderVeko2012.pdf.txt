@@ -1,0 +1,163 @@
+EKSTREMPSPORTVEKO
+
+NDSF Norgescup 2 - 27-28.06.2012
+
+Kvalplass  Startnr  Navn                     Kval tid 1  Beste tid
+     1       110                                         01:38,75
+     2       85     Adam Persson             1:38,750    01:41,59
+     3       45                                          01:41,82
+     4       58     Lundberg Erik            1:41,590    01:42,18
+     5       97                                          01:42,27
+     6       91     Sanne Christopher        1:41,820    01:42,96
+     7       44                                          01:43,04
+     8       32     Sunde Torbjørn           1:42,180    01:43,13
+     9       108                                         01:43,85
+     10      40     Jancey Adrian            1:42,270    01:43,98
+     11      66                                          01:44,01
+     12      10     Jørundland Trygve        1:42,960    01:44,15
+     13      70                                          01:44,21
+     14       4     Coleman Luca             1:43,040    01:44,77
+     15      15                                          01:44,94
+     16      78     Ottesen Herman           1:43,130    01:44,95
+     17      98                                          01:45,00
+     18      21     Patricksson Axel         1:43,850    01:45,14
+     19      25                                          01:45,23
+     20      96     Borg Mattias             1:43,980    01:45,23
+     21      27                                          01:45,48
+     22      24     Søkjer-Petersen Gudmundur 1:44,010   01:45,91
+     23      62                                          01:45,99
+     24      48     Guneriussen Audun        1:44,150    01:46,11
+     25      43                                          01:46,16
+     26      58     Patricksson Henning Philip 1:44,210  01:46,68
+     27       7                                          01:46,72
+     28      33     Anderssen Kim            1:44,770    01:46,92
+     29      64                                          01:47,05
+     30      109    Hasselberg Simon         1:44,940    01:47,21
+     31      76                                          01:47,27
+     32      87     Hørthe Alexander         1:44,950    01:47,34
+     33      31                                          01:47,40
+     34      41     Moe Lasse                1:45,000    01:47,52
+     35      56                                          01:47,65
+     36      53     Unsvåg Matias            1:45,140    01:47,70
+     37      94                                          01:47,82
+     38      19     Waal Andreas             1:45,230    01:48,00
+     39      102                                         01:48,00
+     40       9     Nas Ali                  1:45,230    01:48,51
+     41      90                                          01:48,54
+     42      111    Jacobsen Fredric         1:45,480    01:48,73
+     43       8                                          01:48,82
+     44      65     Bru Andreas              1:45,910    01:49,33
+     45      63                                          01:49,89
+                    Espeseter Morten         1:45,990
+
+                    Eliassen Steffen         1:46,110
+
+                    Terblanch Terry          1:46,160
+
+                    Lyngaas Alex             1:46,680
+
+                    Hodzic Aldin             1:46,720
+
+                    Miller Emile             1:46,920
+
+                    Kvarekvål Elias          1:47,050
+
+                    Baxter Julian            1:47,210
+
+                    Croizer Nico             1:47,270
+
+                    Gårdeløf Carl Johan      1:47,340
+
+                    Larsen Victor Bo         1:47,400
+
+                    Schei Fridtjof           1:47,520
+
+                    Grette Caspar            1:47,650
+
+                    Aijala Mikko             1:47,700
+
+                    Jørgensen Marius T       1:47,820
+
+                    Giskehaug Vegard         1:48,000
+
+                    Reinem Petter            1:48,000
+
+                    Baska Caspian            1:48,510
+
+                    Inde Anders              1:48,540
+
+                    Westphal Dennis          1:48,730
+
+                    Drageseth Jens           1:48,820
+
+                    Henriksen hans Kristian  1:49,330
+
+                    Eliassen Espen           1:49,890
+46  107 Fønseth Roar          1:49,900  01:49,90
+                                        01:50,32
+47  36 Løseth Joakim          1:50,320  01:50,53
+                                        01:50,77
+48  1 Coward Gorgus           1:50,530  01:51,33
+                                        01:51,46
+49  101 Andersson Tommy       1:50,770  01:51,52
+                                        01:51,72
+50  35 Canerstam Niklas       1:51,330  01:51,81
+                                        01:51,99
+51  49 Berven Fredrik         1:51,460  01:52,24
+                                        01:52,77
+52  50 Einbu Erland           1:51,520  01:52,90
+                                        01:54,10
+53  42 Nelson Luke            1:51,720  01:54,66
+                                        01:54,94
+54  26 Tangye Njaal           1:51,810  01:56,72
+                                        01:57,62
+55  34 Hustad Mats            1:51,990  01:57,81
+                                        01:58,00
+56  67 Braa Sondre            1:52,240  01:58,29
+                                        01:58,52
+57  82 Flodin Svante          1:52,770  01:59,91
+                                        02:00,80
+58  77 Dale Morten            1:52,900  02:01,03
+                                        02:01,03
+59  68 Buene Erik             1:54,100  02:02,31
+                                        02:03,21
+60  5 Nait Ayssa Yani         1:54,660  02:09,39
+                                        02:09,78
+61  103 Olsenlund Mikkel Are  1:54,940  02:11,86
+                                        02:18,41
+62  89 Johansen Birger        1:56,720  02:20,34
+                                        02:23,93
+63  39 Lunde Christer         1:57,620
+
+64  37 Løvaas Daniel          1:57,810
+
+65  60 Priestley Sam          1:57,998
+
+66  80 Bjertnes Thomas        1:58,290
+
+67  6 Hellesnes Pål Magnus    1:58,520
+
+68  3 Johansen Christer       1:59,910
+
+69  20 Engstrand Kristina     2:00,800
+
+70  28 Havnevik Kari          2:01,030
+
+71  Alejandro Puente          2:01,031
+
+72  105 Rustad Erkki          2:02,310
+
+73  71 Bjørkedal Kristian     2:03,210
+
+74  100 Tvete Vegard          2:09,390
+
+75  2 Øverland Dan            2:09,780
+
+76  99 Askim Rune             2:11,860
+
+77  30 Tveite Kenneth         2:18,410
+
+78  95 Troye Anders           2:20,340
+
+79  106 Johnsrud Thor-Erik    2:23,930
+

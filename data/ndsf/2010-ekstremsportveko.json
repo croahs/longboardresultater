@@ -1,0 +1,21 @@
+{
+ "id": "2010-ekstremsportveko",
+ "name": "Ekstremsportveko",
+ "year": 2010,
+ "date": "2010-03-20",
+ "date_known": true,
+ "hill": "voss",
+ "sources": [
+  "https://ndsf.no/?p=559"
+ ],
+ "titles": [
+  "Ekstremsportveko 2010"
+ ],
+ "notes": [
+  "pdf gone: https://ndsf.no/files/Resultater/ResultatVeko2010.pdf",
+  "pdf gone: https://ndsf.no/files/Resultater2010/ResultatVeko2010.pdf",
+  "nothing recognised in https://ndsf.no/?p=559"
+ ],
+ "races": [],
+ "needs_manual": true
+}

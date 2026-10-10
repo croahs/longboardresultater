@@ -1,0 +1,22 @@
+{
+ "id": "2025-granasen",
+ "name": "Granåsen",
+ "year": 2025,
+ "date": "2025-07-06",
+ "date_known": false,
+ "hill": "granasen",
+ "sources": ["https://ndsf.no/?p=3493"],
+ "notes": ["Read off the bracket image in the post. Places 5-7 lost in the quarter-finals and are listed in seed order; seed 8 was a bye."],
+ "races": [
+  {"name": "Open", "kind": "Open", "format": "bracket", "source": "image in https://ndsf.no/?p=3493, read by hand",
+   "results": [
+    {"place": 1, "name": "Peder Bruem", "time": null, "dnf": false},
+    {"place": 2, "name": "Even Strand", "time": null, "dnf": false},
+    {"place": 3, "name": "Einar Kvam", "time": null, "dnf": false},
+    {"place": 4, "name": "Sindre Kjæreng", "time": null, "dnf": false},
+    {"place": 5, "name": "Lukas Kruk", "time": null, "dnf": false},
+    {"place": 6, "name": "Tobias Hoff Iversen", "time": null, "dnf": false},
+    {"place": 7, "name": "Simen Pettersen", "time": null, "dnf": false}
+   ]}
+ ]
+}

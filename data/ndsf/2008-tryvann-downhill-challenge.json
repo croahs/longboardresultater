@@ -1,0 +1,394 @@
+{
+ "id": "2008-tryvann-downhill-challenge",
+ "name": "Tryvann Downhill Challenge",
+ "year": 2008,
+ "date": "2008-08-30",
+ "date_known": true,
+ "hill": "tryvann",
+ "sources": [
+  "https://ndsf.no/?p=591"
+ ],
+ "titles": [
+  "Tryvann Downhill Challange 2008"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "text (Finals:)",
+   "results": [
+    {
+     "place": 1,
+     "name": "Oliver Nielsen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Mikael S. Jensen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Robin Sandberg",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Morten Bechstrøm",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Christoffer Sanne",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Dennis Westphal",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Torbjørn Sunde",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Jørgen Halvorsen",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "text (PLATS TID NAMN START NR)",
+   "results": [
+    {
+     "place": 1,
+     "name": "Mikael s. Jensen",
+     "time": 56.53,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Oliver Nielsen",
+     "time": 57.0,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Morten Bechstrøm",
+     "time": 57.03,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Torbjørn Sunde",
+     "time": 57.09,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Christoffer Sanne",
+     "time": 57.25,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Robin Sandberg",
+     "time": 57.75,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Steffen Eliassen",
+     "time": 58.44,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Tomas Berg",
+     "time": 59.12,
+     "dnf": false
+    },
+    {
+     "place": 9,
+     "name": "Tryggve Jørunlund",
+     "time": 59.25,
+     "dnf": false
+    },
+    {
+     "place": 10,
+     "name": "Fredric Jacobsen",
+     "time": 59.5,
+     "dnf": false
+    },
+    {
+     "place": 11,
+     "name": "Anders Eidså",
+     "time": 59.5,
+     "dnf": false
+    },
+    {
+     "place": 12,
+     "name": "Cedric Cornell",
+     "time": 59.57,
+     "dnf": false
+    },
+    {
+     "place": 13,
+     "name": "Lars Landmark",
+     "time": 59.78,
+     "dnf": false
+    },
+    {
+     "place": 14,
+     "name": "Alex Hørthe",
+     "time": 60.06,
+     "dnf": false
+    },
+    {
+     "place": 15,
+     "name": "Dennis Westphal",
+     "time": 60.15,
+     "dnf": false
+    },
+    {
+     "place": 16,
+     "name": "Jørgen s. Halvorsen",
+     "time": 60.19,
+     "dnf": false
+    },
+    {
+     "place": 17,
+     "name": "Alex Lyngås",
+     "time": 60.34,
+     "dnf": false
+    },
+    {
+     "place": 18,
+     "name": "Johan Simonsen",
+     "time": 60.4,
+     "dnf": false
+    },
+    {
+     "place": 19,
+     "name": "Kristian Alfsnes",
+     "time": 60.81,
+     "dnf": false
+    },
+    {
+     "place": 20,
+     "name": "Jonatan Lundmark",
+     "time": 61.0,
+     "dnf": false
+    },
+    {
+     "place": 21,
+     "name": "Alex Bankish",
+     "time": 61.31,
+     "dnf": false
+    },
+    {
+     "place": 22,
+     "name": "Anton r. Bagger",
+     "time": 61.44,
+     "dnf": false
+    },
+    {
+     "place": 23,
+     "name": "Steinar Frykberg",
+     "time": 61.78,
+     "dnf": false
+    },
+    {
+     "place": 24,
+     "name": "Kristina Engstrand",
+     "time": 61.96,
+     "dnf": false
+    },
+    {
+     "place": 25,
+     "name": "Jay d. Romano",
+     "time": 62.28,
+     "dnf": false
+    },
+    {
+     "place": 26,
+     "name": "Håkon Wegge",
+     "time": 62.72,
+     "dnf": false
+    },
+    {
+     "place": 27,
+     "name": "Sven Renberg",
+     "time": 62.84,
+     "dnf": false
+    },
+    {
+     "place": 28,
+     "name": "Tomas Larsen Røed",
+     "time": 62.85,
+     "dnf": false
+    },
+    {
+     "place": 29,
+     "name": "Ruben Higgins",
+     "time": 62.97,
+     "dnf": false
+    },
+    {
+     "place": 30,
+     "name": "Adrian Jancey",
+     "time": 63.63,
+     "dnf": false
+    },
+    {
+     "place": 31,
+     "name": "Carl Johan Gårdelöf",
+     "time": 63.72,
+     "dnf": false
+    },
+    {
+     "place": 32,
+     "name": "Bjørnulf Benstad",
+     "time": 64.13,
+     "dnf": false
+    },
+    {
+     "place": 33,
+     "name": "C. Niklas H.Ursin",
+     "time": 64.19,
+     "dnf": false
+    },
+    {
+     "place": 34,
+     "name": "Joakim Løseth",
+     "time": 64.21,
+     "dnf": false
+    },
+    {
+     "place": 35,
+     "name": "Espen Eliassen",
+     "time": 64.22,
+     "dnf": false
+    },
+    {
+     "place": 36,
+     "name": "Audun Guneriusen",
+     "time": 65.53,
+     "dnf": false
+    },
+    {
+     "place": 37,
+     "name": "Jonas Hjelme",
+     "time": 65.75,
+     "dnf": false
+    },
+    {
+     "place": 38,
+     "name": "Christoffer Gjerde",
+     "time": 66.0,
+     "dnf": false
+    },
+    {
+     "place": 39,
+     "name": "Jørn-Arne Kvålseth",
+     "time": 66.1,
+     "dnf": false
+    },
+    {
+     "place": 40,
+     "name": "Jørgen Ringstrøm",
+     "time": 66.22,
+     "dnf": false
+    },
+    {
+     "place": 41,
+     "name": "Mikko Aijala",
+     "time": 66.32,
+     "dnf": false
+    },
+    {
+     "place": 42,
+     "name": "Anna Engstrand",
+     "time": 68.5,
+     "dnf": false
+    },
+    {
+     "place": 43,
+     "name": "Jario Carrasco",
+     "time": 68.53,
+     "dnf": false
+    },
+    {
+     "place": 44,
+     "name": "Simon Hasselberg",
+     "time": 68.53,
+     "dnf": false
+    },
+    {
+     "place": 45,
+     "name": "Kjetil Smedal",
+     "time": 71.06,
+     "dnf": false
+    },
+    {
+     "place": 46,
+     "name": "Tord e. Tvedten",
+     "time": 72.13,
+     "dnf": false
+    },
+    {
+     "place": 47,
+     "name": "Morten Dale",
+     "time": 72.94,
+     "dnf": false
+    },
+    {
+     "place": 48,
+     "name": "Erwan de M",
+     "time": 74.41,
+     "dnf": false
+    },
+    {
+     "place": 49,
+     "name": "Carolina Bodin",
+     "time": 75.1,
+     "dnf": false
+    },
+    {
+     "place": 50,
+     "name": "Amund b. Aaeng",
+     "time": 75.94,
+     "dnf": false
+    },
+    {
+     "place": 51,
+     "name": "Johan j. Espensen",
+     "time": 83.78,
+     "dnf": false
+    },
+    {
+     "place": 52,
+     "name": "Melissa Pope",
+     "time": 84.4,
+     "dnf": false
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

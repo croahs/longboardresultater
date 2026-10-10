@@ -1,0 +1,54 @@
+{
+ "id": "2010-grefsenkollen",
+ "name": "Grefsenkollen",
+ "year": 2010,
+ "date": "2010-09-11",
+ "date_known": true,
+ "hill": "grefsenkollen",
+ "sources": [
+  "https://ndsf.no/?p=542",
+  "https://ndsf.no/?p=540"
+ ],
+ "titles": [
+  "Resultater Norwegain Nationals 2010",
+  "Norwegian Nationals"
+ ],
+ "notes": [
+  "pdf elsewhere, skipped: http://www.igsaworldcup.com/results/2010/2010_norwegian_na.pdf"
+ ],
+ "races": [
+  {
+   "name": "NM Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "text (Gratulere til Trygve Jorundland for seie)",
+   "results": [
+    {
+     "place": 1,
+     "name": "Trygve Jorundland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Jarle Åsheim",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Johan Simonsen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Alex Lyngaas",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

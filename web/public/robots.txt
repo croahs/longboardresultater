@@ -1,4 +1,4 @@
-# Rittresultater: search engines may read the pages, not the API.
+# Search engines may read the pages.
 # AI crawlers and bulk scrapers are shut out entirely.
 
 User-agent: GPTBot
@@ -31,5 +31,4 @@ User-agent: MJ12bot
 Disallow: /
 
 User-agent: *
-Disallow: /api/
 Allow: /

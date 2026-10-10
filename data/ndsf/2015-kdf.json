@@ -1,0 +1,274 @@
+{
+ "id": "2015-kdf",
+ "name": "KDF",
+ "year": 2015,
+ "date": "2015-09-05",
+ "date_known": true,
+ "hill": "kdf",
+ "sources": [
+  "https://ndsf.no/?p=1341"
+ ],
+ "titles": [
+  "KDF 15 – Resultater"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "sheet 1_vnhlM40Mcw0i4aKXEi19MDIHo_m8EFJD2qLJjPHW3k / Resultater / Plass",
+   "results": [
+    {
+     "place": 1,
+     "name": "Lars Mikalsen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Kim M. Anderssen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Mikael Kula Jensen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Sander Melhus",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Roar Fønseth",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Alf Olsen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Hilmar Iversen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Yani Nait-Aissa",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 9,
+     "name": "Cedric Cornell",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 10,
+     "name": "Freddie Pettersson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 11,
+     "name": "Jan Ståle Eriksen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 12,
+     "name": "Leif Ole Stampa",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 13,
+     "name": "Peter Andersson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 14,
+     "name": "Niklas Molander",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 15,
+     "name": "Øystein Nygård",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 16,
+     "name": "Joel Hoholm",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 17,
+     "name": "Bjørn Oskar Rønning",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 18,
+     "name": "Magnus Pastor Harm",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 19,
+     "name": "Fredrik Ognedal",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 20,
+     "name": "Anders Berg",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "sheet 1_vnhlM40Mcw0i4aKXEi19MDIHo_m8EFJD2qLJjPHW3k / Timed runs / Plass",
+   "results": [
+    {
+     "place": 1,
+     "name": "Lars Mikalsen",
+     "time": 44.8,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Mikael Kula Jensen",
+     "time": 45.2,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Sander Melhus",
+     "time": 46.1,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Kim M. Anderssen",
+     "time": 46.4,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Roar Fønseth",
+     "time": 47.5,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Yani Nait-Aissa",
+     "time": 47.5,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Alf Olsen",
+     "time": 47.9,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Hilmar Iversen",
+     "time": 48.1,
+     "dnf": false
+    },
+    {
+     "place": 9,
+     "name": "Cedric Cornell",
+     "time": 48.3,
+     "dnf": false
+    },
+    {
+     "place": 10,
+     "name": "Jan Ståle Eriksen",
+     "time": 50.37,
+     "dnf": false
+    },
+    {
+     "place": 11,
+     "name": "Peter Andersson",
+     "time": 50.8,
+     "dnf": false
+    },
+    {
+     "place": 12,
+     "name": "Leif Ole Stampa",
+     "time": 52.8,
+     "dnf": false
+    },
+    {
+     "place": 13,
+     "name": "Niklas Molander",
+     "time": 52.8,
+     "dnf": false
+    },
+    {
+     "place": 14,
+     "name": "Øystein Nygård",
+     "time": 52.9,
+     "dnf": false
+    },
+    {
+     "place": 15,
+     "name": "Freddie Pettersson",
+     "time": 53.9,
+     "dnf": false
+    },
+    {
+     "place": 16,
+     "name": "Magnus Pastor Harm",
+     "time": 57.1,
+     "dnf": false
+    },
+    {
+     "place": 17,
+     "name": "Joel Hoholm",
+     "time": 58.3,
+     "dnf": false
+    },
+    {
+     "place": 18,
+     "name": "Bjørn Oskar Rønning",
+     "time": 58.5,
+     "dnf": false
+    },
+    {
+     "place": 19,
+     "name": "Fredrik Ognedal",
+     "time": 71.8,
+     "dnf": false
+    },
+    {
+     "place": 20,
+     "name": "Anders Berg",
+     "time": 74.25,
+     "dnf": false
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

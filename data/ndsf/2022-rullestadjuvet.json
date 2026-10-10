@@ -1,0 +1,238 @@
+{
+ "id": "2022-rullestadjuvet",
+ "name": "Rullestadjuvet",
+ "year": 2022,
+ "date": "2022-06-21",
+ "date_known": true,
+ "hill": "rullestadjuvet",
+ "sources": [
+  "https://ndsf.no/?p=2838"
+ ],
+ "titles": [
+  "Norgescup Rullestadjuvet – Resultater"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "sheet e/2PACX-1vT7b94eYslkH3mXbtj2oT5iZ3dFSjHQ38GopZbgp-axhmQdyELoJ8rYhw1vOPy9WWrkkNXN4kXLaZIA / Ark 1 / Round Robin Kvalifisering Rullestadjuvet",
+   "results": [
+    {
+     "place": 1,
+     "name": "Olav Øye",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Peder Bruem",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Einar Kvam",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Hussain Nas",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Ryder Hathaway",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Jan-Petter Hammersland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Njaal Tangye",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Øystein Nesse",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 9,
+     "name": "Cedric Cornell",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 10,
+     "name": "Per Mattis Fürst Holtmann",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 11,
+     "name": "Ali Nas",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 12,
+     "name": "Erik Tørud",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 13,
+     "name": "Peder Holterman Solland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 14,
+     "name": "Erlend Endresen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 15,
+     "name": "Helge Vignal",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 16,
+     "name": "Daniel Vidme",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 17,
+     "name": "Maya He Cobben",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  },
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "sheet e/2PACX-1vTcjuxd0bqUh73EL224_gweOf4iGbqOpEOiBVdlw_oMt5t6XMGp5ewsCEvOTb0x2Liyc2DvmK3KboMQ / Results / FINAL RESULTS",
+   "results": [
+    {
+     "place": 1,
+     "name": "Olav Øye",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Ryder Hathaway",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Ali Nas",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Njaal Tangye",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Peder Bruem",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Hussain Nas",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Einar Kvam",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Øystein Nesse",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 9,
+     "name": "Jan-Petter Hammersland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 10,
+     "name": "Cedric Cornell",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 11,
+     "name": "Per Mattis Fürst Holtmann",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 12,
+     "name": "Erik Tørud",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 13,
+     "name": "Erlend Endresen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 14,
+     "name": "Helge Vignal",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 15,
+     "name": "Maya He Cobben",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 16,
+     "name": "Peder Holterman Solland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 17,
+     "name": "Daniel Vidme",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

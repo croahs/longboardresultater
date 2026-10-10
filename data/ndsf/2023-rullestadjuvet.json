@@ -1,0 +1,304 @@
+{
+ "id": "2023-rullestadjuvet",
+ "name": "Rullestadjuvet",
+ "year": 2023,
+ "date": "2023-06-17",
+ "date_known": true,
+ "hill": "rullestadjuvet",
+ "sources": [
+  "https://ndsf.no/?p=3008"
+ ],
+ "titles": [
+  "NM Rullestad Resultater & Tider"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "NM Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "sheet e/2PACX-1vQXYdik43dP-nKqsk0g7ev2mkzt2fcWF0qK79rkD-w9hu5A-g3VYgcDPXzqJl45lumJhnup3LXS6ikw / Results",
+   "results": [
+    {
+     "place": 1,
+     "name": "Jørund Bratset",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Olav Øye",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Hussain Nas",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Albin Niva Printz",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Erlend Endresen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Peder Bruem",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Njaal Eide Tangye",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Oscar Clevö",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 9,
+     "name": "Einar Kvam",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 10,
+     "name": "Peder Holterman Solland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 11,
+     "name": "Jens Drageset Dydland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 12,
+     "name": "Cedric Cornell",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 13,
+     "name": "Erik Tørud",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 14,
+     "name": "Joris Plascinskas",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 15,
+     "name": "Sindre Kjæreng",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 16,
+     "name": "Richard Moe",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 17,
+     "name": "Mina Nornes Westli",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 18,
+     "name": "Sebastian Petros Berglund",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 19,
+     "name": "Morten Solvik Sæthre",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 20,
+     "name": "Erik Evensen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 21,
+     "name": "Helge Vignal",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "sheet e/2PACX-1vTfSql2XSRw5m_oXYh4vJSszAn7JygJ96pXALwdR-bg2Pjr03w6I25_23tiHy4nt9mnjEotTi5bvsKj / Ark 1 / Resultat",
+   "results": [
+    {
+     "place": 1,
+     "name": "Jørund Bratset",
+     "time": 69.5,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Olav Øye",
+     "time": 70.1,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Hussain Nas",
+     "time": 70.4,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Albin Niva Printz",
+     "time": 70.5,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Peder Bruem",
+     "time": 71.1,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Oscar Clevö",
+     "time": 71.2,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Jan-Petter Hammersland",
+     "time": 72.1,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Erlend Endresen",
+     "time": 72.2,
+     "dnf": false
+    },
+    {
+     "place": 9,
+     "name": "Njaal Eide Tangye",
+     "time": 72.3,
+     "dnf": false
+    },
+    {
+     "place": 10,
+     "name": "Einar Kvam",
+     "time": 72.5,
+     "dnf": false
+    },
+    {
+     "place": 11,
+     "name": "Erik Tørud",
+     "time": 73.7,
+     "dnf": false
+    },
+    {
+     "place": 12,
+     "name": "Peder Holterman Solland",
+     "time": 73.9,
+     "dnf": false
+    },
+    {
+     "place": 13,
+     "name": "Joris Plascinskas",
+     "time": 75.4,
+     "dnf": false
+    },
+    {
+     "place": 14,
+     "name": "Jens Drageset Dydland",
+     "time": 75.4,
+     "dnf": false
+    },
+    {
+     "place": null,
+     "name": "Sindre Kjæreng",
+     "time": null,
+     "dnf": true
+    },
+    {
+     "place": 16,
+     "name": "Cedric Cornell",
+     "time": 76.2,
+     "dnf": false
+    },
+    {
+     "place": 17,
+     "name": "Richard Moe",
+     "time": 76.7,
+     "dnf": false
+    },
+    {
+     "place": 18,
+     "name": "Leif Ole Stampa Johannsen",
+     "time": 77.0,
+     "dnf": false
+    },
+    {
+     "place": 19,
+     "name": "Sander Viste",
+     "time": 77.1,
+     "dnf": false
+    },
+    {
+     "place": 20,
+     "name": "Helge Vignal",
+     "time": 79.4,
+     "dnf": false
+    },
+    {
+     "place": 21,
+     "name": "Mina Nornes Westli",
+     "time": 81.2,
+     "dnf": false
+    },
+    {
+     "place": 22,
+     "name": "Sebastian Petros Berglund",
+     "time": 81.9,
+     "dnf": false
+    },
+    {
+     "place": 23,
+     "name": "Morten Solvik Sæthre",
+     "time": 91.2,
+     "dnf": false
+    },
+    {
+     "place": 24,
+     "name": "Erik Evensen",
+     "time": 103.0,
+     "dnf": false
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

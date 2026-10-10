@@ -4,7 +4,7 @@ import type { Athlete, Result } from "./data";
 /* Season filter and the selected race, shared by every tab so a race picked on one tab stays picked. */
 interface Sel { season: number | "all"; setSeason: (s: number | "all") => void; sel: string | null; setSel: (k: string | null) => void; rows: Result[] }
 const Ctx = createContext<Sel | null>(null);
-export const raceKey = (r: Result) => `${r.date}|${r.race}`;
+export const raceKey = (r: Result) => r.raceId; // one key per result list, unique within an event
 export const useSel = () => useContext(Ctx)!;
 export function SelProvider({ a, children }: { a: Athlete; children: ReactNode }) {
   const [season, setSeason] = useState<number | "all">("all");

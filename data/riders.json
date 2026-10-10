@@ -1,0 +1,2392 @@
+{
+ "_help": "Rider ids for the site. Add other spellings of a name to \"aliases\" to merge riders; set \"fixed\": true to keep \"name\" as written here.",
+ "riders": {
+  "r1": {
+   "name": "Jørgen Stokke Halvorsen",
+   "aliases": []
+  },
+  "r2": {
+   "name": "Morten Bechstrøm",
+   "aliases": []
+  },
+  "r3": {
+   "name": "Alex Lyngaas",
+   "aliases": []
+  },
+  "r4": {
+   "name": "Cato Lægreid",
+   "aliases": []
+  },
+  "r5": {
+   "name": "Fredric Jacobsen",
+   "aliases": []
+  },
+  "r6": {
+   "name": "Christoffer Sanne",
+   "aliases": []
+  },
+  "r7": {
+   "name": "Torbjørn Sunde",
+   "aliases": []
+  },
+  "r8": {
+   "name": "Andy Helm",
+   "aliases": []
+  },
+  "r9": {
+   "name": "Mikael Jensen",
+   "aliases": [
+    "Michael Kula Jensen",
+    "Mikael Kula Jensen"
+   ]
+  },
+  "r10": {
+   "name": "Trygve Flebu Jørundland",
+   "aliases": [
+    "Tryggve Jørunlund",
+    "Trygve Flebu Jørundland"
+   ]
+  },
+  "r11": {
+   "name": "Carolina Bodin",
+   "aliases": []
+  },
+  "r12": {
+   "name": "Melissa Pope",
+   "aliases": []
+  },
+  "r13": {
+   "name": "Oliver Nielsen",
+   "aliases": []
+  },
+  "r14": {
+   "name": "Robin Sandberg",
+   "aliases": []
+  },
+  "r15": {
+   "name": "Dennis Westphal",
+   "aliases": []
+  },
+  "r16": {
+   "name": "Steffen Eliassen",
+   "aliases": []
+  },
+  "r17": {
+   "name": "Tomas Berg",
+   "aliases": []
+  },
+  "r18": {
+   "name": "Anders Eidså",
+   "aliases": []
+  },
+  "r19": {
+   "name": "Cedric Cornell",
+   "aliases": []
+  },
+  "r20": {
+   "name": "Lars Landmark",
+   "aliases": []
+  },
+  "r21": {
+   "name": "Alex Hørthe",
+   "aliases": []
+  },
+  "r22": {
+   "name": "Johan Simonsen",
+   "aliases": []
+  },
+  "r23": {
+   "name": "Kristian Alfsnes",
+   "aliases": []
+  },
+  "r24": {
+   "name": "Jonatan Lundmark",
+   "aliases": []
+  },
+  "r25": {
+   "name": "Alex Bankish",
+   "aliases": []
+  },
+  "r26": {
+   "name": "Anton r. Bagger",
+   "aliases": []
+  },
+  "r27": {
+   "name": "Steinar Frykberg",
+   "aliases": []
+  },
+  "r28": {
+   "name": "Kristina Engstrand",
+   "aliases": []
+  },
+  "r29": {
+   "name": "Jay d. Romano",
+   "aliases": []
+  },
+  "r30": {
+   "name": "Håkon Wegge",
+   "aliases": []
+  },
+  "r31": {
+   "name": "Sven Renberg",
+   "aliases": []
+  },
+  "r32": {
+   "name": "Tomas Larsen Røed",
+   "aliases": []
+  },
+  "r33": {
+   "name": "Ruben Higgins",
+   "aliases": []
+  },
+  "r34": {
+   "name": "Adrian Jancey",
+   "aliases": []
+  },
+  "r35": {
+   "name": "Carl Johan Gårdelöf",
+   "aliases": []
+  },
+  "r36": {
+   "name": "Bjørnulf Benstad",
+   "aliases": []
+  },
+  "r37": {
+   "name": "C. Niklas H.Ursin",
+   "aliases": []
+  },
+  "r38": {
+   "name": "Joakim Løseth",
+   "aliases": []
+  },
+  "r39": {
+   "name": "Espen Eliassen",
+   "aliases": []
+  },
+  "r40": {
+   "name": "Audun Guneriussen",
+   "aliases": []
+  },
+  "r41": {
+   "name": "Jonas Hjelme",
+   "aliases": []
+  },
+  "r42": {
+   "name": "Christoffer Gjerde",
+   "aliases": []
+  },
+  "r43": {
+   "name": "Jørn-Arne Kvålseth",
+   "aliases": []
+  },
+  "r44": {
+   "name": "Jørgen Ringstrøm",
+   "aliases": []
+  },
+  "r45": {
+   "name": "Mikko Aijala",
+   "aliases": []
+  },
+  "r46": {
+   "name": "Anna Engstrand",
+   "aliases": []
+  },
+  "r47": {
+   "name": "Jario Carrasco",
+   "aliases": []
+  },
+  "r48": {
+   "name": "Simon Hasselberg",
+   "aliases": []
+  },
+  "r49": {
+   "name": "Kjetil Smedal",
+   "aliases": []
+  },
+  "r50": {
+   "name": "Tord Tvedten",
+   "aliases": []
+  },
+  "r51": {
+   "name": "Morten Dale",
+   "aliases": []
+  },
+  "r52": {
+   "name": "Erwan de M",
+   "aliases": []
+  },
+  "r53": {
+   "name": "Amund b. Aaeng",
+   "aliases": []
+  },
+  "r54": {
+   "name": "Johan j. Espensen",
+   "aliases": []
+  },
+  "r55": {
+   "name": "Klaes Johansson",
+   "aliases": []
+  },
+  "r57": {
+   "name": "nico ?",
+   "aliases": []
+  },
+  "r58": {
+   "name": "Anders Taube",
+   "aliases": []
+  },
+  "r59": {
+   "name": "J-Fox Halvorsen",
+   "aliases": []
+  },
+  "r60": {
+   "name": "Kim M. Anderssen",
+   "aliases": [
+    "Kim Mengshoel"
+   ]
+  },
+  "r61": {
+   "name": "Ali Nas",
+   "aliases": []
+  },
+  "r62": {
+   "name": "Alexander Hørthe",
+   "aliases": []
+  },
+  "r63": {
+   "name": "Jacob Espenes",
+   "aliases": []
+  },
+  "r64": {
+   "name": "Jon Runar Lorentzen",
+   "aliases": []
+  },
+  "r65": {
+   "name": "Victor Mårtensson",
+   "aliases": []
+  },
+  "r66": {
+   "name": "Bjørn Erik Gabrielsen",
+   "aliases": []
+  },
+  "r67": {
+   "name": "Frithjof Sohei",
+   "aliases": []
+  },
+  "r68": {
+   "name": "Lars Nordeide",
+   "aliases": []
+  },
+  "r69": {
+   "name": "Albin Larsson",
+   "aliases": []
+  },
+  "r70": {
+   "name": "Adrian Paulsen",
+   "aliases": []
+  },
+  "r71": {
+   "name": "Nikas H. Ursin",
+   "aliases": []
+  },
+  "r72": {
+   "name": "Calle Gardløv",
+   "aliases": []
+  },
+  "r73": {
+   "name": "Jens Drageset Dydland",
+   "aliases": [
+    "Jens D. Dydland",
+    "Jens Dragset Dydland",
+    "Jens Dragseth Dyrland"
+   ]
+  },
+  "r74": {
+   "name": "Petter Hagman",
+   "aliases": []
+  },
+  "r75": {
+   "name": "Fredrik Sårheim",
+   "aliases": []
+  },
+  "r76": {
+   "name": "Sander Hasselberg",
+   "aliases": []
+  },
+  "r77": {
+   "name": "Magnus Furuset",
+   "aliases": []
+  },
+  "r78": {
+   "name": "Lasse Moe",
+   "aliases": [
+    "Baron von Lasse Moe",
+    "Moe Lasse"
+   ],
+   "fixed": true
+  },
+  "r79": {
+   "name": "Sebastian Marchesi",
+   "aliases": []
+  },
+  "r80": {
+   "name": "Hans Sørensen",
+   "aliases": []
+  },
+  "r81": {
+   "name": "Jacob Hansen",
+   "aliases": []
+  },
+  "r82": {
+   "name": "Daniel Larsson",
+   "aliases": []
+  },
+  "r83": {
+   "name": "Henning Philip Patricksson",
+   "aliases": []
+  },
+  "r84": {
+   "name": "Andreas Holm",
+   "aliases": []
+  },
+  "r85": {
+   "name": "Kristoffer Worhuus",
+   "aliases": []
+  },
+  "r86": {
+   "name": "Daniel Kosacki",
+   "aliases": []
+  },
+  "r87": {
+   "name": "Audun Haga",
+   "aliases": []
+  },
+  "r88": {
+   "name": "Simon Nyhus",
+   "aliases": []
+  },
+  "r89": {
+   "name": "Rasmus Juntunen",
+   "aliases": []
+  },
+  "r90": {
+   "name": "Bård Kvalheim",
+   "aliases": []
+  },
+  "r91": {
+   "name": "Jørn Gundersen",
+   "aliases": []
+  },
+  "r92": {
+   "name": "Christian Kosacki",
+   "aliases": []
+  },
+  "r93": {
+   "name": "Johan Hoff",
+   "aliases": []
+  },
+  "r94": {
+   "name": "Albin Ekback",
+   "aliases": []
+  },
+  "r95": {
+   "name": "Mattias Kalberg",
+   "aliases": []
+  },
+  "r96": {
+   "name": "Christer Lunde",
+   "aliases": []
+  },
+  "r97": {
+   "name": "Øystein Larsen",
+   "aliases": []
+  },
+  "r98": {
+   "name": "Sindre Stalsdokken",
+   "aliases": []
+  },
+  "r99": {
+   "name": "Olav Hammer",
+   "aliases": []
+  },
+  "r100": {
+   "name": "Leif E. Engebretsen",
+   "aliases": []
+  },
+  "r101": {
+   "name": "Erwan De Montigny",
+   "aliases": []
+  },
+  "r102": {
+   "name": "Markus Bastøe",
+   "aliases": []
+  },
+  "r103": {
+   "name": "Matias Marthinsen",
+   "aliases": []
+  },
+  "r104": {
+   "name": "Nicholas Holøien",
+   "aliases": []
+  },
+  "r105": {
+   "name": "Andreas Bru",
+   "aliases": []
+  },
+  "r106": {
+   "name": "Lars Petter Sårheim",
+   "aliases": []
+  },
+  "r107": {
+   "name": "Dag Petter Hollevik",
+   "aliases": []
+  },
+  "r108": {
+   "name": "Henrik Bårnes",
+   "aliases": []
+  },
+  "r109": {
+   "name": "Oscar Eikeland",
+   "aliases": []
+  },
+  "r110": {
+   "name": "Anton Lindahl",
+   "aliases": []
+  },
+  "r111": {
+   "name": "Mikael Olsen",
+   "aliases": []
+  },
+  "r112": {
+   "name": "Gorgus Coward",
+   "aliases": []
+  },
+  "r113": {
+   "name": "Eirik V. Jacobsen",
+   "aliases": []
+  },
+  "r114": {
+   "name": "Fridtjof Schei",
+   "aliases": []
+  },
+  "r115": {
+   "name": "Jarle Åsheim",
+   "aliases": []
+  },
+  "r116": {
+   "name": "Gudmundur Søkjer-Petersen",
+   "aliases": [
+    "Gudmundur Daniel Hannibal Søkjer",
+    "Gudmundur Sökjer-Petersen",
+    "Guðmundur Daniel Hannibal Sökjer-Petersen",
+    "Hannibal Søkjer",
+    "Søkjer-Petersen Gudmundur"
+   ],
+   "fixed": true
+  },
+  "r117": {
+   "name": "Matias Unsvåg",
+   "aliases": []
+  },
+  "r118": {
+   "name": "Axel Patricksson",
+   "aliases": [
+    "Axel Patriccson",
+    "Axel Patricksson"
+   ]
+  },
+  "r120": {
+   "name": "Matis Tolefsen",
+   "aliases": []
+  },
+  "r121": {
+   "name": "Mathias Müller",
+   "aliases": []
+  },
+  "r122": {
+   "name": "Fredrik Hederlund",
+   "aliases": []
+  },
+  "r123": {
+   "name": "Henning Pattrickson",
+   "aliases": []
+  },
+  "r125": {
+   "name": "Andreas Waal",
+   "aliases": []
+  },
+  "r126": {
+   "name": "Elias Kvarekvål",
+   "aliases": []
+  },
+  "r127": {
+   "name": "Svante Flodin",
+   "aliases": []
+  },
+  "r128": {
+   "name": "Olav Røil",
+   "aliases": []
+  },
+  "r129": {
+   "name": "Håkon Hadlund Dahl",
+   "aliases": []
+  },
+  "r130": {
+   "name": "Ola Baugerød",
+   "aliases": []
+  },
+  "r131": {
+   "name": "Håkon Hansen",
+   "aliases": []
+  },
+  "r132": {
+   "name": "Stian kaarstein",
+   "aliases": []
+  },
+  "r133": {
+   "name": "Nicko Crozier",
+   "aliases": []
+  },
+  "r134": {
+   "name": "Kim André Hansen",
+   "aliases": []
+  },
+  "r135": {
+   "name": "Alex Thorstensen",
+   "aliases": []
+  },
+  "r136": {
+   "name": "Folke Sverdrup-Nygren",
+   "aliases": []
+  },
+  "r137": {
+   "name": "Carl Østling",
+   "aliases": []
+  },
+  "r138": {
+   "name": "Vegard Giskehaug",
+   "aliases": []
+  },
+  "r139": {
+   "name": "Pål Erik Lystad",
+   "aliases": []
+  },
+  "r140": {
+   "name": "Mathias Birkeland",
+   "aliases": []
+  },
+  "r141": {
+   "name": "Birger Johansen",
+   "aliases": []
+  },
+  "r142": {
+   "name": "Sondre Selander",
+   "aliases": []
+  },
+  "r143": {
+   "name": "Fransisco Fjellstad",
+   "aliases": []
+  },
+  "r144": {
+   "name": "Erland Lien Einbu",
+   "aliases": [
+    "Einbu Erland",
+    "Erland Einbu",
+    "Erland Lien"
+   ]
+  },
+  "r145": {
+   "name": "Max Philip Mikkelsen",
+   "aliases": []
+  },
+  "r146": {
+   "name": "Kristian Nordstad",
+   "aliases": []
+  },
+  "r147": {
+   "name": "Yani Nait-Aissa",
+   "aliases": [
+    "Nait Ayssa Yani"
+   ]
+  },
+  "r148": {
+   "name": "Ola Smith-Ericsen",
+   "aliases": []
+  },
+  "r149": {
+   "name": "Tom Ove Mygland",
+   "aliases": []
+  },
+  "r150": {
+   "name": "Lars Petter Brevig",
+   "aliases": []
+  },
+  "r151": {
+   "name": "Nikolai Lindberg",
+   "aliases": []
+  },
+  "r152": {
+   "name": "Daniel Løvaas",
+   "aliases": []
+  },
+  "r153": {
+   "name": "Ola Skorgan",
+   "aliases": []
+  },
+  "r154": {
+   "name": "Jesper Rossing",
+   "aliases": []
+  },
+  "r155": {
+   "name": "Sander Neraas",
+   "aliases": []
+  },
+  "r156": {
+   "name": "Erkki Rustad",
+   "aliases": []
+  },
+  "r157": {
+   "name": "Erik Tørud",
+   "aliases": []
+  },
+  "r158": {
+   "name": "Trygve Selnes",
+   "aliases": []
+  },
+  "r159": {
+   "name": "Mathias Bråten",
+   "aliases": []
+  },
+  "r160": {
+   "name": "Zeke Janowicz",
+   "aliases": []
+  },
+  "r161": {
+   "name": "Eirik Melby",
+   "aliases": []
+  },
+  "r162": {
+   "name": "Thor Erik Jonsrud",
+   "aliases": []
+  },
+  "r163": {
+   "name": "Michael Woodcock",
+   "aliases": []
+  },
+  "r164": {
+   "name": "Repacharge heats: Clikk here",
+   "aliases": []
+  },
+  "r165": {
+   "name": "Final Heats: Clikk here",
+   "aliases": []
+  },
+  "r166": {
+   "name": "Adam Persson",
+   "aliases": []
+  },
+  "r167": {
+   "name": "Erik Lundberg",
+   "aliases": []
+  },
+  "r168": {
+   "name": "Sanne Christopher",
+   "aliases": []
+  },
+  "r169": {
+   "name": "Coleman Luca",
+   "aliases": []
+  },
+  "r170": {
+   "name": "Herman Ottesen",
+   "aliases": []
+  },
+  "r172": {
+   "name": "Borg Mattias",
+   "aliases": []
+  },
+  "r175": {
+   "name": "Julian Baxter",
+   "aliases": []
+  },
+  "r176": {
+   "name": "Morten Espeseter",
+   "aliases": []
+  },
+  "r177": {
+   "name": "Terblanch Terry",
+   "aliases": []
+  },
+  "r178": {
+   "name": "Marius T. Jørgensen",
+   "aliases": []
+  },
+  "r179": {
+   "name": "Victor Bo Larsen",
+   "aliases": [
+    "Victor Larsen"
+   ]
+  },
+  "r180": {
+   "name": "Drageseth Jens",
+   "aliases": []
+  },
+  "r181": {
+   "name": "Hans Kristian Henriksen",
+   "aliases": []
+  },
+  "r182": {
+   "name": "Emile Eknes Miller",
+   "aliases": []
+  },
+  "r183": {
+   "name": "Roar Fønseth",
+   "aliases": [
+    "Roar Fønsert"
+   ]
+  },
+  "r184": {
+   "name": "Tommy Andersson",
+   "aliases": []
+  },
+  "r185": {
+   "name": "Fredrik Berven",
+   "aliases": []
+  },
+  "r186": {
+   "name": "Njaal Tangye",
+   "aliases": []
+  },
+  "r187": {
+   "name": "Hustad Mats",
+   "aliases": []
+  },
+  "r188": {
+   "name": "Sondre Braa",
+   "aliases": []
+  },
+  "r189": {
+   "name": "Aldin Hodzic",
+   "aliases": []
+  },
+  "r190": {
+   "name": "Reinem Petter",
+   "aliases": []
+  },
+  "r191": {
+   "name": "Baska Caspian",
+   "aliases": []
+  },
+  "r192": {
+   "name": "Anders Inde",
+   "aliases": []
+  },
+  "r194": {
+   "name": "Nelson Luke",
+   "aliases": []
+  },
+  "r195": {
+   "name": "Erik Buene",
+   "aliases": []
+  },
+  "r197": {
+   "name": "Vegard Tvete",
+   "aliases": []
+  },
+  "r198": {
+   "name": "Troye Anders",
+   "aliases": []
+  },
+  "r199": {
+   "name": "Canerstam Niklas",
+   "aliases": []
+  },
+  "r200": {
+   "name": "Caspar Grette",
+   "aliases": []
+  },
+  "r201": {
+   "name": "Olsenlund Mikkel Are",
+   "aliases": []
+  },
+  "r202": {
+   "name": "Priestley Sam",
+   "aliases": []
+  },
+  "r203": {
+   "name": "Alejandro Puente",
+   "aliases": []
+  },
+  "r204": {
+   "name": "Kari Havnevik",
+   "aliases": []
+  },
+  "r205": {
+   "name": "Tveite Kenneth",
+   "aliases": []
+  },
+  "r206": {
+   "name": "Hellesnes Pål Magnus",
+   "aliases": []
+  },
+  "r207": {
+   "name": "Kristian Bjørkedal",
+   "aliases": []
+  },
+  "r208": {
+   "name": "Rune Askim",
+   "aliases": []
+  },
+  "r209": {
+   "name": "Johnsrud Thor-Erik",
+   "aliases": []
+  },
+  "r210": {
+   "name": "Bjertnes Thomas",
+   "aliases": []
+  },
+  "r211": {
+   "name": "Johansen Christer",
+   "aliases": []
+  },
+  "r212": {
+   "name": "Øverland Dan",
+   "aliases": []
+  },
+  "r213": {
+   "name": "Lasse Morin",
+   "aliases": []
+  },
+  "r214": {
+   "name": "Jørund Bratset",
+   "aliases": []
+  },
+  "r215": {
+   "name": "Einar Kvam",
+   "aliases": []
+  },
+  "r216": {
+   "name": "Joakim Strømmen",
+   "aliases": []
+  },
+  "r217": {
+   "name": "Johan Sebastian Myhre",
+   "aliases": []
+  },
+  "r218": {
+   "name": "Mathias Bjørkedal",
+   "aliases": []
+  },
+  "r219": {
+   "name": "Alexander Teilgård",
+   "aliases": []
+  },
+  "r220": {
+   "name": "Leif Arne Hatlem",
+   "aliases": []
+  },
+  "r221": {
+   "name": "Daniel Heltne",
+   "aliases": []
+  },
+  "r222": {
+   "name": "Nicolas Eriksen",
+   "aliases": []
+  },
+  "r223": {
+   "name": "Ole Marius Langlo",
+   "aliases": []
+  },
+  "r224": {
+   "name": "Håkon Heltne",
+   "aliases": []
+  },
+  "r225": {
+   "name": "Sigbjørn Melvær",
+   "aliases": []
+  },
+  "r226": {
+   "name": "Andreas Sandnes",
+   "aliases": []
+  },
+  "r227": {
+   "name": "Sebastian Burr",
+   "aliases": []
+  },
+  "r228": {
+   "name": "Lucas Krown",
+   "aliases": []
+  },
+  "r230": {
+   "name": "Sander Viste Mehus",
+   "aliases": [
+    "Sander Viste"
+   ]
+  },
+  "r231": {
+   "name": "Jakob Eriksson",
+   "aliases": []
+  },
+  "r232": {
+   "name": "Sammy Hasselberg",
+   "aliases": []
+  },
+  "r233": {
+   "name": "Max Eriksson",
+   "aliases": []
+  },
+  "r234": {
+   "name": "Rebekka Gemperle",
+   "aliases": []
+  },
+  "r235": {
+   "name": "Johannes Aalholm",
+   "aliases": [
+    "Johannes Sagedal"
+   ]
+  },
+  "r236": {
+   "name": "Magne Ørvik",
+   "aliases": []
+  },
+  "r237": {
+   "name": "Charlie Cockman",
+   "aliases": []
+  },
+  "r238": {
+   "name": "Lars Mikalsen",
+   "aliases": []
+  },
+  "r239": {
+   "name": "Terry Blanche",
+   "aliases": []
+  },
+  "r240": {
+   "name": "Mauritz Armfelt",
+   "aliases": []
+  },
+  "r241": {
+   "name": "Per Christner",
+   "aliases": []
+  },
+  "r242": {
+   "name": "Benjamin Niklasson",
+   "aliases": []
+  },
+  "r243": {
+   "name": "Esaja Ekman",
+   "aliases": []
+  },
+  "r244": {
+   "name": "Dennis Eriksson",
+   "aliases": []
+  },
+  "r245": {
+   "name": "Marcus Jarlson",
+   "aliases": []
+  },
+  "r246": {
+   "name": "Adam Hill",
+   "aliases": []
+  },
+  "r247": {
+   "name": "Alexander Lyngås",
+   "aliases": []
+  },
+  "r248": {
+   "name": "Christoffer Nikolaisen",
+   "aliases": []
+  },
+  "r249": {
+   "name": "Kim Nilsson",
+   "aliases": []
+  },
+  "r250": {
+   "name": "Simon Palmhager",
+   "aliases": []
+  },
+  "r251": {
+   "name": "Max Walter",
+   "aliases": []
+  },
+  "r252": {
+   "name": "Eivind Bache Blix",
+   "aliases": []
+  },
+  "r253": {
+   "name": "Albin Brunasso",
+   "aliases": []
+  },
+  "r254": {
+   "name": "Martin Edoff",
+   "aliases": []
+  },
+  "r255": {
+   "name": "Andrej Frelin",
+   "aliases": []
+  },
+  "r256": {
+   "name": "Johan Christensson",
+   "aliases": []
+  },
+  "r257": {
+   "name": "Alf Olsen",
+   "aliases": []
+  },
+  "r258": {
+   "name": "Isac Printz",
+   "aliases": []
+  },
+  "r259": {
+   "name": "Emil Olsson",
+   "aliases": []
+  },
+  "r260": {
+   "name": "Daniela Gaislerova",
+   "aliases": []
+  },
+  "r261": {
+   "name": "Tobias Orth",
+   "aliases": []
+  },
+  "r262": {
+   "name": "Christoffer Ekwall",
+   "aliases": []
+  },
+  "r263": {
+   "name": "Sonsoles Masia",
+   "aliases": [
+    "Sonsoles Masia",
+    "Sonsoles Masia Sanchez"
+   ]
+  },
+  "r264": {
+   "name": "Tim Davis",
+   "aliases": []
+  },
+  "r265": {
+   "name": "Hannes Larsson",
+   "aliases": []
+  },
+  "r266": {
+   "name": "Karl Porsnet",
+   "aliases": []
+  },
+  "r267": {
+   "name": "Erik Sävenäs",
+   "aliases": []
+  },
+  "r268": {
+   "name": "Henning Hanshaugen",
+   "aliases": []
+  },
+  "r269": {
+   "name": "Emil Franzén",
+   "aliases": []
+  },
+  "r270": {
+   "name": "Aleksander Teilgård",
+   "aliases": []
+  },
+  "r271": {
+   "name": "David Gjengedal",
+   "aliases": []
+  },
+  "r272": {
+   "name": "Ivar Boldvik",
+   "aliases": []
+  },
+  "r273": {
+   "name": "Geir Tom Aasen",
+   "aliases": []
+  },
+  "r274": {
+   "name": "John-Eirik Ose",
+   "aliases": []
+  },
+  "r275": {
+   "name": "Erik Evensen",
+   "aliases": []
+  },
+  "r276": {
+   "name": "Jan Ståle Eriksen",
+   "aliases": []
+  },
+  "r277": {
+   "name": "Harald Christian Hoff",
+   "aliases": []
+  },
+  "r278": {
+   "name": "Odne Vassbotn",
+   "aliases": []
+  },
+  "r279": {
+   "name": "Adrian Persson",
+   "aliases": []
+  },
+  "r280": {
+   "name": "Sølve Selander",
+   "aliases": []
+  },
+  "r281": {
+   "name": "Oddgeir Tjelta",
+   "aliases": []
+  },
+  "r282": {
+   "name": "Simen Skjeggerød Evensen",
+   "aliases": []
+  },
+  "r283": {
+   "name": "Vegard Villbassen",
+   "aliases": []
+  },
+  "r284": {
+   "name": "Simon Sætre",
+   "aliases": []
+  },
+  "r285": {
+   "name": "Øistein Hilmar",
+   "aliases": []
+  },
+  "r286": {
+   "name": "Mathias Tollefsen",
+   "aliases": []
+  },
+  "r287": {
+   "name": "Erlend Vestby",
+   "aliases": []
+  },
+  "r288": {
+   "name": "Joel Hoholm",
+   "aliases": []
+  },
+  "r289": {
+   "name": "Jon Erik Tengesdal",
+   "aliases": []
+  },
+  "r290": {
+   "name": "Sebastian Strand",
+   "aliases": []
+  },
+  "r291": {
+   "name": "Even Strand",
+   "aliases": []
+  },
+  "r292": {
+   "name": "Jørgen Reitan",
+   "aliases": []
+  },
+  "r293": {
+   "name": "Sebastian Hoholm",
+   "aliases": []
+  },
+  "r294": {
+   "name": "Lorenza Walker",
+   "aliases": []
+  },
+  "r295": {
+   "name": "Niklas Molander",
+   "aliases": []
+  },
+  "r296": {
+   "name": "Kimbo",
+   "aliases": []
+  },
+  "r297": {
+   "name": "Matthew Kienzle",
+   "aliases": []
+  },
+  "r298": {
+   "name": "Ville Hietala",
+   "aliases": []
+  },
+  "r299": {
+   "name": "Martin Klawitter",
+   "aliases": []
+  },
+  "r300": {
+   "name": "Jorge Pernes",
+   "aliases": []
+  },
+  "r301": {
+   "name": "Ammann Philipp",
+   "aliases": []
+  },
+  "r302": {
+   "name": "Alex Duss",
+   "aliases": []
+  },
+  "r303": {
+   "name": "Andrew Louw",
+   "aliases": []
+  },
+  "r304": {
+   "name": "Georges Siddiqi",
+   "aliases": []
+  },
+  "r305": {
+   "name": "Rachel Rayne",
+   "aliases": []
+  },
+  "r306": {
+   "name": "Simon Darre",
+   "aliases": []
+  },
+  "r307": {
+   "name": "Tofte Torstein",
+   "aliases": []
+  },
+  "r308": {
+   "name": "Roy Helge Prestegard",
+   "aliases": [
+    "Roy Helge"
+   ]
+  },
+  "r309": {
+   "name": "Jon Dahlstrand",
+   "aliases": []
+  },
+  "r310": {
+   "name": "Markus Wegge",
+   "aliases": []
+  },
+  "r311": {
+   "name": "Lars Isaksen",
+   "aliases": []
+  },
+  "r312": {
+   "name": "Live Frisak",
+   "aliases": []
+  },
+  "r313": {
+   "name": "Herman Knutsen",
+   "aliases": []
+  },
+  "r314": {
+   "name": "Alfredo Bran",
+   "aliases": []
+  },
+  "r315": {
+   "name": "Geir Arne Røynesdal",
+   "aliases": []
+  },
+  "r316": {
+   "name": "Peter Andersson",
+   "aliases": []
+  },
+  "r317": {
+   "name": "Emma Daigle",
+   "aliases": []
+  },
+  "r318": {
+   "name": "Høydahl Sondre",
+   "aliases": []
+  },
+  "r319": {
+   "name": "Fredrik Rogbrandt",
+   "aliases": []
+  },
+  "r320": {
+   "name": "Lamin Cassama",
+   "aliases": []
+  },
+  "r321": {
+   "name": "Max Meurling",
+   "aliases": []
+  },
+  "r323": {
+   "name": "Jacob Heden Hatunen",
+   "aliases": []
+  },
+  "r324": {
+   "name": "Daniel Parish",
+   "aliases": []
+  },
+  "r325": {
+   "name": "Ludwig Fahlström",
+   "aliases": []
+  },
+  "r326": {
+   "name": "Robin Bergman",
+   "aliases": []
+  },
+  "r327": {
+   "name": "David Berntsson",
+   "aliases": []
+  },
+  "r328": {
+   "name": "Luca Pallucchini",
+   "aliases": []
+  },
+  "r329": {
+   "name": "Rasmus Klintrot",
+   "aliases": []
+  },
+  "r330": {
+   "name": "Tash Graham",
+   "aliases": []
+  },
+  "r331": {
+   "name": "My Argården Björn",
+   "aliases": []
+  },
+  "r332": {
+   "name": "Marcus Tjernström",
+   "aliases": []
+  },
+  "r333": {
+   "name": "Edwin Schölander",
+   "aliases": []
+  },
+  "r334": {
+   "name": "Linus Brundin",
+   "aliases": []
+  },
+  "r335": {
+   "name": "Gustav Fahlström",
+   "aliases": []
+  },
+  "r336": {
+   "name": "Fonzie Forsman",
+   "aliases": []
+  },
+  "r337": {
+   "name": "Adam Andersson",
+   "aliases": []
+  },
+  "r338": {
+   "name": "Christopher Ekwall",
+   "aliases": []
+  },
+  "r339": {
+   "name": "Anton Ogorodnikov",
+   "aliases": []
+  },
+  "r340": {
+   "name": "Linn Andersson",
+   "aliases": []
+  },
+  "r341": {
+   "name": "Henning P Partickson",
+   "aliases": []
+  },
+  "r342": {
+   "name": "Hilmar Iversen",
+   "aliases": []
+  },
+  "r343": {
+   "name": "Christian Wiik",
+   "aliases": []
+  },
+  "r344": {
+   "name": "Mikkel tmi",
+   "aliases": []
+  },
+  "r346": {
+   "name": "Morten Forsberg",
+   "aliases": []
+  },
+  "r347": {
+   "name": "Jon Øverdahl",
+   "aliases": []
+  },
+  "r348": {
+   "name": "Magnus Syvertsen",
+   "aliases": []
+  },
+  "r349": {
+   "name": "Magnus Kjelland",
+   "aliases": []
+  },
+  "r350": {
+   "name": "Espen H Hansen",
+   "aliases": []
+  },
+  "r351": {
+   "name": "Erland Hoholm",
+   "aliases": []
+  },
+  "r352": {
+   "name": "Eymund Aadahl",
+   "aliases": []
+  },
+  "r353": {
+   "name": "Yani",
+   "aliases": []
+  },
+  "r354": {
+   "name": "Henry Muller",
+   "aliases": []
+  },
+  "r355": {
+   "name": "Maximilian Eriksson",
+   "aliases": []
+  },
+  "r356": {
+   "name": "Oliver Felle",
+   "aliases": []
+  },
+  "r358": {
+   "name": "Tom Rushovich",
+   "aliases": []
+  },
+  "r359": {
+   "name": "Jens Schøien Øvregård",
+   "aliases": [
+    "Jens Schøien"
+   ]
+  },
+  "r360": {
+   "name": "Björn Ryrlind",
+   "aliases": []
+  },
+  "r361": {
+   "name": "Alexander Frischauf",
+   "aliases": []
+  },
+  "r362": {
+   "name": "Jacob Romdahl",
+   "aliases": []
+  },
+  "r363": {
+   "name": "Sigve Fjell",
+   "aliases": []
+  },
+  "r364": {
+   "name": "David Eriksen",
+   "aliases": []
+  },
+  "r365": {
+   "name": "Ørjan Ringheim",
+   "aliases": []
+  },
+  "r366": {
+   "name": "Richard Moe",
+   "aliases": []
+  },
+  "r367": {
+   "name": "Kirsti Henriksen",
+   "aliases": [
+    "Kirsti Øfsthus"
+   ]
+  },
+  "r368": {
+   "name": "Herman Brun",
+   "aliases": []
+  },
+  "r370": {
+   "name": "Håvard Rustad",
+   "aliases": []
+  },
+  "r371": {
+   "name": "Ilka",
+   "aliases": []
+  },
+  "r373": {
+   "name": "Alph Marius",
+   "aliases": []
+  },
+  "r374": {
+   "name": "Kristoffer Stenersen",
+   "aliases": []
+  },
+  "r375": {
+   "name": "Tor Ernst Hofman",
+   "aliases": []
+  },
+  "r376": {
+   "name": "Peder Bruem",
+   "aliases": []
+  },
+  "r377": {
+   "name": "Carl Larsson",
+   "aliases": []
+  },
+  "r378": {
+   "name": "Cato Aurtun",
+   "aliases": []
+  },
+  "r379": {
+   "name": "Øystein Nygård",
+   "aliases": []
+  },
+  "r380": {
+   "name": "Håkon Aavik",
+   "aliases": []
+  },
+  "r381": {
+   "name": "Anders Berg",
+   "aliases": []
+  },
+  "r382": {
+   "name": "Jørgen Monkerud",
+   "aliases": []
+  },
+  "r383": {
+   "name": "Vegard Aune",
+   "aliases": []
+  },
+  "r384": {
+   "name": "Freddie Pettersson",
+   "aliases": []
+  },
+  "r385": {
+   "name": "Leif Ole Stampa",
+   "aliases": [
+    "Leif Ola Stampa Johannsen",
+    "Leif Ole",
+    "Leif Ole Stampa",
+    "Leif Ole Stampa Johannsen",
+    "Leif Ole Stampa-J"
+   ]
+  },
+  "r386": {
+   "name": "Bjørn Oskar Rønning",
+   "aliases": []
+  },
+  "r387": {
+   "name": "Magnus Pastor Harm",
+   "aliases": []
+  },
+  "r388": {
+   "name": "Fredrik Ognedal",
+   "aliases": []
+  },
+  "r389": {
+   "name": "Anton Lindén",
+   "aliases": []
+  },
+  "r390": {
+   "name": "Kim-Tore Brendgen",
+   "aliases": []
+  },
+  "r391": {
+   "name": "Simon Sundin",
+   "aliases": []
+  },
+  "r392": {
+   "name": "Dave Süess",
+   "aliases": []
+  },
+  "r393": {
+   "name": "Tanner Morelock",
+   "aliases": []
+  },
+  "r394": {
+   "name": "Aaron Hampshire",
+   "aliases": []
+  },
+  "r395": {
+   "name": "Daina Banks",
+   "aliases": []
+  },
+  "r396": {
+   "name": "Seth Guecker",
+   "aliases": []
+  },
+  "r397": {
+   "name": "Rachel Bruskoff",
+   "aliases": []
+  },
+  "r398": {
+   "name": "Till Heiden",
+   "aliases": []
+  },
+  "r399": {
+   "name": "Olav Bakemann Adalberon",
+   "aliases": []
+  },
+  "r400": {
+   "name": "Jenny Schaurte",
+   "aliases": []
+  },
+  "r401": {
+   "name": "Niclas Hermin",
+   "aliases": []
+  },
+  "r402": {
+   "name": "Christian Torstvet",
+   "aliases": []
+  },
+  "r403": {
+   "name": "Mina Nornes Westli",
+   "aliases": [
+    "Mina MW",
+    "Mina N. Westli",
+    "Mina NW",
+    "Mina Nornes"
+   ]
+  },
+  "r404": {
+   "name": "Jan Erik Strømmen",
+   "aliases": []
+  },
+  "r405": {
+   "name": "Luis M. Reyes Fajo",
+   "aliases": []
+  },
+  "r406": {
+   "name": "Rider Name",
+   "aliases": []
+  },
+  "r407": {
+   "name": "Alex Charleson",
+   "aliases": []
+  },
+  "r408": {
+   "name": "Max Ballesteros",
+   "aliases": []
+  },
+  "r409": {
+   "name": "Thiago Gomes Lessa",
+   "aliases": []
+  },
+  "r410": {
+   "name": "Carlos Paixão",
+   "aliases": []
+  },
+  "r411": {
+   "name": "Justin Rouleau",
+   "aliases": []
+  },
+  "r412": {
+   "name": "Harry Clarke",
+   "aliases": []
+  },
+  "r413": {
+   "name": "Garino Giorgio",
+   "aliases": []
+  },
+  "r414": {
+   "name": "Zak Maytum",
+   "aliases": []
+  },
+  "r415": {
+   "name": "Aleix Gallimo",
+   "aliases": []
+  },
+  "r416": {
+   "name": "Quirin Ilmer",
+   "aliases": []
+  },
+  "r417": {
+   "name": "Edward Kiefer",
+   "aliases": []
+  },
+  "r418": {
+   "name": "Tiago Mohr",
+   "aliases": []
+  },
+  "r419": {
+   "name": "Emily Pross",
+   "aliases": []
+  },
+  "r420": {
+   "name": "Joao Pedro Nogueira",
+   "aliases": []
+  },
+  "r421": {
+   "name": "Michal Cihlar",
+   "aliases": []
+  },
+  "r422": {
+   "name": "Jesse Martin",
+   "aliases": []
+  },
+  "r423": {
+   "name": "Marcus Aldinucci",
+   "aliases": []
+  },
+  "r424": {
+   "name": "Clayton Arthurs",
+   "aliases": []
+  },
+  "r425": {
+   "name": "Douglas Silva",
+   "aliases": []
+  },
+  "r426": {
+   "name": "Samuel D'Avignon",
+   "aliases": []
+  },
+  "r427": {
+   "name": "Andrea Moreni",
+   "aliases": []
+  },
+  "r428": {
+   "name": "Cassandra Duchesne",
+   "aliases": []
+  },
+  "r429": {
+   "name": "Patrick Lombardi",
+   "aliases": []
+  },
+  "r430": {
+   "name": "Vojta Zacek",
+   "aliases": []
+  },
+  "r431": {
+   "name": "Irra Cameselle Esperón",
+   "aliases": []
+  },
+  "r432": {
+   "name": "Fabrizio Clausi",
+   "aliases": []
+  },
+  "r433": {
+   "name": "Jennifer Schauerte",
+   "aliases": []
+  },
+  "r434": {
+   "name": "Benjamin Hay",
+   "aliases": []
+  },
+  "r435": {
+   "name": "Lyde Begue",
+   "aliases": []
+  },
+  "r436": {
+   "name": "Lukas Übelhör",
+   "aliases": []
+  },
+  "r437": {
+   "name": "Damian Derek Blanquer Gelez",
+   "aliases": []
+  },
+  "r438": {
+   "name": "Mitch Thompson",
+   "aliases": []
+  },
+  "r439": {
+   "name": "Knox Heslop",
+   "aliases": []
+  },
+  "r440": {
+   "name": "Jakub Rod",
+   "aliases": []
+  },
+  "r441": {
+   "name": "Seth Gouker",
+   "aliases": []
+  },
+  "r442": {
+   "name": "Vašek Čvančara",
+   "aliases": []
+  },
+  "r443": {
+   "name": "Stefano Barbizzi",
+   "aliases": []
+  },
+  "r444": {
+   "name": "Tommaso Bohannon",
+   "aliases": []
+  },
+  "r445": {
+   "name": "Andrez Krob Pereira",
+   "aliases": []
+  },
+  "r446": {
+   "name": "Nicolas Desmarais",
+   "aliases": []
+  },
+  "r447": {
+   "name": "Jasmijn Hanegraef",
+   "aliases": []
+  },
+  "r448": {
+   "name": "Grace Wong",
+   "aliases": []
+  },
+  "r449": {
+   "name": "Daniela Lazo",
+   "aliases": []
+  },
+  "r450": {
+   "name": "Lisa Peters",
+   "aliases": []
+  },
+  "r451": {
+   "name": "Pete Connolly",
+   "aliases": []
+  },
+  "r452": {
+   "name": "Ghost",
+   "aliases": []
+  },
+  "r453": {
+   "name": "Odin Gløtheim",
+   "aliases": []
+  },
+  "r454": {
+   "name": "Christian Torkelsen",
+   "aliases": []
+  },
+  "r455": {
+   "name": "Sindre Kjæreng",
+   "aliases": []
+  },
+  "r456": {
+   "name": "Olav Øye",
+   "aliases": []
+  },
+  "r457": {
+   "name": "Jan-Petter Hammersland",
+   "aliases": []
+  },
+  "r458": {
+   "name": "Austin VanDyke",
+   "aliases": []
+  },
+  "r459": {
+   "name": "Sigbjørn Viste Mehus",
+   "aliases": []
+  },
+  "r460": {
+   "name": "Cornelius Knudsen",
+   "aliases": []
+  },
+  "r461": {
+   "name": "Agathe Matilda Borg",
+   "aliases": []
+  },
+  "r462": {
+   "name": "Gustav Sigmundstad",
+   "aliases": []
+  },
+  "r463": {
+   "name": "Ketil Thorvaldsen",
+   "aliases": []
+  },
+  "r464": {
+   "name": "Torstein r Storaas",
+   "aliases": []
+  },
+  "r465": {
+   "name": "Gard Eymundsson",
+   "aliases": []
+  },
+  "r466": {
+   "name": "Fredrik Håland Røvik",
+   "aliases": [
+    "Fredrik H. Røvik",
+    "Fredrik Håland"
+   ]
+  },
+  "r467": {
+   "name": "Ådne Håskjold Lade",
+   "aliases": []
+  },
+  "r468": {
+   "name": "Ragnhild Kjelstrup",
+   "aliases": []
+  },
+  "r469": {
+   "name": "Kristian Torstveit",
+   "aliases": []
+  },
+  "r470": {
+   "name": "Helge Vignal",
+   "aliases": []
+  },
+  "r471": {
+   "name": "Elaine Maltezos",
+   "aliases": []
+  },
+  "r472": {
+   "name": "Andreas Huseby Grønner",
+   "aliases": []
+  },
+  "r473": {
+   "name": "Helene Walberg Liland",
+   "aliases": [
+    "Helene W Liland",
+    "Helene W. Liland",
+    "Helene Walberg",
+    "Liland Helene Walberg"
+   ]
+  },
+  "r474": {
+   "name": "Theresia Lundh",
+   "aliases": []
+  },
+  "r475": {
+   "name": "André Føyn Berge",
+   "aliases": []
+  },
+  "r476": {
+   "name": "Lorenza",
+   "aliases": []
+  },
+  "r478": {
+   "name": "Erlend Endresen",
+   "aliases": []
+  },
+  "r480": {
+   "name": "Josue Ismael Forster Ayovi",
+   "aliases": [
+    "Josue Ismael Forster",
+    "Josue Ismael Forster Ayovi"
+   ]
+  },
+  "r481": {
+   "name": "Pinjango Ruben",
+   "aliases": []
+  },
+  "r482": {
+   "name": "Sami Hasselberg",
+   "aliases": []
+  },
+  "r483": {
+   "name": "Jonathan Bertilsson",
+   "aliases": []
+  },
+  "r484": {
+   "name": "Bendik Askløv",
+   "aliases": []
+  },
+  "r485": {
+   "name": "Carina Rogers",
+   "aliases": []
+  },
+  "r487": {
+   "name": "Ane Smith",
+   "aliases": [
+    "Smith Ane Hedegaard"
+   ]
+  },
+  "r489": {
+   "name": "Daniel Vidme",
+   "aliases": []
+  },
+  "r490": {
+   "name": "Hussain Nas",
+   "aliases": []
+  },
+  "r491": {
+   "name": "Pål Tørud",
+   "aliases": []
+  },
+  "r492": {
+   "name": "Mats Westgaard",
+   "aliases": []
+  },
+  "r493": {
+   "name": "Øystein Nesse",
+   "aliases": []
+  },
+  "r494": {
+   "name": "DJ Gianduso",
+   "aliases": []
+  },
+  "r495": {
+   "name": "Jakob Bernhard",
+   "aliases": []
+  },
+  "r496": {
+   "name": "Francisco Wilson Silva",
+   "aliases": []
+  },
+  "r497": {
+   "name": "Per Mattis Fürst Holtmann",
+   "aliases": []
+  },
+  "r498": {
+   "name": "Odd Steinar Syversen",
+   "aliases": [
+    "Odd Steinar"
+   ]
+  },
+  "r499": {
+   "name": "Nikita Solenov",
+   "aliases": []
+  },
+  "r500": {
+   "name": "Bendik Meriaki",
+   "aliases": []
+  },
+  "r501": {
+   "name": "Pål Eirik Svanevik",
+   "aliases": [
+    "Pål Eirik"
+   ]
+  },
+  "r502": {
+   "name": "Johannes Gill Krogh",
+   "aliases": []
+  },
+  "r503": {
+   "name": "Ali Al-Nasrallah",
+   "aliases": []
+  },
+  "r504": {
+   "name": "Dallas Hunt",
+   "aliases": []
+  },
+  "r505": {
+   "name": "Hussain Al-Nasrallah",
+   "aliases": []
+  },
+  "r506": {
+   "name": "Maya He Cobben",
+   "aliases": [
+    "Maya He"
+   ]
+  },
+  "r507": {
+   "name": "Peder Holterman Solland",
+   "aliases": [
+    "Peder Holterman"
+   ]
+  },
+  "r508": {
+   "name": "Lukas Kruk",
+   "aliases": []
+  },
+  "r510": {
+   "name": "audun Leikvoll Melvær",
+   "aliases": []
+  },
+  "r511": {
+   "name": "Aud Helen S Syversen",
+   "aliases": []
+  },
+  "r512": {
+   "name": "Ellen Merete Knutsen",
+   "aliases": []
+  },
+  "r513": {
+   "name": "Ryder Hathaway",
+   "aliases": []
+  },
+  "r514": {
+   "name": "Albin Niva Printz",
+   "aliases": [
+    "Albin Niva"
+   ]
+  },
+  "r515": {
+   "name": "Matthew Deitch",
+   "aliases": []
+  },
+  "r516": {
+   "name": "Cristiano Borges de Araújo",
+   "aliases": [
+    "Cristiano Borges"
+   ]
+  },
+  "r517": {
+   "name": "Lucas Fletcher",
+   "aliases": []
+  },
+  "r518": {
+   "name": "Jarno Kajova",
+   "aliases": []
+  },
+  "r519": {
+   "name": "antonia Skårhaug",
+   "aliases": []
+  },
+  "r520": {
+   "name": "david georges dit rap",
+   "aliases": [
+    "David Georges",
+    "david georges dit rap"
+   ]
+  },
+  "r521": {
+   "name": "Adrian Fjelle Evensen",
+   "aliases": [
+    "Adrian Fjelle"
+   ]
+  },
+  "r522": {
+   "name": "Patrick io",
+   "aliases": []
+  },
+  "r523": {
+   "name": "Alberto Penelas",
+   "aliases": []
+  },
+  "r534": {
+   "name": "Oskari Hakala",
+   "aliases": []
+  },
+  "r538": {
+   "name": "Konsta Hakala",
+   "aliases": []
+  },
+  "r540": {
+   "name": "Joonas Komulainen",
+   "aliases": []
+  },
+  "r542": {
+   "name": "Derrick Duncan",
+   "aliases": []
+  },
+  "r543": {
+   "name": "Candy Dungan",
+   "aliases": []
+  },
+  "r544": {
+   "name": "Oscar Clevö",
+   "aliases": []
+  },
+  "r545": {
+   "name": "Joris Plaščinskas",
+   "aliases": []
+  },
+  "r546": {
+   "name": "Sebastian Petros Berglund",
+   "aliases": [
+    "Sebastian Petros"
+   ]
+  },
+  "r547": {
+   "name": "Morten Solvik Sæthre",
+   "aliases": []
+  },
+  "r549": {
+   "name": "Dre Nubine",
+   "aliases": []
+  },
+  "r550": {
+   "name": "Adrien Paynel",
+   "aliases": []
+  },
+  "r551": {
+   "name": "Jiří Kneifl",
+   "aliases": []
+  },
+  "r552": {
+   "name": "Marcus Lopes",
+   "aliases": []
+  },
+  "r553": {
+   "name": "Johannes Montanari",
+   "aliases": []
+  },
+  "r554": {
+   "name": "Zack Rönngård",
+   "aliases": []
+  },
+  "r556": {
+   "name": "Callum Mathieson",
+   "aliases": []
+  },
+  "r557": {
+   "name": "Gustav Hallberg",
+   "aliases": []
+  },
+  "r558": {
+   "name": "Lucas Poulain",
+   "aliases": []
+  },
+  "r559": {
+   "name": "Gerrit Geiger",
+   "aliases": []
+  },
+  "r560": {
+   "name": "Deen Mondt",
+   "aliases": []
+  },
+  "r561": {
+   "name": "Carlos Shärer",
+   "aliases": []
+  },
+  "r562": {
+   "name": "Marjorie Romeo",
+   "aliases": []
+  },
+  "r563": {
+   "name": "Lukas Kouba",
+   "aliases": []
+  },
+  "r564": {
+   "name": "Bohumil Šefrna",
+   "aliases": []
+  },
+  "r565": {
+   "name": "Elton Vejux",
+   "aliases": []
+  },
+  "r566": {
+   "name": "Selina Theiler",
+   "aliases": []
+  },
+  "r567": {
+   "name": "Matthew Watson",
+   "aliases": []
+  },
+  "r568": {
+   "name": "Julie Erz",
+   "aliases": []
+  },
+  "r569": {
+   "name": "Jonathan Wong",
+   "aliases": [
+    "Cho Hang Jonathan Wong",
+    "Jonathan Wong"
+   ]
+  },
+  "r570": {
+   "name": "Jack Plummer",
+   "aliases": []
+  },
+  "r571": {
+   "name": "Patrick Stoll",
+   "aliases": []
+  },
+  "r572": {
+   "name": "Marnix Zimmerman",
+   "aliases": []
+  },
+  "r573": {
+   "name": "Thies Vollstedt",
+   "aliases": []
+  },
+  "r574": {
+   "name": "Alexandra Sabeh",
+   "aliases": []
+  },
+  "r575": {
+   "name": "Irving Bennett",
+   "aliases": []
+  },
+  "r576": {
+   "name": "Ronny Wettmer",
+   "aliases": []
+  },
+  "r578": {
+   "name": "Amelie Castain",
+   "aliases": []
+  },
+  "r579": {
+   "name": "David Gonzalez",
+   "aliases": []
+  },
+  "r580": {
+   "name": "Garrett Belanger",
+   "aliases": []
+  },
+  "r581": {
+   "name": "Ambroise Trauet",
+   "aliases": []
+  },
+  "r582": {
+   "name": "Bryce Brady",
+   "aliases": []
+  },
+  "r583": {
+   "name": "Nick Broms",
+   "aliases": []
+  },
+  "r584": {
+   "name": "Alex Clark",
+   "aliases": []
+  },
+  "r585": {
+   "name": "Owen Fox",
+   "aliases": []
+  },
+  "r586": {
+   "name": "Jan Nogueras",
+   "aliases": []
+  },
+  "r587": {
+   "name": "Antonio Madariaga",
+   "aliases": []
+  },
+  "r588": {
+   "name": "Mitchell Thompson",
+   "aliases": []
+  },
+  "r589": {
+   "name": "Dexter Manning",
+   "aliases": []
+  },
+  "r590": {
+   "name": "Micaiah Harness",
+   "aliases": []
+  },
+  "r591": {
+   "name": "Morgan Owens",
+   "aliases": []
+  },
+  "r592": {
+   "name": "Thomas Ng",
+   "aliases": []
+  },
+  "r593": {
+   "name": "Tobias Hoff Iversen",
+   "aliases": []
+  },
+  "r594": {
+   "name": "Simen Pettersen",
+   "aliases": []
+  },
+  "r595": {
+   "name": "Fatima Mehidi",
+   "aliases": []
+  },
+  "r596": {
+   "name": "Oscar Rodriguez",
+   "aliases": []
+  },
+  "r597": {
+   "name": "Alex Dehmel",
+   "aliases": []
+  },
+  "r598": {
+   "name": "Lawrence Thompson",
+   "aliases": []
+  },
+  "r599": {
+   "name": "Billy Aston",
+   "aliases": []
+  },
+  "r600": {
+   "name": "Jackson Loney",
+   "aliases": []
+  },
+  "r601": {
+   "name": "Joaquin Bazo",
+   "aliases": []
+  },
+  "r602": {
+   "name": "Buddy Van Peer",
+   "aliases": []
+  },
+  "r603": {
+   "name": "Vojtech Zacek",
+   "aliases": []
+  },
+  "r604": {
+   "name": "Eduard Winsch",
+   "aliases": []
+  },
+  "r605": {
+   "name": "Mariana Machačná",
+   "aliases": []
+  },
+  "r606": {
+   "name": "Marieke Wünsche",
+   "aliases": []
+  },
+  "r607": {
+   "name": "Hermine Meyer",
+   "aliases": []
+  },
+  "r608": {
+   "name": "Tom Kopke",
+   "aliases": []
+  },
+  "r609": {
+   "name": "Rainer Oesterle",
+   "aliases": []
+  },
+  "r610": {
+   "name": "Sigurd Groven",
+   "aliases": []
+  }
+ }
+}

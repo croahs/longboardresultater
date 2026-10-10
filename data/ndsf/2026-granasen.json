@@ -1,0 +1,50 @@
+{
+ "id": "2026-granasen",
+ "name": "Granåsen",
+ "year": 2026,
+ "date": "2026-06-01",
+ "date_known": true,
+ "hill": "granasen",
+ "sources": [
+  "https://ndsf.no/?p=3620"
+ ],
+ "titles": [
+  "Granåsen Downhill Skateboard Race – Reslutater 2026"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "text (Final result:)",
+   "results": [
+    {
+     "place": 1,
+     "name": "Peder Brumem",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Olav Bakemann Adalberon",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Even Fish Strand",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Tobias Hoff Iversen",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

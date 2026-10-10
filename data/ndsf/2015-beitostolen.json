@@ -1,0 +1,166 @@
+{
+ "id": "2015-beitostolen",
+ "name": "Beitostølen",
+ "year": 2015,
+ "date": "2015-08-27",
+ "date_known": true,
+ "hill": "beitostolen",
+ "sources": [
+  "https://ndsf.no/?p=1334"
+ ],
+ "titles": [
+  "TMI Beito – Resultater"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "sheet 1KkJTo-Ut6RH_dy79sQp-bybMlg1Q1-xue6UargMoxXw / Timed runs / Pos.",
+   "results": [
+    {
+     "place": 1,
+     "name": "Ali Nas",
+     "time": 50.59,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Magne Ørvik",
+     "time": 51.72,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Jens Schøien Øvregård",
+     "time": 51.93,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Emile Eknes Miller",
+     "time": 52.28,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Marius T. Jørgensen",
+     "time": 52.54,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Hans Kristian Henriksen",
+     "time": 53.78,
+     "dnf": false
+    },
+    {
+     "place": null,
+     "name": "Adrian Jancey",
+     "time": null,
+     "dnf": true
+    },
+    {
+     "place": 8,
+     "name": "Haakon Aavik",
+     "time": 60.42,
+     "dnf": false
+    },
+    {
+     "place": 9,
+     "name": "Trygve Flebu Jørundland",
+     "time": 63.77,
+     "dnf": true
+    },
+    {
+     "place": 10,
+     "name": "Jørgen Monkerud",
+     "time": 78.81,
+     "dnf": true
+    },
+    {
+     "place": 11,
+     "name": "Vegard Aune",
+     "time": 89.4,
+     "dnf": false
+    }
+   ]
+  },
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "sheet 1KkJTo-Ut6RH_dy79sQp-bybMlg1Q1-xue6UargMoxXw / Resultater / Plass",
+   "results": [
+    {
+     "place": 1,
+     "name": "Ali Nas",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Magne Ørvik",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Emile Eknes Miller",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Hans Krsitian Henriksen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Jens Schøien Øvregård",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Marius T. Jørgensen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Adrian Jancey",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Trygve Flebu Jørundland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 9,
+     "name": "Haakon Aavik",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 10,
+     "name": "Jørgen Monkerud",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 11,
+     "name": "Vegard Aune",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

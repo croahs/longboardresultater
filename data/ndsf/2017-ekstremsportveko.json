@@ -1,0 +1,438 @@
+{
+ "id": "2017-ekstremsportveko",
+ "name": "Ekstremsportveko",
+ "year": 2017,
+ "date": "2017-07-02",
+ "date_known": true,
+ "hill": "voss",
+ "sources": [
+  "https://ndsf.no/?p=1584"
+ ],
+ "titles": [
+  "Ekstremsportveko 2017 – Resultater"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "sheet 1oAN6Nj7puX9JCqEmw6Eik0KO7Vjkij6AT1qN75GcACk / Results / FINAL RESULTS",
+   "results": [
+    {
+     "place": 1,
+     "name": "Adam Persson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Esaja Ekman",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Lars Mikalsen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Anton Linden",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Sander Viste Mehus",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Trygve Flebu Jørundland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Jørund Bratset",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Aldin Hodzik",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 9,
+     "name": "Hans Kristian Henriksen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 10,
+     "name": "Ali Nas",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 11,
+     "name": "Jens Drageset Dydland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 12,
+     "name": "Even Strand",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 13,
+     "name": "Lucas Krown",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 14,
+     "name": "Marius Jørgensen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 15,
+     "name": "Sondre Braa",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 16,
+     "name": "Olav Øye",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 17,
+     "name": "Magne Ørvik",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 18,
+     "name": "Henning P Patricksson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 19,
+     "name": "Einar Kvam",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 20,
+     "name": "Cedric Cornell",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 21,
+     "name": "Morten Forsberg",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 22,
+     "name": "Peter Andersson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 23,
+     "name": "Roy Helge",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 24,
+     "name": "David Eriksen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 25,
+     "name": "Kristian Bjørkedal",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 26,
+     "name": "Richard Moe",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 27,
+     "name": "Erik Evensen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 28,
+     "name": "Lorenza",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 29,
+     "name": "Torstein Storaas",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 30,
+     "name": "Kristian Torstveit",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 31,
+     "name": "Jan Erik Strømmen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 32,
+     "name": "Kirsti Henriksen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 33,
+     "name": "Adrian Jancey",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 34,
+     "name": "Kim M Andersen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 35,
+     "name": "Elias Kvarekvål",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 36,
+     "name": "Carl Larsson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 37,
+     "name": "Jan Petter Hammersland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 38,
+     "name": "Espen Eliassen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 39,
+     "name": "Leif Ole Stampa",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 40,
+     "name": "Jan Ståle Erikssen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 41,
+     "name": "Helge Vignal",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 42,
+     "name": "Peder Bruem",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 43,
+     "name": "Håkon Heltne",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 44,
+     "name": "Mina Nordnes Westli",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 45,
+     "name": "Øystein Nygård",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 46,
+     "name": "Elaine Moltezos",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 47,
+     "name": "Andreas Huseby Grønner",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 48,
+     "name": "Helene W Liland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 49,
+     "name": "Theresia Lundh",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 50,
+     "name": "Håkon Haavik",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 51,
+     "name": "Njaal Tangye",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 52,
+     "name": "André Føyn Berge",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "sheet 19tMFGc_k8DjmQpQQKn2EhuogJXgSK6bsTcPxVnnU1rE / Results / FINAL RESULTS",
+   "results": [
+    {
+     "place": 1,
+     "name": "Lorenza",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Kirsti Henriksen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Mina Nordnes Westli",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Helene W Liland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Elaine Moltezos",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Theresia Lundh",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  },
+  {
+   "name": "Masters",
+   "kind": "Masters",
+   "format": "bracket",
+   "source": "sheet 1e33Q_ED8hx3Yfz6HKkMPlttzJSMxoUzlY67Pfgcc1Tk / Results / FINAL RESULTS",
+   "results": [
+    {
+     "place": 1,
+     "name": "Lucas Krown",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Richard Moe",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Morten Forsberg",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Helge Vignal",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Cedric Cornell",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Erik Evensen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Jen Ståle Erikssen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Peter Andersson",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

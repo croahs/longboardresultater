@@ -1,0 +1,21 @@
+{
+ "id": "2011-grefsenkollen",
+ "name": "Grefsenkollen",
+ "year": 2011,
+ "date": "2011-10-14",
+ "date_known": true,
+ "hill": "grefsenkollen",
+ "sources": [
+  "https://ndsf.no/?p=494"
+ ],
+ "titles": [
+  "Grefsen DH 2011"
+ ],
+ "notes": [
+  "pdf elsewhere, skipped: http://www.igsaworldcup.com/results/2011/2011_grefsen_na_rslt.pdf",
+  "pdf elsewhere, skipped: http://www.igsaworldcup.com/results/2011/2011_grefsen_na_qual.pdf",
+  "nothing recognised in https://ndsf.no/?p=494"
+ ],
+ "races": [],
+ "needs_manual": true
+}

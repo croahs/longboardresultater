@@ -1,0 +1,484 @@
+{
+ "id": "2013-ekstremsportveko",
+ "name": "Ekstremsportveko",
+ "year": 2013,
+ "date": "2013-06-30",
+ "date_known": true,
+ "hill": "voss",
+ "sources": [
+  "https://ndsf.no/?p=460"
+ ],
+ "titles": [
+  "Ekstremsport Veko 2013 -Resultater"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "pdf https://ndsf.no/files/Resultater/2013/Voss/ResulterOpen.pdf",
+   "results": [
+    {
+     "place": 1,
+     "name": "Adam Persson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Torbjørn Sunde",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Johan Simonsen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Herman Ottesen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Alex Hørthe",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Sondre Selander",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Adrian Jancey",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Sebastian Burr",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 9,
+     "name": "Ali Nas",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 10,
+     "name": "Trygve Flebu Jørundland",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 11,
+     "name": "Marius Jørgensen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 12,
+     "name": "Kristina Engstrand",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 13,
+     "name": "Henning Patricksson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 14,
+     "name": "Nico Crozier",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 15,
+     "name": "Fredric Jacobsen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 16,
+     "name": "Axel Patricksson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 17,
+     "name": "Lucas Krown",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 18,
+     "name": "Aldin Hodzic",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 19,
+     "name": "Emile MIller",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 20,
+     "name": "Victor Larsen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 21,
+     "name": "Sander Viste Mehus",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 22,
+     "name": "Jakob Eriksson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 23,
+     "name": "Jørund Bratset",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 24,
+     "name": "Cedric Cornell",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 25,
+     "name": "Matias Unsvåg",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 26,
+     "name": "Gudmundur Søkjer-Petersen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 27,
+     "name": "Sammy Hasselberg",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 28,
+     "name": "Max Eriksson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 29,
+     "name": "Sondre Braa",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 30,
+     "name": "Andreas Bru",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 31,
+     "name": "Petter Lindheim Reinem",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 32,
+     "name": "Njaal Tangye",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 33,
+     "name": "Roar Fønseth",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 34,
+     "name": "Hans Henriksen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 35,
+     "name": "Tord Tvedten",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 36,
+     "name": "Rebekka Gemperle",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 37,
+     "name": "Andreas Waal",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 38,
+     "name": "Elias Kvarekvål",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 39,
+     "name": "Sander Hasselberg",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 40,
+     "name": "Fredrik Berven",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 41,
+     "name": "Vegard Tvete",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 42,
+     "name": "Johannes Aalholm",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 43,
+     "name": "Magne Ørvik",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 44,
+     "name": "Erik Buene",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 45,
+     "name": "Charlie Cockman",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 46,
+     "name": "Mathias Bjørkedal",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "pdf https://ndsf.no/files/Resultater/2013/Voss/Kvalifikasjonstider.pdf",
+   "results": [
+    {
+     "place": 1,
+     "name": "Torbjørn Sunde",
+     "time": 101.48,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Adam Persson",
+     "time": 102.18,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Johan Simonsen",
+     "time": 102.63,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Herman Ottesen",
+     "time": 102.64,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Caspar Grette",
+     "time": 102.86,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Alex Hørthe",
+     "time": 103.64,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Ali Nas",
+     "time": 103.67,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Trygve Flebu Jørundland",
+     "time": 103.75,
+     "dnf": false
+    },
+    {
+     "place": 9,
+     "name": "Sondre Selander",
+     "time": 103.81,
+     "dnf": false
+    },
+    {
+     "place": 10,
+     "name": "Adrian Jancey",
+     "time": 103.92,
+     "dnf": false
+    },
+    {
+     "place": 11,
+     "name": "Lars Mikalsen",
+     "time": 104.16,
+     "dnf": false
+    },
+    {
+     "place": 12,
+     "name": "Matias Unsvåg",
+     "time": 104.26,
+     "dnf": false
+    },
+    {
+     "place": 13,
+     "name": "Henning Patricksson",
+     "time": 104.35,
+     "dnf": false
+    },
+    {
+     "place": 14,
+     "name": "Lucas Krown",
+     "time": 104.86,
+     "dnf": false
+    },
+    {
+     "place": 15,
+     "name": "Gudmundur Søkjer-Petersen",
+     "time": 105.03,
+     "dnf": false
+    },
+    {
+     "place": 16,
+     "name": "Nico Crozier",
+     "time": 105.08,
+     "dnf": false
+    },
+    {
+     "place": 17,
+     "name": "Aldin Hodzic",
+     "time": 105.29,
+     "dnf": false
+    },
+    {
+     "place": 18,
+     "name": "Emile MIller",
+     "time": 105.55,
+     "dnf": false
+    },
+    {
+     "place": 19,
+     "name": "Sammy Hasselberg",
+     "time": 105.6,
+     "dnf": false
+    },
+    {
+     "place": 20,
+     "name": "Victor Larsen",
+     "time": 105.98,
+     "dnf": false
+    },
+    {
+     "place": 21,
+     "name": "Marius Jørgensen",
+     "time": 106.05,
+     "dnf": false
+    },
+    {
+     "place": 22,
+     "name": "Roar Fønseth",
+     "time": 106.25,
+     "dnf": false
+    },
+    {
+     "place": 23,
+     "name": "Max Eriksson",
+     "time": 106.65,
+     "dnf": false
+    },
+    {
+     "place": 24,
+     "name": "Sander Viste Mehus",
+     "time": 106.74,
+     "dnf": false
+    },
+    {
+     "place": 25,
+     "name": "Kim Hansen",
+     "time": 106.84,
+     "dnf": false
+    },
+    {
+     "place": 26,
+     "name": "Jakob Eriksson",
+     "time": 106.87,
+     "dnf": false
+    },
+    {
+     "place": 27,
+     "name": "Fredric Jacobsen",
+     "time": 106.97,
+     "dnf": false
+    },
+    {
+     "place": 28,
+     "name": "Hans Henriksen",
+     "time": 107.2,
+     "dnf": false
+    },
+    {
+     "place": 29,
+     "name": "Terry Blanche",
+     "time": 107.29,
+     "dnf": false
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

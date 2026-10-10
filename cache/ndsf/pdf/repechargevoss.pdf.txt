@@ -1,0 +1,94 @@
+p                                                                             32Man
+                                                                                         Runde C
+                            Runde A                    Runde B                                       Runde D
+                                1 A
+Kval plass    0                               1        1 B
+     1        0         Geir Kristiansen      2
+     9        0           Rune Askim                   Geir Kristiansen    2
+    24        0                  0         Plassering
+    32                           0
+            Startnr                           1
+                                     Navn     2        Rune Askim          1
+                                              3
+                                2 A                    Sigve Fjell         3
+                            Sigve Fjell     DNS
+8           0        Henning Hanshaugen       2        Henning Hanshaugen  4
+                         Daniel Heltne        1
+16          0
+                                 0            1
+17          0                                 3                               1 C
+                                3 A           2
+25          0            Christer Lunde                                       Rune Askim          4
+                          Sonso Masiá         1
+                          Erkki Rustad        2                               Geir Kristiansen    3
+                                              3
+                                 0                                            Johan Christensson  2
+                                              2
+5           0                   4 A           1                               Anders Eidså        1
+                      Johan Christensson      3
+13          0         Aleksander Teilgård
+                                              1
+20          0             Anders Eidså        2        2 B
+                                 0            3
+28          0                                          Erkki Rustad        3
+                                5 A           1
+                        Gorgus Coward         2        Sonso Masiá         4
+                         Torstein Tofte
+                         Håkon Heltne                  Johan Christensson  1
+
+4           0                    0                     Anders Eidså        2
+
+12          0                   6 A
+                         Kari Havnevik
+21          0          Morten Espeseter                                                              1 D
+                       Caroline Boström
+29          0                                                                                        Anders Eidså        4
+                                 0
+                                                                                                     Johan Christensson  2  Morten Espeseter
+                                7 A                                                                                                Vinner
+                       Kristian Bjørkedal                                                            Morten Espeseter    1
+                       Birger Johannsen
+3           0                                                                                        Leif Hatlem         3
+                          Jakob Sjøtun
+11          0                    0
+
+22          0                   8 A                    3 B
+                           Leif Hatlem
+30          0             Pål Hellesnes                Gorgus Coward       4
+
+                                 0                     Torstein Tofte      3
+                                 0
+                                                       Kari Havnevik       2
+
+6           0                                          Morten Espeseter    1
+
+14          0
+
+19          0                                                                 2 C
+
+27          0                                                                 Morten Espeseter    1
+
+                                                                              Kari Havnevik       3
+
+                                                                              Leif Hatlem         2
+
+7           0                                                                 Kristian Bjørkedal  4
+
+15          0
+
+18          0                                          4 B
+
+26          0                                          Kristian Bjørkedal  2
+
+                                                       Birger Johannsen    3
+
+                                                       Leif Hatlem         1
+
+2           0                                          Pål Hellesnes       4
+
+10          0
+
+23          0
+
+31          0
+

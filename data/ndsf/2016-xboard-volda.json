@@ -1,0 +1,250 @@
+{
+ "id": "2016-xboard-volda",
+ "name": "XBoard Volda",
+ "year": 2016,
+ "date": "2016-04-18",
+ "date_known": true,
+ "hill": "volda",
+ "sources": [
+  "https://ndsf.no/?p=1413"
+ ],
+ "titles": [
+  "XBoard Volda 2016 – Resultater"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "sheet 1Qk9j6xHc7gxUPNBbzBHQ7jITdk_vq03h98fM3BKwdkY / Results / FINAL RESULTS",
+   "results": [
+    {
+     "place": 1,
+     "name": "Jørund Bratset",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Ali Nas",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Marius T. Jørgensen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Adrian Jancey",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Jens S. Øvregård",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Magne Ørvik",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Kristian Bjørkedal",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Sondre Braa",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 9,
+     "name": "Aldin Hodzic",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 10,
+     "name": "Anton Lindén",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 11,
+     "name": "Hans Kr. Henriksen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 12,
+     "name": "Cedric Cornell",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 13,
+     "name": "Peter Andersson",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 14,
+     "name": "Richard Moe",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 15,
+     "name": "Kim-Tore Brendgen",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 16,
+     "name": "Simon Sundin",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 17,
+     "name": "Lorenza Walker",
+     "time": null,
+     "dnf": false
+    },
+    {
+     "place": 18,
+     "name": "Joel Hoholm",
+     "time": null,
+     "dnf": false
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "sheet 1Qk9j6xHc7gxUPNBbzBHQ7jITdk_vq03h98fM3BKwdkY / Timed runs",
+   "results": [
+    {
+     "place": 1,
+     "name": "Ali Nas",
+     "time": 87.63,
+     "dnf": false
+    },
+    {
+     "place": 2,
+     "name": "Magne Ørvik",
+     "time": 88.38,
+     "dnf": false
+    },
+    {
+     "place": 3,
+     "name": "Jørund Bratset",
+     "time": 88.9,
+     "dnf": false
+    },
+    {
+     "place": 4,
+     "name": "Adrian Jancy",
+     "time": 90.44,
+     "dnf": false
+    },
+    {
+     "place": 5,
+     "name": "Jens S. Øvregård",
+     "time": 90.56,
+     "dnf": false
+    },
+    {
+     "place": 6,
+     "name": "Kristian Bjørkedal",
+     "time": 90.57,
+     "dnf": false
+    },
+    {
+     "place": 7,
+     "name": "Mariuns T. Jørgensen",
+     "time": 90.87,
+     "dnf": false
+    },
+    {
+     "place": 8,
+     "name": "Aldin Hodzic",
+     "time": 92.06,
+     "dnf": false
+    },
+    {
+     "place": 9,
+     "name": "Sondre Braa",
+     "time": 94.22,
+     "dnf": false
+    },
+    {
+     "place": 10,
+     "name": "Anton Lindén",
+     "time": 94.47,
+     "dnf": false
+    },
+    {
+     "place": 11,
+     "name": "Hans Kr. Henriksen",
+     "time": 95.16,
+     "dnf": false
+    },
+    {
+     "place": 12,
+     "name": "Cedric Cornell",
+     "time": 100.66,
+     "dnf": false
+    },
+    {
+     "place": 13,
+     "name": "Peter Andersson",
+     "time": 104.69,
+     "dnf": false
+    },
+    {
+     "place": 14,
+     "name": "Richard Moe",
+     "time": 111.85,
+     "dnf": false
+    },
+    {
+     "place": 15,
+     "name": "Kim-Tore Brendgen",
+     "time": 113.47,
+     "dnf": false
+    },
+    {
+     "place": 16,
+     "name": "Simon Sundin",
+     "time": 114.84,
+     "dnf": false
+    },
+    {
+     "place": 17,
+     "name": "Lorenza Walker",
+     "time": 115.28,
+     "dnf": false
+    },
+    {
+     "place": 18,
+     "name": "Joel Hoholm",
+     "time": 130.69,
+     "dnf": false
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}
