@@ -1,0 +1,7 @@
+.env
+__pycache__/
+*.pyc
+cache/intervals/
+dashboard.html
+season_clip.html
+cache/harvest/
