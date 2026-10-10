@@ -1,0 +1,903 @@
+{
+ "id": "2011-bo-peep-crash-burn",
+ "name": "Bo-Peep Crash & Burn",
+ "year": 2011,
+ "date": "2011-01-01",
+ "date_known": false,
+ "hill": null,
+ "place": "Sussex UK",
+ "level": "Regional",
+ "sources": [
+  "http://web.archive.org/web/20111008005633id_/http://www.igsaworldcup.com/results/2011/2011_bopeep_rg.pdf",
+  "http://web.archive.org/web/20160606081657id_/http://igsaworldcup.com/results/2011/2011_bopeep_rg_rslt",
+  "http://web.archive.org/web/20160609232511id_/http://igsaworldcup.com/results/2011/2011_bopeep_rg_qual",
+  "http://web.archive.org/web/20260614073846id_/http://www.igsaworldcup.com/results/2011/2011_bopeep_rg_qual.pdf"
+ ],
+ "titles": [
+  "Bo-Peep Crash & Burn"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20111008005633id_/http://www.igsaworldcup.com/results/2011/2011_bopeep_rg.pdf / Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Pete Connolly",
+     "time": 43.81,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 2,
+     "name": "Shaine Fourie",
+     "time": 43.94,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 3,
+     "name": "Liam Fourie",
+     "time": 46.75,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 4,
+     "name": "Aaron Skippings",
+     "time": 47.02,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 5,
+     "name": "Oliver Slaughter",
+     "time": 47.44,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 6,
+     "name": "Josh Monk",
+     "time": 47.87,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 7,
+     "name": "Graham Page",
+     "time": 48.79,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 8,
+     "name": "Jonathan Braund",
+     "time": 49.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 9,
+     "name": "Jody Jaggard",
+     "time": 50.54,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 10,
+     "name": "John Griffiths",
+     "time": 51.67,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 11,
+     "name": "Oliveira Bruno Silva De",
+     "time": 52.68,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 12,
+     "name": "Aiden Fyans",
+     "time": 52.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 13,
+     "name": "Kami San",
+     "time": 53.17,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 14,
+     "name": "Duncan Kay",
+     "time": 53.88,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 15,
+     "name": "Tim Peters",
+     "time": 54.45,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 16,
+     "name": "Jack Penman",
+     "time": 54.76,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 17,
+     "name": "Rob Borek",
+     "time": 54.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 18,
+     "name": "Charlie Boyle",
+     "time": 55.41,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 19,
+     "name": "Stephen Thirtle",
+     "time": 57.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 20,
+     "name": "Tobias Newman",
+     "time": 62.8,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 21,
+     "name": "Marcin Kludczynski",
+     "time": 64.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 22,
+     "name": "Dill Hill",
+     "time": 66.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Michael Thirtle",
+     "time": 69.0,
+     "dnf": false,
+     "dns": true,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Alex Parfitt",
+     "time": 75.7,
+     "dnf": false,
+     "dns": true,
+     "nat": "GBR"
+    },
+    {
+     "place": 25,
+     "name": "Dave Martin",
+     "time": 167.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Damer",
+   "kind": "Women",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20111008005633id_/http://www.igsaworldcup.com/results/2011/2011_bopeep_rg.pdf / Women Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Kim Edwards",
+     "time": 64.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 2,
+     "name": "Amber Sharp",
+     "time": 109.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 3,
+     "name": "Elizabeth Crossland",
+     "time": 120.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 4,
+     "name": "Charlotte Guy",
+     "time": 163.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Classic Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20111008005633id_/http://www.igsaworldcup.com/results/2011/2011_bopeep_rg.pdf / Classic Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "William Stephenson",
+     "time": 45.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 2,
+     "name": "Jody Jaggard",
+     "time": 46.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 3,
+     "name": "Cess Dolding",
+     "time": 46.75,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 4,
+     "name": "Aaron Skippings",
+     "time": 47.14,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 5,
+     "name": "Lance Martins",
+     "time": 47.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 6,
+     "name": "Ben Bewley",
+     "time": 48.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 7,
+     "name": "Alex Parfitt",
+     "time": 49.66,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 8,
+     "name": "Pete Davies",
+     "time": 49.67,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 9,
+     "name": "Jay Thomas",
+     "time": 50.75,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 10,
+     "name": "Mark Frleetwood",
+     "time": 51.16,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 11,
+     "name": "Nic Down",
+     "time": 51.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Frank Hurtley",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "GBR"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20111008005633id_/http://www.igsaworldcup.com/results/2011/2011_bopeep_rg.pdf / Street Luge / timed",
+   "results": [
+    {
+     "place": null,
+     "name": "William Stephenson",
+     "time": 43.34,
+     "dnf": false,
+     "dns": true,
+     "nat": "GBR"
+    },
+    {
+     "place": 2,
+     "name": "Len Stoker",
+     "time": 44.08,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 3,
+     "name": "Ben Bewley",
+     "time": 45.74,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 4,
+     "name": "Cess Dolding",
+     "time": 46.67,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 5,
+     "name": "Jodie Fellows",
+     "time": 49.26,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 6,
+     "name": "Nic Down",
+     "time": 51.07,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 7,
+     "name": "Todd Dolding",
+     "time": 57.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Gravity Bike",
+   "kind": "Other",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20111008005633id_/http://www.igsaworldcup.com/results/2011/2011_bopeep_rg.pdf / Gravity Bike / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "David Stinton",
+     "time": 49.26,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Pete Davies",
+     "time": 56.91,
+     "dnf": false,
+     "dns": true,
+     "nat": "GBR"
+    }
+   ]
+  },
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111008005633id_/http://www.igsaworldcup.com/results/2011/2011_bopeep_rg.pdf / Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Oliver Slaughter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 2,
+     "name": "Duncan Kay",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 3,
+     "name": "John Griffiths",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 4,
+     "name": "Jonathan Braund",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 5,
+     "name": "Pete Connolly",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 6,
+     "name": "Shaine Fourie",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 7,
+     "name": "Aaron Skippings",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 8,
+     "name": "Josh Monk",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 9,
+     "name": "Liam Fourie",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 10,
+     "name": "Graham Page",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 11,
+     "name": "Oliveira Bruno Silva De",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 12,
+     "name": "Aiden Fyans",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 13,
+     "name": "Jack Penman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 14,
+     "name": "Charlie Boyle",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 15,
+     "name": "Tobias Newman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 16,
+     "name": "Alex Parfitt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 17,
+     "name": "Jody Jaggard",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 18,
+     "name": "Kami San",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 19,
+     "name": "Tim Peters",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 20,
+     "name": "Rob Borek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 21,
+     "name": "Stephen Thirtle",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 22,
+     "name": "Marcin Kludczynski",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 23,
+     "name": "Dill Hill",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 24,
+     "name": "Dave Martin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 25,
+     "name": "Michael Thirtle",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111008005633id_/http://www.igsaworldcup.com/results/2011/2011_bopeep_rg.pdf / Women Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Kim Edwards",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 2,
+     "name": "Elizabeth Crossland",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 3,
+     "name": "Charlotte Guy",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 4,
+     "name": "Amber Sharp",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    }
+   ]
+  },
+  {
+   "name": "Classic Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111008005633id_/http://www.igsaworldcup.com/results/2011/2011_bopeep_rg.pdf / Classic Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "William Stephenson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 2,
+     "name": "Jody Jaggard",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 3,
+     "name": "Aaron Skippings",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 4,
+     "name": "Cess Dolding",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 5,
+     "name": "Lance Martins",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 6,
+     "name": "Ben Bewley",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 7,
+     "name": "Jay Thomas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 8,
+     "name": "Mark Frleetwood",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 9,
+     "name": "Alex Parfitt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 10,
+     "name": "Pete Davies",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 11,
+     "name": "Nic Down",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Frank Hurtley",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "GBR"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111008005633id_/http://www.igsaworldcup.com/results/2011/2011_bopeep_rg.pdf / Street Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "William Stephenson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 2,
+     "name": "Len Stoker",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 3,
+     "name": "Ben Bewley",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 4,
+     "name": "Cess Dolding",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 5,
+     "name": "Jodie Fellows",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 6,
+     "name": "Todd Dolding",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 7,
+     "name": "Nic Down",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    }
+   ]
+  },
+  {
+   "name": "Gravity Bike",
+   "kind": "Other",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111008005633id_/http://www.igsaworldcup.com/results/2011/2011_bopeep_rg.pdf / Gravity Bike / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "David Stinton",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 2,
+     "name": "Pete Davies",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

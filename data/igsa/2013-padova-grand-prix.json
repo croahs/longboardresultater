@@ -1,0 +1,1111 @@
+{
+ "id": "2013-padova-grand-prix",
+ "name": "Padova Grand Prix",
+ "year": 2013,
+ "date": "2013-08-03",
+ "date_known": true,
+ "hill": null,
+ "place": "Teolo, Italy",
+ "level": "Continental",
+ "sources": [
+  "http://web.archive.org/web/20240831205010id_/https://www.igsaworldcup.com/results/2013/2013_padova_co_qual.pdf",
+  "http://web.archive.org/web/20240901085129id_/https://www.igsaworldcup.com/results/2013/2013_padova_co_rslt.pdf",
+  "http://web.archive.org/web/20240902235849id_/https://www.igsaworldcup.com/results/2013/2013_padova_wc_qual.pdf",
+  "http://web.archive.org/web/20240903120613id_/https://www.igsaworldcup.com/results/2013/2013_padova_wc_rslt.pdf"
+ ],
+ "titles": [
+  "Padova Grand Prix"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20240831205010id_/https://www.igsaworldcup.com/results/2013/2013_padova_co_qual.pdf / Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Aliex Gallimo",
+     "time": 120.77,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 2,
+     "name": "Giorgio Garino",
+     "time": 125.11,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 3,
+     "name": "Luca Quaglia",
+     "time": 126.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 4,
+     "name": "Melvin Herrmann",
+     "time": 126.74,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 5,
+     "name": "Roberto Marasca",
+     "time": 126.88,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 6,
+     "name": "Tommaso Bohannon",
+     "time": 126.88,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 7,
+     "name": "Damianderek Blanquer",
+     "time": 127.03,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 8,
+     "name": "Alexandre Brines",
+     "time": 127.31,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 9,
+     "name": "Marcus Aldinucci",
+     "time": 127.75,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 10,
+     "name": "Lorenzo Lucchese",
+     "time": 128.47,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 11,
+     "name": "Giuseppe Maltese",
+     "time": 128.95,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 12,
+     "name": "Lukas Ubelhor",
+     "time": 129.22,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 13,
+     "name": "Alessio Damato",
+     "time": 129.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 14,
+     "name": "Federico Falco",
+     "time": 129.99,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 15,
+     "name": "Danilo Pianese",
+     "time": 130.26,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 16,
+     "name": "Andrea Moreni",
+     "time": 130.59,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 17,
+     "name": "Massimo Poletto",
+     "time": 130.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 18,
+     "name": "Iija Minaev",
+     "time": 131.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "RUS"
+    },
+    {
+     "place": 19,
+     "name": "Wiedmann Cristoph",
+     "time": 132.45,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 20,
+     "name": "Tomas Turetta",
+     "time": 132.71,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 21,
+     "name": "Gabriele Monaco",
+     "time": 132.75,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 22,
+     "name": "Fabiano Ferretti",
+     "time": 133.07,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 23,
+     "name": "Andrea Salzano",
+     "time": 133.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 24,
+     "name": "Nicola Ceccato",
+     "time": 133.95,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 25,
+     "name": "Martin Norl",
+     "time": 134.03,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 26,
+     "name": "Tobias Newman",
+     "time": 135.89,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 27,
+     "name": "Johannes Wachter",
+     "time": 135.93,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 28,
+     "name": "Alberto Bressan",
+     "time": 136.79,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 29,
+     "name": "Marco Bertucioli",
+     "time": 138.96,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 30,
+     "name": "Scholl Marius",
+     "time": 140.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 31,
+     "name": "Michele Bertuccioli",
+     "time": 140.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 32,
+     "name": "Alberto Altinier",
+     "time": 145.05,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 33,
+     "name": "Christoph Gahlert",
+     "time": 146.8,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 34,
+     "name": "Rico Verdu",
+     "time": 148.26,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 35,
+     "name": "Nicola Dall'Aglio",
+     "time": 149.93,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Junior 2",
+   "kind": "Junior",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20240831205010id_/https://www.igsaworldcup.com/results/2013/2013_padova_co_qual.pdf / Junior 2 Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Giorgio Garino",
+     "time": 125.11,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 2,
+     "name": "Melvin Herrmann",
+     "time": 126.74,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 3,
+     "name": "Marcus Aldinucci",
+     "time": 127.75,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 4,
+     "name": "Lorenzo Lucchese",
+     "time": 128.47,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 5,
+     "name": "Lukas Ubelhor",
+     "time": 129.22,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 6,
+     "name": "Fedric Minaev",
+     "time": 131.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "RUS"
+    },
+    {
+     "place": 7,
+     "name": "Tomas Turetta",
+     "time": 132.71,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 8,
+     "name": "Johannes Wachter",
+     "time": 135.93,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 9,
+     "name": "Alberto Bressan",
+     "time": 136.79,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Classic Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20240831205010id_/https://www.igsaworldcup.com/results/2013/2013_padova_co_qual.pdf / Classic Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Mikel Echegaray",
+     "time": 119.21,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 2,
+     "name": "Luca Santalamazza",
+     "time": 122.47,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 3,
+     "name": "Rey Pablo Fouz",
+     "time": 122.59,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 4,
+     "name": "Thomas Manso",
+     "time": 124.37,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 5,
+     "name": "Daniele Aldinucci",
+     "time": 125.24,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 6,
+     "name": "Matteo De Marchi",
+     "time": 125.61,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 7,
+     "name": "Chris Mcbride",
+     "time": 128.23,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 8,
+     "name": "Gabriele Maggiorelli",
+     "time": 130.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20240831205010id_/https://www.igsaworldcup.com/results/2013/2013_padova_co_qual.pdf / Street Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Mikel Echegaray",
+     "time": 115.69,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 2,
+     "name": "Abdil Mahdzan",
+     "time": 117.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "MAS"
+    },
+    {
+     "place": 3,
+     "name": "Luca Santalamazza",
+     "time": 118.66,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 4,
+     "name": "Wiliam Stephenson",
+     "time": 120.22,
+     "dnf": false,
+     "dns": false,
+     "nat": "ENG"
+    },
+    {
+     "place": 5,
+     "name": "Matteo De Marchi",
+     "time": 120.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 6,
+     "name": "Thomas Manso",
+     "time": 122.06,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 7,
+     "name": "Chris McBride",
+     "time": 122.34,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 8,
+     "name": "Domenico Napoli",
+     "time": 123.19,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 9,
+     "name": "Matteo Giuliano",
+     "time": 125.06,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 10,
+     "name": "Samuele Montesi",
+     "time": 127.01,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 11,
+     "name": "Cristoph Gahlert",
+     "time": 127.68,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 12,
+     "name": "Andrea Moreni",
+     "time": 133.72,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    }
+   ]
+  },
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20240901085129id_/https://www.igsaworldcup.com/results/2013/2013_padova_co_rslt.pdf / Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Aliex Gallimo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 2,
+     "name": "Alexandre Brines",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 3,
+     "name": "Melvin Herrmann",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 4,
+     "name": "Andrea Salzano",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 5,
+     "name": "Luca Quaglia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 6,
+     "name": "Lukas Ubelhor",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 7,
+     "name": "Damianderek Blanquer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 8,
+     "name": "Giorgio Garino",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 9,
+     "name": "Roberto Marasca",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 10,
+     "name": "Tommaso Bohannon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 11,
+     "name": "Marcus Aldinucci",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 12,
+     "name": "Lorenzo Lucchese",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 13,
+     "name": "Giuseppe Maltese",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 14,
+     "name": "Alessio Damato",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 15,
+     "name": "Federico Falco",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 16,
+     "name": "Danilo Pianese",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 17,
+     "name": "Andrea Moreni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 18,
+     "name": "Massimo Poletto",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 19,
+     "name": "Iija Minaev",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RUS"
+    },
+    {
+     "place": 20,
+     "name": "Cristoph Wiedmann",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 21,
+     "name": "Tomas Turetta",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 22,
+     "name": "Gabriele Monaco",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 23,
+     "name": "Fabiano Ferretti",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 24,
+     "name": "Nicola Ceccato",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 25,
+     "name": "Martin Norl",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 26,
+     "name": "Tobias Newman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 27,
+     "name": "Johannes Wachter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 28,
+     "name": "Alberto Bressan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 29,
+     "name": "Marco Bertucioli",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 30,
+     "name": "Scholl Marius",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 31,
+     "name": "Michele Bertuccioli",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 32,
+     "name": "Alberto Altinier",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 33,
+     "name": "Christoph Gahlert",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 34,
+     "name": "Rico Verdu",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 35,
+     "name": "Nicola Dall'Aglio",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    }
+   ]
+  },
+  {
+   "name": "Junior 2",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20240901085129id_/https://www.igsaworldcup.com/results/2013/2013_padova_co_rslt.pdf / Junior 2 Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Melvin Herrmann",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 2,
+     "name": "Marcus Aldinucci",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 3,
+     "name": "Giorgio Garino",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 4,
+     "name": "Fedric Minaev",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RUS"
+    },
+    {
+     "place": 5,
+     "name": "Tomas Turetta",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 6,
+     "name": "Johannes Wachter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 7,
+     "name": "Alberto Bressan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 8,
+     "name": "Lukas Ubelhor",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 9,
+     "name": "Lorenzo Lucchese",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    }
+   ]
+  },
+  {
+   "name": "Classic Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20240901085129id_/https://www.igsaworldcup.com/results/2013/2013_padova_co_rslt.pdf / Classic Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Mikel Echegaray",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 2,
+     "name": "Rey Pablo Fouz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 3,
+     "name": "Luca Santalamazza",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 4,
+     "name": "Thomas Manso",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 5,
+     "name": "Matteo De Marchi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 6,
+     "name": "Chris Mcbride",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 7,
+     "name": "Daniele Aldinucci",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 8,
+     "name": "Gabriele Maggiorelli",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20240901085129id_/https://www.igsaworldcup.com/results/2013/2013_padova_co_rslt.pdf / Street Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Mikel Echegaray",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 2,
+     "name": "Abdil Mahdzan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MAS"
+    },
+    {
+     "place": 3,
+     "name": "Luca Santalamazza",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 4,
+     "name": "Wiliam Stephenson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ENG"
+    },
+    {
+     "place": 5,
+     "name": "Thomas Manso",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 6,
+     "name": "Chris McBride",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 7,
+     "name": "Matteo De Marchi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 8,
+     "name": "Domenico Napoli",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 9,
+     "name": "Matteo Giuliano",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 10,
+     "name": "Samuele Montesi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 11,
+     "name": "Cristoph Gahlert",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 12,
+     "name": "Andrea Moreni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

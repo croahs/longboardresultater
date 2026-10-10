@@ -1,0 +1,812 @@
+{
+ "id": "2010-malarrara-pro-teutonia",
+ "name": "Malarrara Pro Teutonia",
+ "year": 2010,
+ "date": "2010-11-13",
+ "date_known": true,
+ "hill": null,
+ "place": "Teutonia, Brazil",
+ "level": "World Cup",
+ "sources": [
+  "http://web.archive.org/web/20160131055701id_/http://www.igsaworldcup.com/results/2010/2010_malarrara_teutonia_wc_qual.pdf"
+ ],
+ "titles": [
+  "Malarrara Pro Teutonia"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20160131055701id_/http://www.igsaworldcup.com/results/2010/2010_malarrara_teutonia_wc_qual.pdf / Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Douglas Silva",
+     "time": 78.82,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 2,
+     "name": "Kevin Reimer",
+     "time": 81.43,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 3,
+     "name": "Everton Nascimento",
+     "time": 82.08,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 4,
+     "name": "Mischo Erban",
+     "time": 82.28,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": null,
+     "name": "Carlos Augusto",
+     "time": 83.11,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": 6,
+     "name": "Ovalhe Danky Dean",
+     "time": 83.21,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 7,
+     "name": "Graham Buksa",
+     "time": 83.41,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 8,
+     "name": "Silon Garcia",
+     "time": 83.98,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 9,
+     "name": "Vinicius Brasil",
+     "time": 84.26,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 10,
+     "name": "Thiago Lima",
+     "time": 84.75,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 11,
+     "name": "Max Ballesteros",
+     "time": 84.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 12,
+     "name": "Thiago Gomes Lessa",
+     "time": 85.06,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 13,
+     "name": "Otávio Munhoz",
+     "time": 85.06,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 14,
+     "name": "Fabio Lambs",
+     "time": 85.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 15,
+     "name": "Erik Lundberg",
+     "time": 85.33,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 16,
+     "name": "Paluo Junior",
+     "time": 85.56,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 17,
+     "name": "Alysson Garcia",
+     "time": 85.76,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 18,
+     "name": "Antônio Rosa",
+     "time": 85.95,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 19,
+     "name": "Luis Renato",
+     "time": 86.3,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 20,
+     "name": "Rafael Sabella",
+     "time": 86.46,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 21,
+     "name": "William Nadal",
+     "time": 86.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Renan Vasques",
+     "time": 86.84,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Ricardo Reis",
+     "time": 87.49,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": 24,
+     "name": "Vinicius Castagna",
+     "time": 87.52,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 25,
+     "name": "Felipe Rosa",
+     "time": 87.72,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 26,
+     "name": "Wendel Malessa",
+     "time": 87.88,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 27,
+     "name": "Alexandre Marcante",
+     "time": 87.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Henrique Stein",
+     "time": 87.92,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": 29,
+     "name": "Huge Jonhston",
+     "time": 88.05,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 30,
+     "name": "Rafael Bastos",
+     "time": 88.19,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 31,
+     "name": "Vitor Salazar",
+     "time": 88.41,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 32,
+     "name": "Italo Lima",
+     "time": 88.52,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 33,
+     "name": "Daniel Gonçalves",
+     "time": 88.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 34,
+     "name": "Bernardo Negrão",
+     "time": 88.63,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 35,
+     "name": "Lucas Silva",
+     "time": 89.22,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 36,
+     "name": "Clayton Matos",
+     "time": 89.43,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 37,
+     "name": "Gilmar Martins",
+     "time": 90.02,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 38,
+     "name": "Dillon Stephans",
+     "time": 90.22,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 39,
+     "name": "Juliano Cassemiro",
+     "time": 90.88,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 40,
+     "name": "Ricardo Sabatovitch",
+     "time": 91.14,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 41,
+     "name": "Israel Oliveira",
+     "time": 91.38,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 42,
+     "name": "Thiago Duarte",
+     "time": 91.66,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 43,
+     "name": "René Allendes",
+     "time": 91.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 44,
+     "name": "Giovani Maschio",
+     "time": 91.99,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 45,
+     "name": "Rogerio Ribas",
+     "time": 92.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 46,
+     "name": "Jose Neto",
+     "time": 92.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 47,
+     "name": "Gabriel Carrilho",
+     "time": 92.52,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Lucas Bette",
+     "time": 92.8,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": 49,
+     "name": "Rodrigo Echague",
+     "time": 93.06,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 50,
+     "name": "Henrique Cabral",
+     "time": 94.16,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 51,
+     "name": "Evandro Dorneles",
+     "time": 94.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 52,
+     "name": "Mauricio Braga",
+     "time": 94.9,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 53,
+     "name": "Jülian Flores",
+     "time": 96.62,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 54,
+     "name": "Delano Pozzetti",
+     "time": 98.02,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 55,
+     "name": "Brianne Davies",
+     "time": 99.28,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 56,
+     "name": "Felipe Barroco",
+     "time": 101.03,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Ricardo Sena",
+     "time": 101.52,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Dominique Vukorep",
+     "time": 101.94,
+     "dnf": false,
+     "dns": true,
+     "nat": "CAN"
+    },
+    {
+     "place": 59,
+     "name": "Rafael Kiotheka",
+     "time": 102.88,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 60,
+     "name": "Alexandre Andrade",
+     "time": 103.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 61,
+     "name": "Andre Luis",
+     "time": 112.2,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 62,
+     "name": "Juan Guevara",
+     "time": 114.59,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": null,
+     "name": "Lucas Ferreira",
+     "time": 116.23,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": 64,
+     "name": "Manoel Formica",
+     "time": 118.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Leonardo Fagundes",
+     "time": 149.76,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Damer",
+   "kind": "Women",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20160131055701id_/http://www.igsaworldcup.com/results/2010/2010_malarrara_teutonia_wc_qual.pdf / Womens Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Brianne Davies",
+     "time": 99.28,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": null,
+     "name": "Dominique Vukorep",
+     "time": 101.94,
+     "dnf": false,
+     "dns": true,
+     "nat": "CAN"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20160131055701id_/http://www.igsaworldcup.com/results/2010/2010_malarrara_teutonia_wc_qual.pdf / Street Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Jades Wolverine",
+     "time": 76.03,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 2,
+     "name": "Leo Borton",
+     "time": 76.26,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 3,
+     "name": "Alexandre Machado",
+     "time": 76.67,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 4,
+     "name": "Walter Ribeiro",
+     "time": 76.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 5,
+     "name": "Jonathan Gralha",
+     "time": 77.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Mario Jardim",
+     "time": 77.13,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Tiago Antunes",
+     "time": 77.37,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": 8,
+     "name": "Elcio Gonçalves",
+     "time": 78.09,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 9,
+     "name": "Jacques Alves",
+     "time": 78.32,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 10,
+     "name": "Rodolpho Saldanha",
+     "time": 78.82,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 11,
+     "name": "Chris Mcbride",
+     "time": 79.89,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 12,
+     "name": "Lauro Bundrich",
+     "time": 80.39,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Jorge Santos",
+     "time": 81.35,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Denis Araujo",
+     "time": 81.58,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Rafael Montanito",
+     "time": 81.6,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": 16,
+     "name": "Gilberto Cossia",
+     "time": 84.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 17,
+     "name": "Lucas Baierle",
+     "time": 84.43,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Marcelo Santos",
+     "time": 91.89,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Classic Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20160131055701id_/http://www.igsaworldcup.com/results/2010/2010_malarrara_teutonia_wc_qual.pdf / Classic Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Alexandre Machado",
+     "time": 81.03,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 2,
+     "name": "Chris Mcbride",
+     "time": 83.63,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Inline",
+   "kind": "Inline",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20160131055701id_/http://www.igsaworldcup.com/results/2010/2010_malarrara_teutonia_wc_qual.pdf / Downhill Inline / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "William Angenendt",
+     "time": 91.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 2,
+     "name": "Panils Ferraz",
+     "time": 94.86,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 3,
+     "name": "Steve Canona",
+     "time": 95.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 4,
+     "name": "Thiago Silva",
+     "time": 95.92,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 5,
+     "name": "Dimitri Ivanov",
+     "time": 96.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 6,
+     "name": "Luis Rosado",
+     "time": 102.87,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 7,
+     "name": "Pietro Bello",
+     "time": 157.14,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

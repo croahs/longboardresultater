@@ -1,0 +1,1213 @@
+{
+ "id": "2012-copa-ciudade-de-los-reyes",
+ "name": "Copa Ciudade de los Reyes",
+ "year": 2012,
+ "date": "2012-01-01",
+ "date_known": false,
+ "hill": null,
+ "place": "Morro Solar, Lima - Peru",
+ "level": "Continental - South America",
+ "sources": [
+  "http://web.archive.org/web/20260115202930id_/http://www.igsaworldcup.com/results/2012/2012_copa_de_ciudad_co_qual.pdf",
+  "http://web.archive.org/web/20260115215813id_/http://www.igsaworldcup.com/results/2012/2012_copa_de_ciudad_co_rslt.pdf"
+ ],
+ "titles": [
+  "Copa Ciudade de los Reyes"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20260115202930id_/http://www.igsaworldcup.com/results/2012/2012_copa_de_ciudad_co_qual.pdf / Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Dillon Stephans",
+     "time": 82.23,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Felipe Malaga",
+     "time": 83.35,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 3,
+     "name": "Max Gradlmiller",
+     "time": 83.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 4,
+     "name": "William Royce",
+     "time": 83.86,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 5,
+     "name": "Nikolas Desmarais",
+     "time": 84.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 6,
+     "name": "Mauricio Rodriguez",
+     "time": 84.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 7,
+     "name": "Juliano Cassemiro",
+     "time": 84.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 8,
+     "name": "Luca Dragone",
+     "time": 85.82,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 9,
+     "name": "Gustavo Paredes",
+     "time": 85.96,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 10,
+     "name": "Diego Alemparte",
+     "time": 86.01,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 11,
+     "name": "Camilo Cespedes",
+     "time": 86.9,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 12,
+     "name": "Aldo Carella",
+     "time": 87.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 13,
+     "name": "Diego Guerra",
+     "time": 87.79,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 14,
+     "name": "Kevin Guevara",
+     "time": 87.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": null,
+     "name": "Curtis Onchi",
+     "time": 88.22,
+     "dnf": false,
+     "dns": true,
+     "nat": "USA"
+    },
+    {
+     "place": 16,
+     "name": "Jose Cortez",
+     "time": 88.22,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 17,
+     "name": "Marco Arroyo",
+     "time": 88.39,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 18,
+     "name": "Ignacio Ugarteche",
+     "time": 88.59,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 19,
+     "name": "Federico Larco",
+     "time": 88.72,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 20,
+     "name": "Kenett Falcon",
+     "time": 88.75,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 21,
+     "name": "Daniel Calle",
+     "time": 88.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "ECU"
+    },
+    {
+     "place": 22,
+     "name": "Marco Vidales",
+     "time": 88.86,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 23,
+     "name": "Ricardo Justo",
+     "time": 88.96,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 24,
+     "name": "Jonathan Guardia",
+     "time": 89.29,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 25,
+     "name": "Fernando Ramos",
+     "time": 89.99,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 26,
+     "name": "Jose Carlos Manchego",
+     "time": 90.34,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 27,
+     "name": "Ruben Pinango",
+     "time": 90.44,
+     "dnf": false,
+     "dns": false,
+     "nat": "VEM"
+    },
+    {
+     "place": 28,
+     "name": "Giampiero Vilcara",
+     "time": 91.16,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 29,
+     "name": "Manuel Rivera",
+     "time": 91.29,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 30,
+     "name": "Cesar La Barrera",
+     "time": 93.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 31,
+     "name": "Michel Cruzado",
+     "time": 94.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 32,
+     "name": "Marco Magallanes",
+     "time": 95.59,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 33,
+     "name": "Visconti Iñigo Zalduondo",
+     "time": 98.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 34,
+     "name": "Jean Pierre Sandoval",
+     "time": 101.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 35,
+     "name": "Claudio Pretto",
+     "time": 102.11,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 36,
+     "name": "Francisco Del Cuadro",
+     "time": 102.55,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": null,
+     "name": "Rafael Candela",
+     "time": 104.3,
+     "dnf": false,
+     "dns": true,
+     "nat": "PER"
+    },
+    {
+     "place": 38,
+     "name": "Felipe Acson",
+     "time": 109.46,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Damer",
+   "kind": "Women",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20260115202930id_/http://www.igsaworldcup.com/results/2012/2012_copa_de_ciudad_co_qual.pdf / Women Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Giorginna Ivanov",
+     "time": 94.46,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 2,
+     "name": "Reine Olivera",
+     "time": 98.51,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 3,
+     "name": "Daniela Lazo",
+     "time": 106.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 4,
+     "name": "Fiorela Conroy",
+     "time": 106.47,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 5,
+     "name": "Elina Pascucci",
+     "time": 111.09,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Junior 1",
+   "kind": "Junior",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20260115202930id_/http://www.igsaworldcup.com/results/2012/2012_copa_de_ciudad_co_qual.pdf / Junior 1 Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Rodrigo Zuzunaga",
+     "time": 87.08,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 2,
+     "name": "Mariano Correa",
+     "time": 88.47,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 3,
+     "name": "Luis Rabanal",
+     "time": 94.45,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 4,
+     "name": "Joaquin Llona",
+     "time": 95.88,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 5,
+     "name": "Ignacio Medina",
+     "time": 96.19,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 6,
+     "name": "Rodrigo Fontana",
+     "time": 105.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Junior 2",
+   "kind": "Junior",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20260115202930id_/http://www.igsaworldcup.com/results/2012/2012_copa_de_ciudad_co_qual.pdf / Junior 2 Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Gustavo Paredes",
+     "time": 85.96,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 2,
+     "name": "Jose Mario Osores",
+     "time": 87.54,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 3,
+     "name": "Kevin Guevara",
+     "time": 87.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 4,
+     "name": "Pablo Emilio Llona",
+     "time": 88.79,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 5,
+     "name": "Gonzalo Brandon",
+     "time": 89.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 6,
+     "name": "Diego Magallanes",
+     "time": 89.21,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 7,
+     "name": "Falke Nehren",
+     "time": 90.59,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 8,
+     "name": "Alvaro Cuba",
+     "time": 94.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 9,
+     "name": "Jose Luis Bahamonde",
+     "time": 94.99,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 10,
+     "name": "Alejandro Field",
+     "time": 95.71,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 11,
+     "name": "Paulo Gargurevich",
+     "time": 96.56,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 12,
+     "name": "Juan Diego Ventura",
+     "time": 96.73,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 13,
+     "name": "Alejandro Loayza",
+     "time": 97.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 14,
+     "name": "Hernan Vasquez",
+     "time": 109.98,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 15,
+     "name": "Jonathan Becerra",
+     "time": 110.51,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 16,
+     "name": "Renato Arteaga",
+     "time": 114.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Classic Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20260115202930id_/http://www.igsaworldcup.com/results/2012/2012_copa_de_ciudad_co_qual.pdf / Classic Luge / timed",
+   "results": [
+    {
+     "place": null,
+     "name": "Gonzalo Brandon",
+     "time": 98.42,
+     "dnf": false,
+     "dns": true,
+     "nat": "PER"
+    },
+    {
+     "place": 2,
+     "name": "Rodrigo Fontana",
+     "time": 115.56,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": null,
+     "name": "Rodrigo Bisquertt",
+     "time": 124.52,
+     "dnf": false,
+     "dns": true,
+     "nat": "CHI"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20260115202930id_/http://www.igsaworldcup.com/results/2012/2012_copa_de_ciudad_co_qual.pdf / Street Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Rodrigo Bisquertt",
+     "time": 88.17,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": null,
+     "name": "Alejandro Muller",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "PER"
+    }
+   ]
+  },
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20260115215813id_/http://www.igsaworldcup.com/results/2012/2012_copa_de_ciudad_co_rslt.pdf / Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Dillon Stephans",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Felipe Malaga",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 3,
+     "name": "Nikolas Desmarais",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 4,
+     "name": "Max Gradlmiller",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 5,
+     "name": "William Royce",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 6,
+     "name": "Luca Dragone",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 7,
+     "name": "Diego Alemparte",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 8,
+     "name": "Camilo Cespedes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 9,
+     "name": "Juliano Cassemiro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 10,
+     "name": "Gustavo Paredes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 11,
+     "name": "Aldo Carella",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 12,
+     "name": "Kevin Guevara",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 13,
+     "name": "Jose Cortez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 14,
+     "name": "Curtis Onchi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 15,
+     "name": "Kenett Falcon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 16,
+     "name": "Jose Carlos Manchego",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 17,
+     "name": "Diego Guerra",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 18,
+     "name": "Marco Arroyo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 19,
+     "name": "Ignacio Ugarteche",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 20,
+     "name": "Federico Larco",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 21,
+     "name": "Daniel Calle",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ECU"
+    },
+    {
+     "place": 22,
+     "name": "Marco Vidales",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 23,
+     "name": "Ricardo Justo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 25,
+     "name": "Jonathan Guardia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 26,
+     "name": "Fernando Ramos",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 27,
+     "name": "Ruben Pinango",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "VEM"
+    },
+    {
+     "place": 28,
+     "name": "Giampiero Vilcara",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 29,
+     "name": "Manuel Rivera",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 30,
+     "name": "Cesar La Barrera",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 31,
+     "name": "Michel Cruzado",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 32,
+     "name": "Mauricio Rodriguez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 33,
+     "name": "Marco Magallanes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 34,
+     "name": "Visconti Iñigo Zalduondo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 35,
+     "name": "Jean Pierre Sandoval",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 36,
+     "name": "Claudio Pretto",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 37,
+     "name": "Francisco Del Cuadro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 38,
+     "name": "Rafael Candela",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 39,
+     "name": "Felipe Acson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20260115215813id_/http://www.igsaworldcup.com/results/2012/2012_copa_de_ciudad_co_rslt.pdf / Women Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Reine Olivera",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 2,
+     "name": "Giorginna Ivanov",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 3,
+     "name": "Fiorela Conroy",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 4,
+     "name": "Daniela Lazo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 5,
+     "name": "Elina Pascucci",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    }
+   ]
+  },
+  {
+   "name": "Junior 1",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20260115215813id_/http://www.igsaworldcup.com/results/2012/2012_copa_de_ciudad_co_rslt.pdf / Junior 1 Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Rodrigo Zuzunaga",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 2,
+     "name": "Mariano Correa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 3,
+     "name": "Luis Rabanal",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 4,
+     "name": "Joaquin Llona",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 5,
+     "name": "Ignacio Medina",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 6,
+     "name": "Rodrigo Fontana",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    }
+   ]
+  },
+  {
+   "name": "Junior 2",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20260115215813id_/http://www.igsaworldcup.com/results/2012/2012_copa_de_ciudad_co_rslt.pdf / Junior 2 Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Gustavo Paredes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 2,
+     "name": "Kevin Guevara",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 3,
+     "name": "Jose Mario Osores",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 4,
+     "name": "Pablo Emilio Llona",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 5,
+     "name": "Gonzalo Brandon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 6,
+     "name": "Falke Nehren",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 7,
+     "name": "Alvaro Cuba",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 8,
+     "name": "Paulo Gargurevich",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 9,
+     "name": "Diego Magallanes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 10,
+     "name": "Jose Luis Bahamonde",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 11,
+     "name": "Alejandro Field",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 12,
+     "name": "Juan Diego Ventura",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 13,
+     "name": "Alejandro Loayza",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 14,
+     "name": "Hernan Vasquez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 15,
+     "name": "Renato Arteaga",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 16,
+     "name": "Jonathan Becerra",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    }
+   ]
+  },
+  {
+   "name": "Classic Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20260115215813id_/http://www.igsaworldcup.com/results/2012/2012_copa_de_ciudad_co_rslt.pdf / Classic Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Gonzalo Brandon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 2,
+     "name": "Rodrigo Bisquertt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 3,
+     "name": "Rodrigo Fontana",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

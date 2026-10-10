@@ -1,0 +1,711 @@
+{
+ "id": "2011-high-rising-downhill-xtreme",
+ "name": "High Rising Downhill Xtreme",
+ "year": 2011,
+ "date": "2011-01-01",
+ "date_known": false,
+ "hill": null,
+ "place": "Houwteq Complex, Grabouw",
+ "level": "National",
+ "sources": [
+  "http://web.archive.org/web/20111008001726id_/http://www.igsaworldcup.com/results/2011/2011_high_rising_na.pdf",
+  "http://web.archive.org/web/20160606082421id_/http://igsaworldcup.com/results/2011/2011_high_rising_na_qual",
+  "http://web.archive.org/web/20160606160559id_/http://igsaworldcup.com/results/2011/2011_high_rising_na_rslt",
+  "http://web.archive.org/web/20260614061852id_/http://www.igsaworldcup.com/results/2011/2011_high_rising_na_qual.pdf"
+ ],
+ "titles": [
+  "High Rising Downhill Xtreme"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20111008001726id_/http://www.igsaworldcup.com/results/2011/2011_high_rising_na.pdf / Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Alex Duss",
+     "time": 50.14,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 2,
+     "name": "Richard Dweza",
+     "time": 50.2,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 3,
+     "name": "Paul Du Plessis",
+     "time": 51.44,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 4,
+     "name": "Matt Arderne",
+     "time": 51.54,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 5,
+     "name": "Lloyd Clark",
+     "time": 52.62,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 6,
+     "name": "Glen Phillips",
+     "time": 53.71,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 7,
+     "name": "Pascal Weber",
+     "time": 54.11,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 8,
+     "name": "Trout Reece Pyro",
+     "time": 54.11,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 9,
+     "name": "Gerhard Nel",
+     "time": 55.63,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 10,
+     "name": "Berg Raoul Van Den",
+     "time": 56.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 11,
+     "name": "Alyosha Diebold",
+     "time": 57.32,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 12,
+     "name": "Alex Mudge",
+     "time": 57.86,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 13,
+     "name": "Mike Upham",
+     "time": 57.89,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 14,
+     "name": "John Upham",
+     "time": 57.94,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 15,
+     "name": "Donovan Tome",
+     "time": 61.89,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 16,
+     "name": "Oliver Hobson",
+     "time": 62.49,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 17,
+     "name": "Chris Lubbe",
+     "time": 63.32,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 18,
+     "name": "Anton Pratt",
+     "time": 63.36,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 19,
+     "name": "Stephan Gant",
+     "time": 64.69,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 20,
+     "name": "Lawrence Hobson",
+     "time": 64.87,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 21,
+     "name": "Guy Munton",
+     "time": 67.89,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 22,
+     "name": "Rudi Wilcocks",
+     "time": 68.64,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 23,
+     "name": "Sam Murgatroyd",
+     "time": 80.89,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 24,
+     "name": "Berg Eebin Van Den",
+     "time": 88.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Junior 2",
+   "kind": "Junior",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20111008001726id_/http://www.igsaworldcup.com/results/2011/2011_high_rising_na.pdf / Junior 2 Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Nick Jakins",
+     "time": 57.82,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 2,
+     "name": "Adam Lincoln-Lewis",
+     "time": 57.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 3,
+     "name": "Sam Jakins",
+     "time": 57.89,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 4,
+     "name": "Nick Hook",
+     "time": 62.62,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 5,
+     "name": "James Jager",
+     "time": 64.43,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 6,
+     "name": "Justin Brown",
+     "time": 65.57,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 7,
+     "name": "Camden Lategan",
+     "time": 77.76,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20111008001726id_/http://www.igsaworldcup.com/results/2011/2011_high_rising_na.pdf / Street Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Russell Naude",
+     "time": 52.42,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": null,
+     "name": "Glen Phillips",
+     "time": 53.23,
+     "dnf": false,
+     "dns": true,
+     "nat": "RSA"
+    },
+    {
+     "place": 3,
+     "name": "Duayne Cumpsty",
+     "time": 56.64,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 4,
+     "name": "Brain Isham",
+     "time": 60.03,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 5,
+     "name": "Rudi Wilcocks",
+     "time": 65.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Classic Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20111008001726id_/http://www.igsaworldcup.com/results/2011/2011_high_rising_na.pdf / Classic Luge / timed",
+   "results": [
+    {
+     "place": null,
+     "name": "Russell Naude",
+     "time": 54.4,
+     "dnf": false,
+     "dns": true,
+     "nat": "RSA"
+    },
+    {
+     "place": null,
+     "name": "Glen Phillips",
+     "time": 55.64,
+     "dnf": false,
+     "dns": true,
+     "nat": "RSA"
+    }
+   ]
+  },
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111008001726id_/http://www.igsaworldcup.com/results/2011/2011_high_rising_na.pdf / Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Richard Dweza",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 2,
+     "name": "Glen Phillips",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 3,
+     "name": "Lloyd Clark",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 4,
+     "name": "Pascal Weber",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 5,
+     "name": "Paul Du Plessis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 6,
+     "name": "Matt Arderne",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 7,
+     "name": "John Upham",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 8,
+     "name": "Alex Duss",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 9,
+     "name": "Anton Pratt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 10,
+     "name": "Trout Reece Pyro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 11,
+     "name": "Alyosha Diebold",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 12,
+     "name": "Mike Upham",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 13,
+     "name": "Berg Raoul Van Den",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 14,
+     "name": "Sam Murgatroyd",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 15,
+     "name": "Stephan Gant",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 16,
+     "name": "Rudi Wilcocks",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 17,
+     "name": "Alex Mudge",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 18,
+     "name": "Donovan Tome",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 19,
+     "name": "Oliver Hobson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 20,
+     "name": "Lawrence Hobson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 21,
+     "name": "Berg Eebin Van Den",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 22,
+     "name": "Nick Hook",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 23,
+     "name": "Sam Jakins",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 24,
+     "name": "Gerhard Nel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 25,
+     "name": "Chris Lubbe",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 26,
+     "name": "Guy Munton",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    }
+   ]
+  },
+  {
+   "name": "Junior 2",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111008001726id_/http://www.igsaworldcup.com/results/2011/2011_high_rising_na.pdf / Junior 2 Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Sam Jakins",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 2,
+     "name": "Nick Hook",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 3,
+     "name": "Adam Lincoln-Lewis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 4,
+     "name": "Justin Brown",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 5,
+     "name": "Nick Jakins",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 6,
+     "name": "James Jager",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 7,
+     "name": "Camden Lategan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111008001726id_/http://www.igsaworldcup.com/results/2011/2011_high_rising_na.pdf / Street Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Russell Naude",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 2,
+     "name": "Glen Phillips",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 3,
+     "name": "Brian Isham",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 4,
+     "name": "Duayne Cumpsty",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 5,
+     "name": "Rudi Wilcocks",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    }
+   ]
+  },
+  {
+   "name": "Classic Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111008001726id_/http://www.igsaworldcup.com/results/2011/2011_high_rising_na.pdf / Classic Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Russell Naude",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 2,
+     "name": "Glen Phillips",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

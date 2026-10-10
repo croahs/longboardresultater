@@ -1,0 +1,869 @@
+{
+ "id": "2018-padova-grand-prix",
+ "name": "Padova Grand Prix",
+ "year": 2018,
+ "date": "2018-08-05",
+ "date_known": true,
+ "hill": null,
+ "place": "Teolo, Italy",
+ "level": "IGSA World Championships - Europe",
+ "sources": [
+  "http://web.archive.org/web/20260420132217id_/https://www.igsaworldcup.com/results/2018/2018_teolo_worldchampionships-rslt",
+  "http://web.archive.org/web/20260422210324id_/https://igsaworldcup.com/results/2018/2018_teolo_worldchampionships-qual"
+ ],
+ "titles": [
+  "Padova Grand Prix"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20260420132217id_/https://www.igsaworldcup.com/results/2018/2018_teolo_worldchampionships-rslt / Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Escoin Oscar Rodriguez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 2,
+     "name": "Marcus Aldinucci",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 3,
+     "name": "Stefano Barbizzi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 4,
+     "name": "Tristan Cardillo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHE"
+    },
+    {
+     "place": 5,
+     "name": "Alessio Damato",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 6,
+     "name": "Anael Leconte",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 7,
+     "name": "Andrea Moreni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 8,
+     "name": "Terence Sirignano",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 9,
+     "name": "Simone Barbizzi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 10,
+     "name": "Giulia Bottazzin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 11,
+     "name": "Marco Zeni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 12,
+     "name": "Gabriele Monaco",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 13,
+     "name": "Nicola Dall'Aglio",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 14,
+     "name": "Manuel Bettanin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 15,
+     "name": "Luca Dall'Aglio",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20260420132217id_/https://www.igsaworldcup.com/results/2018/2018_teolo_worldchampionships-rslt / Street Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Mikel Echegaray",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 2,
+     "name": "Kolby Parks",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 3,
+     "name": "Maurizio De Pollo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 4,
+     "name": "Alexsnder Frischauf",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 5,
+     "name": "Andrea Bossotto",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 6,
+     "name": "Ortega Rafael Causapé",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 7,
+     "name": "Roberto Barbero",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 8,
+     "name": "Lara Barbero",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 9,
+     "name": "Andrea Morellini",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 10,
+     "name": "Alberto Barbero",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 11,
+     "name": "Maitane Calatayud",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 12,
+     "name": "Daniele Aldinucci",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 13,
+     "name": "Riccardo Aldinucci",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 14,
+     "name": "Kostantin Weigl",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    }
+   ]
+  },
+  {
+   "name": "Classic Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20260420132217id_/https://www.igsaworldcup.com/results/2018/2018_teolo_worldchampionships-rslt / Classic Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Mikel Echegaray",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 2,
+     "name": "Alexsnder Frischauf",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 3,
+     "name": "Kostantin Weigl",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 4,
+     "name": "Andrea Bossotto",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 5,
+     "name": "Kolby Parks",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 6,
+     "name": "Andrea Morellini",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 7,
+     "name": "Ortega Rafael Causapé",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 8,
+     "name": "Maitane Calatayud",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 9,
+     "name": "Daniele Aldinucci",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 10,
+     "name": "Riccardo Aldinucci",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    }
+   ]
+  },
+  {
+   "name": "Gravity Bike",
+   "kind": "Other",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20260420132217id_/https://www.igsaworldcup.com/results/2018/2018_teolo_worldchampionships-rslt / Gravity Bike / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Brett Phillips",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 2,
+     "name": "Araùjo Francisco Campos",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 3,
+     "name": "Davide Zanetti",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 4,
+     "name": "Marco Crudeli",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 5,
+     "name": "Luca Lusini",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 6,
+     "name": "Luri Mari",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 7,
+     "name": "Esposti Daniele Degli",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 8,
+     "name": "Giacomo Realdini",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 9,
+     "name": "Zack Leader",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 10,
+     "name": "Roberto Nobili",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20260422210324id_/https://igsaworldcup.com/results/2018/2018_teolo_worldchampionships-qual / Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Tristan Cardillo",
+     "time": 117.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHE"
+    },
+    {
+     "place": 2,
+     "name": "Escoin Oscar Rodriguez",
+     "time": 118.31,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 3,
+     "name": "Marcus Aldinucci",
+     "time": 120.45,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 4,
+     "name": "Stefano Barbizzi",
+     "time": 120.55,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 5,
+     "name": "Alessio Damato",
+     "time": 122.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 6,
+     "name": "Andrea Moreni",
+     "time": 122.95,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 7,
+     "name": "Terence Sirignano",
+     "time": 123.35,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 8,
+     "name": "Anael Leconte",
+     "time": 125.8,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 9,
+     "name": "Simone Barbizzi",
+     "time": 126.79,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 10,
+     "name": "Giulia Bottazzin",
+     "time": 131.07,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 11,
+     "name": "Marco Zeni",
+     "time": 132.58,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 12,
+     "name": "Gabriele Monaco",
+     "time": 133.54,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 13,
+     "name": "Nicola Dall:Aglio",
+     "time": 142.74,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 14,
+     "name": "Manuel Bettanin",
+     "time": 145.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 15,
+     "name": "Luca Dall:Aglio",
+     "time": 148.71,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20260422210324id_/https://igsaworldcup.com/results/2018/2018_teolo_worldchampionships-qual / Street Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Mikel Echegaray",
+     "time": 115.82,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 2,
+     "name": "Kolby Parks",
+     "time": 118.52,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 3,
+     "name": "Daniele Aldinucci",
+     "time": 120.55,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 4,
+     "name": "Alexsnder Frischauf",
+     "time": 121.89,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 5,
+     "name": "Riccardo Aldinucci",
+     "time": 122.08,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 6,
+     "name": "Maurizio De Pollo",
+     "time": 122.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 7,
+     "name": "Roberto Barbero",
+     "time": 124.42,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 8,
+     "name": "Andrea Bossotto",
+     "time": 125.66,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 9,
+     "name": "Kostantin Weigl",
+     "time": 127.67,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 10,
+     "name": "Lara Barbero",
+     "time": 129.18,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 11,
+     "name": "Andrea Morellini",
+     "time": 129.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 12,
+     "name": "Ortega Rafael Causapé",
+     "time": 129.76,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 13,
+     "name": "Alberto Barbero",
+     "time": 130.76,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 14,
+     "name": "Maitane Calatayud",
+     "time": 135.99,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Classic Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20260422210324id_/https://igsaworldcup.com/results/2018/2018_teolo_worldchampionships-qual / Classic Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Mikel Echegaray",
+     "time": 120.3,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 2,
+     "name": "Daniele Aldinucci",
+     "time": 124.22,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 3,
+     "name": "Alexsnder Frischauf",
+     "time": 124.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 4,
+     "name": "Kolby Parks",
+     "time": 126.08,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 5,
+     "name": "Kostantin Weigl",
+     "time": 126.51,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 6,
+     "name": "Andrea Bossotto",
+     "time": 127.31,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 7,
+     "name": "Ortega Rafael Causapé",
+     "time": 132.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": null,
+     "name": "Riccardo Aldinucci",
+     "time": 134.09,
+     "dnf": false,
+     "dns": true,
+     "nat": "ITA"
+    },
+    {
+     "place": 9,
+     "name": "Andrea Morellini",
+     "time": 135.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 10,
+     "name": "Maitane Calatayud",
+     "time": 137.09,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Gravity Bike",
+   "kind": "Other",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20260422210324id_/https://igsaworldcup.com/results/2018/2018_teolo_worldchampionships-qual / Gravity Bike / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Brett Phillips",
+     "time": 115.55,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 2,
+     "name": "Araùjo Francisco Campos",
+     "time": 116.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 3,
+     "name": "Marco Crudeli",
+     "time": 119.28,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": null,
+     "name": "Luca Lusini",
+     "time": 120.04,
+     "dnf": false,
+     "dns": true,
+     "nat": "ITA"
+    },
+    {
+     "place": 5,
+     "name": "Davide Zanetti",
+     "time": 123.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 6,
+     "name": "Luri Mari",
+     "time": 124.26,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": null,
+     "name": "Esposti Daniele Degli",
+     "time": 126.85,
+     "dnf": false,
+     "dns": true,
+     "nat": "ITA"
+    },
+    {
+     "place": 8,
+     "name": "Giacomo Realdini",
+     "time": 127.03,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 9,
+     "name": "Zack Leader",
+     "time": 127.59,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 10,
+     "name": "Roberto Nobili",
+     "time": 131.22,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

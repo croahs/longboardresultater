@@ -1,0 +1,663 @@
+{
+ "id": "2026-isle-of-man",
+ "name": "WDSC Isle of Man",
+ "year": 2026,
+ "date": "2026-01-01",
+ "date_known": false,
+ "hill": null,
+ "place": "Isle of Man",
+ "sources": [
+  "https://worlddownhillskateboardingchampionship.com/isle-of-man-standings-2026/"
+ ],
+ "titles": [],
+ "notes": [],
+ "races": [
+  {
+   "name": "Luge CT",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "https://worlddownhillskateboardingchampionship.com/isle-of-man-standings-2026/ / CT CT Open Luge",
+   "results": [
+    {
+     "place": 1,
+     "name": "Abdil Mahdzan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MYS"
+    },
+    {
+     "place": 2,
+     "name": "Andy Lally",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 3,
+     "name": "Nicholas Kamink",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 4,
+     "name": "Kolby Parks",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 5,
+     "name": "Ulrich Becker",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "DEU"
+    },
+    {
+     "place": 6,
+     "name": "Arkadiusz Kowalski",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "POL"
+    },
+    {
+     "place": 7,
+     "name": "Josh Fieldwick",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 8,
+     "name": "Loreline Pastor",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 9,
+     "name": "Andy Speight",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 10,
+     "name": "Phil Spencer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 11,
+     "name": "George Cheeseman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 12,
+     "name": "Ian Martland",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 13,
+     "name": "Juan Callister",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "IMN"
+    },
+    {
+     "place": 14,
+     "name": "Mark Wilson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 15,
+     "name": "Laurence Herring",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 16,
+     "name": "Billy Foss",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 17,
+     "name": "Morrah Jakubiec",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    }
+   ]
+  },
+  {
+   "name": "Open CT",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "https://worlddownhillskateboardingchampionship.com/isle-of-man-standings-2026/ / CT CT Open Skate",
+   "results": [
+    {
+     "place": 1,
+     "name": "Adrien Paynel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 2,
+     "name": "Harry Clarke",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 3,
+     "name": "Nick Broms",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 4,
+     "name": "Stefano Barbizzi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 5,
+     "name": "Antoine Carlotti",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 6,
+     "name": "Owen Fox",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 7,
+     "name": "Lucas Schuldt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 8,
+     "name": "Antonio Madariaga",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 9,
+     "name": "Jack Plummer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 10,
+     "name": "Vašek Čvančara",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 11,
+     "name": "Patrick Stoll",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 12,
+     "name": "Dmytro Hayduchyk",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 13,
+     "name": "Andreas Bouclier",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 14,
+     "name": "Zeyd Grifoni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 15,
+     "name": "Micaiah Harness",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 16,
+     "name": "Maxwell Capps",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 17,
+     "name": "Ng Wing Tsun Thomas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "HKG"
+    },
+    {
+     "place": 18,
+     "name": "Lukas Radoň Klos",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 19,
+     "name": "Bumpy Hales",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 20,
+     "name": "Joaquin Bazo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 21,
+     "name": "Vojtech Zacek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 22,
+     "name": "Marco Zeni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 23,
+     "name": "Adriano Volpe",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 24,
+     "name": "Jack Killey",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "IMN"
+    },
+    {
+     "place": 25,
+     "name": "Lam Wong Pak",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "HKG"
+    },
+    {
+     "place": 26,
+     "name": "Cheng Tzu Ning",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "TWN"
+    },
+    {
+     "place": 27,
+     "name": "Emrys Myers",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 28,
+     "name": "Chang Chieh",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 29,
+     "name": "Josh Monk",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 30,
+     "name": "Giulia Bottazzin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 31,
+     "name": "Antonio francesco Bonventre",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 32,
+     "name": "Paul Vogel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 33,
+     "name": "Olyver Goodwin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 34,
+     "name": "Louis Bouchard",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    }
+   ]
+  },
+  {
+   "name": "Luge Damer CT",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "https://worlddownhillskateboardingchampionship.com/isle-of-man-standings-2026/ / CT CT Women’s Luge",
+   "results": [
+    {
+     "place": 1,
+     "name": "Loreline Pastor",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 2,
+     "name": "Morrah Jakubiec",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    }
+   ]
+  },
+  {
+   "name": "Luge QS",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "https://worlddownhillskateboardingchampionship.com/isle-of-man-standings-2026/ / QS QS Open Luge",
+   "results": [
+    {
+     "place": 1,
+     "name": "Loreline Pastor",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 2,
+     "name": "Ian Martland",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 3,
+     "name": "Juan Callister",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "IMN"
+    },
+    {
+     "place": 4,
+     "name": "Laurence Herring",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 5,
+     "name": "Billy Foss",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    }
+   ]
+  },
+  {
+   "name": "Open QS",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "https://worlddownhillskateboardingchampionship.com/isle-of-man-standings-2026/ / QS QS Open Skate",
+   "results": [
+    {
+     "place": 1,
+     "name": "Dmytro Hayduchyk",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 2,
+     "name": "Zeyd Grifoni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 3,
+     "name": "Lukas Radoň Klos",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 4,
+     "name": "Bumpy Hales",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 5,
+     "name": "Joaquin Bazo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 6,
+     "name": "Marco Zeni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 7,
+     "name": "Adriano Volpe",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 8,
+     "name": "Jack Killey",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "IMN"
+    },
+    {
+     "place": 9,
+     "name": "Lam Wong Pak",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "HKG"
+    },
+    {
+     "place": 10,
+     "name": "Cheng Tzu Ning",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "TWN"
+    },
+    {
+     "place": 11,
+     "name": "Emrys Myers",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 12,
+     "name": "Chang Chieh",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 13,
+     "name": "Josh Monk",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 14,
+     "name": "Giulia Bottazzin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 15,
+     "name": "Antonio francesco Bonventre",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 16,
+     "name": "Vogel Paul",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 17,
+     "name": "Olyver Goodwin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 18,
+     "name": "Louis Bouchard",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

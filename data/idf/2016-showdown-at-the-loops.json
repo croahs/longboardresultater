@@ -1,0 +1,1051 @@
+{
+ "id": "2016-showdown-at-the-loops",
+ "name": "Showdown at the Loops",
+ "year": 2016,
+ "date": "2016-06-21",
+ "date_known": true,
+ "hill": null,
+ "place": "United States",
+ "sources": [
+  "https://internationaldownhillfederation.org/rankings/2016-rankings/"
+ ],
+ "titles": [
+  "Showdown at the Loops"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2016/World-Rankings-2016-Open-Skateboard.html / Showdown at the Loops",
+   "results": [
+    {
+     "place": 1,
+     "name": "Max Ballesteros",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 2,
+     "name": "Thiago Gomes Lessa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 3,
+     "name": "Carlos Paixão",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 4,
+     "name": "Jackson Shapiera",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 5,
+     "name": "Justin Rouleau",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 6,
+     "name": "Tanner Morelock",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 7,
+     "name": "Maxwell Capps",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 8,
+     "name": "Jimmy Riha",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 9,
+     "name": "Nickolas Curtright",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 10,
+     "name": "Sunghoon Choi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 11,
+     "name": "Spencer Smith",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 12,
+     "name": "Adam Little",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 13,
+     "name": "Alex Charleson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 14,
+     "name": "Scott Smith",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 15,
+     "name": "Max Vickers",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 16,
+     "name": "Kiefer Kroneker",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 17,
+     "name": "Stephen Dumaine",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 18,
+     "name": "Pedro Frangulis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 19,
+     "name": "Chase Vaughan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 20,
+     "name": "Micah Green",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 21,
+     "name": "Zak Maytum",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 22,
+     "name": "Jake Wilkinson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 23,
+     "name": "Job Crisostomo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 24,
+     "name": "Nikolas Matousek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 25,
+     "name": "Mitch Thompson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 26,
+     "name": "Brandon Desjarlais",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 27,
+     "name": "Calvin Staub",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 28,
+     "name": "Emily Pross",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 29,
+     "name": "Kevin Langi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 30,
+     "name": "Brian Sandoval",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 31,
+     "name": "Robin McGuirk",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 32,
+     "name": "Dylan Shrimpton",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 33,
+     "name": "Bryce Brady",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 34,
+     "name": "Simon Snethen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 35,
+     "name": "Greg Paproski",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 36,
+     "name": "Jesse Martin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 37,
+     "name": "Maxwell Rondeau",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 38,
+     "name": "Patrick Wilkinson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 39,
+     "name": "Tate Flippo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 40,
+     "name": "Ryan Vitale",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 41,
+     "name": "Kyle Connelly",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 42,
+     "name": "Kaspar Heinrici",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 43,
+     "name": "Knox Heslop",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 44,
+     "name": "Connor Wagner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 45,
+     "name": "Dmitri Menas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 46,
+     "name": "John Guerrero-Spitz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 47,
+     "name": "Trevor Ovenden",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 48,
+     "name": "Fernando Alves",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 49,
+     "name": "Parker Schmidt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 50,
+     "name": "Martin Depass",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 51,
+     "name": "Victoria Waddington",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 52,
+     "name": "Nicholas Kasch",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 53,
+     "name": "David Townsend",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 54,
+     "name": "Gabe Messa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 55,
+     "name": "Dylan Greer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 56,
+     "name": "Nicholas Broms",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 57,
+     "name": "Jon Wenman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 58,
+     "name": "Blake Schram",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 59,
+     "name": "Caleb Orourke",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 60,
+     "name": "Josey Pratt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 61,
+     "name": "Nick Richardson-Palmer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 62,
+     "name": "Dominic Rico-Gomez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 63,
+     "name": "Jes M Izman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Malaysia"
+    },
+    {
+     "place": 64,
+     "name": "Tim White",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 65,
+     "name": "Ryan Farmer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 66,
+     "name": "Ben Stainer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United Kingdom"
+    },
+    {
+     "place": 67,
+     "name": "Christopher Goede",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 68,
+     "name": "Kent Halle",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 69,
+     "name": "Cody Henrikson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 70,
+     "name": "Mark Esser",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 71,
+     "name": "Erik Warner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 72,
+     "name": "Brendon Corrao",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 73,
+     "name": "Victor Nava",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 74,
+     "name": "William Ortiz Rodrigues",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 75,
+     "name": "Aaron Dill",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 76,
+     "name": "Michael Ryan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 77,
+     "name": "Gabriel Shin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 78,
+     "name": "Fernando Rodrigo De Medeiros",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 79,
+     "name": "Gerardo Novoa Rey",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 80,
+     "name": "Ricardo Campanha Sierra",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 81,
+     "name": "Lexi Loch",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 82,
+     "name": "Nora Manger",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 83,
+     "name": "Andre Toporovicz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 84,
+     "name": "Katie Edwards",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United Kingdom"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2016/World-Rankings-2016-Women-Skateboard.html / Showdown at the Loops",
+   "results": [
+    {
+     "place": 1,
+     "name": "Emily Pross",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 2,
+     "name": "Victoria Waddington",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 3,
+     "name": "Candy Dungan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 4,
+     "name": "Nayhomi Cruz Ramos",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Puerto Rico"
+    },
+    {
+     "place": 5,
+     "name": "Lynn Kramer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 6,
+     "name": "Riann Roguljic Riedel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 7,
+     "name": "Nashley Alameda",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Puerto Rico"
+    },
+    {
+     "place": 8,
+     "name": "Lexi Loch",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 9,
+     "name": "Nora Manger",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 10,
+     "name": "Katie Edwards",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United Kingdom"
+    }
+   ]
+  },
+  {
+   "name": "Junior",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2016/World-Rankings-2016-Junior-Skateboard.html / Showdown at the Loops",
+   "results": [
+    {
+     "place": 1,
+     "name": "Knox Heslop",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 2,
+     "name": "Nikolas Matousek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 3,
+     "name": "Dylan Shrimpton",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 4,
+     "name": "Parker Schmidt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 5,
+     "name": "Sandor Voros",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 6,
+     "name": "Patrick Wilkinson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 7,
+     "name": "Jaydon Howarth",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 8,
+     "name": "Jesse Martin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 9,
+     "name": "Gabe Messa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 10,
+     "name": "Caleb Orourke",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 11,
+     "name": "Martin Depass",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 12,
+     "name": "Greg Paproski",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 13,
+     "name": "Blake Schram",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 14,
+     "name": "Gabriel Shin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 15,
+     "name": "Mason Shin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 16,
+     "name": "Kent Halle",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2016/World-Rankings-2016-Luge.html / Showdown at the Loops",
+   "results": [
+    {
+     "place": 1,
+     "name": "Mikel Echegaray Diez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 2,
+     "name": "Ryan Farmer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 3,
+     "name": "Mike Paproski",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 4,
+     "name": "Jan Tarradas Miquel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 5,
+     "name": "Kolby Parks",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 6,
+     "name": "Michael Lovely",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 7,
+     "name": "Frank Williams",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 8,
+     "name": "Lee Dansie",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 9,
+     "name": "Chris McBride",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 10,
+     "name": "Darius Escandar",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 11,
+     "name": "Sabrina Riffenburgh",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 12,
+     "name": "C. J. Wilkinson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 13,
+     "name": "Scott Peer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 14,
+     "name": "Jan Moisanen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 15,
+     "name": "Shane MacDougall",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

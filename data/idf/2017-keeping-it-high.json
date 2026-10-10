@@ -1,0 +1,579 @@
+{
+ "id": "2017-keeping-it-high",
+ "name": "Keeping it High",
+ "year": 2017,
+ "date": "2017-04-14",
+ "date_known": true,
+ "hill": null,
+ "place": "Philippines",
+ "sources": [
+  "https://internationaldownhillfederation.org/rankings/2017-rankings/"
+ ],
+ "titles": [
+  "Keeping it High"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2017/World-Rankings-2017-Open-Skateboard.html / Keeping it High",
+   "results": [
+    {
+     "place": 1,
+     "name": "Douglas Silva",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 2,
+     "name": "Mauritz Armfelt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Sweden"
+    },
+    {
+     "place": 3,
+     "name": "Mitch Thompson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 4,
+     "name": "Tiago Mohr",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 5,
+     "name": "Robert Burns",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Hong Kong"
+    },
+    {
+     "place": 6,
+     "name": "Taylor Cook",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "New Zealand"
+    },
+    {
+     "place": 7,
+     "name": "Benjamin Hay",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 8,
+     "name": "Santiago Espeche",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 9,
+     "name": "Max Mandl",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 10,
+     "name": "Zak Mills-Goodwin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 11,
+     "name": "Harry Clarke",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 12,
+     "name": "Daniel Engel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 13,
+     "name": "Jaime De Lange",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 14,
+     "name": "Sungji Ahn",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 15,
+     "name": "Vince Vazquez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 16,
+     "name": "Tomas Romualdez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 17,
+     "name": "Tim White",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 18,
+     "name": "Jennifer Schauerte",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 19,
+     "name": "Andrei Ybañez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 20,
+     "name": "Jort Switijnk",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Netherlands"
+    },
+    {
+     "place": 21,
+     "name": "Cameron Hancock",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 22,
+     "name": "Kyle Daniel Bolado",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 23,
+     "name": "Earl Licop",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 24,
+     "name": "Nicolas Rayner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 25,
+     "name": "Jerson Flores",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 26,
+     "name": "Joaquin Romero",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 27,
+     "name": "Ronald Sarinas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 28,
+     "name": "John Paul Gatpandan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 29,
+     "name": "Dale Smith",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 30,
+     "name": "Elissa Mah",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "New Zealand"
+    },
+    {
+     "place": 31,
+     "name": "Caloy Sambrano",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 32,
+     "name": "James Viloria",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 33,
+     "name": "John Den Escarda",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 34,
+     "name": "Glenn Palilio",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 35,
+     "name": "Julia Barklow",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 36,
+     "name": "Crysler Thor Falguera",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 37,
+     "name": "Monddy Duane Cuachon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 38,
+     "name": "Pedmars Alfeche",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 39,
+     "name": "Taejoo Park",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 40,
+     "name": "Sebastian Chanco",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 41,
+     "name": "Peter Fritz Siason",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 42,
+     "name": "Abigail Viloria",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 43,
+     "name": "Bryan Batisan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 44,
+     "name": "Timor Miguel El-Estwani",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 45,
+     "name": "Jefferson Galang",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 46,
+     "name": "Zuzana Beranová",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Czech Republic"
+    },
+    {
+     "place": 47,
+     "name": "Sylvia Mena Cortés",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2017/World-Rankings-2017-Women-Skateboard.html / Keeping it High",
+   "results": [
+    {
+     "place": 1,
+     "name": "Elissa Mah",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "New Zealand"
+    },
+    {
+     "place": 2,
+     "name": "Jennifer Schauerte",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 3,
+     "name": "Abigail Viloria",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 4,
+     "name": "Julia Barklow",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 5,
+     "name": "Zuzana Beranová",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Czech Republic"
+    },
+    {
+     "place": 6,
+     "name": "Sylvia Mena Cortés",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    }
+   ]
+  },
+  {
+   "name": "Junior",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2017/World-Rankings-2017-Junior-Skateboard.html / Keeping it High",
+   "results": [
+    {
+     "place": 1,
+     "name": "Taylor Cook",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "New Zealand"
+    },
+    {
+     "place": 2,
+     "name": "Robert Burns",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Hong Kong"
+    },
+    {
+     "place": 3,
+     "name": "Andrei Ybañez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 4,
+     "name": "Kyle Daniel Bolado",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    }
+   ]
+  },
+  {
+   "name": "Masters",
+   "kind": "Masters",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2017/World-Rankings-2017-Master-Skateboard.html / Keeping it High",
+   "results": [
+    {
+     "place": 1,
+     "name": "Benjamin Hay",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 2,
+     "name": "Caloy Sambrano",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 3,
+     "name": "Peter Fritz Siason",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 4,
+     "name": "Monddy Duane Cuachon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 5,
+     "name": "Bryan Batisan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 6,
+     "name": "Taejoo Park",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2017/World-Rankings-2017-Luge.html / Keeping it High",
+   "results": [
+    {
+     "place": 1,
+     "name": "Abdil Mahdzan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Malaysia"
+    },
+    {
+     "place": 2,
+     "name": "Zen Rasta",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

@@ -1,0 +1,491 @@
+{
+ "id": "2015-valle-del-downhill",
+ "name": "Valle del Downhill",
+ "year": 2015,
+ "date": "2015-10-16",
+ "date_known": true,
+ "hill": null,
+ "place": "Peru",
+ "sources": [
+  "https://internationaldownhillfederation.org/rankings/2015-rankings/"
+ ],
+ "titles": [
+  "Valle del Downhill Tarma"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2015/World-Rankings-2015-Open-Skateboard.html / Valle del Downhill Tarma",
+   "results": [
+    {
+     "place": 1,
+     "name": "Erik Lundberg",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Sweden"
+    },
+    {
+     "place": 2,
+     "name": "Adam Persson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Sweden"
+    },
+    {
+     "place": 3,
+     "name": "Marco Arroyo Torres",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 4,
+     "name": "Javier Palomino",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 5,
+     "name": "Anders Inde",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Sweden"
+    },
+    {
+     "place": 6,
+     "name": "Santiago Gonzalez Salaberry",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 7,
+     "name": "Rodrigo Zuzunaga",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 8,
+     "name": "Alvaro Loli Romero",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 9,
+     "name": "Mateus Brandao Cavinato",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 10,
+     "name": "Joao Pedro Nogueira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 11,
+     "name": "Augusto Garcia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 12,
+     "name": "Jonathan Arturo Guardia Cuya",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 13,
+     "name": "Dillon Stephens",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 14,
+     "name": "Wilder Mendoza",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 15,
+     "name": "Gustavo Paredes Mena",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 16,
+     "name": "Juan Camilo Trujillo Botero",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 17,
+     "name": "Tiago Mohr",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 18,
+     "name": "Philip Skaar",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 19,
+     "name": "Kevin Scott Toledo Guevara",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 20,
+     "name": "Noah Fischer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 21,
+     "name": "Ignacio Medina",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 22,
+     "name": "Cristina Verdú",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 23,
+     "name": "Jose Carlos Manchego",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 24,
+     "name": "Julio Inga",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 25,
+     "name": "Jorge Tejeda",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 26,
+     "name": "John Mendoza Pucuhuayla",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 27,
+     "name": "Arturo Linares",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 28,
+     "name": "Edgardo Bretoneche",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 29,
+     "name": "Rachel Bruskoff",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 30,
+     "name": "Hernan Vazques",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 31,
+     "name": "Jose Cortez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2015/World-Rankings-2015-Women-Skateboard.html / Valle del Downhill Tarma",
+   "results": [
+    {
+     "place": 1,
+     "name": "Rachel Bruskoff",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 2,
+     "name": "Cristina Verdú",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 3,
+     "name": "Giorginna Ivanov",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 4,
+     "name": "Gina Rocio Camelo Granja",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 5,
+     "name": "Valeria Sedano",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 6,
+     "name": "Josefa Porter Ekdahl",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Chile"
+    }
+   ]
+  },
+  {
+   "name": "Junior",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2015/World-Rankings-2015-Junior-Skateboard.html / Valle del Downhill Tarma",
+   "results": [
+    {
+     "place": 1,
+     "name": "Rodrigo Zuzunaga",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 2,
+     "name": "Noah Fischer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 3,
+     "name": "Christian Garcia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 4,
+     "name": "Wilder Mendoza",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 5,
+     "name": "Steveen Sanchez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 6,
+     "name": "Dante Moyano",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 7,
+     "name": "Edmundo Ramon Condori Guivin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 8,
+     "name": "Alexander Roca",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 9,
+     "name": "Jean Carlo Colmenares",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 10,
+     "name": "Marco Izquierdo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 11,
+     "name": "Aron Rivera",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 12,
+     "name": "Bruno Vidal Vieira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 13,
+     "name": "Ignacio Medina",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 14,
+     "name": "Aimar Brandon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2015/World-Rankings-2015-Classic-Luge.html / Valle del Downhill Tarma",
+   "results": [
+    {
+     "place": 1,
+     "name": "Konstantin Weigl",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Austria"
+    },
+    {
+     "place": 2,
+     "name": "Anthony Cruz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 3,
+     "name": "Aimar Brandon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 4,
+     "name": "Renato Cruces",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

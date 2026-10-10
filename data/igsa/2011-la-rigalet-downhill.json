@@ -1,0 +1,791 @@
+{
+ "id": "2011-la-rigalet-downhill",
+ "name": "La Rigalet Downhill",
+ "year": 2011,
+ "date": "2011-01-01",
+ "date_known": false,
+ "hill": null,
+ "place": "Gauriac, France",
+ "level": "Regional",
+ "sources": [
+  "http://web.archive.org/web/20111008013834id_/http://www.igsaworldcup.com/results/2011/2011_la_rigalet_rg_qual.pdf",
+  "http://web.archive.org/web/20111008024459id_/http://www.igsaworldcup.com/results/2011/2011_la_rigalet_rg.pdf",
+  "http://web.archive.org/web/20160609231028id_/http://igsaworldcup.com/results/2011/2011_la_rigalet_rg_rslt",
+  "http://web.archive.org/web/20160609234839id_/http://igsaworldcup.com/results/2011/2011_la_rigalet_rg_qual"
+ ],
+ "titles": [
+  "La Rigalet Downhill"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20111008013834id_/http://www.igsaworldcup.com/results/2011/2011_la_rigalet_rg_qual.pdf / Downhill Skateboarding / timed",
+   "results": [
+    {
+     "place": null,
+     "name": "Stephane Bas",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Yoann Bethus",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Olivier Bareaud",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Loic Marechet",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Julien Yamba",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Christophe Gatignon",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Hugo Madignier",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Arnaud Tisserand",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Thomas Lakomicki",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Eric Motard",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Julien Peypelat",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Garaita Arkaitz",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "SPA"
+    },
+    {
+     "place": null,
+     "name": "Marie Bougourd",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Charles Andrieu",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Adrien Fraisse",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Brice Bombardier",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Hugo Elleouet",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Laurent Perigault",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Cyrille Harnay",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Frederic Hinot",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Olivier Raynaud",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Sebastien Fichet",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Nicolas Delphy",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Classic Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20111008013834id_/http://www.igsaworldcup.com/results/2011/2011_la_rigalet_rg_qual.pdf / Classic Luge / timed",
+   "results": [
+    {
+     "place": null,
+     "name": "DiezMickel Echegaray",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "SPA"
+    },
+    {
+     "place": null,
+     "name": "Fabien Prual",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Thibault Meline",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Pierre Fromenteil",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Dagoberto Garcia",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "SPA"
+    },
+    {
+     "place": null,
+     "name": "Alexandra Hilary",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Pierre Hazera",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Matthieu Denis",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20111008013834id_/http://www.igsaworldcup.com/results/2011/2011_la_rigalet_rg_qual.pdf / Street Luge / timed",
+   "results": [
+    {
+     "place": null,
+     "name": "DiezMickel Echegaray",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "SPA"
+    },
+    {
+     "place": null,
+     "name": "Fabien Prual",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Pierre Fromenteil",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Thibault Meline",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Pierre Hazera",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Dagoberto Garcia",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "SPA"
+    },
+    {
+     "place": null,
+     "name": "Alexandra Hilary",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Matthieu Denis",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Inline",
+   "kind": "Inline",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20111008013834id_/http://www.igsaworldcup.com/results/2011/2011_la_rigalet_rg_qual.pdf / Downhill Inline / timed",
+   "results": [
+    {
+     "place": null,
+     "name": "Alexandre Lebrun",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Lionel Lefevre",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Severine Christ-Thomas",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Mallory Berthelot",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Faiza Chaouch",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    }
+   ]
+  },
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111008024459id_/http://www.igsaworldcup.com/results/2011/2011_la_rigalet_rg.pdf / Downhill Skateboarding / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Yoann Bethus",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 2,
+     "name": "Olivier Bareaud",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 3,
+     "name": "Stephane Bas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 4,
+     "name": "Julien Yamba",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 5,
+     "name": "Loic Marechet",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 6,
+     "name": "Christophe Gatignon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 7,
+     "name": "Thomas Lakomicki",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 8,
+     "name": "Hugo Madignier",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 9,
+     "name": "Arnaud Tisserand",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 10,
+     "name": "Eric Motard",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 11,
+     "name": "Julien Peypelat",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 12,
+     "name": "Garaita Arkaitz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SPA"
+    },
+    {
+     "place": 13,
+     "name": "Charles Andrieu",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 14,
+     "name": "Adrien Fraisse",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 15,
+     "name": "Marie Bougourd",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 16,
+     "name": "Brice Bombardier",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 17,
+     "name": "Laurent Perigault",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 18,
+     "name": "Hugo Elleouet",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 19,
+     "name": "Frederic Hinot",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 20,
+     "name": "Cyrille Harnay",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 21,
+     "name": "Olivier Raynaud",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 22,
+     "name": "Nicolas Delphy",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 23,
+     "name": "Sebastien Fichet",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    }
+   ]
+  },
+  {
+   "name": "Classic Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111008024459id_/http://www.igsaworldcup.com/results/2011/2011_la_rigalet_rg.pdf / Classic Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "DiezMickel Echegaray",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SPA"
+    },
+    {
+     "place": 2,
+     "name": "Fabien Prual",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 3,
+     "name": "Thibault Meline",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 4,
+     "name": "Pierre Fromenteil",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 5,
+     "name": "Dagoberto Garcia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SPA"
+    },
+    {
+     "place": 6,
+     "name": "Alexandra Hilary",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 7,
+     "name": "Matthieu Denis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 8,
+     "name": "Pierre Hazera",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111008024459id_/http://www.igsaworldcup.com/results/2011/2011_la_rigalet_rg.pdf / Street Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "DiezMickel Echegaray",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SPA"
+    },
+    {
+     "place": 2,
+     "name": "Fabien Prual",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 3,
+     "name": "Pierre Fromenteil",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 4,
+     "name": "Dagoberto Garcia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SPA"
+    },
+    {
+     "place": 5,
+     "name": "Pierre Hazera",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 6,
+     "name": "Thibault Meline",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 7,
+     "name": "Alexandra Hilary",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 8,
+     "name": "Matthieu Denis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    }
+   ]
+  },
+  {
+   "name": "Inline",
+   "kind": "Inline",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111008024459id_/http://www.igsaworldcup.com/results/2011/2011_la_rigalet_rg.pdf / Downhill Inline / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Alexandre Lebrun",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 2,
+     "name": "Severine Christ-Thomas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 3,
+     "name": "Lionel Lefevre",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 4,
+     "name": "Mallory Berthelot",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 5,
+     "name": "Faiza Chaouch",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

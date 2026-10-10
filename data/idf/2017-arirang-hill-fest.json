@@ -1,0 +1,723 @@
+{
+ "id": "2017-arirang-hill-fest",
+ "name": "Arirang Hill Fest",
+ "year": 2017,
+ "date": "2017-04-28",
+ "date_known": true,
+ "hill": null,
+ "place": "South Korea",
+ "sources": [
+  "https://internationaldownhillfederation.org/rankings/2017-rankings/"
+ ],
+ "titles": [
+  "Arirang Hill Fest"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2017/World-Rankings-2017-Open-Skateboard.html / Arirang Hill Fest",
+   "results": [
+    {
+     "place": 1,
+     "name": "Aaron Hampshire",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 2,
+     "name": "Mauritz Armfelt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Sweden"
+    },
+    {
+     "place": 3,
+     "name": "Mitch Thompson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 4,
+     "name": "Brennan Bast",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 5,
+     "name": "Daina Banks",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 6,
+     "name": "Taylor Cook",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "New Zealand"
+    },
+    {
+     "place": 7,
+     "name": "Adam Persson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Sweden"
+    },
+    {
+     "place": 8,
+     "name": "Zak Mills-Goodwin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 9,
+     "name": "Max Mandl",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 10,
+     "name": "Cameron Hancock",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 11,
+     "name": "Benjamin Hay",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 12,
+     "name": "Jaime De Lange",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 13,
+     "name": "Daniel Engel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 14,
+     "name": "Tim White",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 15,
+     "name": "Sungji Ahn",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 16,
+     "name": "Long Bae",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Hong Kong"
+    },
+    {
+     "place": 17,
+     "name": "Dale Smith",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 18,
+     "name": "Nicolas Rayner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 19,
+     "name": "Nargae Kang",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 20,
+     "name": "E Chan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Hong Kong"
+    },
+    {
+     "place": 21,
+     "name": "Kim Jongjun",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 22,
+     "name": "Yao-Kuo Chen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Taiwan"
+    },
+    {
+     "place": 23,
+     "name": "Light Liu",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Taiwan"
+    },
+    {
+     "place": 24,
+     "name": "Minsoo Kim",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 25,
+     "name": "Nelson Cheng",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Taiwan"
+    },
+    {
+     "place": 26,
+     "name": "Thomas Bloemendal",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 27,
+     "name": "Julia Barklow",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 28,
+     "name": "Seunghun Lee",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 29,
+     "name": "Robert Burns",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Hong Kong"
+    },
+    {
+     "place": 30,
+     "name": "Harry Clarke",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 31,
+     "name": "Daniel Guzzardi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 32,
+     "name": "Ben Butterworth",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 33,
+     "name": "Kaila Dasol Jung",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 34,
+     "name": "Jin-Hee Yoo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 35,
+     "name": "Sour Chan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Taiwan"
+    },
+    {
+     "place": 36,
+     "name": "Allison Zhu",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Taiwan"
+    },
+    {
+     "place": 37,
+     "name": "Yongtae Kim",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 38,
+     "name": "Hoi Ki Law",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Hong Kong"
+    },
+    {
+     "place": 39,
+     "name": "Miao Ho",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Taiwan"
+    },
+    {
+     "place": 40,
+     "name": "Isaac Woo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Hong Kong"
+    },
+    {
+     "place": 41,
+     "name": "Yue Gao",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 42,
+     "name": "Taejoo Park",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 43,
+     "name": "Zuzana Beranová",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Czech Republic"
+    },
+    {
+     "place": 44,
+     "name": "Aj Jihee Hong",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 45,
+     "name": "Elissa Mah",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "New Zealand"
+    },
+    {
+     "place": 46,
+     "name": "Kyunghun Lee",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 47,
+     "name": "Cheng-Lun Wu",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Taiwan"
+    },
+    {
+     "place": 48,
+     "name": "Ray Tong",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Hong Kong"
+    },
+    {
+     "place": 49,
+     "name": "Wong Lung Sunny",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Hong Kong"
+    },
+    {
+     "place": 50,
+     "name": "Sean Woo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Hong Kong"
+    },
+    {
+     "place": 51,
+     "name": "Lee Jungwoo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 52,
+     "name": "Ian Yu",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 53,
+     "name": "Mason Shin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 54,
+     "name": "Gwanho Moon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 55,
+     "name": "Roh Jinyeop",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 56,
+     "name": "Taewoo Kim",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 57,
+     "name": "Victor Hyungkwon Ha",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 58,
+     "name": "Jzann Wei Tang",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Taiwan"
+    },
+    {
+     "place": 59,
+     "name": "Dayeon Wee",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 60,
+     "name": "Kyung Hun Kim",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 61,
+     "name": "Tae Yun Lee",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 62,
+     "name": "Areum Amy Jung",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2017/World-Rankings-2017-Women-Skateboard.html / Arirang Hill Fest",
+   "results": [
+    {
+     "place": 1,
+     "name": "Kaila Dasol Jung",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 2,
+     "name": "Elissa Mah",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "New Zealand"
+    },
+    {
+     "place": 3,
+     "name": "Julia Barklow",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 4,
+     "name": "Zuzana Beranová",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Czech Republic"
+    },
+    {
+     "place": 5,
+     "name": "Areum Amy Jung",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 6,
+     "name": "Aj Jihee Hong",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 7,
+     "name": "Dayeon Wee",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    }
+   ]
+  },
+  {
+   "name": "Junior",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2017/World-Rankings-2017-Junior-Skateboard.html / Arirang Hill Fest",
+   "results": [
+    {
+     "place": 1,
+     "name": "Taylor Cook",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "New Zealand"
+    },
+    {
+     "place": 2,
+     "name": "Robert Burns",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Hong Kong"
+    },
+    {
+     "place": 3,
+     "name": "Mason Shin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 4,
+     "name": "Thomas Bloemendal",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 5,
+     "name": "Sean Woo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Hong Kong"
+    }
+   ]
+  },
+  {
+   "name": "Masters",
+   "kind": "Masters",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2017/World-Rankings-2017-Master-Skateboard.html / Arirang Hill Fest",
+   "results": [
+    {
+     "place": 1,
+     "name": "Benjamin Hay",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 2,
+     "name": "Kim Jongjun",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 3,
+     "name": "Kyung Hun Kim",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 4,
+     "name": "Taejoo Park",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 5,
+     "name": "Victor Hyungkwon Ha",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2017/World-Rankings-2017-Luge.html / Arirang Hill Fest",
+   "results": [
+    {
+     "place": 1,
+     "name": "Abdil Mahdzan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Malaysia"
+    },
+    {
+     "place": 2,
+     "name": "Will Stephenson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United Kingdom"
+    },
+    {
+     "place": 3,
+     "name": "Michael O'Keeffe",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 4,
+     "name": "Zen Rasta",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

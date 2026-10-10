@@ -1,0 +1,1670 @@
+{
+ "id": "2014-padova-grand-prix",
+ "name": "Padova Grand Prix",
+ "year": 2014,
+ "date": "2014-08-02",
+ "date_known": true,
+ "hill": null,
+ "place": "Teolo, Italy",
+ "level": "Continental",
+ "sources": [
+  "http://web.archive.org/web/20191020224352id_/http://www.igsaworldcup.com/results/2014/2014_padova_co_qual.pdf",
+  "http://web.archive.org/web/20240712044027id_/http://www.igsaworldcup.com/results/2014/2014_padova_co_rslt.pdf",
+  "http://web.archive.org/web/20240713135220id_/http://www.igsaworldcup.com/results/2014/2014_padova_wc_wc_qual.pdf",
+  "http://web.archive.org/web/20240713211501id_/http://www.igsaworldcup.com/results/2014/2014_padova_wc_wc_rslt.pdf"
+ ],
+ "titles": [
+  "Padova Grand Prix"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20191020224352id_/http://www.igsaworldcup.com/results/2014/2014_padova_co_qual.pdf / Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Aleix Gallimo",
+     "time": 118.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 2,
+     "name": "Carlos Correia-Paixao",
+     "time": 119.23,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 3,
+     "name": "Quirin Ilmer",
+     "time": 119.77,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 4,
+     "name": "Adria' Arquimbau-Codina",
+     "time": 120.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 5,
+     "name": "Filippo Salerni",
+     "time": 121.07,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 6,
+     "name": "Giorgio Garino",
+     "time": 121.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 7,
+     "name": "Marcos Costa",
+     "time": 122.11,
+     "dnf": false,
+     "dns": false,
+     "nat": "URU"
+    },
+    {
+     "place": 8,
+     "name": "Pete Connolly",
+     "time": 122.2,
+     "dnf": false,
+     "dns": false,
+     "nat": "ENG"
+    },
+    {
+     "place": 9,
+     "name": "Pedro Puccetti-Frangulis",
+     "time": 122.82,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 10,
+     "name": "Marc Escoda",
+     "time": 123.03,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 11,
+     "name": "Melvin Herman",
+     "time": 123.52,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 12,
+     "name": "Sergio Carrion",
+     "time": 123.74,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 13,
+     "name": "Stefano Barbizzi",
+     "time": 123.77,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 14,
+     "name": "David Sanchez",
+     "time": 124.06,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 15,
+     "name": "Damian-Derek Blanquer-Gelez",
+     "time": 124.11,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 16,
+     "name": "Leonardo Pedron",
+     "time": 124.82,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 17,
+     "name": "Patrick Lombardi",
+     "time": 125.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 18,
+     "name": "Thomas Turetta",
+     "time": 125.24,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 19,
+     "name": "Baltasar-Santos Mugica-Gil",
+     "time": 125.51,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 20,
+     "name": "Alessio Damato",
+     "time": 125.86,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 21,
+     "name": "Federico Barboni",
+     "time": 126.71,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 22,
+     "name": "Eric Umbert-Machill",
+     "time": 127.29,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 23,
+     "name": "Andrea Moreni",
+     "time": 127.57,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 24,
+     "name": "Christoph Wiedmann",
+     "time": 127.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 25,
+     "name": "Oscar Barroi",
+     "time": 127.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 26,
+     "name": "Matteo Cotelletti",
+     "time": 128.41,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 27,
+     "name": "Javier Velasco",
+     "time": 128.89,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 28,
+     "name": "Mattia Favero",
+     "time": 129.18,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 29,
+     "name": "Cristina Verdu-Rico",
+     "time": 129.95,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 30,
+     "name": "Nicola Ceccato",
+     "time": 130.05,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 31,
+     "name": "Martin Nörl",
+     "time": 130.35,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 32,
+     "name": "Danilo Pianese",
+     "time": 131.37,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 33,
+     "name": "Roberto Fortini",
+     "time": 131.39,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 34,
+     "name": "Sergio Gaspa",
+     "time": 131.87,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 35,
+     "name": "Mariano Conti",
+     "time": 131.87,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 36,
+     "name": "Gabriele Monaco",
+     "time": 132.2,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 37,
+     "name": "Marc Pujante",
+     "time": 132.24,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 38,
+     "name": "Bernardo Iandelli",
+     "time": 133.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 39,
+     "name": "Giorgina Ferrero-Vottero",
+     "time": 135.88,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 40,
+     "name": "Luca Pallucchini",
+     "time": 136.02,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 41,
+     "name": "Tilo Boebel",
+     "time": 140.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 42,
+     "name": "Vojteck Vecko",
+     "time": 141.02,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZK"
+    },
+    {
+     "place": 43,
+     "name": "Nicola Dall'Aglio",
+     "time": 141.39,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 44,
+     "name": "Jana Muronova",
+     "time": 159.33,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSL"
+    },
+    {
+     "place": null,
+     "name": "David Lombardi",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "ITA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Damer",
+   "kind": "Women",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20191020224352id_/http://www.igsaworldcup.com/results/2014/2014_padova_co_qual.pdf / Women Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Cristina Verdu-Rico",
+     "time": 129.95,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 2,
+     "name": "Giorgina Ferrero-Vottero",
+     "time": 135.88,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 3,
+     "name": "Jana R.SL Muronova",
+     "time": 159.33,
+     "dnf": false,
+     "dns": false
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Junior 2",
+   "kind": "Junior",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20191020224352id_/http://www.igsaworldcup.com/results/2014/2014_padova_co_qual.pdf / Junior 2 Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Giorgio Garino",
+     "time": 121.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 2,
+     "name": "Melvin Hermann",
+     "time": 123.52,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 3,
+     "name": "Sergio Carrion",
+     "time": 123.74,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 4,
+     "name": "Patrick Lombardi",
+     "time": 125.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 5,
+     "name": "Thomas Turetta",
+     "time": 125.24,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 6,
+     "name": "Matteo Cotelletti",
+     "time": 128.41,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 7,
+     "name": "Mariano Conti",
+     "time": 131.87,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Classic Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20191020224352id_/http://www.igsaworldcup.com/results/2014/2014_padova_co_qual.pdf / Classic Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Mikel Echegaray",
+     "time": 117.76,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 2,
+     "name": "Jan Tarradas",
+     "time": 120.39,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 3,
+     "name": "Roberto Marasca",
+     "time": 121.87,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 4,
+     "name": "Federico Barboni",
+     "time": 123.64,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 5,
+     "name": "Alexander Frischauf",
+     "time": 124.38,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 6,
+     "name": "Andrea Bossotto",
+     "time": 124.81,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 7,
+     "name": "Rafael Fazano",
+     "time": 125.05,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 8,
+     "name": "Massimiliano Scarabosio",
+     "time": 125.36,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 9,
+     "name": "Scott Peer",
+     "time": 126.46,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 10,
+     "name": "Gabriele Maggiorelli",
+     "time": 128.12,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 11,
+     "name": "Chris Mcbride",
+     "time": 128.14,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 12,
+     "name": "Riccardo Aldinucci",
+     "time": 129.09,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 13,
+     "name": "Philippe Rulleau",
+     "time": 129.78,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 14,
+     "name": "Frederique Berdon",
+     "time": 130.06,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20191020224352id_/http://www.igsaworldcup.com/results/2014/2014_padova_co_qual.pdf / Street Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Mikel Echegaray",
+     "time": 114.96,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 2,
+     "name": "Abdil Mahdzan",
+     "time": 116.39,
+     "dnf": false,
+     "dns": false,
+     "nat": "MAS"
+    },
+    {
+     "place": 3,
+     "name": "Michael Müller",
+     "time": 119.33,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 4,
+     "name": "Jan Tarradas",
+     "time": 119.51,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 5,
+     "name": "Alexander Frischauf",
+     "time": 120.33,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 6,
+     "name": "Chris Mcbride",
+     "time": 121.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 7,
+     "name": "Christoph Gahlert",
+     "time": 122.24,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 8,
+     "name": "Gabriele Maggiorelli",
+     "time": 123.35,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 9,
+     "name": "Andrea Bossotto",
+     "time": 123.93,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 10,
+     "name": "Philippe Rulleau",
+     "time": 124.36,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 11,
+     "name": "Massimiliano Scarabosio",
+     "time": 125.76,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 12,
+     "name": "Frederique Berdon",
+     "time": 128.64,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Inline",
+   "kind": "Inline",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20191020224352id_/http://www.igsaworldcup.com/results/2014/2014_padova_co_qual.pdf / Downhill Inline / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Moritz Nörl",
+     "time": 111.9,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 2,
+     "name": "Angelo Vecchi",
+     "time": 112.61,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 3,
+     "name": "Etienne Herreros",
+     "time": 114.38,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 4,
+     "name": "Tobias Woehrle",
+     "time": 114.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 5,
+     "name": "Martin Sedlmeier",
+     "time": 114.67,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 6,
+     "name": "Davide Tacchini",
+     "time": 116.05,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 7,
+     "name": "Sébastien Rastegar",
+     "time": 116.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 8,
+     "name": "Kevin Stich",
+     "time": 116.26,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 9,
+     "name": "Karim Mallis",
+     "time": 116.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 10,
+     "name": "Lello Amore",
+     "time": 116.59,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 11,
+     "name": "Massimo Rigoldi",
+     "time": 117.94,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 12,
+     "name": "Roberto Botti",
+     "time": 118.92,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 13,
+     "name": "Udo Nörl",
+     "time": 118.99,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 14,
+     "name": "Cian Lausch",
+     "time": 119.92,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 15,
+     "name": "Andrea Ferrucci",
+     "time": 120.63,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 16,
+     "name": "Scott Peer",
+     "time": 121.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    }
+   ]
+  },
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20240712044027id_/http://www.igsaworldcup.com/results/2014/2014_padova_co_rslt.pdf / Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Carlos Correia-Paixao",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 2,
+     "name": "Quirin Ilmer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 3,
+     "name": "Stefano Barbizzi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 4,
+     "name": "Aleix Gallimo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 5,
+     "name": "Adria' Arquimbau-Codina",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 6,
+     "name": "Marcos Costa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "URU"
+    },
+    {
+     "place": 7,
+     "name": "Melvin Hermann",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 8,
+     "name": "Pete Connolly",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ENG"
+    },
+    {
+     "place": 9,
+     "name": "Filippo Salerni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 10,
+     "name": "Giorgio Garino",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 11,
+     "name": "Marc Escoda",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 12,
+     "name": "Patrick Lombardi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 13,
+     "name": "Pedro Puccetti-Frangulis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 14,
+     "name": "Sergio Carrion",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 15,
+     "name": "David Sanchez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 16,
+     "name": "Damian-Derek Blanquer-Gelez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 17,
+     "name": "Leonardo Pedron",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 18,
+     "name": "Federico Barboni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 19,
+     "name": "Eric Umbert-Machill",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 20,
+     "name": "Andrea Moreni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 21,
+     "name": "Javier Velasco",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 22,
+     "name": "Mattia Favero",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 23,
+     "name": "Danilo Pianese",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": null,
+     "name": "David Lombardi",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "ITA"
+    },
+    {
+     "place": 25,
+     "name": "Baltasar-Santos Mugica-Gil",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 26,
+     "name": "Alessio Damato",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 27,
+     "name": "Matteo Cotelletti",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 28,
+     "name": "Cristina Verdu-Rico",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 29,
+     "name": "Nicola Ceccato",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 30,
+     "name": "Martin Nörl",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 31,
+     "name": "Luca Pallucchini",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 32,
+     "name": "Tilo Boebel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 33,
+     "name": "Thomas Turetta",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 34,
+     "name": "Christoph Wiedmann",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 35,
+     "name": "Oscar Barroi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 36,
+     "name": "Roberto Fortini",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 37,
+     "name": "Mariano Conti",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 38,
+     "name": "Sergio Gaspa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 39,
+     "name": "Gabriele Monaco",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 40,
+     "name": "Marc Pujante",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 41,
+     "name": "Bernardo Iandelli",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 42,
+     "name": "Giorgina Ferrero-Vottero",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 43,
+     "name": "Vojteck Vecko",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZK"
+    },
+    {
+     "place": 44,
+     "name": "Nicola Dall'Aglio",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 45,
+     "name": "Jana Muronova",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSL"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20240712044027id_/http://www.igsaworldcup.com/results/2014/2014_padova_co_rslt.pdf / Women Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Cristina Verdu-Rico",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 2,
+     "name": "Giorgina Ferrero-Vottero",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 3,
+     "name": "Jana Muronova",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSL"
+    }
+   ]
+  },
+  {
+   "name": "Junior 2",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20240712044027id_/http://www.igsaworldcup.com/results/2014/2014_padova_co_rslt.pdf / Junior 2 Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Patrick Lombardi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 2,
+     "name": "Melvin Hermann",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 3,
+     "name": "Sergio Carrion",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 4,
+     "name": "Giorgio Garino",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 5,
+     "name": "Thomas Turetta",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 6,
+     "name": "Mariano Conti",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 7,
+     "name": "Matteo Cotelletti",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    }
+   ]
+  },
+  {
+   "name": "Classic Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20240712044027id_/http://www.igsaworldcup.com/results/2014/2014_padova_co_rslt.pdf / Classic Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Jan Tarradas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 2,
+     "name": "Federico Barboni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 3,
+     "name": "Alexander Frischauf",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 4,
+     "name": "Andrea Bossotto",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 5,
+     "name": "Mikel Echegaray",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 6,
+     "name": "Roberto Marasca",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 7,
+     "name": "Rafael Fazano",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 8,
+     "name": "Massimiliano Scarabosio",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 9,
+     "name": "Scott Peer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 10,
+     "name": "Gabriele Maggiorelli",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 11,
+     "name": "Chris Mcbride",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 12,
+     "name": "Riccardo Aldinucci",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 13,
+     "name": "Philippe Rulleau",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 14,
+     "name": "Frederique Berdon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20240712044027id_/http://www.igsaworldcup.com/results/2014/2014_padova_co_rslt.pdf / Street Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Mikel Echegaray",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 2,
+     "name": "Abdil Mahdzan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MAS"
+    },
+    {
+     "place": 3,
+     "name": "Michael Müller",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 4,
+     "name": "Jan Tarradas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 5,
+     "name": "Chris Mcbride",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 6,
+     "name": "Alexander Frischauf",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 7,
+     "name": "Andrea Bossotto",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 8,
+     "name": "Christoph Gahlert",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 9,
+     "name": "Gabriele Maggiorelli",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 10,
+     "name": "Philippe Rulleau",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 11,
+     "name": "Massimiliano Scarabosio",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 12,
+     "name": "Frederique Berdon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    }
+   ]
+  },
+  {
+   "name": "Inline",
+   "kind": "Inline",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20240712044027id_/http://www.igsaworldcup.com/results/2014/2014_padova_co_rslt.pdf / Downhill Inline / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Etienne Herreros",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 2,
+     "name": "Angelo Vecchi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 3,
+     "name": "Tobias Woehrle",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 4,
+     "name": "Moritz Nörl",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 5,
+     "name": "Sébastien Rastegar",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 6,
+     "name": "Martin Sedlmeier",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 7,
+     "name": "Massimo Rigoldi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 8,
+     "name": "Kevin Stich",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 9,
+     "name": "Karim Mallis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 10,
+     "name": "Lello Amore",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 11,
+     "name": "Udo Nörl",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 12,
+     "name": "Andrea Ferrucci",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 13,
+     "name": "Scott Peer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 14,
+     "name": "Davide Tacchini",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 15,
+     "name": "Roberto Botti",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 16,
+     "name": "Cian Lausch",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

@@ -1,0 +1,691 @@
+{
+ "id": "2019-gravity-fest",
+ "name": "Gravity Fest",
+ "year": 2019,
+ "date": "2019-06-01",
+ "date_known": true,
+ "hill": null,
+ "place": "United States",
+ "sources": [
+  "https://internationaldownhillfederation.org/rankings/2019-rankings/"
+ ],
+ "titles": [
+  "Gravity Fest"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2019/World-Rankings-2019-Open-Skateboard.html / Gravity Fest",
+   "results": [
+    {
+     "place": 1,
+     "name": "Dane Hanna",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 2,
+     "name": "Diego Poncelet",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 3,
+     "name": "Chase Hiller",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 4,
+     "name": "Davis Lanham",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 5,
+     "name": "Daina Banks",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 6,
+     "name": "Andrew Atchison",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 7,
+     "name": "Emily Pross",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 8,
+     "name": "Timothy Del Rosario",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 9,
+     "name": "Morgan Owens",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 10,
+     "name": "Josh Evans",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 11,
+     "name": "Edward Kiefer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 12,
+     "name": "Graham Mundy",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 13,
+     "name": "Daniel Minsky",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 14,
+     "name": "Simon Snethen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 15,
+     "name": "Dre Nubine",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 16,
+     "name": "Daniel Engel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 17,
+     "name": "Kyle Martin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 18,
+     "name": "Jaime De Lange",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 19,
+     "name": "Ryder Hathaway",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 20,
+     "name": "Matthew King",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 21,
+     "name": "William Royce",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 22,
+     "name": "Samuel Blais",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 23,
+     "name": "Joshua Bergel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 24,
+     "name": "Eric Bourgeois",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 25,
+     "name": "Shawn Prier",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 26,
+     "name": "Ryan Bonifas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 27,
+     "name": "Dan Arney",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 28,
+     "name": "Christopher Antrum",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 29,
+     "name": "Matthew Antrum",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 30,
+     "name": "Justin Rouleau",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 31,
+     "name": "Leunam Segura",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Dominican Republic"
+    },
+    {
+     "place": 32,
+     "name": "Aidan Sullivan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 33,
+     "name": "Raphael Therrien",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 34,
+     "name": "Tristan Taillon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 35,
+     "name": "Mathieu Gagnon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 36,
+     "name": "Maxwell Capps",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 37,
+     "name": "Jonathan Sheckler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 38,
+     "name": "Sean Graves",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 39,
+     "name": "Kai Runes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 40,
+     "name": "Jason Hynes-Klempa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 41,
+     "name": "Gaël Abudarham",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 42,
+     "name": "Ryan Colquitt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 43,
+     "name": "Justin Gough",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 44,
+     "name": "Zack Taylor",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 45,
+     "name": "Teresa Gillcrist",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 46,
+     "name": "Garrett Reinhart",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 47,
+     "name": "Chris Proto",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 48,
+     "name": "Conor Reilley",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 49,
+     "name": "Nick D'Bk",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 50,
+     "name": "Stephan Vaast",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 51,
+     "name": "Kais Salam",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 52,
+     "name": "Sam Levine",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 53,
+     "name": "Johnny Knight",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 54,
+     "name": "Stephen Lamando",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 55,
+     "name": "Ashley Winecoff",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2019/World-Rankings-2019-Women-Skateboard.html / Gravity Fest",
+   "results": [
+    {
+     "place": 1,
+     "name": "Emily Pross",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 2,
+     "name": "Ashley Winecoff",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 3,
+     "name": "Teresa Gillcrist",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 4,
+     "name": "Kalie Racine",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2019/World-Rankings-2019-Luge.html / Gravity Fest",
+   "results": [
+    {
+     "place": 1,
+     "name": "Tim Koch",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 2,
+     "name": "Ira Hewton",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 3,
+     "name": "Yan Triponez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 4,
+     "name": "Kolby Parks",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 5,
+     "name": "Nicholas Kamink",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 6,
+     "name": "Olivier Filiatrault",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 7,
+     "name": "David Eberhard",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 8,
+     "name": "Matt Bartlett",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 9,
+     "name": "Bob Swartz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 10,
+     "name": "Andrew Young",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 11,
+     "name": "Joshua Eberhard",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 12,
+     "name": "William Royce",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    }
+   ]
+  },
+  {
+   "name": "Masters",
+   "kind": "Masters",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2019/World-Rankings-2019-Master-Skateboard.html / Gravity Fest",
+   "results": [
+    {
+     "place": 1,
+     "name": "Kyle Martin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 2,
+     "name": "Sean Graves",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 3,
+     "name": "Pascal Jean",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 4,
+     "name": "Zak Kinsley",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 5,
+     "name": "Jeff Molongoski",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    }
+   ]
+  },
+  {
+   "name": "Junior",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2019/World-Rankings-2019-Junior-Skateboard.html / Gravity Fest",
+   "results": [
+    {
+     "place": 1,
+     "name": "Kai Runes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 2,
+     "name": "Matthew Antrum",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 3,
+     "name": "Jacsen Kutik",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

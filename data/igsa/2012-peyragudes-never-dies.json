@@ -1,0 +1,3924 @@
+{
+ "id": "2012-peyragudes-never-dies",
+ "name": "Peyragudes Never Dies",
+ "year": 2012,
+ "date": "2012-08-11",
+ "date_known": true,
+ "hill": null,
+ "place": "Peyragudes France",
+ "level": "World Cup",
+ "sources": [
+  "http://web.archive.org/web/20130530040551id_/http://igsaworldcup.com/results/2012/2012_peyragudes_wc_rslt.pdf",
+  "http://web.archive.org/web/20130530041848id_/http://igsaworldcup.com/results/2012/2012_peyragudes_wc_qual.pdf",
+  "http://web.archive.org/web/20130530042925id_/http://igsaworldcup.com/results/2012/2012_peyragudes_co_qual.pdf",
+  "http://web.archive.org/web/20130530043614id_/http://igsaworldcup.com/results/2012/2012_peyragudes_co_rslt.pdf"
+ ],
+ "titles": [
+  "Peyragudes Never Dies"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20130530040551id_/http://igsaworldcup.com/results/2012/2012_peyragudes_wc_rslt.pdf / Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Douglas Silva",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 2,
+     "name": "Patrick Switzer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 3,
+     "name": "Thiago Gomes Lessa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 4,
+     "name": "James Kelly",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 5,
+     "name": "Kevin Reimer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 6,
+     "name": "Mathias Ebel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 7,
+     "name": "Zen JAP/CAN Shikaze",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 8,
+     "name": "Byron Essert",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 9,
+     "name": "Adam Persson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 10,
+     "name": "Dillon Stephens",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 11,
+     "name": "Calvin Staub",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 12,
+     "name": "Chip Wood",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 13,
+     "name": "Mischo CZE/CAN Erban",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 14,
+     "name": "Nicolas Desmarais",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 15,
+     "name": "Rousseau Maxime Garant",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 16,
+     "name": "Luke Melo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 17,
+     "name": "Zak Maytum",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 18,
+     "name": "Pavel Zajic",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 19,
+     "name": "Robert McWhinnie",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 20,
+     "name": "Leon Ritter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 21,
+     "name": "Jakob Raab",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 22,
+     "name": "Silon Garcia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 23,
+     "name": "Stefan Kopalzik",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 24,
+     "name": "John Barnet",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 25,
+     "name": "Torbjorn Sunde",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 26,
+     "name": "Sebastian Hertler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 27,
+     "name": "Jaroslav Kejr",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 28,
+     "name": "Matt USA/CAN Kienzle",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 29,
+     "name": "Sebastien Tournissac",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 30,
+     "name": "Ivan Davila",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 31,
+     "name": "Jonas Richter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 32,
+     "name": "Caio Cesar",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 33,
+     "name": "Alex Tongue",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 34,
+     "name": "Martin Edoff",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 35,
+     "name": "Louis Pilloni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 36,
+     "name": "Quin Finocchio",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 37,
+     "name": "Braden Tibbles",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 38,
+     "name": "Cam Brickenden",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 39,
+     "name": "Andreas Erdbrink",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 40,
+     "name": "Nuno Pereira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "POR"
+    },
+    {
+     "place": 41,
+     "name": "Graham Buksa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 42,
+     "name": "Ali Nas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 43,
+     "name": "Anderssen Kim Mengshoel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 44,
+     "name": "Kevin Bouaich",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 45,
+     "name": "Marcos Costa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "URG"
+    },
+    {
+     "place": 46,
+     "name": "Josh Torres",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 47,
+     "name": "Christophe Gatignon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 48,
+     "name": "David Price",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 49,
+     "name": "Ramon Konigshausen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 50,
+     "name": "Alex Dehmel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 51,
+     "name": "Vegard Tvete",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 52,
+     "name": "Martin Klawitter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 53,
+     "name": "Mikael Jensen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 54,
+     "name": "Mauritz Armfelt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 55,
+     "name": "Rafael Garrido",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 56,
+     "name": "Aleix Gallimo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 57,
+     "name": "Nicolas Robert",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 58,
+     "name": "Leyun Guillermo Larumbe",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 59,
+     "name": "Bruno Fuchs",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 60,
+     "name": "Radek Lukes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 61,
+     "name": "Nick Dunmall",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 62,
+     "name": "Louis Bigourdan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 63,
+     "name": "Zomeo Ruben Costa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 64,
+     "name": "Lucas Falcioni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 65,
+     "name": "Ville Hietala",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FIN"
+    },
+    {
+     "place": 66,
+     "name": "Gabin Piton",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 67,
+     "name": "Daniel Gugel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 68,
+     "name": "Yoann Bethus",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 69,
+     "name": "Francisco Schuler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 70,
+     "name": "Stefan Risch",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 71,
+     "name": "Raine Kent",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 72,
+     "name": "Oliver Slaughter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 73,
+     "name": "Yvon Labarthe",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 74,
+     "name": "Alex Duss",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 75,
+     "name": "Philippe Dupuy",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 76,
+     "name": "Raoul Clavadestscher",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 77,
+     "name": "Yann Lhermitte",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 78,
+     "name": "Deen Mondt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NED"
+    },
+    {
+     "place": 79,
+     "name": "Rebekka Gemperle",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 80,
+     "name": "Jules Hornung",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 81,
+     "name": "Vincent Jordana",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 82,
+     "name": "Julien Jeanneret",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 83,
+     "name": "Ronald Huhne",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 84,
+     "name": "Thibault Morgando",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 85,
+     "name": "Rivas Alfredo Cano",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 86,
+     "name": "Pablo Quiles",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 87,
+     "name": "Luis Lins",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 88,
+     "name": "Sergio Astray",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 89,
+     "name": "Adam Arenda",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SLK"
+    },
+    {
+     "place": 90,
+     "name": "Julien Crettaz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 91,
+     "name": "Maxime Sorek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 92,
+     "name": "Paul Du Plessis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 93,
+     "name": "Tad Drysdale",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 94,
+     "name": "Roca Felix Carbonell",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 95,
+     "name": "Jorge Pernes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "POR"
+    },
+    {
+     "place": 96,
+     "name": "Pierre Hardiller",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 97,
+     "name": "Thibault Courtois",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 98,
+     "name": "Yannick Perizzolo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 99,
+     "name": "Alvaro Bajo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 100,
+     "name": "Yarza Martin Diaz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "URU"
+    },
+    {
+     "place": 101,
+     "name": "Justin Readings",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 102,
+     "name": "Calicio Oriol Galvez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 103,
+     "name": "Andre Preto",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 104,
+     "name": "Dominik Janousek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 105,
+     "name": "Iker Arrizabalaga",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 106,
+     "name": "Ander Lopez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 107,
+     "name": "Feliu Gerard Currius",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 108,
+     "name": "Marie Bougourd",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 109,
+     "name": "Rodriguez Charlio Yagues",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 110,
+     "name": "Sarasua Nelson Dominguez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 111,
+     "name": "Marcelo Destefani",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 112,
+     "name": "Nicolas Delphy",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 113,
+     "name": "Kim Nilsson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 114,
+     "name": "Lenka Salacova",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 115,
+     "name": "Liam Fourie",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 116,
+     "name": "Laurent Perigault",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 117,
+     "name": "Jakob Los",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 118,
+     "name": "Pierre Gamby",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 119,
+     "name": "Jolanda Vogler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 120,
+     "name": "Ugo Mendiburu",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 121,
+     "name": "Lopez David Sanchez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 122,
+     "name": "Leonel Maidana",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 123,
+     "name": "Daniel Heinsohn",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 124,
+     "name": "Josh Monk",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 125,
+     "name": "Erik Lundberg",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 126,
+     "name": "Alexandre Ulrich",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 127,
+     "name": "Victor Patricio Pons",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 128,
+     "name": "Aedo Jorge Echevarri",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 129,
+     "name": "Sanz Francisco Javier Velasco",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 130,
+     "name": "Alexandre Markiewicz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 131,
+     "name": "Vegas Pablo Martin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 132,
+     "name": "Pascal Jean",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 133,
+     "name": "Marisa Nunez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 134,
+     "name": "Marek Vanourek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 135,
+     "name": "Martin Herman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 136,
+     "name": "Jean Philippe Pascassio",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 137,
+     "name": "Adrien Fraisse",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 138,
+     "name": "Artiom Missiri",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 139,
+     "name": "Suarez Jose Angel Pardo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 140,
+     "name": "Brice Bombardier",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 141,
+     "name": "David Ibabe",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 142,
+     "name": "Marcus Aldinucci",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 143,
+     "name": "Roland Trachsel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 144,
+     "name": "Locutura Marco Pujante",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 145,
+     "name": "Agboton Axel Serrat",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 146,
+     "name": "Adrea Moreni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 147,
+     "name": "Gael Desfontaines",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 148,
+     "name": "Gonzalo Salinas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 149,
+     "name": "Lennard Gires",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 150,
+     "name": "Tamara Prader",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 151,
+     "name": "Fernando Pecyner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 152,
+     "name": "Rey Gerardo Novoa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 153,
+     "name": "Ramirez Eduardo Basabe",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 154,
+     "name": "Didier Fertay",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 155,
+     "name": "Stephane Glaize",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 156,
+     "name": "Magaly McWhinnie",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 157,
+     "name": "Uldis Tretmanis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 158,
+     "name": "Benjamin Demay",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 159,
+     "name": "Sanchez Sonso Masia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 160,
+     "name": "Alejandro Puente",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 161,
+     "name": "Damien Moragues",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 162,
+     "name": "Perez Christina Sanchez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 163,
+     "name": "Dunia Vidal",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 164,
+     "name": "Paredes Eider",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 165,
+     "name": "Pons Diego Medel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 166,
+     "name": "Eduardo eko Guimaries",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "POR"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20130530040551id_/http://igsaworldcup.com/results/2012/2012_peyragudes_wc_rslt.pdf / Women Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Rebekka Gemperle",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 2,
+     "name": "Marie Bougourd",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 3,
+     "name": "Lenka Salacova",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 4,
+     "name": "Marisa Nunez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 5,
+     "name": "Jolanda Vogler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 6,
+     "name": "Tamara Prader",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 7,
+     "name": "Sanchez Sonso Masia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 8,
+     "name": "Perez Christina Sanchez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 9,
+     "name": "Magaly McWhinnie",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 10,
+     "name": "Paredes Eider",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    }
+   ]
+  },
+  {
+   "name": "Junior 2",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20130530040551id_/http://igsaworldcup.com/results/2012/2012_peyragudes_wc_rslt.pdf / Junior 2 Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Quin Finocchio",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Jonas Richter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 3,
+     "name": "Byron Essert",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 4,
+     "name": "Victor Patricio Pons",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 5,
+     "name": "Calicio Oriol Galvez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 6,
+     "name": "Dominik Janousek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 7,
+     "name": "Raoul Clavadestscher",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 8,
+     "name": "Deen Mondt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NED"
+    },
+    {
+     "place": 9,
+     "name": "Jules Hornung",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 10,
+     "name": "Roca Felix Carbonell",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 11,
+     "name": "Marcus Aldinucci",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 12,
+     "name": "Vegas Pablo Martin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    }
+   ]
+  },
+  {
+   "name": "Classic Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20130530040551id_/http://igsaworldcup.com/results/2012/2012_peyragudes_wc_rslt.pdf / Classic Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Diez Mikel Echegaray",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 2,
+     "name": "Maxime Rubi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 3,
+     "name": "Cédric Robert",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 4,
+     "name": "Frank Williams",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 5,
+     "name": "Rey Pablo Fouz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 6,
+     "name": "Roberto Marasca",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 7,
+     "name": "Alexander Frischauf",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 8,
+     "name": "Yvon Labarthe",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 9,
+     "name": "Peter Eliot",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 10,
+     "name": "Miquel Jan Tarradas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 11,
+     "name": "Federico Barboni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 12,
+     "name": "Thibault Morgando",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 13,
+     "name": "Pierre Fromenteil",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 14,
+     "name": "Helenne Schmidt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 15,
+     "name": "Daniele Aldinucci",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 16,
+     "name": "Torralba Gerard Marcuello",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 17,
+     "name": "Chris McBride",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 18,
+     "name": "Pereda Jorge Alcalde",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 19,
+     "name": "Cecile Martigne",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 20,
+     "name": "Ferrari Mauro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 21,
+     "name": "Frederique Berdon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20130530040551id_/http://igsaworldcup.com/results/2012/2012_peyragudes_wc_rslt.pdf / Street Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Diez Mikel Echegaray",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 2,
+     "name": "Sebastien Tournissac",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 3,
+     "name": "Yvon Labarthe",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 4,
+     "name": "Miquel Jan Tarradas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 5,
+     "name": "Abdil Mahdzan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MAS"
+    },
+    {
+     "place": 6,
+     "name": "Roberto Marasca",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 7,
+     "name": "Federico Barboni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 8,
+     "name": "Peter Eliot",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 9,
+     "name": "Alexander Frischauf",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 10,
+     "name": "Frank Williams",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 11,
+     "name": "Ander Lopez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 12,
+     "name": "Greg Gerber",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 13,
+     "name": "Cédric Robert",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 14,
+     "name": "Maxime Rubi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 15,
+     "name": "Torralba Gerard Marcuello",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 16,
+     "name": "Martin Witzigman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 17,
+     "name": "Louis Bigourdan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 18,
+     "name": "Pierre Fromenteil",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 19,
+     "name": "Rey Pablo Fouz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 20,
+     "name": "Helenne Schmidt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 21,
+     "name": "Espiot Thomas Manso",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 22,
+     "name": "Chris McBride",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 23,
+     "name": "Christian Cottali",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 24,
+     "name": "Romain Bessiere",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 25,
+     "name": "Pereda Jorge Alcalde",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 26,
+     "name": "Jorge Sousa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "POR"
+    },
+    {
+     "place": 27,
+     "name": "Philippe Rulleau",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 28,
+     "name": "Carlo Righetti",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 29,
+     "name": "Frederique Berdon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 30,
+     "name": "Cecile Martigne",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130530041848id_/http://igsaworldcup.com/results/2012/2012_peyragudes_wc_qual.pdf / Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Adam 2:24.600 Persson",
+     "time": 144.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 2,
+     "name": "Kevin 2:24.840 Reimer",
+     "time": 144.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 3,
+     "name": "James 2:25.140 Kelly",
+     "time": 145.14,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 4,
+     "name": "Thiago Gomes 2:25.990 Lessa",
+     "time": 145.99,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 5,
+     "name": "Alex 2:26.150 Tongue",
+     "time": 146.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 6,
+     "name": "Dillon 2:26.270 Stephens",
+     "time": 146.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 7,
+     "name": "Martin 2:26.490 Edoff",
+     "time": 146.49,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 8,
+     "name": "Mischo CZE/CAN 2:26.530 Erban",
+     "time": 146.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 9,
+     "name": "Patrick 2:26.830 Switzer",
+     "time": 146.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 10,
+     "name": "Ramon 2:26.940 Konigshausen",
+     "time": 146.94,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 11,
+     "name": "Louis 2:27.230 Pilloni",
+     "time": 147.23,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 12,
+     "name": "Douglas 2:27.650 Silva",
+     "time": 147.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 13,
+     "name": "Zacchary 2:27.830 Maytum",
+     "time": 147.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 14,
+     "name": "Quin 2:27.850 Finocchio",
+     "time": 147.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 15,
+     "name": "Pavel 2:28.140 Zajic",
+     "time": 148.14,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 16,
+     "name": "Zen JAP/CAN 2:28.480 Shikaze",
+     "time": 148.48,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 17,
+     "name": "Braden 2:28.630 Tibbles",
+     "time": 148.63,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 18,
+     "name": "Jonas 2:28.700 Richter",
+     "time": 148.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 19,
+     "name": "Nicolas 2:28.830 Desmarais",
+     "time": 148.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 20,
+     "name": "Rousseau Maxime 2:29.090 Garant",
+     "time": 149.09,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 21,
+     "name": "Byron 2:29.230 Essert",
+     "time": 149.23,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 22,
+     "name": "Robert 2:29.290 McWhinnie",
+     "time": 149.29,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 23,
+     "name": "Mathias 2:29.460 Ebel",
+     "time": 149.46,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 24,
+     "name": "Leon 2:29.500 Ritter",
+     "time": 149.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 25,
+     "name": "Jakob 2:29.510 Raab",
+     "time": 149.51,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 26,
+     "name": "Cam 2:29.600 Brickenden",
+     "time": 149.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 27,
+     "name": "Torbjorn 2:29.650 Sunde",
+     "time": 149.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 28,
+     "name": "Erik 2:29.910 Lundberg",
+     "time": 149.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 29,
+     "name": "Sebastian 2:30.150 Hertler",
+     "time": 150.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 30,
+     "name": "Andreas 2:30.180 Erdbrink",
+     "time": 150.18,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 31,
+     "name": "Nuno 2:30.210 Pereira",
+     "time": 150.21,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 32,
+     "name": "Alex 2:30.450 Dehmel",
+     "time": 150.45,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 33,
+     "name": "Luke 2:30.480 Melo",
+     "time": 150.48,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 34,
+     "name": "Silon 2:30.510 Garcia",
+     "time": 150.51,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 35,
+     "name": "Graham 2:30.690 Buksa",
+     "time": 150.69,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 36,
+     "name": "Jaroslav 2:30.780 Kejr",
+     "time": 150.78,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 37,
+     "name": "Stefan 2:30.930 Kopalzik",
+     "time": 150.93,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 38,
+     "name": "Alexandre 2:31.130 Ulrich",
+     "time": 151.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 39,
+     "name": "Lucas 2:31.180 Falcioni",
+     "time": 151.18,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 40,
+     "name": "Matt CAN/USA 2:31.340 Kienzle",
+     "time": 151.34,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 41,
+     "name": "Ali 2:31.400 Nas",
+     "time": 151.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 42,
+     "name": "Anderssen Kim 2:31.590 Mengshoel",
+     "time": 151.59,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 43,
+     "name": "Calvin 2:31.720 Staub",
+     "time": 151.72,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 44,
+     "name": "Kevin 2:31.740 Bouaich",
+     "time": 151.74,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 45,
+     "name": "Vegard 2:31.790 Tvete",
+     "time": 151.79,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 46,
+     "name": "Martin 2:31.870 Klawitter",
+     "time": 151.87,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 47,
+     "name": "Mikael 2:31.910 Jensen",
+     "time": 151.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 48,
+     "name": "Marcos 2:31.970 Costa",
+     "time": 151.97,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 49,
+     "name": "Caio 2:32.400 Cesar",
+     "time": 152.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 50,
+     "name": "Mauritz 2:32.830 Armfelt",
+     "time": 152.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 51,
+     "name": "Ville 2:33.020 Hietala",
+     "time": 153.02,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 52,
+     "name": "John 2:33.140 Barnet",
+     "time": 153.14,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 53,
+     "name": "Rafael 2:33.160 Garrido",
+     "time": 153.16,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 54,
+     "name": "Aleix 2:33.480 Gallimo",
+     "time": 153.48,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 55,
+     "name": "Nicolas 2:33.860 Robert",
+     "time": 153.86,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 56,
+     "name": "Charles 2:33.990 Wood",
+     "time": 153.99,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 57,
+     "name": "Victor Patricio 2:34.050 Pons",
+     "time": 154.05,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 58,
+     "name": "Gabin 2:34.370 Piton",
+     "time": 154.37,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 59,
+     "name": "Leyun Guillermo 2:34.420 Larumbe",
+     "time": 154.42,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 60,
+     "name": "Sebastien 2:34.470 Tournissac",
+     "time": 154.47,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 61,
+     "name": "Bruno 2:34.560 Fuchs",
+     "time": 154.56,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 62,
+     "name": "Lopez David 2:34.600 Sanchez",
+     "time": 154.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 63,
+     "name": "Radek 2:34.680 Lukes",
+     "time": 154.68,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 64,
+     "name": "Daniel 2:34.770 Gugel",
+     "time": 154.77,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 65,
+     "name": "Thibault 2:35.090 Courtois",
+     "time": 155.09,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 66,
+     "name": "Josh 2:35.110 Torres",
+     "time": 155.11,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 67,
+     "name": "Yoann 2:35.280 Bethus",
+     "time": 155.28,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 68,
+     "name": "Nick 2:35.410 Dunmall",
+     "time": 155.41,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 69,
+     "name": "Leonel 2:35.440 Maidana",
+     "time": 155.44,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 70,
+     "name": "Christophe 2:35.600 Gatignon",
+     "time": 155.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 71,
+     "name": "Ivan 2:35.620 Davila",
+     "time": 155.62,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 72,
+     "name": "Louis 2:35.650 Bigourdan",
+     "time": 155.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 73,
+     "name": "Yannick 2:35.910 Perizzolo",
+     "time": 155.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 74,
+     "name": "Alvaro 2:36.000 Bajo",
+     "time": 156.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 75,
+     "name": "Francisco 2:36.050 Schuler",
+     "time": 156.05,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 76,
+     "name": "Stefan 2:36.130 Risch",
+     "time": 156.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 77,
+     "name": "Yarza Martin 2:36.140 Diaz",
+     "time": 156.14,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 78,
+     "name": "Justin 2:36.260 Readings",
+     "time": 156.26,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 79,
+     "name": "Raine 2:36.590 Kent",
+     "time": 156.59,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 80,
+     "name": "Oliver 2:37.000 Slaughter",
+     "time": 157.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 81,
+     "name": "Calicio Oriol 2:37.050 Galvez",
+     "time": 157.05,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 82,
+     "name": "Yvon 2:37.060 Labarthe",
+     "time": 157.06,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 83,
+     "name": "Alex 2:37.080 Duss",
+     "time": 157.08,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 84,
+     "name": "Philippe 2:37.320 Dupuy",
+     "time": 157.32,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 85,
+     "name": "Andre 2:37.370 Preto",
+     "time": 157.37,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 86,
+     "name": "Daniel 2:37.470 Heinsohn",
+     "time": 157.47,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 87,
+     "name": "Dominik 2:37.580 Janousek",
+     "time": 157.58,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 88,
+     "name": "Iker 2:37.780 Arrizabalaga",
+     "time": 157.78,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 89,
+     "name": "Raoul 2:37.820 Clavadestscher",
+     "time": 157.82,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 90,
+     "name": "Yann 2:37.820 Lhermitte",
+     "time": 157.82,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 91,
+     "name": "Deen 2:37.890 Mondt",
+     "time": 157.89,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 92,
+     "name": "Zomeo Ruben 2:38.190 Costa",
+     "time": 158.19,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 93,
+     "name": "Josh 2:38.210 Monk",
+     "time": 158.21,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 94,
+     "name": "Ander 2:38.350 Lopez",
+     "time": 158.35,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 95,
+     "name": "Rebekka 2:38.600 Gemperle",
+     "time": 158.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 96,
+     "name": "Jules 2:38.600 Hornung",
+     "time": 158.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 97,
+     "name": "Vincent 2:38.810 Jordana",
+     "time": 158.81,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 98,
+     "name": "Feliu Gerard 2:38.820 Currius",
+     "time": 158.82,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 99,
+     "name": "Marie 2:39.520 Bougourd",
+     "time": 159.52,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 100,
+     "name": "Julien 2:40.160 Jeanneret",
+     "time": 160.16,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 101,
+     "name": "Ronald 2:40.210 Huhne",
+     "time": 160.21,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 102,
+     "name": "Thibault 2:40.240 Morgando",
+     "time": 160.24,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 103,
+     "name": "Rivas Alfredo 2:40.370 Cano",
+     "time": 160.37,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 104,
+     "name": "Rodriguez Charlio 2:40.550 Yagues",
+     "time": 160.55,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 105,
+     "name": "Pablo 2:40.550 Quiles",
+     "time": 160.55,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 106,
+     "name": "Luis 2:40.630 Lins",
+     "time": 160.63,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 107,
+     "name": "Sarasua Nelson 2:40.830 Dominguez",
+     "time": 160.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 108,
+     "name": "Marcelo 2:40.870 Destefani",
+     "time": 160.87,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 109,
+     "name": "David 2:41.070 Price",
+     "time": 161.07,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 110,
+     "name": "Sergio 2:41.260 Astray",
+     "time": 161.26,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 111,
+     "name": "Aedo Jorge 2:41.360 Echevarri",
+     "time": 161.36,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 112,
+     "name": "Nicolas 2:41.470 Delphy",
+     "time": 161.47,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 113,
+     "name": "Adam 2:41.480 Arenda",
+     "time": 161.48,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 114,
+     "name": "Kim 2:41.530 Nilsson",
+     "time": 161.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 115,
+     "name": "Lenka 2:41.770 Salacova",
+     "time": 161.77,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 116,
+     "name": "Liam 2:41.880 Fourie",
+     "time": 161.88,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 117,
+     "name": "Julien 2:42.220 Crettaz",
+     "time": 162.22,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 118,
+     "name": "Maxime 2:42.250 Sorek",
+     "time": 162.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 119,
+     "name": "Paul 2:42.380 Du Plessis",
+     "time": 162.38,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 120,
+     "name": "Timothy 2:42.900 Drysdale",
+     "time": 162.9,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 121,
+     "name": "Laurent 2:43.240 Perigault",
+     "time": 163.24,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 122,
+     "name": "Jakob 2:43.290 Los",
+     "time": 163.29,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 123,
+     "name": "Pierre 2:43.340 Gamby",
+     "time": 163.34,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 124,
+     "name": "Roca Felix 2:43.380 Carbonell",
+     "time": 163.38,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 125,
+     "name": "Pascal 2:43.400 Jean",
+     "time": 163.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 126,
+     "name": "Jorge 2:43.430 Pernes",
+     "time": 163.43,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 127,
+     "name": "David 2:43.460 Ibabe",
+     "time": 163.46,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 128,
+     "name": "Pierre 2:43.580 Hardiller",
+     "time": 163.58,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 129,
+     "name": "Marisa 2:43.700 Nunez",
+     "time": 163.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 130,
+     "name": "Jolanda 2:43.790 Vogler",
+     "time": 163.79,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 131,
+     "name": "Lennard 2:44.120 Gires",
+     "time": 164.12,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 132,
+     "name": "Pons Diego 2:44.160 Medel",
+     "time": 164.16,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 133,
+     "name": "Uldis 2:44.410 Tretmanis",
+     "time": 164.41,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 134,
+     "name": "Marek 2:45.360 Vanourek",
+     "time": 165.36,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 135,
+     "name": "Adrien 2:45.490 Fraisse",
+     "time": 165.49,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 136,
+     "name": "Ugo 2:46.310 Mendiburu",
+     "time": 166.31,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 137,
+     "name": "Marcus 2:46.390 Aldinucci",
+     "time": 166.39,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 138,
+     "name": "Martin 2:47.010 Herman",
+     "time": 167.01,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 139,
+     "name": "Roland 2:47.480 Trachsel",
+     "time": 167.48,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 140,
+     "name": "Artiom 2:47.510 Missiri",
+     "time": 167.51,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 141,
+     "name": "Locutura Marco 2:47.820 Pujante",
+     "time": 167.82,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 142,
+     "name": "Suarez Jose Angel 2:48.270 Pardo",
+     "time": 168.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 143,
+     "name": "Alexandre 2:49.020 Markiewicz",
+     "time": 169.02,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 144,
+     "name": "Tamara 2:49.390 Prader",
+     "time": 169.39,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 145,
+     "name": "Agboton Axel 2:49.490 Serrat",
+     "time": 169.49,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 146,
+     "name": "Adrea 2:50.110 Moreni",
+     "time": 170.11,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 147,
+     "name": "Gael 2:50.350 Desfontaines",
+     "time": 170.35,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 148,
+     "name": "Jean Philippe 2:51.560 Pascassio",
+     "time": 171.56,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 149,
+     "name": "Sanz Francisco Javier 2:52.940 Velasco",
+     "time": 172.94,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 150,
+     "name": "Vegas Pablo 2:53.680 Martin",
+     "time": 173.68,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 151,
+     "name": "Fernando 2:54.410 Pecyner",
+     "time": 174.41,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 152,
+     "name": "Rey Gerardo 2:54.770 Novoa",
+     "time": 174.77,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 153,
+     "name": "Brice 2:55.350 Bombardier",
+     "time": 175.35,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 154,
+     "name": "Ramirez Eduardo 2:56.520 Basabe",
+     "time": 176.52,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 155,
+     "name": "Didier 2:58.470 Fertay",
+     "time": 178.47,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 156,
+     "name": "Stephane 2:58.910 Glaize",
+     "time": 178.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 157,
+     "name": "Eduardo eko 2:59.210 Guimaries",
+     "time": 179.21,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 158,
+     "name": "Benjamin 3:00.280 Demay",
+     "time": 180.28,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 159,
+     "name": "Sanchez Sonso 3:04.260 Masia",
+     "time": 184.26,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 160,
+     "name": "Alejandro 3:04.970 Puente",
+     "time": 184.97,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 161,
+     "name": "Damien 3:06.670 Moragues",
+     "time": 186.67,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 162,
+     "name": "Perez Christina 3:07.510 Sanchez",
+     "time": 187.51,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 163,
+     "name": "Dunia 3:07.550 Vidal",
+     "time": 187.55,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 164,
+     "name": "Gonzalo 3:14.000 Salinas",
+     "time": 194.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 165,
+     "name": "Magaly 3:15.610 McWhinnie",
+     "time": 195.61,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 166,
+     "name": "Paredes 3:41.270 Eider",
+     "time": 221.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Damer",
+   "kind": "Women",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130530041848id_/http://igsaworldcup.com/results/2012/2012_peyragudes_wc_qual.pdf / Women Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Rebekka 2:38.600 Gemperle",
+     "time": 158.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 2,
+     "name": "Marie 2:39.520 Bougourd",
+     "time": 159.52,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 3,
+     "name": "Lenka 2:41.770 Salacova",
+     "time": 161.77,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 4,
+     "name": "Marisa 2:43.700 Nunez",
+     "time": 163.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 5,
+     "name": "Jolanda 2:43.790 Vogler",
+     "time": 163.79,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 6,
+     "name": "Tamara 2:49.390 Prader",
+     "time": 169.39,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 7,
+     "name": "Sanchez Sonso 3:04.260 Masia",
+     "time": 184.26,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 8,
+     "name": "Perez Christina 3:07.510 Sanchez",
+     "time": 187.51,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 9,
+     "name": "Magaly 3:15.610 McWhinnie",
+     "time": 195.61,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 10,
+     "name": "Paredes 3:41.270 Eider",
+     "time": 221.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Junior 2",
+   "kind": "Junior",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130530041848id_/http://igsaworldcup.com/results/2012/2012_peyragudes_wc_qual.pdf / Junior 2 Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Quin 2:27.850 Finocchio",
+     "time": 147.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 2,
+     "name": "Jonas 2:28.700 Richter",
+     "time": 148.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 3,
+     "name": "Byron 2:29.230 Essert",
+     "time": 149.23,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 4,
+     "name": "Victor Patricio 2:34.050 Pons",
+     "time": 154.05,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 5,
+     "name": "Calicio Oriol 2:37.050 Galvez",
+     "time": 157.05,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 6,
+     "name": "Dominik 2:37.580 Janousek",
+     "time": 157.58,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 7,
+     "name": "Raoul 2:37.820 Clavadestscher",
+     "time": 157.82,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 8,
+     "name": "Deen 2:37.890 Mondt",
+     "time": 157.89,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 9,
+     "name": "Jules 2:38.600 Hornung",
+     "time": 158.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 10,
+     "name": "Roca Felix 2:43.380 Carbonell",
+     "time": 163.38,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 11,
+     "name": "Marcus 2:46.390 Aldinucci",
+     "time": 166.39,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 12,
+     "name": "Vegas Pablo 2:53.680 Martin",
+     "time": 173.68,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Classic Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130530041848id_/http://igsaworldcup.com/results/2012/2012_peyragudes_wc_qual.pdf / Classic Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Diez Mikel Echegaray",
+     "time": 143.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 2,
+     "name": "Maxime Rubi",
+     "time": 147.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 3,
+     "name": "Cédric Robert",
+     "time": 147.68,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 4,
+     "name": "Frank Williams",
+     "time": 147.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 5,
+     "name": "Rey Pablo Fouz",
+     "time": 148.58,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 6,
+     "name": "Roberto Marasca",
+     "time": 149.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 7,
+     "name": "Alexander Frischauf",
+     "time": 149.59,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 8,
+     "name": "Yvon Labarthe",
+     "time": 150.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 9,
+     "name": "Peter Eliot",
+     "time": 150.49,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 10,
+     "name": "Miquel Jan Tarradas",
+     "time": 150.88,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 11,
+     "name": "Federico Barboni",
+     "time": 151.57,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 12,
+     "name": "Thibault Morgando",
+     "time": 151.88,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 13,
+     "name": "Pierre Fromenteil",
+     "time": 151.95,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 14,
+     "name": "Helenne Schmidt",
+     "time": 153.17,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 15,
+     "name": "Daniele Aldinucci",
+     "time": 153.38,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 16,
+     "name": "Torralba Gerard Marcuello",
+     "time": 157.97,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": null,
+     "name": "Chris McBride",
+     "time": 158.28,
+     "dnf": false,
+     "dns": true,
+     "nat": "USA"
+    },
+    {
+     "place": 18,
+     "name": "Pereda Jorge Alcalde",
+     "time": 162.06,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 19,
+     "name": "Cecile Martigne",
+     "time": 163.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 20,
+     "name": "Ferrari Mauro",
+     "time": 164.58,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 21,
+     "name": "Frederique Berdon",
+     "time": 166.23,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130530041848id_/http://igsaworldcup.com/results/2012/2012_peyragudes_wc_qual.pdf / Street Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Diez Mikel Echegaray",
+     "time": 140.59,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 2,
+     "name": "Sebastien Tournissac",
+     "time": 142.56,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 3,
+     "name": "Yvon Labarthe",
+     "time": 143.64,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 4,
+     "name": "Miquel Jan Tarradas",
+     "time": 143.82,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 5,
+     "name": "Abdil Mahdzan",
+     "time": 144.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "MAS"
+    },
+    {
+     "place": 6,
+     "name": "Roberto Marasca",
+     "time": 144.61,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 7,
+     "name": "Federico Barboni",
+     "time": 145.02,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 8,
+     "name": "Peter Eliot",
+     "time": 145.62,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 9,
+     "name": "Alexander Frischauf",
+     "time": 145.93,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 10,
+     "name": "Frank Williams",
+     "time": 146.08,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 11,
+     "name": "Ander Lopez",
+     "time": 146.17,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 12,
+     "name": "Greg Gerber",
+     "time": 146.44,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 13,
+     "name": "Cédric Robert",
+     "time": 147.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 14,
+     "name": "Maxime Rubi",
+     "time": 147.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 15,
+     "name": "Torralba Gerard Marcuello",
+     "time": 148.01,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 16,
+     "name": "Martin Witzigman",
+     "time": 148.37,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 17,
+     "name": "Louis Bigourdan",
+     "time": 149.23,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 18,
+     "name": "Pierre Fromenteil",
+     "time": 150.56,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Rey Pablo Fouz",
+     "time": 150.63,
+     "dnf": false,
+     "dns": true,
+     "nat": "ESP"
+    },
+    {
+     "place": 20,
+     "name": "Helenne Schmidt",
+     "time": 151.08,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 21,
+     "name": "Espiot Thomas Manso",
+     "time": 151.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 22,
+     "name": "Chris McBride",
+     "time": 152.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 23,
+     "name": "Christian Cottali",
+     "time": 153.26,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 24,
+     "name": "Romain Bessiere",
+     "time": 153.92,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 25,
+     "name": "Pereda Jorge Alcalde",
+     "time": 154.44,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 26,
+     "name": "Jorge Sousa",
+     "time": 155.18,
+     "dnf": false,
+     "dns": false,
+     "nat": "POR"
+    },
+    {
+     "place": 27,
+     "name": "Philippe Rulleau",
+     "time": 155.24,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 28,
+     "name": "Carlo Righetti",
+     "time": 157.52,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 29,
+     "name": "Frederique Berdon",
+     "time": 158.21,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 30,
+     "name": "Cecile Martigne",
+     "time": 164.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

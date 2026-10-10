@@ -1,0 +1,1018 @@
+{
+ "id": "2025-el-salvador",
+ "name": "WDSC El Salvador",
+ "year": 2025,
+ "date": "2025-12-04",
+ "date_known": true,
+ "hill": null,
+ "place": "El Salvador",
+ "sources": [
+  "https://worlddownhillskateboardingchampionship.com/standings-2025/",
+  "https://worlddownhillskateboardingchampionship.com/el-salvador/"
+ ],
+ "titles": [],
+ "notes": [],
+ "races": [
+  {
+   "name": "Luge CT",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2025/ / CT CT Open Luge",
+   "results": [
+    {
+     "place": 1,
+     "name": "Andy Lally",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 2,
+     "name": "Abdil Mahdzan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MYS"
+    },
+    {
+     "place": 3,
+     "name": "Frederik Laberge",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 4,
+     "name": "Kolby Parks",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 5,
+     "name": "Rylan English",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 6,
+     "name": "Tatyana Hill",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 7,
+     "name": "Camilo Montes C",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 8,
+     "name": "Jhonjarly Mojica Herrera",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 9,
+     "name": "Jeffrey Echeverria",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GTM"
+    },
+    {
+     "place": 10,
+     "name": "Morrah Jakubiec",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 11,
+     "name": "Carlos Buitrago",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    }
+   ]
+  },
+  {
+   "name": "Inline CT",
+   "kind": "Inline",
+   "format": "bracket",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2025/ / CT CT Open Inline",
+   "results": [
+    {
+     "place": 1,
+     "name": "Camilo Barrera",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 2,
+     "name": "Daniel Delgado Restrepo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 3,
+     "name": "Carlos Andrés Quiroga Niño",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 4,
+     "name": "Nicolas Gómez Barajas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 5,
+     "name": "Danny Barrera",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 6,
+     "name": "Armando Hernández",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 7,
+     "name": "Jhojan Alzate",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 8,
+     "name": "Juan David Restrepo Muñoz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 9,
+     "name": "Alejandro Torres",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 10,
+     "name": "Santiago Maya Ochoa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 11,
+     "name": "Leonard Ojeda",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "VEN"
+    },
+    {
+     "place": 12,
+     "name": "Anderson Zuluaga",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 13,
+     "name": "Juan David Agudelo Sánchez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 14,
+     "name": "Juan Manuel Gomez Agudelo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 15,
+     "name": "Tiziano Ferrari",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 16,
+     "name": "Joel Hernandez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    }
+   ]
+  },
+  {
+   "name": "Open CT",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2025/ / CT CT Open Skateboard",
+   "results": [
+    {
+     "place": 1,
+     "name": "Adrien Paynel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 2,
+     "name": "Harry Clarke",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 3,
+     "name": "Owen Fox",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 4,
+     "name": "Cole Trotta",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 5,
+     "name": "Nick Broms",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 6,
+     "name": "Oscar Gutierrez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 7,
+     "name": "Antoine Carlotti",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 8,
+     "name": "Stefano Barbizzi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 9,
+     "name": "Patrick Stoll",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 10,
+     "name": "Santiago González Salaberry",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 11,
+     "name": "Micaiah Harness",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 12,
+     "name": "Patrick Dougherty",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 13,
+     "name": "Bruno Spengler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 14,
+     "name": "Esneider Osorno",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 15,
+     "name": "Willian Rubim",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 16,
+     "name": "Garett Belanger",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 17,
+     "name": "Lucas Schuldt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 18,
+     "name": "Troy Yardwaste",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 19,
+     "name": "William Royce",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 20,
+     "name": "Stefan Villamizar",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 21,
+     "name": "Morgan Smith",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 22,
+     "name": "Irving Bennett",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PAN"
+    },
+    {
+     "place": 23,
+     "name": "Zak Maytum",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 24,
+     "name": "Tim Cernanec",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 25,
+     "name": "Kevin Toledo Guevara",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 26,
+     "name": "Joaquin Bazo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 27,
+     "name": "Levi Mendoza",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 28,
+     "name": "Brian Sandoval",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CRI"
+    },
+    {
+     "place": 29,
+     "name": "Adriano Volpe",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 30,
+     "name": "Louis Bouchard",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 31,
+     "name": "Dexter Manning",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 32,
+     "name": "Maxwell Capps",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    }
+   ]
+  },
+  {
+   "name": "Damer CT",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2025/ / CT CT Women’s Skateboard",
+   "results": [
+    {
+     "place": 1,
+     "name": "Maria Sabrina Ambrosi Bordo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 2,
+     "name": "Lisa Peters",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NLD"
+    },
+    {
+     "place": 3,
+     "name": "Shirley Yuliana Tabares Builes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 4,
+     "name": "Lalu Vargas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 5,
+     "name": "Winny Cheryl Hyldbere Lujan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    }
+   ]
+  },
+  {
+   "name": "Inline Damer CT",
+   "kind": "Inline",
+   "format": "bracket",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2025/ / CT CT Women’s Inline",
+   "results": [
+    {
+     "place": 1,
+     "name": "Alef Torres",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 2,
+     "name": "Nancy Mayerly Soriano Ortiz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 3,
+     "name": "Ana Isabel Estrada Lopera",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 4,
+     "name": "Lina Yara",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 5,
+     "name": "Juliana Arboleda Correa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 6,
+     "name": "Jesica Marcela Sánchez García",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 7,
+     "name": "Ginneth León Soto",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 8,
+     "name": "Nhoa Sophia Ortiz Agudelo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Inline",
+   "kind": "Inline",
+   "format": "timed",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2025/ / QS QS Open Inline",
+   "results": [
+    {
+     "place": 1,
+     "name": "Nicolas Gómez Barajas",
+     "time": 139.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 2,
+     "name": "Carlos Andrés Quiroga Niño",
+     "time": 140.3,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 3,
+     "name": "Juan Manuel Gomez Agudelo",
+     "time": 140.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 4,
+     "name": "Danny Barrera",
+     "time": 141.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 5,
+     "name": "Daniel Delgado Restrepo",
+     "time": 142.8,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 6,
+     "name": "Camilo Barrera",
+     "time": 144.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 7,
+     "name": "Armando Hernández",
+     "time": 145.3,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 8,
+     "name": "Alejandro Torres",
+     "time": 145.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 9,
+     "name": "Juan David Agudelo Sánchez",
+     "time": 145.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 10,
+     "name": "Juan David Restrepo Muñoz",
+     "time": 146.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    }
+   ]
+  },
+  {
+   "name": "Luge QS",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2025/ / QS QS Open Street Luge",
+   "results": [
+    {
+     "place": 1,
+     "name": "Frederik Laberge",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Rylan English",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 3,
+     "name": "Tatyana Hill",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 4,
+     "name": "Camilo Montes C",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 5,
+     "name": "Carlos Buitrago",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 6,
+     "name": "Jhonjarly Mojica Herrera",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    }
+   ]
+  },
+  {
+   "name": "Open QS",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2025/ / QS QS Open Skateboard",
+   "results": [
+    {
+     "place": 1,
+     "name": "Nick Broms",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 2,
+     "name": "Esneider Osorno",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 3,
+     "name": "Morgan Smith",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 4,
+     "name": "Lucas Schuldt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 5,
+     "name": "Louis Bouchard",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 6,
+     "name": "Kevin Toledo Guevara",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 7,
+     "name": "Patrick Dougherty",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 8,
+     "name": "Adriano Volpe",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 9,
+     "name": "Troy Yardwaste",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 10,
+     "name": "William Royce",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 11,
+     "name": "Brian Sandoval",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CRI"
+    },
+    {
+     "place": 12,
+     "name": "Stefan Villamizar",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 13,
+     "name": "Maxwell Capps",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 14,
+     "name": "Santiago González Salaberry",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 15,
+     "name": "Joaquin Bazo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 16,
+     "name": "Tim Cernanec",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 17,
+     "name": "Levi Mendoza",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 18,
+     "name": "Irving Bennett",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PAN"
+    },
+    {
+     "place": 19,
+     "name": "Jose R. Valdes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PAN"
+    },
+    {
+     "place": 20,
+     "name": "Jonathan Sheckler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 21,
+     "name": "Iván Cordero",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CRI"
+    },
+    {
+     "place": 22,
+     "name": "Trenton Meiron",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 23,
+     "name": "Edgar Deneb Monroy Oscos",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 24,
+     "name": "Juan Montoya",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 25,
+     "name": "Mateo Vasconez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ECU"
+    },
+    {
+     "place": 26,
+     "name": "Juan Carlos Rincón Pabón",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 27,
+     "name": "Eduardo Durand Edwards",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 28,
+     "name": "Ronan Skidmore",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 29,
+     "name": "Andrés Fernández",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ECU"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

@@ -1,0 +1,908 @@
+{
+ "id": "2022-kozakov",
+ "name": "WDSC Kozakov",
+ "year": 2022,
+ "date": "2022-01-01",
+ "date_known": false,
+ "hill": null,
+ "place": "Kozakov",
+ "sources": [
+  "https://worlddownhillskateboardingchampionship.com/standings-2022/"
+ ],
+ "titles": [],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2022/ / season table / Kozakov / open skateboard",
+   "results": [
+    {
+     "place": 1,
+     "name": "Grègoire Schwab",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWI"
+    },
+    {
+     "place": 2,
+     "name": "Antoine Carlotti",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 3,
+     "name": "Yanis Markarian",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 4,
+     "name": "Marc Rovellada Ballesteros",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 5,
+     "name": "Chase Hiller",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 6,
+     "name": "Diego Poncelet",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 7,
+     "name": "Harry Clarke",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 8,
+     "name": "Fabio Minnig",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWI"
+    },
+    {
+     "place": 9,
+     "name": "Owen Fox",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 10,
+     "name": "Scott Mano",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 11,
+     "name": "Alexander Dehmel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHE"
+    },
+    {
+     "place": 12,
+     "name": "Pearse D’Arcy",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "IRE"
+    },
+    {
+     "place": 13,
+     "name": "Lucas Poulain",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 14,
+     "name": "Oscar Rodriguez Escoin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 15,
+     "name": "Ambroise Trauet",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 16,
+     "name": "Thibaud Mamin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHE"
+    },
+    {
+     "place": 17,
+     "name": "Václav Ĉvančara",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 18,
+     "name": "Andràs Lukàcs",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 19,
+     "name": "Samuel Schuler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHE"
+    },
+    {
+     "place": 20,
+     "name": "Patrik Orlainsky",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 21,
+     "name": "Jan Nogueras",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 22,
+     "name": "Albert Forés Soto",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 23,
+     "name": "Thomas Bonnot",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 24,
+     "name": "Olav Øye",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 25,
+     "name": "Shannon Tully",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 26,
+     "name": "Pavel Zajíc",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 27,
+     "name": "Arthur Spuhler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHE"
+    },
+    {
+     "place": 28,
+     "name": "Santiago Espeche",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 29,
+     "name": "Raphael Waser",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHE"
+    },
+    {
+     "place": 30,
+     "name": "Lecomte Anael",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 31,
+     "name": "Bohumil Šefrna",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 32,
+     "name": "Max Grosfeld",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NLD"
+    },
+    {
+     "place": 33,
+     "name": "Andréas Bouclier",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 34,
+     "name": "Gerrit Geiger",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "DEU"
+    },
+    {
+     "place": 35,
+     "name": "Barthelemy Rigaud",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 36,
+     "name": "Marcus Aldinucci",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 37,
+     "name": "Adrien Duchatel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 38,
+     "name": "Tiberghien Mathis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 39,
+     "name": "Jiří­ Kneifl",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 40,
+     "name": "Mathias Bresson",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 41,
+     "name": "Paul Jeantet",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 42,
+     "name": "Daniel Diaz Ocampo",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 43,
+     "name": "Kevin Vaz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHE"
+    },
+    {
+     "place": 44,
+     "name": "Pol Lletí",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 45,
+     "name": "Myrjam Weißschuh",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "DEU"
+    },
+    {
+     "place": 46,
+     "name": "Jasmijn Hanegraef",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BEL"
+    },
+    {
+     "place": 47,
+     "name": "Grace Wong",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MAY"
+    },
+    {
+     "place": 48,
+     "name": "Maxime Sokol",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 49,
+     "name": "Jack Plummer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 50,
+     "name": "Julian Sherman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 51,
+     "name": "Arno Tien",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 52,
+     "name": "Maxwell Kaye",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 53,
+     "name": "Amaury Derout",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 54,
+     "name": "János Szabó",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 55,
+     "name": "Marvin Müller",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "DEU"
+    },
+    {
+     "place": 56,
+     "name": "Cristiano Borges de Araújo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PRT"
+    },
+    {
+     "place": 57,
+     "name": "Petr Křesťan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 58,
+     "name": "Jan Ryšavύy",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 59,
+     "name": "Anna Pixner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 60,
+     "name": "Alexandros Tzouganakis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 61,
+     "name": "Nicolas Robert-Nicoud",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHE"
+    },
+    {
+     "place": 62,
+     "name": "Andrea Moreni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 63,
+     "name": "Liv Seidl",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2022/ / season table / Kozakov / womens skateboard",
+   "results": [
+    {
+     "place": 1,
+     "name": "Grace Wong",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MAY"
+    },
+    {
+     "place": 2,
+     "name": "Myrjam Weißschuh",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "DEU"
+    },
+    {
+     "place": 3,
+     "name": "Maruana Machačná",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 4,
+     "name": "Anna Pixner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 5,
+     "name": "Jasmin Hanegraef",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BEL"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2022/ / season table / Kozakov / luge",
+   "results": [
+    {
+     "place": 1,
+     "name": "Andrej Ilič",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 2,
+     "name": "Mikel Echegaray Diez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 3,
+     "name": "Kolby Parks",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CDN"
+    },
+    {
+     "place": 4,
+     "name": "Abdil Mahdzan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MAY"
+    },
+    {
+     "place": 5,
+     "name": "Victor Lorente Vidal",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 6,
+     "name": "Amador Suá¡rez Moreno",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 7,
+     "name": "Martin Witzigmann",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "DEU"
+    },
+    {
+     "place": 9,
+     "name": "Dominik Pesta",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "VZ"
+    },
+    {
+     "place": 9,
+     "name": "Julien Girardin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 10,
+     "name": "David Frega",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 11,
+     "name": "Diego González Marlatto",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 12,
+     "name": "Ignacy Świątkowski",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 13,
+     "name": "Juan Calvo Lazaro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 14,
+     "name": "Konstantin Weigl",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 15,
+     "name": "Rafael Causapé Ortega",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 16,
+     "name": "Elchje Minne",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BEL"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2022/ / Stand Up Times",
+   "results": [
+    {
+     "place": 1,
+     "name": "Yanis Markarian",
+     "time": 139.36,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 2,
+     "name": "Harry Clarke",
+     "time": 140.04,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 3,
+     "name": "Diego Poncelet",
+     "time": 140.05,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 4,
+     "name": "Chase Hiller",
+     "time": 140.33,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 5,
+     "name": "Owen Fox",
+     "time": 140.57,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 6,
+     "name": "Scott Mano",
+     "time": 141.38,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 7,
+     "name": "Shannon Tully",
+     "time": 141.41,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 8,
+     "name": "Grégoire Schwab",
+     "time": 141.75,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 9,
+     "name": "Lucas Poulain",
+     "time": 142.16,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 10,
+     "name": "Václav Ĉvančara",
+     "time": 142.19,
+     "dnf": false,
+     "dns": false
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2022/ / Luge Times",
+   "results": [
+    {
+     "place": 1,
+     "name": "Mikel Echegaray Diez",
+     "time": 135.52,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 2,
+     "name": "Abdil Mahdzan",
+     "time": 136.1,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 3,
+     "name": "Andrej Ilič",
+     "time": 138.15,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 4,
+     "name": "Kolby Parks",
+     "time": 139.94,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 5,
+     "name": "Martin Witzigmann",
+     "time": 141.48,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 6,
+     "name": "Dominik Pesta",
+     "time": 142.95,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 7,
+     "name": "Victor Lorente Vidal",
+     "time": 143.16,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 8,
+     "name": "Juan Calvo Lajzaro",
+     "time": 143.47,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 9,
+     "name": "Amador Suá¡rez Moreno",
+     "time": 144.61,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 10,
+     "name": "Girardin Julien",
+     "time": 144.73,
+     "dnf": false,
+     "dns": false
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Damer",
+   "kind": "Women",
+   "format": "timed",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2022/ / Women’s Stand Up Times",
+   "results": [
+    {
+     "place": 1,
+     "name": "Grace Wong",
+     "time": 152.92,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 2,
+     "name": "Myrjam Weißschuh",
+     "time": 155.08,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 3,
+     "name": "Anna Pixner",
+     "time": 157.96,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 4,
+     "name": "Jasmijn Hanegraef",
+     "time": 158.19,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 5,
+     "name": "Mariana Machačná",
+     "time": 161.75,
+     "dnf": false,
+     "dns": false
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

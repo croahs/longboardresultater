@@ -1,0 +1,425 @@
+{
+ "id": "2025-erzincan-turkiye",
+ "name": "WDSC Erzincan, Türkiye",
+ "year": 2025,
+ "date": "2025-06-20",
+ "date_known": true,
+ "hill": null,
+ "place": "Erzincan, Türkiye",
+ "sources": [
+  "https://worlddownhillskateboardingchampionship.com/standings-2025/"
+ ],
+ "titles": [],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open CT",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2025/ / CT Open Skateboard",
+   "results": [
+    {
+     "place": 1,
+     "name": "Adrien Paynel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 2,
+     "name": "Owen Fox",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 3,
+     "name": "Harry Clarke",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 4,
+     "name": "Andreas Bouclier",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 5,
+     "name": "Stefano Barbizzi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 6,
+     "name": "Dexter Manning",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 7,
+     "name": "Antoine Carlotti",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 8,
+     "name": "Morgan Owens",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 9,
+     "name": "Antonio Madariaga",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 10,
+     "name": "Micaiah Harness",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 11,
+     "name": "Mitch Thompson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 12,
+     "name": "Vojtěch Žáček",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 13,
+     "name": "Cam Brickenden",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 14,
+     "name": "Wing tsun Thomas Ng",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "HKG"
+    },
+    {
+     "place": 15,
+     "name": "Garett Belanger",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 16,
+     "name": "Maria Sabrina Ambrosi Bordo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 17,
+     "name": "Arman Jaberi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    }
+   ]
+  },
+  {
+   "name": "Luge CT",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2025/ / CT Open Street Luge",
+   "results": [
+    {
+     "place": 1,
+     "name": "Abdil Mahdzan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MYS"
+    },
+    {
+     "place": 2,
+     "name": "Ulrich Becker",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "DEU"
+    },
+    {
+     "place": 3,
+     "name": "Kolby Parks",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 4,
+     "name": "Philip Spencer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 5,
+     "name": "Andy Speight",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 6,
+     "name": "Josh Fieldwick",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 7,
+     "name": "Ian Martland",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 8,
+     "name": "Mark Wilson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 9,
+     "name": "Alex Hale",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 10,
+     "name": "George Cheeseman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    }
+   ]
+  },
+  {
+   "name": "Inline CT",
+   "kind": "Inline",
+   "format": "bracket",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2025/ / CT Open Inline",
+   "results": [
+    {
+     "place": 1,
+     "name": "Carlos Quiroga",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 2,
+     "name": "Andreu Greses Rochina",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 3,
+     "name": "Ioannis Pyrovolou",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GRC"
+    },
+    {
+     "place": 4,
+     "name": "Renato",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 5,
+     "name": "Tiziano Ferrari",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 6,
+     "name": "Nicolas Varin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 7,
+     "name": "Armando Misael Hernandez Aguilar",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 8,
+     "name": "Sébastien Rastegar",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    }
+   ]
+  },
+  {
+   "name": "Open QS",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2025/ / QS Open Skateboard",
+   "results": [
+    {
+     "place": 1,
+     "name": "Morgan Owens",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 2,
+     "name": "Antonio Madariaga",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 3,
+     "name": "Mitch Thompson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 4,
+     "name": "Vojtěch Žáček",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 5,
+     "name": "Cam Brickenden",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 6,
+     "name": "Wing tsun Thomas Ng",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "HKG"
+    },
+    {
+     "place": 7,
+     "name": "Maria Sabrina Ambrosi Bordo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 8,
+     "name": "Arman Jaberi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    }
+   ]
+  },
+  {
+   "name": "Luge QS",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2025/ / QS Open Street Luge",
+   "results": [
+    {
+     "place": 1,
+     "name": "Mark Wilson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 2,
+     "name": "Alex Hale",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 3,
+     "name": "George Cheeseman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

@@ -1,0 +1,789 @@
+{
+ "id": "1997-espn-x-games-iii",
+ "name": "ESPN X Games III",
+ "year": 1997,
+ "date": "1997-06-19",
+ "date_known": true,
+ "hill": null,
+ "place": "Oceanside, CA",
+ "level": "X Games",
+ "sources": [
+  "http://web.archive.org/web/20111216014334id_/http://www.igsaworldcup.com/results/1997/1997_xgames_xg.pdf",
+  "http://web.archive.org/web/20111216014400id_/http://www.igsaworldcup.com/results/1997/1997_xgames_xg_qual.pdf"
+ ],
+ "titles": [
+  "ESPN X Games III"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Kvalifisering Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20111216014334id_/http://www.igsaworldcup.com/results/1997/1997_xgames_xg.pdf / Street Luge / timed",
+   "results": [
+    {
+     "place": null,
+     "name": "Chris Ponsetti",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Dennis Derammelaere",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Darren Lott",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Michael Sherlock",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Gary Sult",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Michael Colabella",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Tom Mason",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Lee Dansie",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Dave Auld",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Waldo Autry",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Daryl Thompson",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Brad Strandlund",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Wade Sokol",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "George Orton",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Bob Ozman",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Stefan Wagner",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": null,
+     "name": "Bob Pereyra",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Oliver Totschnig",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": null,
+     "name": "John Lewis",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Perry Fisser",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Sean Mallard",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Todd Lehr",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "John Rogers",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Michael Degan",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": null,
+     "name": "Scott Nadeau",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Bret Batchelor",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Gary Moth",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Mike Smith",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Eric Thompson",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Darin Kessing",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Jarret Ewanek",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Sean Slate",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Tod Gertz",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Rob Ruhman",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "David Rogers",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Steve Fernando",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Ron Hanstein",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "William Day",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Pamela Zoolalian",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Hannes Weber",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": null,
+     "name": "Michael Holland",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Stephan Daniaux",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": null,
+     "name": "James Tutko",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "David Forsyth",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Zac Bernstein",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Jim Kiper",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Maurizio Garri",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": null,
+     "name": "Muscio Gianluca Ferrero/Lo",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "ITA"
+    },
+    {
+     "place": null,
+     "name": "Anthony Solier",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "AUS"
+    },
+    {
+     "place": null,
+     "name": "John Stryker",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "USA"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111216014334id_/http://www.igsaworldcup.com/results/1997/1997_xgames_xg.pdf / X Games Dual Street Luge / bracket",
+   "results": [
+    {
+     "place": 4,
+     "name": "Chris Ponsetti",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 5,
+     "name": "Lee Dansie",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 6,
+     "name": "Michael Colabella",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 7,
+     "name": "Tom Mason",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 8,
+     "name": "Sean Mallard",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 9,
+     "name": "Gary Sult",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 10,
+     "name": "Dave Auld",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 11,
+     "name": "Daryl Thompson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 12,
+     "name": "Wade Sokol",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 13,
+     "name": "George Orton",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 14,
+     "name": "Bob Ozman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 15,
+     "name": "Stefan Wagner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 16,
+     "name": "John Rogers",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 17,
+     "name": "Waldo Autry",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 18,
+     "name": "Brad Strandlund",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 19,
+     "name": "Bob Pereyra",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 20,
+     "name": "Oliver Totschnig",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 21,
+     "name": "John Lewis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 22,
+     "name": "Perry Fisser",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 23,
+     "name": "Todd Lehr",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 24,
+     "name": "Michael Degan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 25,
+     "name": "Scott Nadeau",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 26,
+     "name": "Gary Moth",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 27,
+     "name": "Mike Smith",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 28,
+     "name": "Eric Thompson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 30,
+     "name": "Darin Kessing",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 31,
+     "name": "Jarret Ewanek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 32,
+     "name": "Sean Slate",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 33,
+     "name": "Bret Batchelor",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 34,
+     "name": "Tod Gertz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 35,
+     "name": "Rob Ruhman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 36,
+     "name": "David Rogers",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 37,
+     "name": "Steve Fernando",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 38,
+     "name": "Ron Hanstein",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 39,
+     "name": "William Day",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 40,
+     "name": "Pamela Zoolalian",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 41,
+     "name": "Hannes Weber",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 42,
+     "name": "Michael Holland",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 43,
+     "name": "Stephan Daniaux",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 44,
+     "name": "James Tutko",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 45,
+     "name": "David Forsyth",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 46,
+     "name": "Zac Bernstein",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 48,
+     "name": "Jim Kiper",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 50,
+     "name": "Maurizio Garri",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

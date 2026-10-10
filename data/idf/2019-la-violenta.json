@@ -1,0 +1,555 @@
+{
+ "id": "2019-la-violenta",
+ "name": "La Violenta",
+ "year": 2019,
+ "date": "2019-08-23",
+ "date_known": true,
+ "hill": null,
+ "place": "Argentina",
+ "sources": [
+  "https://internationaldownhillfederation.org/rankings/2019-rankings/"
+ ],
+ "titles": [
+  "La Violenta"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "sheet e/2PACX-1vTIKf7PtgkiUjFaYojlG0nL9KAYdEZNTOh2FBgTpb8D54vM3qo7YFTzR8yXM2L4kiD_ZE9x4DEQc9Dp / Open Skateboard / La Violenta",
+   "results": [
+    {
+     "place": 1,
+     "name": "Harry Clarke",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 2,
+     "name": "Daina Banks",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 3,
+     "name": "Esneider Osorno",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 4,
+     "name": "Danky Dean Garcia Ovalhe",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 5,
+     "name": "Matias Eduardo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Chile"
+    },
+    {
+     "place": 6,
+     "name": "Nicolas Waiman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 7,
+     "name": "Juan Duran",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 8,
+     "name": "Mariano Gentili",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 9,
+     "name": "Luca Dragone",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 10,
+     "name": "Mack Geddes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 11,
+     "name": "Nícolas Tagarra",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 12,
+     "name": "Martin Maza",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 13,
+     "name": "Eduardo Falcão",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 14,
+     "name": "Adriano Volpe",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 15,
+     "name": "Adriano Bertelli",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 16,
+     "name": "Agustin Pablo Virgolini Padro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 17,
+     "name": "Santiago Martin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 18,
+     "name": "Sabrina Ambrosi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 19,
+     "name": "Rodrigo Aldunate",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Chile"
+    },
+    {
+     "place": 20,
+     "name": "Esteban Romero",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 21,
+     "name": "Tomas Quiñonez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 22,
+     "name": "Silon Garcia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 23,
+     "name": "Jhonatan Ceballos",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 24,
+     "name": "Marcos Ivan Olmedo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 25,
+     "name": "Marcos Vasquez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 26,
+     "name": "Pedro Henrique Miranda De Araujo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 27,
+     "name": "Augusto Picciochi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 28,
+     "name": "Agustín Cuassolo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 29,
+     "name": "Manuel Sousa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 30,
+     "name": "Juan Stabio",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 31,
+     "name": "João Gustavo Garcia Marques Da Costa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 32,
+     "name": "Emiliano Rivadeneira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 33,
+     "name": "Tomas Barrionuevo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 34,
+     "name": "Lucas Vergara",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 35,
+     "name": "Leonardo Malpica",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Venezuela"
+    },
+    {
+     "place": 36,
+     "name": "Daniel Bondachiuk",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 37,
+     "name": "Antonella Olivera",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 38,
+     "name": "Martin Sanna",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 39,
+     "name": "Luis Mariano Carrizo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 40,
+     "name": "Vanessa Curra",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 41,
+     "name": "Raphael Andrade Karasek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Paraguay"
+    },
+    {
+     "place": 42,
+     "name": "Jeremias Mosca",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 43,
+     "name": "Maria Sophia Abraham",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 44,
+     "name": "Angel David Palazzotti",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "sheet e/2PACX-1vTIKf7PtgkiUjFaYojlG0nL9KAYdEZNTOh2FBgTpb8D54vM3qo7YFTzR8yXM2L4kiD_ZE9x4DEQc9Dp / Women\\x27s Skateboard / La Violenta",
+   "results": [
+    {
+     "place": 1,
+     "name": "Sabrina Ambrosi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 2,
+     "name": "Vanessa Curra",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 3,
+     "name": "Antonella Olivera",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 4,
+     "name": "Maria Sophia Abraham",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    }
+   ]
+  },
+  {
+   "name": "Masters",
+   "kind": "Masters",
+   "format": "bracket",
+   "source": "sheet e/2PACX-1vTIKf7PtgkiUjFaYojlG0nL9KAYdEZNTOh2FBgTpb8D54vM3qo7YFTzR8yXM2L4kiD_ZE9x4DEQc9Dp / Masters Skateboard / La Violenta",
+   "results": [
+    {
+     "place": 1,
+     "name": "Silon Garcia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 2,
+     "name": "Adriano Bertelli",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 3,
+     "name": "Marcos Vasquez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 4,
+     "name": "Augusto Picciochi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 5,
+     "name": "Agustin Pablo Virgolini Padro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 6,
+     "name": "Angel David Palazzotti",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 7,
+     "name": "Luis Mariano Carrizo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 8,
+     "name": "Jeremias Mosca",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "sheet e/2PACX-1vTIKf7PtgkiUjFaYojlG0nL9KAYdEZNTOh2FBgTpb8D54vM3qo7YFTzR8yXM2L4kiD_ZE9x4DEQc9Dp / Luge / La Violenta",
+   "results": [
+    {
+     "place": 1,
+     "name": "Lucas Bailon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 2,
+     "name": "Ramallo Augusto",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 3,
+     "name": "Roberto Elias Leiva Rengifo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 4,
+     "name": "Cristian Aguilar",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 5,
+     "name": "Joaquin Barrios",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 6,
+     "name": "Luis Pablo Delamarre",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 7,
+     "name": "Nicolás Aguirre",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

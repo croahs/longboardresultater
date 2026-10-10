@@ -1,0 +1,739 @@
+{
+ "id": "2017-apac-championship",
+ "name": "Apac Championship",
+ "year": 2017,
+ "date": "2017-06-09",
+ "date_known": true,
+ "hill": null,
+ "place": "Brazil",
+ "sources": [
+  "https://internationaldownhillfederation.org/rankings/2017-rankings/"
+ ],
+ "titles": [
+  "Apac Championship"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2017/World-Rankings-2017-Open-Skateboard.html / Apac Championship",
+   "results": [
+    {
+     "place": 1,
+     "name": "Thiago Gomes Lessa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 2,
+     "name": "Carlos Paixão",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 3,
+     "name": "Pepe Laporte",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 4,
+     "name": "Douglas Silva",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 5,
+     "name": "Radek Lukes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Czech Republic"
+    },
+    {
+     "place": 6,
+     "name": "Daina Banks",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 7,
+     "name": "Tiago Mohr",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 8,
+     "name": "Daniel Engel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 9,
+     "name": "Allysson Nascimento",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 10,
+     "name": "Andrez Krob Pereira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 11,
+     "name": "Silon Garcia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 12,
+     "name": "Aleix Gallimo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 13,
+     "name": "Yan Bertinati",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 14,
+     "name": "Jeremias Gasparotto",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 15,
+     "name": "Lucas Costa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 16,
+     "name": "Bernardo Brambila",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 17,
+     "name": "Iuri Maggi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 18,
+     "name": "Keenan MacArtney",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 19,
+     "name": "Aaron Hampshire",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 20,
+     "name": "Rafael Sabella",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 21,
+     "name": "Rodrigo Belli",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 22,
+     "name": "Leonardo Discacciati",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 23,
+     "name": "Lucas Braga Americano Freire",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 24,
+     "name": "Eduardo Falcão",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 25,
+     "name": "Manoel Rocha",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 26,
+     "name": "Andres Felipe Lopez Marin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 27,
+     "name": "León Sastre",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 28,
+     "name": "Pedro Freitas Gibram Silva",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 29,
+     "name": "Willian Rubim De Carlen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 30,
+     "name": "Weyder Nascimento Lourenço",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 31,
+     "name": "Ian Freire",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 32,
+     "name": "Daniel Veiga",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 33,
+     "name": "Mateus Brandao Cavinato",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 34,
+     "name": "Augusto Garcia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 35,
+     "name": "Bruno Vidal Vieira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 36,
+     "name": "Alvaro Garcia Alcazar",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 37,
+     "name": "Andre Freitas Gibram Silva",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 38,
+     "name": "Iury Pedrosa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 39,
+     "name": "Déberson Fernando Oliveira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 40,
+     "name": "Pedro Antunes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 41,
+     "name": "Rafal De Campos Dobner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 42,
+     "name": "Adriano Silveira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 43,
+     "name": "Juba Sam",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 44,
+     "name": "Luciano Cosme",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 45,
+     "name": "Andre Leonardo Preto",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 46,
+     "name": "Melissa Brogni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 47,
+     "name": "Arthur Murilo Chacon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 48,
+     "name": "Pedro Paulo Fonseca",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 49,
+     "name": "Rafael Bastos",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 50,
+     "name": "Iago Freitas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 51,
+     "name": "Luana Campos",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 52,
+     "name": "Emanuel Moura",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 53,
+     "name": "Luis Pacheco",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 54,
+     "name": "Lucas Furtado Leite Ribeiro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 55,
+     "name": "Walter Junior",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 56,
+     "name": "Luana Chaves",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 57,
+     "name": "John Fletcher",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 58,
+     "name": "Arthur Mikai Junqueira De Oliveira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 59,
+     "name": "Bruno Spengler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2017/World-Rankings-2017-Women-Skateboard.html / Apac Championship",
+   "results": [
+    {
+     "place": 1,
+     "name": "Melissa Brogni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 2,
+     "name": "Luana Campos",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 3,
+     "name": "Luana Chaves",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    }
+   ]
+  },
+  {
+   "name": "Junior",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2017/World-Rankings-2017-Junior-Skateboard.html / Apac Championship",
+   "results": [
+    {
+     "place": 1,
+     "name": "Murilo Araujo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 2,
+     "name": "Bruno Vidal Vieira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 3,
+     "name": "Arthur Mikai Junqueira De Oliveira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    }
+   ]
+  },
+  {
+   "name": "Masters",
+   "kind": "Masters",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2017/World-Rankings-2017-Master-Skateboard.html / Apac Championship",
+   "results": [
+    {
+     "place": 1,
+     "name": "Adriano Silveira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 2,
+     "name": "Leonardo Discacciati",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 3,
+     "name": "Silon Garcia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 4,
+     "name": "Rafael Sabella",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 5,
+     "name": "Déberson Fernando Oliveira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 6,
+     "name": "Juba Sam",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 7,
+     "name": "Luis Pacheco",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 8,
+     "name": "Rafael Bastos",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 9,
+     "name": "Rafal De Campos Dobner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 10,
+     "name": "Luciano Cosme",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 11,
+     "name": "Andre Leonardo Preto",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 12,
+     "name": "Pedro Paulo Fonseca",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 13,
+     "name": "Walter Junior",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 14,
+     "name": "John Fletcher",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2017/World-Rankings-2017-Luge.html / Apac Championship",
+   "results": [
+    {
+     "place": 1,
+     "name": "Ryan Farmer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 2,
+     "name": "Will Stephenson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United Kingdom"
+    },
+    {
+     "place": 3,
+     "name": "Alexandre Cerri MacHado",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 4,
+     "name": "Leo Borton",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 5,
+     "name": "Jeff Suchy",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 6,
+     "name": "Luis Mogrovejo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

@@ -1,0 +1,194 @@
+{
+ "id": "2024-wales",
+ "name": "WDSC Wales",
+ "year": 2024,
+ "date": "2024-01-01",
+ "date_known": false,
+ "hill": null,
+ "place": "Wales",
+ "sources": [
+  "https://worlddownhillskateboardingchampionship.com/standings-2024/"
+ ],
+ "titles": [],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2024/ / Open Stand Up Skateboard",
+   "results": [
+    {
+     "place": 1,
+     "name": "Clarke Harry",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 2,
+     "name": "Andréas Bouclier",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 3,
+     "name": "Adrien Paynel",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 4,
+     "name": "Schwab Grégoire",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 5,
+     "name": "Tzouganakis Alex",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 6,
+     "name": "Plummer Jack",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 7,
+     "name": "Owen Fox",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 8,
+     "name": "Antoine Carlotti",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 9,
+     "name": "Markarian Yanis",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 10,
+     "name": "Hales Bumpy",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 11,
+     "name": "Micaiah Harness",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 12,
+     "name": "Said Benoit",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 13,
+     "name": "Stainer Ben",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 14,
+     "name": "Olav Øye",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 15,
+     "name": "Rogers Richie",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2024/ / Open Street Luge",
+   "results": [
+    {
+     "place": 1,
+     "name": "Kolby Parks",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 2,
+     "name": "Fieldwick Josh",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 3,
+     "name": "Philip Spencer",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 4,
+     "name": "Andrew Speight",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 5,
+     "name": "Ulrich Becker",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 6,
+     "name": "Daan Pierik",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 7,
+     "name": "George Cheeseman",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 8,
+     "name": "Martland Ian",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

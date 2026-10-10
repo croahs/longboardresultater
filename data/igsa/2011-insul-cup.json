@@ -1,0 +1,3381 @@
+{
+ "id": "2011-insul-cup",
+ "name": "Insul Cup",
+ "year": 2011,
+ "date": "2011-07-30",
+ "date_known": true,
+ "hill": null,
+ "place": "Insul, Germany",
+ "level": "World Cup",
+ "sources": [
+  "http://web.archive.org/web/20111008003211id_/http://www.igsaworldcup.com/results/2011/2011_insul_cup_wc_rslt.pdf",
+  "http://web.archive.org/web/20160606090331id_/http://igsaworldcup.com/results/2011/2011_insul_cup_wc_qual.pdf"
+ ],
+ "titles": [
+  "Insul Cup"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111008003211id_/http://www.igsaworldcup.com/results/2011/2011_insul_cup_wc_rslt.pdf / Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Patrick Switzer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Stefan Rüfli",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 3,
+     "name": "Alex Tongue",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 4,
+     "name": "Boris Shinke",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 5,
+     "name": "Torbjørn Sunde",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 6,
+     "name": "Stefan Kolpatzik",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 7,
+     "name": "Nicolas Robert",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 8,
+     "name": "Sebastian Hertler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 9,
+     "name": "James Kelly",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 10,
+     "name": "Dominik Kowalski",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 11,
+     "name": "John Barnet",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 12,
+     "name": "Andrew Chapman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 13,
+     "name": "Scoot Smith",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 14,
+     "name": "Robin Sandberg",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 15,
+     "name": "Flebu Trygve",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 16,
+     "name": "Bruno Fuchs",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 17,
+     "name": "Silon Garcia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 18,
+     "name": "Mischo Erban",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 19,
+     "name": "Max Ballesteros",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 20,
+     "name": "Jackson Shapiera",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 21,
+     "name": "Graham Buksa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 22,
+     "name": "Leon Ritter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 23,
+     "name": "Thibault Courtois",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 24,
+     "name": "Martin Siegrist",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 25,
+     "name": "Alexandre Ulrich",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 26,
+     "name": "Jakob Raab",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 27,
+     "name": "Adam Persson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 28,
+     "name": "Andreas Erdbrink",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 29,
+     "name": "Martin Alexander D'Elia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 30,
+     "name": "Maxim Rousseau",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 31,
+     "name": "Justin Readings",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 32,
+     "name": "Luke Melo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 33,
+     "name": "Yvon Labarthe",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 34,
+     "name": "Johannes Krimm",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 35,
+     "name": "Benjamin Hass",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 36,
+     "name": "Alex Dehmel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 37,
+     "name": "Stephan Risch",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 38,
+     "name": "Olivier Bareaud",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 39,
+     "name": "Michal Slivencky",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 40,
+     "name": "Ormazabal Imanol",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 41,
+     "name": "Bajo Alvaro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 42,
+     "name": "Oliver Slaughter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 43,
+     "name": "Daniel Gugel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 44,
+     "name": "Philipp Rogalski",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 45,
+     "name": "Fredrik Wangsten",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 46,
+     "name": "Daniel Hawes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 47,
+     "name": "Jonathan Fischbach",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 48,
+     "name": "Andreas Gniadek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 49,
+     "name": "Oliver Dehmel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 50,
+     "name": "Spencer Smith",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 51,
+     "name": "Johan Simonsen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 52,
+     "name": "Katie Neilson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 53,
+     "name": "Norman Budig",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 54,
+     "name": "Albin Larsson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 55,
+     "name": "Fabian Laute",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 56,
+     "name": "Alex Plötz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 57,
+     "name": "Rey Pablo Fouz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 58,
+     "name": "John Griffiths",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 59,
+     "name": "Lutz Wagenhauser",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 60,
+     "name": "Michael Bowditch",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 61,
+     "name": "Christian Meyer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 62,
+     "name": "Aaron Skippings",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 63,
+     "name": "Steffen Eliassen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 64,
+     "name": "Stefan Torstensson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 65,
+     "name": "Leon Schwall",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 66,
+     "name": "Mikael Jensen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 67,
+     "name": "Mathias Lessman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 68,
+     "name": "Marco Althoff",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 69,
+     "name": "Ville Hietala",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FIN"
+    },
+    {
+     "place": 70,
+     "name": "Vom Hofe Michal Kalau",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 71,
+     "name": "Lehtinen Janne",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FIN"
+    },
+    {
+     "place": 72,
+     "name": "Timo Mehnert",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 73,
+     "name": "Jan Ove Lassen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 74,
+     "name": "Pascal Beber",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 75,
+     "name": "Sebastian Bassler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 76,
+     "name": "Marcel Roosen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 77,
+     "name": "Frank Sommer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 78,
+     "name": "Juho Kosonen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FIN"
+    },
+    {
+     "place": 79,
+     "name": "Carey Lachlan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 80,
+     "name": "Rebekka Gemperle",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 81,
+     "name": "Braden Tibbles",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 82,
+     "name": "Molina Javier",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 83,
+     "name": "Dasha Kornieko",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 84,
+     "name": "Sebastian Bandtholz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 85,
+     "name": "Felix Druschel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 86,
+     "name": "Marek Vanourek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 87,
+     "name": "Oscar Froelund",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 88,
+     "name": "Konrad Leupold",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 89,
+     "name": "Robert Johansson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 90,
+     "name": "Florian Klamm",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 91,
+     "name": "Max Meurling",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 92,
+     "name": "Marie Bougourd",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 93,
+     "name": "Oliver Jepson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 94,
+     "name": "Kristina Engstrand",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 95,
+     "name": "Dirk Feldmann",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 96,
+     "name": "Uwe Dederer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 97,
+     "name": "Thibault Morgando",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 98,
+     "name": "Alexandre Markiewicz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 99,
+     "name": "Alexander Willhöft",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 100,
+     "name": "Samuli Riekkinnen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FIN"
+    },
+    {
+     "place": 101,
+     "name": "Josh Monk",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 102,
+     "name": "Fredric Jackobsen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 103,
+     "name": "Martin Herman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 104,
+     "name": "Michael Claessens",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BEL"
+    },
+    {
+     "place": 105,
+     "name": "Benjamin Niklasson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 106,
+     "name": "Kim Nilsson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 107,
+     "name": "Javierv Velasco Francisco",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 108,
+     "name": "Alex Luxat",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 109,
+     "name": "Paul Zerweck",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 110,
+     "name": "Alexander Tobrand",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 111,
+     "name": "Jan Dederer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 112,
+     "name": "Anssi Mattila",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FIN"
+    },
+    {
+     "place": 113,
+     "name": "Gregor Theis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 114,
+     "name": "Stefan Kurz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 115,
+     "name": "Jan Hahlbrock",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 116,
+     "name": "Felix Buchholz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 117,
+     "name": "Janne Salminen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FIN"
+    },
+    {
+     "place": 118,
+     "name": "Benjamin Schlickwei",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 119,
+     "name": "Simon Haverson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 120,
+     "name": "Christopher Eckbauer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 121,
+     "name": "Tamara Prader",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 122,
+     "name": "Olivier Gires",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 123,
+     "name": "Mathias Tanger",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 124,
+     "name": "Hanna Jaakola",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FIN"
+    },
+    {
+     "place": 125,
+     "name": "Nikolaus Harryson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 126,
+     "name": "Patrik Lunneryd",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 127,
+     "name": "Gloria Kupsch",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 128,
+     "name": "Vom Hofe Jorge Kalau",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 129,
+     "name": "Anne Kaske",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 130,
+     "name": "Ulf Paakkari",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 131,
+     "name": "Fabienne Liebing",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 132,
+     "name": "Felix Schreckenberg",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 133,
+     "name": "Ramón Königshausen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111008003211id_/http://www.igsaworldcup.com/results/2011/2011_insul_cup_wc_rslt.pdf / Women Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Katie Neilson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Kristina Engstrand",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 3,
+     "name": "Dasha Kornieko",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 4,
+     "name": "Rebekka Gemperle",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 5,
+     "name": "Marie Bougourd",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 6,
+     "name": "Hanna Jaakola",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FIN"
+    },
+    {
+     "place": 7,
+     "name": "Tamara Prader",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 8,
+     "name": "Gloria Kupsch",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 9,
+     "name": "Anne Kaske",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 10,
+     "name": "Fabienne Liebing",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    }
+   ]
+  },
+  {
+   "name": "Junior 1",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111008003211id_/http://www.igsaworldcup.com/results/2011/2011_insul_cup_wc_rslt.pdf / Junior 1 Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Lenny Gires",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 2,
+     "name": "Jan Dederer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 3,
+     "name": "Philip Schickor",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 4,
+     "name": "Gero Kalb",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    }
+   ]
+  },
+  {
+   "name": "Junior 2",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111008003211id_/http://www.igsaworldcup.com/results/2011/2011_insul_cup_wc_rslt.pdf / Junior 2 Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Spencer Smith",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 2,
+     "name": "Fredrik Wangsten",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 3,
+     "name": "Rey Pablo Fouz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 4,
+     "name": "Oscar Froelund",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 5,
+     "name": "Rob Borek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 6,
+     "name": "Max Meurling",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 7,
+     "name": "Maximilian Schulte",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 8,
+     "name": "Paul Zerweck",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 9,
+     "name": "Alexander Tobrand",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 10,
+     "name": "Edvard Hagman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    }
+   ]
+  },
+  {
+   "name": "Classic Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111008003211id_/http://www.igsaworldcup.com/results/2011/2011_insul_cup_wc_rslt.pdf / Classic Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Michael Serek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 2,
+     "name": "Diez Mikel Echegaray",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 3,
+     "name": "Yvon Labarthe",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 4,
+     "name": "Joachim Lang",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 5,
+     "name": "Russel Naude",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 6,
+     "name": "Helene Schmit",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 7,
+     "name": "Georg Klotzberg",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 8,
+     "name": "Peter Eliot",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 9,
+     "name": "Alexander Frischauf",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 10,
+     "name": "Thibault Morgando",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 11,
+     "name": "Nic Mckirdy",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 12,
+     "name": "Stefan Torstensson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 13,
+     "name": "Lars Martinsen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 14,
+     "name": "Chris Mcbride",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 15,
+     "name": "Jorge Alcade",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 16,
+     "name": "Gunnar Kalb",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 17,
+     "name": "Gero Kalb",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 18,
+     "name": "Philippe Rulleau",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 19,
+     "name": "Ben Bewley",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 20,
+     "name": "Frederique Berdon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 21,
+     "name": "Will Stephenson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111008003211id_/http://www.igsaworldcup.com/results/2011/2011_insul_cup_wc_rslt.pdf / Street Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Yvon Labarthe",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 2,
+     "name": "Peter Eliot",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 3,
+     "name": "Diez Mikel Echegaray",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 4,
+     "name": "Abdil Mahdzan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MAS"
+    },
+    {
+     "place": 5,
+     "name": "Will Stephenson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 6,
+     "name": "Michael Muller",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 7,
+     "name": "Russel Naude",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 8,
+     "name": "Thomas Manso",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 9,
+     "name": "Alexander Frischauf",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 10,
+     "name": "Joachim Lang",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 11,
+     "name": "Edgar De Wit",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NED"
+    },
+    {
+     "place": 12,
+     "name": "Helene Schmit",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 13,
+     "name": "Matthias Lang",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 14,
+     "name": "Len Stocker",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 15,
+     "name": "Ben Bewley",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 16,
+     "name": "Philipp Obergfell",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 17,
+     "name": "Nic Mckirdy",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 18,
+     "name": "Jorge Alcade",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 19,
+     "name": "Martin Witzigmann",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 20,
+     "name": "Philippe Rulleau",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 21,
+     "name": "Chris Mcbride",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 22,
+     "name": "Mikael Jensen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 23,
+     "name": "George Cheeseman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 24,
+     "name": "Frederique Berdon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 25,
+     "name": "Michael Serek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20160606090331id_/http://igsaworldcup.com/results/2011/2011_insul_cup_wc_qual.pdf / Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Patrick Switzer",
+     "time": 144.82,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Martin Siegrist",
+     "time": 145.93,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 3,
+     "name": "Andrew Chapman",
+     "time": 146.23,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 4,
+     "name": "Ramón Königshausen",
+     "time": 147.48,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 5,
+     "name": "Boris Shinke",
+     "time": 147.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 6,
+     "name": "Alex Tongue",
+     "time": 147.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 7,
+     "name": "Stefan Rüfli",
+     "time": 147.82,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 8,
+     "name": "Sebastian Hertler",
+     "time": 148.32,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 9,
+     "name": "Nicolas Robert",
+     "time": 148.36,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 10,
+     "name": "Bruno Fuchs",
+     "time": 148.93,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 11,
+     "name": "Stefan Kolpatzik",
+     "time": 148.96,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 12,
+     "name": "Silon Garcia",
+     "time": 149.02,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 13,
+     "name": "James Kelly",
+     "time": 149.31,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Dominik Kowalski",
+     "time": 149.36,
+     "dnf": false,
+     "dns": true,
+     "nat": "GER"
+    },
+    {
+     "place": 15,
+     "name": "Mischo Erban",
+     "time": 149.48,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 16,
+     "name": "Alexandre Ulrich",
+     "time": 149.52,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 17,
+     "name": "Max Ballesteros",
+     "time": 150.05,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 18,
+     "name": "Scoot Smith",
+     "time": 150.07,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 19,
+     "name": "Jackson Shapiera",
+     "time": 150.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 20,
+     "name": "Graham Buksa",
+     "time": 150.19,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 21,
+     "name": "Luke Melo",
+     "time": 150.3,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 22,
+     "name": "Jakob Raab",
+     "time": 150.31,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 23,
+     "name": "Torbjørn Sunde",
+     "time": 150.51,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 24,
+     "name": "Leon Ritter",
+     "time": 150.73,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 25,
+     "name": "Adam Persson",
+     "time": 150.78,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 26,
+     "name": "Andreas Erdbrink",
+     "time": 150.93,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 27,
+     "name": "Thibault Courtois",
+     "time": 151.01,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 28,
+     "name": "Martin Alexander D'Elia",
+     "time": 151.32,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 29,
+     "name": "Maxim Rousseau",
+     "time": 151.38,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 30,
+     "name": "Andreas Gniadek",
+     "time": 151.55,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 31,
+     "name": "Oliver Dehmel",
+     "time": 151.58,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 32,
+     "name": "Yvon Labarthe",
+     "time": 151.69,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 33,
+     "name": "Spencer Smith",
+     "time": 151.89,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 34,
+     "name": "John Barnet",
+     "time": 151.92,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 35,
+     "name": "Justin Readings",
+     "time": 152.22,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 36,
+     "name": "Johan Simonsen",
+     "time": 152.52,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 37,
+     "name": "Johannes Krimm",
+     "time": 152.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 38,
+     "name": "Benjamin Hass",
+     "time": 152.88,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 39,
+     "name": "Alex Dehmel",
+     "time": 152.92,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": null,
+     "name": "Stephan Risch",
+     "time": 152.99,
+     "dnf": false,
+     "dns": true,
+     "nat": "GER"
+    },
+    {
+     "place": 41,
+     "name": "Olivier Bareaud",
+     "time": 153.08,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 42,
+     "name": "Michal Slivencky",
+     "time": 153.09,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 43,
+     "name": "Ormazabal Imanol",
+     "time": 153.19,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 44,
+     "name": "Robin Sandberg",
+     "time": 153.29,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 45,
+     "name": "Bajo Alvaro",
+     "time": 153.35,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 46,
+     "name": "Oliver Slaughter",
+     "time": 153.71,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 47,
+     "name": "Daniel Gugel",
+     "time": 154.47,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 48,
+     "name": "Philipp Rogalski",
+     "time": 154.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 49,
+     "name": "Flebu Trygve",
+     "time": 154.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 50,
+     "name": "Fredrik Wangsten",
+     "time": 154.72,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 51,
+     "name": "Daniel Hawes",
+     "time": 154.81,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 52,
+     "name": "Jonathan Fischbach",
+     "time": 154.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 53,
+     "name": "Katie Neilson",
+     "time": 154.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 54,
+     "name": "Norman Budig",
+     "time": 155.37,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 55,
+     "name": "Albin Larsson",
+     "time": 155.43,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 56,
+     "name": "Fabian Laute",
+     "time": 155.49,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 57,
+     "name": "Alex Plötz",
+     "time": 155.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 58,
+     "name": "Rey Pablo Fouz",
+     "time": 155.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 59,
+     "name": "John Griffiths",
+     "time": 155.94,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Lutz Wagenhauser",
+     "time": 156.25,
+     "dnf": false,
+     "dns": true,
+     "nat": "GER"
+    },
+    {
+     "place": 61,
+     "name": "Michael Bowditch",
+     "time": 156.3,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 62,
+     "name": "Christian Meyer",
+     "time": 156.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 63,
+     "name": "Stefan Torstensson",
+     "time": 156.59,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 64,
+     "name": "Leon Schwall",
+     "time": 157.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 65,
+     "name": "Mikael Jensen",
+     "time": 157.16,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 66,
+     "name": "Mathias Lessman",
+     "time": 157.3,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Marco Althoff",
+     "time": 157.39,
+     "dnf": false,
+     "dns": true,
+     "nat": "GER"
+    },
+    {
+     "place": 68,
+     "name": "Ville Hietala",
+     "time": 157.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "FIN"
+    },
+    {
+     "place": 69,
+     "name": "Vom Hofe Michal Kalau",
+     "time": 157.58,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 70,
+     "name": "Lehtinen Janne",
+     "time": 157.79,
+     "dnf": false,
+     "dns": false,
+     "nat": "FIN"
+    },
+    {
+     "place": 71,
+     "name": "Aaron Skippings",
+     "time": 157.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 72,
+     "name": "Timo Mehnert",
+     "time": 157.87,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 73,
+     "name": "Jan Ove Lassen",
+     "time": 157.93,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 74,
+     "name": "Pascal Beber",
+     "time": 157.96,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 75,
+     "name": "Sebastian Bassler",
+     "time": 158.19,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 76,
+     "name": "Steffen Eliassen",
+     "time": 158.78,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 77,
+     "name": "Marcel Roosen",
+     "time": 159.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 78,
+     "name": "Frank Sommer",
+     "time": 159.11,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 79,
+     "name": "Juho Kosonen",
+     "time": 159.16,
+     "dnf": false,
+     "dns": false,
+     "nat": "FIN"
+    },
+    {
+     "place": 80,
+     "name": "Carey Lachlan",
+     "time": 159.38,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 81,
+     "name": "Rebekka Gemperle",
+     "time": 159.51,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 82,
+     "name": "Braden Tibbles",
+     "time": 159.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 83,
+     "name": "Molina Javier",
+     "time": 160.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 84,
+     "name": "Dasha Kornieko",
+     "time": 160.49,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 85,
+     "name": "Sebastian Bandtholz",
+     "time": 160.54,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 86,
+     "name": "Felix Druschel",
+     "time": 160.81,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": null,
+     "name": "Marek Vanourek",
+     "time": 161.22,
+     "dnf": false,
+     "dns": true,
+     "nat": "CZE"
+    },
+    {
+     "place": 88,
+     "name": "Oscar Froelund",
+     "time": 161.45,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 89,
+     "name": "Konrad Leupold",
+     "time": 161.74,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 90,
+     "name": "Robert Johansson",
+     "time": 161.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 91,
+     "name": "Florian Klamm",
+     "time": 161.88,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 92,
+     "name": "Max Meurling",
+     "time": 161.97,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 93,
+     "name": "Marie Bougourd",
+     "time": 162.37,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 94,
+     "name": "Oliver Jepson",
+     "time": 162.38,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 95,
+     "name": "Kristina Engstrand",
+     "time": 162.56,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 96,
+     "name": "Dirk Feldmann",
+     "time": 162.92,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 97,
+     "name": "Uwe Dederer",
+     "time": 162.95,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 98,
+     "name": "Thibault Morgando",
+     "time": 163.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Alexandre Markiewicz",
+     "time": 163.67,
+     "dnf": false,
+     "dns": true,
+     "nat": "FRA"
+    },
+    {
+     "place": 100,
+     "name": "Alexander Willhöft",
+     "time": 163.71,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 101,
+     "name": "Samuli Riekkinnen",
+     "time": 164.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "FIN"
+    },
+    {
+     "place": 102,
+     "name": "Josh Monk",
+     "time": 164.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Fredric Jackobsen",
+     "time": 164.29,
+     "dnf": false,
+     "dns": true,
+     "nat": "NOR"
+    },
+    {
+     "place": 104,
+     "name": "Martin Herman",
+     "time": 164.43,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 105,
+     "name": "Michael Claessens",
+     "time": 164.58,
+     "dnf": false,
+     "dns": false,
+     "nat": "BEL"
+    },
+    {
+     "place": 106,
+     "name": "Benjamin Niklasson",
+     "time": 164.87,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 107,
+     "name": "Kim Nilsson",
+     "time": 165.02,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 108,
+     "name": "Javierv Velasco Francisco",
+     "time": 165.63,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 109,
+     "name": "Alex Luxat",
+     "time": 165.88,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 110,
+     "name": "Paul Zerweck",
+     "time": 166.01,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 111,
+     "name": "Alexander Tobrand",
+     "time": 166.03,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Jan Dederer",
+     "time": 166.55,
+     "dnf": false,
+     "dns": true,
+     "nat": "GER"
+    },
+    {
+     "place": 113,
+     "name": "Anssi Mattila",
+     "time": 167.07,
+     "dnf": false,
+     "dns": false,
+     "nat": "FIN"
+    },
+    {
+     "place": 114,
+     "name": "Gregor Theis",
+     "time": 167.18,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 115,
+     "name": "Stefan Kurz",
+     "time": 167.23,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": null,
+     "name": "Jan Hahlbrock",
+     "time": 167.92,
+     "dnf": false,
+     "dns": true,
+     "nat": "GER"
+    },
+    {
+     "place": null,
+     "name": "Felix Buchholz",
+     "time": 168.27,
+     "dnf": false,
+     "dns": true,
+     "nat": "GER"
+    },
+    {
+     "place": 118,
+     "name": "Janne Salminen",
+     "time": 168.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "FIN"
+    },
+    {
+     "place": 119,
+     "name": "Benjamin Schlickwei",
+     "time": 169.67,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 120,
+     "name": "Simon Haverson",
+     "time": 169.8,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 121,
+     "name": "Christopher Eckbauer",
+     "time": 169.9,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 122,
+     "name": "Tamara Prader",
+     "time": 169.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 123,
+     "name": "Olivier Gires",
+     "time": 171.09,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 124,
+     "name": "Mathias Tanger",
+     "time": 171.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 125,
+     "name": "Hanna Jaakola",
+     "time": 172.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "FIN"
+    },
+    {
+     "place": 126,
+     "name": "Nikolaus Harryson",
+     "time": 174.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 127,
+     "name": "Patrik Lunneryd",
+     "time": 179.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 128,
+     "name": "Gloria Kupsch",
+     "time": 180.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 129,
+     "name": "Vom Hofe Jorge Kalau",
+     "time": 182.31,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 130,
+     "name": "Anne Kaske",
+     "time": 182.57,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 131,
+     "name": "Ulf Paakkari",
+     "time": 182.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 132,
+     "name": "Fabienne Liebing",
+     "time": 183.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": null,
+     "name": "Felix Schreckenberg",
+     "time": 185.18,
+     "dnf": false,
+     "dns": true,
+     "nat": "GER"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Damer",
+   "kind": "Women",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20160606090331id_/http://igsaworldcup.com/results/2011/2011_insul_cup_wc_qual.pdf / Women Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Katie Neilson",
+     "time": 154.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Rebekka Gemperle",
+     "time": 159.51,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 3,
+     "name": "Dasha Kornieko",
+     "time": 160.49,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 4,
+     "name": "Marie Bougourd",
+     "time": 162.37,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 5,
+     "name": "Kristina Engstrand",
+     "time": 162.56,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 6,
+     "name": "Tamara Prader",
+     "time": 169.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 7,
+     "name": "Hanna Jaakola",
+     "time": 172.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "FIN"
+    },
+    {
+     "place": 8,
+     "name": "Gloria Kupsch",
+     "time": 180.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 9,
+     "name": "Anne Kaske",
+     "time": 182.57,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 10,
+     "name": "Fabienne Liebing",
+     "time": 183.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Junior 1",
+   "kind": "Junior",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20160606090331id_/http://igsaworldcup.com/results/2011/2011_insul_cup_wc_qual.pdf / Junior 1 Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Lenny Gires",
+     "time": 162.86,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 2,
+     "name": "Jan Dederer",
+     "time": 166.55,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 3,
+     "name": "Philipp Schickor",
+     "time": 177.61,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 4,
+     "name": "Gero Kalb",
+     "time": 182.8,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Junior 2",
+   "kind": "Junior",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20160606090331id_/http://igsaworldcup.com/results/2011/2011_insul_cup_wc_qual.pdf / Junior 2 Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Spencer Smith",
+     "time": 151.89,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 2,
+     "name": "Fredrik Wangsten",
+     "time": 154.72,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 3,
+     "name": "Rey Pablo Fouz",
+     "time": 155.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 4,
+     "name": "Oscar Froelund",
+     "time": 161.45,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 5,
+     "name": "Maximilian Schulte",
+     "time": 161.68,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 6,
+     "name": "Max Meurling",
+     "time": 161.97,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 7,
+     "name": "Rob Borek",
+     "time": 162.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 8,
+     "name": "Paul Zerweck",
+     "time": 166.01,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 9,
+     "name": "Alexander Tobrand",
+     "time": 166.03,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 10,
+     "name": "Edvard Hagman",
+     "time": 169.24,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Classic Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20160606090331id_/http://igsaworldcup.com/results/2011/2011_insul_cup_wc_qual.pdf / Classic Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Michael Serek",
+     "time": 145.48,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 2,
+     "name": "Diez Mikel Echegaray",
+     "time": 147.59,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 3,
+     "name": "Yvon Labarthe",
+     "time": 148.69,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 4,
+     "name": "Joachim Lang",
+     "time": 151.49,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 5,
+     "name": "Helene Schmit",
+     "time": 151.74,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 6,
+     "name": "Georg Klotzberg",
+     "time": 152.24,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 7,
+     "name": "Russel Naude",
+     "time": 152.98,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 8,
+     "name": "Alexander Frischauf",
+     "time": 154.05,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 9,
+     "name": "Peter Eliot",
+     "time": 156.24,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 10,
+     "name": "Thibault Morgando",
+     "time": 156.66,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 11,
+     "name": "Nic Mckirdy",
+     "time": 157.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 12,
+     "name": "Lars Martinsen",
+     "time": 157.54,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 13,
+     "name": "Stefan Torstensson",
+     "time": 157.55,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 14,
+     "name": "Gunnar Kalb",
+     "time": 158.03,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 15,
+     "name": "Chris Mcbride",
+     "time": 160.67,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 16,
+     "name": "Jorge Alcade",
+     "time": 161.01,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 17,
+     "name": "Will Stephenson",
+     "time": 163.66,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 18,
+     "name": "Gero Kalb",
+     "time": 164.48,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 19,
+     "name": "Philippe Rulleau",
+     "time": 165.62,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 20,
+     "name": "Ben Bewley",
+     "time": 167.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 21,
+     "name": "Frederique Berdon",
+     "time": 167.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Phillip Champion",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "AUS"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20160606090331id_/http://igsaworldcup.com/results/2011/2011_insul_cup_wc_qual.pdf / Street Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Diez Mikel Echegaray",
+     "time": 145.11,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 2,
+     "name": "Yvon Labarthe",
+     "time": 145.69,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": null,
+     "name": "Michael Serek",
+     "time": 146.03,
+     "dnf": false,
+     "dns": true,
+     "nat": "AUT"
+    },
+    {
+     "place": 4,
+     "name": "Michael Müller",
+     "time": 146.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 5,
+     "name": "Will Stephenson",
+     "time": 146.74,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 6,
+     "name": "Russel Naude",
+     "time": 147.54,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 7,
+     "name": "Peter Eliot",
+     "time": 147.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 8,
+     "name": "Abdil Mahdzan",
+     "time": 149.49,
+     "dnf": false,
+     "dns": false,
+     "nat": "MAS"
+    },
+    {
+     "place": 9,
+     "name": "Alexander Frischauf",
+     "time": 149.51,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 10,
+     "name": "Matthias Lang",
+     "time": 149.56,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 11,
+     "name": "Joachim Lang",
+     "time": 150.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 12,
+     "name": "Edgar De Wit",
+     "time": 150.54,
+     "dnf": false,
+     "dns": false,
+     "nat": "NED"
+    },
+    {
+     "place": 13,
+     "name": "Len Stocker",
+     "time": 150.75,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 14,
+     "name": "Thomas Manso",
+     "time": 151.26,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 15,
+     "name": "Helene Schmit",
+     "time": 152.32,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 16,
+     "name": "Ben Bewley",
+     "time": 153.33,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 17,
+     "name": "Nic Mckirdy",
+     "time": 153.33,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 18,
+     "name": "Jorge Alcade",
+     "time": 154.59,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 19,
+     "name": "Martin Witzigmann",
+     "time": 156.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 20,
+     "name": "Philippe Rulleau",
+     "time": 156.64,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 21,
+     "name": "Chris Mcbride",
+     "time": 157.16,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 22,
+     "name": "Philipp Obergfell",
+     "time": 160.09,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 23,
+     "name": "Mikael Jensen",
+     "time": 161.32,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 24,
+     "name": "George Cheeseman",
+     "time": 161.66,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 25,
+     "name": "Frederique Berdon",
+     "time": 162.49,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Phillip Champion",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "AUS"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

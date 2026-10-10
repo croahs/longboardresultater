@@ -1,0 +1,1397 @@
+{
+ "id": "2012-descente",
+ "name": "Descente",
+ "year": 2012,
+ "date": "2012-08-18",
+ "date_known": true,
+ "hill": null,
+ "place": "Montreux (Switzerland)",
+ "level": "Continental - Europe",
+ "sources": [
+  "http://web.archive.org/web/20160322062046id_/http://igsaworldcup.com/results/2012/2012_descente_co_qual.pdf",
+  "http://web.archive.org/web/20160322062258id_/http://igsaworldcup.com/results/2012/2012_descente_co_rslt.pdf"
+ ],
+ "titles": [
+  "Descente 2012"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20160322062046id_/http://igsaworldcup.com/results/2012/2012_descente_co_qual.pdf / Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Matthias Ebel",
+     "time": 105.06,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 2,
+     "name": "Dillon Stephens",
+     "time": 105.3,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 3,
+     "name": "Thiago Gomez Lessa",
+     "time": 106.06,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 4,
+     "name": "Marcos Costa",
+     "time": 106.34,
+     "dnf": false,
+     "dns": false,
+     "nat": "SPA"
+    },
+    {
+     "place": 5,
+     "name": "Jakob Raab",
+     "time": 106.49,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 6,
+     "name": "Nicolas Robert",
+     "time": 106.75,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 7,
+     "name": "Sebastien Hertler",
+     "time": 106.81,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 8,
+     "name": "Kevin Bouaich",
+     "time": 107.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 9,
+     "name": "Alex Dehmel",
+     "time": 107.37,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 10,
+     "name": "Ville Hietala",
+     "time": 108.21,
+     "dnf": false,
+     "dns": false,
+     "nat": "FIN"
+    },
+    {
+     "place": 11,
+     "name": "Quin Finocchio",
+     "time": 108.79,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 12,
+     "name": "Alvaro Bajo",
+     "time": 109.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "SPA"
+    },
+    {
+     "place": 13,
+     "name": "Robert Mcwhinnie",
+     "time": 109.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 14,
+     "name": "Cam Brickenden",
+     "time": 109.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 15,
+     "name": "Jaroslav Kejr",
+     "time": 109.32,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 16,
+     "name": "Jonathan Martinez",
+     "time": 109.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 17,
+     "name": "Dylan Rumo",
+     "time": 109.66,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 18,
+     "name": "Daniel Gugel",
+     "time": 109.87,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 19,
+     "name": "Michal Velharticky",
+     "time": 110.02,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 20,
+     "name": "Yannick Perizzolo",
+     "time": 110.37,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 21,
+     "name": "Pablo Quiles",
+     "time": 110.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 22,
+     "name": "Dominik Janousek",
+     "time": 110.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 23,
+     "name": "Victor Pons",
+     "time": 110.98,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 24,
+     "name": "Jules Hornung",
+     "time": 111.32,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 25,
+     "name": "Adam Arendai",
+     "time": 111.71,
+     "dnf": false,
+     "dns": false,
+     "nat": "SVK"
+    },
+    {
+     "place": 26,
+     "name": "Vincent Jordana",
+     "time": 112.42,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 27,
+     "name": "Rebekka Gemperle",
+     "time": 112.56,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 28,
+     "name": "Phillip Schickor",
+     "time": 112.72,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 29,
+     "name": "Thibault Morgando",
+     "time": 112.81,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 30,
+     "name": "Jolanda Vogler",
+     "time": 113.33,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 31,
+     "name": "Numa Gutknecht",
+     "time": 113.35,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 32,
+     "name": "Jakub Los",
+     "time": 113.93,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 33,
+     "name": "Ronald Huhne",
+     "time": 114.05,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 34,
+     "name": "Lennard Gires",
+     "time": 114.05,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 35,
+     "name": "Pierre Gamby",
+     "time": 115.05,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 36,
+     "name": "Lenka Salacova",
+     "time": 115.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 37,
+     "name": "Martin Herman",
+     "time": 115.96,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 38,
+     "name": "Marcus Aldinucci",
+     "time": 116.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 39,
+     "name": "Julien Jeanneret",
+     "time": 116.26,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 40,
+     "name": "Bruno Fuchs",
+     "time": 116.58,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 41,
+     "name": "Micha Favero",
+     "time": 119.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 42,
+     "name": "Sebastien Stuck",
+     "time": 119.05,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 43,
+     "name": "Ross Baradoy",
+     "time": 119.89,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 44,
+     "name": "espejo Magaly Barrientos",
+     "time": 120.86,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 45,
+     "name": "Quentin Wunsche",
+     "time": 121.61,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 46,
+     "name": "Laurent Chapuis",
+     "time": 122.44,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 47,
+     "name": "Sarah Hodel",
+     "time": 124.63,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 48,
+     "name": "Sebastian Bandholtz",
+     "time": 127.34,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 49,
+     "name": "Matteo Corteletti",
+     "time": 128.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 50,
+     "name": "Thibaud Mamin",
+     "time": 138.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Damer",
+   "kind": "Women",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20160322062046id_/http://igsaworldcup.com/results/2012/2012_descente_co_qual.pdf / Women Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Rebekka Gemperle",
+     "time": 112.56,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 2,
+     "name": "Jolanda Vogler",
+     "time": 113.33,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 3,
+     "name": "Lenka Salacova",
+     "time": 115.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 4,
+     "name": "espejo Magaly Barrientos",
+     "time": 120.86,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 5,
+     "name": "Sarah Hodel",
+     "time": 124.63,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Junior 2",
+   "kind": "Junior",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20160322062046id_/http://igsaworldcup.com/results/2012/2012_descente_co_qual.pdf / Junior 2 Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Quin Finocchio",
+     "time": 108.79,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Dylan Rumo",
+     "time": 109.66,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 3,
+     "name": "Dominik Janousek",
+     "time": 110.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 4,
+     "name": "Victor Pons",
+     "time": 110.98,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 5,
+     "name": "Jules Hornung",
+     "time": 111.32,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 6,
+     "name": "Phillip Schickor",
+     "time": 112.72,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 7,
+     "name": "Marcus Aldinucci",
+     "time": 116.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 8,
+     "name": "Matteo Corteletti",
+     "time": 128.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 9,
+     "name": "Thibaud Mamin",
+     "time": 138.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Classic Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20160322062046id_/http://igsaworldcup.com/results/2012/2012_descente_co_qual.pdf / Classic Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Cedric Robert",
+     "time": 105.98,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 2,
+     "name": "Alexander Frischauf",
+     "time": 107.17,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 3,
+     "name": "Federico Barboni",
+     "time": 108.28,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 4,
+     "name": "Gregory Gerber",
+     "time": 109.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 5,
+     "name": "Daniele Aldinucci",
+     "time": 109.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 6,
+     "name": "Micha Favero",
+     "time": 111.07,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 7,
+     "name": "Roberto Marasca",
+     "time": 117.98,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 8,
+     "name": "Marc Dean",
+     "time": 125.21,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20160322062046id_/http://igsaworldcup.com/results/2012/2012_descente_co_qual.pdf / Street Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Roberto Marasca",
+     "time": 102.66,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 2,
+     "name": "Federico Barboni",
+     "time": 103.97,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 3,
+     "name": "Alexander Frischauf",
+     "time": 104.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 4,
+     "name": "Gregory Gerber",
+     "time": 104.74,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 5,
+     "name": "Cedric Robert",
+     "time": 106.49,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 6,
+     "name": "Georges Cheeseman",
+     "time": 106.64,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 7,
+     "name": "Sebastien Collet",
+     "time": 108.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 8,
+     "name": "Marc Dean",
+     "time": 110.23,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 9,
+     "name": "Laurent Sauberlin",
+     "time": 112.08,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    }
+   ]
+  },
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20160322062258id_/http://igsaworldcup.com/results/2012/2012_descente_co_rslt.pdf / Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Matthias Ebel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 2,
+     "name": "Dillon Stephens",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 3,
+     "name": "Thiago Gomez Lessa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 4,
+     "name": "Marcos Costa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SPA"
+    },
+    {
+     "place": 5,
+     "name": "Jakob Raab",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 6,
+     "name": "Nicolas Robert",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 7,
+     "name": "Sebastien Hertler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 8,
+     "name": "Kevin Bouaich",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 9,
+     "name": "Alex Dehmel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 10,
+     "name": "Ville Hietala",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FIN"
+    },
+    {
+     "place": 11,
+     "name": "Quin Finocchio",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 12,
+     "name": "Alvaro Bajo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SPA"
+    },
+    {
+     "place": 13,
+     "name": "Robert Mcwhinnie",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 14,
+     "name": "Cam Brickenden",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 15,
+     "name": "Jaroslav Kejr",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 16,
+     "name": "Jonathan Martinez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 17,
+     "name": "Dylan Rumo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 18,
+     "name": "Daniel Gugel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 19,
+     "name": "Michal Velharticky",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 20,
+     "name": "Yannick Perizzolo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 21,
+     "name": "Pablo Quiles",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 22,
+     "name": "Dominik Janousek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 23,
+     "name": "Victor Pons",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 24,
+     "name": "Jules Hornung",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 25,
+     "name": "Adam Arendai",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SVK"
+    },
+    {
+     "place": 26,
+     "name": "Vincent Jordana",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 27,
+     "name": "Rebekka Gemperle",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 28,
+     "name": "Phillip Schickor",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 29,
+     "name": "Thibault Morgando",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 30,
+     "name": "Jolanda Vogler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 31,
+     "name": "Numa Gutknecht",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 32,
+     "name": "Jakub Los",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 33,
+     "name": "Ronald Huhne",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 34,
+     "name": "Lennard Gires",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 35,
+     "name": "Pierre Gamby",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 36,
+     "name": "Lenka Salacova",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 37,
+     "name": "Martin Herman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 38,
+     "name": "Marcus Aldinucci",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 39,
+     "name": "Julien Jeanneret",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 40,
+     "name": "Bruno Fuchs",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 41,
+     "name": "Micha Favero",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 42,
+     "name": "Sebastien Stuck",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 43,
+     "name": "Ross Baradoy",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 44,
+     "name": "espejo Magaly Barrientos",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 45,
+     "name": "Quentin Wunsche",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 46,
+     "name": "Laurent Chapuis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 47,
+     "name": "Sarah Hodel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 48,
+     "name": "Sebastian Bandholtz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 49,
+     "name": "Matteo Corteletti",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 50,
+     "name": "Thibaud Mamin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20160322062258id_/http://igsaworldcup.com/results/2012/2012_descente_co_rslt.pdf / Women Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Rebekka Gemperle",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 2,
+     "name": "Jolanda Vogler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 3,
+     "name": "Lenka Salacova",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 4,
+     "name": "espejo Magaly Barrientos",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 5,
+     "name": "Sarah Hodel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    }
+   ]
+  },
+  {
+   "name": "Junior 2",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20160322062258id_/http://igsaworldcup.com/results/2012/2012_descente_co_rslt.pdf / Junior 2 Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Quin Finocchio",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Dylan Rumo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 3,
+     "name": "Dominik Janousek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 4,
+     "name": "Victor Pons",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 5,
+     "name": "Jules Hornung",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 6,
+     "name": "Phillip Schickor",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 7,
+     "name": "Marcus Aldinucci",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 8,
+     "name": "Matteo Corteletti",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 9,
+     "name": "Thibaud Mamin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    }
+   ]
+  },
+  {
+   "name": "Classic Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20160322062258id_/http://igsaworldcup.com/results/2012/2012_descente_co_rslt.pdf / Classic Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Cedric Robert",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 2,
+     "name": "Alexander Frischauf",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 3,
+     "name": "Federico Barboni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 4,
+     "name": "Gregory Gerber",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 5,
+     "name": "Daniele Aldinucci",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 6,
+     "name": "Micha Favero",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 7,
+     "name": "Roberto Marasca",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 8,
+     "name": "Marc Dean",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20160322062258id_/http://igsaworldcup.com/results/2012/2012_descente_co_rslt.pdf / Street Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Roberto Marasca",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 2,
+     "name": "Federico Barboni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 3,
+     "name": "Alexander Frischauf",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 4,
+     "name": "Gregory Gerber",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 5,
+     "name": "Cedric Robert",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 6,
+     "name": "Georges Cheeseman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 7,
+     "name": "Sebastien Collet",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 8,
+     "name": "Marc Dean",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 9,
+     "name": "Laurent Sauberlin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

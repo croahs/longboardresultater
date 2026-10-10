@@ -1,0 +1,427 @@
+{
+ "id": "2015-mesa-de-las-tablas-longboard-fest",
+ "name": "Mesa de las Tablas Longboard Fest",
+ "year": 2015,
+ "date": "2015-05-28",
+ "date_known": true,
+ "hill": null,
+ "place": "Mexico",
+ "sources": [
+  "https://internationaldownhillfederation.org/rankings/2015-rankings/"
+ ],
+ "titles": [
+  "Mesa De Las Tablas"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2015/World-Rankings-2015-Open-Skateboard.html / Mesa De Las Tablas",
+   "results": [
+    {
+     "place": 1,
+     "name": "Kyle Wester",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 2,
+     "name": "Gerardo Moreno",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Mexico"
+    },
+    {
+     "place": 3,
+     "name": "Oscar Gutierrez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Mexico"
+    },
+    {
+     "place": 4,
+     "name": "Brian Sandoval",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 5,
+     "name": "Fernando Concha",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Mexico"
+    },
+    {
+     "place": 6,
+     "name": "William Royce",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 7,
+     "name": "Eduardo Cordero",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Mexico"
+    },
+    {
+     "place": 8,
+     "name": "Marco Palafox",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Mexico"
+    },
+    {
+     "place": 9,
+     "name": "Andres Felipe Lopez Marin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 9,
+     "name": "Dustin Hampton",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 9,
+     "name": "Kalil Hammouri",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 9,
+     "name": "Martin Villagrana",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Mexico"
+    },
+    {
+     "place": 13,
+     "name": "Arturo Rodriguez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 13,
+     "name": "Hector Salazar",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Mexico"
+    },
+    {
+     "place": 13,
+     "name": "Juan Pablo Villegas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 13,
+     "name": "Sebastian Saavedra Aguilar",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Mexico"
+    },
+    {
+     "place": 17,
+     "name": "Abraham Esparza",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Mexico"
+    },
+    {
+     "place": 17,
+     "name": "Alain Carvajal",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Mexico"
+    },
+    {
+     "place": 17,
+     "name": "Christopher Cade",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 17,
+     "name": "Daniel Adams",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 17,
+     "name": "Edward Avina",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Mexico"
+    },
+    {
+     "place": 17,
+     "name": "Javier Arce",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 17,
+     "name": "Marie Bougourd",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "France"
+    },
+    {
+     "place": 17,
+     "name": "Ulices Uriel Torres Saucedo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Mexico"
+    },
+    {
+     "place": 25,
+     "name": "David Zacarias",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Mexico"
+    },
+    {
+     "place": 25,
+     "name": "Gloria Gutierrez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Mexico"
+    },
+    {
+     "place": 25,
+     "name": "Irvin Alexis Alvarez Flores",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Mexico"
+    },
+    {
+     "place": 25,
+     "name": "Levi Green",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 25,
+     "name": "Luis Gonzalez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Mexico"
+    },
+    {
+     "place": 25,
+     "name": "Natalia Rohrer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 25,
+     "name": "Oscar Perez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Mexico"
+    },
+    {
+     "place": 25,
+     "name": "Roberto Pimentel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Mexico"
+    },
+    {
+     "place": 33,
+     "name": "Alejandro Puente",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 33,
+     "name": "Gerardo Aleman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Mexico"
+    },
+    {
+     "place": 33,
+     "name": "Grick Delgado",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Mexico"
+    },
+    {
+     "place": 33,
+     "name": "Hector Alejandro Alvarez Flores",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Mexico"
+    },
+    {
+     "place": 33,
+     "name": "Marcela Giraldo Vanegas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 33,
+     "name": "Valeria Figueroa Fuentes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Mexico"
+    },
+    {
+     "place": 33,
+     "name": "Winston Fox",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2015/World-Rankings-2015-Women-Skateboard.html / Mesa De Las Tablas",
+   "results": [
+    {
+     "place": 1,
+     "name": "Marie Bougourd",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "France"
+    },
+    {
+     "place": 2,
+     "name": "Marcela Giraldo Vanegas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 3,
+     "name": "Valeria Figueroa Fuentes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Mexico"
+    },
+    {
+     "place": 4,
+     "name": "Gloria Gutierrez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Mexico"
+    },
+    {
+     "place": 5,
+     "name": "Natalia Rohrer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    }
+   ]
+  },
+  {
+   "name": "Junior",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2015/World-Rankings-2015-Junior-Skateboard.html / Mesa De Las Tablas",
+   "results": [
+    {
+     "place": 1,
+     "name": "Luis Gonzalez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Mexico"
+    },
+    {
+     "place": 2,
+     "name": "Ulices Uriel Torres Saucedo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Mexico"
+    },
+    {
+     "place": 3,
+     "name": "Martin Villagrana",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Mexico"
+    },
+    {
+     "place": 4,
+     "name": "Irvin Alexis Alvarez Flores",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Mexico"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

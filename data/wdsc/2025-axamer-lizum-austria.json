@@ -1,0 +1,513 @@
+{
+ "id": "2025-axamer-lizum-austria",
+ "name": "WDSC Axamer Lizum, Austria",
+ "year": 2025,
+ "date": "2025-06-13",
+ "date_known": true,
+ "hill": null,
+ "place": "Axamer Lizum, Austria",
+ "sources": [
+  "https://worlddownhillskateboardingchampionship.com/standings-2025/"
+ ],
+ "titles": [],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open CT",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2025/ / CT Open Skateboard",
+   "results": [
+    {
+     "place": 1,
+     "name": "Adrien Paynel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 2,
+     "name": "Dexter Manning",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 3,
+     "name": "Owen Fox",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 4,
+     "name": "Harry Clarke",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 5,
+     "name": "Morgan Owens",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 6,
+     "name": "Antoine Carlotti",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 7,
+     "name": "Mitch Thompson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 8,
+     "name": "Andreas Bouclier",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 9,
+     "name": "Stefano Barbizzi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 10,
+     "name": "Adam Westfall",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 11,
+     "name": "Antonio Madariaga",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 12,
+     "name": "Alex Clark",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FIN"
+    },
+    {
+     "place": 13,
+     "name": "Micaiah Harness",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 14,
+     "name": "Alex Dehmel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "DEU"
+    },
+    {
+     "place": 15,
+     "name": "Carlos Schärer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHE"
+    },
+    {
+     "place": 16,
+     "name": "Garett Belanger",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 17,
+     "name": "Dmytro Hayduchyk",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 18,
+     "name": "Pepe Laporte",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 19,
+     "name": "Arman Jaberi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 20,
+     "name": "Cam Brickenden",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 21,
+     "name": "Jack Plummer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 22,
+     "name": "Patrick Stoll",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 23,
+     "name": "Nicolay Gajardo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHL"
+    },
+    {
+     "place": 24,
+     "name": "Marieke Wünsche",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "DEU"
+    },
+    {
+     "place": 25,
+     "name": "Vojtěch Žáček",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 26,
+     "name": "Selina Theiler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHE"
+    },
+    {
+     "place": 27,
+     "name": "Ashley Winecoff",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 28,
+     "name": "Wing Tsun Thomas Ng",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "HKG"
+    },
+    {
+     "place": 29,
+     "name": "Max Ballesteros",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 30,
+     "name": "Nicolas Waiman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 31,
+     "name": "Pavel Zajíc",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 32,
+     "name": "Andreas Mangold",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    }
+   ]
+  },
+  {
+   "name": "Luge CT",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2025/ / CT Open Street Luge",
+   "results": [
+    {
+     "place": 1,
+     "name": "Abdil Mahdzan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MYS"
+    },
+    {
+     "place": 2,
+     "name": "David Frega",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 3,
+     "name": "Ulrich Becker",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "DEU"
+    },
+    {
+     "place": 4,
+     "name": "Kolby Parks",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 5,
+     "name": "Jules Chaperon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 6,
+     "name": "Martin Witzigmann",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "DEU"
+    },
+    {
+     "place": 7,
+     "name": "Ross Baradoy",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHE"
+    },
+    {
+     "place": 8,
+     "name": "Rainer Oesterle",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "DEU"
+    },
+    {
+     "place": 9,
+     "name": "George Cheeseman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 10,
+     "name": "Josh Fieldwick",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 11,
+     "name": "Lucas Mancini",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHE"
+    },
+    {
+     "place": 12,
+     "name": "Andy Speight",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 13,
+     "name": "Arkadiusz Kowalski",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "POL"
+    },
+    {
+     "place": 14,
+     "name": "Ian Martland",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    }
+   ]
+  },
+  {
+   "name": "Damer CT",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2025/ / CT Women’s Skateboard",
+   "results": [
+    {
+     "place": 1,
+     "name": "Selina Theiler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHE"
+    },
+    {
+     "place": 2,
+     "name": "Lisa Peters",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NLD"
+    },
+    {
+     "place": 3,
+     "name": "Marieke Wünsche",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "DEU"
+    },
+    {
+     "place": 4,
+     "name": "Ashley Winecoff",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 5,
+     "name": "Maria Sabrina Ambrosi Bordo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 6,
+     "name": "Jasmijn Hanegraef",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BEL"
+    },
+    {
+     "place": 7,
+     "name": "Anna Pixner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 8,
+     "name": "Jennifer Schauerte",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "DEU"
+    }
+   ]
+  },
+  {
+   "name": "Luge Damer CT",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2025/ / CT Women’s Street Luge",
+   "results": [
+    {
+     "place": 1,
+     "name": "Loreline Pastor",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 2,
+     "name": "Morrah Jakubiec",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 3,
+     "name": "Kim Marie Hilger",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "LUX"
+    },
+    {
+     "place": 4,
+     "name": "Julie Erz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "DEU"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

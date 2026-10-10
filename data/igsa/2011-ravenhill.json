@@ -1,0 +1,1957 @@
+{
+ "id": "2011-ravenhill",
+ "name": "Ravenhill",
+ "year": 2011,
+ "date": "2011-06-04",
+ "date_known": true,
+ "hill": null,
+ "place": "Göteborg, Sweden",
+ "level": "Regional",
+ "sources": [
+  "http://web.archive.org/web/20111008024333id_/http://www.igsaworldcup.com/results/2011/2011_ravenhill_rg_qual.pdf",
+  "http://web.archive.org/web/20111008060857id_/http://www.igsaworldcup.com/results/2011/2011_ravenhill_rg_rslt.pdf",
+  "http://web.archive.org/web/20160606091318id_/http://igsaworldcup.com/results/2011/2011_ravenhill_rg_rslt",
+  "http://web.archive.org/web/20160606104437id_/http://igsaworldcup.com/results/2011/2011_ravenhill_rg_qual"
+ ],
+ "titles": [
+  "Ravenhill"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20111008024333id_/http://www.igsaworldcup.com/results/2011/2011_ravenhill_rg_qual.pdf / Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Christoffer Sanne",
+     "time": 60.06,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 2,
+     "name": "Adam Persson",
+     "time": 60.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 3,
+     "name": "Ali Nas",
+     "time": 60.54,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 4,
+     "name": "Ross Holm",
+     "time": 61.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 5,
+     "name": "Oliver Nielsen",
+     "time": 61.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 6,
+     "name": "Hannibal Sökjer-Petersen",
+     "time": 61.06,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 7,
+     "name": "Håkon Wegge",
+     "time": 61.12,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 8,
+     "name": "Mattias Unsvåg",
+     "time": 61.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 9,
+     "name": "Klaes Johansson",
+     "time": 61.34,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 10,
+     "name": "Henning-Philip Patricksson",
+     "time": 61.56,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 11,
+     "name": "Mauritz Armfelt",
+     "time": 61.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 12,
+     "name": "Oliver Spenner",
+     "time": 62.12,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 13,
+     "name": "Jørn-Arve Kvålseth",
+     "time": 62.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 14,
+     "name": "Lucas Krown",
+     "time": 62.16,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 15,
+     "name": "Mattias Borg",
+     "time": 62.22,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 16,
+     "name": "Philippe Albiz",
+     "time": 62.22,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 17,
+     "name": "Adrian Jancey",
+     "time": 62.31,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 18,
+     "name": "Martin Klawitter",
+     "time": 62.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 19,
+     "name": "Albin Larsson",
+     "time": 62.78,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 20,
+     "name": "Stefan Torstensson",
+     "time": 63.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 21,
+     "name": "Nicolas Holøien",
+     "time": 63.19,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 22,
+     "name": "Fredrik Wangsten",
+     "time": 63.37,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 23,
+     "name": "Audun Gunerlussen",
+     "time": 63.38,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 24,
+     "name": "Lasse Moe",
+     "time": 63.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 25,
+     "name": "Andreas Häggström",
+     "time": 63.59,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 26,
+     "name": "Fredrik Hedelund",
+     "time": 63.66,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Axel Bergström",
+     "time": 63.75,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    },
+    {
+     "place": 28,
+     "name": "Abel Menessey",
+     "time": 63.86,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 29,
+     "name": "Calle Lindgren",
+     "time": 63.87,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 30,
+     "name": "Fredrik Rogbrant",
+     "time": 63.93,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 31,
+     "name": "Petter Hagman",
+     "time": 64.19,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 32,
+     "name": "Fredrik Molin",
+     "time": 64.22,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 33,
+     "name": "Per Christner",
+     "time": 64.38,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 34,
+     "name": "Henrik Gabinus",
+     "time": 64.75,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 35,
+     "name": "Martin Edoff",
+     "time": 64.93,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 36,
+     "name": "Max Meurling",
+     "time": 65.03,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 37,
+     "name": "Victor Mårtensson",
+     "time": 65.22,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 38,
+     "name": "Adam Sagedahl",
+     "time": 65.32,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 39,
+     "name": "Anders Taube",
+     "time": 65.62,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 40,
+     "name": "Jairo Carrasco",
+     "time": 65.66,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 41,
+     "name": "Mathias Müller-Nilssen",
+     "time": 65.72,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 42,
+     "name": "Robert Johansson",
+     "time": 65.81,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 43,
+     "name": "David Berntsson",
+     "time": 65.94,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Dennis Eriksson",
+     "time": 66.13,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Andreas Holm",
+     "time": 66.22,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    },
+    {
+     "place": 46,
+     "name": "Albin Ekbäck",
+     "time": 66.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 47,
+     "name": "Kim Nilsson",
+     "time": 66.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 48,
+     "name": "Emil Grönberg",
+     "time": 66.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 49,
+     "name": "Johannes Engstörm",
+     "time": 66.57,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 50,
+     "name": "Kristian Hammarsten",
+     "time": 66.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 51,
+     "name": "Albin Niva-Printz",
+     "time": 66.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 52,
+     "name": "Richard Lindgren",
+     "time": 66.94,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 53,
+     "name": "Andrej Frelin",
+     "time": 67.19,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 54,
+     "name": "Svante Flodin",
+     "time": 67.28,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 55,
+     "name": "Martin Hult",
+     "time": 67.47,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 56,
+     "name": "Fredric Jacobsen",
+     "time": 67.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": null,
+     "name": "Nicolai Lindberg",
+     "time": 67.54,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Jonathan Kull",
+     "time": 67.59,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    },
+    {
+     "place": 59,
+     "name": "Peter Astvik",
+     "time": 67.72,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Erik Erlandsson",
+     "time": 67.78,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    },
+    {
+     "place": 61,
+     "name": "Love Garpendal",
+     "time": 67.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Sander Magnussen-Neraas",
+     "time": 68.0,
+     "dnf": false,
+     "dns": true,
+     "nat": "NOR"
+    },
+    {
+     "place": 63,
+     "name": "Anders Nytell",
+     "time": 68.03,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 64,
+     "name": "Jakob Engwall",
+     "time": 68.12,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 65,
+     "name": "Nikolaus Harryson",
+     "time": 68.31,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 66,
+     "name": "Benjamin Tillius",
+     "time": 68.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 67,
+     "name": "Henrique Bond",
+     "time": 68.66,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 68,
+     "name": "Pål Erik Lystad",
+     "time": 68.67,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 69,
+     "name": "Kristina Engstrand",
+     "time": 68.69,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 70,
+     "name": "Jens Zerfass",
+     "time": 68.69,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 71,
+     "name": "Lars Mikelsen",
+     "time": 68.72,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": null,
+     "name": "Olav Røil",
+     "time": 68.91,
+     "dnf": false,
+     "dns": true,
+     "nat": "NOR"
+    },
+    {
+     "place": 73,
+     "name": "Tommy Andersson",
+     "time": 69.37,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 74,
+     "name": "Isak Björk",
+     "time": 69.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 75,
+     "name": "Patrik Lunneryd",
+     "time": 70.03,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 76,
+     "name": "Sam Priestly",
+     "time": 70.57,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 77,
+     "name": "Mattias Karlberg",
+     "time": 70.68,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 78,
+     "name": "Ulf Paakkari",
+     "time": 70.97,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Ming Chan",
+     "time": 71.47,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    },
+    {
+     "place": 80,
+     "name": "Max Svensson",
+     "time": 71.94,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 81,
+     "name": "Carl Dafgård",
+     "time": 72.26,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Ola Smith-Erichsen",
+     "time": 72.53,
+     "dnf": false,
+     "dns": true,
+     "nat": "NOR"
+    },
+    {
+     "place": 83,
+     "name": "Melker Lindborg",
+     "time": 72.87,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 84,
+     "name": "Arvid Berg",
+     "time": 73.94,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 85,
+     "name": "Anna Richardsson",
+     "time": 74.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Jesper Rossing",
+     "time": 74.94,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    },
+    {
+     "place": 87,
+     "name": "John Ingolf",
+     "time": 75.41,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 88,
+     "name": "Kit Gustafsson",
+     "time": 75.56,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 89,
+     "name": "Axel Nyström",
+     "time": 75.94,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 90,
+     "name": "Eliott Spenner",
+     "time": 76.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Alexander Larsson",
+     "time": 76.16,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Ruben Higgins",
+     "time": 76.22,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Lars-Petter Brevig",
+     "time": 77.03,
+     "dnf": false,
+     "dns": true,
+     "nat": "NOR"
+    },
+    {
+     "place": null,
+     "name": "Francisco Fjeldstad",
+     "time": 77.18,
+     "dnf": false,
+     "dns": true,
+     "nat": "NOR"
+    },
+    {
+     "place": 95,
+     "name": "Marcus Tufvesson",
+     "time": 78.03,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Max-Philip Michelsen",
+     "time": 78.44,
+     "dnf": false,
+     "dns": true,
+     "nat": "NOR"
+    },
+    {
+     "place": 97,
+     "name": "Oliver Simonsson",
+     "time": 78.78,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 98,
+     "name": "Olle Hansson",
+     "time": 79.59,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Olof Wahlgren",
+     "time": 79.78,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    },
+    {
+     "place": 100,
+     "name": "Kari Havnevik",
+     "time": 81.78,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 101,
+     "name": "Abbe Hussein",
+     "time": 92.94,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Mathias Tams",
+     "time": 93.59,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Damer",
+   "kind": "Women",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20111008024333id_/http://www.igsaworldcup.com/results/2011/2011_ravenhill_rg_qual.pdf / Women Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Kristina Engstrand",
+     "time": 68.69,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 2,
+     "name": "Anna Richardsson",
+     "time": 74.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 3,
+     "name": "Kari Havnevik",
+     "time": 81.78,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Classic Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20111008024333id_/http://www.igsaworldcup.com/results/2011/2011_ravenhill_rg_qual.pdf / Classic Luge / timed",
+   "results": [
+    {
+     "place": null,
+     "name": "Stefan Torstensson",
+     "time": 67.81,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Victor Mårtensson",
+     "time": 69.35,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Axel Nyström",
+     "time": 69.44,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Jairo Carrasco",
+     "time": 71.47,
+     "dnf": false,
+     "dns": true,
+     "nat": "PER"
+    },
+    {
+     "place": null,
+     "name": "Henrique Bond",
+     "time": 71.66,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Martin Klawitter",
+     "time": 75.0,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Klaes Johansson",
+     "time": 77.41,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Max Meurling",
+     "time": 80.72,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Abbe Hussein",
+     "time": 84.25,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Martin Edoff",
+     "time": 85.22,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Kim Nilsson",
+     "time": 86.94,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Anton Rooth-Bagger",
+     "time": 124.97,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Erik Erlandsson",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    }
+   ]
+  },
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111008060857id_/http://www.igsaworldcup.com/results/2011/2011_ravenhill_rg_rslt.pdf / Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Christoffer Sanne",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 2,
+     "name": "Adam Persson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 3,
+     "name": "Mattias Borg",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 4,
+     "name": "Mattias Unsvåg",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 5,
+     "name": "Oliver Nielsen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 6,
+     "name": "Hannibal Sökjer-Petersen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 7,
+     "name": "Oliver Spenner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 8,
+     "name": "Lucas Krown",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 9,
+     "name": "Ali Nas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 10,
+     "name": "Håkon Wegge",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 11,
+     "name": "Philippe Albiz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 12,
+     "name": "Calle Lindgren",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 13,
+     "name": "Henning-Philip Patricksson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 14,
+     "name": "Mauritz Armfelt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 15,
+     "name": "Jørn-Arve Kvålseth",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 16,
+     "name": "Lasse Moe",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 17,
+     "name": "Klaes Johansson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 18,
+     "name": "Adrian Jancey",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 19,
+     "name": "Martin Klawitter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 20,
+     "name": "Albin Larsson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 21,
+     "name": "Nicolas Holøien",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 22,
+     "name": "Audun Guneriussen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 23,
+     "name": "Axel Bergström",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 24,
+     "name": "Love Garpendal",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 25,
+     "name": "Stefan Torstensson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 26,
+     "name": "Fredrik Wangsten",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 27,
+     "name": "Abel Menessey",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 28,
+     "name": "Fredrik Molin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 29,
+     "name": "Martin Edoff",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 30,
+     "name": "Jairo Carrasco",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 31,
+     "name": "Johannes Engström",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 32,
+     "name": "Svante Flodin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 33,
+     "name": "Fredrik Rogbrant",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 34,
+     "name": "Peter Hagman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 35,
+     "name": "Per Christner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 36,
+     "name": "Victor Mårtensson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 37,
+     "name": "Adam Sagedahl",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 38,
+     "name": "Anders Taube",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 39,
+     "name": "Mathias Müller-Nilsen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 40,
+     "name": "Robert Johansson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 41,
+     "name": "David Berntsson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 42,
+     "name": "Dennis Eriksson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 44,
+     "name": "Albin Ekbäck",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 45,
+     "name": "Albin Niva-Printz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 46,
+     "name": "Martin Hult",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 47,
+     "name": "Erik Erlandsson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 48,
+     "name": "Jakob Engwall",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 49,
+     "name": "Andreas Häggström",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 50,
+     "name": "Fredrik Hedelund",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 51,
+     "name": "Henrik Gabinus",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 52,
+     "name": "Max Meurling",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 53,
+     "name": "Andreas Holm",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 54,
+     "name": "Kim Nilsson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 55,
+     "name": "Emil Grönberg",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 56,
+     "name": "Kristian Hammarsten",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 57,
+     "name": "Richard Lindgren",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 58,
+     "name": "Andrej Frelin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 59,
+     "name": "Fredric Jacobsen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 60,
+     "name": "Nicolai Lindberg",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 61,
+     "name": "Jonathan Kull",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 62,
+     "name": "Peter Astvik",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 63,
+     "name": "Sander Magnussen-Neraas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 64,
+     "name": "Anders Nytell",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 65,
+     "name": "Ross Holm",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 66,
+     "name": "Ming Chan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 67,
+     "name": "Pål Erik Lystad",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 68,
+     "name": "Lars Mikelsen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 69,
+     "name": "Olav Røil",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 70,
+     "name": "Henrique Bond",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 71,
+     "name": "Kristina Engstrand",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 72,
+     "name": "Jesper Rossing",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 73,
+     "name": "Max-Philip Michelsen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 74,
+     "name": "Isak Björk",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 75,
+     "name": "Mattias Karlberg",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 76,
+     "name": "Max Svensson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 77,
+     "name": "Melker Lindborg",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 78,
+     "name": "Tommy Andersson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 79,
+     "name": "Ulf Paakkari",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 80,
+     "name": "Lars-Petter Brevig",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 81,
+     "name": "Marcus Tufvesson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 82,
+     "name": "Nikolaus Harryson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 83,
+     "name": "Carl Dafgård",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 84,
+     "name": "Ola Smith-Erichsen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 85,
+     "name": "Arvid Berg",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 86,
+     "name": "Anna Richardson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 87,
+     "name": "Alexander Larsson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 88,
+     "name": "Olle Hansson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 89,
+     "name": "Olof Wahlgren",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 90,
+     "name": "Patrik Lunneryd",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 91,
+     "name": "John Ingolf",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 92,
+     "name": "Kit Gustafsson",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 93,
+     "name": "Axel Nyström",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 94,
+     "name": "Eliott Spenner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 95,
+     "name": "Kari Havnevik",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 96,
+     "name": "Abbe Hussein",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 97,
+     "name": "Mathias Tams",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 98,
+     "name": "Benjamin Tiilius",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 99,
+     "name": "Sam Priestley",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 100,
+     "name": "Francisco Fjeldstad",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 101,
+     "name": "Jens Zerfass",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 102,
+     "name": "Ruben Higgins",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 103,
+     "name": "Oliver Simonsson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111008060857id_/http://www.igsaworldcup.com/results/2011/2011_ravenhill_rg_rslt.pdf / Women Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Kristina Engstrand",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 2,
+     "name": "Anna Richardsson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 3,
+     "name": "Kari Havnevik",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    }
+   ]
+  },
+  {
+   "name": "Classic Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111008060857id_/http://www.igsaworldcup.com/results/2011/2011_ravenhill_rg_rslt.pdf / Classic Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Martin Klawitter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 2,
+     "name": "Jairo Carrasco",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 3,
+     "name": "Klaes Johansson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 4,
+     "name": "Stefan Torstensson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 5,
+     "name": "Victor Mårtensson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 6,
+     "name": "Axel Nyström",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 7,
+     "name": "Henrique Bond",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 8,
+     "name": "Max Meurling",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Erik Erlandsson",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    },
+    {
+     "place": 10,
+     "name": "Anton Rooth-Bagger",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 11,
+     "name": "Kim Nilsson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 12,
+     "name": "Abbe Hussein",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 13,
+     "name": "Martin Edoff",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

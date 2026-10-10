@@ -1,0 +1,1075 @@
+{
+ "id": "2016-tmi-lillehammer",
+ "name": "TMI Lillehammer",
+ "year": 2016,
+ "date": "2016-07-08",
+ "date_known": true,
+ "hill": "lillehammer",
+ "place": "Norway",
+ "sources": [
+  "https://internationaldownhillfederation.org/rankings/2016-rankings/"
+ ],
+ "titles": [
+  "TMI Lillyhammer"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2016/World-Rankings-2016-Open-Skateboard.html / TMI Lillyhammer",
+   "results": [
+    {
+     "place": 1,
+     "name": "Adam Persson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Sweden"
+    },
+    {
+     "place": 2,
+     "name": "Alex Charleson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 3,
+     "name": "Mauritz Armfelt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Sweden"
+    },
+    {
+     "place": 4,
+     "name": "Max Ballesteros",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 5,
+     "name": "Thiago Gomes Lessa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 6,
+     "name": "Aaron Hampshire",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 7,
+     "name": "Carlos Paixão",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 8,
+     "name": "Justin Rouleau",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 9,
+     "name": "Anders Inde",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Sweden"
+    },
+    {
+     "place": 10,
+     "name": "Tanner Morelock",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 11,
+     "name": "Harry Clarke",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 12,
+     "name": "Garino Giorgio",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Italy"
+    },
+    {
+     "place": 13,
+     "name": "Zak Maytum",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 14,
+     "name": "Aleix Gallimo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 15,
+     "name": "Quirin Ilmer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Austria"
+    },
+    {
+     "place": 16,
+     "name": "Edward Kiefer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 17,
+     "name": "Tiago Mohr",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 18,
+     "name": "Emily Pross",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 19,
+     "name": "Pepe Laporte",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 20,
+     "name": "Michal Cihlar",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 21,
+     "name": "Jesse Martin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 22,
+     "name": "Marcus Aldinucci",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Italy"
+    },
+    {
+     "place": 23,
+     "name": "Jørund Bratset",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Norway"
+    },
+    {
+     "place": 24,
+     "name": "Clayton Arthurs",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 25,
+     "name": "Daina Banks",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 26,
+     "name": "Douglas Silva",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 27,
+     "name": "Samuel D'Avignon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 28,
+     "name": "Esaja Ekman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Sweden"
+    },
+    {
+     "place": 29,
+     "name": "Johannes Aalholm",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Norway"
+    },
+    {
+     "place": 30,
+     "name": "Andrea Moreni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Italy"
+    },
+    {
+     "place": 31,
+     "name": "Marius Jørgensen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Norway"
+    },
+    {
+     "place": 32,
+     "name": "Henning Philip Patricksson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Norway"
+    },
+    {
+     "place": 33,
+     "name": "Erik Lundberg",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Sweden"
+    },
+    {
+     "place": 34,
+     "name": "Cassandra Duchesne",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 35,
+     "name": "Anton Lindén",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Sweden"
+    },
+    {
+     "place": 36,
+     "name": "Patrick Lombardi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Italy"
+    },
+    {
+     "place": 37,
+     "name": "Vojta Zacek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Czech Republic"
+    },
+    {
+     "place": 38,
+     "name": "Irra Cameselle Esperón",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 39,
+     "name": "Ludwig Fahlström",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Sweden"
+    },
+    {
+     "place": 40,
+     "name": "Fabrizio Clausi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 41,
+     "name": "Axel Patricksson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Norway"
+    },
+    {
+     "place": 42,
+     "name": "Jennifer Schauerte",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 43,
+     "name": "Benjamin Hay",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 44,
+     "name": "Lyde Begue",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "France"
+    },
+    {
+     "place": 45,
+     "name": "Dave Süess",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Switzerland"
+    },
+    {
+     "place": 46,
+     "name": "Lukas Übelhör",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 47,
+     "name": "Simon Hasselberg",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Norway"
+    },
+    {
+     "place": 48,
+     "name": "Rachel Bruskoff",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 49,
+     "name": "Ali Nas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Iraq"
+    },
+    {
+     "place": 50,
+     "name": "Andrew Louw",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Denmark"
+    },
+    {
+     "place": 51,
+     "name": "Damian Derek Blanquer Gelez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 52,
+     "name": "Lars Mikalsen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Norway"
+    },
+    {
+     "place": 53,
+     "name": "Mitch Thompson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 54,
+     "name": "Knox Heslop",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 55,
+     "name": "Trygve Flebu Jørundland",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Norway"
+    },
+    {
+     "place": 56,
+     "name": "Jakub Rod",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Czech Republic"
+    },
+    {
+     "place": 57,
+     "name": "Hans Kristian Henriksen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Norway"
+    },
+    {
+     "place": 58,
+     "name": "Cedric Cornell",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Norway"
+    },
+    {
+     "place": 59,
+     "name": "Seth Gouker",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 60,
+     "name": "Vašek Cvancara",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Czech Republic"
+    },
+    {
+     "place": 61,
+     "name": "Stefano Barbizzi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Italy"
+    },
+    {
+     "place": 62,
+     "name": "Tommaso Bohannon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Italy"
+    },
+    {
+     "place": 63,
+     "name": "Andrez Krob Pereira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 64,
+     "name": "Nicolas Desmarais",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 65,
+     "name": "Michael English",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 66,
+     "name": "Federico Barboni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Italy"
+    },
+    {
+     "place": 67,
+     "name": "Pete Connolly",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United Kingdom"
+    },
+    {
+     "place": 68,
+     "name": "Jens Schøien Øvregård",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Norway"
+    },
+    {
+     "place": 69,
+     "name": "Einar Kvam",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Norway"
+    },
+    {
+     "place": 70,
+     "name": "Tristan Cardillo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Switzerland"
+    },
+    {
+     "place": 71,
+     "name": "Till Heiden",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Switzerland"
+    },
+    {
+     "place": 72,
+     "name": "Dale Goodwin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United Kingdom"
+    },
+    {
+     "place": 73,
+     "name": "Lucas Krown",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Sweden"
+    },
+    {
+     "place": 74,
+     "name": "Lisa Peters",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Netherlands"
+    },
+    {
+     "place": 75,
+     "name": "Tim White",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 76,
+     "name": "Lasse Moe",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Norway"
+    },
+    {
+     "place": 77,
+     "name": "Grace Wong",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "New Zealand"
+    },
+    {
+     "place": 78,
+     "name": "Linn Andersson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Sweden"
+    },
+    {
+     "place": 79,
+     "name": "Pearse D'Arcy",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Ireland"
+    },
+    {
+     "place": 80,
+     "name": "Emile Eknes Miller",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Norway"
+    },
+    {
+     "place": 81,
+     "name": "Roberto Marasca",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Italy"
+    },
+    {
+     "place": 82,
+     "name": "Federico Falco",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Italy"
+    },
+    {
+     "place": 83,
+     "name": "Edoardo Barbi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Italy"
+    },
+    {
+     "place": 84,
+     "name": "Jasmijn Hanegraef",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Belgium"
+    },
+    {
+     "place": 85,
+     "name": "Daniela Lazo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 86,
+     "name": "Sondre Braa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Norway"
+    },
+    {
+     "place": 87,
+     "name": "Peter Andersson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Sweden"
+    },
+    {
+     "place": 88,
+     "name": "Erik Evensen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Norway"
+    },
+    {
+     "place": 89,
+     "name": "Lorenza Walker",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Sweden"
+    },
+    {
+     "place": 90,
+     "name": "Javier Táboas Rico",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 91,
+     "name": "Elias Andersson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Sweden"
+    },
+    {
+     "place": 92,
+     "name": "Steffen Eliassen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Norway"
+    },
+    {
+     "place": 93,
+     "name": "Jed Chapman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United Kingdom"
+    },
+    {
+     "place": 94,
+     "name": "Benjamin Lindmark",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Sweden"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2016/World-Rankings-2016-Women-Skateboard.html / TMI Lillyhammer",
+   "results": [
+    {
+     "place": 1,
+     "name": "Emily Pross",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 2,
+     "name": "Lyde Begue",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "France"
+    },
+    {
+     "place": 3,
+     "name": "Jennifer Schauerte",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 4,
+     "name": "Cassandra Duchesne",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 5,
+     "name": "Linn Andersson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Sweden"
+    },
+    {
+     "place": 6,
+     "name": "Jasmijn Hanegraef",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Belgium"
+    },
+    {
+     "place": 7,
+     "name": "Grace Wong",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "New Zealand"
+    },
+    {
+     "place": 8,
+     "name": "Rachel Bruskoff",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 9,
+     "name": "Daniela Lazo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 10,
+     "name": "Lorenza Walker",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Sweden"
+    },
+    {
+     "place": 11,
+     "name": "Lisa Peters",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Netherlands"
+    }
+   ]
+  },
+  {
+   "name": "Junior",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2016/World-Rankings-2016-Junior-Skateboard.html / TMI Lillyhammer",
+   "results": [
+    {
+     "place": 1,
+     "name": "Edward Kiefer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 2,
+     "name": "Tristan Cardillo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Switzerland"
+    },
+    {
+     "place": 3,
+     "name": "Jesse Martin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 4,
+     "name": "Vojta Zacek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Czech Republic"
+    },
+    {
+     "place": 5,
+     "name": "Elias Andersson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Sweden"
+    },
+    {
+     "place": 6,
+     "name": "Knox Heslop",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    }
+   ]
+  },
+  {
+   "name": "Masters",
+   "kind": "Masters",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2016/World-Rankings-2016-Master-Skateboard.html / TMI Lillyhammer",
+   "results": [
+    {
+     "place": 1,
+     "name": "Pete Connolly",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United Kingdom"
+    },
+    {
+     "place": 2,
+     "name": "Cedric Cornell",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Norway"
+    },
+    {
+     "place": 3,
+     "name": "Jakub Rod",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Czech Republic"
+    },
+    {
+     "place": 4,
+     "name": "Irra Cameselle Esperón",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 5,
+     "name": "Steffen Eliassen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Norway"
+    },
+    {
+     "place": 6,
+     "name": "Benjamin Hay",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 7,
+     "name": "Erik Evensen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Norway"
+    },
+    {
+     "place": 8,
+     "name": "Peter Andersson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Sweden"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2016/World-Rankings-2016-Luge.html / TMI Lillyhammer",
+   "results": [
+    {
+     "place": 1,
+     "name": "Abdil Mahdzan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Malaysia"
+    },
+    {
+     "place": 2,
+     "name": "Peter Eliot",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United Kingdom"
+    },
+    {
+     "place": 3,
+     "name": "George Cheeseman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United Kingdom"
+    },
+    {
+     "place": 4,
+     "name": "Kolby Parks",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 5,
+     "name": "Michael English",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 6,
+     "name": "Riccardo Aldinucci",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Italy"
+    },
+    {
+     "place": 7,
+     "name": "Michael O'Keeffe",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 8,
+     "name": "Guido Lausch",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

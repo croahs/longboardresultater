@@ -1,0 +1,3847 @@
+{
+ "id": "2013-top-skate-pro-teutonia",
+ "name": "Top Skate Pro Teutonia",
+ "year": 2013,
+ "date": "2013-11-15",
+ "date_known": true,
+ "hill": null,
+ "place": "Teutônia - RS - Brazil",
+ "level": "Continental",
+ "sources": [
+  "http://web.archive.org/web/20240901065059id_/https://www.igsaworldcup.com/results/2013/2013_teutonia_co_qual.pdf",
+  "http://web.archive.org/web/20240902035327id_/https://www.igsaworldcup.com/results/2013/2013_teutonia_wc_qual.pdf",
+  "http://web.archive.org/web/20240902161909id_/https://www.igsaworldcup.com/results/2013/2013_teutonia_co_rslt.pdf",
+  "http://web.archive.org/web/20240923112114id_/https://www.igsaworldcup.com/results/2013/2013_teutonia_wc_rslt.pdf"
+ ],
+ "titles": [
+  "Top Skate Pro Teutonia 2013"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20240901065059id_/https://www.igsaworldcup.com/results/2013/2013_teutonia_co_qual.pdf / Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Carlos Paixão",
+     "time": 79.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 2,
+     "name": "Max Ballesteros",
+     "time": 80.54,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 3,
+     "name": "Kyle Wester",
+     "time": 80.56,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 4,
+     "name": "Douglas Silva",
+     "time": 81.01,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 5,
+     "name": "Agustin-Pablo Virgolini",
+     "time": 81.09,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 6,
+     "name": "Andrew Dassie",
+     "time": 81.56,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 7,
+     "name": "Santiago Espeche",
+     "time": 81.58,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 8,
+     "name": "Vinicius Castagna",
+     "time": 81.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 9,
+     "name": "Bernardo Brambila",
+     "time": 81.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 10,
+     "name": "Rafael Fonseca",
+     "time": 82.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 11,
+     "name": "Vinicius Mendez",
+     "time": 82.19,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 12,
+     "name": "Alexandre Marcante",
+     "time": 82.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 13,
+     "name": "Silon Garcia",
+     "time": 82.62,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 14,
+     "name": "Henrique Stein",
+     "time": 82.79,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 15,
+     "name": "Willian Rubim",
+     "time": 82.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 16,
+     "name": "Andrew Haiby",
+     "time": 82.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "BHS"
+    },
+    {
+     "place": 17,
+     "name": "Alysson Garcia",
+     "time": 82.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 18,
+     "name": "Pedro Frangulis",
+     "time": 83.02,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 19,
+     "name": "Antônio Rosa",
+     "time": 83.03,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 20,
+     "name": "Ovalhe Danky Dean",
+     "time": 83.58,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 21,
+     "name": "Matthias Ebel",
+     "time": 83.67,
+     "dnf": false,
+     "dns": false,
+     "nat": "DEU"
+    },
+    {
+     "place": 22,
+     "name": "Renan Vasques",
+     "time": 83.77,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 23,
+     "name": "Elton Peruzzo",
+     "time": 83.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 24,
+     "name": "Lucas Bontorin",
+     "time": 83.99,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 25,
+     "name": "Mariano Gentili",
+     "time": 84.09,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 26,
+     "name": "Marcelo Mateus",
+     "time": 84.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 27,
+     "name": "Clayton Matos",
+     "time": 84.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 28,
+     "name": "Thiago Lessa",
+     "time": 84.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 29,
+     "name": "Juliano Cassemiro",
+     "time": 84.62,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 30,
+     "name": "Yan Bertinati",
+     "time": 84.87,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 31,
+     "name": "Agustin Allub",
+     "time": 85.01,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 32,
+     "name": "Rafael Sabella",
+     "time": 85.34,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 33,
+     "name": "Scott Lembach",
+     "time": 85.56,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 34,
+     "name": "Gabriel Kopplin",
+     "time": 85.69,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 35,
+     "name": "Erivelton Borges",
+     "time": 85.79,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 36,
+     "name": "Rafael Kiotheka",
+     "time": 85.8,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 37,
+     "name": "Leonardo Oliveira",
+     "time": 85.82,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 38,
+     "name": "Alisson Besutti",
+     "time": 85.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 39,
+     "name": "Rogerio Baum",
+     "time": 86.23,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 40,
+     "name": "Marcos Vasquez",
+     "time": 86.31,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 41,
+     "name": "Tiago Rosa",
+     "time": 86.37,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 42,
+     "name": "Evandro Dorneles",
+     "time": 86.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 43,
+     "name": "Jonathas Hortense",
+     "time": 86.61,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 44,
+     "name": "William Royce",
+     "time": 86.73,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 45,
+     "name": "Diego Larentis",
+     "time": 86.79,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 46,
+     "name": "Robson Cicarelli",
+     "time": 86.88,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 47,
+     "name": "Lucas Herbst",
+     "time": 86.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 48,
+     "name": "Marcelo Salvi",
+     "time": 86.97,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 49,
+     "name": "Guilherme Gonçalves",
+     "time": 87.18,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 50,
+     "name": "Luca Dragone",
+     "time": 87.34,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 51,
+     "name": "Fagner Lara",
+     "time": 87.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 52,
+     "name": "Lee Cation",
+     "time": 87.66,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 53,
+     "name": "Tiago Lorenzoni",
+     "time": 87.72,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 54,
+     "name": "Alexandre Oliveira",
+     "time": 87.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 55,
+     "name": "Lucas Guaragni",
+     "time": 87.86,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 56,
+     "name": "Thomas Kaina",
+     "time": 88.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 57,
+     "name": "Lucas Ficagna",
+     "time": 88.26,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 58,
+     "name": "Julian Flores",
+     "time": 88.71,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 59,
+     "name": "Rene Riveros",
+     "time": 88.76,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHL"
+    },
+    {
+     "place": 60,
+     "name": "Thiago Costa",
+     "time": 88.78,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 61,
+     "name": "Pedro Azevedo",
+     "time": 89.06,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 62,
+     "name": "Nicolas Borges",
+     "time": 89.12,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 63,
+     "name": "Johnny Gomes",
+     "time": 89.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 64,
+     "name": "Ericsson Fontenele",
+     "time": 89.2,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 65,
+     "name": "Claudio Gabriel",
+     "time": 89.39,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 66,
+     "name": "Eduardo Costa",
+     "time": 89.41,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 67,
+     "name": "Angelo Bertolo",
+     "time": 89.87,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 68,
+     "name": "Daniel Ferrarezi",
+     "time": 90.12,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 69,
+     "name": "Déberson Oliveira",
+     "time": 90.33,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 70,
+     "name": "Nadim Burkan",
+     "time": 90.58,
+     "dnf": false,
+     "dns": false,
+     "nat": "PSE"
+    },
+    {
+     "place": 71,
+     "name": "Juliano Vicente",
+     "time": 90.76,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 72,
+     "name": "Gustavo Feiten",
+     "time": 91.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 73,
+     "name": "Leonardo Kikuchi",
+     "time": 91.12,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 74,
+     "name": "Daniel Burgos",
+     "time": 91.33,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 75,
+     "name": "Renzo Tonello",
+     "time": 91.41,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 76,
+     "name": "Floriano Sales",
+     "time": 91.56,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 77,
+     "name": "Victor Gomes",
+     "time": 91.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 78,
+     "name": "Walter Junior",
+     "time": 91.95,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 79,
+     "name": "Reinhold Uhrner",
+     "time": 92.64,
+     "dnf": false,
+     "dns": false,
+     "nat": "DEU"
+    },
+    {
+     "place": 80,
+     "name": "Luciano Bertuol",
+     "time": 92.73,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 81,
+     "name": "Franco Urciuolo",
+     "time": 92.81,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 82,
+     "name": "Juarez Pinto",
+     "time": 93.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 83,
+     "name": "Ambrosio SantaMaria",
+     "time": 93.34,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHL"
+    },
+    {
+     "place": 84,
+     "name": "Dailton Domingues",
+     "time": 93.38,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 85,
+     "name": "Cristiano Barreto",
+     "time": 93.42,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 86,
+     "name": "Fabio Lambs",
+     "time": 93.44,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 87,
+     "name": "Bruno Cabral",
+     "time": 93.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 88,
+     "name": "Cassio Fernandes",
+     "time": 94.47,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 89,
+     "name": "Paulo Gartner",
+     "time": 94.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 90,
+     "name": "Cesar Carrera",
+     "time": 95.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 91,
+     "name": "Pablon Calabresi",
+     "time": 95.33,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 92,
+     "name": "Marcelo Fossa",
+     "time": 96.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 93,
+     "name": "Felipe Ruoger",
+     "time": 96.56,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 94,
+     "name": "Augusto Ruedas",
+     "time": 97.26,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 95,
+     "name": "Maharaj Kohler",
+     "time": 97.54,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Thiago Batista",
+     "time": 98.21,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "André Correa",
+     "time": 100.43,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": 98,
+     "name": "Evandro Vilella",
+     "time": 103.77,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 99,
+     "name": "Leonardo Spinosa",
+     "time": 105.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 100,
+     "name": "Micha Slivenecký",
+     "time": 105.06,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": null,
+     "name": "Ayslan Avelino",
+     "time": 109.95,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": 102,
+     "name": "Mauricio Mantovani",
+     "time": 111.35,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Marcos Vergara",
+     "time": 112.77,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Alexandre Arauji",
+     "time": 120.17,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": 105,
+     "name": "Luciano Wiest",
+     "time": 124.09,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Delano Pozzetti",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Manoel Formiga",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Danny Schemberg",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Marcos Kucarz",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Pablo Albano",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Tiago Passos",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Mauricio Andres",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "ARG"
+    },
+    {
+     "place": null,
+     "name": "Pavel Zajic",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "CZE"
+    },
+    {
+     "place": null,
+     "name": "Luiz Porpino",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Damer",
+   "kind": "Women",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20240901065059id_/https://www.igsaworldcup.com/results/2013/2013_teutonia_co_qual.pdf / Women Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Georgia Bontorin",
+     "time": 94.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 2,
+     "name": "Bianca Fior",
+     "time": 97.06,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 3,
+     "name": "Melissa Brogni",
+     "time": 101.43,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 4,
+     "name": "Magdalena Blanc",
+     "time": 102.28,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 5,
+     "name": "Morgana Luiz",
+     "time": 123.62,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Débora Sass",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Reine Oliveira",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Junior 2",
+   "kind": "Junior",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20240901065059id_/https://www.igsaworldcup.com/results/2013/2013_teutonia_co_qual.pdf / Junior 2 Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Matias Lopez",
+     "time": 83.97,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHL"
+    },
+    {
+     "place": 2,
+     "name": "Bruno Spengler",
+     "time": 84.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 3,
+     "name": "Yan Bertinati",
+     "time": 84.87,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 4,
+     "name": "Andrez Krob",
+     "time": 85.42,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 5,
+     "name": "Tiago Mohr",
+     "time": 85.55,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 6,
+     "name": "Renan Zimmer",
+     "time": 85.71,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 7,
+     "name": "Leonardo Oliveira",
+     "time": 85.82,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 8,
+     "name": "Leonardo Barros",
+     "time": 85.98,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 9,
+     "name": "Otávio Fialho",
+     "time": 86.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 10,
+     "name": "Lucas Perdoná",
+     "time": 86.43,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 11,
+     "name": "Jorge Pinheiro",
+     "time": 86.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 12,
+     "name": "Adriano Silva",
+     "time": 87.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 13,
+     "name": "Victor Cabau",
+     "time": 87.32,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 14,
+     "name": "Giulian Diniz",
+     "time": 87.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 15,
+     "name": "Roberto Junior",
+     "time": 87.51,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 16,
+     "name": "André Bodziak",
+     "time": 88.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 17,
+     "name": "Eduardo Tonini",
+     "time": 88.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 18,
+     "name": "João Pedro",
+     "time": 88.34,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 19,
+     "name": "Gabriel Mantovani",
+     "time": 88.81,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 20,
+     "name": "Bruno Sebastião",
+     "time": 88.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 21,
+     "name": "Darlan Duarte",
+     "time": 89.19,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 22,
+     "name": "Pedro Meireles",
+     "time": 89.26,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 23,
+     "name": "Pedro Oliveira",
+     "time": 89.73,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 24,
+     "name": "Lucas Costa",
+     "time": 89.99,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 25,
+     "name": "William Silva",
+     "time": 90.33,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 26,
+     "name": "Weslei Rech",
+     "time": 90.64,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 27,
+     "name": "Miguel Moreira",
+     "time": 91.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 28,
+     "name": "Daniel Schreiner",
+     "time": 93.12,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 29,
+     "name": "João Fernandez",
+     "time": 94.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 30,
+     "name": "Rodrigo Goncalves",
+     "time": 95.99,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 31,
+     "name": "Jhonatan Moura",
+     "time": 96.75,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 32,
+     "name": "Fabiano Moreira",
+     "time": 97.2,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 33,
+     "name": "Emiliano Llopiz",
+     "time": 98.89,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 34,
+     "name": "Felipe Almeida",
+     "time": 101.02,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 35,
+     "name": "Kelvin Spier",
+     "time": 104.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Rodrigo Silveira",
+     "time": 107.34,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Felipe Rosa",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Danrlei Silva",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Elias Emanuel",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "ARG"
+    },
+    {
+     "place": null,
+     "name": "Henrique Conterato",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Miguel Neto",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Bruno Moraes",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Bruno Oliveira",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Masters",
+   "kind": "Masters",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20240901065059id_/https://www.igsaworldcup.com/results/2013/2013_teutonia_co_qual.pdf / Masters Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Silon Garcia",
+     "time": 82.62,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 2,
+     "name": "Juliano Cassemiro",
+     "time": 84.62,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 3,
+     "name": "Scott Lembach",
+     "time": 85.56,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 4,
+     "name": "Ericsson Fontenele",
+     "time": 89.2,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 5,
+     "name": "Ricardo Mikima",
+     "time": 89.33,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 6,
+     "name": "João Bier",
+     "time": 90.28,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 7,
+     "name": "Floriano Sales",
+     "time": 91.56,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 8,
+     "name": "Marinho Marcante",
+     "time": 92.09,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 9,
+     "name": "Flávio Cegonha",
+     "time": 92.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Hugo Campelo",
+     "time": 92.25,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": 11,
+     "name": "Juarez Pinto",
+     "time": 93.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 12,
+     "name": "Cristiano Barreto",
+     "time": 93.42,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 13,
+     "name": "Fabio Lamb",
+     "time": 93.44,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Sasha Reis",
+     "time": 103.24,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Ivandro Silveira",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Classic Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20240901065059id_/https://www.igsaworldcup.com/results/2013/2013_teutonia_co_qual.pdf / Classic Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Walter Ribeiro-Baresi",
+     "time": 78.28,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 2,
+     "name": "Frank Williams",
+     "time": 78.81,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 3,
+     "name": "Alexandre Machado",
+     "time": 79.52,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 4,
+     "name": "Steve Canona",
+     "time": 80.39,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 5,
+     "name": "Joaquin Barrios",
+     "time": 80.49,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 6,
+     "name": "Flávio Silva",
+     "time": 82.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 7,
+     "name": "Nacho Palacios",
+     "time": 83.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 8,
+     "name": "Manoel Formiga",
+     "time": 83.98,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 9,
+     "name": "Scott Peer",
+     "time": 84.36,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 10,
+     "name": "Rodrigo Bisquertt",
+     "time": 84.81,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHL"
+    },
+    {
+     "place": 11,
+     "name": "Maximiliano Benedetto",
+     "time": 85.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 12,
+     "name": "Leo Borton",
+     "time": 86.06,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 13,
+     "name": "Fernando Rocha",
+     "time": 86.56,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 14,
+     "name": "Tamara Fissore",
+     "time": 93.42,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 15,
+     "name": "Celina Celi",
+     "time": 107.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20240901065059id_/https://www.igsaworldcup.com/results/2013/2013_teutonia_co_qual.pdf / Street Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Alexandre Machado",
+     "time": 75.05,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 2,
+     "name": "Leo Borton",
+     "time": 75.76,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 3,
+     "name": "Walter Ribeiro-Baresi",
+     "time": 76.78,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Rodolpho Saldanha",
+     "time": 77.25,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": 5,
+     "name": "Luiz Souza",
+     "time": 77.51,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 6,
+     "name": "Mario Jardim",
+     "time": 77.57,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 7,
+     "name": "Frank Williams",
+     "time": 77.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 8,
+     "name": "Tiago Moreira-Antunes",
+     "time": 77.86,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 9,
+     "name": "Willian Souza",
+     "time": 78.33,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Abdil Mahdzan",
+     "time": 79.45,
+     "dnf": false,
+     "dns": true,
+     "nat": "MAL"
+    },
+    {
+     "place": 11,
+     "name": "Gustavo Franco",
+     "time": 79.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 12,
+     "name": "André Ferreira",
+     "time": 80.69,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 13,
+     "name": "Gabriel Bernardes",
+     "time": 80.93,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 14,
+     "name": "Landjunior Passos",
+     "time": 81.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 15,
+     "name": "Manoel Formiga",
+     "time": 81.3,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 16,
+     "name": "Matheus Lopes",
+     "time": 82.05,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 17,
+     "name": "Rodrigo Bisquertt",
+     "time": 82.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHL"
+    },
+    {
+     "place": 18,
+     "name": "Fernando Rocha",
+     "time": 82.45,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 19,
+     "name": "Alex Cordeiro",
+     "time": 83.23,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 20,
+     "name": "Claudemir Santos",
+     "time": 83.57,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 21,
+     "name": "Moisés Souza",
+     "time": 83.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 22,
+     "name": "Rafael Oliveira",
+     "time": 84.26,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 23,
+     "name": "Javier Trujillo",
+     "time": 85.52,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHL"
+    },
+    {
+     "place": 24,
+     "name": "Fabrício Fachini",
+     "time": 85.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 25,
+     "name": "Augusto Ramallo",
+     "time": 86.88,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Inline",
+   "kind": "Inline",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20240901065059id_/https://www.igsaworldcup.com/results/2013/2013_teutonia_co_qual.pdf / Downhill Inline / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Danillo Ferraz",
+     "time": 85.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Guilherme Burjato",
+     "time": 87.54,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": 3,
+     "name": "Steve Canona",
+     "time": 88.3,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 4,
+     "name": "Sandro Sandrino",
+     "time": 88.51,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 5,
+     "name": "André Guillaume",
+     "time": 88.89,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 6,
+     "name": "Willians Angenendt",
+     "time": 92.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 7,
+     "name": "Scott Peer",
+     "time": 93.68,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 8,
+     "name": "Flavio Marchiori",
+     "time": 94.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 9,
+     "name": "Diego Teixeira",
+     "time": 95.98,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 10,
+     "name": "Jaime Gerardo",
+     "time": 97.52,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 11,
+     "name": "Aurio Cristiano",
+     "time": 100.95,
+     "dnf": false,
+     "dns": false,
+     "nat": "ANG"
+    },
+    {
+     "place": 12,
+     "name": "Juliana Tonolher",
+     "time": 105.32,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 13,
+     "name": "Carlos Teixeira",
+     "time": 110.28,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    }
+   ]
+  },
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20240902161909id_/https://www.igsaworldcup.com/results/2013/2013_teutonia_co_rslt.pdf / Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Carlos Paixão",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 2,
+     "name": "Max Ballesteros",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 3,
+     "name": "Agustin-Pablo Virgolini",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 4,
+     "name": "Kyle Wester",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 5,
+     "name": "Santiago Espeche",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 6,
+     "name": "Mariano Gentili",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 7,
+     "name": "Andrew Dassie",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 8,
+     "name": "Silon Garcia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 9,
+     "name": "Douglas Silva",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 10,
+     "name": "Bernardo Brambila",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 11,
+     "name": "Rafael Fonseca",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 12,
+     "name": "Alexandre Marcante",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 13,
+     "name": "Henrique Stein",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 14,
+     "name": "Alysson Garcia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 15,
+     "name": "Pedro Frangulis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 16,
+     "name": "Alexandre Oliveira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 17,
+     "name": "Vinicius Castagna",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 18,
+     "name": "Willian Rubim",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 19,
+     "name": "Antônio Rosa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 20,
+     "name": "Danky Dean",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 21,
+     "name": "Matthias Ebel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "DEU"
+    },
+    {
+     "place": 22,
+     "name": "Elton Peruzzo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 23,
+     "name": "Lucas Bontorin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 24,
+     "name": "Marcelo Mateus",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 25,
+     "name": "Clayton Matos",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 26,
+     "name": "Thiago Lessa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 27,
+     "name": "Yan Bertinati",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 28,
+     "name": "Fael Sabella",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 29,
+     "name": "Gabriel Kopplin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 30,
+     "name": "Rafael Kiotheka",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 31,
+     "name": "Jonathas Hortense",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 32,
+     "name": "Andrew Haiby",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BHS"
+    },
+    {
+     "place": 33,
+     "name": "Renan Vasques",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 34,
+     "name": "Juliano Cassemiro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 35,
+     "name": "Erivelton Borges",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 36,
+     "name": "Leonardo Oliveira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 37,
+     "name": "Alisson Besutti",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 38,
+     "name": "Rogerio Baum",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 39,
+     "name": "Marcos Vasquez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 40,
+     "name": "Evandro Dorneles",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 41,
+     "name": "William Royce",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 42,
+     "name": "Diego Larentis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 43,
+     "name": "Robson Cicarelli",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 44,
+     "name": "Lucas Herbst",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 45,
+     "name": "Marcelo Salvi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 46,
+     "name": "Guilherme Gonçalves",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 47,
+     "name": "Luca Dragone",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 48,
+     "name": "Fagner Lara",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 49,
+     "name": "Lee Cation",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 50,
+     "name": "Tiago Lorenzoni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 51,
+     "name": "Lucas Guaragni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 52,
+     "name": "Thomas Kaina",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 53,
+     "name": "Lucas Ficagna",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 54,
+     "name": "Julian Flores",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 55,
+     "name": "Rene Riveros",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHL"
+    },
+    {
+     "place": 56,
+     "name": "Thiago Costa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 57,
+     "name": "Nicolas Borges",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 58,
+     "name": "Johnny Gomes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 59,
+     "name": "Ericsson Fontenele",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 60,
+     "name": "Agustin Allub",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 61,
+     "name": "Scott Lembach",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 62,
+     "name": "Tiago Rosa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 63,
+     "name": "Vinicius Mendez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 64,
+     "name": "Pedro Azevedo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 65,
+     "name": "Claudio Gabriel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 66,
+     "name": "Eduardo Costa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 67,
+     "name": "Angelo Bertolo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 68,
+     "name": "Daniel Ferrarezi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 69,
+     "name": "Déberson Oliveira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 70,
+     "name": "Nadim Burkan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PSE"
+    },
+    {
+     "place": 71,
+     "name": "Juliano Vicente",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 72,
+     "name": "Gustavo Feiten",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 73,
+     "name": "Leonardo Kikuchi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 74,
+     "name": "Daniel Burgos",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 75,
+     "name": "Renzo Tonello",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 76,
+     "name": "Floriano Sales",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 77,
+     "name": "Victor Gomes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 78,
+     "name": "Walter Junior",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 79,
+     "name": "Reinhold Uhrner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "DEU"
+    },
+    {
+     "place": 80,
+     "name": "Luciano Bertuol",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 81,
+     "name": "Franco Urciuolo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 82,
+     "name": "Juarez Pinto",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 83,
+     "name": "Ambrosio SantaMaria",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHL"
+    },
+    {
+     "place": 84,
+     "name": "Dailton Domingues",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 85,
+     "name": "Cristiano Barreto",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 86,
+     "name": "Fabio Lambs",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 87,
+     "name": "Bruno Cabral",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 88,
+     "name": "Cassio Fernandes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 89,
+     "name": "Paulo Gartner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 90,
+     "name": "Cesar Carrera",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 91,
+     "name": "Pablon Calabresi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 92,
+     "name": "Marcelo Fossa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 93,
+     "name": "Felipe Ruoger",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 94,
+     "name": "Augusto Ruedas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 95,
+     "name": "Maharaj Kohler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 96,
+     "name": "Thiago Batista",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 97,
+     "name": "André Correa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 98,
+     "name": "Evandro Vilella",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 99,
+     "name": "Leonardo Spinosa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 100,
+     "name": "Micha Slivenecký",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 101,
+     "name": "Ayslan Avelino",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 102,
+     "name": "Mauricio Mantovani",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 103,
+     "name": "Marcos Vergara",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 104,
+     "name": "Alexandre Arauji",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 105,
+     "name": "Luciano Wiest",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 106,
+     "name": "Delano Pozzetti",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 107,
+     "name": "Manoel Formiga",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Danny Schemberg",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Marcos Kucarz",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Pablo Albano",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Tiago Passos",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Mauricio Andres",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "ARG"
+    },
+    {
+     "place": null,
+     "name": "Pavel Zajic",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "CZE"
+    },
+    {
+     "place": null,
+     "name": "Luiz Porpino",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20240902161909id_/https://www.igsaworldcup.com/results/2013/2013_teutonia_co_rslt.pdf / Women Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Georgia Bontorin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 2,
+     "name": "Bianca Fior",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 3,
+     "name": "Magdalena Blanc",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 4,
+     "name": "Melissa Brogni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 5,
+     "name": "Morgana Luiz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Débora Sass",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Reine Oliveira",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    }
+   ]
+  },
+  {
+   "name": "Junior 2",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20240902161909id_/https://www.igsaworldcup.com/results/2013/2013_teutonia_co_rslt.pdf / Junior 2 Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Yan Bertinati",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 2,
+     "name": "Andrez Krob",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 3,
+     "name": "Lucas Perdoná",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 4,
+     "name": "André Bodziak",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 5,
+     "name": "Bruno Spengler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 6,
+     "name": "Renan Zimmer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 7,
+     "name": "Otávio Fialho",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 8,
+     "name": "Darlan Duarte",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 9,
+     "name": "Matias Lopez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHL"
+    },
+    {
+     "place": 10,
+     "name": "Tiago Mohr",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 11,
+     "name": "Leonardo Oliveira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 12,
+     "name": "Victor Cabau",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 13,
+     "name": "Giulian Diniz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 14,
+     "name": "Roberto Junior",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 15,
+     "name": "William Silva",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 16,
+     "name": "Jorge Pinheiro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 17,
+     "name": "Adriano Silva",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 18,
+     "name": "Eduardo Tonini",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 19,
+     "name": "João Pedro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 20,
+     "name": "Gabriel Mantovani",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 21,
+     "name": "Bruno Sebastião",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 22,
+     "name": "Pedro Meireles",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 23,
+     "name": "Lucas Costa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 24,
+     "name": "Weslei Rech",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 25,
+     "name": "Miguel Moreira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 26,
+     "name": "Daniel Schreiner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 27,
+     "name": "Rodrigo Goncalves",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 28,
+     "name": "Jhonatan Moura",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 29,
+     "name": "Fabiano Moreira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 30,
+     "name": "Rodrigo Silveira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 31,
+     "name": "Pedro Oliveira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 32,
+     "name": "João Fernandez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 33,
+     "name": "Emiliano Llopiz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 34,
+     "name": "Felipe Almeida",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 35,
+     "name": "Leonardo Barros",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 36,
+     "name": "Kelvin Spier",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 37,
+     "name": "Felipe Rosa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Danrlei Silva",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Elias Emanuel",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "ARG"
+    },
+    {
+     "place": null,
+     "name": "Henrique Conterato",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Miguel Neto",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Bruno Moraes",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Bruno Oliveira",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    }
+   ]
+  },
+  {
+   "name": "Masters",
+   "kind": "Masters",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20240902161909id_/https://www.igsaworldcup.com/results/2013/2013_teutonia_co_rslt.pdf / Masters Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Silon Garcia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 2,
+     "name": "Juliano Cassemiro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 3,
+     "name": "João Bier",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 4,
+     "name": "Ericsson Fontenele",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 5,
+     "name": "Ricardo Mikima",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 6,
+     "name": "Floriano Sales",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 7,
+     "name": "Marinho Marcante",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 8,
+     "name": "Scott Lembach",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 9,
+     "name": "Flávio Cegonha",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 10,
+     "name": "Hugo Campelo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 11,
+     "name": "Juarez Pinto",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 12,
+     "name": "Cristiano Barreto",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 13,
+     "name": "Fabio Lamb",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 14,
+     "name": "Sasha Reis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 15,
+     "name": "Ivandro Silveira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    }
+   ]
+  },
+  {
+   "name": "Classic Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20240902161909id_/https://www.igsaworldcup.com/results/2013/2013_teutonia_co_rslt.pdf / Classic Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Walter Ribeiro-Baresi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 2,
+     "name": "Frank Williams",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 3,
+     "name": "Alexandre Machado",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 4,
+     "name": "Joaquin Barrios",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 5,
+     "name": "Steve Canona",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 6,
+     "name": "Flávio Silva",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 7,
+     "name": "Nacho Palacios",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 8,
+     "name": "Manoel Formiga",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 9,
+     "name": "Scott Peer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 10,
+     "name": "Maximiliano Benedetto",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 11,
+     "name": "Leo Borton",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 12,
+     "name": "Fernando Rocha",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 13,
+     "name": "Tamara Fissore",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 14,
+     "name": "Celina Celi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 15,
+     "name": "Rodrigo Bisquertt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHL"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20240902161909id_/https://www.igsaworldcup.com/results/2013/2013_teutonia_co_rslt.pdf / Street Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Alexandre Machado",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 2,
+     "name": "Walter Ribeiro-Baresi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 3,
+     "name": "Leo Borton",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 4,
+     "name": "Rodolpho Saldanha",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 5,
+     "name": "Luiz Souza",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 6,
+     "name": "Frank Williams",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 7,
+     "name": "Tiago Moreira-Antunes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 8,
+     "name": "Gustavo Franco",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 9,
+     "name": "Mario Jardim",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 10,
+     "name": "Willian Souza",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 11,
+     "name": "André Ferreira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 12,
+     "name": "Gabriel Bernardes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 13,
+     "name": "Matheus Lopes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 14,
+     "name": "Fernando Rocha",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 15,
+     "name": "Alex Cordeiro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 16,
+     "name": "Javier Trujillo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHL"
+    },
+    {
+     "place": 17,
+     "name": "Landjunior Passos",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 18,
+     "name": "Manoel Formiga",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 19,
+     "name": "Rodrigo Bisquertt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHL"
+    },
+    {
+     "place": 20,
+     "name": "Claudemir Santos",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 21,
+     "name": "Moisés Souza",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 22,
+     "name": "Rafael Oliveira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 23,
+     "name": "Fabrício Fachini",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 24,
+     "name": "Augusto Ramallo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 25,
+     "name": "Abdil Mahdzan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MAL"
+    }
+   ]
+  },
+  {
+   "name": "Inline",
+   "kind": "Inline",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20240902161909id_/https://www.igsaworldcup.com/results/2013/2013_teutonia_co_rslt.pdf / Downhill Inline / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Steve Canona",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 2,
+     "name": "Danillo Ferraz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 3,
+     "name": "Sandro Sandrino",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 4,
+     "name": "Guilherme Burjato",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 5,
+     "name": "André Guillaume",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 6,
+     "name": "Willians Angenendt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 7,
+     "name": "Scott Peer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 8,
+     "name": "Flavio Marchiori",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 9,
+     "name": "Diego Teixeira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 10,
+     "name": "Jaime Gerardo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 11,
+     "name": "Aurio Cristiano",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ANG"
+    },
+    {
+     "place": 12,
+     "name": "Juliana Tonolher",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 13,
+     "name": "Carlos Teixeira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

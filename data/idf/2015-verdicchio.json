@@ -1,0 +1,1155 @@
+{
+ "id": "2015-verdicchio",
+ "name": "Verdicchio",
+ "year": 2015,
+ "date": "2015-08-05",
+ "date_known": true,
+ "hill": null,
+ "place": "Italy",
+ "sources": [
+  "https://internationaldownhillfederation.org/rankings/2015-rankings/"
+ ],
+ "titles": [
+  "Verdicchio Race"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2015/World-Rankings-2015-Open-Skateboard.html / Verdicchio Race",
+   "results": [
+    {
+     "place": 1,
+     "name": "Carlos Paixão",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 2,
+     "name": "Quirin Ilmer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Austria"
+    },
+    {
+     "place": 3,
+     "name": "Max Ballesteros",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 4,
+     "name": "Troy Grenier",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 5,
+     "name": "Jimmy Riha",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 6,
+     "name": "Tiago Mohr",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 7,
+     "name": "Erik Lundberg",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Sweden"
+    },
+    {
+     "place": 8,
+     "name": "Garino Giorgio",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Italy"
+    },
+    {
+     "place": 9,
+     "name": "Adam Persson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Sweden"
+    },
+    {
+     "place": 10,
+     "name": "Aidan Lynds",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 11,
+     "name": "Patrick Lombardi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Italy"
+    },
+    {
+     "place": 12,
+     "name": "Robert McWhinnie",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 13,
+     "name": "Sebastian Hertler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 14,
+     "name": "Luke Melo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 15,
+     "name": "Esaja Ekman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Sweden"
+    },
+    {
+     "place": 16,
+     "name": "Gerrit Geiger",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 17,
+     "name": "Anders Inde",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Sweden"
+    },
+    {
+     "place": 18,
+     "name": "Marc Escoda",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 19,
+     "name": "Ian Freire",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 20,
+     "name": "Lev Seidl",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Czech Republic"
+    },
+    {
+     "place": 21,
+     "name": "Christoph Schmalz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 22,
+     "name": "Pan Diemer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 23,
+     "name": "Germain Dageville",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "France"
+    },
+    {
+     "place": 24,
+     "name": "Benjamin Steiner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Switzerland"
+    },
+    {
+     "place": 25,
+     "name": "Deen Mondt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Netherlands"
+    },
+    {
+     "place": 26,
+     "name": "Marcus Aldinucci",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Italy"
+    },
+    {
+     "place": 27,
+     "name": "Yanis Markarian",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "France"
+    },
+    {
+     "place": 28,
+     "name": "Henry Muller",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Africa"
+    },
+    {
+     "place": 29,
+     "name": "Oliver Fellay",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Africa"
+    },
+    {
+     "place": 30,
+     "name": "Nicolas Döbeli",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Switzerland"
+    },
+    {
+     "place": 31,
+     "name": "Javier Tato",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 32,
+     "name": "Adrià Arquimbau Codina",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 33,
+     "name": "Stefano Barbizzi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Italy"
+    },
+    {
+     "place": 34,
+     "name": "Sergio Carrión",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 35,
+     "name": "Tom Rushovich",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Africa"
+    },
+    {
+     "place": 36,
+     "name": "Pablo Quiles",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 37,
+     "name": "Harry Clarke",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 38,
+     "name": "Dominic Schenk",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Switzerland"
+    },
+    {
+     "place": 39,
+     "name": "Philipp Schickor",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 40,
+     "name": "Giuseppe Maltese",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Italy"
+    },
+    {
+     "place": 41,
+     "name": "Tom Bohannon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Italy"
+    },
+    {
+     "place": 42,
+     "name": "Ludwig Fahlström",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Sweden"
+    },
+    {
+     "place": 43,
+     "name": "Alessio Damato",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Italy"
+    },
+    {
+     "place": 44,
+     "name": "Andrew Louw",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Denmark"
+    },
+    {
+     "place": 45,
+     "name": "Remy Amsalem",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "France"
+    },
+    {
+     "place": 46,
+     "name": "Marie Bougourd",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "France"
+    },
+    {
+     "place": 47,
+     "name": "Vojta Zacek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Czech Republic"
+    },
+    {
+     "place": 48,
+     "name": "Gregory Harlow",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 49,
+     "name": "Daniel Luna",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 50,
+     "name": "Michal Kyncl",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Czech Republic"
+    },
+    {
+     "place": 51,
+     "name": "Melvin Herrmann",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 52,
+     "name": "Rasmus Klintrot",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Sweden"
+    },
+    {
+     "place": 53,
+     "name": "Evzen Masat",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Czech Republic"
+    },
+    {
+     "place": 54,
+     "name": "Guido Cipolla",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Italy"
+    },
+    {
+     "place": 55,
+     "name": "Gaetan Ricord",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "France"
+    },
+    {
+     "place": 56,
+     "name": "Lennard Gires",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 57,
+     "name": "Damian Derek Blanquer Gelez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 58,
+     "name": "Oscar Rodriguez Escoin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 59,
+     "name": "Kevin Reich",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 60,
+     "name": "Radek Lukes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Czech Republic"
+    },
+    {
+     "place": 61,
+     "name": "Kyle Wester",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 62,
+     "name": "Danny Carlson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 63,
+     "name": "Filippo Salerni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Italy"
+    },
+    {
+     "place": 64,
+     "name": "Charles Ouimet",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 65,
+     "name": "Niccolò Erba",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Italy"
+    },
+    {
+     "place": 66,
+     "name": "Andrea Moreni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Italy"
+    },
+    {
+     "place": 67,
+     "name": "Mariano Conti",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Italy"
+    },
+    {
+     "place": 68,
+     "name": "Christopher Ehret",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 69,
+     "name": "Jakub Jelínek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Czech Republic"
+    },
+    {
+     "place": 70,
+     "name": "Gregory Pere",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "France"
+    },
+    {
+     "place": 71,
+     "name": "Fabrizio Clausi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 72,
+     "name": "Luca Chavez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Switzerland"
+    },
+    {
+     "place": 73,
+     "name": "Adam Suchomel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Czech Republic"
+    },
+    {
+     "place": 74,
+     "name": "Anton Lindén",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Sweden"
+    },
+    {
+     "place": 75,
+     "name": "Javier Velasco",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 76,
+     "name": "Rachel Bruskoff",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 77,
+     "name": "Hobbart Cornelis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Austria"
+    },
+    {
+     "place": 78,
+     "name": "Victoria Waddington",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 79,
+     "name": "Lyde Begue",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "France"
+    },
+    {
+     "place": 80,
+     "name": "Emanuele Caruso",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Italy"
+    },
+    {
+     "place": 81,
+     "name": "Cam Deegan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United Kingdom"
+    },
+    {
+     "place": 82,
+     "name": "Juan Diego Gálvez Lara",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Guatemala"
+    },
+    {
+     "place": 83,
+     "name": "Aldo Dezani",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 84,
+     "name": "Simone Barbizzi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Italy"
+    },
+    {
+     "place": 85,
+     "name": "Cristina Cruz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 86,
+     "name": "Simone Capozzi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Italy"
+    },
+    {
+     "place": 87,
+     "name": "Martijn Schrama",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Netherlands"
+    },
+    {
+     "place": 88,
+     "name": "Magaly McWhinnie",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 89,
+     "name": "Klaus Wrensted Jensen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Denmark"
+    },
+    {
+     "place": 90,
+     "name": "Myrjam Weißschuh",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 91,
+     "name": "Cristina Verdú",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 93,
+     "name": "Sabine Schneider",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 94,
+     "name": "Nadine Hünemörder",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 95,
+     "name": "Jennifer Schauerte",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 96,
+     "name": "Enric Umbert",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 97,
+     "name": "Ilkka Nenonen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Finland"
+    },
+    {
+     "place": 98,
+     "name": "Emil Franzén",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Sweden"
+    },
+    {
+     "place": 99,
+     "name": "Edwin Van Der Sar",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Netherlands"
+    },
+    {
+     "place": 100,
+     "name": "Caroline Weijnman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Switzerland"
+    },
+    {
+     "place": 101,
+     "name": "Israel Cameselle Esperón",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 102,
+     "name": "Jens Nielsen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Denmark"
+    },
+    {
+     "place": 103,
+     "name": "Live Frisak",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Norway"
+    },
+    {
+     "place": 104,
+     "name": "Ingmar Solissa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Netherlands"
+    },
+    {
+     "place": 105,
+     "name": "Anna Pixner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Austria"
+    },
+    {
+     "place": 106,
+     "name": "Christian Weiss",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2015/World-Rankings-2015-Women-Skateboard.html / Verdicchio Race",
+   "results": [
+    {
+     "place": 1,
+     "name": "Lyde Begue",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "France"
+    },
+    {
+     "place": 2,
+     "name": "Marie Bougourd",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "France"
+    },
+    {
+     "place": 3,
+     "name": "Rachel Bruskoff",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 4,
+     "name": "Victoria Waddington",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 5,
+     "name": "Myrjam Weißschuh",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 6,
+     "name": "Cristina Verdú",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 7,
+     "name": "Cristina Cruz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 8,
+     "name": "Sabine Schneider",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 9,
+     "name": "Lilian Gutsch",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 10,
+     "name": "Jennifer Schauerte",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 11,
+     "name": "Live Frisak",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Norway"
+    },
+    {
+     "place": 12,
+     "name": "Anna Pixner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Austria"
+    },
+    {
+     "place": 13,
+     "name": "Nadine Hünemörder",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 14,
+     "name": "Magaly McWhinnie",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    }
+   ]
+  },
+  {
+   "name": "Junior",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2015/World-Rankings-2015-Junior-Skateboard.html / Verdicchio Race",
+   "results": [
+    {
+     "place": 1,
+     "name": "Sergio Carrión",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 2,
+     "name": "Pan Diemer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 3,
+     "name": "Lennard Gires",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 4,
+     "name": "Fabrizio Clausi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 5,
+     "name": "Vojta Zacek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Czech Republic"
+    },
+    {
+     "place": 6,
+     "name": "Gaetan Ricord",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "France"
+    },
+    {
+     "place": 7,
+     "name": "Mariano Conti",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Italy"
+    },
+    {
+     "place": 8,
+     "name": "Christopher Ehret",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 9,
+     "name": "Emil Franzén",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Sweden"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2015/World-Rankings-2015-Classic-Luge.html / Verdicchio Race",
+   "results": [
+    {
+     "place": 1,
+     "name": "Mikel Echegaray Diez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 2,
+     "name": "Pablo Fouz Rey",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 3,
+     "name": "Javier Serrano Molina",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 4,
+     "name": "Daniele Aldinucci",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Italy"
+    },
+    {
+     "place": 5,
+     "name": "Konstantin Weigl",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Austria"
+    },
+    {
+     "place": 6,
+     "name": "Samuele Montesi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Italy"
+    },
+    {
+     "place": 7,
+     "name": "Gerrit Geiger",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 8,
+     "name": "Schmit Helene",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "France"
+    },
+    {
+     "place": 9,
+     "name": "Riccardo Aldinucci",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Italy"
+    },
+    {
+     "place": 10,
+     "name": "Sebastian Hertler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

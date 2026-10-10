@@ -1,0 +1,1989 @@
+{
+ "id": "2012-vernon-dh8",
+ "name": "Vernon DH8",
+ "year": 2012,
+ "date": "2012-06-09",
+ "date_known": true,
+ "hill": null,
+ "place": "Vernon, BC, Canada",
+ "level": "Continental",
+ "sources": [
+  "http://web.archive.org/web/20130602041833id_/http://igsaworldcup.com/results/2012/2012_vernon_co_qual.pdf",
+  "http://web.archive.org/web/20160509045035id_/http://igsaworldcup.com/results/2012/2012_vernon_co_rslt.pdf",
+  "http://web.archive.org/web/20241127114152id_/http://www.igsaworldcup.com/results/2012/2012_vernon_co_qual",
+  "http://web.archive.org/web/20250523115710id_/http://www.igsaworldcup.com/results/2012/2012_vernon_co_rslt"
+ ],
+ "titles": [
+  "Vernon DH8"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130602041833id_/http://igsaworldcup.com/results/2012/2012_vernon_co_qual.pdf / Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "James Kelly",
+     "time": 65.07,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 2,
+     "name": "Kevin Reimer",
+     "time": 65.69,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 3,
+     "name": "Dylan Stephens",
+     "time": 66.07,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 4,
+     "name": "Andrew Chapman",
+     "time": 66.99,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 5,
+     "name": "Aidan Lynds",
+     "time": 67.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 6,
+     "name": "Jonas Richter",
+     "time": 67.74,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 7,
+     "name": "Luke Melo",
+     "time": 67.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 8,
+     "name": "Patrick Switzer",
+     "time": 68.35,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 9,
+     "name": "Mack Wacey",
+     "time": 68.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 10,
+     "name": "Willam Royce",
+     "time": 68.93,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 11,
+     "name": "Jose Guzman",
+     "time": 69.02,
+     "dnf": false,
+     "dns": false,
+     "nat": "PUR"
+    },
+    {
+     "place": 12,
+     "name": "Ovalhe Danky Dean",
+     "time": 69.11,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 13,
+     "name": "Keola Chu",
+     "time": 69.44,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 14,
+     "name": "Brendan Davidson",
+     "time": 69.49,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 15,
+     "name": "Justin Ortiz",
+     "time": 70.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": null,
+     "name": "Nick Breton",
+     "time": 70.17,
+     "dnf": false,
+     "dns": true,
+     "nat": "CAN"
+    },
+    {
+     "place": 17,
+     "name": "Jeremy Banting",
+     "time": 70.41,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 18,
+     "name": "Charlie Darragh",
+     "time": 70.66,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 19,
+     "name": "Tom Watson",
+     "time": 70.95,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 20,
+     "name": "Matt Rae",
+     "time": 71.06,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 21,
+     "name": "Zen Shikaze",
+     "time": 71.07,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 22,
+     "name": "Kyle Wester",
+     "time": 71.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 23,
+     "name": "Braden Tibbles",
+     "time": 71.49,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 24,
+     "name": "Jimmy Riha",
+     "time": 71.68,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 25,
+     "name": "Riley Harris",
+     "time": 71.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 26,
+     "name": "Jacob Dutton",
+     "time": 72.01,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 27,
+     "name": "Lee Gilmar",
+     "time": 72.12,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 28,
+     "name": "Devon Nowlin",
+     "time": 72.14,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 29,
+     "name": "Matthew Taylor",
+     "time": 72.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": null,
+     "name": "Kelly Carter",
+     "time": 72.53,
+     "dnf": false,
+     "dns": true,
+     "nat": "AUS"
+    },
+    {
+     "place": 31,
+     "name": "Alex Johnston",
+     "time": 72.58,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": null,
+     "name": "Mischo Erban",
+     "time": 72.91,
+     "dnf": false,
+     "dns": true,
+     "nat": "CAN"
+    },
+    {
+     "place": 33,
+     "name": "Rob Collinge",
+     "time": 73.54,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 34,
+     "name": "Rylan English",
+     "time": 73.61,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 35,
+     "name": "Dustin Hampton",
+     "time": 73.87,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 36,
+     "name": "Justin Readings",
+     "time": 73.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 37,
+     "name": "Danny Carlson",
+     "time": 74.23,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 38,
+     "name": "Bryan Reich",
+     "time": 74.23,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 39,
+     "name": "Brendan Grant",
+     "time": 74.35,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 40,
+     "name": "Anna O'neill",
+     "time": 74.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 41,
+     "name": "Nick Lutsenko",
+     "time": 75.07,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": null,
+     "name": "Kevin Breton",
+     "time": 75.29,
+     "dnf": false,
+     "dns": true,
+     "nat": "CAN"
+    },
+    {
+     "place": 43,
+     "name": "Quinn Dubois",
+     "time": 75.51,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": null,
+     "name": "Matt Ryan",
+     "time": 76.45,
+     "dnf": false,
+     "dns": true,
+     "nat": "AUT"
+    },
+    {
+     "place": 45,
+     "name": "Brian Belcher",
+     "time": 76.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 46,
+     "name": "Josh Wutzke",
+     "time": 76.62,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": null,
+     "name": "Wolfgang Coleman",
+     "time": 76.69,
+     "dnf": false,
+     "dns": true,
+     "nat": "CAN"
+    },
+    {
+     "place": 48,
+     "name": "Kris Halford",
+     "time": 76.9,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 49,
+     "name": "Brad Cameron",
+     "time": 76.99,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 50,
+     "name": "Marcel Roberts",
+     "time": 78.2,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 51,
+     "name": "Zion Miller",
+     "time": 78.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Quinn Finocchio",
+     "time": 79.73,
+     "dnf": false,
+     "dns": true,
+     "nat": "CAN"
+    },
+    {
+     "place": 53,
+     "name": "Cam Sodergren",
+     "time": 80.12,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 54,
+     "name": "Elena Corrigall",
+     "time": 80.34,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": null,
+     "name": "Aaron Christiensen",
+     "time": 80.67,
+     "dnf": false,
+     "dns": true,
+     "nat": "CAN"
+    },
+    {
+     "place": 56,
+     "name": "Devon Reece",
+     "time": 81.52,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 57,
+     "name": "Liam Brown",
+     "time": 81.69,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 58,
+     "name": "Taryn MacQuarrie",
+     "time": 81.94,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 59,
+     "name": "Mike Paproski",
+     "time": 82.22,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 60,
+     "name": "Alex Lazaris",
+     "time": 82.43,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Charlie Daigneault",
+     "time": 83.0,
+     "dnf": false,
+     "dns": true,
+     "nat": "CAN"
+    },
+    {
+     "place": 62,
+     "name": "Lachlan Carey",
+     "time": 83.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 63,
+     "name": "Greg Paproski",
+     "time": 87.08,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 64,
+     "name": "Victoria Waddington",
+     "time": 88.62,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": null,
+     "name": "Rachel Rayne",
+     "time": 89.63,
+     "dnf": false,
+     "dns": true,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Erica Greenup",
+     "time": 91.39,
+     "dnf": false,
+     "dns": true,
+     "nat": "CAN"
+    },
+    {
+     "place": 67,
+     "name": "Maia Johnson",
+     "time": 93.52,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 68,
+     "name": "Max Moisanen",
+     "time": 94.61,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 69,
+     "name": "Austin Kleef",
+     "time": 102.24,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": null,
+     "name": "Marisa Nunez",
+     "time": 107.73,
+     "dnf": false,
+     "dns": true,
+     "nat": "PER"
+    },
+    {
+     "place": 71,
+     "name": "Dashiel Long",
+     "time": 115.67,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Damer",
+   "kind": "Women",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130602041833id_/http://igsaworldcup.com/results/2012/2012_vernon_co_qual.pdf / Women Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Anna O'neill",
+     "time": 74.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Elena Corrigall",
+     "time": 80.34,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": null,
+     "name": "Charlie Daigneault",
+     "time": 83.0,
+     "dnf": false,
+     "dns": true,
+     "nat": "CAN"
+    },
+    {
+     "place": 4,
+     "name": "Victoria Waddington",
+     "time": 88.62,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": null,
+     "name": "Rachel Rayne",
+     "time": 89.63,
+     "dnf": false,
+     "dns": true,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Erica Greenup",
+     "time": 91.39,
+     "dnf": false,
+     "dns": true,
+     "nat": "CAN"
+    },
+    {
+     "place": 7,
+     "name": "Maia Johnson",
+     "time": 93.52,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": null,
+     "name": "Marisa Nunez",
+     "time": 107.73,
+     "dnf": false,
+     "dns": true,
+     "nat": "PER"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Junior 1",
+   "kind": "Junior",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130602041833id_/http://igsaworldcup.com/results/2012/2012_vernon_co_qual.pdf / Junior 1 Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Quinn Dubois",
+     "time": 75.51,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Greg Paproski",
+     "time": 87.08,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 3,
+     "name": "Max Moisanen",
+     "time": 94.61,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Junior 2",
+   "kind": "Junior",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130602041833id_/http://igsaworldcup.com/results/2012/2012_vernon_co_qual.pdf / Junior 2 Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Aidan Lynds",
+     "time": 67.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Jonas Richter",
+     "time": 67.74,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 3,
+     "name": "Brendan Davidson",
+     "time": 69.49,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 4,
+     "name": "Charlie Darragh",
+     "time": 70.66,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 5,
+     "name": "Jacob Dutton",
+     "time": 72.01,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 6,
+     "name": "Devon Nowlin",
+     "time": 72.14,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 7,
+     "name": "Matthew Taylor",
+     "time": 72.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": null,
+     "name": "Kelly Carter",
+     "time": 72.53,
+     "dnf": false,
+     "dns": true,
+     "nat": "AUS"
+    },
+    {
+     "place": 9,
+     "name": "Alex Johnston",
+     "time": 72.58,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 10,
+     "name": "Bryan Reich",
+     "time": 74.23,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 11,
+     "name": "Nick Lutsenko",
+     "time": 75.07,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 12,
+     "name": "Brad Cameron",
+     "time": 76.99,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 13,
+     "name": "Zion Miller",
+     "time": 78.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Quinn Finocchio",
+     "time": 79.73,
+     "dnf": false,
+     "dns": true,
+     "nat": "CAN"
+    },
+    {
+     "place": 15,
+     "name": "Cam Sodergren",
+     "time": 80.12,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 16,
+     "name": "Liam Brown",
+     "time": 81.69,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 17,
+     "name": "Taryn MacQuarrie",
+     "time": 81.94,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 18,
+     "name": "Austin Kleef",
+     "time": 102.24,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Classic Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130602041833id_/http://igsaworldcup.com/results/2012/2012_vernon_co_qual.pdf / Classic Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "William Condon",
+     "time": 65.18,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Scott Peer",
+     "time": 67.77,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 3,
+     "name": "Ben Zehner",
+     "time": 69.44,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 4,
+     "name": "Dylan Wall",
+     "time": 69.98,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 5,
+     "name": "Frank Williams",
+     "time": 71.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 6,
+     "name": "Jan Moisanen",
+     "time": 72.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Chris McBride",
+     "time": 73.16,
+     "dnf": false,
+     "dns": true,
+     "nat": "USA"
+    },
+    {
+     "place": 8,
+     "name": "Max Moisanen",
+     "time": 79.11,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130602041833id_/http://igsaworldcup.com/results/2012/2012_vernon_co_qual.pdf / Street Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "William Condon",
+     "time": 65.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Dylan Wall",
+     "time": 68.54,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 3,
+     "name": "Frank Williams",
+     "time": 71.73,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 4,
+     "name": "Jan Moisanen",
+     "time": 74.47,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Chris McBride",
+     "time": 77.58,
+     "dnf": false,
+     "dns": true,
+     "nat": "USA"
+    },
+    {
+     "place": 6,
+     "name": "Ben Zehner",
+     "time": 83.41,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Inline",
+   "kind": "Inline",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130602041833id_/http://igsaworldcup.com/results/2012/2012_vernon_co_qual.pdf / Downhill Inline / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Justin Ortiz",
+     "time": 62.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Scott Peer",
+     "time": 62.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    }
+   ]
+  },
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20160509045035id_/http://igsaworldcup.com/results/2012/2012_vernon_co_rslt.pdf / Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Kevin Reimer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Zen JPN/CAN Shikaze",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 3,
+     "name": "Brendan Davidson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 4,
+     "name": "Patrick Switzer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 5,
+     "name": "Andrew Chapman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 6,
+     "name": "Jonas Richter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 7,
+     "name": "Justin Ortiz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 8,
+     "name": "James Kelly",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 9,
+     "name": "Dylan Stephens",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 10,
+     "name": "Matt Rae",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 11,
+     "name": "Jacob Dutton",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 12,
+     "name": "Mischo CZE/CAN Erban",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 13,
+     "name": "Aidan Lynds",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 14,
+     "name": "Willam Royce",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 15,
+     "name": "Kelly Carter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 16,
+     "name": "Brad Cameron",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 17,
+     "name": "Ovalhe Danky Dean",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 18,
+     "name": "Nick Breton",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 19,
+     "name": "Charlie Darragh",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 20,
+     "name": "Tom Watson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 21,
+     "name": "Kyle Wester",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 22,
+     "name": "Jimmy Riha",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 23,
+     "name": "Alex Johnston",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 24,
+     "name": "Quinn Finocchio",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 25,
+     "name": "Luke Melo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 26,
+     "name": "Mack Wacey",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 27,
+     "name": "Jose Guzman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PUR"
+    },
+    {
+     "place": 28,
+     "name": "Braden Tibbles",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 29,
+     "name": "Justin Readings",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 30,
+     "name": "Bryan Reich",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 31,
+     "name": "Alex Lazaris",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 32,
+     "name": "Riley Harris",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 33,
+     "name": "Keola Chu",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 34,
+     "name": "Rob Collinge",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 35,
+     "name": "Rylan English",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 36,
+     "name": "Dustin Hampton",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 37,
+     "name": "Danny Carlson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 38,
+     "name": "Brendan Grant",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 39,
+     "name": "Nick Lutsenko",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 40,
+     "name": "Kevin Breton",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 41,
+     "name": "Quinn Dubois",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 42,
+     "name": "Matt Ryan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 43,
+     "name": "Wolfgang Coleman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 44,
+     "name": "Kris Halford",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 45,
+     "name": "Zion Miller",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 46,
+     "name": "Liam Brown",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 47,
+     "name": "Charlie Daigneault",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 48,
+     "name": "Marisa Nunez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 49,
+     "name": "Lee Gilmar",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 50,
+     "name": "Devon Nowlin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 51,
+     "name": "Matthew Taylor",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 52,
+     "name": "Anna O'neill",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 53,
+     "name": "Brian Belcher",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 54,
+     "name": "Josh Wutzke",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 55,
+     "name": "Marcel Roberts",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 56,
+     "name": "Cam Sodergren",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 57,
+     "name": "Elena Corrigall",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 58,
+     "name": "Aaron Christiensen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 59,
+     "name": "Devon Reece",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 60,
+     "name": "Lachlan Carey",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 61,
+     "name": "Greg Paproski",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 62,
+     "name": "Rachel Rayne",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 63,
+     "name": "Taryn MacQuarrie",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 64,
+     "name": "Mike Paproski",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 65,
+     "name": "Victoria Waddington",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 66,
+     "name": "Erica Greenup",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 67,
+     "name": "Maia Johnson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 68,
+     "name": "Max Moisanen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 69,
+     "name": "Dashiel Long",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 70,
+     "name": "Jeremy Banting",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 71,
+     "name": "Austin Kleef",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20160509045035id_/http://igsaworldcup.com/results/2012/2012_vernon_co_rslt.pdf / Women Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Marisa Nunez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 2,
+     "name": "Elena Corrigall",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 3,
+     "name": "Anna O'neill",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 4,
+     "name": "Charlie Daigneault",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 5,
+     "name": "Maia Johnson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 6,
+     "name": "Rachel Rayne",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 7,
+     "name": "Victoria Waddington",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 8,
+     "name": "Erica Greenup",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    }
+   ]
+  },
+  {
+   "name": "Junior 1",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20160509045035id_/http://igsaworldcup.com/results/2012/2012_vernon_co_rslt.pdf / Junior 1 Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Quinn Dubois",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Greg Paproski",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 3,
+     "name": "Max Moisanen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    }
+   ]
+  },
+  {
+   "name": "Junior 2",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20160509045035id_/http://igsaworldcup.com/results/2012/2012_vernon_co_rslt.pdf / Junior 2 Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Jonas Richter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 2,
+     "name": "Brendan Davidson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 3,
+     "name": "Kelly Carter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 4,
+     "name": "Alex Johnston",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 5,
+     "name": "Charlie Darragh",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 6,
+     "name": "Quinn Finocchio",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 7,
+     "name": "Brad Cameron",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 8,
+     "name": "Bryan Reich",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 9,
+     "name": "Aidan Lynds",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 10,
+     "name": "Devon Nowlin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 11,
+     "name": "Zion Miller",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 12,
+     "name": "Cam Sodergren",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 13,
+     "name": "Jacob Dutton",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 14,
+     "name": "Matthew Taylor",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 15,
+     "name": "Nick Lutsenko",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 16,
+     "name": "Taryn MacQuarrie",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 17,
+     "name": "Liam Brown",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 18,
+     "name": "Austin Kleef",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    }
+   ]
+  },
+  {
+   "name": "Classic Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20160509045035id_/http://igsaworldcup.com/results/2012/2012_vernon_co_rslt.pdf / Classic Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "William Condon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Ben Zehner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 3,
+     "name": "Scott Peer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 4,
+     "name": "Frank Williams",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 5,
+     "name": "Dylan Wall",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 6,
+     "name": "Chris McBride",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 7,
+     "name": "Jan Moisanen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 8,
+     "name": "Max Moisanen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20160509045035id_/http://igsaworldcup.com/results/2012/2012_vernon_co_rslt.pdf / Street Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "William Condon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Chris McBride",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 3,
+     "name": "Dylan Wall",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 4,
+     "name": "Ben Zehner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 5,
+     "name": "Frank Williams",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 6,
+     "name": "Jan Moisanen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    }
+   ]
+  },
+  {
+   "name": "Inline",
+   "kind": "Inline",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20160509045035id_/http://igsaworldcup.com/results/2012/2012_vernon_co_rslt.pdf / Downhill Inline / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Scott Peer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 2,
+     "name": "Justin Ortiz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

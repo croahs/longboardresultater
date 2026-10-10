@@ -56,7 +56,7 @@ function Head({ a, tab }: { a: Athlete; tab: Tab }) {
           <div><dt>pallplasser</dt><dd className="tnum">{podiums}</dd></div>
           <div title={best ? `${best.place}. av ${best.field} i ${best.race} ${best.year}` : undefined}><dt>beste plass</dt><dd className="tnum">{best ? `${best.place}.` : "–"}</dd></div>
         </dl>
-        <div className="bib-foot"><span className="tnum">{span(ys)}{a.sex === "K" ? " · har kjørt dameklassen" : ""} · NDSF-lister</span><KlasseToggle /></div>
+        <div className="bib-foot"><span className="tnum">{span(ys)}{a.sex === "K" ? " · har kjørt dameklassen" : ""} · resultatlister</span><KlasseToggle /></div>
       </div>
       <nav className="tabs" aria-label={`Sider for ${a.name}`}>
         {TABS.map((t) => <a key={t.id} href={href.rider(a.id, t.id)} aria-current={tab === t.id ? "page" : undefined}>{t.label}</a>)}

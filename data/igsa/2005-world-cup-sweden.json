@@ -1,0 +1,1829 @@
+{
+ "id": "2005-world-cup-sweden",
+ "name": "World Cup Sweden",
+ "year": 2005,
+ "date": "2005-06-30",
+ "date_known": true,
+ "hill": null,
+ "place": "Are, Sweden",
+ "level": "World Cup",
+ "sources": [
+  "http://web.archive.org/web/20080403012640id_/http://www.igsaworldcup.com:80/results/2005/2005_sweden_wc_files/sheet001.htm",
+  "http://web.archive.org/web/20080403012645id_/http://www.igsaworldcup.com:80/results/2005/2005_sweden_wc_files/sheet002.htm",
+  "http://web.archive.org/web/20080403012653id_/http://www.igsaworldcup.com:80/results/2005/2005_sweden_wc_files/sheet003.htm",
+  "http://web.archive.org/web/20080403012656id_/http://www.igsaworldcup.com:80/results/2005/2005_sweden_wc_files/sheet004.htm"
+ ],
+ "titles": [
+  "World Cup Sweden"
+ ],
+ "notes": [
+  "no list recognised in 2005/2005_sweden_wc_files/sheet002.htm",
+  "no list recognised in 2005/2005_sweden_wc_files/sheet003.htm"
+ ],
+ "races": [
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20080403012640id_/http://www.igsaworldcup.com:80/results/2005/2005_sweden_wc_files/sheet001.htm / Mens Downhill Skateboarding / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Bassi Haller",
+     "time": 132.58,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 2,
+     "name": "Martin Siegrist",
+     "time": 134.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 3,
+     "name": "Adrien Barat",
+     "time": 135.97,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 4,
+     "name": "Thomas Edstrand",
+     "time": 136.39,
+     "dnf": false,
+     "dns": false,
+     "nat": "CDN"
+    },
+    {
+     "place": 5,
+     "name": "Alexandre Ulrich",
+     "time": 136.79,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 6,
+     "name": "Thiagor Tebet",
+     "time": 138.87,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 7,
+     "name": "Douglas Silva",
+     "time": 139.05,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 8,
+     "name": "Cedric Burel",
+     "time": 139.94,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 9,
+     "name": "Fredrik Lindstrom",
+     "time": 141.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 10,
+     "name": "Hartmut Olpp",
+     "time": 142.29,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 11,
+     "name": "Guillame Coquin",
+     "time": 142.68,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 12,
+     "name": "Jean-Boyliste Debure",
+     "time": 142.69,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 13,
+     "name": "Sebastian Tournissac",
+     "time": 142.97,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 14,
+     "name": "Jonathan Martinez",
+     "time": 143.02,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 15,
+     "name": "Eugen Forschner",
+     "time": 144.24,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 16,
+     "name": "Dan Andersson",
+     "time": 145.24,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 17,
+     "name": "Adrian Schlotter",
+     "time": 145.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 18,
+     "name": "Luis Lins",
+     "time": 145.34,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 19,
+     "name": "Pierre Dieupart",
+     "time": 145.39,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 20,
+     "name": "Mathias Goransson",
+     "time": 145.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 21,
+     "name": "Daniel Vaisanen",
+     "time": 146.4,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 22,
+     "name": "Cengiz Cobdak",
+     "time": 147.15,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 23,
+     "name": "Sebastian Zielinski",
+     "time": 147.33,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 24,
+     "name": "Alex Duss",
+     "time": 147.45,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 25,
+     "name": "Jody Froment",
+     "time": 147.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 26,
+     "name": "Anders Osterling",
+     "time": 148.19,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 27,
+     "name": "Jesper Edrinsson",
+     "time": 148.39,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 28,
+     "name": "Cyrille Harney",
+     "time": 148.87,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 29,
+     "name": "Andreas Johnson",
+     "time": 148.97,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 30,
+     "name": "Olle Van Keppel",
+     "time": 149.07,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 31,
+     "name": "Maltias Wiklund",
+     "time": 149.58,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 32,
+     "name": "Oscar Rastrom",
+     "time": 149.75,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 33,
+     "name": "Chris Haller",
+     "time": 150.28,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 34,
+     "name": "Sebastian Mezger",
+     "time": 150.45,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 35,
+     "name": "Nino Zeke",
+     "time": 150.75,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 36,
+     "name": "Jens O. Thor",
+     "time": 151.63,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 37,
+     "name": "Baltic Chayjanya",
+     "time": 151.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "THA"
+    },
+    {
+     "place": 38,
+     "name": "Kurt Nischel",
+     "time": 152.26,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 39,
+     "name": "Ryan Theobald",
+     "time": 152.86,
+     "dnf": false,
+     "dns": false,
+     "nat": "CDN"
+    },
+    {
+     "place": 40,
+     "name": "Robert Teufei",
+     "time": 153.76,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 41,
+     "name": "Nathaniel Felsen",
+     "time": 154.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 42,
+     "name": "Aki Von Glasow",
+     "time": 154.93,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 43,
+     "name": "Petter Osterling",
+     "time": 155.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 44,
+     "name": "Stefhane Bas",
+     "time": 155.75,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 45,
+     "name": "Adrien Massieye",
+     "time": 156.91,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 46,
+     "name": "Mikael Ahlstrom",
+     "time": 157.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 47,
+     "name": "Patrik Norlund",
+     "time": 159.77,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 48,
+     "name": "Anders Berglind",
+     "time": 160.55,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 49,
+     "name": "Antony Johnson",
+     "time": 162.68,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 50,
+     "name": "Oscar Olmefors",
+     "time": 163.09,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 51,
+     "name": "Stefan Jansson",
+     "time": 165.71,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 52,
+     "name": "Marcus Wahinder",
+     "time": 167.28,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 53,
+     "name": "Jimmy Winestrom",
+     "time": 169.11,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 54,
+     "name": "Elias Warg",
+     "time": 169.8,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 55,
+     "name": "Olle Axelsson",
+     "time": 171.28,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 56,
+     "name": "Daniel Paulsson",
+     "time": 171.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 57,
+     "name": "Alexandre Blixberg",
+     "time": 173.73,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 58,
+     "name": "Mikael Cappelen-Smith",
+     "time": 183.82,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 59,
+     "name": "David Friman",
+     "time": 189.63,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 60,
+     "name": "Johan Zell",
+     "time": 191.18,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": null,
+     "name": "Peter Karlsson",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Dan Ahlstrom",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Damer",
+   "kind": "Women",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20080403012640id_/http://www.igsaworldcup.com:80/results/2005/2005_sweden_wc_files/sheet001.htm / Womens Downhill Skateboarding / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Bettina Luginbuhl",
+     "time": 156.75,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 2,
+     "name": "Angelina Nobre",
+     "time": 157.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 3,
+     "name": "Uta Hang",
+     "time": 165.31,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 4,
+     "name": "Anneli Backman Trast",
+     "time": 169.42,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 5,
+     "name": "Katreen Wikstrom",
+     "time": 171.87,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 6,
+     "name": "Sandra Costa",
+     "time": 174.78,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 7,
+     "name": "Erika Acosta",
+     "time": 184.61,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20080403012640id_/http://www.igsaworldcup.com:80/results/2005/2005_sweden_wc_files/sheet001.htm / Unlimited Street Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Rian James",
+     "time": 122.62,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 2,
+     "name": "David Dean",
+     "time": 123.78,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 3,
+     "name": "Sebastian Tournissac",
+     "time": 124.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 4,
+     "name": "Klas Meijer",
+     "time": 124.66,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 5,
+     "name": "Edgar De Wit",
+     "time": 125.68,
+     "dnf": false,
+     "dns": false,
+     "nat": "NED"
+    },
+    {
+     "place": 6,
+     "name": "Beni Weber",
+     "time": 126.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 7,
+     "name": "Angelina Nobre",
+     "time": 126.68,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 8,
+     "name": "Tommy Haas",
+     "time": 126.98,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 9,
+     "name": "Francois Fevrier",
+     "time": 128.95,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 10,
+     "name": "Abdil Mahdzan",
+     "time": 129.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "MAS"
+    },
+    {
+     "place": 11,
+     "name": "Gilberto Cossia",
+     "time": 130.39,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 12,
+     "name": "Viktor Meijer",
+     "time": 130.62,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 13,
+     "name": "Caue Lemes",
+     "time": 131.47,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 14,
+     "name": "Dan Ahlstrom",
+     "time": 132.29,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 15,
+     "name": "Jorge Souza",
+     "time": 135.76,
+     "dnf": false,
+     "dns": false,
+     "nat": "POR"
+    },
+    {
+     "place": 16,
+     "name": "Ronny Meier",
+     "time": 142.05,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 17,
+     "name": "Felix Meijer",
+     "time": 143.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Petter Osterling",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Classic Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20080403012640id_/http://www.igsaworldcup.com:80/results/2005/2005_sweden_wc_files/sheet001.htm / Classic Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Rian James",
+     "time": 128.68,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 2,
+     "name": "Beni Weber",
+     "time": 129.2,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 3,
+     "name": "Tommy Haas",
+     "time": 130.8,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 4,
+     "name": "David Dean",
+     "time": 131.05,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 5,
+     "name": "Sebastian Tournissac",
+     "time": 131.82,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 6,
+     "name": "Engen Forschner",
+     "time": 132.16,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 7,
+     "name": "Konstantin Weigl",
+     "time": 134.06,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 8,
+     "name": "Cedric Burel",
+     "time": 134.22,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 9,
+     "name": "Ronny Meier",
+     "time": 134.63,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 10,
+     "name": "Adrien Barat",
+     "time": 135.66,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 11,
+     "name": "Anders Osterling",
+     "time": 137.42,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 12,
+     "name": "Jean-Boyliste Debure",
+     "time": 138.14,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 13,
+     "name": "Dan Ahlstrom",
+     "time": 138.56,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 14,
+     "name": "Jens O Thor",
+     "time": 141.65,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 15,
+     "name": "Oscar Olmefers",
+     "time": 142.08,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 16,
+     "name": "Andreas Johnsen",
+     "time": 142.56,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 17,
+     "name": "Mikael Ahlstrom",
+     "time": 143.44,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 18,
+     "name": "Jorge Souza",
+     "time": 149.35,
+     "dnf": false,
+     "dns": false,
+     "nat": "POR"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Stock Gravity Bike",
+   "kind": "Other",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20080403012640id_/http://www.igsaworldcup.com:80/results/2005/2005_sweden_wc_files/sheet001.htm / Stock Gravity Bike / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "David Kessler",
+     "time": 131.49,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 2,
+     "name": "Adam Ramirez",
+     "time": 136.87,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "David Rimmel",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    }
+   ]
+  },
+  {
+   "name": "Inline",
+   "kind": "Inline",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20080403012640id_/http://www.igsaworldcup.com:80/results/2005/2005_sweden_wc_files/sheet001.htm / Inline Board / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Nihat Uysal",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "TUR"
+    },
+    {
+     "place": 2,
+     "name": "Uli Gut",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    }
+   ]
+  },
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20080403012656id_/http://www.igsaworldcup.com:80/results/2005/2005_sweden_wc_files/sheet004.htm / Mens Downhill Skateboarding / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Aki Von Glasow",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 2,
+     "name": "Martin Siegrist",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 3,
+     "name": "Bassi Haller",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 4,
+     "name": "Jean-Boyliste Debure",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 5,
+     "name": "Adrien Barat",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 6,
+     "name": "Adrian Schlotter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 7,
+     "name": "Thomas Edstrand",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CDN"
+    },
+    {
+     "place": 8,
+     "name": "Douglas Silva",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 9,
+     "name": "Cedric Burel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 10,
+     "name": "Fredrik Lindstrom",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 11,
+     "name": "Guillame Coquin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 12,
+     "name": "Luis Lins",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 13,
+     "name": "Alexandre Ulrich",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 14,
+     "name": "Jonathan Martinez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 15,
+     "name": "Mathias Goransson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 16,
+     "name": "Kurt Nischel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 17,
+     "name": "Hartmut Olpp",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 18,
+     "name": "Eugen Forschner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 19,
+     "name": "Pierre Dieupart",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 20,
+     "name": "Jody Froment",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 21,
+     "name": "Cyrille Harney",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 22,
+     "name": "Chris Haller",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 23,
+     "name": "Nino Zeke",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 24,
+     "name": "Stefhane Bas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 25,
+     "name": "Thiagor Tebet",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 26,
+     "name": "Sebastian Tournissac",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 27,
+     "name": "Dan Andersson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 28,
+     "name": "Daniel Vaisanen",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 29,
+     "name": "Cengiz Cobdak",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "TUR"
+    },
+    {
+     "place": 30,
+     "name": "Alex Duss",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 31,
+     "name": "Anders Osterling",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 32,
+     "name": "Sebastian Mezger",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": null,
+     "name": "Peter Karlsson",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    },
+    {
+     "place": 34,
+     "name": "Andreas Johnson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 35,
+     "name": "Petter Osterling",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 36,
+     "name": "Sebastian Zielinski",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 37,
+     "name": "Jesper Edrinsson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 38,
+     "name": "Olle Van Keppel",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 39,
+     "name": "Maltias Wiklund",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 40,
+     "name": "Oscar Rastrom",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 41,
+     "name": "Baltic Chayjanya",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "THA"
+    },
+    {
+     "place": 42,
+     "name": "Ryan Theobald",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CDN"
+    },
+    {
+     "place": 43,
+     "name": "Robert Teufei",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 44,
+     "name": "Nathaniel Felsen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 45,
+     "name": "Mikael Ahlstrom",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 46,
+     "name": "Antony Johnson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 47,
+     "name": "Oscar Olmefors",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 48,
+     "name": "Marcus Wahinder",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 49,
+     "name": "Jens O. Thor",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 50,
+     "name": "Adrien Massieye",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 51,
+     "name": "Anders Berglind",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 52,
+     "name": "Stefan Jansson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 53,
+     "name": "Jimmy Winestrom",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 54,
+     "name": "Elias Warg",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 55,
+     "name": "Olle Axelsson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 56,
+     "name": "Daniel Paulsson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 57,
+     "name": "Alexandre Blixberg",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 58,
+     "name": "Mikael Cappelen-Smith",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 59,
+     "name": "Patrik Norlund",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 60,
+     "name": "David Friman",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 61,
+     "name": "Johan Zell",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": null,
+     "name": "Dan Ahlstrom",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20080403012656id_/http://www.igsaworldcup.com:80/results/2005/2005_sweden_wc_files/sheet004.htm / Womens Downhill Skateboarding / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Angelina Nobre",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 2,
+     "name": "Bettina Luginbuhl",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 3,
+     "name": "Uta Hang",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 4,
+     "name": "Katreen Wikstrom",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 5,
+     "name": "Anneli Backman Trast",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 6,
+     "name": "Sandra Costa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 7,
+     "name": "Erika Acosta",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20080403012656id_/http://www.igsaworldcup.com:80/results/2005/2005_sweden_wc_files/sheet004.htm / Unlimited Street Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "David Dean",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 2,
+     "name": "Klas Meijer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 3,
+     "name": "Angelina Nobre",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 4,
+     "name": "Rian James",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 5,
+     "name": "Ronny Meier",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 6,
+     "name": "Sebastian Tournissac",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 7,
+     "name": "Edgar De Wit",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NED"
+    },
+    {
+     "place": 8,
+     "name": "Tommy Haas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 9,
+     "name": "Beni Weber",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 10,
+     "name": "Abdil Mahdzan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MAS"
+    },
+    {
+     "place": 11,
+     "name": "Viktor Meijer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 12,
+     "name": "Dan Ahlstrom",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 13,
+     "name": "Francois Fevrier",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 14,
+     "name": "Gilberto Cossia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 15,
+     "name": "Caue Lemes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 16,
+     "name": "Jorge Souza",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "POR"
+    },
+    {
+     "place": 17,
+     "name": "Felix Meijer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Petter Osterling",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    }
+   ]
+  },
+  {
+   "name": "Classic Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20080403012656id_/http://www.igsaworldcup.com:80/results/2005/2005_sweden_wc_files/sheet004.htm / Classic Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "David Dean",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 2,
+     "name": "Tommy Haas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 3,
+     "name": "Beni Weber",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 4,
+     "name": "Rian James",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 5,
+     "name": "Konstantin Weigl",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 6,
+     "name": "Sebastian Tournissac",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 7,
+     "name": "Engen Forschner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 8,
+     "name": "Adrien Barat",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 9,
+     "name": "Cedric Burel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 10,
+     "name": "Ronny Meier",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 11,
+     "name": "Jean-Boyliste Debure",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 12,
+     "name": "Anders Osterling",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 13,
+     "name": "Dan Ahlstrom",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 14,
+     "name": "Jens O Thor",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 15,
+     "name": "Oscar Olmefers",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 16,
+     "name": "Mikael Ahlstrom",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 17,
+     "name": "Andreas Johnsen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 18,
+     "name": "Jorge Souza",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "POR"
+    }
+   ]
+  },
+  {
+   "name": "Stock Gravity Bike",
+   "kind": "Other",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20080403012656id_/http://www.igsaworldcup.com:80/results/2005/2005_sweden_wc_files/sheet004.htm / Stock Gravity Bike / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "David Kessler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 2,
+     "name": "Adam Ramirez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "David Rimmel",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

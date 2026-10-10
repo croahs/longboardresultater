@@ -1,7 +1,8 @@
 # longboardresultater
 
-Resultater fra norske downhill-longboardrace, hentet fra [ndsf.no](https://ndsf.no) (Norges Downhill
-Skateboard Forbund). Startet 2026-10-10 som en kopi av koden i
+Resultater fra downhill-longboardrace: de norske fra [ndsf.no](https://ndsf.no) (Norges Downhill
+Skateboard Forbund), og de internasjonale fra IGSA (1997–2015, via Wayback Machine), IDF (2015–2019) og
+WDSC (2022–). Startet 2026-10-10 som en kopi av koden i
 [croahs/rittresultater](https://github.com/croahs/rittresultater), uten sykkeldataene, uten watt og
 intervals.icu, og uten historikken.
 
@@ -13,15 +14,19 @@ ingen nøkler.
 1. `python3 ndsf.py fetch` henter alle resultatinnlegg fra ndsf.no og skriver `data/ndsf/<år>-<stevne>.json`,
    ett per stevne. Alt den henter, caches i `cache/ndsf/` og committes, så `python3 ndsf.py` uten `fetch`
    bygger om igjen uten nett. `refetch` tømmer cachen først.
-2. `python3 sitedata.py` leser `data/ndsf/` og `data/manual/`, gir hver kjører en fast id i `data/riders.json`,
+2. `python3 igsa.py fetch`, `python3 idf.py fetch` og `python3 wdsc.py fetch` gjør det samme for de internasjonale
+   kildene: `data/igsa/`, `data/idf/` og `data/wdsc/`, med cache i `cache/<kilde>/`. Se «De internasjonale kildene».
+3. `python3 sitedata.py` leser alle mappene under `data/` (`SOURCES` i `sitedata.py`: `igsa`, `idf`, `wdsc`,
+   `ndsf`, `manual`, der en senere mappe vinner over en tidligere for samme stevne-id, så lenge den har lister:
+   ndsf.no vinner over IGSA/IDF for et norsk race, en manuell fil vinner over alt), gir hver kjører en fast id i `data/riders.json`,
    regner ut innbyrdes oppgjør og skriver det siden leser: `data/races.json`, `data/riders/`,
    `data/summary.json` og `data/site/site.json`.
-3. `python3 tracks.py` lager `data/tracks/<bakke>.json` for hver bakke i `data/hills.json` som har start og mål:
+4. `python3 tracks.py` lager `data/tracks/<bakke>.json` for hver bakke i `data/hills.json` som har start og mål:
    veien fra OpenStreetMap (via OSRM) og høyde fra Kartverkets åpne høydedata, med stigning per strekning.
-4. `cd web && pnpm build` kopierer `data/` inn i siden (`web/scripts/copy-data.mjs`) og bygger til `web/dist/`.
+5. `cd web && pnpm build` kopierer `data/` inn i siden (`web/scripts/copy-data.mjs`) og bygger til `web/dist/`.
    Se `docs/DEPLOY.md` for Cloudflare Pages.
 
-Kjør stegene i den rekkefølgen etter nye innlegg på ndsf.no, og commit `cache/` og `data/`.
+Kjør stegene i den rekkefølgen etter nye innlegg på ndsf.no (eller nye runder hos WDSC), og commit `cache/` og `data/`.
 
 ## Kilden: ndsf.no
 
@@ -59,6 +64,25 @@ ikke med; listen står i `SKIP_POSTS` i `ndsf.py`.
   vei. Lagring skriver `data/hills.json`, kjører `tracks.py` for bakken og tegner veien med stigning med en gang. Commit `data/hills.json` og `data/tracks/`. `python3 tracks.py check` viser hva som
   gjenstår. (Uten verktøyet: sett `start` og `finish` til `[lat, lon]` i `data/hills.json` for hånd.)
 
+## De internasjonale kildene
+
+Samme filform som `data/ndsf/`, pluss `place` (sted eller land) og for IGSA `level` (World Cup, Continental …).
+Kjørerne matches på navn på tvers av kildene, så en nordmann som kjørte Kozakov får det på siden sin.
+Alle tre hentere leser cachen uten nett; `fetch` henter det som mangler (IGSA) eller alt på nytt (IDF, WDSC),
+`refetch` tømmer cachen først.
+
+| Kilde | År | Hvor | Hva vi leser |
+|---|---|---|---|
+| IGSA (`igsa.py`) | 1997–2015 (tyngst 2009–2013) | igsaworldcup.com er borte; Wayback Machine har `/results/<år>/`-filene, funnet via CDX-indeksen (`cache/igsa/cdx.json`) | Én PDF per stevne og liste (kvalik og finale) fra 2009, Excel-eksportert HTML 2005–2008. Toppen gir stevne, sted, dato og nivå; så én seksjon per klasse. Finalelisten rangerer alle som kjørte (heatene avgjør), kvaliklisten har tider |
+| IDF (`idf.py`) | 2015–2019 | internationaldownhillfederation.org/rankings/: HTML-tabeller på `rankings.`-underdomenet (2015–2018) og Google Sheets (2019) | Sesongrankingen per klasse og region gir plass per race for hver rangert kjører; lest kolonne for kolonne er det hvert race sin liste (bare de som fikk plass, ingen DNF). Dato og land fra `/races/<år>/`. 2013–2014 har bare sesongsum, 2020– ble aldri rangert |
+| WDSC (`wdsc.py`) | 2022– | worlddownhillskateboardingchampionship.com, standings-sidene i menyen «Riders & Standings» | HTML-tabeller per stevne og klasse, med serien (CT = Championship Tour, QS = Qualifying Series) i racenavnet, og kvaliktider der de finnes. 2022–2023 gir også plass per race i sesongtabellen (flere kjørere enn topp 10-listene). 2019 har bare sesongpoeng |
+
+Kjente hull: de fleste IGSA-filene fra 2009 (og noen fra 2010–2011 med et rart skilletegn i navnet) er aldri arkivert,
+Wayback har bare feilsider for dem; IGSA-PDF-ene mister bokstaver utenfor ASCII (ø skrives inn igjen for NOR-kjørere, ellers faller
+bokstaven bort); noen Wayback-filer er feilsider (statuskode 200, men HTML), de hoppes over; WDSC-stevner
+uten dato i overskriften får 1. januar med `date_known: false`; IDF-race som ikke står på `/races/<år>/`
+får det samme og en note. `python3 <kilde>.py` skriver ut hva som ble lest og notene.
+
 ## Hva siden får
 
 `web/` leser `data/site/site.json`, `data/riders/index.json` og `data/riders/shard-NN.json` (hver kjører med
@@ -87,7 +111,7 @@ På Windows: bruk `py` (Python-launcheren) i stedet for `python3`, for eksempel 
 virker også `python`; i Git Bash er det ofte bare `py` som ligger på PATH.
 
 ```sh
-python3 ndsf.py && python3 sitedata.py && python3 tracks.py
+python3 ndsf.py && python3 igsa.py && python3 idf.py && python3 wdsc.py && python3 sitedata.py && python3 tracks.py
 cd web && pnpm install && pnpm build   # eller pnpm dev
 ```
 

@@ -1,0 +1,1109 @@
+{
+ "id": "2010-hotel-los-portales-tarma",
+ "name": "Hotel Los Portales Tarma",
+ "year": 2010,
+ "date": "2010-10-30",
+ "date_known": true,
+ "hill": null,
+ "place": "Tarma, Peru",
+ "level": "Continental",
+ "sources": [
+  "http://web.archive.org/web/20111216025900id_/http://www.igsaworldcup.com/results/2010/2010_hotel_lpt_co_qual.pdf",
+  "http://web.archive.org/web/20111216025910id_/http://www.igsaworldcup.com/results/2010/2010_hotel_lpt_co.pdf"
+ ],
+ "titles": [
+  "Hotel Los Portales Tarma"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20111216025900id_/http://www.igsaworldcup.com/results/2010/2010_hotel_lpt_co_qual.pdf / Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Douglas Silva",
+     "time": 183.44,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 2,
+     "name": "Kevin Reimer",
+     "time": 184.51,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 3,
+     "name": "Dillon Stephans",
+     "time": 187.74,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 4,
+     "name": "James Kelly",
+     "time": 187.79,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 5,
+     "name": "Ricardo Reis",
+     "time": 189.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 6,
+     "name": "Juliano Cassemiro",
+     "time": 191.63,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 7,
+     "name": "Felipe Malaga",
+     "time": 192.19,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 8,
+     "name": "Hugh Kibbling",
+     "time": 193.14,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 9,
+     "name": "Diego Alempart",
+     "time": 193.42,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 10,
+     "name": "Luis Lins",
+     "time": 193.44,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 11,
+     "name": "Juan Guevara",
+     "time": 195.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 12,
+     "name": "Caio Cesar",
+     "time": 195.8,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 13,
+     "name": "Renne Rivieros",
+     "time": 197.68,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 14,
+     "name": "Carlos Fernandez",
+     "time": 198.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 15,
+     "name": "Diego Medel",
+     "time": 198.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 16,
+     "name": "Alonso Melgar",
+     "time": 199.8,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 17,
+     "name": "Cesar Sandoval",
+     "time": 199.86,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 18,
+     "name": "Gustavo Paredes",
+     "time": 201.45,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 19,
+     "name": "Bruno Araujo",
+     "time": 201.98,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 20,
+     "name": "Chistian Montoya",
+     "time": 202.35,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 21,
+     "name": "Naif Salomon",
+     "time": 202.36,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 22,
+     "name": "Luiz Vinassa",
+     "time": 202.76,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 23,
+     "name": "Kevin Scoot",
+     "time": 203.44,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 24,
+     "name": "Lucas Falcioni",
+     "time": 203.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 25,
+     "name": "Edgardo Bretoneche",
+     "time": 204.35,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 26,
+     "name": "Jorge Galasso",
+     "time": 204.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 27,
+     "name": "Mariano Tobar",
+     "time": 206.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 28,
+     "name": "Fábio Matos",
+     "time": 207.69,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 29,
+     "name": "Nicolas Rodrigues",
+     "time": 210.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 30,
+     "name": "Rubem Pinango",
+     "time": 210.44,
+     "dnf": false,
+     "dns": false,
+     "nat": "VEN"
+    },
+    {
+     "place": 31,
+     "name": "Fernando Ramos",
+     "time": 210.48,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 32,
+     "name": "Jose Cortez",
+     "time": 210.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 33,
+     "name": "Diego Salina",
+     "time": 211.3,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 34,
+     "name": "Aldo Carella",
+     "time": 211.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 35,
+     "name": "Marco Becerra",
+     "time": 212.11,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 36,
+     "name": "Victor Larco",
+     "time": 212.17,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 37,
+     "name": "Kenneth Falcon",
+     "time": 213.47,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 38,
+     "name": "Alonso Riviera",
+     "time": 214.61,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 39,
+     "name": "Sergio Leonardo",
+     "time": 214.93,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 40,
+     "name": "Gianpiero Quesquen",
+     "time": 215.47,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 41,
+     "name": "Cristiano Barreto",
+     "time": 216.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 42,
+     "name": "Diego Saco-vertiz",
+     "time": 217.73,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 43,
+     "name": "Marisa Nunez",
+     "time": 219.73,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 44,
+     "name": "Franco Merino",
+     "time": 220.11,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 45,
+     "name": "Alejandro Hidalgo",
+     "time": 220.78,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 46,
+     "name": "Renzo Viera",
+     "time": 222.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 47,
+     "name": "Cesar Lutfi",
+     "time": 222.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 48,
+     "name": "Rafael Candela",
+     "time": 223.26,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 49,
+     "name": "Oscar Leon",
+     "time": 223.35,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 50,
+     "name": "Vicenzo Canale",
+     "time": 224.59,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 51,
+     "name": "Jonatthan Villegas",
+     "time": 224.81,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 52,
+     "name": "Jonathan Guardia",
+     "time": 225.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 53,
+     "name": "Omar Jorge",
+     "time": 225.23,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 54,
+     "name": "Felipe Balta",
+     "time": 228.3,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 55,
+     "name": "Ricardo Hidalgo",
+     "time": 229.78,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 56,
+     "name": "Mauricio Espinoza",
+     "time": 233.94,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 57,
+     "name": "Tony Leveau",
+     "time": 236.05,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 58,
+     "name": "Piero Romani",
+     "time": 239.12,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 59,
+     "name": "Chistie Aleixo",
+     "time": 246.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 60,
+     "name": "Rodolfo Letieri",
+     "time": 246.76,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 61,
+     "name": "Francisco del Cuadr",
+     "time": 262.64,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 62,
+     "name": "Gonzalo Brandon",
+     "time": 300.12,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 63,
+     "name": "Reine Oliveira",
+     "time": 303.98,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Damer",
+   "kind": "Women",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20111216025900id_/http://www.igsaworldcup.com/results/2010/2010_hotel_lpt_co_qual.pdf / Women Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Marisa Nunez",
+     "time": 219.73,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 2,
+     "name": "Chistie Aleixo",
+     "time": 246.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 3,
+     "name": "Reine Oliveira",
+     "time": 303.98,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    }
+   ]
+  },
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111216025910id_/http://www.igsaworldcup.com/results/2010/2010_hotel_lpt_co.pdf / Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Douglas Silva",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 2,
+     "name": "Kevin Reimer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 3,
+     "name": "James Kelly",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 4,
+     "name": "Dillon Stephans",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 5,
+     "name": "Ricardo Reis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 6,
+     "name": "Diego Alempart",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 7,
+     "name": "Luis Lins",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 8,
+     "name": "Carlos Fernandez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 9,
+     "name": "Hugh Kibbling",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 10,
+     "name": "Juan Guevara",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 11,
+     "name": "Renne Rivieros",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 12,
+     "name": "Gustavo Paredes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 13,
+     "name": "Juliano Cassemiro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 14,
+     "name": "Felipe Malaga",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 15,
+     "name": "Caio Cesar",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 16,
+     "name": "Jose Cortez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 17,
+     "name": "Diego Medel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 18,
+     "name": "Alonso Melgar",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 19,
+     "name": "Chistian Montoya",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 20,
+     "name": "Naif Salomon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 21,
+     "name": "Luiz Vinassa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 22,
+     "name": "Edgardo Bretoneche",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 23,
+     "name": "Jorge Galasso",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 24,
+     "name": "Rubem Pinango",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "VEN"
+    },
+    {
+     "place": 25,
+     "name": "Cesar Sandoval",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 26,
+     "name": "Bruno Araujo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 27,
+     "name": "Kevin Scoot",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 28,
+     "name": "Lucas Falcioni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 29,
+     "name": "Fábio Matos",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 30,
+     "name": "Fernando Ramos",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 31,
+     "name": "Victor Larco",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 32,
+     "name": "Alonso Riviera",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 33,
+     "name": "Diego Salina",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 34,
+     "name": "Gianpiero Quesquen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 35,
+     "name": "Diego Saco-vertiz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 36,
+     "name": "Franco Merino",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 37,
+     "name": "Alejandro Hidalgo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 38,
+     "name": "Renzo Viera",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 39,
+     "name": "Cesar Lutfi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 40,
+     "name": "Rafael Candela",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 41,
+     "name": "Vicenzo Canale",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 42,
+     "name": "Jonatthan Villegas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 43,
+     "name": "Jonathan Guardia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 44,
+     "name": "Omar Jorge",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 45,
+     "name": "Felipe Balta",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 46,
+     "name": "Ricardo Hidalgo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 47,
+     "name": "Tony Leveau",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 48,
+     "name": "Chistie Aleixo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 49,
+     "name": "Mariano Tobar",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 50,
+     "name": "Nicolas Rodrigues",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 51,
+     "name": "Aldo Carella",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 52,
+     "name": "Marco Becerra",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 53,
+     "name": "Kenneth Falcon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 54,
+     "name": "Sergio Leonardo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 55,
+     "name": "Cristiano Barreto",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 56,
+     "name": "Marisa Nunez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 57,
+     "name": "Oscar Leon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 58,
+     "name": "Mauricio Espinoza",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 59,
+     "name": "Piero Romani",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 60,
+     "name": "Rodolfo Letieri",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 61,
+     "name": "Francisco del Cuadr",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 62,
+     "name": "Gonzalo Brandon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 63,
+     "name": "Reine Oliveira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111216025910id_/http://www.igsaworldcup.com/results/2010/2010_hotel_lpt_co.pdf / Women Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Marisa Nunez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 2,
+     "name": "Chistie Aleixo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 3,
+     "name": "Reine Oliveira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

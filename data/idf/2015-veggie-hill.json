@@ -1,0 +1,683 @@
+{
+ "id": "2015-veggie-hill",
+ "name": "Veggie Hill",
+ "year": 2015,
+ "date": "2015-04-11",
+ "date_known": true,
+ "hill": null,
+ "place": "Philippines",
+ "sources": [
+  "https://internationaldownhillfederation.org/rankings/2015-rankings/"
+ ],
+ "titles": [
+  "Veggie High"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2015/World-Rankings-2015-Open-Skateboard.html / Veggie High",
+   "results": [
+    {
+     "place": 1,
+     "name": "Dillon Stephens",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 2,
+     "name": "Byron Essert",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 3,
+     "name": "James Kelly",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 4,
+     "name": "Patrick Walker",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 5,
+     "name": "Patrick Switzer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 6,
+     "name": "Riley Irvine",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 7,
+     "name": "Roger Jones",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 8,
+     "name": "Bryce Brady",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 9,
+     "name": "Micah Green",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 10,
+     "name": "Simon Duber",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 11,
+     "name": "Harry Clarke",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 12,
+     "name": "Rj Ancot",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 13,
+     "name": "Robert McWhinnie",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 14,
+     "name": "Roy Churchland",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 15,
+     "name": "Adam Yates",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 16,
+     "name": "Franz Brian A Solasco",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 17,
+     "name": "Alex Young",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 18,
+     "name": "Trevor Ovenden",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 19,
+     "name": "Michael Angelo Dela Serna",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 20,
+     "name": "Levi Green",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 21,
+     "name": "Charles John Revyan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 22,
+     "name": "Robert Burns",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Hong Kong"
+    },
+    {
+     "place": 23,
+     "name": "John Den Escarda",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 24,
+     "name": "Neil Duddy",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 25,
+     "name": "Gerard Cancio",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 26,
+     "name": "Ben Hay",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 27,
+     "name": "Noriyuki Tamura",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Japan"
+    },
+    {
+     "place": 28,
+     "name": "Bingbong Gutobat",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 29,
+     "name": "John Rey Ricablanca",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 30,
+     "name": "Winston Fox",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 31,
+     "name": "John Tongco",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 32,
+     "name": "Brent Dubendorff",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 33,
+     "name": "Cameron Hancock",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 34,
+     "name": "Jerome Zeng",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "People's Republic of China"
+    },
+    {
+     "place": 35,
+     "name": "Ronald Sarinas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 36,
+     "name": "Tamara Prader",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Switzerland"
+    },
+    {
+     "place": 37,
+     "name": "Amadeo Abad",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 38,
+     "name": "John Rex Ricablanca",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 39,
+     "name": "Aryo Nugroho",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Indonesia"
+    },
+    {
+     "place": 40,
+     "name": "Javier Lim",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Singapore"
+    },
+    {
+     "place": 41,
+     "name": "Liam Coppleman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 42,
+     "name": "Rosehan Anwar",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Indonesia"
+    },
+    {
+     "place": 43,
+     "name": "Chao` D",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "People's Republic of China"
+    },
+    {
+     "place": 44,
+     "name": "Andry Satria Permata",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Indonesia"
+    },
+    {
+     "place": 45,
+     "name": "Tomas Romualdez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 46,
+     "name": "Muhammad Sayhir Raifuddin Bin Mohd Salihen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Singapore"
+    },
+    {
+     "place": 47,
+     "name": "Jerico Baccay",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 48,
+     "name": "Chanel Huey Abad",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 49,
+     "name": "Magaly McWhinnie",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 50,
+     "name": "James Lange",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Singapore"
+    },
+    {
+     "place": 51,
+     "name": "Jerson Flores",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 52,
+     "name": "Jose Lorenzo Villareal",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 53,
+     "name": "Kara Marbe Urbiztondo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 54,
+     "name": "Robert Vincent Gealon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 55,
+     "name": "Rosanne Escalante",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 56,
+     "name": "Abigail Viloria",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 57,
+     "name": "Ayumi Oride",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Japan"
+    },
+    {
+     "place": 58,
+     "name": "Maya Joshua Fernandez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 59,
+     "name": "Bodi Xie",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "People's Republic of China"
+    },
+    {
+     "place": 60,
+     "name": "Zach Hewett",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 61,
+     "name": "Christopher Pegg",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United Kingdom"
+    },
+    {
+     "place": 62,
+     "name": "Kellan Osborne",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United Kingdom"
+    },
+    {
+     "place": 63,
+     "name": "Joseph Falcone",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 64,
+     "name": "Roswald Palacol",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 65,
+     "name": "Ryan Nicholls",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2015/World-Rankings-2015-Women-Skateboard.html / Veggie High",
+   "results": [
+    {
+     "place": 1,
+     "name": "Tamara Prader",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Switzerland"
+    },
+    {
+     "place": 2,
+     "name": "Maya Joshua Fernandez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 3,
+     "name": "Kara Marbe Urbiztondo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 4,
+     "name": "Abigail Viloria",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 5,
+     "name": "Rosanne Escalante",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 6,
+     "name": "Ayumi Oride",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Japan"
+    },
+    {
+     "place": 7,
+     "name": "Magaly McWhinnie",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    }
+   ]
+  },
+  {
+   "name": "Junior",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2015/World-Rankings-2015-Junior-Skateboard.html / Veggie High",
+   "results": [
+    {
+     "place": 1,
+     "name": "Charles John Revyan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 2,
+     "name": "Franz Brian A Solasco",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 3,
+     "name": "Robert Burns",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Hong Kong"
+    },
+    {
+     "place": 4,
+     "name": "Tomas Romualdez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 5,
+     "name": "Muhammad Sayhir Raifuddin Bin Mohd Salihen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Singapore"
+    },
+    {
+     "place": 6,
+     "name": "Javier Lim",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Singapore"
+    },
+    {
+     "place": 7,
+     "name": "Christopher Pegg",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United Kingdom"
+    },
+    {
+     "place": 8,
+     "name": "James Lange",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Singapore"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

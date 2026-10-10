@@ -1,0 +1,563 @@
+{
+ "id": "2018-keeping-it-high-seaside",
+ "name": "Keeping It High - Seaside",
+ "year": 2018,
+ "date": "2018-04-18",
+ "date_known": true,
+ "hill": null,
+ "place": "Philippines",
+ "sources": [
+  "https://internationaldownhillfederation.org/rankings/2018-rankings/"
+ ],
+ "titles": [
+  "Keeping it High - Seaside"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2018/World-Rankings-2018-Open-Skateboard.html / Keeping it High - Seaside",
+   "results": [
+    {
+     "place": 1,
+     "name": "Emily Pross",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 2,
+     "name": "Carlos Paixão",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 3,
+     "name": "Thiago Gomes Lessa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 4,
+     "name": "Josh Evans",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 5,
+     "name": "Harry Clarke",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 6,
+     "name": "Mitch Thompson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 7,
+     "name": "Max Vickers",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 8,
+     "name": "Chase Hiller",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 9,
+     "name": "Kalil Hammouri",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 10,
+     "name": "Jaydon Howarth",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 11,
+     "name": "Aleix Gallimo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Spain"
+    },
+    {
+     "place": 12,
+     "name": "Rodri Arthem Alvaro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 13,
+     "name": "Morgan Owens",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 14,
+     "name": "Santiago Espeche",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 15,
+     "name": "Jordan Hall",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 16,
+     "name": "Sebastian Chanco",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 17,
+     "name": "Andrew Atchison",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 18,
+     "name": "John Tongco",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 19,
+     "name": "Arkadiusz Kowalski",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Poland"
+    },
+    {
+     "place": 20,
+     "name": "Tim White",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 21,
+     "name": "Tomas Romualdez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 22,
+     "name": "Cornelius Kaup",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 23,
+     "name": "Nori Tamura",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Japan"
+    },
+    {
+     "place": 25,
+     "name": "Ronald Sarinas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 26,
+     "name": "Jennifer Schauerte",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 27,
+     "name": "Siyu Zhao",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "China"
+    },
+    {
+     "place": 28,
+     "name": "Jan Bryan Figueroa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 29,
+     "name": "Eden McDonogh",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 30,
+     "name": "Tito Sumicad",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 31,
+     "name": "Vince Vazquez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 32,
+     "name": "Jaime De Lange",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 33,
+     "name": "Caloy Sambrano",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 34,
+     "name": "Peter Fritz Siason",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 35,
+     "name": "Elissa Mah",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "New Zealand"
+    },
+    {
+     "place": 36,
+     "name": "Dina Miss",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 37,
+     "name": "Mengli Wang",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "China"
+    },
+    {
+     "place": 38,
+     "name": "Andrei Ybañez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 39,
+     "name": "Ayumi Oride",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Japan"
+    },
+    {
+     "place": 40,
+     "name": "Ling Lee",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Malaysia"
+    },
+    {
+     "place": 41,
+     "name": "Fifer Figueroa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Mexico"
+    },
+    {
+     "place": 42,
+     "name": "Sylvia Mena Cortés",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 43,
+     "name": "Natalie Burns",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Ireland"
+    },
+    {
+     "place": 44,
+     "name": "Miko Montifar",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 45,
+     "name": "Joaquin Romero",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2018/World-Rankings-2018-Women-Skateboard.html / Keeping it High - Seaside",
+   "results": [
+    {
+     "place": 1,
+     "name": "Emily Pross",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 2,
+     "name": "Jennifer Schauerte",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 3,
+     "name": "Elissa Mah",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "New Zealand"
+    },
+    {
+     "place": 4,
+     "name": "Dina Miss",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 5,
+     "name": "Ayumi Oride",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Japan"
+    },
+    {
+     "place": 6,
+     "name": "Sylvia Mena Cortés",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 7,
+     "name": "Abigail Viloria",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 8,
+     "name": "Ling Lee",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Malaysia"
+    },
+    {
+     "place": 9,
+     "name": "Natalie Burns",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Ireland"
+    },
+    {
+     "place": 10,
+     "name": "Fifer Figueroa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Mexico"
+    },
+    {
+     "place": 11,
+     "name": "Mengli Wang",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "China"
+    }
+   ]
+  },
+  {
+   "name": "Junior",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2018/World-Rankings-2018-Junior-Skateboard.html / Keeping it High - Seaside",
+   "results": [
+    {
+     "place": 1,
+     "name": "Sebastian Chanco",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 2,
+     "name": "Jan Bryan Figueroa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 3,
+     "name": "Andrei Ybañez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    }
+   ]
+  },
+  {
+   "name": "Masters",
+   "kind": "Masters",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2018/World-Rankings-2018-Master-Skateboard.html / Keeping it High - Seaside",
+   "results": [
+    {
+     "place": 1,
+     "name": "Cornelius Kaup",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 2,
+     "name": "Peter Fritz Siason",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 3,
+     "name": "Caloy Sambrano",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2018/World-Rankings-2018-Luge.html / Keeping it High - Seaside",
+   "results": [
+    {
+     "place": 1,
+     "name": "Abdil Mahdzan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Malaysia"
+    },
+    {
+     "place": 2,
+     "name": "Dennis Andrado",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

@@ -78,7 +78,7 @@ export interface RatingPool {
 }
 export interface Summary {
   events: number; races: number; results: number; riders: number; years: number[];
-  recent: { id: string; name: string; cls: string; date: string; type: RaceType; finishers: number; fastest: Who | null; fastest_women: Who | null }[];
+  recent: { id: string; name: string; cls: string; date: string; date_known?: boolean; type: RaceType; finishers: number; fastest: Who | null; fastest_women: Who | null }[];
   biggest: { name: string; cls: string; riders: number } | null;
   busiest: (Who & { races: number })[];
   closest?: { name: string; gap_s: number; a: Who; b: Who };

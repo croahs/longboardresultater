@@ -1,0 +1,804 @@
+{
+ "id": "2009-downhill-vs-miniramp-contest-gravity-sports-austria",
+ "name": "Downhill vs Miniramp Contest Gravity Sports Austria",
+ "year": 2009,
+ "date": "2009-01-01",
+ "date_known": false,
+ "hill": null,
+ "place": "Austria, Lohnsburg/Kobernaußerwald Alexander Frischauf",
+ "level": "Regional Dry",
+ "sources": [
+  "http://web.archive.org/web/20250523110817id_/http://www.igsaworldcup.com/results/2009/2009_dh_vs_miniramp_rg.pdf"
+ ],
+ "titles": [
+  "Downhill vs Miniramp Contest Gravity Sports Austria"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20250523110817id_/http://www.igsaworldcup.com/results/2009/2009_dh_vs_miniramp_rg.pdf / Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Sebastian Hertler",
+     "time": 101.89,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 2,
+     "name": "Stephan Risch",
+     "time": 103.41,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 3,
+     "name": "Max Stamler",
+     "time": 104.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 4,
+     "name": "Mathias Brutscher",
+     "time": 104.31,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 5,
+     "name": "Michael Serek",
+     "time": 104.73,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 6,
+     "name": "Timo Mehnert",
+     "time": 105.41,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 7,
+     "name": "Tom Dammann",
+     "time": 105.57,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 8,
+     "name": "Dominik Weber",
+     "time": 106.34,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 9,
+     "name": "Jonathan Fischbach",
+     "time": 106.98,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 10,
+     "name": "Laguna Ignacio Miranda",
+     "time": 107.51,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 11,
+     "name": "Leon Schwall",
+     "time": 107.55,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 12,
+     "name": "Sven Wiedmann",
+     "time": 108.43,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 13,
+     "name": "Gregor Pelzl",
+     "time": 108.75,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 14,
+     "name": "Sebastian Mezger",
+     "time": 108.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 15,
+     "name": "Matz Fink",
+     "time": 109.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 16,
+     "name": "Stephan Maul",
+     "time": 109.49,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": null,
+     "name": "Dennis Wangler",
+     "time": 109.54,
+     "dnf": false,
+     "dns": true,
+     "nat": "GER"
+    },
+    {
+     "place": 18,
+     "name": "Holger Schredder",
+     "time": 110.02,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 19,
+     "name": "Alexander Dietrich",
+     "time": 111.54,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 20,
+     "name": "Konrad Leupold",
+     "time": 111.72,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 21,
+     "name": "Benjamin Beger",
+     "time": 111.82,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 22,
+     "name": "Daniel Kiehlmann",
+     "time": 112.19,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 23,
+     "name": "Alex Frischauf",
+     "time": 113.01,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 24,
+     "name": "Robert Richter",
+     "time": 113.18,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 25,
+     "name": "Philipp Zdrenka",
+     "time": 113.42,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 26,
+     "name": "Uwe Dederer",
+     "time": 114.68,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 27,
+     "name": "Christoph Wiedmann",
+     "time": 115.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 28,
+     "name": "Manu Kleiter",
+     "time": 117.11,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 29,
+     "name": "Paul Mazanek",
+     "time": 120.97,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 30,
+     "name": "Marcos Rondon",
+     "time": 131.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "VEN"
+    },
+    {
+     "place": 31,
+     "name": "Jan Dederer",
+     "time": 134.79,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 32,
+     "name": "Pedro Dederer",
+     "time": 137.08,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Damer",
+   "kind": "Women",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20250523110817id_/http://www.igsaworldcup.com/results/2009/2009_dh_vs_miniramp_rg.pdf / Womens Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Judith Richter",
+     "time": 119.14,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 2,
+     "name": "Nicola Reinthaler",
+     "time": 120.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 3,
+     "name": "Daniela Haller",
+     "time": 123.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 4,
+     "name": "Anne Kaske",
+     "time": 125.67,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 5,
+     "name": "Maike Westerlich",
+     "time": 128.07,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": null,
+     "name": "Fee Bücheler",
+     "time": 148.75,
+     "dnf": false,
+     "dns": true,
+     "nat": "GER"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20250523110817id_/http://www.igsaworldcup.com/results/2009/2009_dh_vs_miniramp_rg.pdf / Street Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Michael Müller",
+     "time": 97.89,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 2,
+     "name": "Alex Frischauf",
+     "time": 101.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Classic Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20250523110817id_/http://www.igsaworldcup.com/results/2009/2009_dh_vs_miniramp_rg.pdf / Classic Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Michael Serek",
+     "time": 99.86,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 2,
+     "name": "Georg Klotzberg",
+     "time": 104.31,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 3,
+     "name": "Robert Richter",
+     "time": 110.82,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 4,
+     "name": "Cornelia Dworak",
+     "time": 119.78,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 5,
+     "name": "Sascha Sobot",
+     "time": 123.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    }
+   ]
+  },
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20250523110817id_/http://www.igsaworldcup.com/results/2009/2009_dh_vs_miniramp_rg.pdf / Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Sebastian Hertler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 2,
+     "name": "Max Stamler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 3,
+     "name": "Tom Dammann",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 4,
+     "name": "Michael Serek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 5,
+     "name": "Stephan Risch",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 6,
+     "name": "Mathias Brutscher",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 7,
+     "name": "Timo Mehnert",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 8,
+     "name": "Dominik Weber",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 9,
+     "name": "Jonathan Fischbach",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 10,
+     "name": "Laguna Ignacio Miranda",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHI"
+    },
+    {
+     "place": 11,
+     "name": "Leon Schwall",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 12,
+     "name": "Sven Wiedmann",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 13,
+     "name": "Gregor Pelzl",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 14,
+     "name": "Sebastian Mezger",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 15,
+     "name": "Matz Fink",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 16,
+     "name": "Dennis Wangler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 17,
+     "name": "Stephan Maul",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 18,
+     "name": "Holger Schredder",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 19,
+     "name": "Alexander Dietrich",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 20,
+     "name": "Konrad Leupold",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 21,
+     "name": "Benjamin Beger",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 22,
+     "name": "Daniel Kiehlmann",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 23,
+     "name": "Alex Frischauf",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 24,
+     "name": "Robert Richter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 25,
+     "name": "Philipp Zdrenka",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 26,
+     "name": "Uwe Dederer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 27,
+     "name": "Christoph Wiedmann",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 28,
+     "name": "Manu Kleiter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 29,
+     "name": "Paul Mazanek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 30,
+     "name": "Marcos Rondon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "VEN"
+    },
+    {
+     "place": 31,
+     "name": "Jan Dederer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 32,
+     "name": "Pedro Dederer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20250523110817id_/http://www.igsaworldcup.com/results/2009/2009_dh_vs_miniramp_rg.pdf / Womens Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Judith Richter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 2,
+     "name": "Anne Kaske",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 3,
+     "name": "Maike Westerlich",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 4,
+     "name": "Nicola Reinthaler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 5,
+     "name": "Daniela Haller",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 6,
+     "name": "Fee Bücheler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20250523110817id_/http://www.igsaworldcup.com/results/2009/2009_dh_vs_miniramp_rg.pdf / Street Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Michael Müller",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 2,
+     "name": "Alex Frischauf",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    }
+   ]
+  },
+  {
+   "name": "Classic Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20250523110817id_/http://www.igsaworldcup.com/results/2009/2009_dh_vs_miniramp_rg.pdf / Classic Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Georg Klotzberg",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 2,
+     "name": "Michael Serek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 3,
+     "name": "Cornelia Dworak",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 4,
+     "name": "Sascha Sobot",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 5,
+     "name": "Robert Richter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

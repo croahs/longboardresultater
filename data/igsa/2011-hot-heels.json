@@ -1,0 +1,1477 @@
+{
+ "id": "2011-hot-heels",
+ "name": "Hot Heels",
+ "year": 2011,
+ "date": "2011-12-10",
+ "date_known": true,
+ "hill": null,
+ "place": "Kogelburg, South Africa",
+ "level": "World Cup",
+ "sources": [
+  "http://web.archive.org/web/20160606095117id_/http://igsaworldcup.com/results/2011/2011_hotheels_africa_wc_qual.pdf",
+  "http://web.archive.org/web/20160606095205id_/http://igsaworldcup.com/results/2011/2011_hotheels_africa_wc_rslt.pdf"
+ ],
+ "titles": [
+  "Hot Heels"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20160606095117id_/http://igsaworldcup.com/results/2011/2011_hotheels_africa_wc_qual.pdf / Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Jackson Shapiera",
+     "time": 101.97,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 2,
+     "name": "Douglas Silva",
+     "time": 103.77,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 3,
+     "name": "Mischo Erban",
+     "time": 104.55,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 4,
+     "name": "Christoph Batt",
+     "time": 104.67,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 5,
+     "name": "Justin Readings",
+     "time": 105.55,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 6,
+     "name": "Luca Coleman",
+     "time": 107.34,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 7,
+     "name": "Torbjørn Sunde",
+     "time": 107.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 8,
+     "name": "Anton Pratt",
+     "time": 108.3,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 9,
+     "name": "Robin Sandberg",
+     "time": 108.94,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 10,
+     "name": "Berg Raoul Van Den",
+     "time": 109.19,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 11,
+     "name": "Mike Upham",
+     "time": 109.52,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 12,
+     "name": "Oliver Nielsen",
+     "time": 110.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 13,
+     "name": "Paul Du Plessis",
+     "time": 110.42,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 14,
+     "name": "Stefan Ruefli",
+     "time": 111.28,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 15,
+     "name": "Matt Arderne",
+     "time": 111.59,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 16,
+     "name": "Alex Duss",
+     "time": 111.86,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 17,
+     "name": "Murray Chandler",
+     "time": 112.19,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 18,
+     "name": "Craig Mckune",
+     "time": 112.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 19,
+     "name": "Andreas Valebjørg",
+     "time": 112.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 20,
+     "name": "John Upham",
+     "time": 113.72,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 21,
+     "name": "Craig Harvey",
+     "time": 113.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 22,
+     "name": "Terry Terblanche",
+     "time": 114.39,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": null,
+     "name": "Glen Phillips",
+     "time": 114.48,
+     "dnf": false,
+     "dns": true,
+     "nat": "RSA"
+    },
+    {
+     "place": 24,
+     "name": "Vegard Tvete",
+     "time": 115.06,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 25,
+     "name": "Gerhard Nel",
+     "time": 115.48,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 26,
+     "name": "Sam Jakins",
+     "time": 116.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 27,
+     "name": "Richard Gibello",
+     "time": 116.98,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 28,
+     "name": "Danilo Deletic",
+     "time": 117.11,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 29,
+     "name": "Nick Hook",
+     "time": 118.14,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 30,
+     "name": "Trout Reece Pyro",
+     "time": 118.48,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 31,
+     "name": "Kent Lingeveldt",
+     "time": 118.63,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 32,
+     "name": "Rebekka Gemperle",
+     "time": 119.81,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 33,
+     "name": "Renier Van Staaden",
+     "time": 120.72,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 34,
+     "name": "Nik Jakins",
+     "time": 120.81,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 35,
+     "name": "Gary Africa",
+     "time": 121.61,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": null,
+     "name": "Bergh Eebin Van Den",
+     "time": 122.23,
+     "dnf": false,
+     "dns": true,
+     "nat": "RSA"
+    },
+    {
+     "place": 37,
+     "name": "Jean Pierre",
+     "time": 122.34,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 38,
+     "name": "Michael Serek",
+     "time": 122.78,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 39,
+     "name": "Leif Marks",
+     "time": 125.34,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 40,
+     "name": "Tamara Prader",
+     "time": 126.38,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 41,
+     "name": "Justin Boast",
+     "time": 131.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 42,
+     "name": "Carlos Trancoso",
+     "time": 132.55,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 43,
+     "name": "Gabi Murry-Roberts",
+     "time": 142.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 44,
+     "name": "Merwe Deon Van de",
+     "time": 150.97,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 45,
+     "name": "Jaque Van Jaarsveld",
+     "time": 159.47,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 46,
+     "name": "Cherri Morris",
+     "time": 160.45,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Damer",
+   "kind": "Women",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20160606095117id_/http://igsaworldcup.com/results/2011/2011_hotheels_africa_wc_qual.pdf / Women Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Rebekka Gemperle",
+     "time": 119.81,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 2,
+     "name": "Tamara Prader",
+     "time": 126.38,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 3,
+     "name": "Gabi Murry-Roberts",
+     "time": 142.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 4,
+     "name": "Anni Lindenmaier",
+     "time": 146.35,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 5,
+     "name": "Cherri Morris Morris",
+     "time": 160.45,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Junior 2",
+   "kind": "Junior",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20160606095117id_/http://igsaworldcup.com/results/2011/2011_hotheels_africa_wc_qual.pdf / Junior 2 Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "James Jager",
+     "time": 115.48,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 2,
+     "name": "Adam Lincoln-Lewis",
+     "time": 116.41,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 3,
+     "name": "Sam Jakins",
+     "time": 116.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 4,
+     "name": "Nick Hook",
+     "time": 118.14,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 5,
+     "name": "Nik Jakins",
+     "time": 120.81,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 6,
+     "name": "Daniel Stuck",
+     "time": 122.16,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 7,
+     "name": "Lief Marks",
+     "time": 125.34,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 8,
+     "name": "Jeroen Slee",
+     "time": 125.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 9,
+     "name": "Camden Lategan",
+     "time": 125.87,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 10,
+     "name": "Tom Rushovich",
+     "time": 127.47,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 11,
+     "name": "Matthew Macdonald",
+     "time": 128.31,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 12,
+     "name": "Michael McIver",
+     "time": 130.95,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 13,
+     "name": "James Koen",
+     "time": 131.16,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 14,
+     "name": "Tom Lautenbach",
+     "time": 133.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 15,
+     "name": "Felix Hirner",
+     "time": 134.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 16,
+     "name": "Adam Schoeman",
+     "time": 138.66,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 17,
+     "name": "Tom Jakins",
+     "time": 144.07,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Classic Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20160606095117id_/http://igsaworldcup.com/results/2011/2011_hotheels_africa_wc_qual.pdf / Classic Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Michael Serek",
+     "time": 102.24,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 2,
+     "name": "Russell Naude",
+     "time": 108.9,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 3,
+     "name": "Georg Klotzberg",
+     "time": 111.52,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 4,
+     "name": "Glen Phillips",
+     "time": 112.79,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 5,
+     "name": "Marco Caromba",
+     "time": 114.67,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 6,
+     "name": "Phillip Du Plessis",
+     "time": 116.08,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 7,
+     "name": "Duayne Cumpsty",
+     "time": 118.45,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 8,
+     "name": "Nikki Caromba",
+     "time": 119.45,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 9,
+     "name": "Andries Haasbroek",
+     "time": 120.92,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20160606095117id_/http://igsaworldcup.com/results/2011/2011_hotheels_africa_wc_qual.pdf / Street Luge / timed",
+   "results": [
+    {
+     "place": null,
+     "name": "Michael Serek",
+     "time": 101.89,
+     "dnf": false,
+     "dns": true,
+     "nat": "AUT"
+    },
+    {
+     "place": 2,
+     "name": "Russell Naude",
+     "time": 103.78,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": null,
+     "name": "Glen Phillips",
+     "time": 104.67,
+     "dnf": false,
+     "dns": true,
+     "nat": "RSA"
+    },
+    {
+     "place": 4,
+     "name": "Andries Haasbroek",
+     "time": 106.34,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 5,
+     "name": "Marco Caromba",
+     "time": 110.36,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 6,
+     "name": "Duayne Cumpsty",
+     "time": 112.64,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 7,
+     "name": "Nikki Caromba",
+     "time": 112.98,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": null,
+     "name": "Phillip Du Plessis",
+     "time": 116.78,
+     "dnf": false,
+     "dns": true,
+     "nat": "RSA"
+    },
+    {
+     "place": null,
+     "name": "Georg Klotzberg",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "AUT"
+    }
+   ]
+  },
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20160606095205id_/http://igsaworldcup.com/results/2011/2011_hotheels_africa_wc_rslt.pdf / Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Douglas Silva",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 2,
+     "name": "Mischo Erban",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 3,
+     "name": "Jackson Shapiera",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 4,
+     "name": "Christoph Batt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 5,
+     "name": "Torbjørn Sunde",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 6,
+     "name": "Anton Pratt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 7,
+     "name": "Justin Readings",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 8,
+     "name": "Stefan Ruefli",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 9,
+     "name": "Luca Coleman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 10,
+     "name": "Robin Sandberg",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 11,
+     "name": "Berg Raoul Van Den",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 12,
+     "name": "Oliver Nielsen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 13,
+     "name": "Paul Du Plessis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 14,
+     "name": "Matt Arderne",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 15,
+     "name": "Alex Duss",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 16,
+     "name": "Richard Gibello",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 17,
+     "name": "Mike Upham",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 18,
+     "name": "Murray Chandler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 19,
+     "name": "Andreas Valebjørg",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 20,
+     "name": "Glen Phillips",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 21,
+     "name": "Gerhard Nel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 22,
+     "name": "Danilo Deletic",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 23,
+     "name": "Nick Hook",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 24,
+     "name": "Kent Lingeveldt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 25,
+     "name": "Craig Mckune",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 26,
+     "name": "John Upham",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 27,
+     "name": "Craig Harvey",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 28,
+     "name": "Sam Jakins",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 29,
+     "name": "Trout Reece Pyro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 30,
+     "name": "Rebekka Gemperle",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 31,
+     "name": "Justin Boast",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 32,
+     "name": "Terry Terblanche",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 33,
+     "name": "Vegard Tvete",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 34,
+     "name": "Renier Van Staaden",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 35,
+     "name": "Gary Africa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 36,
+     "name": "Bergh Eebin Van Den",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 37,
+     "name": "Jean Pierre",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 38,
+     "name": "Tamara Prader",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 39,
+     "name": "Gabi Murry-Roberts",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 40,
+     "name": "Merwe Deon Van de",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 41,
+     "name": "Jaque Van Jaarsveld",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 42,
+     "name": "Cherri Morris",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 43,
+     "name": "Nik Jakins",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 44,
+     "name": "Michael Serek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 45,
+     "name": "Leif Marks",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 46,
+     "name": "Carlos Trancoso",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20160606095205id_/http://igsaworldcup.com/results/2011/2011_hotheels_africa_wc_rslt.pdf / Women Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Rebekka Gemperle",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 2,
+     "name": "Tamara Prader",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 3,
+     "name": "Gabi Murry-Roberts",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 4,
+     "name": "Anni Lindenmaier",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 5,
+     "name": "Cherri Morris",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    }
+   ]
+  },
+  {
+   "name": "Junior 2",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20160606095205id_/http://igsaworldcup.com/results/2011/2011_hotheels_africa_wc_rslt.pdf / Junior 2 Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Nick Hook",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 2,
+     "name": "Sam Jakins",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 3,
+     "name": "James Jager",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 4,
+     "name": "Adam Lincoln-Lewis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 5,
+     "name": "Nik Jakins",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 6,
+     "name": "Lief Marks",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 7,
+     "name": "Matthew Macdonald",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 8,
+     "name": "Jeroen Slee",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 9,
+     "name": "Camden Lategan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 10,
+     "name": "Tom Rushovich",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 11,
+     "name": "Michael McIver",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 12,
+     "name": "Tom Lautenbach",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 13,
+     "name": "Daniel Stuck",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 14,
+     "name": "James Koen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 15,
+     "name": "Felix Hirner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 16,
+     "name": "Tom Jakins",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 17,
+     "name": "Adam Schoeman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    }
+   ]
+  },
+  {
+   "name": "Classic Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20160606095205id_/http://igsaworldcup.com/results/2011/2011_hotheels_africa_wc_rslt.pdf / Classic Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Michael Serek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 2,
+     "name": "Russell Naude",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 3,
+     "name": "Glen Phillips",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 4,
+     "name": "Georg Klotzberg",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 5,
+     "name": "Marco Caromba",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 6,
+     "name": "Nikki Caromba",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 7,
+     "name": "Phillip Du Plessis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 8,
+     "name": "Duayne Cumpsty",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 9,
+     "name": "Andries Haasbroek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20160606095205id_/http://igsaworldcup.com/results/2011/2011_hotheels_africa_wc_rslt.pdf / Street Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Russell Naude",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 2,
+     "name": "Michael Serek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 3,
+     "name": "Glen Phillips",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 4,
+     "name": "Andries Haasbroek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 5,
+     "name": "Marco Caromba",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 6,
+     "name": "Nikki Caromba",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": null,
+     "name": "Georg Klotzberg",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "AUT"
+    },
+    {
+     "place": 8,
+     "name": "Duayne Cumpsty",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 9,
+     "name": "Phillip Du Plessis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

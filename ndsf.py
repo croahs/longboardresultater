@@ -106,8 +106,8 @@ NOT_NAME = re.compile(r"^(bye|rider|team)\s*\d*$|^#n/a$|^-+$|^\?+$|^(dns|dnf|dsq
 
 # ---------------------------------------------------------------- fetching and caching
 
-def _path(*parts):
-    p = os.path.join(CACHE, *parts)
+def _path(*parts, base=None):
+    p = os.path.join(base or CACHE, *parts)
     os.makedirs(os.path.dirname(p), exist_ok=True)
     return p
 
@@ -163,10 +163,10 @@ def posts(fetch=False):
     return out
 
 
-def sheet(key, fetch=False):
-    """A published Google Sheet: its title and every tab as CSV text, cached in cache/ndsf/sheets/<key>.json.
-    key is "<id>" or "e/<published id>", as it appears in the embed URL."""
-    path = _path("sheets", key.replace("/", "_") + ".json")
+def sheet(key, fetch=False, cache=None):
+    """A published Google Sheet: its title and every tab as CSV text, cached in cache/ndsf/sheets/<key>.json
+    (or under cache, for the other sources). key is "<id>" or "e/<published id>", as it appears in the embed URL."""
+    path = _path("sheets", key.replace("/", "_") + ".json", base=cache)
     cached = _read(path)
     if cached and not fetch:
         return json.loads(cached)
@@ -693,27 +693,7 @@ def build(fetch=False):
         races, notes = parse_post(p, fetch)
         ev["notes"] += notes
         for rname, kind, fmt, src, results in races:
-            if any(r["source"] == src for r in ev["races"]):
-                continue
-            seen = set()
-            rows = []
-            for place, nm, t, note in results:
-                if fold(nm) in seen:
-                    continue
-                seen.add(fold(nm))
-                dns = bool(re.search(r"dns", note or "", re.I))
-                rows.append({"place": None if dns else place, "name": nm, "time": round(t, 2) if t else None,
-                             "dnf": not dns and (bool(re.search(r"dnf|dsq", note or "", re.I)) or place is None),
-                             "dns": dns})
-            if len(rows) < 2:
-                continue
-            # Two bracket lists of the same kind in one event (the same race posted twice): keep the longer.
-            dup = next((r for r in ev["races"] if r["name"] == rname and r["format"] == fmt), None)
-            if dup:
-                if len(rows) > len(dup["results"]):
-                    dup.update(results=rows, source=src)
-                continue
-            ev["races"].append({"name": rname, "kind": kind, "format": fmt, "source": src, "results": rows})
+            add_race(ev, rname, kind, fmt, src, results)
         if not races and not any("photos" in n for n in notes):
             ev["notes"].append(f"nothing recognised in {SITE}/?p={p['id']}")
     for ev in events.values():
@@ -721,16 +701,44 @@ def build(fetch=False):
     return events
 
 
-def write(events):
-    os.makedirs(OUT, exist_ok=True)
-    for f in os.listdir(OUT):
-        os.remove(os.path.join(OUT, f))
+def add_race(ev, rname, kind, fmt, src, results):
+    """Add one list to an event: rows deduped by name, DNS and DNF marked, a nationality kept when the source
+    gives one. results: [(place, name, time, note[, nat])]. Two lists with the same name and format in one
+    event (the same race posted twice) keep the longer."""
+    if any(r["source"] == src for r in ev["races"]):
+        return
+    seen, rows = set(), []
+    for place, nm, t, note, *extra in results:
+        if fold(nm) in seen:
+            continue
+        seen.add(fold(nm))
+        dns = bool(re.search(r"dns", note or "", re.I))
+        row = {"place": None if dns else place, "name": nm, "time": round(t, 2) if t else None,
+               "dnf": not dns and (bool(re.search(r"dnf|dsq", note or "", re.I)) or place is None), "dns": dns}
+        if extra and extra[0]:
+            row["nat"] = extra[0]
+        rows.append(row)
+    if len(rows) < 2:
+        return
+    dup = next((r for r in ev["races"] if r["name"] == rname and r["format"] == fmt), None)
+    if dup:
+        if len(rows) > len(dup["results"]):
+            dup.update(results=rows, source=src)
+        return
+    ev["races"].append({"name": rname, "kind": kind, "format": fmt, "source": src, "results": rows})
+
+
+def write(events, out=OUT):
+    """One file per event under out, replacing what was there."""
+    os.makedirs(out, exist_ok=True)
+    for f in os.listdir(out):
+        os.remove(os.path.join(out, f))
     for eid, ev in sorted(events.items()):
-        with open(os.path.join(OUT, eid + ".json"), "w", encoding="utf-8", newline="\n") as f:
+        with open(os.path.join(out, eid + ".json"), "w", encoding="utf-8", newline="\n") as f:
             json.dump(ev, f, ensure_ascii=False, indent=1)
     n = sum(len(e["races"]) for e in events.values())
     rows = sum(len(r["results"]) for e in events.values() for r in e["races"])
-    print(f"{len(events)} events, {n} races, {rows} results -> {OUT}")
+    print(f"{len(events)} events, {n} races, {rows} results -> {out}")
     for eid, ev in sorted(events.items()):
         flag = " (needs manual)" if ev["needs_manual"] else ""
         print(f"  {eid}: " + ", ".join(f"{r['name']} {len(r['results'])}" for r in ev["races"]) + flag)

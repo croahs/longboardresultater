@@ -1,0 +1,819 @@
+{
+ "id": "2015-la-violenta",
+ "name": "La Violenta",
+ "year": 2015,
+ "date": "2015-11-05",
+ "date_known": true,
+ "hill": null,
+ "place": "Argentina",
+ "sources": [
+  "https://internationaldownhillfederation.org/rankings/2015-rankings/"
+ ],
+ "titles": [
+  "La Violenta"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2015/World-Rankings-2015-Open-Skateboard.html / La Violenta",
+   "results": [
+    {
+     "place": 1,
+     "name": "Douglas Silva",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 2,
+     "name": "Tiago Mohr",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 3,
+     "name": "Leonardo MacChi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 4,
+     "name": "Juan Stabio",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 5,
+     "name": "Robert Rodrigues",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 6,
+     "name": "Matias Eduardo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Chile"
+    },
+    {
+     "place": 7,
+     "name": "Juan Jose Sarquis Poblete",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 8,
+     "name": "Luca Dragone",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 9,
+     "name": "Santiago Espeche",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 10,
+     "name": "Nahuel Escudero",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 11,
+     "name": "Raul Pereyra",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 12,
+     "name": "Victor Santander",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Chile"
+    },
+    {
+     "place": 13,
+     "name": "Renzo Tonello",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 14,
+     "name": "Augusto Garcia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 15,
+     "name": "Adriano Bertelli",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 16,
+     "name": "Mariano Gentili",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 17,
+     "name": "Eduardo Falcão",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 18,
+     "name": "Agustin Allub",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 19,
+     "name": "Juan Duran",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 20,
+     "name": "Federico Vander Vaart",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 21,
+     "name": "Juan Gutierrez Alvarez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 22,
+     "name": "Nazareno Rivera",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 23,
+     "name": "Juan Camilo Trujillo Botero",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 24,
+     "name": "Manuel Ignacio Pintos",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 25,
+     "name": "Marcos Mendez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 26,
+     "name": "Rafael Bastos",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 27,
+     "name": "Valentin Polizzi Suayter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 28,
+     "name": "Santiago Gonzalez Salaberry",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 29,
+     "name": "Gonzalo Moreno",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Chile"
+    },
+    {
+     "place": 30,
+     "name": "Rodrigo Aldunate",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Chile"
+    },
+    {
+     "place": 31,
+     "name": "Bernardo Brambila",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 32,
+     "name": "Rene Garcia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Chile"
+    },
+    {
+     "place": 33,
+     "name": "Nicolas Gazzoli",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 34,
+     "name": "Augusto Picciochi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 35,
+     "name": "Facundo Reinaldo Germegnani",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 36,
+     "name": "Santiago Obermeller",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 37,
+     "name": "Rodrigo Dutra",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 38,
+     "name": "Claudio Morales",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 39,
+     "name": "Tomás Casali",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 40,
+     "name": "Bautista Manganaro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 41,
+     "name": "Matias Alejandro Andrada",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 42,
+     "name": "Valentin Castro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 43,
+     "name": "Lucas Lamournier",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 44,
+     "name": "Pablo Suarez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 45,
+     "name": "Eric Dalpiaz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 47,
+     "name": "Manuel Sintes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 48,
+     "name": "Rafa Fernandez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 49,
+     "name": "Fernando Martin Pecyner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 50,
+     "name": "Manuel Mordcovich",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 51,
+     "name": "Mauricio Gonzalez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 52,
+     "name": "Mauro Exequiel Vilche",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 53,
+     "name": "Manuel Caceres",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 54,
+     "name": "Santiago Rodriguez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 55,
+     "name": "Magdalena Blanc",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 56,
+     "name": "Sabrina Ambrosi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 57,
+     "name": "Tomas Robinson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 58,
+     "name": "Romina Bessone",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 59,
+     "name": "Lopez Tomas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 60,
+     "name": "Leonel Ocampo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 61,
+     "name": "Febre Agustin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 62,
+     "name": "Luciano Matias Lucero",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 63,
+     "name": "Angel David Palazzotti",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 64,
+     "name": "Lucas Vergara",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 65,
+     "name": "Leandro Leandro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 66,
+     "name": "Lee Cabre",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 67,
+     "name": "Camila Pucheta",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 68,
+     "name": "Werner Baxter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Africa"
+    },
+    {
+     "place": 69,
+     "name": "Martin Sanna",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 70,
+     "name": "Francisco Ortiz Pellegrini",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 71,
+     "name": "Ellie Gormaz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Chile"
+    },
+    {
+     "place": 72,
+     "name": "Virginia Villafañe",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 73,
+     "name": "Magdalena Manochi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 74,
+     "name": "Isaias Diaz Canevaro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 75,
+     "name": "Paula Velardez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2015/World-Rankings-2015-Women-Skateboard.html / La Violenta",
+   "results": [
+    {
+     "place": 1,
+     "name": "Magdalena Manochi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 2,
+     "name": "Romina Bessone",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 3,
+     "name": "Magdalena Blanc",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 4,
+     "name": "Sabrina Ambrosi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 5,
+     "name": "Virginia Villafañe",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 6,
+     "name": "Ellie Gormaz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Chile"
+    },
+    {
+     "place": 7,
+     "name": "Paula Velardez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 8,
+     "name": "Camila Pucheta",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    }
+   ]
+  },
+  {
+   "name": "Junior",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2015/World-Rankings-2015-Junior-Skateboard.html / La Violenta",
+   "results": [
+    {
+     "place": 1,
+     "name": "Valentin Castro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 2,
+     "name": "Bautista Manganaro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 3,
+     "name": "Matias Alejandro Andrada",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 4,
+     "name": "Rene Garcia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Chile"
+    },
+    {
+     "place": 5,
+     "name": "Mauro Exequiel Vilche",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 6,
+     "name": "Santiago Rodriguez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2015/World-Rankings-2015-Classic-Luge.html / La Violenta",
+   "results": [
+    {
+     "place": 1,
+     "name": "Joaquin Barrios",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 2,
+     "name": "Walter Gimenez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 3,
+     "name": "Marcelo Llopiz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 4,
+     "name": "Camaron Ezequiel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 5,
+     "name": "Guido Pablo Menghini",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 6,
+     "name": "Scott Peer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 7,
+     "name": "Mauricio Bravo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 8,
+     "name": "Hugo Lorenzo Salvatierra",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

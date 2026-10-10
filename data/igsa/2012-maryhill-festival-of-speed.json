@@ -1,0 +1,5679 @@
+{
+ "id": "2012-maryhill-festival-of-speed",
+ "name": "Maryhill Festival of Speed",
+ "year": 2012,
+ "date": "2012-07-01",
+ "date_known": true,
+ "hill": null,
+ "place": "Goldendale, Washington USA",
+ "level": "World Cup - North America",
+ "sources": [
+  "http://web.archive.org/web/20130530044546id_/http://igsaworldcup.com/results/2012/2012_maryhill_wc_rslt.pdf",
+  "http://web.archive.org/web/20130530045446id_/http://igsaworldcup.com/results/2012/2012_maryhill_wc_qual.pdf",
+  "http://web.archive.org/web/20130530050356id_/http://igsaworldcup.com/results/2012/2012_maryhill_co_qual.pdf",
+  "http://web.archive.org/web/20130530051145id_/http://igsaworldcup.com/results/2012/2012_maryhill_co_rslt.pdf"
+ ],
+ "titles": [
+  "Maryhill Festival of Speed"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20130530044546id_/http://igsaworldcup.com/results/2012/2012_maryhill_wc_rslt.pdf / Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Patrick Switzer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Zak Maytum",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 3,
+     "name": "Alex Tongue",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 4,
+     "name": "Kevin Reimer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 5,
+     "name": "Douglas Silva",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 6,
+     "name": "Billy Meiners",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 7,
+     "name": "Felipe Malaga",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 8,
+     "name": "Nikolas Desmarais",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 9,
+     "name": "Dillon Stephens",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 10,
+     "name": "Max Wippermann",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 11,
+     "name": "Jose Guzman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PUR"
+    },
+    {
+     "place": 12,
+     "name": "Mischo Erban",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 13,
+     "name": "Ovalhe Danky Dean",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 14,
+     "name": "Chip Wood",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 15,
+     "name": "Robin McGuirk",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 16,
+     "name": "Zen Shikaze",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 17,
+     "name": "Brian Cortright",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 18,
+     "name": "Louis Pilloni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 19,
+     "name": "Chance Gaul",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 20,
+     "name": "Matthew Kienzle",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 21,
+     "name": "Kyle Wester",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 22,
+     "name": "Luke Melo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 23,
+     "name": "Riley Crone",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 24,
+     "name": "Sondre Selander",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 25,
+     "name": "Kyle Martin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 26,
+     "name": "Maxim Garant-Rousseau",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 27,
+     "name": "Austin Nicassio",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 28,
+     "name": "Dustin Hampton",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 29,
+     "name": "Nick Breton",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 30,
+     "name": "Duke Degen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 31,
+     "name": "Braden Tibbles",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 32,
+     "name": "Byron Essert",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 33,
+     "name": "Thiago-Gomes Lessa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 34,
+     "name": "Andrew Chapman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 35,
+     "name": "Graham Buksa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 36,
+     "name": "Juliano Cassemiro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 37,
+     "name": "Dave Price",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 38,
+     "name": "Maxwell Dubler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 39,
+     "name": "Key Clyde Dougherty",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 40,
+     "name": "Max Myers",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 41,
+     "name": "James Kelly",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 42,
+     "name": "Joshua Torres",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 43,
+     "name": "Micheal Snyder",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 44,
+     "name": "Max Ballesteros",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 45,
+     "name": "Andrew Mercado",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 46,
+     "name": "Justen Ortiz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 47,
+     "name": "Malachi Greene",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 48,
+     "name": "Lucas Falcioni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 49,
+     "name": "Calvin Staub",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 50,
+     "name": "Tim Del Rosario",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 51,
+     "name": "Bradley Cameron",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 52,
+     "name": "Daniel Luna",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 53,
+     "name": "Alexandre DeCastro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 54,
+     "name": "Mike Slota",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 55,
+     "name": "Connor Wagner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 56,
+     "name": "Jeff Budro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 57,
+     "name": "Justin Readings",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 58,
+     "name": "Nick Dunmall",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 59,
+     "name": "Kyle Chin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 60,
+     "name": "Mikael Jensen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 61,
+     "name": "Brandon DesJarlais",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 62,
+     "name": "Maxime Robitaille",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 63,
+     "name": "Geoff Treadwell",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 64,
+     "name": "Jacob Gellatly",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 65,
+     "name": "Jimmy Riha",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 66,
+     "name": "Spencer Smith",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 67,
+     "name": "Curtis Onchi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 68,
+     "name": "Greggory Kent",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 69,
+     "name": "Micah Green",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 70,
+     "name": "John Rogers",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 71,
+     "name": "Cam Brickenden",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 72,
+     "name": "Aidan Lynds",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 73,
+     "name": "Levi Greene",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 74,
+     "name": "Keith Henderson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 75,
+     "name": "Cody Shea",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 76,
+     "name": "Brandon Montesano",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 77,
+     "name": "Jackson Wells",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 78,
+     "name": "Jacob Sharp",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 79,
+     "name": "AJ Haiby",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 80,
+     "name": "Tommy Watson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 81,
+     "name": "Ian Russell",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 82,
+     "name": "Sean Chantarachara",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 83,
+     "name": "Drew Edwards",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 84,
+     "name": "Jorge Garcia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 85,
+     "name": "JM Duran",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 86,
+     "name": "Noah Throckmorton",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 87,
+     "name": "Devon Reece",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 88,
+     "name": "Fabian Gutierrez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 89,
+     "name": "Luis Lins",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 90,
+     "name": "Scott Lembach",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 91,
+     "name": "Kelly Carter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 92,
+     "name": "William Royce",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 93,
+     "name": "Jonas Richter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 94,
+     "name": "Chris Sharp",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 95,
+     "name": "Benjamin Hryn",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 96,
+     "name": "Brett Ciabattini",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 97,
+     "name": "Bryce Brady",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 98,
+     "name": "Philip Crow",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 99,
+     "name": "Zac Sharp",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 100,
+     "name": "Samuel Flavin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 101,
+     "name": "Michael Harrington",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 102,
+     "name": "Brian Bishop",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 103,
+     "name": "Max Meurling",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 104,
+     "name": "Nathan Marton",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 105,
+     "name": "Rebekka Gemperle",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 106,
+     "name": "Maxwell Capps",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 107,
+     "name": "Fernando Vega",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 108,
+     "name": "Roger Jones",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 109,
+     "name": "Nick Ronzani",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 110,
+     "name": "Michael Sherlock",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 111,
+     "name": "Tyson Elenko",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 112,
+     "name": "Lonnie Leonelli",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 113,
+     "name": "Gerardo Moreno",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 114,
+     "name": "Jake Wilkinson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 115,
+     "name": "Aidian O'Leyne",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 116,
+     "name": "Doug Tolman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 117,
+     "name": "Jason Epp",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 118,
+     "name": "Jeffrey Vyain",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 119,
+     "name": "Garrett Creamer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 120,
+     "name": "Eric Albee",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 121,
+     "name": "George Vigon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 122,
+     "name": "Andre Bruni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 123,
+     "name": "Gunnar Morin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 124,
+     "name": "Nathaniel Gomez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PUR"
+    },
+    {
+     "place": 125,
+     "name": "Justin Suryanata",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 126,
+     "name": "Tad Drysdale",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 127,
+     "name": "Manuel Anglero",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PUR"
+    },
+    {
+     "place": 128,
+     "name": "Matthew English",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 129,
+     "name": "Ethan Vinograd",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 130,
+     "name": "Thibault Morgando",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 131,
+     "name": "Hayden Conroy",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 132,
+     "name": "Cody Kautz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 133,
+     "name": "Richard Sanchez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 134,
+     "name": "Ishtar Backlund",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 135,
+     "name": "Tyler Gregg",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 136,
+     "name": "Jonathan Douglas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 137,
+     "name": "Yun wook Jung",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "KOR"
+    },
+    {
+     "place": 138,
+     "name": "Ryan Vitale",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 139,
+     "name": "Cedric Cornell",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 140,
+     "name": "Mason McGhee",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 141,
+     "name": "Kelian Duplain",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 142,
+     "name": "Luis Marrero",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PUR"
+    },
+    {
+     "place": 143,
+     "name": "Daniel Caro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 144,
+     "name": "Stephen Dumaine",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 145,
+     "name": "Edward Aviña",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 146,
+     "name": "Andrew Barnes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 147,
+     "name": "Andrew Rouillard",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 148,
+     "name": "Jack Craddock",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 149,
+     "name": "Alicia Fillback",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 150,
+     "name": "Marisa Nunez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 151,
+     "name": "Evan Gellatly",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 152,
+     "name": "Vincent Jordana",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 153,
+     "name": "Oliver Korman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 154,
+     "name": "Logan Whyatt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 155,
+     "name": "Jesse French",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 156,
+     "name": "Chris Warren",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 157,
+     "name": "Eric Fuss",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 158,
+     "name": "Wyatt Gibbs",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 159,
+     "name": "Christopher Sheehy",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 160,
+     "name": "Jake Fast",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 161,
+     "name": "Reece Gesick",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 162,
+     "name": "Alex Ameen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 163,
+     "name": "Travis Davenport",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 164,
+     "name": "Brendan Reid-Naughton",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 165,
+     "name": "Brian Ward",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 166,
+     "name": "Nicholas Herrick",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 167,
+     "name": "Eric Douglas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 168,
+     "name": "Arthur Toledo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 169,
+     "name": "Tim Stuart",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 170,
+     "name": "Nick Chase",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 171,
+     "name": "Daniel Favela",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 172,
+     "name": "Joe Ingersoll",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 173,
+     "name": "Chase Edwards",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 174,
+     "name": "Christian Garner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 175,
+     "name": "Spencer Dolphin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 176,
+     "name": "Nohlan Campbell",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 177,
+     "name": "Billy Jackle",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 178,
+     "name": "Nicholas Calafato",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 179,
+     "name": "Herbert Menendez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PUR"
+    },
+    {
+     "place": 180,
+     "name": "Samuel Chastenay-Joseph",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 181,
+     "name": "Todd Smith",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 182,
+     "name": "Brian Davenport",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 183,
+     "name": "Michael Neblock",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 184,
+     "name": "Amanda Powell",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 185,
+     "name": "Charlie Daigneault",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 186,
+     "name": "Ryan Sheridan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 187,
+     "name": "Lucas Harari",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 188,
+     "name": "Jes Izman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MAS"
+    },
+    {
+     "place": 189,
+     "name": "Felipe Cobra",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BLZ"
+    },
+    {
+     "place": 190,
+     "name": "Daniel Figueroa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 191,
+     "name": "Elija Vinograd",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 192,
+     "name": "Zach Robinson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 193,
+     "name": "Patrick Alejandro Olmos",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 194,
+     "name": "Zion Miller",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 195,
+     "name": "Fernando Bailleres",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 196,
+     "name": "Mike Paproski",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 197,
+     "name": "Cameron Lawrence",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 198,
+     "name": "Pamela Diaz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "DOM"
+    },
+    {
+     "place": 199,
+     "name": "Quinn Dubois",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 200,
+     "name": "Stephen Salay",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 201,
+     "name": "Jeffery Diaz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 202,
+     "name": "Caloy Sambrano",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PHI"
+    },
+    {
+     "place": 203,
+     "name": "Scott Imbrie",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 204,
+     "name": "Knox Heslop",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 205,
+     "name": "Zack Dougherty",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 206,
+     "name": "Chris Goede",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 207,
+     "name": "Traci Castonguay",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 208,
+     "name": "Greg Paproski",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 209,
+     "name": "Fifer Figueroa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 210,
+     "name": "Estuardo-Tato Bustamante",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GUA"
+    },
+    {
+     "place": 211,
+     "name": "Ayumi Oride",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "JPN"
+    },
+    {
+     "place": 212,
+     "name": "Tyler Williams",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 213,
+     "name": "Fuentes Valeria Isabel Figueroa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 214,
+     "name": "Anja Lindenmaier",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 215,
+     "name": "Cami Best",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "JAM"
+    },
+    {
+     "place": 216,
+     "name": "Jett Ellis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 217,
+     "name": "Concha Rosa María Vega",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 218,
+     "name": "Nylan Ro Anglero",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PUR"
+    },
+    {
+     "place": 219,
+     "name": "Tristan Bell",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 220,
+     "name": "Adam Bornstein",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 221,
+     "name": "Jordan Ellis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 222,
+     "name": "Gustaf Hallberg",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 223,
+     "name": "Maxim Moisanen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    }
+   ]
+  },
+  {
+   "name": "Downhill Skateboard King of the Hill",
+   "kind": "Other",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20130530044546id_/http://igsaworldcup.com/results/2012/2012_maryhill_wc_rslt.pdf / Downhill Skateboard King of the Hill / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "James Kelly",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Zak Maytum",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Douglas Silva",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Alex Tongue",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Patrick Switzer",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": null,
+     "name": "Mischo Erban",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "CAN"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20130530044546id_/http://igsaworldcup.com/results/2012/2012_maryhill_wc_rslt.pdf / Women Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Alicia Fillback",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 2,
+     "name": "Rebekka Gemperle",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 3,
+     "name": "Marisa Nunez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 4,
+     "name": "Charlie Daigneault",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 5,
+     "name": "Pamela Diaz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "DOM"
+    },
+    {
+     "place": 6,
+     "name": "Ayumi Oride",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "JPN"
+    },
+    {
+     "place": 7,
+     "name": "Ishtar Backlund",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 8,
+     "name": "Amanda Powell",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 9,
+     "name": "Sara Paulshock",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 10,
+     "name": "Anja Lindenmaier",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 11,
+     "name": "Cami Best",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "JAM"
+    },
+    {
+     "place": 12,
+     "name": "Concha Rosa María Vega",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 13,
+     "name": "Fuentes Valeria Isabel Figueroa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 14,
+     "name": "Traci Castonguay",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    }
+   ]
+  },
+  {
+   "name": "Junior 1",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20130530044546id_/http://igsaworldcup.com/results/2012/2012_maryhill_wc_rslt.pdf / Junior 1 Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Ethan Vinograd",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 2,
+     "name": "Oliver Korman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 3,
+     "name": "Jack Craddock",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 4,
+     "name": "Elija Vinograd",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 5,
+     "name": "Jesse French",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 6,
+     "name": "Evan Gellatly",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 7,
+     "name": "Quinn Dubois",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 8,
+     "name": "Logan Whyatt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 9,
+     "name": "Knox Heslop",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 10,
+     "name": "Greg Paproski",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 11,
+     "name": "Tyler Williams",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 12,
+     "name": "Jett Ellis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 13,
+     "name": "Tristan Bell",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 14,
+     "name": "Jordan Ellis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 15,
+     "name": "Maxim Moisanen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 16,
+     "name": "Nylan Ro Anglero",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PUR"
+    }
+   ]
+  },
+  {
+   "name": "Junior 2",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20130530044546id_/http://igsaworldcup.com/results/2012/2012_maryhill_wc_rslt.pdf / Junior 2 Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Mike Slota",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 2,
+     "name": "Greggory Kent",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 3,
+     "name": "Jonas Richter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 4,
+     "name": "Spencer Smith",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 5,
+     "name": "Kelly Carter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 6,
+     "name": "Byron Essert",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 7,
+     "name": "Keith Henderson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 8,
+     "name": "Aidan Lynds",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 9,
+     "name": "Ian Russell",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 10,
+     "name": "Philip Crow",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 11,
+     "name": "Roger Jones",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 12,
+     "name": "Sean Chantarachara",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 13,
+     "name": "Daniel Luna",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 14,
+     "name": "Benjamin Hryn",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 15,
+     "name": "Sondre Selander",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 16,
+     "name": "Jake Wilkinson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 17,
+     "name": "Bradley Cameron",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 18,
+     "name": "Brandon DesJarlais",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 19,
+     "name": "Tyson Elenko",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 20,
+     "name": "Jacob Sharp",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 21,
+     "name": "Malachi Greene",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 22,
+     "name": "Chance Gaul",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 23,
+     "name": "Brett Ciabattini",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 24,
+     "name": "Daniel Caro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 25,
+     "name": "Jacob Gellatly",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 26,
+     "name": "Cody Kautz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 27,
+     "name": "Samuel Flavin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 28,
+     "name": "Max Meurling",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 29,
+     "name": "Jackson Wells",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 30,
+     "name": "Garrett Creamer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 31,
+     "name": "Doug Tolman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 32,
+     "name": "Ryan Vitale",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 33,
+     "name": "Gunnar Morin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 34,
+     "name": "Mason McGhee",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 35,
+     "name": "Nathaniel Gomez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PUR"
+    },
+    {
+     "place": 36,
+     "name": "Jake Fast",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 37,
+     "name": "Nicholas Herrick",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 38,
+     "name": "Chase Edwards",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 39,
+     "name": "Nohlan Campbell",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 40,
+     "name": "Zach Robinson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 41,
+     "name": "Wyatt Gibbs",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 42,
+     "name": "Eric Douglas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 43,
+     "name": "Christian Garner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 44,
+     "name": "Zion Miller",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 45,
+     "name": "Spencer Dolphin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 46,
+     "name": "Stephen Salay",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 47,
+     "name": "Gustaf Hallberg",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 48,
+     "name": "Ryan Sheridan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 49,
+     "name": "Lucas Harari",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 50,
+     "name": "Traci Castonguay",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 51,
+     "name": "Estuardo-Tato Bustamante",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GUA"
+    },
+    {
+     "place": 52,
+     "name": "Adam Bornstein",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 53,
+     "name": "Jeffery Diaz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    }
+   ]
+  },
+  {
+   "name": "Classic Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20130530044546id_/http://igsaworldcup.com/results/2012/2012_maryhill_wc_rslt.pdf / Classic Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "John Huey",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 2,
+     "name": "Keith Henderson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 3,
+     "name": "Kyle Castaneda",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 4,
+     "name": "Christian Conaway",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 5,
+     "name": "Frank Williams",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 6,
+     "name": "Kolby Parks",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 7,
+     "name": "Joe Ingersoll",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 8,
+     "name": "William Myrvold",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 9,
+     "name": "Mike McIntyre",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 10,
+     "name": "Thibault Morgando",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 11,
+     "name": "Cory Wilder",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 12,
+     "name": "Benjamin Zehner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 13,
+     "name": "Dylan Wall",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 14,
+     "name": "Matt Bartlett",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 15,
+     "name": "Christopher Hicks",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 16,
+     "name": "Jan Moisanen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 17,
+     "name": "Chris McBride",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 18,
+     "name": "Maxim Moisanen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 19,
+     "name": "Nick Kamink",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 20,
+     "name": "Dean McBournie",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20130530044546id_/http://igsaworldcup.com/results/2012/2012_maryhill_wc_rslt.pdf / Street Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "John Rogers",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 2,
+     "name": "Christian Conaway",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 3,
+     "name": "Kolby Parks",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 4,
+     "name": "Kyle Castaneda",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 5,
+     "name": "Mike McIntyre",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 6,
+     "name": "Frank Williams",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 7,
+     "name": "Keith Henderson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 8,
+     "name": "William Myrvold",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 9,
+     "name": "Christopher Hicks",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 10,
+     "name": "Dan Kasmar",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 11,
+     "name": "Chris McBride",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 12,
+     "name": "Joe Ingersoll",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 13,
+     "name": "Nick Kamink",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 14,
+     "name": "Cory Wilder",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 15,
+     "name": "Matt Bartlett",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 16,
+     "name": "Dylan Wall",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 17,
+     "name": "Benjamin Zehner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 18,
+     "name": "Jan Moisanen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130530045446id_/http://igsaworldcup.com/results/2012/2012_maryhill_wc_qual.pdf / Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Zak Maytum",
+     "time": 185.52,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 2,
+     "name": "Douglas Silva",
+     "time": 185.66,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 3,
+     "name": "Alex Tongue",
+     "time": 186.81,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 4,
+     "name": "Patrick Switzer",
+     "time": 186.97,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 5,
+     "name": "Mischo Erban",
+     "time": 187.02,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 6,
+     "name": "James Kelly",
+     "time": 187.11,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 7,
+     "name": "Dillon Stephens",
+     "time": 187.22,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 8,
+     "name": "Joshua Torres",
+     "time": 187.3,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 9,
+     "name": "Jimmy Riha",
+     "time": 187.38,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 10,
+     "name": "Felipe Malaga",
+     "time": 187.39,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 11,
+     "name": "Thiago-Gomes Lessa",
+     "time": 187.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 12,
+     "name": "Kyle Wester",
+     "time": 187.66,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 13,
+     "name": "Kevin Reimer",
+     "time": 187.78,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 14,
+     "name": "Nikolas Desmarais",
+     "time": 187.87,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 15,
+     "name": "Ovalhe Danky Dean",
+     "time": 187.89,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 16,
+     "name": "Micheal Snyder",
+     "time": 187.97,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 17,
+     "name": "Chip Wood",
+     "time": 188.09,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 18,
+     "name": "Brian Cortright",
+     "time": 188.2,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 19,
+     "name": "Robin McGuirk",
+     "time": 188.44,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 20,
+     "name": "Andrew Chapman",
+     "time": 188.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 21,
+     "name": "Spencer Smith",
+     "time": 188.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 22,
+     "name": "Billy Meiners",
+     "time": 188.82,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 23,
+     "name": "Graham Buksa",
+     "time": 188.92,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 24,
+     "name": "Max Wippermann",
+     "time": 188.95,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 25,
+     "name": "Calvin Staub",
+     "time": 189.03,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 26,
+     "name": "Tim Del Rosario",
+     "time": 189.06,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 27,
+     "name": "Bradley Cameron",
+     "time": 189.08,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 28,
+     "name": "Kyle Martin",
+     "time": 189.19,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 29,
+     "name": "Zen Shikaze",
+     "time": 189.37,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 30,
+     "name": "Jonas Richter",
+     "time": 189.62,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 31,
+     "name": "Maxim Garant-Rousseau",
+     "time": 189.67,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 32,
+     "name": "Daniel Luna",
+     "time": 189.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 33,
+     "name": "Alexandre DeCastro",
+     "time": 189.87,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 34,
+     "name": "Mike Slota",
+     "time": 190.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 35,
+     "name": "Austin Nicassio",
+     "time": 190.07,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 36,
+     "name": "Dustin Hampton",
+     "time": 190.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 37,
+     "name": "Juliano Cassemiro",
+     "time": 190.51,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 38,
+     "name": "Kelly Carter",
+     "time": 190.59,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 39,
+     "name": "Nick Breton",
+     "time": 190.75,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 40,
+     "name": "Curtis Onchi",
+     "time": 190.97,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Duke Degen",
+     "time": 191.31,
+     "dnf": false,
+     "dns": true,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Max Ballesteros",
+     "time": 191.35,
+     "dnf": false,
+     "dns": true,
+     "nat": "BRA"
+    },
+    {
+     "place": 43,
+     "name": "Braden Tibbles",
+     "time": 191.64,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 44,
+     "name": "Louis Pilloni",
+     "time": 191.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 45,
+     "name": "Andrew Mercado",
+     "time": 191.67,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 46,
+     "name": "William Royce",
+     "time": 191.82,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 47,
+     "name": "Justen Ortiz",
+     "time": 191.89,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 48,
+     "name": "Byron Essert",
+     "time": 192.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 49,
+     "name": "Luke Melo",
+     "time": 192.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 50,
+     "name": "Greggory Kent",
+     "time": 192.46,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 51,
+     "name": "Malachi Greene",
+     "time": 192.47,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 52,
+     "name": "Connor Wagner",
+     "time": 192.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "AJ Haiby",
+     "time": 193.08,
+     "dnf": false,
+     "dns": true,
+     "nat": "USA"
+    },
+    {
+     "place": 54,
+     "name": "Chance Gaul",
+     "time": 193.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 55,
+     "name": "Tommy Watson",
+     "time": 193.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 56,
+     "name": "Ian Russell",
+     "time": 193.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 57,
+     "name": "Sean Chantarachara",
+     "time": 193.14,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 58,
+     "name": "Jeff Budro",
+     "time": 193.29,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 59,
+     "name": "Micah Green",
+     "time": 193.34,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 60,
+     "name": "Lucas Falcioni",
+     "time": 193.79,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 61,
+     "name": "Justin Readings",
+     "time": 193.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 62,
+     "name": "Drew Edwards",
+     "time": 193.86,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 63,
+     "name": "Chris Sharp",
+     "time": 193.87,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 64,
+     "name": "Dave Price",
+     "time": 193.9,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 65,
+     "name": "John Rogers",
+     "time": 194.14,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 66,
+     "name": "Nick Dunmall",
+     "time": 194.26,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 67,
+     "name": "Maxwell Dubler",
+     "time": 194.48,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 68,
+     "name": "Cam Brickenden",
+     "time": 194.63,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 69,
+     "name": "Kyle Chin",
+     "time": 194.63,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 70,
+     "name": "Aidan Lynds",
+     "time": 194.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": null,
+     "name": "Riley Crone",
+     "time": 194.95,
+     "dnf": false,
+     "dns": true,
+     "nat": "USA"
+    },
+    {
+     "place": 72,
+     "name": "Key Clyde Dougherty",
+     "time": 195.12,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 73,
+     "name": "Jose Guzman",
+     "time": 195.26,
+     "dnf": false,
+     "dns": false,
+     "nat": "PUR"
+    },
+    {
+     "place": 74,
+     "name": "Levi Greene",
+     "time": 195.33,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 75,
+     "name": "Mikael Jensen",
+     "time": 195.33,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 76,
+     "name": "Brandon DesJarlais",
+     "time": 195.41,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 77,
+     "name": "Benjamin Hryn",
+     "time": 195.41,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 78,
+     "name": "Maxime Robitaille",
+     "time": 195.48,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 79,
+     "name": "Max Myers",
+     "time": 195.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 80,
+     "name": "Jorge Garcia",
+     "time": 195.97,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 81,
+     "name": "JM Duran",
+     "time": 195.97,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 82,
+     "name": "Noah Throckmorton",
+     "time": 196.11,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 83,
+     "name": "Geoff Treadwell",
+     "time": 196.12,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 84,
+     "name": "Devon Reece",
+     "time": 196.24,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 85,
+     "name": "Keith Henderson",
+     "time": 196.3,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Fabian Gutierrez",
+     "time": 196.49,
+     "dnf": false,
+     "dns": true,
+     "nat": "MEX"
+    },
+    {
+     "place": 87,
+     "name": "Cody Shea",
+     "time": 196.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 88,
+     "name": "Matthew Kienzle",
+     "time": 196.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 89,
+     "name": "Jacob Gellatly",
+     "time": 196.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 90,
+     "name": "Luis Lins",
+     "time": 196.74,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 91,
+     "name": "Sondre Selander",
+     "time": 197.16,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 92,
+     "name": "Scott Lembach",
+     "time": 197.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 93,
+     "name": "Cody Kautz",
+     "time": 197.43,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 94,
+     "name": "Gerardo Moreno",
+     "time": 197.46,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 95,
+     "name": "Samuel Flavin",
+     "time": 197.52,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 96,
+     "name": "Brandon Montesano",
+     "time": 197.94,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 97,
+     "name": "Jason Epp",
+     "time": 198.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 98,
+     "name": "Jeffrey Vyain",
+     "time": 198.03,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 99,
+     "name": "Justin Suryanata",
+     "time": 198.11,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 100,
+     "name": "Richard Sanchez",
+     "time": 198.16,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 101,
+     "name": "Brett Ciabattini",
+     "time": 198.47,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 102,
+     "name": "Nick Ronzani",
+     "time": 198.58,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 103,
+     "name": "Rebekka Gemperle",
+     "time": 198.63,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 104,
+     "name": "Max Meurling",
+     "time": 198.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 105,
+     "name": "Jake Wilkinson",
+     "time": 198.76,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 106,
+     "name": "Michael Sherlock",
+     "time": 198.8,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 107,
+     "name": "Zac Sharp",
+     "time": 198.86,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 108,
+     "name": "Nathan Marton",
+     "time": 198.89,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 109,
+     "name": "Tad Drysdale",
+     "time": 199.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 110,
+     "name": "Maxwell Capps",
+     "time": 199.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 111,
+     "name": "Manuel Anglero",
+     "time": 199.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "PUR"
+    },
+    {
+     "place": 112,
+     "name": "Fernando Vega",
+     "time": 199.17,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 113,
+     "name": "Jackson Wells",
+     "time": 199.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 114,
+     "name": "Matthew English",
+     "time": 199.3,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 115,
+     "name": "Brian Bishop",
+     "time": 199.41,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 116,
+     "name": "Tyson Elenko",
+     "time": 199.49,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 117,
+     "name": "Ethan Vinograd",
+     "time": 199.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 118,
+     "name": "Garrett Creamer",
+     "time": 199.54,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 119,
+     "name": "Jacob Sharp",
+     "time": 199.55,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 120,
+     "name": "Lonnie Leonelli",
+     "time": 199.75,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 121,
+     "name": "Thibault Morgando",
+     "time": 199.77,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 122,
+     "name": "Eric Albee",
+     "time": 199.92,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 123,
+     "name": "Hayden Conroy",
+     "time": 199.92,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 124,
+     "name": "Aidian O'Leyne",
+     "time": 200.07,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 125,
+     "name": "Michael Harrington",
+     "time": 200.12,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 126,
+     "name": "Bryce Brady",
+     "time": 200.14,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 127,
+     "name": "Doug Tolman",
+     "time": 200.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 128,
+     "name": "Yun wook Jung",
+     "time": 200.51,
+     "dnf": false,
+     "dns": false,
+     "nat": "KOR"
+    },
+    {
+     "place": 129,
+     "name": "George Vigon",
+     "time": 200.52,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 130,
+     "name": "Ryan Vitale",
+     "time": 200.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 131,
+     "name": "Ishtar Backlund",
+     "time": 200.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 132,
+     "name": "Andre Bruni",
+     "time": 200.73,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 133,
+     "name": "Gunnar Morin",
+     "time": 200.78,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 134,
+     "name": "Tyler Gregg",
+     "time": 200.78,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 135,
+     "name": "Mason McGhee",
+     "time": 200.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 136,
+     "name": "Cedric Cornell",
+     "time": 200.93,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 137,
+     "name": "Jonathan Douglas",
+     "time": 201.29,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 138,
+     "name": "Philip Crow",
+     "time": 201.35,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 139,
+     "name": "Nathaniel Gomez",
+     "time": 201.37,
+     "dnf": false,
+     "dns": false,
+     "nat": "PUR"
+    },
+    {
+     "place": 140,
+     "name": "Roger Jones",
+     "time": 201.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 141,
+     "name": "Kelian Duplain",
+     "time": 201.46,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 142,
+     "name": "Luis Marrero",
+     "time": 201.67,
+     "dnf": false,
+     "dns": false,
+     "nat": "PUR"
+    },
+    {
+     "place": 143,
+     "name": "Daniel Caro",
+     "time": 201.74,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 144,
+     "name": "Stephen Dumaine",
+     "time": 201.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 145,
+     "name": "Edward Aviña",
+     "time": 201.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 146,
+     "name": "Andrew Barnes",
+     "time": 201.97,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 147,
+     "name": "Andrew Rouillard",
+     "time": 202.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 148,
+     "name": "Jack Craddock",
+     "time": 202.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 149,
+     "name": "Alicia Fillback",
+     "time": 202.21,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 150,
+     "name": "Marisa Nunez",
+     "time": 202.24,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 151,
+     "name": "Evan Gellatly",
+     "time": 202.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 152,
+     "name": "Vincent Jordana",
+     "time": 202.38,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 153,
+     "name": "Oliver Korman",
+     "time": 202.42,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 154,
+     "name": "Logan Whyatt",
+     "time": 202.42,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 155,
+     "name": "Jesse French",
+     "time": 202.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 156,
+     "name": "Chris Warren",
+     "time": 202.67,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 157,
+     "name": "Eric Fuss",
+     "time": 202.69,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 158,
+     "name": "Wyatt Gibbs",
+     "time": 202.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 159,
+     "name": "Christopher Sheehy",
+     "time": 203.11,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 160,
+     "name": "Jake Fast",
+     "time": 203.51,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 161,
+     "name": "Reece Gesick",
+     "time": 203.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 162,
+     "name": "Alex Ameen",
+     "time": 203.66,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 163,
+     "name": "Travis Davenport",
+     "time": 203.66,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 164,
+     "name": "Brendan Reid-Naughton",
+     "time": 203.69,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 165,
+     "name": "Brian Ward",
+     "time": 203.79,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 166,
+     "name": "Nicholas Herrick",
+     "time": 203.8,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 167,
+     "name": "Eric Douglas",
+     "time": 203.88,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 168,
+     "name": "Arthur Toledo",
+     "time": 204.17,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 169,
+     "name": "Tim Stuart",
+     "time": 204.64,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 170,
+     "name": "Nick Chase",
+     "time": 204.67,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 171,
+     "name": "Daniel Favela",
+     "time": 204.71,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": null,
+     "name": "Joe Ingersoll",
+     "time": 204.84,
+     "dnf": false,
+     "dns": true,
+     "nat": "USA"
+    },
+    {
+     "place": 173,
+     "name": "Chase Edwards",
+     "time": 204.86,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 174,
+     "name": "Christian Garner",
+     "time": 205.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 175,
+     "name": "Spencer Dolphin",
+     "time": 205.08,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 176,
+     "name": "Nohlan Campbell",
+     "time": 205.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 177,
+     "name": "Billy Jackle",
+     "time": 205.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 178,
+     "name": "Nicholas Calafato",
+     "time": 205.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 179,
+     "name": "Herbert Menendez",
+     "time": 205.33,
+     "dnf": false,
+     "dns": false,
+     "nat": "PUR"
+    },
+    {
+     "place": 180,
+     "name": "Samuel Chastenay-Joseph",
+     "time": 205.49,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 181,
+     "name": "Todd Smith",
+     "time": 205.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 182,
+     "name": "Brian Davenport",
+     "time": 205.72,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 183,
+     "name": "Michael Neblock",
+     "time": 206.18,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 184,
+     "name": "Amanda Powell",
+     "time": 206.2,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 185,
+     "name": "Charlie Daigneault",
+     "time": 206.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": null,
+     "name": "Ryan Sheridan",
+     "time": 206.95,
+     "dnf": false,
+     "dns": true,
+     "nat": "CAN"
+    },
+    {
+     "place": 187,
+     "name": "Lucas Harari",
+     "time": 207.12,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 188,
+     "name": "Jes Izman",
+     "time": 207.37,
+     "dnf": false,
+     "dns": false,
+     "nat": "MAS"
+    },
+    {
+     "place": 189,
+     "name": "Felipe Cobra",
+     "time": 207.58,
+     "dnf": false,
+     "dns": false,
+     "nat": "BLZ"
+    },
+    {
+     "place": 190,
+     "name": "Daniel Figueroa",
+     "time": 208.01,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": null,
+     "name": "Elija Vinograd",
+     "time": 208.34,
+     "dnf": false,
+     "dns": true,
+     "nat": "USA"
+    },
+    {
+     "place": 192,
+     "name": "Zach Robinson",
+     "time": 208.51,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 193,
+     "name": "Patrick Alejandro Olmos",
+     "time": 208.66,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 194,
+     "name": "Zion Miller",
+     "time": 208.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 195,
+     "name": "Fernando Bailleres",
+     "time": 209.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 196,
+     "name": "Mike Paproski",
+     "time": 210.12,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 197,
+     "name": "Cameron Lawrence",
+     "time": 210.35,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 198,
+     "name": "Pamela Diaz",
+     "time": 210.94,
+     "dnf": false,
+     "dns": false,
+     "nat": "DOM"
+    },
+    {
+     "place": 199,
+     "name": "Quinn Dubois",
+     "time": 211.67,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 200,
+     "name": "Stephen Salay",
+     "time": 212.08,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Jeffery Diaz",
+     "time": 215.11,
+     "dnf": false,
+     "dns": true,
+     "nat": "USA"
+    },
+    {
+     "place": 202,
+     "name": "Caloy Sambrano",
+     "time": 215.31,
+     "dnf": false,
+     "dns": false,
+     "nat": "PHI"
+    },
+    {
+     "place": null,
+     "name": "Scott Imbrie",
+     "time": 215.39,
+     "dnf": false,
+     "dns": true,
+     "nat": "USA"
+    },
+    {
+     "place": 204,
+     "name": "Knox Heslop",
+     "time": 215.43,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 205,
+     "name": "Zack Dougherty",
+     "time": 215.55,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 206,
+     "name": "Chris Goede",
+     "time": 216.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 207,
+     "name": "Traci Castonguay",
+     "time": 216.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 208,
+     "name": "Greg Paproski",
+     "time": 217.07,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 209,
+     "name": "Fifer Figueroa",
+     "time": 217.46,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 210,
+     "name": "Estuardo-Tato Bustamante",
+     "time": 217.69,
+     "dnf": false,
+     "dns": false,
+     "nat": "GUA"
+    },
+    {
+     "place": 211,
+     "name": "Ayumi Oride",
+     "time": 218.45,
+     "dnf": false,
+     "dns": false,
+     "nat": "JPN"
+    },
+    {
+     "place": 212,
+     "name": "Tyler Williams",
+     "time": 218.59,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 213,
+     "name": "Fuentes Valeria Isabel Figueroa",
+     "time": 218.63,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 214,
+     "name": "Anja Lindenmaier",
+     "time": 220.63,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 215,
+     "name": "Cami Best",
+     "time": 220.68,
+     "dnf": false,
+     "dns": false,
+     "nat": "JAM"
+    },
+    {
+     "place": 216,
+     "name": "Jett Ellis",
+     "time": 221.56,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 217,
+     "name": "Concha Rosa María Vega",
+     "time": 223.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 218,
+     "name": "Nylan Ro Anglero",
+     "time": 227.9,
+     "dnf": false,
+     "dns": false,
+     "nat": "PUR"
+    },
+    {
+     "place": 219,
+     "name": "Tristan Bell",
+     "time": 231.44,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": null,
+     "name": "Adam Bornstein",
+     "time": 232.21,
+     "dnf": false,
+     "dns": true,
+     "nat": "USA"
+    },
+    {
+     "place": 221,
+     "name": "Jordan Ellis",
+     "time": 245.39,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": null,
+     "name": "Gustaf Hallberg",
+     "time": 249.49,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    },
+    {
+     "place": 223,
+     "name": "Maxim Moisanen",
+     "time": 263.38,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Damer",
+   "kind": "Women",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130530045446id_/http://igsaworldcup.com/results/2012/2012_maryhill_wc_qual.pdf / Women Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Rebekka Gemperle",
+     "time": 198.63,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 2,
+     "name": "Ishtar Backlund",
+     "time": 200.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 3,
+     "name": "Alicia Fillback",
+     "time": 202.21,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 4,
+     "name": "Marisa Nunez",
+     "time": 202.24,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 5,
+     "name": "Amanda Powell",
+     "time": 206.2,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 6,
+     "name": "Charlie Daigneault",
+     "time": 206.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 7,
+     "name": "Pamela Diaz",
+     "time": 210.94,
+     "dnf": false,
+     "dns": false,
+     "nat": "DOM"
+    },
+    {
+     "place": 8,
+     "name": "Traci Castonguay",
+     "time": 216.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 9,
+     "name": "Ayumi Oride",
+     "time": 218.45,
+     "dnf": false,
+     "dns": false,
+     "nat": "JPN"
+    },
+    {
+     "place": 10,
+     "name": "Fuentes Valeria Isabel Figueroa",
+     "time": 218.63,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": null,
+     "name": "Sara Paulshock",
+     "time": 218.99,
+     "dnf": false,
+     "dns": true,
+     "nat": "USA"
+    },
+    {
+     "place": 12,
+     "name": "Anja Lindenmaier",
+     "time": 220.63,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 13,
+     "name": "Cami Best",
+     "time": 220.68,
+     "dnf": false,
+     "dns": false,
+     "nat": "JAM"
+    },
+    {
+     "place": 14,
+     "name": "Concha Rosa María Vega",
+     "time": 223.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Junior 1",
+   "kind": "Junior",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130530045446id_/http://igsaworldcup.com/results/2012/2012_maryhill_wc_qual.pdf / Junior 1 Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Ethan Vinograd",
+     "time": 199.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 2,
+     "name": "Jack Craddock",
+     "time": 202.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 3,
+     "name": "Evan Gellatly",
+     "time": 202.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 4,
+     "name": "Oliver Korman",
+     "time": 202.42,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 5,
+     "name": "Logan Whyatt",
+     "time": 202.42,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 6,
+     "name": "Jesse French",
+     "time": 202.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 7,
+     "name": "Elija Vinograd",
+     "time": 205.03,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 8,
+     "name": "Quinn Dubois",
+     "time": 211.67,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 9,
+     "name": "Knox Heslop",
+     "time": 215.43,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 10,
+     "name": "Greg Paproski",
+     "time": 217.07,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 11,
+     "name": "Tyler Williams",
+     "time": 218.59,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 12,
+     "name": "Jett Ellis",
+     "time": 221.56,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 13,
+     "name": "Nylan Ro Anglero",
+     "time": 227.9,
+     "dnf": false,
+     "dns": false,
+     "nat": "PUR"
+    },
+    {
+     "place": 14,
+     "name": "Tristan Bell",
+     "time": 231.44,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 15,
+     "name": "Jordan Ellis",
+     "time": 245.39,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 16,
+     "name": "Maxim Moisanen",
+     "time": 263.38,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Junior 2",
+   "kind": "Junior",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130530045446id_/http://igsaworldcup.com/results/2012/2012_maryhill_wc_qual.pdf / Junior 2 Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Spencer Smith",
+     "time": 188.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 2,
+     "name": "Bradley Cameron",
+     "time": 189.08,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 3,
+     "name": "Jonas Richter",
+     "time": 189.62,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 4,
+     "name": "Daniel Luna",
+     "time": 189.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 5,
+     "name": "Mike Slota",
+     "time": 190.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 6,
+     "name": "Kelly Carter",
+     "time": 190.59,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 7,
+     "name": "Byron Essert",
+     "time": 192.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 8,
+     "name": "Greggory Kent",
+     "time": 192.46,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 9,
+     "name": "Malachi Greene",
+     "time": 192.47,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 10,
+     "name": "Chance Gaul",
+     "time": 193.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 11,
+     "name": "Ian Russell",
+     "time": 193.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 12,
+     "name": "Sean Chantarachara",
+     "time": 193.14,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 13,
+     "name": "Brandon DesJarlais",
+     "time": 195.41,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 14,
+     "name": "Benjamin Hryn",
+     "time": 195.41,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 15,
+     "name": "Keith Henderson",
+     "time": 196.3,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 16,
+     "name": "Jacob Gellatly",
+     "time": 196.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 17,
+     "name": "Sondre Selander",
+     "time": 197.16,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 18,
+     "name": "Cody Kautz",
+     "time": 197.43,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 19,
+     "name": "Samuel Flavin",
+     "time": 197.52,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 20,
+     "name": "Aidan Lynds",
+     "time": 198.28,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 21,
+     "name": "Brett Ciabattini",
+     "time": 198.47,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 22,
+     "name": "Max Meurling",
+     "time": 198.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 23,
+     "name": "Jake Wilkinson",
+     "time": 198.76,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 24,
+     "name": "Jackson Wells",
+     "time": 199.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 25,
+     "name": "Tyson Elenko",
+     "time": 199.49,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 26,
+     "name": "Garrett Creamer",
+     "time": 199.54,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 27,
+     "name": "Jacob Sharp",
+     "time": 199.55,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 28,
+     "name": "Doug Tolman",
+     "time": 200.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 29,
+     "name": "Ryan Vitale",
+     "time": 200.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 30,
+     "name": "Gunnar Morin",
+     "time": 200.78,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 31,
+     "name": "Mason McGhee",
+     "time": 200.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 32,
+     "name": "Philip Crow",
+     "time": 201.35,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 33,
+     "name": "Nathaniel Gomez",
+     "time": 201.37,
+     "dnf": false,
+     "dns": false,
+     "nat": "PUR"
+    },
+    {
+     "place": 34,
+     "name": "Roger Jones",
+     "time": 201.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 35,
+     "name": "Daniel Caro",
+     "time": 201.74,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 36,
+     "name": "Wyatt Gibbs",
+     "time": 202.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 37,
+     "name": "Jake Fast",
+     "time": 203.51,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 38,
+     "name": "Nicholas Herrick",
+     "time": 203.8,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 39,
+     "name": "Eric Douglas",
+     "time": 203.88,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 40,
+     "name": "Chase Edwards",
+     "time": 204.86,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 41,
+     "name": "Christian Garner",
+     "time": 205.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 42,
+     "name": "Spencer Dolphin",
+     "time": 205.08,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 43,
+     "name": "Nohlan Campbell",
+     "time": 205.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Ryan Sheridan",
+     "time": 206.95,
+     "dnf": false,
+     "dns": true,
+     "nat": "CAN"
+    },
+    {
+     "place": 45,
+     "name": "Lucas Harari",
+     "time": 207.12,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 46,
+     "name": "Zach Robinson",
+     "time": 208.51,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 47,
+     "name": "Zion Miller",
+     "time": 208.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 48,
+     "name": "Stephen Salay",
+     "time": 212.08,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Jeffery Diaz",
+     "time": 215.11,
+     "dnf": false,
+     "dns": true,
+     "nat": "USA"
+    },
+    {
+     "place": 50,
+     "name": "Traci Castonguay",
+     "time": 216.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 51,
+     "name": "Estuardo-Tato Bustamante",
+     "time": 217.69,
+     "dnf": false,
+     "dns": false,
+     "nat": "GUA"
+    },
+    {
+     "place": null,
+     "name": "Adam Bornstein",
+     "time": 232.21,
+     "dnf": false,
+     "dns": true,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Gustaf Hallberg",
+     "time": 249.49,
+     "dnf": false,
+     "dns": true,
+     "nat": "SWE"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Classic Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130530045446id_/http://igsaworldcup.com/results/2012/2012_maryhill_wc_qual.pdf / Classic Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Christian Conaway",
+     "time": 191.14,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 2,
+     "name": "Kyle Castaneda",
+     "time": 191.17,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "John Huey",
+     "time": 191.57,
+     "dnf": false,
+     "dns": true,
+     "nat": "USA"
+    },
+    {
+     "place": 4,
+     "name": "Keith Henderson",
+     "time": 193.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 5,
+     "name": "Kolby Parks",
+     "time": 193.9,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 6,
+     "name": "Frank Williams",
+     "time": 194.93,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 7,
+     "name": "Benjamin Zehner",
+     "time": 196.77,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 8,
+     "name": "Thibault Morgando",
+     "time": 197.63,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 9,
+     "name": "William Myrvold",
+     "time": 198.32,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 10,
+     "name": "Joe Ingersoll",
+     "time": 198.36,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 11,
+     "name": "Mike McIntyre",
+     "time": 199.33,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 12,
+     "name": "Cory Wilder",
+     "time": 199.96,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 13,
+     "name": "Dylan Wall",
+     "time": 200.49,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 14,
+     "name": "Matt Bartlett",
+     "time": 206.99,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 15,
+     "name": "Christopher Hicks",
+     "time": 207.92,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 16,
+     "name": "Jan Moisanen",
+     "time": 208.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 17,
+     "name": "Chris McBride",
+     "time": 209.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 18,
+     "name": "Dean McBournie",
+     "time": 218.87,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 19,
+     "name": "Maxim Moisanen",
+     "time": 223.99,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 20,
+     "name": "Nick Kamink",
+     "time": 224.55,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130530045446id_/http://igsaworldcup.com/results/2012/2012_maryhill_wc_qual.pdf / Street Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Kolby Parks",
+     "time": 183.01,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Christian Conaway",
+     "time": 183.06,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 3,
+     "name": "Mike McIntyre",
+     "time": 183.47,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 4,
+     "name": "John Rogers",
+     "time": 183.71,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 5,
+     "name": "Kyle Castaneda",
+     "time": 185.03,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 6,
+     "name": "Christopher Hicks",
+     "time": 186.21,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 7,
+     "name": "Frank Williams",
+     "time": 189.28,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 8,
+     "name": "Keith Henderson",
+     "time": 189.49,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 9,
+     "name": "William Myrvold",
+     "time": 189.9,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 10,
+     "name": "Nick Kamink",
+     "time": 190.97,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 11,
+     "name": "Benjamin Zehner",
+     "time": 192.41,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 12,
+     "name": "Cory Wilder",
+     "time": 192.56,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 13,
+     "name": "Dan Kasmar",
+     "time": 194.36,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 14,
+     "name": "Joe Ingersoll",
+     "time": 194.8,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 15,
+     "name": "Chris McBride",
+     "time": 196.66,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 16,
+     "name": "Matt Bartlett",
+     "time": 197.36,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 17,
+     "name": "Jan Moisanen",
+     "time": 203.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 18,
+     "name": "Dylan Wall",
+     "time": 205.35,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

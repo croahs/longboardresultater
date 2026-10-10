@@ -1,0 +1,2081 @@
+{
+ "id": "2012-grand-prix-of-new-york",
+ "name": "Grand Prix of New York",
+ "year": 2012,
+ "date": "2012-06-24",
+ "date_known": true,
+ "hill": null,
+ "place": "Windham, New York, USA",
+ "level": "Continental",
+ "sources": [
+  "http://web.archive.org/web/20130530034118id_/http://igsaworldcup.com/results/2012/2012_grandprix_newyork_co_rslt.pdf",
+  "http://web.archive.org/web/20130530040226id_/http://igsaworldcup.com/results/2012/2012_grandprix_newyork_co_qual.pdf"
+ ],
+ "titles": [
+  "Grand Prix of New York"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20130530034118id_/http://igsaworldcup.com/results/2012/2012_grandprix_newyork_co_rslt.pdf / Downhill Pro Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Alex Tounge",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 2,
+     "name": "James Kelly",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 3,
+     "name": "Benjamin Dubreuil",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 4,
+     "name": "Charles Ouimet",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 5,
+     "name": "Patrick Switzer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 6,
+     "name": "Will Royce",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 7,
+     "name": "Justin Rouleau",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 8,
+     "name": "Matthew Kienzle",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 9,
+     "name": "Mischo Erban",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 10,
+     "name": "Kyle Wester",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 11,
+     "name": "Max Ballesteros",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 12,
+     "name": "Maxim Garant-Rousseau",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 13,
+     "name": "Jonas Richter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 14,
+     "name": "Peter Eubank",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 15,
+     "name": "Jeff Vyain",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 16,
+     "name": "Travis Morris",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 17,
+     "name": "Mike Jakubiec",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 18,
+     "name": "Cam Brickenden",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 19,
+     "name": "Anthony Flis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 20,
+     "name": "Pascal Jean",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 21,
+     "name": "Roberto Cobian",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PRI"
+    },
+    {
+     "place": 22,
+     "name": "Scott Hurdleston",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 23,
+     "name": "John Barnet",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 24,
+     "name": "Felipe Malaga",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 25,
+     "name": "Louis Pilloni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 26,
+     "name": "Ludovic Tremblay",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 27,
+     "name": "Jake Palmer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 28,
+     "name": "Brett Ciabattini",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 29,
+     "name": "Brian Bishop",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 30,
+     "name": "Yann Lhermitte",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 31,
+     "name": "Mikey Ortiz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PRI"
+    },
+    {
+     "place": 32,
+     "name": "Will Bush",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 33,
+     "name": "Kevin Can Lefrank",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 34,
+     "name": "Devon Reece",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 35,
+     "name": "William Deming",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 36,
+     "name": "Steven Sanchez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 37,
+     "name": "Shaquiel James",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 38,
+     "name": "Jason Epp",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 39,
+     "name": "Daniel Favela",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 40,
+     "name": "Gerardo Moreno",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 41,
+     "name": "Marc Ondrejko",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 42,
+     "name": "Christian Montoeca",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 43,
+     "name": "Manuel Anglero",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PUR"
+    },
+    {
+     "place": 44,
+     "name": "Alexander Megit",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 45,
+     "name": "Robbie Trotta",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 46,
+     "name": "Maxime Benoit",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 47,
+     "name": "Kyle Lahie",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 48,
+     "name": "Tom Wilson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 49,
+     "name": "Dustin Hampton",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 50,
+     "name": "Benjamin Philips",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 51,
+     "name": "Dejaune Jones",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 52,
+     "name": "Jorge Vigon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 53,
+     "name": "Luis Massero",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 54,
+     "name": "Sean Graves",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 55,
+     "name": "Francois Gonthier",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 56,
+     "name": "Zack Viente",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 57,
+     "name": "Matthew Napier",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 58,
+     "name": "Jacob Gellatly",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 59,
+     "name": "Calvin Staub",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 60,
+     "name": "Reece Gesick",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 61,
+     "name": "Wes Ormond",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 62,
+     "name": "Steven Dooley",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 63,
+     "name": "Matthew English",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 64,
+     "name": "Geoff Chapel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 65,
+     "name": "Dmitri Komarov",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 66,
+     "name": "Flavien Vidal",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 67,
+     "name": "Kelian Duplain",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 68,
+     "name": "Jeremy Ross",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 69,
+     "name": "Jorge Garcia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 70,
+     "name": "Al Garcia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 71,
+     "name": "Bryce Barrera",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 72,
+     "name": "Cordelia Welch",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 73,
+     "name": "Rob Dahm",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 74,
+     "name": "Alwin Narvaez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 75,
+     "name": "Jesse Weyher",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 76,
+     "name": "Jude Buenaseda",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 77,
+     "name": "Ramos Nayhomi Cruz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PRI"
+    },
+    {
+     "place": 78,
+     "name": "Jes Izman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MAS"
+    },
+    {
+     "place": 79,
+     "name": "Ryan Korczak",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 80,
+     "name": "Monika Restrepo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 81,
+     "name": "Cami Best",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "JAM"
+    },
+    {
+     "place": 82,
+     "name": "Rob Stuart",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 83,
+     "name": "Francesco De Chellis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 84,
+     "name": "Christian Pradel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 85,
+     "name": "Alex Lazaris",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 86,
+     "name": "Jerome Ouellet",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 87,
+     "name": "Juan Moliana",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 88,
+     "name": "Kyle Kay",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 89,
+     "name": "Nicolas Desmarais",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 90,
+     "name": "Trevor Wilder",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20130530034118id_/http://igsaworldcup.com/results/2012/2012_grandprix_newyork_co_rslt.pdf / Womens Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Cordelia Welch",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 2,
+     "name": "Ramos Nayhomi Cruz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PRI"
+    },
+    {
+     "place": 3,
+     "name": "Monika Restrepo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 4,
+     "name": "Cami Best",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "JAM"
+    }
+   ]
+  },
+  {
+   "name": "Junior 1",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20130530034118id_/http://igsaworldcup.com/results/2012/2012_grandprix_newyork_co_rslt.pdf / Junior 1 Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Tristan Bell",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Julian Rodriguez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 3,
+     "name": "Greg Paproski",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 4,
+     "name": "Niyan Anglero",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    }
+   ]
+  },
+  {
+   "name": "Junior 2",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20130530034118id_/http://igsaworldcup.com/results/2012/2012_grandprix_newyork_co_rslt.pdf / Junior 2 Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Daniel Caro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 2,
+     "name": "Nathaniel Gomez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 3,
+     "name": "John Kreutter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 4,
+     "name": "Avery Wilcox",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 5,
+     "name": "Max Vickers",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 6,
+     "name": "Dan Fontz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 7,
+     "name": "Kurt Lievenbruck",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 8,
+     "name": "Jacob Roberts",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 9,
+     "name": "John Muirhead",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 10,
+     "name": "Bryan Sheehy",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 11,
+     "name": "Liam Hayes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 12,
+     "name": "David Ramirez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 13,
+     "name": "Daniel Hopwood",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 14,
+     "name": "Patrick John Gorman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 15,
+     "name": "Bryan Rodriguez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PRI"
+    },
+    {
+     "place": 16,
+     "name": "Sean Jacoby",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    }
+   ]
+  },
+  {
+   "name": "Classic Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20130530034118id_/http://igsaworldcup.com/results/2012/2012_grandprix_newyork_co_rslt.pdf / Classic Luge LeMans / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Nick Kinnish",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 2,
+     "name": "Charles Lavoie",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 3,
+     "name": "Patrick Switzer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 4,
+     "name": "Louis Bouchard",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 5,
+     "name": "Joey Yates",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 6,
+     "name": "Leunam Segura",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 7,
+     "name": "Christian Conaway",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 8,
+     "name": "Tim Novak",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 9,
+     "name": "Kyle Wester",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 10,
+     "name": "Christopher Hicks",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 11,
+     "name": "Matthew Yates",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 12,
+     "name": "Benjamin Dubreuil",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 13,
+     "name": "Tony Mistretta",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20130530034118id_/http://igsaworldcup.com/results/2012/2012_grandprix_newyork_co_rslt.pdf / Street Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "David Dean",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 2,
+     "name": "Justin Crenshaw",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 3,
+     "name": "Christian Conaway",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 4,
+     "name": "Louis Bouchard",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 5,
+     "name": "Christopher Hicks",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 6,
+     "name": "Charles Lavoie",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 7,
+     "name": "Chris Mcbride",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 8,
+     "name": "Dylan Wall",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 9,
+     "name": "Tony Mistretta",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 10,
+     "name": "Marc Dean",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 11,
+     "name": "Nick Kinnish",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 12,
+     "name": "Tim Novak",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 13,
+     "name": "Joey Yates",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 14,
+     "name": "Victor Schumacher",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 15,
+     "name": "Matthew Yates",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 16,
+     "name": "Rob Dahm",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 17,
+     "name": "Mike Jakubiec",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 18,
+     "name": "Cory Wilder",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 19,
+     "name": "Roland Morrison",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130530040226id_/http://igsaworldcup.com/results/2012/2012_grandprix_newyork_co_qual.pdf / Downhill Amateur Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Nathan 01:23.21 Ryan",
+     "time": 83.21,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 2,
+     "name": "Andrew 01:24.61 Rouillard",
+     "time": 84.61,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 3,
+     "name": "Francis 01:24.85 Cote-Tremblay",
+     "time": 84.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 4,
+     "name": "Nathaniel 01:25.10 Gomez",
+     "time": 85.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 5,
+     "name": "Alexis 01:25.27 Labrecque",
+     "time": 85.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 6,
+     "name": "Philippe 01:25.50 Desjardins-Fouquet",
+     "time": 85.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 7,
+     "name": "Colin 01:25.52 Martin",
+     "time": 85.52,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 8,
+     "name": "Eric 01:26.12 Chernushenko",
+     "time": 86.12,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 9,
+     "name": "Avery 01:26.98 Wilcox",
+     "time": 86.98,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 10,
+     "name": "Dominic 01:27.25 Pleau",
+     "time": 87.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 11,
+     "name": "Mathieu 01:27.30 Bellefeuille",
+     "time": 87.3,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 12,
+     "name": "Ben 01:27.85 Desnyder",
+     "time": 87.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 13,
+     "name": "Scott 01:28.24 Imbrie",
+     "time": 88.24,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 14,
+     "name": "Patrick 01:28.30 Brassard",
+     "time": 88.3,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 15,
+     "name": "Travis 01:28.77 Davenport",
+     "time": 88.77,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 16,
+     "name": "Thomas 01:30.25 Shelton",
+     "time": 90.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 17,
+     "name": "Mathieu 01:31.90 Cloutier",
+     "time": 91.9,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 18,
+     "name": "Dylan 01:32.94 Baist-Bliss",
+     "time": 92.94,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 19,
+     "name": "Edward 01:33.07 Garner II",
+     "time": 93.07,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 20,
+     "name": "Dexter 01:33.72 Manning",
+     "time": 93.72,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 21,
+     "name": "Kurt 01:34.98 Lievenbruck",
+     "time": 94.98,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 22,
+     "name": "Carlos 01:36.28 Lascoutx",
+     "time": 96.28,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 23,
+     "name": "Anthony 01:36.70 Salvador",
+     "time": 96.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 24,
+     "name": "Matt 01:37.16 Coughenour",
+     "time": 97.16,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 25,
+     "name": "Nick 01:37.84 Brown",
+     "time": 97.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 26,
+     "name": "Garrett 01:38.48 Creamer",
+     "time": 98.48,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 27,
+     "name": "Eugene 01:38.53 Matlin",
+     "time": 98.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 28,
+     "name": "Jacob 01:39.14 Roberts",
+     "time": 99.14,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 29,
+     "name": "Dominic 01:39.24 Perusse",
+     "time": 99.24,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 30,
+     "name": "Adam 01:39.41 Daniels",
+     "time": 99.41,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 31,
+     "name": "Kais 01:39.51 Salam",
+     "time": 99.51,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 32,
+     "name": "St-Jean Michael 01:39.82 Labreche",
+     "time": 99.82,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 33,
+     "name": "Justin 01:43.46 Barnes",
+     "time": 103.46,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 34,
+     "name": "Israel 01:44.40 Moreno",
+     "time": 104.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 35,
+     "name": "Dylan 01:47.80 Walsh",
+     "time": 107.8,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 36,
+     "name": "John 01:49.00 Muirhead",
+     "time": 109.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 37,
+     "name": "Alex 01:50.30 Manning",
+     "time": 110.3,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 38,
+     "name": "Dan 01:51.24 Fontz",
+     "time": 111.24,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 39,
+     "name": "Lucas 01:54.04 Giannetti",
+     "time": 114.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 40,
+     "name": "Neil 01:57.83 Wieland",
+     "time": 117.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 41,
+     "name": "Max 02:00.32 Vickers",
+     "time": 120.32,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 42,
+     "name": "James 02:00.43 Woods",
+     "time": 120.43,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 43,
+     "name": "Justin 02:00.90 Howard",
+     "time": 120.9,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 44,
+     "name": "Leunam 02:01.97 Segura",
+     "time": 121.97,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 45,
+     "name": "Tom 02:04.13 Barnhart",
+     "time": 124.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 46,
+     "name": "Zachary 02:20.86 Lager",
+     "time": 140.86,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 47,
+     "name": "George 03:18.15 Fiske",
+     "time": 198.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": null,
+     "name": "Mark Rudyj",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": null,
+     "name": "Craig Barnett",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": null,
+     "name": "James Depalma",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": null,
+     "name": "Jeffery Diaz",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": null,
+     "name": "Victor Tu",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": null,
+     "name": "Thomas Whalen",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": null,
+     "name": "Liam Hayes",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": null,
+     "name": "Daniel Hopwood",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": null,
+     "name": "Bryan Sheehy",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": null,
+     "name": "Mike Paproski",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": null,
+     "name": "Bryan Rodriguez",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NQT"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Damer",
+   "kind": "Women",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130530040226id_/http://igsaworldcup.com/results/2012/2012_grandprix_newyork_co_qual.pdf / Women Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Cordelia 1:48.210 Welch",
+     "time": 108.21,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 2,
+     "name": "Ramos Nayhomi 1:56.920 Cruz",
+     "time": 116.92,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 3,
+     "name": "Monika 2:03.310 Restrepo",
+     "time": 123.31,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 4,
+     "name": "Cami 2:06.120 Best",
+     "time": 126.12,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Junior 1",
+   "kind": "Junior",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130530040226id_/http://igsaworldcup.com/results/2012/2012_grandprix_newyork_co_qual.pdf / Junior 1 Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Tristan 1:49.130 Bell",
+     "time": 109.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 2,
+     "name": "Julian 2:18.550 Rodriguez",
+     "time": 138.55,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": null,
+     "name": "Nylan Ro Anglero",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": null,
+     "name": "Greg Paproski",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NQT"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Junior 2",
+   "kind": "Junior",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130530040226id_/http://igsaworldcup.com/results/2012/2012_grandprix_newyork_co_qual.pdf / Junior 2 Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": null,
+     "name": "David Ramirez",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": null,
+     "name": "Daniel Hopwood",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": null,
+     "name": "Bryan Sheehy",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": null,
+     "name": "Jacob Roberts",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": null,
+     "name": "Max Vickers",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": null,
+     "name": "Patrick John Gorman",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": null,
+     "name": "Avery Wilcox",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": null,
+     "name": "Daniel Caro",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": null,
+     "name": "Bryan Rodriguez",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": null,
+     "name": "Sean Jacoby",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": null,
+     "name": "Kurt Lievenbruck",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": null,
+     "name": "John Kreutter",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": null,
+     "name": "Dan Fontz",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": null,
+     "name": "Nathaniel Gomez",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NNI"
+    },
+    {
+     "place": null,
+     "name": "John Muirhead",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NNI"
+    },
+    {
+     "place": null,
+     "name": "Liam Hayes",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NNI"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130530040226id_/http://igsaworldcup.com/results/2012/2012_grandprix_newyork_co_qual.pdf / Street Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "David 1:11.210 Dean",
+     "time": 71.21,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 2,
+     "name": "Justin 1:12.530 Crenshaw",
+     "time": 72.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 3,
+     "name": "Charles 1:13.730 Lavoie",
+     "time": 73.73,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 4,
+     "name": "Christian 1:13.780 Conaway",
+     "time": 73.78,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 5,
+     "name": "Louis 1:14.100 Bouchard",
+     "time": 74.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 6,
+     "name": "Christopher 1:15.810 Hicks",
+     "time": 75.81,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 7,
+     "name": "Victor 1:16.250 Schumacher",
+     "time": 76.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 8,
+     "name": "Tim 1:16.620 Novak",
+     "time": 76.62,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 9,
+     "name": "Nick 1:17.100 Kinnish",
+     "time": 77.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 10,
+     "name": "Tony 1:17.980 Mistretta",
+     "time": 77.98,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 11,
+     "name": "Chris 1:18.270 Mcbride",
+     "time": 78.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 12,
+     "name": "Cory 1:19.510 Wilder",
+     "time": 79.51,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 13,
+     "name": "Joey 1:20.390 Yates",
+     "time": 80.39,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 14,
+     "name": "Marc 1:28.470 Dean",
+     "time": 88.47,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": 15,
+     "name": "Matthew 1:28.970 Yates",
+     "time": 88.97,
+     "dnf": false,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": null,
+     "name": "Rob Dahm",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": null,
+     "name": "Mike Jakubiec",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": null,
+     "name": "Roland Morrison",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NQT"
+    },
+    {
+     "place": null,
+     "name": "Dylan Wall",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NQT"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

@@ -1,0 +1,579 @@
+{
+ "id": "2016-red-bull-yuping-longboard-open",
+ "name": "Red Bull Yuping Longboard Open",
+ "year": 2016,
+ "date": "2016-04-23",
+ "date_known": true,
+ "hill": null,
+ "place": "China",
+ "sources": [
+  "https://internationaldownhillfederation.org/rankings/2016-rankings/"
+ ],
+ "titles": [
+  "Yuping Cup"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2016/World-Rankings-2016-Open-Skateboard.html / Yuping Cup",
+   "results": [
+    {
+     "place": 1,
+     "name": "Max Ballesteros",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 2,
+     "name": "Tiago Mohr",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 3,
+     "name": "Max Vickers",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 4,
+     "name": "Thiago Gomes Lessa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 5,
+     "name": "Roy Churchland",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 6,
+     "name": "Harry Clarke",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 7,
+     "name": "Qing Yunhui",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "China"
+    },
+    {
+     "place": 8,
+     "name": "Cameron Hancock",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 9,
+     "name": "Adam Yates",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 10,
+     "name": "Robert Burns",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Hong Kong"
+    },
+    {
+     "place": 11,
+     "name": "Seunghun Lee",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 12,
+     "name": "Yu-Ching Chang",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Taiwan"
+    },
+    {
+     "place": 13,
+     "name": "Liam Coppleman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 14,
+     "name": "Tan Daijian",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "China"
+    },
+    {
+     "place": 15,
+     "name": "Vince Vazquez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Philippines"
+    },
+    {
+     "place": 16,
+     "name": "Shijie Cao",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "China"
+    },
+    {
+     "place": 17,
+     "name": "Juliano Cassemiro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 18,
+     "name": "Nicolas Rayner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 19,
+     "name": "Wing Tsun Thomas Hlss",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "China"
+    },
+    {
+     "place": 20,
+     "name": "Turtle Wu Xinhong",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "China"
+    },
+    {
+     "place": 21,
+     "name": "Elissa Mah",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "New Zealand"
+    },
+    {
+     "place": 22,
+     "name": "Ryan Nicholls",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 23,
+     "name": "Jennifer Schauerte",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 24,
+     "name": "Jin-Hee Yoo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 25,
+     "name": "Jerome Zeng",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "China"
+    },
+    {
+     "place": 26,
+     "name": "Chi Wang Chan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "China"
+    },
+    {
+     "place": 27,
+     "name": "A.J Cheng",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Taiwan"
+    },
+    {
+     "place": 28,
+     "name": "Chul Min Jun",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 29,
+     "name": "Anna Pixner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Austria"
+    },
+    {
+     "place": 30,
+     "name": "Allison Zhu",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Taiwan"
+    },
+    {
+     "place": 31,
+     "name": "Wei She",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "China"
+    },
+    {
+     "place": 32,
+     "name": "Liang He",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "China"
+    },
+    {
+     "place": 33,
+     "name": "Zhou Zhou",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "China"
+    },
+    {
+     "place": 34,
+     "name": "Reine Oliveira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 35,
+     "name": "Yue Gao",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 36,
+     "name": "He Qiao",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "China"
+    },
+    {
+     "place": 37,
+     "name": "Zuzana Beranová",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Czech Republic"
+    },
+    {
+     "place": 38,
+     "name": "Kyunghun Lee",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 39,
+     "name": "Air Uncle",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "China"
+    },
+    {
+     "place": 40,
+     "name": "Taejoo Park",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 41,
+     "name": "Kyung Hun Kim",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 42,
+     "name": "Dick",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "China"
+    },
+    {
+     "place": 43,
+     "name": "Zhizhen Ren",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "China"
+    },
+    {
+     "place": 44,
+     "name": "Hoi Ki Law",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "China"
+    },
+    {
+     "place": 45,
+     "name": "Jeongho An",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 46,
+     "name": "Seulgi Lee",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 47,
+     "name": "Shen Yonkee",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "China"
+    },
+    {
+     "place": 48,
+     "name": "Tae Yun Lee",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 49,
+     "name": "Yang Xiao",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "China"
+    },
+    {
+     "place": 50,
+     "name": "Sun Qiankang",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "China"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2016/World-Rankings-2016-Women-Skateboard.html / Yuping Cup",
+   "results": [
+    {
+     "place": 1,
+     "name": "Jennifer Schauerte",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 2,
+     "name": "Elissa Mah",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "New Zealand"
+    },
+    {
+     "place": 3,
+     "name": "Anna Pixner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Austria"
+    },
+    {
+     "place": 4,
+     "name": "Zuzana Beranová",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Czech Republic"
+    },
+    {
+     "place": 5,
+     "name": "Zhou Zhou",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "China"
+    },
+    {
+     "place": 6,
+     "name": "Reine Oliveira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 7,
+     "name": "Air Uncle",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "China"
+    }
+   ]
+  },
+  {
+   "name": "Junior",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2016/World-Rankings-2016-Junior-Skateboard.html / Yuping Cup",
+   "results": [
+    {
+     "place": 1,
+     "name": "Robert Burns",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Hong Kong"
+    },
+    {
+     "place": 2,
+     "name": "Yang Xiao",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "China"
+    },
+    {
+     "place": 3,
+     "name": "Sun Qiankang",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "China"
+    }
+   ]
+  },
+  {
+   "name": "Masters",
+   "kind": "Masters",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2016/World-Rankings-2016-Master-Skateboard.html / Yuping Cup",
+   "results": [
+    {
+     "place": 1,
+     "name": "Ryan Nicholls",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 2,
+     "name": "Juliano Cassemiro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 3,
+     "name": "Kyung Hun Kim",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    },
+    {
+     "place": 4,
+     "name": "Adam Yates",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Australia"
+    },
+    {
+     "place": 5,
+     "name": "Liang He",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "China"
+    },
+    {
+     "place": 6,
+     "name": "Taejoo Park",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "South Korea"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

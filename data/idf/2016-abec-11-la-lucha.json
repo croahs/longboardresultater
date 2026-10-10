@@ -1,0 +1,539 @@
+{
+ "id": "2016-abec-11-la-lucha",
+ "name": "Abec 11 La Lucha",
+ "year": 2016,
+ "date": "2016-09-17",
+ "date_known": true,
+ "hill": null,
+ "place": "Costa Rica",
+ "sources": [
+  "https://internationaldownhillfederation.org/rankings/2016-rankings/"
+ ],
+ "titles": [
+  "Abec 11 La Lucha"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2016/World-Rankings-2016-Open-Skateboard.html / Abec 11 La Lucha",
+   "results": [
+    {
+     "place": 1,
+     "name": "Oscar Gutierrez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Mexico"
+    },
+    {
+     "place": 2,
+     "name": "Douglas Silva",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 3,
+     "name": "Iuri Maggi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 4,
+     "name": "Arturo Chaves",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 5,
+     "name": "Greivin Amador",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 6,
+     "name": "Brian Sandoval",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 7,
+     "name": "Lucas Braga Americano Freire",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 8,
+     "name": "Lucas Perdoná Da Silva",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 9,
+     "name": "Eduardo Falcão",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 9,
+     "name": "Javier Arce",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 9,
+     "name": "Jean Carlo Cespedes Cruz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 9,
+     "name": "Juan Miguel Vargas Cerdas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 9,
+     "name": "Max Vickers",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 9,
+     "name": "Max Wippermann",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 9,
+     "name": "Nicolas Desmarais",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 9,
+     "name": "Ruben Piñango",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Venezuela"
+    },
+    {
+     "place": 17,
+     "name": "Alex Jimenez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 17,
+     "name": "Andrez Krob Pereira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 17,
+     "name": "Augusto Garcia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 17,
+     "name": "Cassandra Duchesne",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 17,
+     "name": "Diego José Gavidia Miranda",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "El Salvador"
+    },
+    {
+     "place": 17,
+     "name": "Estiven Josue Cassola Marchena",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 17,
+     "name": "Ismael Rojas Conejo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 17,
+     "name": "Jasir Hidalgo Fonseca",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 17,
+     "name": "Jeremias Gasparotto",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 17,
+     "name": "Jose Fabian Nuñez Rodriguez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 17,
+     "name": "Mabelyn Gomez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 17,
+     "name": "Magdiel Colphan Castillo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 17,
+     "name": "Marco Arroyo Torres",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 17,
+     "name": "Marlon Barquero Cubero",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 17,
+     "name": "Ricardo Koichi Garcia Oliveros",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Mexico"
+    },
+    {
+     "place": 17,
+     "name": "Yan Bertinati",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 33,
+     "name": "Albis Daniel Gómez Guevara",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Panama"
+    },
+    {
+     "place": 33,
+     "name": "Antonio Zamora",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 33,
+     "name": "Carlos Mario Ramirez Montero",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 33,
+     "name": "Cedric Luscher",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 33,
+     "name": "Felipe Briceno Leon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 33,
+     "name": "Iury Pedrosa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 33,
+     "name": "Jared Roy",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 33,
+     "name": "Javier Lou",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Panama"
+    },
+    {
+     "place": 33,
+     "name": "Jhonny Alberto Cerdas Matamoros",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 33,
+     "name": "Jorge Luis Cerdas Valverde",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 33,
+     "name": "Jose Pablo Bravo Molina",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 33,
+     "name": "Kala Chaves",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 33,
+     "name": "Loryn Roberson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 33,
+     "name": "Lucas Lellig",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "France"
+    },
+    {
+     "place": 33,
+     "name": "Luis Miguel Rodriguez Oviedo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 33,
+     "name": "Mathiws Braudigan Quiros",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 33,
+     "name": "Oldemar Espinoza",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 33,
+     "name": "Roberto Ramírez Guadamuz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2016/World-Rankings-2016-Women-Skateboard.html / Abec 11 La Lucha",
+   "results": [
+    {
+     "place": 1,
+     "name": "Cassandra Duchesne",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 2,
+     "name": "Mabelyn Gomez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 3,
+     "name": "Kala Chaves",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    }
+   ]
+  },
+  {
+   "name": "Junior",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2016/World-Rankings-2016-Junior-Skateboard.html / Abec 11 La Lucha",
+   "results": [
+    {
+     "place": 1,
+     "name": "Albis Daniel Gómez Guevara",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Panama"
+    },
+    {
+     "place": 2,
+     "name": "Jeremias Gasparotto",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 3,
+     "name": "Iury Pedrosa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 4,
+     "name": "José Roberto Alfaro Luna",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 5,
+     "name": "Jasir Hidalgo Fonseca",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 5,
+     "name": "Javier Lou",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Panama"
+    }
+   ]
+  },
+  {
+   "name": "Masters",
+   "kind": "Masters",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2016/World-Rankings-2016-Master-Skateboard.html / Abec 11 La Lucha",
+   "results": [
+    {
+     "place": 1,
+     "name": "Nicolas Desmarais",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 2,
+     "name": "Marlon Barquero Cubero",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

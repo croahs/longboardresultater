@@ -1,0 +1,965 @@
+{
+ "id": "2012-monterreal-longboard-fest",
+ "name": "Monterreal Longboard Fest",
+ "year": 2012,
+ "date": "2012-07-07",
+ "date_known": true,
+ "hill": null,
+ "place": "Monterreal, Mexico",
+ "level": "Continental",
+ "sources": [
+  "http://web.archive.org/web/20130530050556id_/http://igsaworldcup.com/results/2012/2012_monterrea_%20longboard_fest_co_qual.pdf",
+  "http://web.archive.org/web/20130530050915id_/http://igsaworldcup.com/results/2012/2012_monterrea_%20longboard_fest_co_rslt.pdf"
+ ],
+ "titles": [
+  "Monterreal Longboard Fest"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130530050556id_/http://igsaworldcup.com/results/2012/2012_monterrea_%20longboard_fest_co_qual.pdf / Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Kyle Martin",
+     "time": 196.07,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Tristan Morrow",
+     "time": 201.39,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 3,
+     "name": "Billy Meiners",
+     "time": 201.45,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 4,
+     "name": "Zak Maytum",
+     "time": 201.97,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 5,
+     "name": "Juliano Cassemiro",
+     "time": 204.78,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Brent Dubendorff",
+     "time": 205.23,
+     "dnf": false,
+     "dns": true,
+     "nat": "USA"
+    },
+    {
+     "place": 7,
+     "name": "Justin Readings",
+     "time": 205.61,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 8,
+     "name": "Aidan Lynds",
+     "time": 207.49,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 9,
+     "name": "Brian Sandoval",
+     "time": 208.69,
+     "dnf": false,
+     "dns": false,
+     "nat": "CRC"
+    },
+    {
+     "place": 10,
+     "name": "Daniel Caro",
+     "time": 208.71,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 11,
+     "name": "Albin Larsson",
+     "time": 211.62,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 12,
+     "name": "Gerardo Moreno",
+     "time": 213.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 13,
+     "name": "Greivin Amador",
+     "time": 215.29,
+     "dnf": false,
+     "dns": false,
+     "nat": "CRC"
+    },
+    {
+     "place": 14,
+     "name": "Kyle Chin",
+     "time": 216.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 15,
+     "name": "Patricio Garza",
+     "time": 218.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 16,
+     "name": "Edward Aviña",
+     "time": 218.74,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 17,
+     "name": "Armando Monroy",
+     "time": 219.71,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 18,
+     "name": "Fernando Balleres",
+     "time": 220.05,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 19,
+     "name": "Fabian Gutierres",
+     "time": 220.43,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 20,
+     "name": "Fernando Araya",
+     "time": 223.69,
+     "dnf": false,
+     "dns": false,
+     "nat": "CRC"
+    },
+    {
+     "place": 21,
+     "name": "Alain Carvajal",
+     "time": 224.29,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 22,
+     "name": "Fernando Vega",
+     "time": 225.09,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 23,
+     "name": "Daniel Favela",
+     "time": 228.87,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 24,
+     "name": "Alejandro Romo",
+     "time": 232.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 25,
+     "name": "Juan VanDusen",
+     "time": 239.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 26,
+     "name": "Oscar Cortes",
+     "time": 244.46,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 27,
+     "name": "Abraham Esparza",
+     "time": 246.94,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 28,
+     "name": "Raul Lores",
+     "time": 256.23,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 29,
+     "name": "Jossy Ricao",
+     "time": 258.59,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 30,
+     "name": "Jose Luis Orozco",
+     "time": 261.52,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": null,
+     "name": "Jorge Celes",
+     "time": 263.44,
+     "dnf": false,
+     "dns": true,
+     "nat": "MEX"
+    },
+    {
+     "place": 32,
+     "name": "Juan Raul Guerrero",
+     "time": 264.39,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 33,
+     "name": "Juan Octavio Carrizales",
+     "time": 264.81,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 34,
+     "name": "Uriel Torres",
+     "time": 267.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 35,
+     "name": "Angel Arriaga",
+     "time": 268.06,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 36,
+     "name": "Roberto Pimentel",
+     "time": 268.72,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 37,
+     "name": "Rosy Vega",
+     "time": 294.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": null,
+     "name": "Donovan Garcia",
+     "time": 306.97,
+     "dnf": false,
+     "dns": true,
+     "nat": "MEX"
+    },
+    {
+     "place": null,
+     "name": "Valeria Figueroa",
+     "time": 325.38,
+     "dnf": false,
+     "dns": true,
+     "nat": "MEX"
+    },
+    {
+     "place": 40,
+     "name": "Ivan Uriel Hernandez",
+     "time": 352.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": null,
+     "name": "Mauricio Rodriguez",
+     "time": 386.65,
+     "dnf": false,
+     "dns": true,
+     "nat": "MEX"
+    },
+    {
+     "place": null,
+     "name": "Ayumi Oride",
+     "time": 397.39,
+     "dnf": false,
+     "dns": true,
+     "nat": "JAP"
+    },
+    {
+     "place": null,
+     "name": "Dillon Stephens",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "CAN"
+    },
+    {
+     "place": null,
+     "name": "Jorge Vigon",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "MEX"
+    },
+    {
+     "place": null,
+     "name": "Daniel Figueroa",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "MEX"
+    },
+    {
+     "place": null,
+     "name": "Carlos Enrique Figueroa",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "MEX"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Damer",
+   "kind": "Women",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130530050556id_/http://igsaworldcup.com/results/2012/2012_monterrea_%20longboard_fest_co_qual.pdf / Women Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Rosy Vega",
+     "time": 294.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": null,
+     "name": "Valeria Figueroa",
+     "time": 325.38,
+     "dnf": false,
+     "dns": true,
+     "nat": "MEX"
+    },
+    {
+     "place": null,
+     "name": "Ayumi Oride",
+     "time": 397.39,
+     "dnf": false,
+     "dns": true,
+     "nat": "JAP"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Junior 2",
+   "kind": "Junior",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130530050556id_/http://igsaworldcup.com/results/2012/2012_monterrea_%20longboard_fest_co_qual.pdf / Junior 2 Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Aidan Lynds",
+     "time": 207.49,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Daniel Caro",
+     "time": 208.71,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 3,
+     "name": "Raul Lores",
+     "time": 256.23,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 4,
+     "name": "Angel Arriaga",
+     "time": 268.06,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 5,
+     "name": "Roberto Pimentel",
+     "time": 268.72,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Classic Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130530050556id_/http://igsaworldcup.com/results/2012/2012_monterrea_%20longboard_fest_co_qual.pdf / Classic Luge / timed",
+   "results": [
+    {
+     "place": null,
+     "name": "Jon Huey",
+     "time": 217.03,
+     "dnf": false,
+     "dns": true,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Dylan Wall",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "CAN"
+    }
+   ]
+  },
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20130530050915id_/http://igsaworldcup.com/results/2012/2012_monterrea_%20longboard_fest_co_rslt.pdf / Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Kyle Martin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Tristan Morrow",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 3,
+     "name": "Zak Maytum",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 4,
+     "name": "Billy Meiners",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 5,
+     "name": "Juliano Cassemiro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 6,
+     "name": "Brian Sandoval",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CRC"
+    },
+    {
+     "place": 7,
+     "name": "Albin Larsson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 8,
+     "name": "Daniel Caro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 9,
+     "name": "Justin Readings",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 10,
+     "name": "Aidan Lynds",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 11,
+     "name": "Gerardo Moreno",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 12,
+     "name": "Kyle Chin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 13,
+     "name": "Brent Dubendorff",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 14,
+     "name": "Greivin Amador",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CRC"
+    },
+    {
+     "place": 15,
+     "name": "Edward Aviña",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 16,
+     "name": "Fernando Balleres",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 17,
+     "name": "Patricio Garza",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 18,
+     "name": "Fabian Gutierres",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 19,
+     "name": "Fernando Araya",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CRC"
+    },
+    {
+     "place": 20,
+     "name": "Alain Carvajal",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 21,
+     "name": "Fernando Vega",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 22,
+     "name": "Juan VanDusen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 23,
+     "name": "Oscar Cortes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 24,
+     "name": "Juan Raul Guerrero",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 25,
+     "name": "Alejandro Romo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 26,
+     "name": "Jossy Ricao",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 27,
+     "name": "Uriel Torres",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 28,
+     "name": "Angel Arriaga",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 29,
+     "name": "Rosy Vega",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 30,
+     "name": "Donovan Garcia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 31,
+     "name": "Daniel Favela",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 32,
+     "name": "Abraham Esparza",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 33,
+     "name": "Jose Luis Orozco",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 34,
+     "name": "Jorge Celes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 35,
+     "name": "Juan Octavio Carrizales",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 36,
+     "name": "Roberto Pimentel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 37,
+     "name": "Valeria Figueroa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 38,
+     "name": "Mauricio Rodriguez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 39,
+     "name": "Ayumi Oride",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "JAP"
+    },
+    {
+     "place": null,
+     "name": "Daniel Figueroa",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "MEX"
+    },
+    {
+     "place": null,
+     "name": "Carlos Enrique Figueroa",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "MEX"
+    },
+    {
+     "place": 42,
+     "name": "Armando Monroy",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 43,
+     "name": "Raul Lores",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 44,
+     "name": "Ivan Uriel Hernandez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20130530050915id_/http://igsaworldcup.com/results/2012/2012_monterrea_%20longboard_fest_co_rslt.pdf / Women Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Rosy Vega",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 2,
+     "name": "Valeria Figueroa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 3,
+     "name": "Ayumi Oride",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "JAP"
+    }
+   ]
+  },
+  {
+   "name": "Junior 2",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20130530050915id_/http://igsaworldcup.com/results/2012/2012_monterrea_%20longboard_fest_co_rslt.pdf / Junior 2 Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Aidan Lynds",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Daniel Caro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 3,
+     "name": "Raul Lores",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 4,
+     "name": "Angel Arriaga",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 5,
+     "name": "Roberto Pimentel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    }
+   ]
+  },
+  {
+   "name": "Classic Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20130530050915id_/http://igsaworldcup.com/results/2012/2012_monterrea_%20longboard_fest_co_rslt.pdf / Classic Luge / bracket",
+   "results": [
+    {
+     "place": null,
+     "name": "Dylan Wall",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Jon Huey",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

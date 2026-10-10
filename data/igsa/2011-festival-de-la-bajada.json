@@ -1,0 +1,1125 @@
+{
+ "id": "2011-festival-de-la-bajada",
+ "name": "Festival de la Bajada",
+ "year": 2011,
+ "date": "2011-10-16",
+ "date_known": true,
+ "hill": null,
+ "place": "Bogotá, Colombia",
+ "level": "Continental",
+ "sources": [
+  "http://web.archive.org/web/20160606110400id_/http://igsaworldcup.com/results/2011/2011_festival_de_la_bajada_na_rslt.pdf",
+  "http://web.archive.org/web/20160606163326id_/http://igsaworldcup.com/results/2011/2011_festival_de_la_bajada_na_qual.pdf"
+ ],
+ "titles": [
+  "Festival de la Bajada"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20160606110400id_/http://igsaworldcup.com/results/2011/2011_festival_de_la_bajada_na_rslt.pdf / Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Juliano Cassemiro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 2,
+     "name": "Kyle Martin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 3,
+     "name": "Felipe Malaga",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 4,
+     "name": "Patrick Switzer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 5,
+     "name": "Dillon Stephens",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 6,
+     "name": "Mauricio Rodriguez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 7,
+     "name": "Camilo Cespedes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 8,
+     "name": "Cristian Montoya",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 9,
+     "name": "Santiago Salaberry",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 10,
+     "name": "Juan Botero",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 11,
+     "name": "Sergio Castro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 12,
+     "name": "Wendel Malessa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 13,
+     "name": "Douglas Silva",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 14,
+     "name": "Travis Craig",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 15,
+     "name": "Juan Guevara",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 16,
+     "name": "Lucas Arnoletto",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 17,
+     "name": "Oliverio Espitia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 18,
+     "name": "Adrian Schlotter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ALE"
+    },
+    {
+     "place": 19,
+     "name": "Luca Dragone",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 20,
+     "name": "Sebastian Alvarez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 21,
+     "name": "Cristian Montaño",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 22,
+     "name": "Juan Gonzalez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 23,
+     "name": "Manuel Rivera",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 24,
+     "name": "David Ramos",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 25,
+     "name": "Andres Rubino",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 26,
+     "name": "Katie Nielson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 27,
+     "name": "Andres Marin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 28,
+     "name": "Omar Perez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 29,
+     "name": "Alejandro Sanchez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 30,
+     "name": "Juan Montes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 31,
+     "name": "Alejandro Fernandez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 32,
+     "name": "Juan Rojas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 33,
+     "name": "Diego Gomez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 34,
+     "name": "Hernan Miguez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 35,
+     "name": "Teo Mejia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 36,
+     "name": "Falke Nehren",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 37,
+     "name": "Ricardo Foliaco",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 38,
+     "name": "Jhon Brausin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 39,
+     "name": "Juan Garzon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 40,
+     "name": "Nicolas Moreno",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 41,
+     "name": "Santiago Zapata",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 42,
+     "name": "Jenny Patiño",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 43,
+     "name": "Julio Castro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 44,
+     "name": "Alex Giusti",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 45,
+     "name": "Reine Oliveira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 46,
+     "name": "Catalina Fonseca",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 47,
+     "name": "Pedro Benitez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 48,
+     "name": "Fernando Raimondi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 49,
+     "name": "Sebastian Barroso",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 50,
+     "name": "Agustin Virgolini",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20160606110400id_/http://igsaworldcup.com/results/2011/2011_festival_de_la_bajada_na_rslt.pdf / Women Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Katie Nielson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Jenny Patiño",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 3,
+     "name": "Reine Oliveira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 4,
+     "name": "Catalina Fonseca",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    }
+   ]
+  },
+  {
+   "name": "Junior 2",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20160606110400id_/http://igsaworldcup.com/results/2011/2011_festival_de_la_bajada_na_rslt.pdf / Junior 2 Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "David Ramos",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 2,
+     "name": "Juan Garzon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 3,
+     "name": "Nicolas Moreno",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 4,
+     "name": "Falke Nehren",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": null,
+     "name": "Santiago Zapata",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "COL"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20160606110400id_/http://igsaworldcup.com/results/2011/2011_festival_de_la_bajada_na_rslt.pdf / Street Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Leo Borton",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 2,
+     "name": "Walter Ribeiro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 3,
+     "name": "Felipe Buitrago",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 4,
+     "name": "Marcos Filho",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 5,
+     "name": "Javier Pulido",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 6,
+     "name": "Andres Arias",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20160606163326id_/http://igsaworldcup.com/results/2011/2011_festival_de_la_bajada_na_qual.pdf / Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Kyle Martin",
+     "time": 65.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Dillon Stephens",
+     "time": 65.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 3,
+     "name": "Patrick Switzer",
+     "time": 65.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 4,
+     "name": "Juliano Cassemiro",
+     "time": 66.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 5,
+     "name": "Douglas Silva",
+     "time": 66.2,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 6,
+     "name": "Travis Craig",
+     "time": 67.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 7,
+     "name": "Felipe Malaga",
+     "time": 67.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 8,
+     "name": "Camilo Cespedes",
+     "time": 67.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 9,
+     "name": "Santiago Salaberry",
+     "time": 68.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 10,
+     "name": "Oliverio Espitia",
+     "time": 69.05,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 11,
+     "name": "Mauricio Rodriguez",
+     "time": 69.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 12,
+     "name": "Adrian Schlotter",
+     "time": 69.55,
+     "dnf": false,
+     "dns": false,
+     "nat": "ALE"
+    },
+    {
+     "place": 13,
+     "name": "Luca Dragone",
+     "time": 69.55,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 14,
+     "name": "Andres Rubino",
+     "time": 69.9,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 15,
+     "name": "Sebastian Alvarez",
+     "time": 70.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 16,
+     "name": "Juan Guevara",
+     "time": 70.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 17,
+     "name": "Katie Nielson",
+     "time": 70.2,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 18,
+     "name": "Andres Marin",
+     "time": 70.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 19,
+     "name": "Juan Botero",
+     "time": 70.45,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 20,
+     "name": "Omar Perez",
+     "time": 70.45,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 21,
+     "name": "Alejandro Sanchez",
+     "time": 71.9,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 22,
+     "name": "Cristian Montaño",
+     "time": 72.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 23,
+     "name": "Lucas Arnoletto",
+     "time": 72.35,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 24,
+     "name": "Juan Gonzalez",
+     "time": 72.45,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 25,
+     "name": "Juan Montes",
+     "time": 72.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 26,
+     "name": "Alejandro Fernandez",
+     "time": 72.8,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 27,
+     "name": "Diego Gomez",
+     "time": 72.9,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 28,
+     "name": "Hernan Miguez",
+     "time": 73.05,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 29,
+     "name": "Teo Mejia",
+     "time": 73.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 30,
+     "name": "Manuel Rivera",
+     "time": 74.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 31,
+     "name": "Sergio Castro",
+     "time": 74.35,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 32,
+     "name": "Falke Nehren",
+     "time": 74.8,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 33,
+     "name": "David Ramos",
+     "time": 75.55,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 34,
+     "name": "Ricardo Foliaco",
+     "time": 76.3,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 35,
+     "name": "Jhon Brausin",
+     "time": 76.95,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 36,
+     "name": "Wendel Malessa",
+     "time": 78.75,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 37,
+     "name": "Cristian Montoya",
+     "time": 79.45,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 38,
+     "name": "Juan Rojas",
+     "time": 79.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 39,
+     "name": "Pedro Benitez",
+     "time": 81.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 40,
+     "name": "Juan Garzon",
+     "time": 81.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 41,
+     "name": "Fernando Raimondi",
+     "time": 81.95,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": null,
+     "name": "Nicolas Moreno",
+     "time": 84.2,
+     "dnf": false,
+     "dns": true,
+     "nat": "COL"
+    },
+    {
+     "place": 43,
+     "name": "Sebastian Barroso",
+     "time": 88.2,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 44,
+     "name": "Santiago Zapata",
+     "time": 91.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 45,
+     "name": "Jenny Patiño",
+     "time": 91.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 46,
+     "name": "Agustin Virgolini",
+     "time": 93.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 47,
+     "name": "Julio Castro",
+     "time": 94.9,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 48,
+     "name": "Alex Giusti",
+     "time": 104.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 49,
+     "name": "Reine Oliveira",
+     "time": 112.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 50,
+     "name": "Catalina Fonseca",
+     "time": 136.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Damer",
+   "kind": "Women",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20160606163326id_/http://igsaworldcup.com/results/2011/2011_festival_de_la_bajada_na_qual.pdf / Women Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Katie Nielson",
+     "time": 70.2,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Jenny Patiño",
+     "time": 91.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 3,
+     "name": "Reine Oliveira",
+     "time": 112.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 4,
+     "name": "Catalina Fonseca",
+     "time": 136.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Junior 2",
+   "kind": "Junior",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20160606163326id_/http://igsaworldcup.com/results/2011/2011_festival_de_la_bajada_na_qual.pdf / Junior 2 Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Falke Nehren",
+     "time": 74.8,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "David Ramos",
+     "time": 75.55,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 3,
+     "name": "Juan Garzon",
+     "time": 81.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": null,
+     "name": "Nicolas Moreno",
+     "time": 84.2,
+     "dnf": false,
+     "dns": true,
+     "nat": "COL"
+    },
+    {
+     "place": null,
+     "name": "Santiago Zapata",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "COL"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20160606163326id_/http://igsaworldcup.com/results/2011/2011_festival_de_la_bajada_na_qual.pdf / Street Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Walter Ribeiro",
+     "time": 69.3,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 2,
+     "name": "Leo Borton",
+     "time": 71.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 3,
+     "name": "Felipe Buitrago",
+     "time": 76.45,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 4,
+     "name": "Javier Pulido",
+     "time": 77.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 5,
+     "name": "Andres Arias",
+     "time": 82.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 6,
+     "name": "Marcos Filho",
+     "time": 85.35,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

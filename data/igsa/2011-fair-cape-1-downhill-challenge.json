@@ -1,0 +1,871 @@
+{
+ "id": "2011-fair-cape-1-downhill-challenge",
+ "name": "Fair Cape #1 Downhill Challenge",
+ "year": 2011,
+ "date": "2011-04-16",
+ "date_known": true,
+ "hill": null,
+ "place": "Durbanville",
+ "level": "National",
+ "sources": [
+  "http://web.archive.org/web/20111008051930id_/http://www.igsaworldcup.com/results/2011/2011_fair_cape_1_na.pdf",
+  "http://web.archive.org/web/20160609225852id_/http://igsaworldcup.com/results/2011/2011_fair_cape_1_na_qual",
+  "http://web.archive.org/web/20160609234344id_/http://igsaworldcup.com/results/2011/2011_fair_cape_1_na_rslt",
+  "http://web.archive.org/web/20260614073101id_/http://www.igsaworldcup.com/results/2011/2011_fair_cape_1_na_qual.pdf"
+ ],
+ "titles": [
+  "Fair Cape #1 Downhill Challenge"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20111008051930id_/http://www.igsaworldcup.com/results/2011/2011_fair_cape_1_na.pdf / Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Matt Aderne",
+     "time": 96.22,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 2,
+     "name": "Murry Chandler",
+     "time": 96.87,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 3,
+     "name": "Richard Dweza",
+     "time": 97.99,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 4,
+     "name": "Glen Phillips",
+     "time": 98.48,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 5,
+     "name": "Anton Pratt",
+     "time": 99.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 6,
+     "name": "Paul DuPlessis",
+     "time": 100.64,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 7,
+     "name": "Berg Raoul Van den",
+     "time": 101.01,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 8,
+     "name": "Lloyd Clark",
+     "time": 102.09,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 9,
+     "name": "Wesley Travill",
+     "time": 102.99,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 10,
+     "name": "Dave Hort",
+     "time": 103.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 11,
+     "name": "Reece Trout",
+     "time": 103.61,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 12,
+     "name": "Gerhard Nel",
+     "time": 103.73,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 13,
+     "name": "Mike Upham",
+     "time": 104.73,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 14,
+     "name": "Nick Hook",
+     "time": 104.8,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 15,
+     "name": "Alyosha Diebold",
+     "time": 105.2,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 16,
+     "name": "Donovan Tome",
+     "time": 105.21,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 17,
+     "name": "Atilla Hery",
+     "time": 105.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 18,
+     "name": "Matt Crevald",
+     "time": 105.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 19,
+     "name": "Nic Jakins",
+     "time": 106.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 20,
+     "name": "Josh Smit",
+     "time": 107.68,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 21,
+     "name": "John Upham",
+     "time": 107.89,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 22,
+     "name": "Christian Bowes",
+     "time": 108.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 23,
+     "name": "Justin Boast",
+     "time": 108.29,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 24,
+     "name": "Alejandro Puente",
+     "time": 109.47,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 25,
+     "name": "Sam Jakins",
+     "time": 110.34,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 26,
+     "name": "Oliver Hobson",
+     "time": 110.82,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 27,
+     "name": "Joshua Hobson",
+     "time": 111.98,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 28,
+     "name": "Robin Moodley",
+     "time": 112.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 29,
+     "name": "Berg Eebin Van den",
+     "time": 113.73,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 30,
+     "name": "Lawrence Hobson",
+     "time": 114.63,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": null,
+     "name": "Bradley Pinto",
+     "time": 115.27,
+     "dnf": false,
+     "dns": true,
+     "nat": "RSA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Junior 2",
+   "kind": "Junior",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20111008051930id_/http://www.igsaworldcup.com/results/2011/2011_fair_cape_1_na.pdf / Junior 2 Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Nick Hook",
+     "time": 104.8,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 2,
+     "name": "Nic Jakins",
+     "time": 106.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 3,
+     "name": "Adam Lincoln-Lewis",
+     "time": 107.9,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 4,
+     "name": "Justin Brown",
+     "time": 109.22,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 5,
+     "name": "Sam Jakins",
+     "time": 110.34,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 6,
+     "name": "Daniel Stuck",
+     "time": 113.01,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 7,
+     "name": "Mathew Macdonald",
+     "time": 114.45,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 8,
+     "name": "Amy Murgatroyd",
+     "time": 119.22,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 9,
+     "name": "Camden Lategan",
+     "time": 121.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20111008051930id_/http://www.igsaworldcup.com/results/2011/2011_fair_cape_1_na.pdf / Street Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Russell Naude",
+     "time": 95.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 2,
+     "name": "Glen Phillips",
+     "time": 96.31,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 3,
+     "name": "Duayne Cumpsty",
+     "time": 98.44,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 4,
+     "name": "Marco Caromba",
+     "time": 100.26,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 5,
+     "name": "Nikki Caromba",
+     "time": 101.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Classic Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20111008051930id_/http://www.igsaworldcup.com/results/2011/2011_fair_cape_1_na.pdf / Classic Luge / timed",
+   "results": [
+    {
+     "place": null,
+     "name": "Russell Naude",
+     "time": 99.68,
+     "dnf": false,
+     "dns": true,
+     "nat": "RSA"
+    },
+    {
+     "place": null,
+     "name": "Glen Phillips",
+     "time": 102.55,
+     "dnf": false,
+     "dns": true,
+     "nat": "RSA"
+    },
+    {
+     "place": null,
+     "name": "Marco Caromba",
+     "time": 104.11,
+     "dnf": false,
+     "dns": true,
+     "nat": "RSA"
+    },
+    {
+     "place": null,
+     "name": "Nikki Caromba",
+     "time": 104.64,
+     "dnf": false,
+     "dns": true,
+     "nat": "RSA"
+    }
+   ]
+  },
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111008051930id_/http://www.igsaworldcup.com/results/2011/2011_fair_cape_1_na.pdf / Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Matt Aderne",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 2,
+     "name": "Murry Chandler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 3,
+     "name": "Glen Phillips",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 4,
+     "name": "Berg Raoul Van den",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 5,
+     "name": "Anton Pratt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 6,
+     "name": "Richard Dweza",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 7,
+     "name": "Lloyd Clark",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 8,
+     "name": "Nick Hook",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 9,
+     "name": "Paul DuPlessis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 10,
+     "name": "Wesley Travill",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 11,
+     "name": "Dave Hort",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 12,
+     "name": "Mike Upham",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 13,
+     "name": "Gerhard Nel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 14,
+     "name": "Alyosha Diebold",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 15,
+     "name": "Atilla Hery",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 16,
+     "name": "Christian Bowes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 17,
+     "name": "Reece Trout",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 18,
+     "name": "Nic Jakins",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 19,
+     "name": "Josh Smit",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 20,
+     "name": "John Upham",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 21,
+     "name": "Justin Boast",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 22,
+     "name": "Alejandro Puente",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "COL"
+    },
+    {
+     "place": 23,
+     "name": "Sam Jakins",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 24,
+     "name": "Oliver Hobson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 25,
+     "name": "Donovan Tome",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 26,
+     "name": "Matt Crevald",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 27,
+     "name": "Joshua Hobson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 28,
+     "name": "Robin Moodley",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 29,
+     "name": "Berg Eebin Van den",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 30,
+     "name": "Lawrence Hobson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 31,
+     "name": "Bradley Pinto",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    }
+   ]
+  },
+  {
+   "name": "Junior 2",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111008051930id_/http://www.igsaworldcup.com/results/2011/2011_fair_cape_1_na.pdf / Junior 2 Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Nick Hook",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 2,
+     "name": "Nic Jakins",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 3,
+     "name": "Adam Lincoln-lewis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 4,
+     "name": "Sam Jakins",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 5,
+     "name": "Daniel Stuck",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 6,
+     "name": "Justin Brown",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 7,
+     "name": "Matthew Macdonald",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 8,
+     "name": "Camden Lategan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 9,
+     "name": "Amy Murgatroyd",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111008051930id_/http://www.igsaworldcup.com/results/2011/2011_fair_cape_1_na.pdf / Street Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Russell Naude",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 2,
+     "name": "Glen Phillips",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 3,
+     "name": "Marco Caromba",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 4,
+     "name": "Duayne Cumpsty",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 5,
+     "name": "Nikki Caromba",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    }
+   ]
+  },
+  {
+   "name": "Classic Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111008051930id_/http://www.igsaworldcup.com/results/2011/2011_fair_cape_1_na.pdf / Classic Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Russell Naude",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 2,
+     "name": "Marco Caromba",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 3,
+     "name": "Nikki Caromba",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 4,
+     "name": "Glen Phillips",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

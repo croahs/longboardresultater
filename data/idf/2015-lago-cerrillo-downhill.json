@@ -1,0 +1,587 @@
+{
+ "id": "2015-lago-cerrillo-downhill",
+ "name": "Lago Cerrillo Downhill",
+ "year": 2015,
+ "date": "2015-02-07",
+ "date_known": true,
+ "hill": null,
+ "place": "Puerto Rico",
+ "sources": [
+  "https://internationaldownhillfederation.org/rankings/2015-rankings/"
+ ],
+ "titles": [
+  "Lago Cerillo"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2015/World-Rankings-2015-Open-Skateboard.html / Lago Cerillo",
+   "results": [
+    {
+     "place": 1,
+     "name": "Kevin Reimer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 2,
+     "name": "Kyle Wester",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 3,
+     "name": "James Ware",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 4,
+     "name": "Riley Harris",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 5,
+     "name": "Christian Gerena",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Puerto Rico"
+    },
+    {
+     "place": 6,
+     "name": "David Aparicio",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 7,
+     "name": "Byron Essert",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 8,
+     "name": "Kai Monroe",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 9,
+     "name": "Anthony Chaparro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Puerto Rico"
+    },
+    {
+     "place": 10,
+     "name": "Tanner Morelock",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 11,
+     "name": "Gunnar Morin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 12,
+     "name": "Jomar Guzman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Puerto Rico"
+    },
+    {
+     "place": 13,
+     "name": "Mack Wacey",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 14,
+     "name": "Christopher Deida",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Puerto Rico"
+    },
+    {
+     "place": 15,
+     "name": "David Ramirez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 16,
+     "name": "Byron Cruz Ramos",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Puerto Rico"
+    },
+    {
+     "place": 17,
+     "name": "Jose Perez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Puerto Rico"
+    },
+    {
+     "place": 18,
+     "name": "Leo Sartor",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 19,
+     "name": "Luis Vargas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Puerto Rico"
+    },
+    {
+     "place": 20,
+     "name": "Abdiel Ramos Hernández",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Puerto Rico"
+    },
+    {
+     "place": 21,
+     "name": "Vito Menendez Herbert",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Puerto Rico"
+    },
+    {
+     "place": 22,
+     "name": "Mikey Ortiz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Puerto Rico"
+    },
+    {
+     "place": 23,
+     "name": "Carl Pitre",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Puerto Rico"
+    },
+    {
+     "place": 24,
+     "name": "Juan Rodriguez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Puerto Rico"
+    },
+    {
+     "place": 25,
+     "name": "Carlos Duran",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Puerto Rico"
+    },
+    {
+     "place": 26,
+     "name": "Richard Sanchez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 27,
+     "name": "Kenneth Barreto",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Puerto Rico"
+    },
+    {
+     "place": 28,
+     "name": "Pedro Ramos",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 29,
+     "name": "Antonio Mojica",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Puerto Rico"
+    },
+    {
+     "place": 30,
+     "name": "Mariela Santiago",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Puerto Rico"
+    },
+    {
+     "place": 31,
+     "name": "Kurtis Dawe",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 32,
+     "name": "Luis Marrero",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Puerto Rico"
+    },
+    {
+     "place": 33,
+     "name": "Nathaniel Gomez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Puerto Rico"
+    },
+    {
+     "place": 34,
+     "name": "Armando Ramos Hernández",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Puerto Rico"
+    },
+    {
+     "place": 35,
+     "name": "Matthew Deitch",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 36,
+     "name": "Jose Velez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Puerto Rico"
+    },
+    {
+     "place": 37,
+     "name": "Cameron Cotter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 38,
+     "name": "Dariel Rodriguez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Puerto Rico"
+    },
+    {
+     "place": 39,
+     "name": "Dejaune Jones-Norman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 40,
+     "name": "Alexander Rivera",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Puerto Rico"
+    },
+    {
+     "place": 41,
+     "name": "Erick Cuevas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 42,
+     "name": "Emily Pross",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 43,
+     "name": "Julian F. Rodriguez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 44,
+     "name": "Luis Acevedo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 45,
+     "name": "Jorge Delgado",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 46,
+     "name": "Carlos Mojena",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 47,
+     "name": "Josean Perez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 48,
+     "name": "Don Cudney",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2015/World-Rankings-2015-Women-Skateboard.html / Lago Cerillo",
+   "results": [
+    {
+     "place": 1,
+     "name": "Emily Pross",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 2,
+     "name": "Marie Bougourd",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "France"
+    },
+    {
+     "place": 3,
+     "name": "Nayhomi Cruz Ramos",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Puerto Rico"
+    },
+    {
+     "place": 4,
+     "name": "Nashley Alameda",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Puerto Rico"
+    },
+    {
+     "place": 5,
+     "name": "Tiara Perez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Puerto Rico"
+    },
+    {
+     "place": 6,
+     "name": "Mariela Santiago",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Puerto Rico"
+    },
+    {
+     "place": 7,
+     "name": "Keyla Padin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Puerto Rico"
+    }
+   ]
+  },
+  {
+   "name": "Junior",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2015/World-Rankings-2015-Junior-Skateboard.html / Lago Cerillo",
+   "results": [
+    {
+     "place": 1,
+     "name": "Waldy Lugo Jimenez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Puerto Rico"
+    },
+    {
+     "place": 2,
+     "name": "Byron Cruz Ramos",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Puerto Rico"
+    },
+    {
+     "place": 3,
+     "name": "Kris Vazquez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 4,
+     "name": "Carlos Candelaria",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Puerto Rico"
+    },
+    {
+     "place": 5,
+     "name": "Leo Sartor",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 6,
+     "name": "Carlos Mojena",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 7,
+     "name": "Hector Reyes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 8,
+     "name": "Julian F. Rodriguez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2015/World-Rankings-2015-Street-Luge.html / Lago Cerillo",
+   "results": [
+    {
+     "place": 1,
+     "name": "Mike Paproski",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 2,
+     "name": "Peter Morin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 3,
+     "name": "Don Cudney",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 4,
+     "name": "Manuel Anglero",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

@@ -1,0 +1,356 @@
+{
+ "id": "2009-high-rising-downhill-xtreme",
+ "name": "High Rising Downhill Xtreme",
+ "year": 2009,
+ "date": "2009-01-01",
+ "date_known": false,
+ "hill": null,
+ "place": "Houwteq, Grabouw, South Africa",
+ "level": "National",
+ "sources": [
+  "http://web.archive.org/web/20250523120324id_/http://www.igsaworldcup.com/results/2009/2009_highrising_xtreme_na.pdf"
+ ],
+ "titles": [
+  "High Rising Downhill Xtreme"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20250523120324id_/http://www.igsaworldcup.com/results/2009/2009_highrising_xtreme_na.pdf / Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Richard Dweza",
+     "time": 50.9,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 2,
+     "name": "Decio Lourenco",
+     "time": 51.31,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 3,
+     "name": "Tibor Hery",
+     "time": 51.8,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 4,
+     "name": "Arnold Gray",
+     "time": 52.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 5,
+     "name": "Ben Malherbe",
+     "time": 53.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 6,
+     "name": "Tertuis Vivier",
+     "time": 53.77,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 7,
+     "name": "Josh Smit",
+     "time": 54.39,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 8,
+     "name": "Atilla Hery",
+     "time": 56.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 9,
+     "name": "Anton Pratt",
+     "time": 57.63,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 10,
+     "name": "Dave Hort",
+     "time": 62.39,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 11,
+     "name": "Rudi Willcocks",
+     "time": 63.54,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 12,
+     "name": "Justin Boast",
+     "time": 63.74,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 13,
+     "name": "Andries van Niekerk",
+     "time": 64.14,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 14,
+     "name": "Terry Terreblanche",
+     "time": 68.16,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": null,
+     "name": "Alex Duss",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "DNQ"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20250523120324id_/http://www.igsaworldcup.com/results/2009/2009_highrising_xtreme_na.pdf / Street Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Russell Naude",
+     "time": 51.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 2,
+     "name": "Brian Isham",
+     "time": 54.86,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 3,
+     "name": "Warren Smith",
+     "time": 55.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": null,
+     "name": "Glen Phillips",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "DNQ"
+    }
+   ]
+  },
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20250523120324id_/http://www.igsaworldcup.com/results/2009/2009_highrising_xtreme_na.pdf / Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Richard Dweza",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 2,
+     "name": "Josh Smit",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 3,
+     "name": "Alex Duss",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "DNQ"
+    },
+    {
+     "place": 4,
+     "name": "Ben Malherbe",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 5,
+     "name": "Tibor Hery",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 6,
+     "name": "Atilla Hery",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 7,
+     "name": "Anton Pratt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 8,
+     "name": "Tertuis Vivier",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 9,
+     "name": "Rudi Willcocks",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 10,
+     "name": "Justin Boast",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 11,
+     "name": "Andries van Niekerk",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 12,
+     "name": "Terry Terreblanche",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 13,
+     "name": "Decio Lourenco",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 14,
+     "name": "Arnold Gray",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 15,
+     "name": "Dave Hort",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20250523120324id_/http://www.igsaworldcup.com/results/2009/2009_highrising_xtreme_na.pdf / Street Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Russell Naude",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 2,
+     "name": "Brian Isham",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 3,
+     "name": "Glen Phillips",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "DNQ"
+    },
+    {
+     "place": 4,
+     "name": "Warren Smith",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

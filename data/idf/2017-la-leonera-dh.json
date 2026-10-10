@@ -1,0 +1,651 @@
+{
+ "id": "2017-la-leonera-dh",
+ "name": "La Leonera DH",
+ "year": 2017,
+ "date": "2017-06-17",
+ "date_known": true,
+ "hill": null,
+ "place": "Colombia",
+ "sources": [
+  "https://internationaldownhillfederation.org/rankings/2017-rankings/"
+ ],
+ "titles": [
+  "La Leonera DH"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2017/World-Rankings-2017-Open-Skateboard.html / La Leonera DH",
+   "results": [
+    {
+     "place": 1,
+     "name": "Thiago Gomes Lessa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 2,
+     "name": "Tiago Mohr",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 3,
+     "name": "Douglas Silva",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 4,
+     "name": "Alvaro Garcia Alcazar",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 5,
+     "name": "Pepe Laporte",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 6,
+     "name": "Andres Felipe Lopez Marin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 7,
+     "name": "Mariano Gentili",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 8,
+     "name": "Teo Mejia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 9,
+     "name": "Sebastian Hertler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Germany"
+    },
+    {
+     "place": 10,
+     "name": "Daniel Meja",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 11,
+     "name": "Omar Perez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 12,
+     "name": "Gustavo Campi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Ecuador"
+    },
+    {
+     "place": 13,
+     "name": "Eduardo Falcão",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 14,
+     "name": "Nicolas Moreno",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 15,
+     "name": "David Hernandez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 16,
+     "name": "Oscar Gonzalez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 17,
+     "name": "Juan Jose Herrera",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 18,
+     "name": "Arturo Chaves",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 19,
+     "name": "Andres Rodriguez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Ecuador"
+    },
+    {
+     "place": 20,
+     "name": "Oscar Eduardo Valenzuela Ortiz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 21,
+     "name": "Daniel Calle Mourin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Ecuador"
+    },
+    {
+     "place": 22,
+     "name": "Luis Esteban Ladera Ovalles",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Venezuela"
+    },
+    {
+     "place": 23,
+     "name": "Lucas Londonio",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 24,
+     "name": "Esteban Rey",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 25,
+     "name": "Renzo Tonello",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 26,
+     "name": "Alejandro Arbelaez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 27,
+     "name": "Steven Benavides",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 28,
+     "name": "Luis Giron Garcia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Ecuador"
+    },
+    {
+     "place": 29,
+     "name": "Marco Vidales",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 30,
+     "name": "Camilo Mendes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 31,
+     "name": "Shirley Yuliana Tabares Builes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 32,
+     "name": "Oscar Zambrano Paladines",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Ecuador"
+    },
+    {
+     "place": 33,
+     "name": "Daniel Cadavid",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 34,
+     "name": "Andrés Sánchez Vélez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 35,
+     "name": "Juan Carlos Narváez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Ecuador"
+    },
+    {
+     "place": 36,
+     "name": "Anderson Junior Anacona",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 37,
+     "name": "Juan Camilo Mejia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 38,
+     "name": "Manuel Rivera",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 39,
+     "name": "Andres Alvis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 40,
+     "name": "Daniel Sánchez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Venezuela"
+    },
+    {
+     "place": 41,
+     "name": "Felipe Briceno Leon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Costa Rica"
+    },
+    {
+     "place": 42,
+     "name": "Hernan Felipe Gonzalez Marmolejo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 43,
+     "name": "Jhonny Alejandro Ospina Oviedo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 44,
+     "name": "Juan Camilo Campos Gutierrez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 45,
+     "name": "Hector Robalino Chicaiza",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Ecuador"
+    },
+    {
+     "place": 46,
+     "name": "Johnnathan Munoz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 47,
+     "name": "Carlos Sanchez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 48,
+     "name": "Carlos Eduardo Arias Moreno",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 49,
+     "name": "Guillermo Prado",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Chile"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2017/World-Rankings-2017-Women-Skateboard.html / La Leonera DH",
+   "results": [
+    {
+     "place": 1,
+     "name": "Luana Campos",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 2,
+     "name": "Shirley Yuliana Tabares Builes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 3,
+     "name": "Angie Duque",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 4,
+     "name": "Viviana Andrea Lopez Herran",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 5,
+     "name": "Laura Vargas Echeverry",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 6,
+     "name": "Graciela Perez Caceres",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 7,
+     "name": "Laura Munoz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    }
+   ]
+  },
+  {
+   "name": "Junior",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2017/World-Rankings-2017-Junior-Skateboard.html / La Leonera DH",
+   "results": [
+    {
+     "place": 1,
+     "name": "Bruno Vidal Vieira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Brazil"
+    },
+    {
+     "place": 2,
+     "name": "Daniel Meja",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 3,
+     "name": "Jeremy Israel Zambrano",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Ecuador"
+    },
+    {
+     "place": 4,
+     "name": "Juan Camilo Mejia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 5,
+     "name": "Neithan Lucas Rodriguez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Ecuador"
+    },
+    {
+     "place": 6,
+     "name": "Anderson Junior Anacona",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 7,
+     "name": "Anderson Maldonato",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 8,
+     "name": "Pablo Guerrero",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    }
+   ]
+  },
+  {
+   "name": "Masters",
+   "kind": "Masters",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2017/World-Rankings-2017-Master-Skateboard.html / La Leonera DH",
+   "results": [
+    {
+     "place": 1,
+     "name": "Marco Vidales",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 2,
+     "name": "Teo Mejia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 3,
+     "name": "Carlos Sanchez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 4,
+     "name": "Mauricio Rodriguez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    },
+    {
+     "place": 5,
+     "name": "Ziad Ragheb",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Egypt"
+    },
+    {
+     "place": 6,
+     "name": "Manuel Rivera",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2017/World-Rankings-2017-Luge.html / La Leonera DH",
+   "results": [
+    {
+     "place": 1,
+     "name": "Ryan Farmer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 2,
+     "name": "Luis Mogrovejo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Peru"
+    },
+    {
+     "place": 3,
+     "name": "Daniel Calle Mourin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Ecuador"
+    },
+    {
+     "place": 4,
+     "name": "Jhonny Alejandro Ospina Oviedo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Colombia"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

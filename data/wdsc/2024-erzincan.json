@@ -1,0 +1,243 @@
+{
+ "id": "2024-erzincan",
+ "name": "WDSC Erzincan",
+ "year": 2024,
+ "date": "2024-01-01",
+ "date_known": false,
+ "hill": null,
+ "place": "Erzincan",
+ "sources": [
+  "https://worlddownhillskateboardingchampionship.com/standings-2024/"
+ ],
+ "titles": [],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2024/ / Open Stand Up Skateboard",
+   "results": [
+    {
+     "place": 1,
+     "name": "Andréas Bouclier",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 2,
+     "name": "Adrien Paynel",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 3,
+     "name": "Adam Westfall",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 4,
+     "name": "Diego Poncelet",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 5,
+     "name": "Grégoire Schwab",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 6,
+     "name": "Owen Fox",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 7,
+     "name": "Stefano Barbizzi",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 8,
+     "name": "Micaiah Harness",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 9,
+     "name": "Fabio Minnig",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 10,
+     "name": "Antoine Carlotti",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 11,
+     "name": "Hussain Al-Nasrallah",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 12,
+     "name": "Oscar Clevö",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 13,
+     "name": "Dexter Manning",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 14,
+     "name": "Oscar Gutierrez",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 15,
+     "name": "Valera Fles",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 16,
+     "name": "Lisa Peters",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 17,
+     "name": "Cristiano Borges de Araújo",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 18,
+     "name": "William Aston",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 19,
+     "name": "Antonio francesco Bonventre",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 20,
+     "name": "Jose Rogelio Valdes Bennett",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 21,
+     "name": "Olav Øye",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 22,
+     "name": "Tommaso Vongher",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2024/ / Open Street Luge",
+   "results": [
+    {
+     "place": 1,
+     "name": "Kolby Parks",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 2,
+     "name": "Andrej Ilič",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 3,
+     "name": "Ulrich Becker",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 4,
+     "name": "David Frega",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 5,
+     "name": "Andrew Speight",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 6,
+     "name": "Arkadiusz Kowalski",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 7,
+     "name": "Philip Spencer",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 8,
+     "name": "Martland Ian",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

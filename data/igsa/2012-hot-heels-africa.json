@@ -1,0 +1,2416 @@
+{
+ "id": "2012-hot-heels-africa",
+ "name": "Hot Heels Africa",
+ "year": 2012,
+ "date": "2012-12-09",
+ "date_known": true,
+ "hill": null,
+ "place": "Kogelburg, South Africa",
+ "level": "World Cup",
+ "sources": [
+  "http://web.archive.org/web/20130514082614id_/http://igsaworldcup.com/results/2012/2012_hotheels_africa_wc_rslt.pdf",
+  "http://web.archive.org/web/20240902195605id_/https://www.igsaworldcup.com/results/2012/2012_hotheels_africa_wc_rslt",
+  "http://web.archive.org/web/20130510233803id_/http://igsaworldcup.com/results/2012/2012_hotheels_africa_wc_qual",
+  "http://web.archive.org/web/20130514102900id_/http://igsaworldcup.com/results/2012/2012_hotheels_africa_wc_qual.pdf"
+ ],
+ "titles": [
+  "Hot Heels Africa",
+  "Hot Heels"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20130514082614id_/http://igsaworldcup.com/results/2012/2012_hotheels_africa_wc_rslt.pdf / Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Douglas Silva",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 2,
+     "name": "Kyle Wester",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 3,
+     "name": "Adam Perssan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 4,
+     "name": "Radek Lukes",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 5,
+     "name": "Berg Raoul Van Der",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 6,
+     "name": "Patrick Switzer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 7,
+     "name": "Alex Tongue",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 8,
+     "name": "Felipe Malaga",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 9,
+     "name": "Erik Lundberg",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 10,
+     "name": "Anton Pratt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 11,
+     "name": "Torbjørn Sunde",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 12,
+     "name": "Murray Chandler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 13,
+     "name": "Graham Buksa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 14,
+     "name": "Dec'io Lourenco",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 15,
+     "name": "Marek Vanourek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 16,
+     "name": "Reece Trout",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 17,
+     "name": "Johan Simonsen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 18,
+     "name": "Benjamin Malherbe",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 19,
+     "name": "Lloyd Clark",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 20,
+     "name": "Renier Van Staden",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 21,
+     "name": "Nick Hook",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 22,
+     "name": "Danilo Deletic",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 23,
+     "name": "Camden Lategan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 24,
+     "name": "Alyosha Diebold",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 25,
+     "name": "Tom Rushovich",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 26,
+     "name": "Richard Dweza",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 27,
+     "name": "Mike Upham",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 28,
+     "name": "Attilla Hery",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 29,
+     "name": "Glen Phillips",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 30,
+     "name": "John Upham",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 31,
+     "name": "Meyer Alex Troy",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 32,
+     "name": "Tom Lautenbach",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 33,
+     "name": "Simon Sturrock",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 34,
+     "name": "Sam Jakins",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 35,
+     "name": "Kent Lingeveldt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 36,
+     "name": "Rebekka Gemperle",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 37,
+     "name": "Nick Coetze",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 38,
+     "name": "Ross Druckery",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 39,
+     "name": "Jeroen Slee",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 40,
+     "name": "Tyrone Challis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 41,
+     "name": "Merwe Cronje Van Der",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 42,
+     "name": "Angus Burns",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 43,
+     "name": "Rafael Zimbreiro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 44,
+     "name": "Dave Hort",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 45,
+     "name": "Storm Windt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 46,
+     "name": "Gustavs Gailitis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "LAT"
+    },
+    {
+     "place": 47,
+     "name": "Luke Nelson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 48,
+     "name": "Josh Smit",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 49,
+     "name": "Justin Boast",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 50,
+     "name": "Oliver Felaile",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 51,
+     "name": "Nic Simic",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 52,
+     "name": "Axel Serrat",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 53,
+     "name": "Greg Parry",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 54,
+     "name": "James Koen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 55,
+     "name": "Timothee Ferreira",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 56,
+     "name": "Andrew Arderne",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 57,
+     "name": "Kaspars Balamovskis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "LAT"
+    },
+    {
+     "place": 58,
+     "name": "Steve Sharp",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 59,
+     "name": "Henry Muller",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 60,
+     "name": "Quin Finocchio",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 61,
+     "name": "Richard Gibello",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 62,
+     "name": "Bergh Eebin Van Den",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 63,
+     "name": "Jason Haworth",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 64,
+     "name": "James Jager",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 65,
+     "name": "Tamara Prader",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 66,
+     "name": "Stefan Snyman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 67,
+     "name": "Anni Lindenmaier",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 68,
+     "name": "Richard Edmunds",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 69,
+     "name": "Christiaan Schultz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 70,
+     "name": "Alf Olsen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 71,
+     "name": "Merwe Deon Van Der",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 72,
+     "name": "Mario Wernado",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 73,
+     "name": "Oliver Morris",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 74,
+     "name": "Craig Harvey",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 75,
+     "name": "Rene Hopfield",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 76,
+     "name": "JP Tagfour",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 77,
+     "name": "Micheal Twana",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ZIM"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20130514082614id_/http://igsaworldcup.com/results/2012/2012_hotheels_africa_wc_rslt.pdf / Women Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Rebekka Gemperle",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 2,
+     "name": "Tamra Prader",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 3,
+     "name": "Gabi Murrey-Roberts",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 4,
+     "name": "Anni Lindenmaier",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    }
+   ]
+  },
+  {
+   "name": "Junior 1",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20130514082614id_/http://igsaworldcup.com/results/2012/2012_hotheels_africa_wc_rslt.pdf / Junior 1 Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Kienan Dunn",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 2,
+     "name": "Nicholas Taylor",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 3,
+     "name": "Myles Kenmuir",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 4,
+     "name": "Ryan Morris",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 5,
+     "name": "Hadrien Remondi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 6,
+     "name": "Gregory Elion",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 7,
+     "name": "David Beare",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 8,
+     "name": "Silas Bahlig",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 9,
+     "name": "Oscar Stubbs",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 10,
+     "name": "Tom Jakins",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 11,
+     "name": "Joseph Fine",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    }
+   ]
+  },
+  {
+   "name": "Junior 2",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20130514082614id_/http://igsaworldcup.com/results/2012/2012_hotheels_africa_wc_rslt.pdf / Junior 2 Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Quin Finocchio",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Jonas Richter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 3,
+     "name": "Camden Lategan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 4,
+     "name": "Murrey Du Preez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 5,
+     "name": "Simon Sturrock",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 6,
+     "name": "Tom Rushovich",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 7,
+     "name": "Tyrone Challis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 8,
+     "name": "Henry Muller",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 9,
+     "name": "Jeroen Slee",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 10,
+     "name": "Angus Burns",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 11,
+     "name": "Tim Bowman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 12,
+     "name": "Adam Schoeman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 13,
+     "name": "Sam Jakins",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 14,
+     "name": "Joey Marcus",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 15,
+     "name": "Daniel Schultz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 16,
+     "name": "Nick Pruim",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 17,
+     "name": "Oliver Felaile",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 18,
+     "name": "Leo Wilken",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 19,
+     "name": "Micheal McIver",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 20,
+     "name": "Andrew Arderne",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 21,
+     "name": "Christiaan Schultz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 22,
+     "name": "Brandon Damen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 23,
+     "name": "Sebastian Snyman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 24,
+     "name": "Niall Henke",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 25,
+     "name": "James Koen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 26,
+     "name": "Callum Dunn",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 27,
+     "name": "James Jager",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 28,
+     "name": "Richard Edmunds",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 29,
+     "name": "Mathew McDonald",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 30,
+     "name": "Felix Hirner",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 31,
+     "name": "Oliver Morris",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 32,
+     "name": "Mike Davies",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    }
+   ]
+  },
+  {
+   "name": "Classic Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20130514082614id_/http://igsaworldcup.com/results/2012/2012_hotheels_africa_wc_rslt.pdf / Classic Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Peter Eliot",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 2,
+     "name": "Glen Phillips",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 3,
+     "name": "Nic Mckirdy",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 4,
+     "name": "Andries Haasbroek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 5,
+     "name": "Marco Coramba",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 6,
+     "name": "Nikki Coramba",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 7,
+     "name": "Franco Megannon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 8,
+     "name": "Duayne Cumpsty",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20130514082614id_/http://igsaworldcup.com/results/2012/2012_hotheels_africa_wc_rslt.pdf / Street Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Peter Eliot",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 2,
+     "name": "Andries Haasbroek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 3,
+     "name": "Tyler Johnson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 4,
+     "name": "Glen Phillips",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 5,
+     "name": "Franco Megannon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 6,
+     "name": "Nic Mckirdy",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 7,
+     "name": "Nikki Coramba",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 8,
+     "name": "Duayne Cumpsty",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 9,
+     "name": "Marco Coramba",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 10,
+     "name": "Faizel Samsodien",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 11,
+     "name": "Josh Yenson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 12,
+     "name": "Simon Sturrock",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130510233803id_/http://igsaworldcup.com/results/2012/2012_hotheels_africa_wc_qual / Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Douglas Silva",
+     "time": 105.78,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 2,
+     "name": "Kyle Westers",
+     "time": 106.62,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 3,
+     "name": "Adam Perssan",
+     "time": 108.3,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 4,
+     "name": "Johan Simonsen",
+     "time": 109.82,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 5,
+     "name": "Patrick Switzer",
+     "time": 110.72,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 6,
+     "name": "Felipe Malaga",
+     "time": 110.75,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 7,
+     "name": "Alex Tongue",
+     "time": 111.09,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 8,
+     "name": "Erik Lundberg",
+     "time": 111.62,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 9,
+     "name": "Berg Raoul Van Der",
+     "time": 112.34,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 10,
+     "name": "Anton Pratt",
+     "time": 113.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 11,
+     "name": "Torbjørn Sunde",
+     "time": 113.36,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 12,
+     "name": "Graham Buksa",
+     "time": 113.37,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 13,
+     "name": "Murray Chandler",
+     "time": 116.03,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 14,
+     "name": "Dec'io Lourenc'o",
+     "time": 116.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 15,
+     "name": "Simon Sturrock",
+     "time": 117.12,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 16,
+     "name": "Benjamin Malherbe",
+     "time": 117.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": null,
+     "name": "Marek Vanourek",
+     "time": 118.0,
+     "dnf": false,
+     "dns": true,
+     "nat": "CZE"
+    },
+    {
+     "place": 18,
+     "name": "Lloyd Clark",
+     "time": 119.06,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 19,
+     "name": "Henry Muller",
+     "time": 119.09,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 20,
+     "name": "Luke Radek",
+     "time": 119.11,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 21,
+     "name": "Tom Rushovich",
+     "time": 119.96,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 22,
+     "name": "Renier Van Staden",
+     "time": 120.06,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 23,
+     "name": "Richard Dweza",
+     "time": 120.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 24,
+     "name": "Nick Hook",
+     "time": 121.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 25,
+     "name": "Mike Upham",
+     "time": 121.28,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 26,
+     "name": "Richard Gibello",
+     "time": 121.31,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 27,
+     "name": "Danilo Deletic",
+     "time": 121.36,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 28,
+     "name": "Berg Eebin Van Den",
+     "time": 121.67,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 29,
+     "name": "Camden Lategan",
+     "time": 123.03,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 30,
+     "name": "Reece Trout",
+     "time": 123.06,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 31,
+     "name": "Sam Jakins",
+     "time": 123.09,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 32,
+     "name": "Attilla Hery",
+     "time": 123.14,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 33,
+     "name": "Glen Phillips",
+     "time": 123.28,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 34,
+     "name": "Kent Lingeveld",
+     "time": 123.47,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": null,
+     "name": "John Upham",
+     "time": 123.49,
+     "dnf": false,
+     "dns": true,
+     "nat": "RSA"
+    },
+    {
+     "place": null,
+     "name": "Alyosha Diebold",
+     "time": 123.59,
+     "dnf": false,
+     "dns": true,
+     "nat": "RSA"
+    },
+    {
+     "place": 37,
+     "name": "Nick Coetze",
+     "time": 123.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 38,
+     "name": "Ross Druckery",
+     "time": 123.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 39,
+     "name": "Josh Smit",
+     "time": 123.87,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 40,
+     "name": "Jeroen Slee",
+     "time": 124.09,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 41,
+     "name": "Tyrone Challis",
+     "time": 124.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 42,
+     "name": "Meyer Alex Troy",
+     "time": 124.35,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 43,
+     "name": "Merwe Cronje Van Der",
+     "time": 124.49,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": null,
+     "name": "Tom Lautenbach",
+     "time": 124.65,
+     "dnf": false,
+     "dns": true,
+     "nat": "RSA"
+    },
+    {
+     "place": 45,
+     "name": "Angus Burns",
+     "time": 125.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 46,
+     "name": "Rafael Zimbreiro",
+     "time": 126.35,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 47,
+     "name": "Justin Boast",
+     "time": 126.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 48,
+     "name": "Oliver Felaile",
+     "time": 126.46,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": null,
+     "name": "Nic Simic",
+     "time": 126.5,
+     "dnf": false,
+     "dns": true,
+     "nat": "RSA"
+    },
+    {
+     "place": 50,
+     "name": "Dave Hort",
+     "time": 127.09,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 51,
+     "name": "Axel Serrat",
+     "time": 127.12,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 52,
+     "name": "Storm Windt",
+     "time": 127.44,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 53,
+     "name": "Greg Parry",
+     "time": 127.62,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 54,
+     "name": "James Koen",
+     "time": 128.77,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": null,
+     "name": "Gustavs Gailitis",
+     "time": 129.31,
+     "dnf": false,
+     "dns": true,
+     "nat": "LAT"
+    },
+    {
+     "place": 56,
+     "name": "Timothee Ferreira",
+     "time": 130.03,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 57,
+     "name": "Jason Haworth",
+     "time": 130.24,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 58,
+     "name": "James Jager",
+     "time": 132.34,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 59,
+     "name": "Richard Edmunds",
+     "time": 133.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 60,
+     "name": "Christiaan Schultz",
+     "time": 134.55,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 61,
+     "name": "Foss Olsen Alf Marius",
+     "time": 135.34,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 62,
+     "name": "Mario Wernado",
+     "time": 137.64,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 63,
+     "name": "Oliver Morris",
+     "time": 137.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 64,
+     "name": "Stefan Snyman",
+     "time": 138.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 65,
+     "name": "Luke Nelson",
+     "time": 138.99,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": null,
+     "name": "Craig Harvey",
+     "time": 139.82,
+     "dnf": false,
+     "dns": true,
+     "nat": "RSA"
+    },
+    {
+     "place": 67,
+     "name": "Kaspars Balamovskis",
+     "time": 140.44,
+     "dnf": false,
+     "dns": false,
+     "nat": "LAT"
+    },
+    {
+     "place": null,
+     "name": "Merwe Deon Van Der",
+     "time": 141.63,
+     "dnf": false,
+     "dns": true,
+     "nat": "RSA"
+    },
+    {
+     "place": 69,
+     "name": "Steve Sharp",
+     "time": 142.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 70,
+     "name": "Wernado Friend Mario",
+     "time": 155.11,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 71,
+     "name": "JP Tagfour",
+     "time": 156.66,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 72,
+     "name": "Micheal Twana",
+     "time": 222.21,
+     "dnf": false,
+     "dns": false,
+     "nat": "ZIM"
+    },
+    {
+     "place": null,
+     "name": "Micheal Hardham",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "RSA"
+    },
+    {
+     "place": null,
+     "name": "Tim Bowman",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "RSA"
+    },
+    {
+     "place": null,
+     "name": "Mike Zietsman",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "RSA"
+    },
+    {
+     "place": null,
+     "name": "Josh Yenson",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "RSA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Damer",
+   "kind": "Women",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130510233803id_/http://igsaworldcup.com/results/2012/2012_hotheels_africa_wc_qual / Women Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Rebekka Gemperle",
+     "time": 123.56,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": null,
+     "name": "Tamra Prader",
+     "time": 135.34,
+     "dnf": false,
+     "dns": true,
+     "nat": "SUI"
+    },
+    {
+     "place": 3,
+     "name": "Anni Lindenmaier",
+     "time": 135.38,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 4,
+     "name": "Gabi Murrey-Roberts",
+     "time": 144.21,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Junior 1",
+   "kind": "Junior",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130510233803id_/http://igsaworldcup.com/results/2012/2012_hotheels_africa_wc_qual / Junior 1 Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": null,
+     "name": "Myles Kenmuir",
+     "time": 127.66,
+     "dnf": false,
+     "dns": true,
+     "nat": "RSA"
+    },
+    {
+     "place": 2,
+     "name": "Hadrien Remondi",
+     "time": 129.82,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 3,
+     "name": "Kienan Dunn",
+     "time": 133.46,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": null,
+     "name": "Nicholas Taylor",
+     "time": 136.03,
+     "dnf": false,
+     "dns": true,
+     "nat": "RSA"
+    },
+    {
+     "place": 5,
+     "name": "Silas Bahlig",
+     "time": 141.97,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 6,
+     "name": "Gregory Elion",
+     "time": 147.96,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 7,
+     "name": "Oscar Stubbs",
+     "time": 148.46,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 8,
+     "name": "David Beare",
+     "time": 152.22,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 9,
+     "name": "Tom Jakins",
+     "time": 169.56,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 10,
+     "name": "Joseph Fine",
+     "time": 170.63,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": null,
+     "name": "Ryan Morris",
+     "time": 171.65,
+     "dnf": false,
+     "dns": true,
+     "nat": "RSA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Junior 2",
+   "kind": "Junior",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130510233803id_/http://igsaworldcup.com/results/2012/2012_hotheels_africa_wc_qual / Junior 2 Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Jonas Richter",
+     "time": 115.79,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 2,
+     "name": "Simon Sturrock",
+     "time": 117.12,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 3,
+     "name": "Henry Muller",
+     "time": 119.09,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 4,
+     "name": "Quin Finocchio",
+     "time": 119.62,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 5,
+     "name": "Tom Rushovich",
+     "time": 119.96,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 6,
+     "name": "Camden Lategan",
+     "time": 123.03,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 7,
+     "name": "Sam Jakins",
+     "time": 123.09,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 8,
+     "name": "Jeroen Slee",
+     "time": 124.09,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 9,
+     "name": "Tyrone Challis",
+     "time": 124.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 10,
+     "name": "Angus Burns",
+     "time": 125.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 11,
+     "name": "Oliver Felaile",
+     "time": 126.46,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 12,
+     "name": "Joey Marcus",
+     "time": 128.37,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 13,
+     "name": "James Koen",
+     "time": 128.77,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 14,
+     "name": "Tim Bowman",
+     "time": 129.06,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 15,
+     "name": "Murrey Du Preez",
+     "time": 129.69,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 16,
+     "name": "Daniel Schultz",
+     "time": 129.86,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 17,
+     "name": "Leo Wilken",
+     "time": 132.19,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 18,
+     "name": "James Jager",
+     "time": 132.34,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 19,
+     "name": "Micheal McIver",
+     "time": 132.41,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 20,
+     "name": "Adam Schoeman",
+     "time": 132.47,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 21,
+     "name": "Andrew Arderne",
+     "time": 133.03,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 22,
+     "name": "Nick Pruim",
+     "time": 133.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 23,
+     "name": "Richard Edmunds",
+     "time": 133.99,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 24,
+     "name": "Christiaan Schultz",
+     "time": 134.55,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 25,
+     "name": "Mathew McDonald",
+     "time": 135.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 26,
+     "name": "Felix Hirner",
+     "time": 135.16,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 27,
+     "name": "Oliver Morris",
+     "time": 137.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 28,
+     "name": "Callum Dunn",
+     "time": 138.97,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 29,
+     "name": "Brandon Damen",
+     "time": 139.58,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 30,
+     "name": "Sebastian Snyman",
+     "time": 140.3,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 31,
+     "name": "Mike Davies",
+     "time": 145.22,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 32,
+     "name": "Niall Henke",
+     "time": 161.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Classic Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130510233803id_/http://igsaworldcup.com/results/2012/2012_hotheels_africa_wc_qual / Classic Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Glen Phillips",
+     "time": 112.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 2,
+     "name": "Peter Eliot",
+     "time": 115.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 3,
+     "name": "Marco Coramba",
+     "time": 117.09,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 4,
+     "name": "Andries Haasbroek",
+     "time": 118.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 5,
+     "name": "Nikki Coramba",
+     "time": 120.38,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 6,
+     "name": "Duayne Cumpsty",
+     "time": 120.44,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 7,
+     "name": "Nic Mckirdy",
+     "time": 122.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": null,
+     "name": "Franco Megannon",
+     "time": 124.87,
+     "dnf": false,
+     "dns": true,
+     "nat": "RSA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130510233803id_/http://igsaworldcup.com/results/2012/2012_hotheels_africa_wc_qual / Street Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Peter Eliot",
+     "time": 106.42,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 2,
+     "name": "Glen Phillips",
+     "time": 108.69,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": null,
+     "name": "Andries Haasbroek",
+     "time": 109.72,
+     "dnf": false,
+     "dns": true,
+     "nat": "RSA"
+    },
+    {
+     "place": 4,
+     "name": "Tyler Johnson",
+     "time": 111.31,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 5,
+     "name": "Duayne Cumpsty",
+     "time": 112.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 6,
+     "name": "Marco Coramba",
+     "time": 114.36,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 7,
+     "name": "Nic Mckirdy",
+     "time": 114.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 8,
+     "name": "Simon Sturrock",
+     "time": 117.12,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": null,
+     "name": "Nikki Coramba",
+     "time": 117.59,
+     "dnf": false,
+     "dns": true,
+     "nat": "RSA"
+    },
+    {
+     "place": 10,
+     "name": "Faizel Samsodien",
+     "time": 120.46,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 11,
+     "name": "Josh Yenson",
+     "time": 136.35,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 12,
+     "name": "Franco Megannon",
+     "time": 144.34,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

@@ -44,10 +44,15 @@ def dump(path, obj, indent=None):
         json.dump(obj, f, ensure_ascii=False, separators=(",", ":") if indent is None else None, indent=indent)
 
 
+SOURCES = ["igsa", "idf", "wdsc", "ndsf", "manual"]  # data/<folder>/; a later folder wins over an earlier one
+
+
 def load_events():
-    """Every event, the manual file winning over the automatic one with the same name."""
+    """Every event. The same event in several folders (a Norwegian race the IGSA or IDF also ranked) is the
+    one from the folder latest in SOURCES that has any races: ndsf.no over the international bodies, a
+    hand-written file over everything."""
     events = {}
-    for folder in ("ndsf", "manual"):
+    for folder in SOURCES:
         d = os.path.join(DATA, folder)
         if not os.path.isdir(d):
             continue
@@ -55,7 +60,8 @@ def load_events():
             if fn.endswith(".json"):
                 with open(os.path.join(d, fn), encoding="utf-8") as f:
                     ev = json.load(f)
-                events[ev["id"]] = ev
+                if ev["races"] or ev["id"] not in events:
+                    events[ev["id"]] = ev
     return sorted(events.values(), key=lambda e: (e["date"], e["id"]))
 
 
@@ -75,10 +81,29 @@ class Registry:
         except (OSError, ValueError):
             self.riders = {}
         self.by_key = {}
+        self.spellings = defaultdict(Counter)
+        # A rider is found by the first or last word of any spelling, give or take a letter: the index maps
+        # every such word and every one-letter-shorter form of it to the riders (so a typo, a letter added
+        # or dropped, or two letters swapped still meet on a shared key). Thousands of riders make the
+        # pairwise search below far too slow without it.
+        self.index = defaultdict(set)
         for rid, r in self.riders.items():
             for n in [r["name"]] + r.get("aliases", []):
                 self.by_key[name_key(n)] = rid
-        self.spellings = defaultdict(Counter)
+                self._index(rid, n)
+
+    def _index(self, rid, spelled):
+        t = _toks(spelled)
+        if t:
+            for key in _keys(t[0]) | _keys(t[-1]):
+                self.index[key].add(rid)
+
+    def candidates(self, name):
+        """The riders whose first or last word is within a letter of this name's first or last word."""
+        t = _toks(name)
+        if not t:
+            return set()
+        return set().union(*(self.index.get(k, set()) for k in _keys(t[0]) | _keys(t[-1])))
 
     def id_for(self, name):
         k = name_key(name)
@@ -88,6 +113,7 @@ class Registry:
             self.riders[rid] = {"name": name, "aliases": []}
         self.by_key[k] = rid
         self.spellings[rid][name.strip()] += 1
+        self._index(rid, name)
         return rid
 
     def same_person(self, name, only=None):
@@ -99,8 +125,9 @@ class Registry:
         toks = _toks(name)
         if len(toks) < 2:
             return None
-        for rid, r in self.riders.items():
-            if only and rid != only:
+        for rid in sorted({only} if only else self.candidates(name), key=lambda x: int(x[1:])):
+            r = self.riders.get(rid)
+            if r is None:
                 continue
             for spelled in [r["name"]] + r.get("aliases", []) + list(self.spellings[rid]):
                 t = _toks(spelled)
@@ -119,31 +146,33 @@ class Registry:
         """Second pass: two riders registered apart because the joining spelling came later ("Einbu Erland"
         in 2012, "Erland Lien" in 2013, "Erland Lien Einbu" in 2014) are one rider. Returns {old id: kept id}."""
         moved = {}
-        ids = sorted(self.riders, key=lambda x: int(x[1:]))
-        for i, a in enumerate(ids):
-            if a in moved:
+        num = lambda x: int(x[1:])
+
+        def merge(b, a):
+            moved[b] = a
+            self.spellings[a].update(self.spellings[b])
+            for sp in self.spellings[b]:
+                self._index(a, sp)
+            self.riders[a]["aliases"] = sorted(set(self.riders[a].get("aliases", [])) | {self.riders[b]["name"]} | set(self.riders[b].get("aliases", [])))
+            del self.riders[b]
+
+        for b in sorted(self.riders, key=num):
+            if b in moved:
                 continue
-            for b in ids[i + 1:]:
-                if b in moved:
-                    continue
+            hits = {a for sp in self.spellings[b] for a in self.candidates(sp) if a in self.riders and num(a) < num(b)}
+            for a in sorted(hits, key=num):
                 if any(self.same_person(sp, only=a) for sp in self.spellings[b]):
-                    moved[b] = a
-                    self.spellings[a].update(self.spellings[b])
-                    self.riders[a]["aliases"] = sorted(set(self.riders[a].get("aliases", [])) | {self.riders[b]["name"]} | set(self.riders[b].get("aliases", [])))
-                    del self.riders[b]
+                    merge(b, a)
+                    break
         # A name cut short ("Roy Helge", "Sander Viste") is the one rider whose name starts that way.
-        for b in sorted(self.riders, key=lambda x: int(x[1:])):
+        for b in sorted(self.riders, key=num):
             if b in moved:
                 continue
             t = _toks(self.riders[b]["name"])
-            hits = {a for a in self.riders if a != b and a not in moved and any(
-                len(ft) > len(t) and ft[:len(t)] == t for ft in (_toks(sp) for sp in self.spellings[a]))}
+            hits = {a for a in self.index.get(t[0], ()) if a != b and a in self.riders and any(
+                len(ft) > len(t) and ft[:len(t)] == t for ft in (_toks(sp) for sp in self.spellings[a]))} if t else set()
             if len(hits) == 1 and len(t) >= 2:
-                a = hits.pop()
-                moved[b] = a
-                self.spellings[a].update(self.spellings[b])
-                self.riders[a]["aliases"] = sorted(set(self.riders[a].get("aliases", [])) | {self.riders[b]["name"]})
-                del self.riders[b]
+                merge(b, hits.pop())
         self.by_key = {k: moved.get(rid, rid) for k, rid in self.by_key.items()}
         return moved
 
@@ -184,6 +213,12 @@ class Registry:
 
 def _toks(name):
     return fold(name).replace(".", "").replace("-", " ").split()
+
+
+def _keys(tok):
+    """The index keys of a word: itself and every form one letter shorter. Two words within an edit of each
+    other (a typo, a letter more or less, two letters swapped) share at least one."""
+    return {tok} | {tok[:i] + tok[i + 1:] for i in range(len(tok))}
 
 
 def _in(tok, toks):
@@ -456,7 +491,7 @@ def summary(races, index_ids, reg, sex, rating):
         damer = next((d for d in races if d["event"] == r["event"] and d["type"] == "Women" and d["rows"] and d["rows"][0][2]), None)
         women = [y for y in r["rows"] if sex.get(y[0]) == "K" and y[2]]
         best_w = damer["rows"][0][0] if damer else women[0][0] if women else None
-        recent.append({"id": r["id"], "name": r["name"], "cls": r["cls"], "date": r["date"], "type": r["type"],
+        recent.append({"id": r["id"], "name": r["name"], "cls": r["cls"], "date": r["date"], "date_known": r["date_known"], "type": r["type"],
                        "finishers": sum(1 for y in r["rows"] if y[2]), "fastest": page(w[0]) if w else None,
                        "fastest_women": page(best_w) if best_w else None})
         if len(recent) == 4:

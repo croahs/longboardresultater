@@ -1,0 +1,513 @@
+{
+ "id": "2023-erzincan-1",
+ "name": "WDSC Erzincan 1",
+ "year": 2023,
+ "date": "2023-01-01",
+ "date_known": false,
+ "hill": null,
+ "place": "Erzincan 1",
+ "sources": [
+  "https://worlddownhillskateboardingchampionship.com/standings-2023/"
+ ],
+ "titles": [],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2023/ / season table / Erzincan 1 / open skateboard",
+   "results": [
+    {
+     "place": 1,
+     "name": "Alexandros Tzougankis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 2,
+     "name": "Harry Clarke",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 3,
+     "name": "Diego Poncelet",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 4,
+     "name": "Vašek Čvančara",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 5,
+     "name": "Andréas Bouclier",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 6,
+     "name": "Grégoire Schwab",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 7,
+     "name": "Oscar Clevö",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 8,
+     "name": "Antoine Carlotti",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 9,
+     "name": "Olav Øye",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 10,
+     "name": "Hussain Al-Nasrallah",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 11,
+     "name": "Luis Rabanal",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 12,
+     "name": "Barbizzi Stefano",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 13,
+     "name": "Bohumil Sefma",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 14,
+     "name": "Jack Plummer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 15,
+     "name": "Owen Fox",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 16,
+     "name": "Kalil Hammouri",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 17,
+     "name": "Frantisek Kubicek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 18,
+     "name": "Lisa Peters",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NED"
+    },
+    {
+     "place": 19,
+     "name": "Cristiano Borges de Araújo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "POR"
+    },
+    {
+     "place": 20,
+     "name": "Jasmijn Hanegraef",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BEL"
+    },
+    {
+     "place": 21,
+     "name": "Thomas Ng",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CHN"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2023/ / season table / Erzincan 1 / womens skateboard",
+   "results": [
+    {
+     "place": 1,
+     "name": "Lisa Peters",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NLD"
+    },
+    {
+     "place": 2,
+     "name": "Jasmijn Hanegraef",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BEL"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2023/ / season table / Erzincan 1 / luge",
+   "results": [
+    {
+     "place": 1,
+     "name": "Abdil Mahdzan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MYS"
+    },
+    {
+     "place": 2,
+     "name": "Arkadiusz Kowalski",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "POL"
+    },
+    {
+     "place": 3,
+     "name": "Luis Mogrovejo",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 4,
+     "name": "Andrew Speight",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 5,
+     "name": "Daniel Blanco",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2023/ / Open Stand Up Skateboard",
+   "results": [
+    {
+     "place": 1,
+     "name": "Diego Poncelet",
+     "time": 142.75,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 2,
+     "name": "Alexandros Tzougankis",
+     "time": 145.09,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 3,
+     "name": "Harry Clarke",
+     "time": 145.14,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 4,
+     "name": "Grégoire Schwab",
+     "time": 146.55,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWI"
+    },
+    {
+     "place": 5,
+     "name": "Vašek Čvančara",
+     "time": 146.67,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 6,
+     "name": "Andréas Bouclier",
+     "time": 146.69,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 7,
+     "name": "Antoine Carlotti",
+     "time": 148.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 8,
+     "name": "Owen Fox",
+     "time": 148.34,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 9,
+     "name": "Barbizzi Stefano",
+     "time": 151.09,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 10,
+     "name": "Olav Øye",
+     "time": 151.95,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 11,
+     "name": "Kalil Hammouri",
+     "time": 152.95,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 12,
+     "name": "Hussain Al-Nasrallah",
+     "time": 154.39,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 13,
+     "name": "Luis Rabanal",
+     "time": 154.59,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 14,
+     "name": "Oscar Clevö",
+     "time": 154.67,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 15,
+     "name": "Jack Plummer",
+     "time": 156.23,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 16,
+     "name": "Bohumil Sefma",
+     "time": 156.63,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 17,
+     "name": "Frantisek Kubicek",
+     "time": 158.68,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 18,
+     "name": "Lisa Peters",
+     "time": 159.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "NDL"
+    },
+    {
+     "place": 19,
+     "name": "Cristiano Borges de Araújo",
+     "time": 160.98,
+     "dnf": false,
+     "dns": false,
+     "nat": "POR"
+    },
+    {
+     "place": 20,
+     "name": "Jasmijn Hanegraef",
+     "time": 165.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "BEL"
+    },
+    {
+     "place": 21,
+     "name": "Thomas Ng",
+     "time": 172.24,
+     "dnf": false,
+     "dns": false,
+     "nat": "HGK"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Damer",
+   "kind": "Women",
+   "format": "timed",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2023/ / Women’s Stand Up Skateboard",
+   "results": [
+    {
+     "place": 1,
+     "name": "Lisa Peters",
+     "time": 159.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "NDL"
+    },
+    {
+     "place": 2,
+     "name": "Jasmijn Hanegraef",
+     "time": 165.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "BEL"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2023/ / Open Street Luge",
+   "results": [
+    {
+     "place": 1,
+     "name": "Abdil Mahdzan",
+     "time": 143.2,
+     "dnf": false,
+     "dns": false,
+     "nat": "MYS"
+    },
+    {
+     "place": 2,
+     "name": "Arkadiusz Kowalski",
+     "time": 148.9,
+     "dnf": false,
+     "dns": false,
+     "nat": "POL"
+    },
+    {
+     "place": 3,
+     "name": "Andrew Speight",
+     "time": 152.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 4,
+     "name": "Luis Mogrovejo",
+     "time": 153.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "PER"
+    },
+    {
+     "place": 5,
+     "name": "Daniel Blanco",
+     "time": 157.9,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

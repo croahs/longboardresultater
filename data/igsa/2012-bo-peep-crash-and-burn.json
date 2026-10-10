@@ -1,0 +1,1845 @@
+{
+ "id": "2012-bo-peep-crash-and-burn",
+ "name": "Bo Peep Crash and Burn",
+ "year": 2012,
+ "date": "2012-06-03",
+ "date_known": true,
+ "hill": null,
+ "place": "Bo Peep Lane, Alciston, East , England",
+ "level": "Continental - Europe",
+ "sources": [
+  "http://web.archive.org/web/20130530050718id_/http://igsaworldcup.com/results/2012/2012_bo_peep_co_qual.pdf",
+  "http://web.archive.org/web/20240703225013id_/http://www.igsaworldcup.com/results/2012/2012_bo_peep_co_rslt.pdf"
+ ],
+ "titles": [
+  "Bo Peep Crash and Burn"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130530050718id_/http://igsaworldcup.com/results/2012/2012_bo_peep_co_qual.pdf / Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Olly Goodwn",
+     "time": 60.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 2,
+     "name": "William Stephenson",
+     "time": 60.2,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 3,
+     "name": "Dave Henchcliffe",
+     "time": 60.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 4,
+     "name": "Tobias Taylor",
+     "time": 62.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 5,
+     "name": "Ronald Huhne",
+     "time": 62.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 6,
+     "name": "Frederico Barboni",
+     "time": 64.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 7,
+     "name": "Charlie Gray",
+     "time": 65.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 8,
+     "name": "William Mackenzie",
+     "time": 67.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 9,
+     "name": "Peter Gold",
+     "time": 68.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 10,
+     "name": "Jorge Higgins",
+     "time": 68.9,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 11,
+     "name": "Kim Edwards",
+     "time": 68.9,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 12,
+     "name": "Dylan Styles",
+     "time": 71.8,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 13,
+     "name": "James Wright",
+     "time": 75.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 14,
+     "name": "Jamie Gaylor",
+     "time": 75.9,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 15,
+     "name": "Mary Crossland",
+     "time": 78.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 16,
+     "name": "Liam Peebles",
+     "time": 91.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 17,
+     "name": "Connor Pearce",
+     "time": 104.8,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Sebastien Hertler",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": null,
+     "name": "Adam Persson",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Klaes Johansson",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Torbjorn Sunde",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": null,
+     "name": "Luca Coleman",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": null,
+     "name": "Mattias Borg",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Shaine Fourie",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "SA"
+    },
+    {
+     "place": null,
+     "name": "Pete Connolly",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Deen Mondt",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NED"
+    },
+    {
+     "place": null,
+     "name": "Jonathan Braund",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Josh Monk",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Brandon Adams",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Vincent Jordana",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "John Griffiths",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Ivan Davila",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": null,
+     "name": "Duncan Kay",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Tom Beaumont",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Tom Buck",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Uldis Tretmanis",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": null,
+     "name": "Richard Ward",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Aaron Skippings",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Larzabal Imanol Ormazabal",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": null,
+     "name": "Oliver Slaughter",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Marcin Kludczynski",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "POL"
+    },
+    {
+     "place": null,
+     "name": "Leif Marks",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": null,
+     "name": "Lars Isaksen",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": null,
+     "name": "Lucas Krown",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Stephan Vaast",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Gael Desfontaines",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Andrew Theobald",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Liam Fourie",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "SA"
+    },
+    {
+     "place": null,
+     "name": "Jonathan Charles",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Graham Page",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Janne Salminen",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FIN"
+    },
+    {
+     "place": null,
+     "name": "Erik Buene",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": null,
+     "name": "Kurt Daninger",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": null,
+     "name": "Jack Penman",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Anna Richardson",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": null,
+     "name": "Lewis Phillips",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Alex Dehmel",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": null,
+     "name": "Toby Newman",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Louis Selby",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Gomez Alexandre Brines",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": null,
+     "name": "Pearse D'arcy",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "IRE"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Damer",
+   "kind": "Women",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130530050718id_/http://igsaworldcup.com/results/2012/2012_bo_peep_co_qual.pdf / Women Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Kim Edwards",
+     "time": 68.9,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 2,
+     "name": "Mary Crossland",
+     "time": 78.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Anna Richardson",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "SWE"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Junior 2",
+   "kind": "Junior",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130530050718id_/http://igsaworldcup.com/results/2012/2012_bo_peep_co_qual.pdf / Junior 2 Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Olly Goodwn",
+     "time": 60.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 2,
+     "name": "Charlie Gray",
+     "time": 65.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 3,
+     "name": "William Mackenzie",
+     "time": 67.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 4,
+     "name": "Peter Gold",
+     "time": 68.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 5,
+     "name": "Jorge Higgins",
+     "time": 68.9,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 6,
+     "name": "Dylan Styles",
+     "time": 71.8,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 7,
+     "name": "Jamie Gaylor",
+     "time": 75.9,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 8,
+     "name": "Liam Peebles",
+     "time": 91.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 9,
+     "name": "Connor Pearce",
+     "time": 104.8,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Deen Mondt",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NED"
+    },
+    {
+     "place": null,
+     "name": "Tom Buck",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Richard Ward",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Toby Newman",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Pearse D'arcy",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "IRE"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Classic Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130530050718id_/http://igsaworldcup.com/results/2012/2012_bo_peep_co_qual.pdf / Classic Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Frederico Barboni",
+     "time": 62.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": null,
+     "name": "Roberto Marasca",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": null,
+     "name": "Mikel Echegaray-Diez",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": null,
+     "name": "Alex Frischauf",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": null,
+     "name": "Aaron Skippings",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Cess Dolding",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Ben Bewley",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Oliver Slaughter",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Mark Fleetwood",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Scott Hallman",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NZE"
+    },
+    {
+     "place": null,
+     "name": "Marc Dean",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Jay Fleetwood",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GBR"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130530050718id_/http://igsaworldcup.com/results/2012/2012_bo_peep_co_qual.pdf / Street Luge / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Todd Dolding",
+     "time": 62.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 2,
+     "name": "Len Stocker",
+     "time": 63.7,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 3,
+     "name": "George Cheeseman",
+     "time": 65.8,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Mikel Echegaray-Diez",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": null,
+     "name": "William Stephenson",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Roberto Marasca",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": null,
+     "name": "Frederico Barboni",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": null,
+     "name": "Alex Frischauf",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": null,
+     "name": "Ben Bewley",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Edgar De Wit",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NED"
+    },
+    {
+     "place": null,
+     "name": "Marc Dean",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": null,
+     "name": "Joel King",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Cess Dolding",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Scott Hallman",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NZE"
+    },
+    {
+     "place": null,
+     "name": "Tony Moate",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "BRA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Gravity Bike",
+   "kind": "Other",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130530050718id_/http://igsaworldcup.com/results/2012/2012_bo_peep_co_qual.pdf / Gravity Bike / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Gary Priestley",
+     "time": 90.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": null,
+     "name": "Scott Hallman",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "NZE"
+    },
+    {
+     "place": null,
+     "name": "Alex Frischauf",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "AUT"
+    },
+    {
+     "place": null,
+     "name": "David Stinton",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "GBR"
+    }
+   ]
+  },
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20240703225013id_/http://www.igsaworldcup.com/results/2012/2012_bo_peep_co_rslt.pdf / Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Sebastien Hertler",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 2,
+     "name": "Adam Persson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 3,
+     "name": "Mattias Borg",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 4,
+     "name": "Torbjorn Sunde",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 5,
+     "name": "Klaes Johansson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 6,
+     "name": "Luca Coleman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 7,
+     "name": "Shaine Fourie",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SA"
+    },
+    {
+     "place": 8,
+     "name": "Alex Dehmel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 9,
+     "name": "Deen Mondt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NED"
+    },
+    {
+     "place": 10,
+     "name": "Jonathan Braund",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 11,
+     "name": "Josh Monk",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 12,
+     "name": "Brandon Adams",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 13,
+     "name": "Vincent Jordana",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 14,
+     "name": "John Griffiths",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 15,
+     "name": "Duncan Kay",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 16,
+     "name": "Tom Buck",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 17,
+     "name": "Pete Connolly",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 18,
+     "name": "Tom Beaumont",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 19,
+     "name": "Aaron Skippings",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 20,
+     "name": "Larzabal Imanol Ormazabal",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 21,
+     "name": "Oliver Slaughter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 22,
+     "name": "Marcin Kludczynski",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "POL"
+    },
+    {
+     "place": 23,
+     "name": "Lucas Krown",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 24,
+     "name": "Stephan Vaast",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 25,
+     "name": "Gael Desfontaines",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 26,
+     "name": "Andrew Theobald",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 27,
+     "name": "Liam Fourie",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SA"
+    },
+    {
+     "place": 28,
+     "name": "Graham Page",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 29,
+     "name": "Lewis Phillips",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 30,
+     "name": "Olly Goodwn",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 31,
+     "name": "Frederico Barboni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 32,
+     "name": "Ivan Davila",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 33,
+     "name": "Richard Ward",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 34,
+     "name": "Lars Isaksen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 35,
+     "name": "Janne Salminen",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FIN"
+    },
+    {
+     "place": 36,
+     "name": "Erik Buene",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 37,
+     "name": "Jack Penman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 38,
+     "name": "Anna Richardson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 39,
+     "name": "Toby Newman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 40,
+     "name": "Louis Selby",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 41,
+     "name": "Gomez Alexandre Brines",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 42,
+     "name": "Pearse D'arcy",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "IRE"
+    },
+    {
+     "place": 43,
+     "name": "Dave Henchcliffe",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 44,
+     "name": "Tobias Taylor",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 45,
+     "name": "Charlie Gray",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 46,
+     "name": "William Mackenzie",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 47,
+     "name": "Jorge Higgins",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 48,
+     "name": "Kim Edwards",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 49,
+     "name": "Dylan Styles",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 50,
+     "name": "James Wright",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 51,
+     "name": "Jamie Gaylor",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 52,
+     "name": "Mary Crossland",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 53,
+     "name": "Liam Peebles",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 54,
+     "name": "Connor Pearce",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 55,
+     "name": "Ronald Huhne",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CZE"
+    },
+    {
+     "place": 56,
+     "name": "Uldis Tretmanis",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "MEX"
+    },
+    {
+     "place": 57,
+     "name": "Leif Marks",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 58,
+     "name": "Jonathan Charles",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 59,
+     "name": "Kurt Daninger",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 60,
+     "name": "William Stephenson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 61,
+     "name": "Peter Gold",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20240703225013id_/http://www.igsaworldcup.com/results/2012/2012_bo_peep_co_rslt.pdf / Women Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Kim Edwards",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 2,
+     "name": "Anna Richardson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 3,
+     "name": "Mary Crossland",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    }
+   ]
+  },
+  {
+   "name": "Junior 2",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20240703225013id_/http://www.igsaworldcup.com/results/2012/2012_bo_peep_co_rslt.pdf / Junior 2 Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Richard Ward",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 2,
+     "name": "Deen Mondt",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NED"
+    },
+    {
+     "place": 3,
+     "name": "Tom Buck",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 4,
+     "name": "Toby Newman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 5,
+     "name": "Pearse D'arcy",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "IRE"
+    },
+    {
+     "place": 6,
+     "name": "Olly Goodwn",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 7,
+     "name": "Charlie Gray",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 8,
+     "name": "William Mackenzie",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 9,
+     "name": "Jorge Higgins",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 10,
+     "name": "Dylan Styles",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 11,
+     "name": "Jamie Gaylor",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 12,
+     "name": "Connor Pearce",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 13,
+     "name": "Peter Gold",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 14,
+     "name": "Liam Peebles",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    }
+   ]
+  },
+  {
+   "name": "Classic Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20240703225013id_/http://www.igsaworldcup.com/results/2012/2012_bo_peep_co_rslt.pdf / Classic Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Mikel Echegaray-Diez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 2,
+     "name": "Roberto Marasca",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 3,
+     "name": "Alex Frischauf",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 4,
+     "name": "Aaron Skippings",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 5,
+     "name": "Ben Bewley",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 6,
+     "name": "Oliver Slaughter",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 8,
+     "name": "Frederico Barboni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 9,
+     "name": "Cess Dolding",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 10,
+     "name": "Scott Hallman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NZE"
+    },
+    {
+     "place": 11,
+     "name": "Marc Dean",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 12,
+     "name": "Jay Fleetwood",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20240703225013id_/http://www.igsaworldcup.com/results/2012/2012_bo_peep_co_rslt.pdf / Street Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Mikel Echegaray-Diez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ESP"
+    },
+    {
+     "place": 2,
+     "name": "William Stephenson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 3,
+     "name": "Roberto Marasca",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 4,
+     "name": "Frederico Barboni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 5,
+     "name": "Alex Frischauf",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUT"
+    },
+    {
+     "place": 6,
+     "name": "Ben Bewley",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 7,
+     "name": "Edgar De Wit",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NED"
+    },
+    {
+     "place": 8,
+     "name": "Joel King",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 9,
+     "name": "Marc Dean",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 10,
+     "name": "Cess Dolding",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 11,
+     "name": "Scott Hallman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NZE"
+    },
+    {
+     "place": 13,
+     "name": "Todd Dolding",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 14,
+     "name": "George Cheeseman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    },
+    {
+     "place": 15,
+     "name": "Tony Moate",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 16,
+     "name": "Len Stocker",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    }
+   ]
+  },
+  {
+   "name": "Gravity Bike",
+   "kind": "Other",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20240703225013id_/http://www.igsaworldcup.com/results/2012/2012_bo_peep_co_rslt.pdf / Gravity Bike / bracket",
+   "results": [
+    {
+     "place": null,
+     "name": "David Stinton",
+     "time": null,
+     "dnf": false,
+     "dns": true,
+     "nat": "GBR"
+    },
+    {
+     "place": 2,
+     "name": "Scott Hallman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "NZE"
+    },
+    {
+     "place": 3,
+     "name": "Gary Priestley",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GBR"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

@@ -35,9 +35,9 @@ export default function Home({ index, example }: { index: IndexRider[]; example:
       <section className="hero" aria-labelledby="h-hero">
         <Suspense fallback={<div className="hero-canvas" aria-hidden="true" />}><HeroScene className="hero-canvas" /></Suspense>
         <div className="hero-copy">
-          <p className="eyebrow">Downhill-longboard · Norge{s ? ` · ${span(s.years)}` : ""}</p>
+          <p className="eyebrow">Downhill-longboard · Norge og verden{s ? ` · ${span(s.years)}` : ""}</p>
           <h1 className="hero-title" id="h-hero">Hver bakke.<br />Hvert heat.<br /><em>Hver rival.</em></h1>
-          <p className="lead">Alle resultatlistene NDSF har publisert, samlet på ett sted: plasseringer, innbyrdes oppgjør og utvikling for hver kjører siden 2007.</p>
+          <p className="lead">Resultatlistene fra NDSF og de internasjonale forbundene IGSA, IDF og WDSC, samlet på ett sted: plasseringer, innbyrdes oppgjør og utvikling for hver kjører.</p>
           <div className="hero-search"><Search index={index} big /></div>
           {example && <p className="fine">Eller <a href={href.rider(example)}>se et eksempel</a> først.</p>}
         </div>
@@ -55,7 +55,7 @@ export default function Home({ index, example }: { index: IndexRider[]; example:
         <div className="recent-grid">
           {s?.recent.map((r, i) => (
             <article key={r.id} className={`recent-card type-${r.type}`} style={{ animationDelay: `${i * 70}ms` }}>
-              <p className="eyebrow">{dateLong(r.date)}</p>
+              <p className="eyebrow">{r.date_known === false ? r.date.slice(0, 4) : dateLong(r.date)}</p>
               <h3 className="recent-name"><a href={href.race(r.id)}>{r.name} <span className="muted">{r.date.slice(0, 4)}</span></a></h3>
               <p><Cls type={r.type} cls={r.cls} /></p>
               <p className="recent-n tnum">{r.finishers} <span className="muted">i mål</span></p>

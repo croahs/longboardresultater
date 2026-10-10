@@ -1,0 +1,1175 @@
+{
+ "id": "2011-la-familia-challenge",
+ "name": "La Familia Challenge",
+ "year": 2011,
+ "date": "2011-01-01",
+ "date_known": false,
+ "hill": null,
+ "place": "Prapoutel, France",
+ "level": "Regional",
+ "sources": [
+  "http://web.archive.org/web/20111008002454id_/http://www.igsaworldcup.com/results/2011/2011_la_familia_challenge_rg.pdf",
+  "http://web.archive.org/web/20111008023305id_/http://www.igsaworldcup.com/results/2011/2011_la_familia_challenge_rg_qual.pdf",
+  "http://web.archive.org/web/20160606144856id_/http://igsaworldcup.com/results/2011/2011_la_familia_challenge_rg_qual",
+  "http://web.archive.org/web/20160609232211id_/http://igsaworldcup.com/results/2011/2011_la_familia_challenge_rg_rslt"
+ ],
+ "titles": [
+  "La Familia Challenge"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20111008002454id_/http://www.igsaworldcup.com/results/2011/2011_la_familia_challenge_rg.pdf / Downhill Skateboarding / timed",
+   "results": [
+    {
+     "place": null,
+     "name": "Nicolas Robert",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": null,
+     "name": "Bruno Fuchs",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": null,
+     "name": "Jonathan Martinez",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Alex Ulrich",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Kevin Bouaich",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": null,
+     "name": "Yoann Bethus",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Alex Dehmel",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": null,
+     "name": "oliver Dehmel",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": null,
+     "name": "Loic Marechet",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Florian Schwab",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": null,
+     "name": "Julien Yamba",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Roland Bargiel",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": null,
+     "name": "Julien Crettaz",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Gabin Piton",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Charles Andrieu",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Alex Markiewicz",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Marie Bougourd",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Artiom Missiri",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Pierre Conan",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "David Saputera",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": null,
+     "name": "Thomas Lakomicky",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Chritstophe Gatignon",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Benjamin Colas",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "St Cyr Benoit Dupin De",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "David Sevault",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Julien Manzoni",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Brice Bombardier",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Stephen Solares",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": null,
+     "name": "Anthony Ouldboumaza",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Maxime Sorek",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Mathieu Batifol",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Stephanie Auger",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Damer",
+   "kind": "Women",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20111008002454id_/http://www.igsaworldcup.com/results/2011/2011_la_familia_challenge_rg.pdf / Womens Downhill Skateboarding / timed",
+   "results": [
+    {
+     "place": null,
+     "name": "Marie Bougourd",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Stephanie Auger",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Junior 2",
+   "kind": "Junior",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20111008002454id_/http://www.igsaworldcup.com/results/2011/2011_la_familia_challenge_rg.pdf / Junior 2 Downhill Skateboarding / timed",
+   "results": [
+    {
+     "place": null,
+     "name": "Roland Bargiel",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": null,
+     "name": "Gabin Piton",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Charles Andrieu",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Pierre Conan",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Classic Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20111008002454id_/http://www.igsaworldcup.com/results/2011/2011_la_familia_challenge_rg.pdf / Classic Luge / timed",
+   "results": [
+    {
+     "place": null,
+     "name": "Maxime Rubi",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Craig Deltour",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Fabien Prual",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Thibault Meline",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Gregory Gerber",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Pierre Hardillier",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Soizic Quemener",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Antoine Bellon",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Sophie Sentenac",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Olivier Grand",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Luge",
+   "kind": "Luge",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20111008002454id_/http://www.igsaworldcup.com/results/2011/2011_la_familia_challenge_rg.pdf / Street Luge / timed",
+   "results": [
+    {
+     "place": null,
+     "name": "Maxime Rubi",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Gregory Gerber",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Fabien Prual",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Craig Deltour",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Thibault Meline",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Pierre Hardillier",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Soizic Quemener",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Aline Morin",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Olivier Grand",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Sophie Sentenac",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    }
+   ]
+  },
+  {
+   "name": "Kvalifisering Inline",
+   "kind": "Inline",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20111008002454id_/http://www.igsaworldcup.com/results/2011/2011_la_familia_challenge_rg.pdf / Downhill Inline / timed",
+   "results": [
+    {
+     "place": null,
+     "name": "Mathieu Brichet",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Alexandre Lebrun",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Severine Christ-Thomas",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Emilie Sadoux",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Gael Kaerdennec",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Gabriel Lize",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Quentin Pastor",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": null,
+     "name": "Antoine Boyer",
+     "time": null,
+     "dnf": true,
+     "dns": false,
+     "nat": "FRA"
+    }
+   ]
+  },
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111008002454id_/http://www.igsaworldcup.com/results/2011/2011_la_familia_challenge_rg.pdf / Downhill Skateboarding / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Nicolas Robert",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 2,
+     "name": "Jonathan Martinez",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 3,
+     "name": "Alexandre Ulrich",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 4,
+     "name": "Bruno Fuchs",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 5,
+     "name": "Alex Dehmel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 6,
+     "name": "Olivier Dehmel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 7,
+     "name": "Kevin Bouaich",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 8,
+     "name": "Yoann Bethus",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 9,
+     "name": "Florian Schwab",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 10,
+     "name": "Julien Yamba",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 11,
+     "name": "Loic Marechet",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 12,
+     "name": "Roland Bargiel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 13,
+     "name": "Julien Crettaz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 14,
+     "name": "Alexandre Markiewicz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 15,
+     "name": "Gabin Piton",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 16,
+     "name": "Charles Andrieu",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 17,
+     "name": "Pierre Conan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 18,
+     "name": "David Saputera",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 19,
+     "name": "Marie Bougourd",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 20,
+     "name": "Artiom Missiri",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 21,
+     "name": "Chritstophe Gatignon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 22,
+     "name": "Benjamin Colas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 23,
+     "name": "Thomas Lakomicky",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 24,
+     "name": "St Cyr Benoit Dupin De",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 25,
+     "name": "Julien Manzoni",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 26,
+     "name": "Brice Bombardier",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 27,
+     "name": "David Sevault",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 28,
+     "name": "Stephen Solares",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 29,
+     "name": "Anthony Ouldboumaza",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 30,
+     "name": "Maxime Sorek",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 31,
+     "name": "Stephanie Auger",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 32,
+     "name": "Mathieu Batifol",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    }
+   ]
+  },
+  {
+   "name": "Damer",
+   "kind": "Women",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111008002454id_/http://www.igsaworldcup.com/results/2011/2011_la_familia_challenge_rg.pdf / Womens Downhill Skateboarding / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Marie Bougourd",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 2,
+     "name": "Stephanie Auger",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    }
+   ]
+  },
+  {
+   "name": "Junior 2",
+   "kind": "Junior",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111008002454id_/http://www.igsaworldcup.com/results/2011/2011_la_familia_challenge_rg.pdf / Junior 2 Downhill Skateboarding / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Pierre Conan",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 2,
+     "name": "Roland Bargiel",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "GER"
+    },
+    {
+     "place": 3,
+     "name": "Charles Andrieu",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 4,
+     "name": "Gabin Piton",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    }
+   ]
+  },
+  {
+   "name": "Classic Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111008002454id_/http://www.igsaworldcup.com/results/2011/2011_la_familia_challenge_rg.pdf / Classic Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Maxime Rubi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 2,
+     "name": "Craig Deltour",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 3,
+     "name": "Thibault Meline",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 4,
+     "name": "Fabien Prual",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 5,
+     "name": "Pierre Hardillier",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 6,
+     "name": "Gregory Gerber",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 7,
+     "name": "Antoine Bellon",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 8,
+     "name": "Soizic Quemener",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 9,
+     "name": "Sophie Sentenac",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 10,
+     "name": "Olivier Grand",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111008002454id_/http://www.igsaworldcup.com/results/2011/2011_la_familia_challenge_rg.pdf / Street Luge / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Maxime Rubi",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 2,
+     "name": "Gregory Gerber",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 3,
+     "name": "Craig Deltour",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 4,
+     "name": "Fabien Prual",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 5,
+     "name": "Thibault Meline",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 6,
+     "name": "Pierre Hardillier",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 7,
+     "name": "Aline Morin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 8,
+     "name": "Soizic Quemener",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 9,
+     "name": "Sophie Sentenac",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 10,
+     "name": "Olivier Grand",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    }
+   ]
+  },
+  {
+   "name": "Inline",
+   "kind": "Inline",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20111008002454id_/http://www.igsaworldcup.com/results/2011/2011_la_familia_challenge_rg.pdf / Downhill Inline / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Alexandre Lebrun",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 2,
+     "name": "Severine Christ-Thomas",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 3,
+     "name": "Mathieu Brichet",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 4,
+     "name": "Emilie Sadoux",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 5,
+     "name": "Gabriel Lize",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 6,
+     "name": "Quentin Pastor",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 7,
+     "name": "Antoine Boyer",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    },
+    {
+     "place": 8,
+     "name": "Gael Kaerdennec",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "FRA"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

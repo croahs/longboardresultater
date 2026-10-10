@@ -1,0 +1,219 @@
+{
+ "id": "2018-sanki",
+ "name": "Sanki",
+ "year": 2018,
+ "date": "2018-08-10",
+ "date_known": true,
+ "hill": null,
+ "place": "Russia",
+ "sources": [
+  "https://internationaldownhillfederation.org/rankings/2018-rankings/"
+ ],
+ "titles": [
+  "Sanki"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2018/World-Rankings-2018-Open-Skateboard.html / Sanki",
+   "results": [
+    {
+     "place": 1,
+     "name": "Ildar Sharipov",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Russia"
+    },
+    {
+     "place": 2,
+     "name": "Stepan Krukhmalev",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Russia"
+    },
+    {
+     "place": 3,
+     "name": "Garret Smith",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United States"
+    },
+    {
+     "place": 4,
+     "name": "Dmitriy Tarasov",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Russia"
+    },
+    {
+     "place": 5,
+     "name": "Ivan Borzev",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Russia"
+    },
+    {
+     "place": 6,
+     "name": "Timofey Mihalev",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Russia"
+    },
+    {
+     "place": 7,
+     "name": "Vil Yusupov",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Russia"
+    },
+    {
+     "place": 8,
+     "name": "Daniil Egorov",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Russia"
+    },
+    {
+     "place": 9,
+     "name": "Denis Shalashov",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Russia"
+    },
+    {
+     "place": 10,
+     "name": "Artem Chuprina",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Russia"
+    },
+    {
+     "place": 11,
+     "name": "Mikhail Zavyalov",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Russia"
+    },
+    {
+     "place": 12,
+     "name": "Kirill Korolenko",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Russia"
+    },
+    {
+     "place": 13,
+     "name": "Anastasiia Akenteva",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Russia"
+    },
+    {
+     "place": 14,
+     "name": "Dmitry Baryashkin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Russia"
+    },
+    {
+     "place": 15,
+     "name": "Viktor Bukin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Russia"
+    },
+    {
+     "place": 16,
+     "name": "Daniil Bolotnikov",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Russia"
+    }
+   ]
+  },
+  {
+   "name": "Masters",
+   "kind": "Masters",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2018/World-Rankings-2018-Master-Skateboard.html / Sanki",
+   "results": [
+    {
+     "place": 1,
+     "name": "Mikhail Zavyalov",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Russia"
+    },
+    {
+     "place": 2,
+     "name": "Viktor Bukin",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Russia"
+    }
+   ]
+  },
+  {
+   "name": "Luge",
+   "kind": "Luge",
+   "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2018/World-Rankings-2018-Luge.html / Sanki",
+   "results": [
+    {
+     "place": 1,
+     "name": "Will Stephenson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "United Kingdom"
+    },
+    {
+     "place": 2,
+     "name": "Ildar Sharipov",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Russia"
+    },
+    {
+     "place": 3,
+     "name": "Shane MacDougall",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Canada"
+    },
+    {
+     "place": 4,
+     "name": "Daniil Bolotnikov",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Russia"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}

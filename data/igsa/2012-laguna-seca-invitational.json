@@ -1,0 +1,517 @@
+{
+ "id": "2012-laguna-seca-invitational",
+ "name": "Laguna Seca Invitational",
+ "year": 2012,
+ "date": "2012-04-19",
+ "date_known": true,
+ "hill": null,
+ "place": "Monterey, CA, USA",
+ "level": "Invitational",
+ "sources": [
+  "http://web.archive.org/web/20130530034719id_/http://igsaworldcup.com/results/2012/2012_laguna_seca_invitational_qual.pdf",
+  "http://web.archive.org/web/20240701053449id_/https://www.igsaworldcup.com/results/2012/2012_laguna_seca_invitational_rslt.pdf"
+ ],
+ "titles": [
+  "Laguna Seca Invitational"
+ ],
+ "notes": [],
+ "races": [
+  {
+   "name": "Kvalifisering",
+   "kind": "Open",
+   "format": "timed",
+   "source": "http://web.archive.org/web/20130530034719id_/http://igsaworldcup.com/results/2012/2012_laguna_seca_invitational_qual.pdf / Downhill Skateboard / timed",
+   "results": [
+    {
+     "place": 1,
+     "name": "Tim Del Rosario",
+     "time": 56.93,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 2,
+     "name": "Max Capps",
+     "time": 57.0,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 3,
+     "name": "Erik Lundberg",
+     "time": 57.04,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 4,
+     "name": "Zak Maytum",
+     "time": 57.42,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 5,
+     "name": "Graham Buksa",
+     "time": 57.45,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 6,
+     "name": "Josh Torres",
+     "time": 57.94,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 7,
+     "name": "Kyle Wester",
+     "time": 57.96,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 8,
+     "name": "Micah Green",
+     "time": 58.02,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 9,
+     "name": "Andrew Mercado",
+     "time": 58.24,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 10,
+     "name": "Michael Snyder",
+     "time": 58.29,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 11,
+     "name": "Max Wippermann",
+     "time": 58.45,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 12,
+     "name": "Andrew Chapman",
+     "time": 58.59,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 13,
+     "name": "Riley Crone",
+     "time": 58.79,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 14,
+     "name": "Daniel Luna",
+     "time": 59.48,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 15,
+     "name": "Braden Tibbles",
+     "time": 59.6,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 16,
+     "name": "Mike Jakubiec",
+     "time": 59.68,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 17,
+     "name": "Jimmy Rhia",
+     "time": 59.86,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 18,
+     "name": "Billy Meiners",
+     "time": 59.9,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 19,
+     "name": "Norberto Bertoncello",
+     "time": 60.1,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 20,
+     "name": "Scott Hamilton",
+     "time": 60.24,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 21,
+     "name": "Jeff Budro",
+     "time": 60.24,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 22,
+     "name": "A.J. Haiby",
+     "time": 60.44,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 23,
+     "name": "Travis Craig",
+     "time": 60.8,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 24,
+     "name": "Malachi Green",
+     "time": 60.86,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 25,
+     "name": "Justin Ortiz",
+     "time": 61.1,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 26,
+     "name": "Keith Henderson",
+     "time": 61.17,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 27,
+     "name": "Calvin Staub",
+     "time": 61.95,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 28,
+     "name": "Biker Sherlock",
+     "time": 62.01,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 29,
+     "name": "Chris Chaput",
+     "time": 62.28,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 30,
+     "name": "Zarosh Eggleston",
+     "time": 65.79,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 31,
+     "name": "Noah Peacock",
+     "time": 70.31,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 32,
+     "name": "Quinn Dubois",
+     "time": 76.17,
+     "dnf": false,
+     "dns": false
+    }
+   ]
+  },
+  {
+   "name": "Open",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "http://web.archive.org/web/20240701053449id_/https://www.igsaworldcup.com/results/2012/2012_laguna_seca_invitational_rslt.pdf / Downhill Skateboard / bracket",
+   "results": [
+    {
+     "place": 1,
+     "name": "Kyle Wester",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 2,
+     "name": "Andrew Mercado",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 3,
+     "name": "Graham Buksa",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 4,
+     "name": "Erik Lundberg",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 5,
+     "name": "Tim Del Rosario",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 6,
+     "name": "Max Capps",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 7,
+     "name": "Josh Torres",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 8,
+     "name": "Zak Maytum",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 9,
+     "name": "Micah Green",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 10,
+     "name": "Michael Snyder",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 11,
+     "name": "Andrew Chapman",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 12,
+     "name": "Daniel Luna",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 13,
+     "name": "Max Wippermann",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 14,
+     "name": "Braden Tibbles",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 15,
+     "name": "Justin Ortiz",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 16,
+     "name": "Biker Sherlock",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 17,
+     "name": "Riley Crone",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 18,
+     "name": "Mike Jakubiec",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 19,
+     "name": "Billy Meiners",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 20,
+     "name": "Jeff Budro",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 21,
+     "name": "A.J. Haiby",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 22,
+     "name": "Travis Craig",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 23,
+     "name": "Malachi Green",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 24,
+     "name": "Calvin Staub",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 25,
+     "name": "Jimmy Rhia",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 26,
+     "name": "Norberto Bertoncello",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 27,
+     "name": "Scott Hamilton",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 28,
+     "name": "Keith Henderson",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 29,
+     "name": "Chris Chaput",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 30,
+     "name": "Zarosh Eggleston",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 31,
+     "name": "Noah Peacock",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 32,
+     "name": "Quinn Dubois",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    }
+   ]
+  }
+ ],
+ "needs_manual": false
+}
