@@ -1975,1331 +1975,1328 @@
    "results": [
     {
      "place": 1,
-     "name": "Adam 2:24.600 Persson",
+     "name": "Adam Persson",
      "time": 144.6,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "SWE"
     },
     {
      "place": 2,
-     "name": "Kevin 2:24.840 Reimer",
+     "name": "Kevin Reimer",
      "time": 144.84,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 3,
-     "name": "James 2:25.140 Kelly",
+     "name": "James Kelly",
      "time": 145.14,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 4,
-     "name": "Thiago Gomes 2:25.990 Lessa",
+     "name": "Thiago Gomes Lessa",
      "time": 145.99,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "BRA"
     },
     {
      "place": 5,
-     "name": "Alex 2:26.150 Tongue",
+     "name": "Alex Tongue",
      "time": 146.15,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 6,
-     "name": "Dillon 2:26.270 Stephens",
+     "name": "Dillon Stephens",
      "time": 146.27,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 7,
-     "name": "Martin 2:26.490 Edoff",
+     "name": "Martin Edoff",
      "time": 146.49,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "SWE"
     },
     {
      "place": 8,
-     "name": "Mischo CZE/CAN 2:26.530 Erban",
+     "name": "Mischo CZE/CAN Erban",
      "time": 146.53,
      "dnf": false,
-     "dns": false,
-     "nat": "NQT"
+     "dns": false
     },
     {
      "place": 9,
-     "name": "Patrick 2:26.830 Switzer",
+     "name": "Patrick Switzer",
      "time": 146.83,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 10,
-     "name": "Ramon 2:26.940 Konigshausen",
+     "name": "Ramon Konigshausen",
      "time": 146.94,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "SUI"
     },
     {
      "place": 11,
-     "name": "Louis 2:27.230 Pilloni",
+     "name": "Louis Pilloni",
      "time": 147.23,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 12,
-     "name": "Douglas 2:27.650 Silva",
+     "name": "Douglas Silva",
      "time": 147.65,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "BRA"
     },
     {
      "place": 13,
-     "name": "Zacchary 2:27.830 Maytum",
+     "name": "Zacchary Maytum",
      "time": 147.83,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 14,
-     "name": "Quin 2:27.850 Finocchio",
+     "name": "Quin Finocchio",
      "time": 147.85,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 15,
-     "name": "Pavel 2:28.140 Zajic",
+     "name": "Pavel Zajic",
      "time": 148.14,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CZE"
     },
     {
      "place": 16,
-     "name": "Zen JAP/CAN 2:28.480 Shikaze",
+     "name": "Zen JAP/CAN Shikaze",
      "time": 148.48,
      "dnf": false,
-     "dns": false,
-     "nat": "NQT"
+     "dns": false
     },
     {
      "place": 17,
-     "name": "Braden 2:28.630 Tibbles",
+     "name": "Braden Tibbles",
      "time": 148.63,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 18,
-     "name": "Jonas 2:28.700 Richter",
+     "name": "Jonas Richter",
      "time": 148.7,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "BRA"
     },
     {
      "place": 19,
-     "name": "Nicolas 2:28.830 Desmarais",
+     "name": "Nicolas Desmarais",
      "time": 148.83,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 20,
-     "name": "Rousseau Maxime 2:29.090 Garant",
+     "name": "Rousseau Maxime Garant",
      "time": 149.09,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 21,
-     "name": "Byron 2:29.230 Essert",
+     "name": "Byron Essert",
      "time": 149.23,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 22,
-     "name": "Robert 2:29.290 McWhinnie",
+     "name": "Robert McWhinnie",
      "time": 149.29,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "AUS"
     },
     {
      "place": 23,
-     "name": "Mathias 2:29.460 Ebel",
+     "name": "Mathias Ebel",
      "time": 149.46,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "GER"
     },
     {
      "place": 24,
-     "name": "Leon 2:29.500 Ritter",
+     "name": "Leon Ritter",
      "time": 149.5,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "GER"
     },
     {
      "place": 25,
-     "name": "Jakob 2:29.510 Raab",
+     "name": "Jakob Raab",
      "time": 149.51,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "GER"
     },
     {
      "place": 26,
-     "name": "Cam 2:29.600 Brickenden",
+     "name": "Cam Brickenden",
      "time": 149.6,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 27,
-     "name": "Torbjorn 2:29.650 Sunde",
+     "name": "Torbjorn Sunde",
      "time": 149.65,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "NOR"
     },
     {
      "place": 28,
-     "name": "Erik 2:29.910 Lundberg",
+     "name": "Erik Lundberg",
      "time": 149.91,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "SWE"
     },
     {
      "place": 29,
-     "name": "Sebastian 2:30.150 Hertler",
+     "name": "Sebastian Hertler",
      "time": 150.15,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "GER"
     },
     {
      "place": 30,
-     "name": "Andreas 2:30.180 Erdbrink",
+     "name": "Andreas Erdbrink",
      "time": 150.18,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "GER"
     },
     {
      "place": 31,
-     "name": "Nuno 2:30.210 Pereira",
+     "name": "Nuno Pereira",
      "time": 150.21,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "POR"
     },
     {
      "place": 32,
-     "name": "Alex 2:30.450 Dehmel",
+     "name": "Alex Dehmel",
      "time": 150.45,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "GER"
     },
     {
      "place": 33,
-     "name": "Luke 2:30.480 Melo",
+     "name": "Luke Melo",
      "time": 150.48,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 34,
-     "name": "Silon 2:30.510 Garcia",
+     "name": "Silon Garcia",
      "time": 150.51,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "BRA"
     },
     {
      "place": 35,
-     "name": "Graham 2:30.690 Buksa",
+     "name": "Graham Buksa",
      "time": 150.69,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 36,
-     "name": "Jaroslav 2:30.780 Kejr",
+     "name": "Jaroslav Kejr",
      "time": 150.78,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CZE"
     },
     {
      "place": 37,
-     "name": "Stefan 2:30.930 Kopalzik",
+     "name": "Stefan Kopalzik",
      "time": 150.93,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "GER"
     },
     {
      "place": 38,
-     "name": "Alexandre 2:31.130 Ulrich",
+     "name": "Alexandre Ulrich",
      "time": 151.13,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "FRA"
     },
     {
      "place": 39,
-     "name": "Lucas 2:31.180 Falcioni",
+     "name": "Lucas Falcioni",
      "time": 151.18,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ARG"
     },
     {
      "place": 40,
-     "name": "Matt CAN/USA 2:31.340 Kienzle",
+     "name": "Matt CAN/USA Kienzle",
      "time": 151.34,
      "dnf": false,
-     "dns": false,
-     "nat": "NQT"
+     "dns": false
     },
     {
      "place": 41,
-     "name": "Ali 2:31.400 Nas",
+     "name": "Ali Nas",
      "time": 151.4,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "NOR"
     },
     {
      "place": 42,
-     "name": "Anderssen Kim 2:31.590 Mengshoel",
+     "name": "Anderssen Kim Mengshoel",
      "time": 151.59,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "NOR"
     },
     {
      "place": 43,
-     "name": "Calvin 2:31.720 Staub",
+     "name": "Calvin Staub",
      "time": 151.72,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 44,
-     "name": "Kevin 2:31.740 Bouaich",
+     "name": "Kevin Bouaich",
      "time": 151.74,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "SUI"
     },
     {
      "place": 45,
-     "name": "Vegard 2:31.790 Tvete",
+     "name": "Vegard Tvete",
      "time": 151.79,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "NOR"
     },
     {
      "place": 46,
-     "name": "Martin 2:31.870 Klawitter",
+     "name": "Martin Klawitter",
      "time": 151.87,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "SWE"
     },
     {
      "place": 47,
-     "name": "Mikael 2:31.910 Jensen",
+     "name": "Mikael Jensen",
      "time": 151.91,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "NOR"
     },
     {
      "place": 48,
-     "name": "Marcos 2:31.970 Costa",
+     "name": "Marcos Costa",
      "time": 151.97,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "URG"
     },
     {
      "place": 49,
-     "name": "Caio 2:32.400 Cesar",
+     "name": "Caio Cesar",
      "time": 152.4,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "BRA"
     },
     {
      "place": 50,
-     "name": "Mauritz 2:32.830 Armfelt",
+     "name": "Mauritz Armfelt",
      "time": 152.83,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "SWE"
     },
     {
      "place": 51,
-     "name": "Ville 2:33.020 Hietala",
+     "name": "Ville Hietala",
      "time": 153.02,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "FIN"
     },
     {
      "place": 52,
-     "name": "John 2:33.140 Barnet",
+     "name": "John Barnet",
      "time": 153.14,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 53,
-     "name": "Rafael 2:33.160 Garrido",
+     "name": "Rafael Garrido",
      "time": 153.16,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 54,
-     "name": "Aleix 2:33.480 Gallimo",
+     "name": "Aleix Gallimo",
      "time": 153.48,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 55,
-     "name": "Nicolas 2:33.860 Robert",
+     "name": "Nicolas Robert",
      "time": 153.86,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "SUI"
     },
     {
      "place": 56,
-     "name": "Charles 2:33.990 Wood",
+     "name": "Charles Wood",
      "time": 153.99,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 57,
-     "name": "Victor Patricio 2:34.050 Pons",
+     "name": "Victor Patricio Pons",
      "time": 154.05,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CHI"
     },
     {
      "place": 58,
-     "name": "Gabin 2:34.370 Piton",
+     "name": "Gabin Piton",
      "time": 154.37,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "FRA"
     },
     {
      "place": 59,
-     "name": "Leyun Guillermo 2:34.420 Larumbe",
+     "name": "Leyun Guillermo Larumbe",
      "time": 154.42,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 60,
-     "name": "Sebastien 2:34.470 Tournissac",
+     "name": "Sebastien Tournissac",
      "time": 154.47,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "FRA"
     },
     {
      "place": 61,
-     "name": "Bruno 2:34.560 Fuchs",
+     "name": "Bruno Fuchs",
      "time": 154.56,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "SUI"
     },
     {
      "place": 62,
-     "name": "Lopez David 2:34.600 Sanchez",
+     "name": "Lopez David Sanchez",
      "time": 154.6,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 63,
-     "name": "Radek 2:34.680 Lukes",
+     "name": "Radek Lukes",
      "time": 154.68,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CZE"
     },
     {
      "place": 64,
-     "name": "Daniel 2:34.770 Gugel",
+     "name": "Daniel Gugel",
      "time": 154.77,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "GER"
     },
     {
      "place": 65,
-     "name": "Thibault 2:35.090 Courtois",
+     "name": "Thibault Courtois",
      "time": 155.09,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "FRA"
     },
     {
      "place": 66,
-     "name": "Josh 2:35.110 Torres",
+     "name": "Josh Torres",
      "time": 155.11,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 67,
-     "name": "Yoann 2:35.280 Bethus",
+     "name": "Yoann Bethus",
      "time": 155.28,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "FRA"
     },
     {
      "place": 68,
-     "name": "Nick 2:35.410 Dunmall",
+     "name": "Nick Dunmall",
      "time": 155.41,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 69,
-     "name": "Leonel 2:35.440 Maidana",
+     "name": "Leonel Maidana",
      "time": 155.44,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 70,
-     "name": "Christophe 2:35.600 Gatignon",
+     "name": "Christophe Gatignon",
      "time": 155.6,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "FRA"
     },
     {
      "place": 71,
-     "name": "Ivan 2:35.620 Davila",
+     "name": "Ivan Davila",
      "time": 155.62,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 72,
-     "name": "Louis 2:35.650 Bigourdan",
+     "name": "Louis Bigourdan",
      "time": 155.65,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "FRA"
     },
     {
      "place": 73,
-     "name": "Yannick 2:35.910 Perizzolo",
+     "name": "Yannick Perizzolo",
      "time": 155.91,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "SUI"
     },
     {
      "place": 74,
-     "name": "Alvaro 2:36.000 Bajo",
+     "name": "Alvaro Bajo",
      "time": 156.0,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 75,
-     "name": "Francisco 2:36.050 Schuler",
+     "name": "Francisco Schuler",
      "time": 156.05,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CHI"
     },
     {
      "place": 76,
-     "name": "Stefan 2:36.130 Risch",
+     "name": "Stefan Risch",
      "time": 156.13,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "GER"
     },
     {
      "place": 77,
-     "name": "Yarza Martin 2:36.140 Diaz",
+     "name": "Yarza Martin Diaz",
      "time": 156.14,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "URU"
     },
     {
      "place": 78,
-     "name": "Justin 2:36.260 Readings",
+     "name": "Justin Readings",
      "time": 156.26,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 79,
-     "name": "Raine 2:36.590 Kent",
+     "name": "Raine Kent",
      "time": 156.59,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "AUS"
     },
     {
      "place": 80,
-     "name": "Oliver 2:37.000 Slaughter",
+     "name": "Oliver Slaughter",
      "time": 157.0,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "GBR"
     },
     {
      "place": 81,
-     "name": "Calicio Oriol 2:37.050 Galvez",
+     "name": "Calicio Oriol Galvez",
      "time": 157.05,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 82,
-     "name": "Yvon 2:37.060 Labarthe",
+     "name": "Yvon Labarthe",
      "time": 157.06,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "SUI"
     },
     {
      "place": 83,
-     "name": "Alex 2:37.080 Duss",
+     "name": "Alex Duss",
      "time": 157.08,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "RSA"
     },
     {
      "place": 84,
-     "name": "Philippe 2:37.320 Dupuy",
+     "name": "Philippe Dupuy",
      "time": 157.32,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "FRA"
     },
     {
      "place": 85,
-     "name": "Andre 2:37.370 Preto",
+     "name": "Andre Preto",
      "time": 157.37,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "BRA"
     },
     {
      "place": 86,
-     "name": "Daniel 2:37.470 Heinsohn",
+     "name": "Daniel Heinsohn",
      "time": 157.47,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CHI"
     },
     {
      "place": 87,
-     "name": "Dominik 2:37.580 Janousek",
+     "name": "Dominik Janousek",
      "time": 157.58,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CZE"
     },
     {
      "place": 88,
-     "name": "Iker 2:37.780 Arrizabalaga",
+     "name": "Iker Arrizabalaga",
      "time": 157.78,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 89,
-     "name": "Raoul 2:37.820 Clavadestscher",
+     "name": "Raoul Clavadestscher",
      "time": 157.82,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "SUI"
     },
     {
      "place": 90,
-     "name": "Yann 2:37.820 Lhermitte",
+     "name": "Yann Lhermitte",
      "time": 157.82,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 91,
-     "name": "Deen 2:37.890 Mondt",
+     "name": "Deen Mondt",
      "time": 157.89,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "NED"
     },
     {
      "place": 92,
-     "name": "Zomeo Ruben 2:38.190 Costa",
+     "name": "Zomeo Ruben Costa",
      "time": 158.19,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 93,
-     "name": "Josh 2:38.210 Monk",
+     "name": "Josh Monk",
      "time": 158.21,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "GBR"
     },
     {
      "place": 94,
-     "name": "Ander 2:38.350 Lopez",
+     "name": "Ander Lopez",
      "time": 158.35,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 95,
-     "name": "Rebekka 2:38.600 Gemperle",
+     "name": "Rebekka Gemperle",
      "time": 158.6,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "SUI"
     },
     {
      "place": 96,
-     "name": "Jules 2:38.600 Hornung",
+     "name": "Jules Hornung",
      "time": 158.6,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "SUI"
     },
     {
      "place": 97,
-     "name": "Vincent 2:38.810 Jordana",
+     "name": "Vincent Jordana",
      "time": 158.81,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "FRA"
     },
     {
      "place": 98,
-     "name": "Feliu Gerard 2:38.820 Currius",
+     "name": "Feliu Gerard Currius",
      "time": 158.82,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 99,
-     "name": "Marie 2:39.520 Bougourd",
+     "name": "Marie Bougourd",
      "time": 159.52,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "FRA"
     },
     {
      "place": 100,
-     "name": "Julien 2:40.160 Jeanneret",
+     "name": "Julien Jeanneret",
      "time": 160.16,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "FRA"
     },
     {
      "place": 101,
-     "name": "Ronald 2:40.210 Huhne",
+     "name": "Ronald Huhne",
      "time": 160.21,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CZE"
     },
     {
      "place": 102,
-     "name": "Thibault 2:40.240 Morgando",
+     "name": "Thibault Morgando",
      "time": 160.24,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "FRA"
     },
     {
      "place": 103,
-     "name": "Rivas Alfredo 2:40.370 Cano",
+     "name": "Rivas Alfredo Cano",
      "time": 160.37,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 104,
-     "name": "Rodriguez Charlio 2:40.550 Yagues",
+     "name": "Rodriguez Charlio Yagues",
      "time": 160.55,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 105,
-     "name": "Pablo 2:40.550 Quiles",
+     "name": "Pablo Quiles",
      "time": 160.55,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 106,
-     "name": "Luis 2:40.630 Lins",
+     "name": "Luis Lins",
      "time": 160.63,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "BRA"
     },
     {
      "place": 107,
-     "name": "Sarasua Nelson 2:40.830 Dominguez",
+     "name": "Sarasua Nelson Dominguez",
      "time": 160.83,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 108,
-     "name": "Marcelo 2:40.870 Destefani",
+     "name": "Marcelo Destefani",
      "time": 160.87,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CHI"
     },
     {
      "place": 109,
-     "name": "David 2:41.070 Price",
+     "name": "David Price",
      "time": 161.07,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 110,
-     "name": "Sergio 2:41.260 Astray",
+     "name": "Sergio Astray",
      "time": 161.26,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 111,
-     "name": "Aedo Jorge 2:41.360 Echevarri",
+     "name": "Aedo Jorge Echevarri",
      "time": 161.36,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 112,
-     "name": "Nicolas 2:41.470 Delphy",
+     "name": "Nicolas Delphy",
      "time": 161.47,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "FRA"
     },
     {
      "place": 113,
-     "name": "Adam 2:41.480 Arenda",
+     "name": "Adam Arenda",
      "time": 161.48,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "SLK"
     },
     {
      "place": 114,
-     "name": "Kim 2:41.530 Nilsson",
+     "name": "Kim Nilsson",
      "time": 161.53,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "SWE"
     },
     {
      "place": 115,
-     "name": "Lenka 2:41.770 Salacova",
+     "name": "Lenka Salacova",
      "time": 161.77,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CZE"
     },
     {
      "place": 116,
-     "name": "Liam 2:41.880 Fourie",
+     "name": "Liam Fourie",
      "time": 161.88,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "GBR"
     },
     {
      "place": 117,
-     "name": "Julien 2:42.220 Crettaz",
+     "name": "Julien Crettaz",
      "time": 162.22,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "SUI"
     },
     {
      "place": 118,
-     "name": "Maxime 2:42.250 Sorek",
+     "name": "Maxime Sorek",
      "time": 162.25,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "FRA"
     },
     {
      "place": 119,
-     "name": "Paul 2:42.380 Du Plessis",
+     "name": "Paul Du Plessis",
      "time": 162.38,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "RSA"
     },
     {
      "place": 120,
-     "name": "Timothy 2:42.900 Drysdale",
+     "name": "Timothy Drysdale",
      "time": 162.9,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 121,
-     "name": "Laurent 2:43.240 Perigault",
+     "name": "Laurent Perigault",
      "time": 163.24,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "FRA"
     },
     {
      "place": 122,
-     "name": "Jakob 2:43.290 Los",
+     "name": "Jakob Los",
      "time": 163.29,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CZE"
     },
     {
      "place": 123,
-     "name": "Pierre 2:43.340 Gamby",
+     "name": "Pierre Gamby",
      "time": 163.34,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "FRA"
     },
     {
      "place": 124,
-     "name": "Roca Felix 2:43.380 Carbonell",
+     "name": "Roca Felix Carbonell",
      "time": 163.38,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 125,
-     "name": "Pascal 2:43.400 Jean",
+     "name": "Pascal Jean",
      "time": 163.4,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 126,
-     "name": "Jorge 2:43.430 Pernes",
+     "name": "Jorge Pernes",
      "time": 163.43,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "POR"
     },
     {
      "place": 127,
-     "name": "David 2:43.460 Ibabe",
+     "name": "David Ibabe",
      "time": 163.46,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 128,
-     "name": "Pierre 2:43.580 Hardiller",
+     "name": "Pierre Hardiller",
      "time": 163.58,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "FRA"
     },
     {
      "place": 129,
-     "name": "Marisa 2:43.700 Nunez",
+     "name": "Marisa Nunez",
      "time": 163.7,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "PER"
     },
     {
      "place": 130,
-     "name": "Jolanda 2:43.790 Vogler",
+     "name": "Jolanda Vogler",
      "time": 163.79,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "SUI"
     },
     {
      "place": 131,
-     "name": "Lennard 2:44.120 Gires",
+     "name": "Lennard Gires",
      "time": 164.12,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "GER"
     },
     {
      "place": 132,
-     "name": "Pons Diego 2:44.160 Medel",
+     "name": "Pons Diego Medel",
      "time": 164.16,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CHI"
     },
     {
      "place": 133,
-     "name": "Uldis 2:44.410 Tretmanis",
+     "name": "Uldis Tretmanis",
      "time": 164.41,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "MEX"
     },
     {
      "place": 134,
-     "name": "Marek 2:45.360 Vanourek",
+     "name": "Marek Vanourek",
      "time": 165.36,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CZE"
     },
     {
      "place": 135,
-     "name": "Adrien 2:45.490 Fraisse",
+     "name": "Adrien Fraisse",
      "time": 165.49,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "FRA"
     },
     {
      "place": 136,
-     "name": "Ugo 2:46.310 Mendiburu",
+     "name": "Ugo Mendiburu",
      "time": 166.31,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "FRA"
     },
     {
      "place": 137,
-     "name": "Marcus 2:46.390 Aldinucci",
+     "name": "Marcus Aldinucci",
      "time": 166.39,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ITA"
     },
     {
      "place": 138,
-     "name": "Martin 2:47.010 Herman",
+     "name": "Martin Herman",
      "time": 167.01,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CZE"
     },
     {
      "place": 139,
-     "name": "Roland 2:47.480 Trachsel",
+     "name": "Roland Trachsel",
      "time": 167.48,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "SUI"
     },
     {
      "place": 140,
-     "name": "Artiom 2:47.510 Missiri",
+     "name": "Artiom Missiri",
      "time": 167.51,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "FRA"
     },
     {
      "place": 141,
-     "name": "Locutura Marco 2:47.820 Pujante",
+     "name": "Locutura Marco Pujante",
      "time": 167.82,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 142,
-     "name": "Suarez Jose Angel 2:48.270 Pardo",
+     "name": "Suarez Jose Angel Pardo",
      "time": 168.27,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 143,
-     "name": "Alexandre 2:49.020 Markiewicz",
+     "name": "Alexandre Markiewicz",
      "time": 169.02,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "FRA"
     },
     {
      "place": 144,
-     "name": "Tamara 2:49.390 Prader",
+     "name": "Tamara Prader",
      "time": 169.39,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "SUI"
     },
     {
      "place": 145,
-     "name": "Agboton Axel 2:49.490 Serrat",
+     "name": "Agboton Axel Serrat",
      "time": 169.49,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 146,
-     "name": "Adrea 2:50.110 Moreni",
+     "name": "Adrea Moreni",
      "time": 170.11,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ITA"
     },
     {
      "place": 147,
-     "name": "Gael 2:50.350 Desfontaines",
+     "name": "Gael Desfontaines",
      "time": 170.35,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "FRA"
     },
     {
      "place": 148,
-     "name": "Jean Philippe 2:51.560 Pascassio",
+     "name": "Jean Philippe Pascassio",
      "time": 171.56,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "FRA"
     },
     {
      "place": 149,
-     "name": "Sanz Francisco Javier 2:52.940 Velasco",
+     "name": "Sanz Francisco Javier Velasco",
      "time": 172.94,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 150,
-     "name": "Vegas Pablo 2:53.680 Martin",
+     "name": "Vegas Pablo Martin",
      "time": 173.68,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 151,
-     "name": "Fernando 2:54.410 Pecyner",
+     "name": "Fernando Pecyner",
      "time": 174.41,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "FRA"
     },
     {
      "place": 152,
-     "name": "Rey Gerardo 2:54.770 Novoa",
+     "name": "Rey Gerardo Novoa",
      "time": 174.77,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 153,
-     "name": "Brice 2:55.350 Bombardier",
+     "name": "Brice Bombardier",
      "time": 175.35,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "FRA"
     },
     {
      "place": 154,
-     "name": "Ramirez Eduardo 2:56.520 Basabe",
+     "name": "Ramirez Eduardo Basabe",
      "time": 176.52,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 155,
-     "name": "Didier 2:58.470 Fertay",
+     "name": "Didier Fertay",
      "time": 178.47,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "FRA"
     },
     {
      "place": 156,
-     "name": "Stephane 2:58.910 Glaize",
+     "name": "Stephane Glaize",
      "time": 178.91,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "FRA"
     },
     {
      "place": 157,
-     "name": "Eduardo eko 2:59.210 Guimaries",
+     "name": "Eduardo eko Guimaries",
      "time": 179.21,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "POR"
     },
     {
      "place": 158,
-     "name": "Benjamin 3:00.280 Demay",
+     "name": "Benjamin Demay",
      "time": 180.28,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "FRA"
     },
     {
      "place": 159,
-     "name": "Sanchez Sonso 3:04.260 Masia",
+     "name": "Sanchez Sonso Masia",
      "time": 184.26,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 160,
-     "name": "Alejandro 3:04.970 Puente",
+     "name": "Alejandro Puente",
      "time": 184.97,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "COL"
     },
     {
      "place": 161,
-     "name": "Damien 3:06.670 Moragues",
+     "name": "Damien Moragues",
      "time": 186.67,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "FRA"
     },
     {
      "place": 162,
-     "name": "Perez Christina 3:07.510 Sanchez",
+     "name": "Perez Christina Sanchez",
      "time": 187.51,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 163,
-     "name": "Dunia 3:07.550 Vidal",
+     "name": "Dunia Vidal",
      "time": 187.55,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 164,
-     "name": "Gonzalo 3:14.000 Salinas",
+     "name": "Gonzalo Salinas",
      "time": 194.0,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 165,
-     "name": "Magaly 3:15.610 McWhinnie",
+     "name": "Magaly McWhinnie",
      "time": 195.61,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "PER"
     },
     {
      "place": 166,
-     "name": "Paredes 3:41.270 Eider",
+     "name": "Paredes Eider",
      "time": 221.27,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     }
    ]
   },
@@ -3311,83 +3308,83 @@
    "results": [
     {
      "place": 1,
-     "name": "Rebekka 2:38.600 Gemperle",
+     "name": "Rebekka Gemperle",
      "time": 158.6,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "SUI"
     },
     {
      "place": 2,
-     "name": "Marie 2:39.520 Bougourd",
+     "name": "Marie Bougourd",
      "time": 159.52,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "FRA"
     },
     {
      "place": 3,
-     "name": "Lenka 2:41.770 Salacova",
+     "name": "Lenka Salacova",
      "time": 161.77,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CZE"
     },
     {
      "place": 4,
-     "name": "Marisa 2:43.700 Nunez",
+     "name": "Marisa Nunez",
      "time": 163.7,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "PER"
     },
     {
      "place": 5,
-     "name": "Jolanda 2:43.790 Vogler",
+     "name": "Jolanda Vogler",
      "time": 163.79,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "SUI"
     },
     {
      "place": 6,
-     "name": "Tamara 2:49.390 Prader",
+     "name": "Tamara Prader",
      "time": 169.39,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "SUI"
     },
     {
      "place": 7,
-     "name": "Sanchez Sonso 3:04.260 Masia",
+     "name": "Sanchez Sonso Masia",
      "time": 184.26,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 8,
-     "name": "Perez Christina 3:07.510 Sanchez",
+     "name": "Perez Christina Sanchez",
      "time": 187.51,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 9,
-     "name": "Magaly 3:15.610 McWhinnie",
+     "name": "Magaly McWhinnie",
      "time": 195.61,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "PER"
     },
     {
      "place": 10,
-     "name": "Paredes 3:41.270 Eider",
+     "name": "Paredes Eider",
      "time": 221.27,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     }
    ]
   },
@@ -3399,99 +3396,99 @@
    "results": [
     {
      "place": 1,
-     "name": "Quin 2:27.850 Finocchio",
+     "name": "Quin Finocchio",
      "time": 147.85,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 2,
-     "name": "Jonas 2:28.700 Richter",
+     "name": "Jonas Richter",
      "time": 148.7,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "BRA"
     },
     {
      "place": 3,
-     "name": "Byron 2:29.230 Essert",
+     "name": "Byron Essert",
      "time": 149.23,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 4,
-     "name": "Victor Patricio 2:34.050 Pons",
+     "name": "Victor Patricio Pons",
      "time": 154.05,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CHI"
     },
     {
      "place": 5,
-     "name": "Calicio Oriol 2:37.050 Galvez",
+     "name": "Calicio Oriol Galvez",
      "time": 157.05,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 6,
-     "name": "Dominik 2:37.580 Janousek",
+     "name": "Dominik Janousek",
      "time": 157.58,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CZE"
     },
     {
      "place": 7,
-     "name": "Raoul 2:37.820 Clavadestscher",
+     "name": "Raoul Clavadestscher",
      "time": 157.82,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "SUI"
     },
     {
      "place": 8,
-     "name": "Deen 2:37.890 Mondt",
+     "name": "Deen Mondt",
      "time": 157.89,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "NED"
     },
     {
      "place": 9,
-     "name": "Jules 2:38.600 Hornung",
+     "name": "Jules Hornung",
      "time": 158.6,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "SUI"
     },
     {
      "place": 10,
-     "name": "Roca Felix 2:43.380 Carbonell",
+     "name": "Roca Felix Carbonell",
      "time": 163.38,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     },
     {
      "place": 11,
-     "name": "Marcus 2:46.390 Aldinucci",
+     "name": "Marcus Aldinucci",
      "time": 166.39,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ITA"
     },
     {
      "place": 12,
-     "name": "Vegas Pablo 2:53.680 Martin",
+     "name": "Vegas Pablo Martin",
      "time": 173.68,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "ESP"
     }
    ]
   },

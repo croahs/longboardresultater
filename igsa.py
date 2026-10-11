@@ -47,7 +47,7 @@ SHORT_TIME = re.compile(r"^\d{2}\.\d{2}$")  # 50.14: seconds, only trusted when 
 ROW_RE = re.compile(r"^\s*[=T]?(\d{1,3}|DQ|DSQ|DNF|DNS)\.?\s+(?:(\d{1,4}|-)\s+)?([A-Za-z(].+?)\s*$", re.I)
 BRACKET_RE = re.compile(r"^(Round [A-Z]|QUAL\b|Pos\.? ?\d|Qual Finish)", re.I)
 PARTICLE = re.compile(r"^(jr|sr|ii|iii|iv|de|da|do|dos|das|del|della|di|du|la|le|van|von|der|den|ten|ter|y|e)\.?$", re.I)
-NOT_NAME_TOKEN = re.compile(r"^[\d.,$%-]+$|^(DNS|DNF|DQ|DSQ|N/A)$", re.I)
+NOT_NAME_TOKEN = re.compile(r"^[\d.,$%-]+$|^(DNS|DNF|DQ|DSQ|NQT|N/A)$", re.I)
 
 
 # ---------------------------------------------------------------- fetching and caching
@@ -258,7 +258,7 @@ def parse(text):
         toks = rest.split()
         nat_i = None
         for i, t in enumerate(toks):
-            if re.fullmatch(r"[A-Z]{2,3}", t) and t not in ("DNS", "DNF", "DQ", "DSQ") and not any(re.search(r"[a-z]", x) for x in toks[i + 1:]):
+            if re.fullmatch(r"[A-Z]{2,3}", t) and t not in ("DNS", "DNF", "DQ", "DSQ", "NQT") and not any(re.search(r"[a-z]", x) for x in toks[i + 1:]):
                 nat_i = i
         times = [secs(t) for t in toks if TIME_TOKEN.match(t)] or [secs(t) for t in toks if SHORT_TIME.match(t)]
         times = [t for t in times if t]

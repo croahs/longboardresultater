@@ -58,7 +58,8 @@ ikke med; listen står i `SKIP_POSTS` i `ndsf.py`.
 - **Samme kjører, ulik stavemåte**: `sitedata.py` slår sammen navn med samme ord i annen rekkefølge, én skrivefeil
   eller et mellomnavn mer eller mindre. Resten legges i `"aliases"` på kjøreren i `data/riders.json`.
   `python3 sitedata.py names` lister navn som kan være samme person. Id-ene (`r12`) deles ut i rekkefølge og
-  endres aldri; sett `"fixed": true` for å låse navnet slik det står.
+  endres aldri; sett `"fixed": true` for å låse navnet slik det står. Profilen viser registernavnet, mens
+  racelistene med vilje viser navnet slik kilden skrev det.
 - **Bakkene**: `python3 markhills.py` åpner et kart på localhost der du velger bakke, klikker start og mål
   på veien og lagrer. Følger ikke veien racet (OSRM tar raskeste bilvei), legg til via-punkter langs riktig
   vei. Lagring skriver `data/hills.json`, kjører `tracks.py` for bakken og tegner veien med stigning med en gang. Commit `data/hills.json` og `data/tracks/`. `python3 tracks.py check` viser hva som

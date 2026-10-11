@@ -84,7 +84,7 @@
      "time": null,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 9,
@@ -140,7 +140,7 @@
      "time": null,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 16,
@@ -204,7 +204,7 @@
      "time": null,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 24,
@@ -212,7 +212,7 @@
      "time": null,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "PER"
     },
     {
      "place": 25,
@@ -680,15 +680,7 @@
      "time": null,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
-    },
-    {
-     "place": 84,
-     "name": "Christian Pradel",
-     "time": null,
-     "dnf": false,
-     "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 85,
@@ -696,7 +688,7 @@
      "time": null,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 86,
@@ -704,15 +696,7 @@
      "time": null,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
-    },
-    {
-     "place": 87,
-     "name": "Juan Moliana",
-     "time": null,
-     "dnf": false,
-     "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 88,
@@ -720,7 +704,7 @@
      "time": null,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 89,
@@ -728,7 +712,7 @@
      "time": null,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 90,
@@ -736,7 +720,7 @@
      "time": null,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     }
    ]
   },
@@ -808,7 +792,7 @@
      "time": null,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 4,
@@ -816,7 +800,7 @@
      "time": null,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "PRI"
     }
    ]
   },
@@ -840,7 +824,7 @@
      "time": null,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "PRI"
     },
     {
      "place": 3,
@@ -896,7 +880,7 @@
      "time": null,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 10,
@@ -905,14 +889,6 @@
      "dnf": false,
      "dns": false,
      "nat": "USA"
-    },
-    {
-     "place": 11,
-     "name": "Liam Hayes",
-     "time": null,
-     "dnf": false,
-     "dns": false,
-     "nat": "NQT"
     },
     {
      "place": 12,
@@ -968,7 +944,7 @@
      "time": null,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 2,
@@ -976,7 +952,7 @@
      "time": null,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 3,
@@ -984,7 +960,7 @@
      "time": null,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 4,
@@ -992,7 +968,7 @@
      "time": null,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 5,
@@ -1000,7 +976,7 @@
      "time": null,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 6,
@@ -1008,7 +984,7 @@
      "time": null,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 7,
@@ -1016,7 +992,7 @@
      "time": null,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 8,
@@ -1024,7 +1000,7 @@
      "time": null,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 9,
@@ -1032,7 +1008,7 @@
      "time": null,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 10,
@@ -1040,7 +1016,7 @@
      "time": null,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 11,
@@ -1048,7 +1024,7 @@
      "time": null,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 12,
@@ -1056,7 +1032,7 @@
      "time": null,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 13,
@@ -1064,7 +1040,7 @@
      "time": null,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     }
    ]
   },
@@ -1136,7 +1112,7 @@
      "time": null,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 9,
@@ -1200,7 +1176,7 @@
      "time": null,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 17,
@@ -1208,7 +1184,7 @@
      "time": null,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 18,
@@ -1224,7 +1200,7 @@
      "time": null,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     }
    ]
   },
@@ -1236,379 +1212,379 @@
    "results": [
     {
      "place": 1,
-     "name": "Nathan 01:23.21 Ryan",
+     "name": "Nathan Ryan",
      "time": 83.21,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 2,
-     "name": "Andrew 01:24.61 Rouillard",
+     "name": "Andrew Rouillard",
      "time": 84.61,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 3,
-     "name": "Francis 01:24.85 Cote-Tremblay",
+     "name": "Francis Cote-Tremblay",
      "time": 84.85,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 4,
-     "name": "Nathaniel 01:25.10 Gomez",
+     "name": "Nathaniel Gomez",
      "time": 85.1,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "PRI"
     },
     {
      "place": 5,
-     "name": "Alexis 01:25.27 Labrecque",
+     "name": "Alexis Labrecque",
      "time": 85.27,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 6,
-     "name": "Philippe 01:25.50 Desjardins-Fouquet",
+     "name": "Philippe Desjardins-Fouquet",
      "time": 85.5,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 7,
-     "name": "Colin 01:25.52 Martin",
+     "name": "Colin Martin",
      "time": 85.52,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 8,
-     "name": "Eric 01:26.12 Chernushenko",
+     "name": "Eric Chernushenko",
      "time": 86.12,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 9,
-     "name": "Avery 01:26.98 Wilcox",
+     "name": "Avery Wilcox",
      "time": 86.98,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 10,
-     "name": "Dominic 01:27.25 Pleau",
+     "name": "Dominic Pleau",
      "time": 87.25,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 11,
-     "name": "Mathieu 01:27.30 Bellefeuille",
+     "name": "Mathieu Bellefeuille",
      "time": 87.3,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 12,
-     "name": "Ben 01:27.85 Desnyder",
+     "name": "Ben Desnyder",
      "time": 87.85,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 13,
-     "name": "Scott 01:28.24 Imbrie",
+     "name": "Scott Imbrie",
      "time": 88.24,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 14,
-     "name": "Patrick 01:28.30 Brassard",
+     "name": "Patrick Brassard",
      "time": 88.3,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 15,
-     "name": "Travis 01:28.77 Davenport",
+     "name": "Travis Davenport",
      "time": 88.77,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 16,
-     "name": "Thomas 01:30.25 Shelton",
+     "name": "Thomas Shelton",
      "time": 90.25,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 17,
-     "name": "Mathieu 01:31.90 Cloutier",
+     "name": "Mathieu Cloutier",
      "time": 91.9,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 18,
-     "name": "Dylan 01:32.94 Baist-Bliss",
+     "name": "Dylan Baist-Bliss",
      "time": 92.94,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 19,
-     "name": "Edward 01:33.07 Garner II",
+     "name": "Edward Garner II",
      "time": 93.07,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 20,
-     "name": "Dexter 01:33.72 Manning",
+     "name": "Dexter Manning",
      "time": 93.72,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 21,
-     "name": "Kurt 01:34.98 Lievenbruck",
+     "name": "Kurt Lievenbruck",
      "time": 94.98,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 22,
-     "name": "Carlos 01:36.28 Lascoutx",
+     "name": "Carlos Lascoutx",
      "time": 96.28,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 23,
-     "name": "Anthony 01:36.70 Salvador",
+     "name": "Anthony Salvador",
      "time": 96.7,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 24,
-     "name": "Matt 01:37.16 Coughenour",
+     "name": "Matt Coughenour",
      "time": 97.16,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 25,
-     "name": "Nick 01:37.84 Brown",
+     "name": "Nick Brown",
      "time": 97.84,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 26,
-     "name": "Garrett 01:38.48 Creamer",
+     "name": "Garrett Creamer",
      "time": 98.48,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 27,
-     "name": "Eugene 01:38.53 Matlin",
+     "name": "Eugene Matlin",
      "time": 98.53,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 28,
-     "name": "Jacob 01:39.14 Roberts",
+     "name": "Jacob Roberts",
      "time": 99.14,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 29,
-     "name": "Dominic 01:39.24 Perusse",
+     "name": "Dominic Perusse",
      "time": 99.24,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 30,
-     "name": "Adam 01:39.41 Daniels",
+     "name": "Adam Daniels",
      "time": 99.41,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 31,
-     "name": "Kais 01:39.51 Salam",
+     "name": "Kais Salam",
      "time": 99.51,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 32,
-     "name": "St-Jean Michael 01:39.82 Labreche",
+     "name": "St-Jean Michael Labreche",
      "time": 99.82,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 33,
-     "name": "Justin 01:43.46 Barnes",
+     "name": "Justin Barnes",
      "time": 103.46,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 34,
-     "name": "Israel 01:44.40 Moreno",
+     "name": "Israel Moreno",
      "time": 104.4,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 35,
-     "name": "Dylan 01:47.80 Walsh",
+     "name": "Dylan Walsh",
      "time": 107.8,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 36,
-     "name": "John 01:49.00 Muirhead",
+     "name": "John Muirhead",
      "time": 109.0,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 37,
-     "name": "Alex 01:50.30 Manning",
+     "name": "Alex Manning",
      "time": 110.3,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 38,
-     "name": "Dan 01:51.24 Fontz",
+     "name": "Dan Fontz",
      "time": 111.24,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 39,
-     "name": "Lucas 01:54.04 Giannetti",
+     "name": "Lucas Giannetti",
      "time": 114.04,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 40,
-     "name": "Neil 01:57.83 Wieland",
+     "name": "Neil Wieland",
      "time": 117.83,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 41,
-     "name": "Max 02:00.32 Vickers",
+     "name": "Max Vickers",
      "time": 120.32,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 42,
-     "name": "James 02:00.43 Woods",
+     "name": "James Woods",
      "time": 120.43,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 43,
-     "name": "Justin 02:00.90 Howard",
+     "name": "Justin Howard",
      "time": 120.9,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 44,
-     "name": "Leunam 02:01.97 Segura",
+     "name": "Leunam Segura",
      "time": 121.97,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 45,
-     "name": "Tom 02:04.13 Barnhart",
+     "name": "Tom Barnhart",
      "time": 124.13,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 46,
-     "name": "Zachary 02:20.86 Lager",
+     "name": "Zachary Lager",
      "time": 140.86,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 47,
-     "name": "George 03:18.15 Fiske",
+     "name": "George Fiske",
      "time": 198.15,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": null,
@@ -1616,7 +1592,7 @@
      "time": null,
      "dnf": true,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": null,
@@ -1624,7 +1600,7 @@
      "time": null,
      "dnf": true,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": null,
@@ -1632,7 +1608,7 @@
      "time": null,
      "dnf": true,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": null,
@@ -1640,7 +1616,7 @@
      "time": null,
      "dnf": true,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": null,
@@ -1648,7 +1624,7 @@
      "time": null,
      "dnf": true,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": null,
@@ -1656,7 +1632,7 @@
      "time": null,
      "dnf": true,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": null,
@@ -1664,7 +1640,7 @@
      "time": null,
      "dnf": true,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": null,
@@ -1672,7 +1648,7 @@
      "time": null,
      "dnf": true,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": null,
@@ -1680,7 +1656,7 @@
      "time": null,
      "dnf": true,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": null,
@@ -1688,7 +1664,7 @@
      "time": null,
      "dnf": true,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": null,
@@ -1696,7 +1672,7 @@
      "time": null,
      "dnf": true,
      "dns": false,
-     "nat": "NQT"
+     "nat": "PRI"
     }
    ]
   },
@@ -1708,35 +1684,35 @@
    "results": [
     {
      "place": 1,
-     "name": "Cordelia 1:48.210 Welch",
+     "name": "Cordelia Welch",
      "time": 108.21,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 2,
-     "name": "Ramos Nayhomi 1:56.920 Cruz",
+     "name": "Ramos Nayhomi Cruz",
      "time": 116.92,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "PRI"
     },
     {
      "place": 3,
-     "name": "Monika 2:03.310 Restrepo",
+     "name": "Monika Restrepo",
      "time": 123.31,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "COL"
     },
     {
      "place": 4,
-     "name": "Cami 2:06.120 Best",
+     "name": "Cami Best",
      "time": 126.12,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "JAM"
     }
    ]
   },
@@ -1748,19 +1724,19 @@
    "results": [
     {
      "place": 1,
-     "name": "Tristan 1:49.130 Bell",
+     "name": "Tristan Bell",
      "time": 109.13,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 2,
-     "name": "Julian 2:18.550 Rodriguez",
+     "name": "Julian Rodriguez",
      "time": 138.55,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": null,
@@ -1768,7 +1744,7 @@
      "time": null,
      "dnf": true,
      "dns": false,
-     "nat": "NQT"
+     "nat": "PUR"
     },
     {
      "place": null,
@@ -1776,7 +1752,7 @@
      "time": null,
      "dnf": true,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     }
    ]
   },
@@ -1792,7 +1768,7 @@
      "time": null,
      "dnf": true,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": null,
@@ -1800,7 +1776,7 @@
      "time": null,
      "dnf": true,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": null,
@@ -1808,7 +1784,7 @@
      "time": null,
      "dnf": true,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": null,
@@ -1816,7 +1792,7 @@
      "time": null,
      "dnf": true,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": null,
@@ -1824,7 +1800,7 @@
      "time": null,
      "dnf": true,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": null,
@@ -1832,7 +1808,7 @@
      "time": null,
      "dnf": true,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": null,
@@ -1840,7 +1816,7 @@
      "time": null,
      "dnf": true,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": null,
@@ -1848,7 +1824,7 @@
      "time": null,
      "dnf": true,
      "dns": false,
-     "nat": "NQT"
+     "nat": "MEX"
     },
     {
      "place": null,
@@ -1856,7 +1832,7 @@
      "time": null,
      "dnf": true,
      "dns": false,
-     "nat": "NQT"
+     "nat": "PRI"
     },
     {
      "place": null,
@@ -1864,7 +1840,7 @@
      "time": null,
      "dnf": true,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": null,
@@ -1872,7 +1848,7 @@
      "time": null,
      "dnf": true,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": null,
@@ -1880,7 +1856,7 @@
      "time": null,
      "dnf": true,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": null,
@@ -1888,7 +1864,7 @@
      "time": null,
      "dnf": true,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": null,
@@ -1924,123 +1900,123 @@
    "results": [
     {
      "place": 1,
-     "name": "David 1:11.210 Dean",
+     "name": "David Dean",
      "time": 71.21,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 2,
-     "name": "Justin 1:12.530 Crenshaw",
+     "name": "Justin Crenshaw",
      "time": 72.53,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 3,
-     "name": "Charles 1:13.730 Lavoie",
+     "name": "Charles Lavoie",
      "time": 73.73,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 4,
-     "name": "Christian 1:13.780 Conaway",
+     "name": "Christian Conaway",
      "time": 73.78,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 5,
-     "name": "Louis 1:14.100 Bouchard",
+     "name": "Louis Bouchard",
      "time": 74.1,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 6,
-     "name": "Christopher 1:15.810 Hicks",
+     "name": "Christopher Hicks",
      "time": 75.81,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 7,
-     "name": "Victor 1:16.250 Schumacher",
+     "name": "Victor Schumacher",
      "time": 76.25,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 8,
-     "name": "Tim 1:16.620 Novak",
+     "name": "Tim Novak",
      "time": 76.62,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 9,
-     "name": "Nick 1:17.100 Kinnish",
+     "name": "Nick Kinnish",
      "time": 77.1,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": 10,
-     "name": "Tony 1:17.980 Mistretta",
+     "name": "Tony Mistretta",
      "time": 77.98,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 11,
-     "name": "Chris 1:18.270 Mcbride",
+     "name": "Chris Mcbride",
      "time": 78.27,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 12,
-     "name": "Cory 1:19.510 Wilder",
+     "name": "Cory Wilder",
      "time": 79.51,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 13,
-     "name": "Joey 1:20.390 Yates",
+     "name": "Joey Yates",
      "time": 80.39,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 14,
-     "name": "Marc 1:28.470 Dean",
+     "name": "Marc Dean",
      "time": 88.47,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": 15,
-     "name": "Matthew 1:28.970 Yates",
+     "name": "Matthew Yates",
      "time": 88.97,
      "dnf": false,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": null,
@@ -2048,7 +2024,7 @@
      "time": null,
      "dnf": true,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": null,
@@ -2056,7 +2032,7 @@
      "time": null,
      "dnf": true,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     },
     {
      "place": null,
@@ -2064,7 +2040,7 @@
      "time": null,
      "dnf": true,
      "dns": false,
-     "nat": "NQT"
+     "nat": "USA"
     },
     {
      "place": null,
@@ -2072,7 +2048,7 @@
      "time": null,
      "dnf": true,
      "dns": false,
-     "nat": "NQT"
+     "nat": "CAN"
     }
    ]
   }

@@ -249,7 +249,10 @@
   },
   "r61": {
    "name": "Ali Nas",
-   "aliases": []
+   "aliases": [
+    "Ali Al-Nasrallah"
+   ],
+   "fixed": true
   },
   "r62": {
    "name": "Alexander Hørthe",
@@ -1968,7 +1971,10 @@
   },
   "r490": {
    "name": "Hussain Nas",
-   "aliases": []
+   "aliases": [
+    "Hussain Al-Nasrallah"
+   ],
+   "fixed": true
   },
   "r491": {
    "name": "Pål Tørud",
@@ -2022,16 +2028,8 @@
    "name": "Johannes Gill Krogh",
    "aliases": []
   },
-  "r503": {
-   "name": "Ali Al-Nasrallah",
-   "aliases": []
-  },
   "r504": {
    "name": "Dallas Hunt",
-   "aliases": []
-  },
-  "r505": {
-   "name": "Hussain Al-Nasrallah",
    "aliases": []
   },
   "r506": {
@@ -11753,7 +11751,7 @@
    "aliases": []
   },
   "r3001": {
-   "name": "Julian F. Rodriguez",
+   "name": "Julian Rodriguez",
    "aliases": []
   },
   "r3002": {
@@ -11833,19 +11831,19 @@
    "aliases": []
   },
   "r3021": {
-   "name": "Nathan 01:23.21 Ryan",
+   "name": "Nathan Ryan",
    "aliases": []
   },
   "r3022": {
-   "name": "Francis Côté-Tremblay",
+   "name": "Francis Cote-Tremblay",
    "aliases": []
   },
   "r3023": {
-   "name": "Alexis 01:25.27 Labrecque",
+   "name": "Alexis Labrecque",
    "aliases": []
   },
   "r3024": {
-   "name": "Philippe 01:25.50 Desjardins-Fouquet",
+   "name": "Philippe Desjardins-Fouquet",
    "aliases": []
   },
   "r3025": {
@@ -11857,15 +11855,15 @@
    "aliases": []
   },
   "r3027": {
-   "name": "Dominic 01:27.25 Pleau",
+   "name": "Dominic Pleau",
    "aliases": []
   },
   "r3028": {
-   "name": "Mathieu 01:27.30 Bellefeuille",
+   "name": "Mathieu Bellefeuille",
    "aliases": []
   },
   "r3029": {
-   "name": "Ben 01:27.85 Desnyder",
+   "name": "Ben Desnyder",
    "aliases": []
   },
   "r3030": {
@@ -11873,23 +11871,23 @@
    "aliases": []
   },
   "r3031": {
-   "name": "Patrick 01:28.30 Brassard",
+   "name": "Patrick Brassard",
    "aliases": []
   },
   "r3032": {
-   "name": "Thomas 01:30.25 Shelton",
+   "name": "Thomas Shelton",
    "aliases": []
   },
   "r3033": {
-   "name": "Mathieu 01:31.90 Cloutier",
+   "name": "Mathieu Cloutier",
    "aliases": []
   },
   "r3034": {
-   "name": "Dylan 01:32.94 Baist-Bliss",
+   "name": "Dylan Baist-Bliss",
    "aliases": []
   },
   "r3035": {
-   "name": "Edward 01:33.07 Garner II",
+   "name": "Edward Garner II",
    "aliases": []
   },
   "r3036": {
@@ -11901,7 +11899,7 @@
    "aliases": []
   },
   "r3038": {
-   "name": "Nick 01:37.84 Brown",
+   "name": "Nick Brown",
    "aliases": []
   },
   "r3039": {
@@ -11909,15 +11907,15 @@
    "aliases": []
   },
   "r3040": {
-   "name": "Eugene 01:38.53 Matlin",
+   "name": "Eugene Matlin",
    "aliases": []
   },
   "r3041": {
-   "name": "Dominic 01:39.24 Perusse",
+   "name": "Dominic Perusse",
    "aliases": []
   },
   "r3042": {
-   "name": "Adam 01:39.41 Daniels",
+   "name": "Adam Daniels",
    "aliases": []
   },
   "r3043": {
@@ -11933,23 +11931,23 @@
    "aliases": []
   },
   "r3046": {
-   "name": "Israel 01:44.40 Moreno",
+   "name": "Israel Moreno",
    "aliases": []
   },
   "r3047": {
-   "name": "Dylan 01:47.80 Walsh",
+   "name": "Dylan Walsh",
    "aliases": []
   },
   "r3048": {
-   "name": "Alex 01:50.30 Manning",
+   "name": "Alex Manning",
    "aliases": []
   },
   "r3049": {
-   "name": "Lucas 01:54.04 Giannetti",
+   "name": "Lucas Giannetti",
    "aliases": []
   },
   "r3050": {
-   "name": "Neil 01:57.83 Wieland",
+   "name": "Neil Wieland",
    "aliases": []
   },
   "r3051": {
@@ -11961,15 +11959,15 @@
    "aliases": []
   },
   "r3053": {
-   "name": "Tom 02:04.13 Barnhart",
+   "name": "Tom Barnhart",
    "aliases": []
   },
   "r3054": {
-   "name": "Zachary 02:20.86 Lager",
+   "name": "Zachary Lager",
    "aliases": []
   },
   "r3055": {
-   "name": "George 03:18.15 Fiske",
+   "name": "George Fiske",
    "aliases": []
   },
   "r3056": {
@@ -12365,7 +12363,7 @@
    "aliases": []
   },
   "r3156": {
-   "name": "Adam Arendai",
+   "name": "Adam Arenda",
    "aliases": []
   },
   "r3157": {
@@ -12715,15 +12713,15 @@
    "aliases": []
   },
   "r3244": {
-   "name": "Zacchary 2:27.830 Maytum",
+   "name": "Zacchary Maytum",
    "aliases": []
   },
   "r3245": {
-   "name": "Charles 2:33.990 Wood",
+   "name": "Charles Wood",
    "aliases": []
   },
   "r3246": {
-   "name": "Timothy 2:42.900 Drysdale",
+   "name": "Timothy Drysdale",
    "aliases": []
   },
   "r3247": {
@@ -22624,206 +22622,206 @@
    "name": "Frédéric Potthast",
    "aliases": []
   },
-  "r5874": {
-   "name": "Lucas Herbst",
-   "aliases": [
-    "Lucas Herbst"
-   ]
-  },
-  "r5883": {
-   "name": "Rafael Garrido",
-   "aliases": [
-    "Rafael Garrido"
-   ]
-  },
-  "r5888": {
-   "name": "Igor Brenner",
-   "aliases": [
-    "Igor Brenner"
-   ]
-  },
-  "r5899": {
-   "name": "Camilo Montes",
-   "aliases": [
-    "Camilo Montes"
-   ]
-  },
-  "r5902": {
+  "r5997": {
    "name": "Gerardo Novoa",
    "aliases": [
     "Gerardo Novoa"
    ]
   },
-  "r5903": {
+  "r5998": {
    "name": "Louis-Etienne Bouchard",
    "aliases": [
     "Louis-Etienne Bouchard"
    ]
   },
-  "r5904": {
+  "r5999": {
    "name": "Bernardo Borges",
    "aliases": [
     "Bernardo Borges"
    ]
   },
-  "r5905": {
+  "r6000": {
    "name": "Callum O'Callaghan",
    "aliases": [
     "Callum O'Callaghan"
    ]
   },
-  "r5906": {
+  "r6001": {
    "name": "Javier Velasco",
    "aliases": [
     "Javier Velasco"
    ]
   },
-  "r5907": {
+  "r6002": {
    "name": "Jonathan Guardia",
    "aliases": [
     "Jonathan Guardia"
    ]
   },
-  "r5908": {
+  "r6003": {
+   "name": "Lucas Santos",
+   "aliases": [
+    "Lucas Herbst"
+   ]
+  },
+  "r6004": {
    "name": "Walter Ribeiro",
    "aliases": [
     "Walter Ribeiro"
    ]
   },
-  "r5909": {
+  "r6005": {
    "name": "Cristina Verdú",
    "aliases": [
     "Cristina Verdú"
    ]
   },
-  "r5910": {
+  "r6006": {
    "name": "Giorgina Ferrero",
    "aliases": [
     "Giorgina Ferrero"
    ]
   },
-  "r5911": {
+  "r6007": {
    "name": "Dejaune Jones",
    "aliases": [
     "Dejaune Jones"
    ]
   },
-  "r5912": {
+  "r6008": {
    "name": "Gustavo Paredes",
    "aliases": [
     "Gustavo Paredes"
    ]
   },
-  "r5913": {
+  "r6009": {
    "name": "Melissa Brogni",
    "aliases": [
     "Melissa Brogni"
    ]
   },
-  "r5914": {
+  "r6010": {
    "name": "Danky Dean",
    "aliases": [
     "Danky Dean"
    ]
   },
-  "r5915": {
+  "r6011": {
    "name": "Sasha Reis",
    "aliases": [
     "Sasha Reis"
    ]
   },
-  "r5916": {
+  "r6012": {
+   "name": "Rafael Garrido",
+   "aliases": [
+    "Rafael Garrido"
+   ]
+  },
+  "r6013": {
    "name": "Martin Depass",
    "aliases": [
     "Martin Depass"
    ]
   },
-  "r5917": {
+  "r6014": {
    "name": "Daniel Calle",
    "aliases": [
     "Daniel Calle"
    ]
   },
-  "r5918": {
+  "r6015": {
    "name": "Willian Rubim",
    "aliases": [
     "Willian Rubim"
    ]
   },
-  "r5919": {
+  "r6016": {
    "name": "Gabriel Silva",
    "aliases": [
     "Gabriel Silva"
    ]
   },
-  "r5920": {
+  "r6017": {
+   "name": "Igor Brenner Maas",
+   "aliases": [
+    "Igor Brenner"
+   ]
+  },
+  "r6018": {
    "name": "Eduardo Tonini",
    "aliases": [
     "Eduardo Tonini"
    ]
   },
-  "r5921": {
+  "r6019": {
    "name": "Leonardo Ferraz",
    "aliases": [
     "Leonardo Ferraz"
    ]
   },
-  "r5922": {
+  "r6020": {
    "name": "Juan Jose Sarquis",
    "aliases": [
     "Juan Jose Sarquis"
    ]
   },
-  "r5923": {
+  "r6021": {
    "name": "William Ortiz",
    "aliases": [
     "William Ortiz"
    ]
   },
-  "r5924": {
+  "r6022": {
    "name": "Luca Visconti",
    "aliases": [
     "Luca Visconti"
    ]
   },
-  "r5925": {
+  "r6023": {
    "name": "Luana Chaves",
    "aliases": [
     "Luana Chaves"
    ]
   },
-  "r5926": {
+  "r6024": {
    "name": "Lucas Londono",
    "aliases": [
     "Lucas Londono"
    ]
   },
-  "r5927": {
+  "r6025": {
    "name": "Agustin-Pablo Virgolini",
    "aliases": [
     "Agustin-Pablo Virgolini"
    ]
   },
-  "r5928": {
+  "r6026": {
    "name": "Nicolas Robert",
    "aliases": [
     "Nicolas Robert"
    ]
   },
-  "r5929": {
+  "r6027": {
    "name": "Tim Del Rosario",
    "aliases": [
     "Tim Del Rosario"
    ]
   },
-  "r5930": {
+  "r6028": {
+   "name": "Camilo Montes C",
+   "aliases": [
+    "Camilo Montes"
+   ]
+  },
+  "r6029": {
    "name": "Juan Carlos Rincón",
    "aliases": [
     "Juan Carlos Rincón",
     "Juan Carlos Rincøn"
    ]
   },
-  "r5931": {
+  "r6030": {
    "name": "Jaime Arche",
    "aliases": [
     "Jaime Arche"
