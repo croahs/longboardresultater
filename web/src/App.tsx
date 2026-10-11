@@ -5,7 +5,7 @@ import { href, readRoute, type Route } from "./nav";
 import Search from "./Search";
 import { ScopeProvider, ScopeToggle, useNorge } from "./scope";
 import { Sources } from "./sources";
-import { BrandMark } from "./ui";
+import { BrandMark, Icon } from "./ui";
 import Home from "./pages/Home";
 import Rider from "./pages/Rider";
 import Race from "./pages/Race";
@@ -13,6 +13,8 @@ import Hill from "./pages/Hill";
 import Top from "./pages/Top";
 
 /* The shell: one top bar, the page the hash names, one footer. The hash is the only state that routes. */
+
+const KOFI = "https://ko-fi.com/pederhsx";
 
 export default function App() {
   return <LangProvider><ScopeProvider><Shell /></ScopeProvider></LangProvider>;
@@ -65,6 +67,12 @@ function Shell() {
         {site && route.kind === "hill" && <Hill key={route.id} id={route.id} />}
         {site && route.kind === "top" && <Top kind={route.top} />}
       </main>
+      {/* The tip jar: after the content on every page, never in the way of it. */}
+      <a className="tip" href={KOFI} target="_blank" rel="noopener">
+        <span className="tip-icon"><Icon.beer /></span>
+        <span><b>{t("Liker du siden?", "Like the site?")}</b> <span className="muted">{t("Hjelp Peder å gjøre den bedre ved å spandere hans neste øl.", "Help Peder make it better by buying his next beer.")}</span></span>
+        <span className="tip-go">{t("Spander en øl →", "Buy a beer →")}</span>
+      </a>
       <footer className="site">
         <span>{t("Resultater fra", "Results from")} <Sources />. {t("Plassering: DNF telles med i feltet.", "Placings: DNF counts in the field.")}</span>
         {site?.contact && <span>{t("Feil i dataene, eller vil du ikke være med? Skriv til", "Wrong data, or want to be left out? Write to")} <a href={`mailto:${site.contact}`}>{site.contact}</a>.</span>}

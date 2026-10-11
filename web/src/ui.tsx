@@ -20,6 +20,7 @@ export const Icon = {
   out: () => <I d="M14 4h6v6m0-6L10 14M20 14v6H4V4h6" />,
   back: () => <I d="M19 12H5m0 0 7-7m-7 7 7 7" />,
   close: () => <I d="M6 6l12 12M18 6 6 18" />,
+  beer: () => <I d="M6 8h10v12H6zm10 3h2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-2M6 8a3 3 0 0 1 3-4 3 3 0 0 1 5 0 2 2 0 0 1 2 4M10 12v5m3-5v5" />,
 };
 
 /** The mark: a steep road in two stripes. */
