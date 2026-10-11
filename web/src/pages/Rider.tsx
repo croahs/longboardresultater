@@ -7,7 +7,7 @@ import { TABS, href, tabLabel, type Tab } from "../nav";
 import { addRecent } from "../recent";
 import { useNorge } from "../scope";
 import { SelProvider, raceKey, useSel } from "../state";
-import { Beaten, Cls, Delta, Empty, Icon, Loading } from "../ui";
+import { Beaten, Cls, Delta, Empty, Icon, Loading, Tip } from "../ui";
 import Development from "./Development";
 import Races from "./Races";
 import Rivals from "./Rivals";
@@ -37,6 +37,7 @@ export default function Rider({ id, tab, index }: { id: string; tab: Tab; index:
         {tab === "utvikling" && <Development a={shown} />}
         {tab === "rivaler" && <Rivals a={shown} index={index} />}
         {tab === "race" && <Races a={shown} />}
+        <Tip />
       </SelProvider>
     </KlasseProvider>
   );

@@ -20,7 +20,20 @@ export const Icon = {
   out: () => <I d="M14 4h6v6m0-6L10 14M20 14v6H4V4h6" />,
   back: () => <I d="M19 12H5m0 0 7-7m-7 7 7 7" />,
   close: () => <I d="M6 6l12 12M18 6 6 18" />,
+  cup: () => <I d="M5 8h12v5a5 5 0 0 1-5 5h-2a5 5 0 0 1-5-5zm12 1h1.5a2.5 2.5 0 0 1 0 5H17M9 3v2m4-2v2" />,
 };
+
+/** Peder's Ko-fi page. Only ever a plain link: no widget, no script, so the CSP in public/_headers stays as it is. */
+export const KOFI = "https://ko-fi.com/pederhsx";
+const Kofi = ({ children }: { children: ReactNode }) => <a href={KOFI} target="_blank" rel="noopener">{children}</a>;
+
+/** The quiet thank-you line at the end of a rider's page, once the visitor has found what they came for. */
+export const Tip = () => (
+  <p className="tip"><Icon.cup /><span>{t("Fant du det du lette etter?", "Found what you were looking for?")} <Kofi>{t("Hjelp Peder å forbedre siden ved å kjøpe hans neste gel", "Help Peder improve this site by buying his next gel")}</Kofi>.</span></p>
+);
+
+/** The same wish, as one line in the footer. */
+export const TipFooter = () => <span>{t("Siden lages på fritiden.", "This site is made in spare time.")} <Kofi>{t("Kjøp Peder en gel på Ko-fi", "Buy Peder a gel on Ko-fi")}</Kofi> {t("hvis du vil hjelpe den videre.", "if you want to help it along.")}</span>;
 
 /** The mark: a steep road in two stripes. */
 export const BrandMark = () => (

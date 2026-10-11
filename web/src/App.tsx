@@ -5,7 +5,7 @@ import { href, readRoute, type Route } from "./nav";
 import Search from "./Search";
 import { ScopeProvider, ScopeToggle, useNorge } from "./scope";
 import { Sources } from "./sources";
-import { BrandMark } from "./ui";
+import { BrandMark, TipFooter } from "./ui";
 import Home from "./pages/Home";
 import Rider from "./pages/Rider";
 import Race from "./pages/Race";
@@ -68,6 +68,7 @@ function Shell() {
       <footer className="site">
         <span>{t("Resultater fra", "Results from")} <Sources />. {t("Plassering: DNF telles med i feltet.", "Placings: DNF counts in the field.")}</span>
         {site?.contact && <span>{t("Feil i dataene, eller vil du ikke være med? Skriv til", "Wrong data, or want to be left out? Write to")} <a href={`mailto:${site.contact}`}>{site.contact}</a>.</span>}
+        <TipFooter />
       </footer>
     </div>
   );
