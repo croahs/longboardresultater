@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import type { RaceType } from "./data";
-import { TYPE_LABEL } from "./format";
+import { typeLabel } from "./format";
+import { t } from "./lang";
 
 /* Small shared pieces: icons drawn inline, the brand mark, empty and loading states. */
 
@@ -27,10 +28,10 @@ export const BrandMark = () => (
 );
 
 export const Empty = ({ title, children }: { title: string; children?: ReactNode }) => <div className="empty"><b>{title}</b>{children}</div>;
-export const Loading = ({ what }: { what: string }) => <div className="loading" role="status">Henter {what} …</div>;
+export const Loading = ({ what }: { what: string }) => <div className="loading" role="status">{t("Henter", "Loading")} {what} …</div>;
 
 /** The class a race was run in, as a pill in the kind's colour: "Masters", "Open Eurotour", "Tidskjøring". */
-export const Cls = ({ type, cls, big }: { type: RaceType; cls?: string; big?: boolean }) => <span className={`pill type-${type}${big ? " big" : ""}`}>{cls || TYPE_LABEL[type]}</span>;
+export const Cls = ({ type, cls, big }: { type: RaceType; cls?: string; big?: boolean }) => <span className={`pill type-${type}${big ? " big" : ""}`}>{cls || typeLabel(type)}</span>;
 
 /** The share of the field beaten, as a bar. */
 export const Beaten = ({ v }: { v: number }) => <span className="beaten" aria-hidden="true"><i style={{ width: `${Math.max(2, Math.min(100, v))}%` }} /></span>;

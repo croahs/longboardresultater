@@ -1,3 +1,5 @@
+import { t } from "./lang";
+
 /* The site is one page with hash routes. Everything that links somewhere builds its href here, so the
    scheme lives in one place:
      #/                      the front page
@@ -7,9 +9,8 @@
      #/topp/<kind>           a top list */
 
 export type Tab = "oversikt" | "utvikling" | "rivaler" | "race";
-export const TABS: { id: Tab; label: string }[] = [
-  { id: "oversikt", label: "Oversikt" }, { id: "utvikling", label: "Utvikling" }, { id: "rivaler", label: "Rivaler" }, { id: "race", label: "Alle race" },
-];
+export const TABS: Tab[] = ["oversikt", "utvikling", "rivaler", "race"];
+export const tabLabel = (k: Tab) => ({ oversikt: t("Oversikt", "Overview"), utvikling: t("Utvikling", "Progress"), rivaler: t("Rivaler", "Rivals"), race: t("Alle race", "All races") })[k];
 export type TopKind = "rating" | "felt" | "jevnest" | "seire";
 export const TOP_KINDS: TopKind[] = ["rating", "felt", "jevnest", "seire"];
 
@@ -34,7 +35,7 @@ export function readRoute(hash = location.hash): Route {
   if (parts[0] === "bakke" && parts[1]) return { kind: "hill", id: parts[1] };
   if (parts[0] === "topp" && TOP_KINDS.includes(parts[1] as TopKind)) return { kind: "top", top: parts[1] as TopKind };
   if (parts[0] === "r" && /^\d+$/.test(parts[1] || "")) {
-    const tab = TABS.find((t) => t.id === parts[2])?.id || "oversikt";
+    const tab = TABS.find((k) => k === parts[2]) || "oversikt";
     return { kind: "rider", id: "r" + parts[1], tab };
   }
   return { kind: "home" };

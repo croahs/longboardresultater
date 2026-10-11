@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import { years, type Athlete, type RaceType, type Result } from "../data";
-import { TYPE_LABEL, clock, dateLong, fold, pct } from "../format";
+import { clock, dateLong, fold, pct, typeLabel } from "../format";
+import { t } from "../lang";
 import { href } from "../nav";
 import { useSel } from "../state";
 import { Beaten, Cls, Icon } from "../ui";
@@ -29,22 +30,22 @@ export default function Races({ a }: { a: Athlete }) {
   );
   return (
     <>
-      <div className="section-head"><div><p className="eyebrow">Hele listen</p><h2 className="h-section">Alle race</h2><p className="lead">Trykk på en kolonne for å sortere, og på et race for hele resultatlisten.</p></div></div>
+      <div className="section-head"><div><p className="eyebrow">{t("Hele listen", "The full list")}</p><h2 className="h-section">{t("Alle race", "All races")}</h2><p className="lead">{t("Trykk på en kolonne for å sortere, og på et race for hele resultatlisten.", "Tap a column to sort, and a race for its full result list.")}</p></div></div>
       <section className="card">
         <div className="toolbar">
-          <input type="search" placeholder="Filtrer på navn" aria-label="Filtrer på navn" value={q} onChange={(e) => setQ(e.target.value)} />
-          <div className="chips" role="group" aria-label="Klasse">
-            <button type="button" className="chip" aria-pressed={type === "all"} onClick={() => setType("all")}>Alle</button>
-            {types.map((t) => <button key={t} type="button" className="chip" aria-pressed={type === t} onClick={() => setType(t)}>{TYPE_LABEL[t]}</button>)}
+          <input type="search" placeholder={t("Filtrer på navn", "Filter by name")} aria-label={t("Filtrer på navn", "Filter by name")} value={q} onChange={(e) => setQ(e.target.value)} />
+          <div className="chips" role="group" aria-label={t("Klasse", "Class")}>
+            <button type="button" className="chip" aria-pressed={type === "all"} onClick={() => setType("all")}>{t("Alle", "All")}</button>
+            {types.map((k) => <button key={k} type="button" className="chip" aria-pressed={type === k} onClick={() => setType(k)}>{typeLabel(k)}</button>)}
           </div>
-          {ys.length > 1 && <div className="chips" role="group" aria-label="År">
-            {(["all", ...ys] as const).map((y) => <button key={y} type="button" className="chip" aria-pressed={season === y} onClick={() => setSeason(y)}>{y === "all" ? "Alle år" : y}</button>)}
+          {ys.length > 1 && <div className="chips" role="group" aria-label={t("År", "Year")}>
+            {(["all", ...ys] as const).map((y) => <button key={y} type="button" className="chip" aria-pressed={season === y} onClick={() => setSeason(y)}>{y === "all" ? t("Alle år", "All years") : y}</button>)}
           </div>}
-          <span className="muted tnum count">{rows.length} av {a.results.length}</span>
+          <span className="muted tnum count">{rows.length} {t("av", "of")} {a.results.length}</span>
         </div>
-        {rows.length === 0 ? <div className="empty"><b>Ingen race passer filteret</b><button className="btn" onClick={() => { setQ(""); setType("all"); setSeason("all"); }}>Nullstill</button></div> : (
+        {rows.length === 0 ? <div className="empty"><b>{t("Ingen race passer filteret", "No races match the filter")}</b><button className="btn" onClick={() => { setQ(""); setType("all"); setSeason("all"); }}>{t("Nullstill", "Reset")}</button></div> : (
           <div className="table-wrap"><table className="sheet races">
-            <thead><tr>{th("date", "Dato", "l")}<th className="l">Race</th><th className="l">Klasse</th>{th("place", "Plass")}{th("beaten", "Slo", "l")}<th>Tid</th><th>Bak</th><th></th></tr></thead>
+            <thead><tr>{th("date", t("Dato", "Date"), "l")}<th className="l">Race</th><th className="l">{t("Klasse", "Class")}</th>{th("place", t("Plass", "Place"))}{th("beaten", t("Slo", "Beat"), "l")}<th>{t("Tid", "Time")}</th><th>{t("Bak", "Behind")}</th><th></th></tr></thead>
             <tbody>{rows.map((r) => (
               <tr key={r.raceId + r.basis} className={`type-${r.type}`}>
                 <td className="l muted nowrap">{dateLong(r.date)}</td>
@@ -54,7 +55,7 @@ export default function Races({ a }: { a: Athlete }) {
                 <td className="l beaten-cell"><Beaten v={r.beaten} /><span className="tnum">{Math.round(r.beaten)} %</span></td>
                 <td className="tnum">{r.time != null ? clock(r.time) : <span className="muted">–</span>}</td>
                 <td className="tnum muted">{r.behind != null && r.behind > 0 ? pct(r.behind, 1) : ""}</td>
-                <td className="links">{r.video && <a href={r.video} target="_blank" rel="noopener" aria-label="Video" title="Video"><Icon.play /></a>}{r.link && <a href={r.link} target="_blank" rel="noopener" aria-label={`Kilden for ${r.race} ${r.year}`} title="Kilden"><Icon.out /></a>}</td>
+                <td className="links">{r.video && <a href={r.video} target="_blank" rel="noopener" aria-label="Video" title="Video"><Icon.play /></a>}{r.link && <a href={r.link} target="_blank" rel="noopener" aria-label={t(`Kilden for ${r.race} ${r.year}`, `Source for ${r.race} ${r.year}`)} title={t("Kilden", "Source")}><Icon.out /></a>}</td>
               </tr>
             ))}</tbody>
           </table></div>

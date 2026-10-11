@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { median, years, type Athlete, type Result } from "../data";
-import { TYPE_LABEL, dateLong, firstName, pct } from "../format";
+import { dateLong, firstName, ord, pct, placeOf, typeLabel } from "../format";
+import { t } from "../lang";
 import { useFelt } from "../klasse";
 import { raceKey, useSel } from "../state";
 import { Empty } from "../ui";
@@ -17,15 +18,15 @@ export default function Development({ a }: { a: Athlete }) {
   return (
     <>
       <div className="section-head">
-        <div><p className="eyebrow">Over tid</p><h2 className="h-section">Utvikling</h2><p className="lead">Hvert punkt er ett race, i datorekkefølge. Den tykke linjen er medianen av de siste fem.</p></div>
-        <div className="chips" role="group" aria-label="Sesong">
-          {(["all", ...ys] as const).map((y) => <button key={y} type="button" className="chip" aria-pressed={season === y} onClick={() => setSeason(y)}>{y === "all" ? "Alle år" : y}</button>)}
+        <div><p className="eyebrow">{t("Over tid", "Over time")}</p><h2 className="h-section">{t("Utvikling", "Progress")}</h2><p className="lead">{t("Hvert punkt er ett race, i datorekkefølge. Den tykke linjen er medianen av de siste fem.", "Each point is one race, in date order. The thick line is the median of the last five.")}</p></div>
+        <div className="chips" role="group" aria-label={t("Sesong", "Season")}>
+          {(["all", ...ys] as const).map((y) => <button key={y} type="button" className="chip" aria-pressed={season === y} onClick={() => setSeason(y)}>{y === "all" ? t("Alle år", "All years") : y}</button>)}
         </div>
       </div>
-      {rows.length < 2 ? <Empty title="For få race til å vise en utvikling">Det trengs minst to race i perioden.</Empty> : (
+      {rows.length < 2 ? <Empty title={t("For få race til å vise en utvikling", "Too few races to show progress")}>{t("Det trengs minst to race i perioden.", "It takes at least two races in the period.")}</Empty> : (
         <section className="card card-pad">
-          <div className="section-head tight"><div><h3 className="h-card">Andel av {felt} slått</h3><p className="fine">Høyere er bedre.</p></div>
-            <div className="legend">{types.map((t) => <span key={t} className={`swatch type-${t}`}><i />{TYPE_LABEL[t]}</span>)}</div></div>
+          <div className="section-head tight"><div><h3 className="h-card">{t(`Andel av ${felt} slått`, `Share of ${felt} beaten`)}</h3><p className="fine">{t("Høyere er bedre.", "Higher is better.")}</p></div>
+            <div className="legend">{types.map((k) => <span key={k} className={`swatch type-${k}`}><i />{typeLabel(k)}</span>)}</div></div>
           <Chart rows={rows} />
         </section>
       )}
@@ -60,7 +61,7 @@ function Chart({ rows }: { rows: Result[] }) {
   const cur = i >= 0 ? rows[i] : null;
   return (
     <div className="chart" ref={ref}>
-      <svg viewBox={`0 0 ${W} ${H}`} width={W} height={H} role="img" aria-label="Andel av feltet slått, race for race" onMouseLeave={() => setHov(null)}>
+      <svg viewBox={`0 0 ${W} ${H}`} width={W} height={H} role="img" aria-label={t("Andel av feltet slått, race for race", "Share of the field beaten, race by race")} onMouseLeave={() => setHov(null)}>
         {[0, 25, 50, 75, 100].map((v) => <g key={v}><line x1={L} x2={W - R} y1={y(v)} y2={y(v)} className="grid" /><text x={L - 8} y={y(v) + 4} textAnchor="end" className="tick">{v}</text></g>)}
         {yearTicks.map(([k, yr]) => <text key={yr} x={x(k)} y={H - 8} className="tick" textAnchor={k === 0 ? "start" : "middle"}>{yr}</text>)}
         <path d={line} className="median" />
@@ -71,7 +72,7 @@ function Chart({ rows }: { rows: Result[] }) {
           </g>
         ))}
       </svg>
-      <div className="chart-tip" role="status">{cur ? <><b>{cur.race} {cur.year}</b> · {dateLong(cur.date)} · {cur.place}. av {cur.field} · slo {pct(cur.beaten)}</> : <span className="muted">Pek på et punkt.</span>}</div>
+      <div className="chart-tip" role="status">{cur ? <><b>{cur.race} {cur.year}</b> · {dateLong(cur.date)} · {placeOf(cur.place, cur.field)} · {t("slo", "beat")} {pct(cur.beaten)}</> : <span className="muted">{t("Pek på et punkt.", "Point at a dot.")}</span>}</div>
     </div>
   );
 }
@@ -87,14 +88,14 @@ function SameRace({ a, who }: { a: Athlete; who: string }) {
   if (!groups.length || ys.length < 2) return null;
   return (
     <section className="section" id="samme-race" aria-labelledby="h-samme">
-      <div className="section-head"><div><p className="eyebrow">År for år</p><h2 className="h-section" id="h-samme">Samme race</h2><p className="lead">Plassen {who} fikk i race som er kjørt flere år. Tallet under er andelen av {felt} slått.</p></div></div>
+      <div className="section-head"><div><p className="eyebrow">{t("År for år", "Year by year")}</p><h2 className="h-section" id="h-samme">{t("Samme race", "Same race")}</h2><p className="lead">{t(`Plassen ${who} fikk i race som er kjørt flere år. Tallet under er andelen av ${felt} slått.`, `The place ${who} got in races run in several years. The number below is the share of ${felt} beaten.`)}</p></div></div>
       <div className="card table-wrap">
         <table className="sheet">
           <thead><tr><th className="l">Race</th>{ys.map((y) => <th key={y}>{y}</th>)}</tr></thead>
           <tbody>{groups.map((rs) => (
             <tr key={`${rs[0].race}|${rs[0].cls}`}>
               <td className="l"><b>{rs[0].race}</b>{rs[0].cls ? <span className="muted"> · {rs[0].cls}</span> : null}</td>
-              {ys.map((y) => { const r = rs.find((r) => r.year === y); return <td key={y} className="tnum">{r ? <><b>{r.place}.</b><small className="muted"> av {r.field}</small><br /><small>{Math.round(r.beaten)} %</small></> : <span className="muted">–</span>}</td>; })}
+              {ys.map((y) => { const r = rs.find((r) => r.year === y); return <td key={y} className="tnum">{r ? <><b>{ord(r.place)}</b><small className="muted"> {t("av", "of")} {r.field}</small><br /><small>{Math.round(r.beaten)} %</small></> : <span className="muted">–</span>}</td>; })}
             </tr>
           ))}</tbody>
         </table>

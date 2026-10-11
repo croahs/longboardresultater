@@ -2,6 +2,8 @@ import { useRef, useState } from "react";
 import * as THREE from "three";
 import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import type { Track } from "../data";
+import { num, raw } from "../format";
+import { t } from "../lang";
 import { curtain, ribbon, wireTerrain, fbm } from "./road";
 import { reducedMotion, useScene } from "./scene";
 
@@ -86,15 +88,15 @@ export default function TrackScene({ track, className }: { track: Track; classNa
   }, [track]);
   return (
     <div className={`track-scene ${className || ""}`}>
-      <div ref={ref} className="track-canvas" role="img" aria-label="Bakken i 3D, farget etter bratthet" />
+      <div ref={ref} className="track-canvas" role="img" aria-label={t("Bakken i 3D, farget etter bratthet", "The hill in 3D, coloured by steepness")} />
       <div className="track-label start" ref={(d) => { labels.current.start = d; }}>Start</div>
-      <div className="track-label finish" ref={(d) => { labels.current.finish = d; }}>Mål</div>
+      <div className="track-label finish" ref={(d) => { labels.current.finish = d; }}>{t("Mål", "Finish")}</div>
       {hover && (
         <div className="track-tip" style={{ transform: `translate(${hover.x}px, ${hover.y}px)` }} role="status">
-          <b>{hover.grade.toFixed(1).replace(".", ",")} %</b><span>{hover.km.toFixed(2).replace(".", ",")} km · {Math.round(hover.ele)} moh</span>
+          <b>{num(hover.grade, 1)} %</b><span>{num(hover.km, 2)} km · {Math.round(hover.ele)} {t("moh", "m a.s.l.")}</span>
         </div>
       )}
-      <p className="track-hint">Dra for å snu, rull for å zoome. Høyden er strukket ×{String(EXAGGERATE).replace(".", ",")}.</p>
+      <p className="track-hint">{t("Dra for å snu, rull for å zoome. Høyden er strukket", "Drag to turn, scroll to zoom. Height is stretched")} ×{raw(EXAGGERATE)}.</p>
     </div>
   );
 }

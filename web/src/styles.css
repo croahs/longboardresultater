@@ -77,6 +77,9 @@ footer.site a { text-decoration: underline; text-underline-offset: 3px; }
 .chip:hover { border-color: var(--ink-2); color: var(--ink); }
 .chip[aria-pressed="true"], .chip[aria-selected="true"], .chip[aria-current="page"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
 .klasse { display: inline-flex; gap: 4px; }
+.scope { flex-wrap: nowrap; gap: 4px; margin-left: auto; }
+.scope .chip { padding: 4px 10px; font-size: .8rem; }
+.scope + .scope { margin-left: 0; }
 input[type="search"] { padding: 9px 12px; border: 1px solid var(--line-2); border-radius: 10px; background: var(--bg-2); color: var(--ink); min-width: 0; }
 input[type="search"]::placeholder { color: var(--muted); }
 input[type="search"]:focus { border-color: var(--accent); outline: none; }
@@ -353,7 +356,11 @@ table.meetings .res.d { background: var(--ghost); color: var(--muted); }
   body { font-size: 14px; }
   .topbar { gap: 10px; padding: 10px 16px; }
   .topnav { display: none; }
-  .search input { width: 44vw; }
+  /* The two toggles take the wordmark's room; the search gets a row of its own. */
+  .topbar { flex-wrap: wrap; }
+  .brand span { display: none; }
+  .topbar-search { order: 1; flex: 1 0 100%; margin-left: 0; }
+  .topbar-search .search input { width: 100%; }
   .hero { padding-top: 96px; gap: 22px; }
   .hero-stats { grid-template-columns: 1fr 1fr; gap: 14px 20px; }
   .hero-scroll { display: none; }

@@ -4,8 +4,38 @@
     {
       "name": "web",
       "runtimeExecutable": "node",
-      "runtimeArgs": ["web/node_modules/vite/bin/vite.js", "web", "--port", "5173", "--strictPort"],
+      "runtimeArgs": [
+        "web/node_modules/vite/bin/vite.js",
+        "web",
+        "--port",
+        "5173",
+        "--strictPort"
+      ],
       "port": 5173
+    },
+    {
+      "name": "web-lang",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "web/node_modules/vite/bin/vite.js",
+        "web",
+        "--port",
+        "5174",
+        "--strictPort"
+      ],
+      "port": 5174
+    },
+    {
+      "name": "web-elo",
+      "runtimeExecutable": "node",
+      "runtimeArgs": [
+        "C:/Users/--/longboardresultater-elo/web/node_modules/vite/bin/vite.js",
+        "C:/Users/--/longboardresultater-elo/web",
+        "--port",
+        "5180",
+        "--strictPort"
+      ],
+      "port": 5180
     }
   ]
 }

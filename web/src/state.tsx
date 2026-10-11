@@ -1,4 +1,5 @@
 import { createContext, useContext, useMemo, useState, type ReactNode } from "react";
+import { t } from "./lang";
 import type { Athlete, Result } from "./data";
 
 /* Season filter and the selected race, shared by every tab so a race picked on one tab stays picked. */
@@ -23,5 +24,5 @@ export function SelChip() {
   const { sel, setSel, rows } = useSel();
   const r = rows.find((x) => raceKey(x) === sel);
   if (!r) return null;
-  return <div className="sel-chip" role="status"><span>Valgt: {r.race} {r.year}</span><button type="button" onClick={() => setSel(null)}>Fjern valg ✕</button></div>;
+  return <div className="sel-chip" role="status"><span>{t("Valgt", "Selected")}: {r.race} {r.year}</span><button type="button" onClick={() => setSel(null)}>{t("Fjern valg", "Clear")} ✕</button></div>;
 }

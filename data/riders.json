@@ -1,5 +1,5 @@
 {
- "_help": "Rider ids for the site. Add other spellings of a name to \"aliases\" to merge riders; set \"fixed\": true to keep \"name\" as written here.",
+ "_help": "Rider ids for the site. Add other spellings of a name to \"aliases\" to merge riders; set \"fixed\": true to keep \"name\" as written here; set \"norsk\": true or false to put a rider in the Norway view or out of it, whatever the lists say.",
  "riders": {
   "r1": {
    "name": "Jørgen Stokke Halvorsen",
@@ -9195,10 +9195,11 @@
    "aliases": []
   },
   "r2343": {
-   "name": "Pradel Christian Montoya",
+   "name": "Christian Montoya",
    "aliases": [
     "Christian Montoya",
-    "Christian Pradel"
+    "Christian Pradel",
+    "Pradel Christian Montoya"
    ]
   },
   "r2344": {
@@ -14680,12 +14681,6 @@
   "r3746": {
    "name": "Mattia Favero",
    "aliases": []
-  },
-  "r3747": {
-   "name": "Cristina Verdú",
-   "aliases": [
-    "Cristina Verdú"
-   ]
   },
   "r3748": {
    "name": "Roberto Fortini",
@@ -22629,200 +22624,206 @@
    "name": "Frédéric Potthast",
    "aliases": []
   },
-  "r5803": {
+  "r5867": {
    "name": "Gerardo Novoa",
    "aliases": [
     "Gerardo Novoa"
    ]
   },
-  "r5804": {
+  "r5868": {
    "name": "Louis-Etienne Bouchard",
    "aliases": [
     "Louis-Etienne Bouchard"
    ]
   },
-  "r5805": {
+  "r5869": {
    "name": "Bernardo Borges",
    "aliases": [
     "Bernardo Borges"
    ]
   },
-  "r5806": {
+  "r5870": {
    "name": "Callum O'Callaghan",
    "aliases": [
     "Callum O'Callaghan"
    ]
   },
-  "r5808": {
+  "r5871": {
    "name": "Javier Velasco",
    "aliases": [
     "Javier Velasco"
    ]
   },
-  "r5809": {
+  "r5873": {
    "name": "Jonathan Guardia",
    "aliases": [
     "Jonathan Guardia"
    ]
   },
-  "r5810": {
+  "r5874": {
    "name": "Lucas Santos",
    "aliases": [
     "Lucas Herbst"
    ]
   },
-  "r5811": {
+  "r5875": {
    "name": "Walter Ribeiro",
    "aliases": [
     "Walter Ribeiro"
    ]
   },
-  "r5812": {
+  "r5876": {
+   "name": "Cristina Verdú",
+   "aliases": [
+    "Cristina Verdú"
+   ]
+  },
+  "r5877": {
    "name": "Giorgina Ferrero",
    "aliases": [
     "Giorgina Ferrero"
    ]
   },
-  "r5813": {
+  "r5878": {
    "name": "Dejaune Jones",
    "aliases": [
     "Dejaune Jones"
    ]
   },
-  "r5814": {
+  "r5879": {
    "name": "Gustavo Paredes",
    "aliases": [
     "Gustavo Paredes"
    ]
   },
-  "r5815": {
+  "r5880": {
    "name": "Melissa Brogni",
    "aliases": [
     "Melissa Brogni"
    ]
   },
-  "r5816": {
+  "r5881": {
    "name": "Danky Dean",
    "aliases": [
     "Danky Dean"
    ]
   },
-  "r5817": {
+  "r5882": {
    "name": "Sasha Reis",
    "aliases": [
     "Sasha Reis"
    ]
   },
-  "r5818": {
+  "r5883": {
    "name": "Rafael Garrido Sanchez",
    "aliases": [
     "Rafael Garrido"
    ]
   },
-  "r5819": {
+  "r5884": {
    "name": "Martin Depass",
    "aliases": [
     "Martin Depass"
    ]
   },
-  "r5820": {
+  "r5885": {
    "name": "Daniel Calle",
    "aliases": [
     "Daniel Calle"
    ]
   },
-  "r5821": {
+  "r5886": {
    "name": "Willian Rubim",
    "aliases": [
     "Willian Rubim"
    ]
   },
-  "r5822": {
+  "r5887": {
    "name": "Gabriel Silva",
    "aliases": [
     "Gabriel Silva"
    ]
   },
-  "r5823": {
+  "r5888": {
    "name": "Igor Brenner Maas",
    "aliases": [
     "Igor Brenner"
    ]
   },
-  "r5824": {
+  "r5889": {
    "name": "Eduardo Tonini",
    "aliases": [
     "Eduardo Tonini"
    ]
   },
-  "r5825": {
+  "r5890": {
    "name": "Leonardo Ferraz",
    "aliases": [
     "Leonardo Ferraz"
    ]
   },
-  "r5826": {
+  "r5891": {
    "name": "Juan Jose Sarquis",
    "aliases": [
     "Juan Jose Sarquis"
    ]
   },
-  "r5827": {
+  "r5892": {
    "name": "William Ortiz",
    "aliases": [
     "William Ortiz"
    ]
   },
-  "r5828": {
+  "r5893": {
    "name": "Luca Visconti",
    "aliases": [
     "Luca Visconti"
    ]
   },
-  "r5829": {
+  "r5894": {
    "name": "Luana Chaves",
    "aliases": [
     "Luana Chaves"
    ]
   },
-  "r5830": {
+  "r5895": {
    "name": "Lucas Londono",
    "aliases": [
     "Lucas Londono"
    ]
   },
-  "r5831": {
+  "r5896": {
    "name": "Agustin-Pablo Virgolini",
    "aliases": [
     "Agustin-Pablo Virgolini"
    ]
   },
-  "r5832": {
+  "r5897": {
    "name": "Nicolas Robert",
    "aliases": [
     "Nicolas Robert"
    ]
   },
-  "r5833": {
+  "r5898": {
    "name": "Tim Del Rosario",
    "aliases": [
     "Tim Del Rosario"
    ]
   },
-  "r5834": {
+  "r5899": {
    "name": "Camilo Montes C",
    "aliases": [
     "Camilo Montes"
    ]
   },
-  "r5835": {
+  "r5900": {
    "name": "Juan Carlos Rincón",
    "aliases": [
     "Juan Carlos Rincón",
     "Juan Carlos Rincøn"
    ]
   },
-  "r5836": {
+  "r5901": {
    "name": "Jaime Arche",
    "aliases": [
     "Jaime Arche"

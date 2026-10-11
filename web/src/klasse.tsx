@@ -1,3 +1,4 @@
+import { t } from "./lang";
 import { createContext, useContext, type ReactNode } from "react";
 
 /* «Åpen | Kvinner»: a woman's placings, rivals and head-to-heads counted in the whole field (Åpen) or among the
@@ -11,12 +12,12 @@ export function KlasseToggle() {
   const { on, women, setWomen } = useKlasse();
   if (!on) return null;
   return (
-    <div className="klasse" role="group" aria-label="Klasse">
-      <button type="button" className="chip" aria-pressed={!women} onClick={() => setWomen(false)}>Åpen</button>
-      <button type="button" className="chip" aria-pressed={women} onClick={() => setWomen(true)}>Kvinner</button>
+    <div className="klasse" role="group" aria-label={t("Klasse", "Class")}>
+      <button type="button" className="chip" aria-pressed={!women} onClick={() => setWomen(false)}>{t("Åpen", "Open")}</button>
+      <button type="button" className="chip" aria-pressed={women} onClick={() => setWomen(true)}>{t("Kvinner", "Women")}</button>
     </div>
   );
 }
 
 /** What a share of beaten riders is out of: «feltet», or «kvinnene» when counting among the women. */
-export const useFelt = () => (useKlasse().women ? "kvinnene" : "feltet");
+export const useFelt = () => (useKlasse().women ? t("kvinnene", "the women") : t("feltet", "the field"));

@@ -1,4 +1,5 @@
 import { fold } from "./format";
+import { t } from "./lang";
 // Data model and loading. The site only reads static JSON under data/ (written by site.py).
 
 /** The class a race was run in. "Other" covers stock races, intermediate, team and slalom events. */
@@ -36,7 +37,7 @@ export interface Meeting {
   mc: string | null; tc: string | null; same: boolean;
 }
 
-export interface Opponent { id: string; name: string; club: string; w: number; l: number; med: number | null; ms: Meeting[]; sex: Sex }
+export interface Opponent { id: string; name: string; club: string; w: number; l: number; med: number | null; ms: Meeting[]; sex: Sex; no: boolean }
 
 export interface Who { id: string; name: string; club?: string; races?: number; wins?: number; losses?: number; page?: boolean }
 export interface Insights {
@@ -51,12 +52,13 @@ export interface Insights {
 /* Elo rating (sitedata.py): two pools, heats ("race") and timed runs ("kvalik"), over the stand-up classes. */
 export type Pool = "race" | "kvalik";
 export const POOLS: Pool[] = ["race", "kvalik"];
-export const POOL_LABEL: Record<Pool, string> = { race: "Race", kvalik: "Kvalik" };
-export interface RiderRating { rating: number; peak: number; peak_year: number; races: number; rank: number | null; of: number }
+export const poolLabel = (k: Pool) => (k === "race" ? "Race" : t("Kvalik", "Qualifying"));
+export interface RiderRating { rating: number; peak: number; peak_year: number; races: number; rank: number | null; of: number; rank_no?: number | null; of_no?: number }
 
 export interface Athlete {
   id: string; name: string; club: string;
   sex: Sex;            // K when the rider has placed in a women's race; never from the name
+  no: boolean;         // in the Norway view: a Norwegian nationality in a list, or a start in a race in Norway
   rivalsWomen: string[]; // closest rivals among the women (rivals_women)
   channel?: string;    // the rider's own video channel (data/videos.json)
   results: Result[];
@@ -64,8 +66,8 @@ export interface Athlete {
   rating: Partial<Record<Pool, RiderRating>>;
 }
 
-export interface IndexRider { id: string; name: string; club: string; races: number; shard: string | null; sex?: Sex; wins?: number }
-export interface Site { default_rider: string | null; contact?: string }
+export interface IndexRider { id: string; name: string; club: string; races: number; shard: string | null; sex?: Sex; wins?: number; no?: boolean }
+export interface Site { default_rider: string | null; default_rider_no?: string | null; contact?: string }
 
 /* summary.json (site.py): the front page and the top lists. */
 export interface TopRace { id: string; name: string; cls: string; date: string; type: RaceType }
@@ -74,16 +76,22 @@ export interface RatingPool {
   races: number; riders: number; since: number | null; until: number | null; min_races: number; active_years: number;
   now: RatedWho[];   // riders who raced in the last active_years seasons, by rating today
   peak: RatedWho[];  // the highest rating ever held
-  seasons: { year: number; top: (Who & { rating: number; races: number })[] }[]; // the top at the end of each season, newest first
+  now_no?: RatedWho[]; peak_no?: RatedWho[]; // the same among the riders in the Norway view
+  seasons: { year: number; top: (Who & { rating: number; races: number })[]; top_no?: (Who & { rating: number; races: number })[] }[]; // the top at the end of each season, newest first
 }
-export interface Summary {
-  events: number; races: number; results: number; riders: number; years: number[];
+/** The front page's lists and records, for everything or for the Norway view (the races in Norway, the riders in the view). */
+export interface Highlights {
   recent: { id: string; name: string; cls: string; date: string; date_known?: boolean; type: RaceType; finishers: number; fastest: Who | null; fastest_women: Who | null }[];
   biggest: { name: string; cls: string; riders: number } | null;
   busiest: (Who & { races: number })[];
   closest?: { name: string; gap_s: number; a: Who; b: Who };
   most_wins?: Who & { wins: number };
   top: { biggest: (TopRace & { riders: number })[]; closest: (TopRace & { gap_s: number; a: Who; b: Who })[]; wins: (Who & { wins: number })[] };
+}
+export interface Counts { events: number; races: number; results: number; riders: number }
+export interface Summary extends Highlights, Counts {
+  years: number[];
+  no?: Highlights & Counts;
   rating?: Record<Pool, RatingPool>;
 }
 
@@ -99,11 +107,11 @@ export function getJSON<T>(path: string): Promise<T> {
 }
 
 type RawMeeting = [string, string, RaceType, string, number | null, number | null, number | null, string | null, string | null, number];
-type RawOpp = [string, string, string, number, number, number | null, RawMeeting[], Sex?];
+type RawOpp = [string, string, string, number, number, number | null, RawMeeting[], Sex?, (0 | 1)?];
 
 function opponents(raw: RawOpp[] | undefined): Map<string, Opponent> {
-  return new Map((raw || []).map(([id, name, club, w, l, med, ms, sex]) => [id, {
-    id, name, club, w, l, med, sex: sex ?? null,
+  return new Map((raw || []).map(([id, name, club, w, l, med, ms, sex, no]) => [id, {
+    id, name, club, w, l, med, sex: sex ?? null, no: !!no,
     ms: ms.map(([race, date, type, res, gs, gp, pl, mc, tc, same]) => ({
       race, date, type, res: res[0] as Meeting["res"], gs, gp, pl, mc, tc, same: !!same,
     })).sort((a, b) => a.date.localeCompare(b.date)),
@@ -116,7 +124,7 @@ interface RawResult {
   behind_pct: number | null; link: string; hill: string | null; women_place?: number; women_field?: number;
 }
 interface RawProfile {
-  id: string; name: string; club: string; sex?: Sex; results: RawResult[];
+  id: string; name: string; club: string; sex?: Sex; no?: boolean; results: RawResult[];
   opponents?: RawOpp[]; rivals?: string[]; insights?: Insights; rivals_women?: string[]; rating?: Partial<Record<Pool, RiderRating>>;
 }
 
@@ -134,7 +142,7 @@ function result(r: RawResult): Result | null {
 
 function athlete(p: RawProfile): Athlete {
   return {
-    id: p.id, name: p.name, club: p.club || "", sex: p.sex ?? null, rivalsWomen: p.rivals_women || [],
+    id: p.id, name: p.name, club: p.club || "", sex: p.sex ?? null, no: !!p.no, rivalsWomen: p.rivals_women || [],
     results: p.results.map(result).filter((r): r is Result => !!r).sort((a, b) => a.date.localeCompare(b.date)),
     opponents: opponents(p.opponents), rivals: p.rivals || [], insights: p.insights || {}, rating: p.rating || {},
   };
@@ -185,26 +193,37 @@ export async function loadAthlete(id: string, index: IndexRider[], get: <T>(path
   return withVideos(athlete({ ...raw, id }), await videos, (rid) => index.find((r) => r.id === rid)?.name || "");
 }
 
+/** The insights with only the riders keep() allows. */
+function keepInsights(ins: Insights, keep: (w: { id: string }) => boolean): Insights {
+  return {
+    ...ins,
+    rivals_by_type: ins.rivals_by_type && Object.fromEntries(Object.entries(ins.rivals_by_type).map(([t, l]) => [t, l?.filter(keep)])),
+    nemesis: ins.nemesis?.filter(keep), victims: ins.victims?.filter(keep), specialists: ins.specialists?.filter(keep),
+    overtaken: ins.overtaken?.filter(keep), right_ahead: ins.right_ahead?.filter(keep), right_behind: ins.right_behind?.filter(keep),
+  };
+}
+
 /** The athlete counted among the women only: every placing, rival and head-to-head is against women. Races with
     no women's placing drop out. The rider is a woman, so this is what her own class looks like. */
 export function womenOnly(a: Athlete): Athlete {
   const opponents = new Map([...a.opponents].filter(([, o]) => o.sex === "K"));
   const keep = (w: { id: string }) => opponents.has(w.id);
-  const ins = a.insights;
   return {
     ...a,
     results: a.results.flatMap((r) => (r.type === "Women" ? [r] : r.women ? [{
       ...r, place: r.women.place, field: r.women.field, beaten: r.women.beaten, top: (r.women.place / r.women.field) * 100,
       behind: null, basis: "blant kvinnene" as const,
     }] : [])),
-    opponents, rivals: a.rivalsWomen.filter((id) => opponents.has(id)),
-    insights: {
-      ...ins,
-      rivals_by_type: ins.rivals_by_type && Object.fromEntries(Object.entries(ins.rivals_by_type).map(([t, l]) => [t, l?.filter(keep)])),
-      nemesis: ins.nemesis?.filter(keep), victims: ins.victims?.filter(keep), specialists: ins.specialists?.filter(keep),
-      overtaken: ins.overtaken?.filter(keep), right_ahead: ins.right_ahead?.filter(keep), right_behind: ins.right_behind?.filter(keep),
-    },
+    opponents, rivals: a.rivalsWomen.filter((id) => opponents.has(id)), insights: keepInsights(a.insights, keep),
   };
+}
+
+/** The athlete's rivals and head-to-heads against the riders in the Norway view only. The results stay: a
+    placing in Kozakov is still a placing. */
+export function norgeOnly(a: Athlete): Athlete {
+  const opponents = new Map([...a.opponents].filter(([, o]) => o.no));
+  const keep = (w: { id: string }) => opponents.has(w.id);
+  return { ...a, opponents, rivals: a.rivals.filter((id) => opponents.has(id)), rivalsWomen: a.rivalsWomen.filter((id) => opponents.has(id)), insights: keepInsights(a.insights, keep) };
 }
 
 /* ---------- derived numbers ---------- */
@@ -219,11 +238,11 @@ export const years = (a: Athlete) => [...new Set(a.results.map((r) => r.year))].
 export const record = (ms: Meeting[]) => ({ w: ms.filter((m) => m.res === "w").length, l: ms.filter((m) => m.res === "l").length });
 
 /* The result lists (data/races.json): one per race, for the race pages and head-to-head between any two riders. */
-/** One row: rider id, name, place (null = DNF), time in s (timed races), sex. */
-export type RaceRow = [string, string, number | null, number | null, Sex];
+/** One row: rider id, name, place (null = DNF), time in s (timed races), sex, in the Norway view (1 | 0). */
+export type RaceRow = [string, string, number | null, number | null, Sex, (0 | 1)?];
 export interface RaceList {
   id: string; event: string; name: string; cls: string; type: RaceType; format: Format;
-  date: string; date_known: boolean; hill: string | null; url: string; rows: RaceRow[];
+  date: string; date_known: boolean; hill: string | null; norway?: boolean; url: string; rows: RaceRow[];
 }
 interface RacesFile { races: RaceList[] }
 export const raceLists = async () => (await getJSON<RacesFile>("races.json")).races;
@@ -249,7 +268,7 @@ export async function headToHead(meId: string, other: IndexRider): Promise<Oppon
   ms.sort((a, b) => a.date.localeCompare(b.date));
   const pls = ms.filter((m) => m.pl != null).map((m) => m.pl!);
   const rec = record(ms);
-  return { id: other.id, name: other.name, club: other.club, w: rec.w, l: rec.l, med: pls.length ? median(pls) : null, ms, sex: other.sex ?? null };
+  return { id: other.id, name: other.name, club: other.club, w: rec.w, l: rec.l, med: pls.length ? median(pls) : null, ms, sex: other.sex ?? null, no: !!other.no };
 }
 
 /* Hills (data/hills.json) and their tracks (data/tracks/<id>.json, from tracks.py). */

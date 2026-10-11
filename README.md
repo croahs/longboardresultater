@@ -83,6 +83,16 @@ bokstaven bort); noen Wayback-filer er feilsider (statuskode 200, men HTML), de 
 uten dato i overskriften får 1. januar med `date_known: false`; IDF-race som ikke står på `/races/<år>/`
 får det samme og en note. `python3 <kilde>.py` skriver ut hva som ble lest og notene.
 
+## Norge-utvalget
+
+Siden har en bryter øverst, «Norge | Verden» (Norge er standard, valget huskes i nettleseren). Norge viser
+racene kjørt i Norge og kjørerne i Norge-utvalget: nasjonalitet NOR i en liste (IGSA, IDF, WDSC), eller minst
+halvparten av racene kjørt i Norge (NDSF-listene oppgir ikke nasjonalitet; en svenske som bare kjører her er
+med, en proff med ett race på Lillehammer er ikke). `"norsk": true` eller `false` på kjøreren i
+`data/riders.json` overstyrer. `sitedata.py` regner det ut (`norwegians`) og skriver det som `no` på kjørere,
+racerader og motstandere, `norway` på race, egne lister (`now_no`, `peak_no`, `top_no`, `summary.json` →
+`no`) og `rank_no` i ratingen. Ratingen selv er den samme; bare listene er filtrert.
+
 ## Hva siden får
 
 `web/` leser `data/site/site.json`, `data/riders/index.json` og `data/riders/shard-NN.json` (hver kjører med

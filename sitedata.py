@@ -61,8 +61,36 @@ def load_events():
                 with open(os.path.join(d, fn), encoding="utf-8") as f:
                     ev = json.load(f)
                 if ev["races"] or ev["id"] not in events:
+                    ev["_source"] = folder
                     events[ev["id"]] = ev
     return sorted(events.values(), key=lambda e: (e["date"], e["id"]))
+
+
+NORWAY = re.compile(r"^(nor|norway|norge)$|,\s*norway$|norge$", re.I)
+
+
+def in_norway(ev):
+    """A race run in Norway: from ndsf.no or a hand-written file, on one of our hills, or placed in Norway."""
+    return ev.get("_source") in ("ndsf", "manual") or bool(ev.get("hill")) or bool(NORWAY.search((ev.get("place") or "").strip()))
+
+
+def norwegians(races, reg):
+    """The riders in the Norway view: a Norwegian nationality in any list, or at least half of the rider's
+    races run in Norway (the Norwegian lists give no nationality, so that is as close as we get; a visiting
+    pro with one start at Lillehammer stays out, a Swede who only races here is in). "norsk": true or
+    false on the rider in data/riders.json overrides."""
+    no, home, total = set(), Counter(), Counter()
+    for r in races:
+        for y in r["rows"]:
+            total[y[0]] += 1
+            home[y[0]] += r["norway"]
+            if NORWAY.match((y[5] or "").strip()):
+                no.add(y[0])
+    no |= {rid for rid in total if home[rid] * 2 >= total[rid]}
+    for rid, r in reg.riders.items():
+        if "norsk" in r:
+            (no.add if r["norsk"] else no.discard)(rid)
+    return no
 
 
 # ---------------------------------------------------------------- riders
@@ -188,7 +216,8 @@ class Registry:
             if not r.get("fixed") and self.spellings[rid]:
                 r["name"] = self.display(rid)
         dump(REGISTRY, {"_help": "Rider ids for the site. Add other spellings of a name to \"aliases\" to merge "
-                                 "riders; set \"fixed\": true to keep \"name\" as written here.",
+                                 "riders; set \"fixed\": true to keep \"name\" as written here; set \"norsk\": true or false "
+                                 "to put a rider in the Norway view or out of it, whatever the lists say.",
                         "riders": dict(sorted(self.riders.items(), key=lambda kv: int(kv[0][1:])))}, indent=1)
 
     def suspects(self):
@@ -248,7 +277,7 @@ def _close(a, b):
 # ---------------------------------------------------------------- races and head-to-head
 
 def races_of(events, reg):
-    """One record per race: who placed where. Rows: [rid, name, place, time, dnf]."""
+    """One record per race: who placed where. Rows: [rid, name, place, time, dnf, nat]."""
     out = []
     for ev in events:
         # A name cut short in one list ("Odin", "Sander Viste") is the rider whose name starts that way in
@@ -271,7 +300,7 @@ def races_of(events, reg):
                 rid = (cut(t) if tuple(t) not in full else None) or reg.id_for(x["name"])
                 if any(y[0] == rid for y in rows):
                     continue
-                rows.append([rid, x["name"], None if x.get("dnf") else x["place"], x.get("time"), bool(x.get("dnf"))])
+                rows.append([rid, x["name"], None if x.get("dnf") else x["place"], x.get("time"), bool(x.get("dnf")), x.get("nat")])
             placed = [y for y in rows if y[2] is not None]
             placed.sort(key=lambda y: y[2])
             rid_ = f"{ev['id']}/{slug(r['name'])}"
@@ -280,7 +309,7 @@ def races_of(events, reg):
             out.append({
                 "id": rid_, "event": ev["id"], "name": ev["name"], "cls": r["name"], "type": r["kind"],
                 "format": r["format"], "date": ev["date"], "date_known": ev.get("date_known", True), "hill": ev.get("hill"),
-                "url": (ev.get("sources") or [""])[0], "rows": placed + [y for y in rows if y[2] is None],
+                "norway": in_norway(ev), "url": (ev.get("sources") or [""])[0], "rows": placed + [y for y in rows if y[2] is None],
             })
     return out
 
@@ -319,7 +348,7 @@ def meeting(race, me, other):
     return res, gs, gp, -places if places else None
 
 
-def build_rider(rid, mine, sex, reg):
+def build_rider(rid, mine, sex, reg, no):
     """A rider's profile: every result, head-to-head with everyone met, rivals and insights."""
     results, opps = [], {}
     for race in mine:
@@ -341,7 +370,7 @@ def build_rider(rid, mine, sex, reg):
             if other[0] == rid:
                 continue
             res, gs, gp, pl = meeting(race, me, other)
-            o = opps.setdefault(other[0], {"id": other[0], "name": reg.display(other[0]), "sex": sex.get(other[0]), "ms": []})
+            o = opps.setdefault(other[0], {"id": other[0], "name": reg.display(other[0]), "sex": sex.get(other[0]), "no": other[0] in no, "ms": []})
             o["ms"].append([race["name"], race["date"], race["type"], res, gs, gp, pl, race["cls"], race["cls"], 1])
     for o in opps.values():
         o["w"] = sum(m[3] == "w" for m in o["ms"])
@@ -411,14 +440,15 @@ def insights(opps):
 
 # ---------------------------------------------------------------- rating
 
-def ratings(races, reg, index_ids):
+def ratings(races, reg, index_ids, no):
     """Elo per pool (POOLS: heats and timed runs apart), over the stand-up classes (RATED_KINDS). A race is every
     pair of riders in it: the better place wins, a DNF loses to everyone placed and draws with another DNF. A
     rider's score is the share of those pairs won, the expected share is the mean Elo expectation against each,
     and the rating moves K times the difference. Everyone starts at ELO_START; K is higher for a rider's first
     races so newcomers settle fast. Ratings never decay: "now" is the rating of riders who raced in the last
     ACTIVE_YEARS seasons, "peak" the highest rating ever held, and "seasons" the top at the end of each season
-    among those who raced it. Returns (summary per pool, per rider per pool)."""
+    among those who raced it. The same lists restricted to the Norway view (no) end in _no; the ratings
+    themselves are the same, everyone raced everyone. Returns (summary per pool, per rider per pool)."""
     page = lambda rid: {"id": rid, "name": reg.display(rid), "page": rid in index_ids}
     out, per_rider = {}, defaultdict(dict)
     for pool, fmt in POOLS.items():
@@ -448,21 +478,26 @@ def ratings(races, reg, index_ids):
             year = r["date"][:4]
             if i + 1 == len(pool_races) or pool_races[i + 1]["date"][:4] != year:
                 raced = {y[0] for x in pool_races[:i + 1] if x["date"][:4] == year for y in x["rows"]}
-                top = sorted((rid for rid in raced if n[rid] >= MIN_SEASON), key=lambda rid: -rating[rid])[:5]
+                ranked = sorted((rid for rid in raced if n[rid] >= MIN_SEASON), key=lambda rid: -rating[rid])
+                top, top_no = ranked[:5], [rid for rid in ranked if rid in no][:5]
                 if top:
-                    seasons.append({"year": int(year), "top": [dict(page(rid), rating=round(rating[rid]), races=n[rid]) for rid in top]})
+                    seasons.append({"year": int(year), "top": [dict(page(rid), rating=round(rating[rid]), races=n[rid]) for rid in top],
+                                    "top_no": [dict(page(rid), rating=round(rating[rid]), races=n[rid]) for rid in top_no]})
         row = lambda rid: dict(page(rid), rating=round(rating[rid]), peak=round(peak[rid][0]), peak_year=int(peak[rid][1]),
                                races=n[rid], last=int(last[rid][:4]))
         active = [rid for rid in rating if n[rid] >= MIN_RATED and int(last[rid][:4]) >= int(years[-1]) - ACTIVE_YEARS + 1] if years else []
         now = sorted(active, key=lambda rid: -rating[rid])
         best = sorted((rid for rid in rating if n[rid] >= MIN_RATED), key=lambda rid: -peak[rid][0])
+        now_no, best_no = [rid for rid in now if rid in no], [rid for rid in best if rid in no]
         out[pool] = {"races": len(pool_races), "riders": len(rating), "since": int(years[0]) if years else None, "until": int(years[-1]) if years else None,
                      "min_races": MIN_RATED, "active_years": ACTIVE_YEARS,
-                     "now": [row(rid) for rid in now[:TOP_N]], "peak": [row(rid) for rid in best[:TOP_N]], "seasons": seasons[::-1]}
+                     "now": [row(rid) for rid in now[:TOP_N]], "peak": [row(rid) for rid in best[:TOP_N]], "seasons": seasons[::-1],
+                     "now_no": [row(rid) for rid in now_no[:TOP_N]], "peak_no": [row(rid) for rid in best_no[:TOP_N]]}
         rank_now = {rid: i + 1 for i, rid in enumerate(now)}
+        rank_no = {rid: i + 1 for i, rid in enumerate(now_no)}
         for rid in rating:
             per_rider[rid][pool] = {"rating": round(rating[rid]), "peak": round(peak[rid][0]), "peak_year": int(peak[rid][1]),
-                                    "races": n[rid], "rank": rank_now.get(rid), "of": len(now)}
+                                    "races": n[rid], "rank": rank_now.get(rid), "of": len(now), "rank_no": rank_no.get(rid), "of_no": len(now_no)}
     return out, per_rider
 
 
@@ -472,16 +507,30 @@ def shard_of(rid):
     return f"{int(rid[1:]) % SHARDS:02}"
 
 
-def summary(races, index_ids, reg, sex, rating):
-    """data/summary.json: the front page and its top lists."""
+def summary(races, index_ids, reg, sex, rating, no):
+    """data/summary.json: the front page and its top lists, for everything and ("no") for the Norway view:
+    the races in Norway and the riders in the view."""
     page = lambda rid: {"id": rid, "name": reg.display(rid), "page": rid in index_ids}
-    count, last = Counter(), {}
-    for r in races:
-        for y in r["rows"]:
-            count[y[0]] += 1
+    everyone = {y[0] for r in races for y in r["rows"]}
+    out = {
+        "events": len({r["event"] for r in races}), "races": len(races), "results": sum(len(r["rows"]) for r in races), "riders": len(everyone),
+        "years": sorted({int(r["date"][:4]) for r in races}),
+        **highlights(races, races, everyone, page, reg, sex),
+        "rating": rating,
+    }
+    home = [r for r in races if r["norway"]]
+    out["no"] = {"events": len({r["event"] for r in home}), "races": len(home), "results": sum(len(r["rows"]) for r in home),
+                 "riders": len(no & everyone), **highlights(home, races, no, page, reg, sex)}
+    return out
+
+
+def highlights(event_races, races, riders, page, reg, sex):
+    """The front page's lists and records: the latest Open heat races, the biggest fields and the closest
+    timed races among event_races; most wins and most races among riders, counted over every race."""
+    count = Counter(y[0] for r in races for y in r["rows"] if y[0] in riders)
     recent = []
     seen_events = []
-    for r in sorted(races, key=lambda r: r["date"], reverse=True):
+    for r in sorted(event_races, key=lambda r: r["date"], reverse=True):
         if r["event"] in seen_events or r["type"] != "Open" or r["format"] != "bracket":
             continue
         seen_events.append(r["event"])
@@ -497,19 +546,16 @@ def summary(races, index_ids, reg, sex, rating):
         if len(recent) == 4:
             break
     race = lambda r: {"id": r["id"], "name": f"{r['name']} {r['date'][:4]}", "cls": r["cls"], "date": r["date"], "type": r["type"]}
-    big = sorted(races, key=lambda r: (-len(r["rows"]), r["date"]))
+    big = sorted(event_races, key=lambda r: (-len(r["rows"]), r["date"]))
     close = []
-    for r in races:
+    for r in event_races:
         t = [y for y in r["rows"] if y[3] and y[2]]
         if r["format"] == "timed" and len(t) > 1 and t[1][3] > t[0][3]:
             close.append((round(t[1][3] - t[0][3], 2), r, t))
     close.sort(key=lambda x: (x[0], x[1]["date"]))
-    wins = Counter(r["rows"][0][0] for r in races if r["rows"] and r["rows"][0][2] == 1 and r["format"] == "bracket")
+    wins = Counter(r["rows"][0][0] for r in races if r["rows"] and r["rows"][0][2] == 1 and r["format"] == "bracket" and r["rows"][0][0] in riders)
     busiest = sorted(count, key=lambda rid: (-count[rid], reg.display(rid)))[:8]
-    events = {r["event"] for r in races}
     out = {
-        "events": len(events), "races": len(races), "results": sum(len(r["rows"]) for r in races), "riders": len(count),
-        "years": sorted({int(r["date"][:4]) for r in races}),
         "recent": recent,
         "biggest": {"name": race(big[0])["name"], "cls": big[0]["cls"], "riders": len(big[0]["rows"])} if big else None,
         "busiest": [dict(page(rid), races=count[rid]) for rid in busiest],
@@ -518,7 +564,6 @@ def summary(races, index_ids, reg, sex, rating):
             "closest": [dict(race(r), gap_s=gap, a=page(t[0][0]), b=page(t[1][0])) for gap, r, t in close[:25]],
             "wins": [dict(page(rid), wins=n) for rid, n in wins.most_common(25)],
         },
-        "rating": rating,
     }
     if close:
         gap, r, t = close[0]
@@ -536,6 +581,7 @@ def main():
     if reg.consolidate():
         races = races_of(events, reg)
     sex = sexes(races)
+    no = norwegians(races, reg)
     by_rider = defaultdict(list)
     for r in races:
         for y in r["rows"]:
@@ -543,25 +589,25 @@ def main():
 
     # races.json: every list, for the race pages and head-to-head between any two riders.
     dump(os.path.join(DATA, "races.json"), {
-        "row_fields": ["rider id", "name", "place (null = DNF)", "time_s (timed races)", "sex (K | null)"],
-        "races": [{k: v for k, v in r.items() if k != "rows"} | {"rows": [[y[0], y[1], y[2], y[3], sex.get(y[0])] for y in r["rows"]]}
+        "row_fields": ["rider id", "name", "place (null = DNF)", "time_s (timed races)", "sex (K | null)", "in the Norway view (1 | 0)"],
+        "races": [{k: v for k, v in r.items() if k != "rows"} | {"rows": [[y[0], y[1], y[2], y[3], sex.get(y[0]), int(y[0] in no)] for y in r["rows"]]}
                   for r in races]})
 
     index_ids = set(by_rider)
-    rating, rider_rating = ratings(races, reg, index_ids)
+    rating, rider_rating = ratings(races, reg, index_ids, no)
     index, shards = [], defaultdict(dict)
     for rid, mine in by_rider.items():
-        results, opps = build_rider(rid, mine, sex, reg)
+        results, opps = build_rider(rid, mine, sex, reg, no)
         ranked = rivals(opps)
         ins = insights(opps)
         named = set(ranked) | {x["id"] for v in ins.values() if isinstance(v, list) for x in v} \
             | {x["id"] for v in ins["rivals_by_type"].values() for x in v}
         entry = {"id": rid, "name": reg.display(rid), "club": "", "races": len(mine), "shard": shard_of(rid), "sex": sex.get(rid),
-                 "wins": sum(1 for r in results if r["place"] == 1 and r["format"] == "bracket")}
+                 "wins": sum(1 for r in results if r["place"] == 1 and r["format"] == "bracket"), "no": rid in no}
         index.append(entry)
-        obj = {"id": rid, "name": entry["name"], "club": "", "sex": sex.get(rid), "results": sorted(results, key=lambda r: r["date"]),
+        obj = {"id": rid, "name": entry["name"], "club": "", "sex": sex.get(rid), "no": rid in no, "results": sorted(results, key=lambda r: r["date"]),
                "rivals": ranked, "insights": ins, "rating": rider_rating.get(rid, {}),
-               "opponents": [[o["id"], o["name"], "", o["w"], o["l"], o["med"], o["ms"], o["sex"]]
+               "opponents": [[o["id"], o["name"], "", o["w"], o["l"], o["med"], o["ms"], o["sex"], int(o["no"])]
                              for o in opps.values() if len(o["ms"]) >= 2 or o["id"] in named],
                "record": {"opponents": len(opps), "wins": sum(o["w"] for o in opps.values()), "losses": sum(o["l"] for o in opps.values())}}
         if sex.get(rid) == "K":
@@ -576,10 +622,11 @@ def main():
     for k, v in shards.items():
         dump(os.path.join(riders_dir, f"shard-{k}.json"), v)
 
-    s = summary(races, index_ids, reg, sex, rating)
+    s = summary(races, index_ids, reg, sex, rating, no)
     dump(os.path.join(DATA, "summary.json"), s)
-    # site.json: the example rider on the front page is the one with most races.
-    dump(os.path.join(DATA, "site", "site.json"), {"default_rider": index[0]["id"] if index else None, "profiles": [], "contact": CONTACT})
+    # site.json: the example rider on the front page is the one with most races, in the Norway view the same among them.
+    dump(os.path.join(DATA, "site", "site.json"), {"default_rider": index[0]["id"] if index else None,
+                                                   "default_rider_no": next((r["id"] for r in index if r["no"]), None), "profiles": [], "contact": CONTACT})
     reg.save()
     manual = [e["id"] for e in events if e.get("needs_manual")]
     print(f"{len(events)} events, {len(races)} races, {s['results']} results, {len(index)} riders")
