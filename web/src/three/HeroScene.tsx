@@ -100,14 +100,14 @@ export default function HeroScene({ className }: { className?: string }) {
     const sun = new THREE.DirectionalLight(0xffffff, 0.6); sun.position.set(-0.6, 1, 0.45); scene.add(sun);
     const W = kit.width;
 
-    // The road: waypoints to an evenly spaced centre line that drops at the kit's grade the whole way, with the
-    // land's own bumps kept as a gentle undulation. The land is then cut and filled to meet it.
+    // The road: waypoints to an evenly spaced centre line that drops at the kit's grade the whole way, at a
+    // constant grade: any undulation borrowed from the land reads as a washboard. The land is then cut and
+    // filled to meet it.
     const curve = new THREE.CatmullRomCurve3(kit.path(), false, "centripetal", 0.5);
     const length = curve.getLength(), n = Math.floor(length / STEP);
     const pts = curve.getSpacedPoints(n);
-    const raw = pts.map((p) => kit.base(p.x, p.z));
-    const mean = (i: number, r: number) => { let sum = 0, c = 0; for (let k = -r; k <= r; k++) { const j = i + k; if (j >= 0 && j < pts.length) { sum += raw[j]; c++; } } return sum / c; };
-    for (let i = 0; i < pts.length; i++) pts[i].y = raw[0] + 0.25 - i * STEP * kit.grade + (mean(i, 15) - mean(i, 90)) * 0.4;
+    const top = kit.base(pts[0].x, pts[0].z) + 0.25;
+    for (let i = 0; i < pts.length; i++) pts[i].y = top - i * STEP * kit.grade;
     // Road points by a coarse grid, for shaping the land around the road and keeping things off the tarmac.
     const CELL = 8, cells = new Map<string, number[]>();
     const key = (x: number, z: number) => `${Math.floor(x / CELL)},${Math.floor(z / CELL)}`;
