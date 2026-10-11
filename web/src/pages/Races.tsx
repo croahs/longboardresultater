@@ -31,7 +31,7 @@ export default function Races({ a }: { a: Athlete }) {
   );
   return (
     <>
-      <div className="section-head"><div><p className="eyebrow">{t("Hele listen", "The full list")}</p><h2 className="h-section">{t("Alle race", "All races")}</h2><p className="lead">{t("Trykk på en kolonne for å sortere, og på et race for hele resultatlisten.", "Tap a column to sort, and a race for its full result list.")}{rated ? t(" Elo er ratingen etter racet, og hva racet flyttet den.", " Elo is the rating after the race, and what the race moved it.") : ""}</p></div></div>
+      <div className="section-head"><div><p className="eyebrow">{t("Hele listen", "The full list")}</p><h2 className="h-section">{t("Alle race", "All races")}</h2><p className="lead">{t("Trykk på en kolonne for å sortere, og på et race for hele resultatlisten.", "Tap a column to sort, and a race for its full result list.")}{rated ? t(" Rating-kolonnen er ratingen etter racet, og hva racet flyttet den.", " The rating column is the rating after the race, and what the race moved it.") : ""}</p></div></div>
       <section className="card">
         <div className="toolbar">
           <input type="search" placeholder={t("Filtrer på navn", "Filter by name")} aria-label={t("Filtrer på navn", "Filter by name")} value={q} onChange={(e) => setQ(e.target.value)} />
@@ -46,7 +46,7 @@ export default function Races({ a }: { a: Athlete }) {
         </div>
         {rows.length === 0 ? <div className="empty"><b>{t("Ingen race passer filteret", "No races match the filter")}</b><button className="btn" onClick={() => { setQ(""); setType("all"); setSeason("all"); }}>{t("Nullstill", "Reset")}</button></div> : (
           <div className="table-wrap"><table className="sheet races">
-            <thead><tr>{th("date", t("Dato", "Date"), "l")}<th className="l">Race</th><th className="l">{t("Klasse", "Class")}</th>{th("place", t("Plass", "Place"))}{th("beaten", t("Slo", "Beat"), "l")}{rated && th("elo", "Elo")}<th>{t("Tid", "Time")}</th><th>{t("Bak", "Behind")}</th><th></th></tr></thead>
+            <thead><tr>{th("date", t("Dato", "Date"), "l")}<th className="l">Race</th><th className="l">{t("Klasse", "Class")}</th>{th("place", t("Plass", "Place"))}{th("beaten", t("Slo", "Beat"), "l")}{rated && th("elo", "Rating")}<th>{t("Tid", "Time")}</th><th>{t("Bak", "Behind")}</th><th></th></tr></thead>
             <tbody>{rows.map((r) => (
               <tr key={r.raceId + r.basis} className={`type-${r.type}`}>
                 <td className="l muted nowrap">{dateLong(r.date)}</td>

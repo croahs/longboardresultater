@@ -527,7 +527,8 @@ def elo_step(r, rating, n):
 def hill_ratings(races, reg, index_ids):
     """Who is best on each hill: the same Elo, per pool, run over that hill's races alone, so only what
     happened there counts. Riders with at least HILL_MIN races on the hill, best first; no activity window,
-    hills are raced too seldom for one. {hill: {pool: {races, riders, min_races, top}}}."""
+    hills are raced too seldom for one. Each listed rider also carries wins and the average place on the hill,
+    over the placed finishes (a DNF counts as a race but not a place). {hill: {pool: {races, riders, min_races, top}}}."""
     page = lambda rid: {"id": rid, "name": reg.display(rid), "page": rid in index_ids}
     out = defaultdict(dict)
     for pool, fmt in POOLS.items():
@@ -536,16 +537,21 @@ def hill_ratings(races, reg, index_ids):
             if r["hill"]:
                 by_hill[r["hill"]].append(r)
         for hill, rs in by_hill.items():
-            rating, n, peak, last = {}, Counter(), {}, {}
+            rating, n, peak, last, wins, places = {}, Counter(), {}, {}, Counter(), defaultdict(list)
             for r in rs:
                 for rid in elo_step(r, rating, n):
                     last[rid] = r["date"]
                     if rating[rid] > peak.get(rid, (0, ""))[0]:
                         peak[rid] = (rating[rid], r["date"][:4])
+                for y in r["rows"]:
+                    if y[2] is not None:  # a DNF is no place; it still counts as a race here
+                        places[y[0]].append(y[2])
+                        wins[y[0]] += y[2] == 1
             top = sorted((rid for rid in rating if n[rid] >= HILL_MIN), key=lambda rid: -rating[rid])[:TOP_N]
             out[hill][pool] = {"races": len(rs), "riders": len(rating), "min_races": HILL_MIN,
                                "top": [dict(page(rid), rating=round(rating[rid]), peak=round(peak[rid][0]), peak_year=int(peak[rid][1]),
-                                            races=n[rid], last=int(last[rid][:4])) for rid in top]}
+                                            races=n[rid], wins=wins[rid], avg_place=round(statistics.mean(places[rid]), 1) if places[rid] else None,
+                                            last=int(last[rid][:4])) for rid in top]}
     return dict(out)
 
 

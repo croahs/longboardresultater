@@ -40,7 +40,7 @@ export default function Home({ index, example }: { index: IndexRider[]; example:
         <Suspense fallback={<div className="hero-canvas" aria-hidden="true" />}><HeroScene className="hero-canvas" /></Suspense>
         <div className="hero-copy">
           <p className="eyebrow">{t("Downhill-longboard · Norge og verden", "Downhill longboard · Norway and the world")}{s ? ` · ${span(s.years)}` : ""}</p>
-          <h1 className="hero-title" id="h-hero">{t("Hver bakke.", "Every hill.")}<br />{t("Hvert heat.", "Every heat.")}<br /><em>{t("Hver rival.", "Every rival.")}</em></h1>
+          <h1 className="hero-title" id="h-hero">{t("Hvert løp, hver bakke, hver rival.", "Every race, every hill, every rival.")}</h1>
           <p className="lead">{t("Resultatlistene fra NDSF og de internasjonale forbundene IGSA, IDF og WDSC, samlet på ett sted: plasseringer, innbyrdes oppgjør og utvikling for hver kjører.", "The result lists from NDSF and the international federations IGSA, IDF and WDSC, in one place: placings, head-to-heads and progress for every rider.")}</p>
           <div className="hero-search"><Search index={index} big /></div>
           {example && <p className="fine">{t("Eller", "Or")} <a href={href.rider(example)}>{t("se et eksempel", "see an example")}</a> {t("først.", "first.")}</p>}
@@ -51,7 +51,6 @@ export default function Home({ index, example }: { index: IndexRider[]; example:
           <div><dt>{t("Kjørere", "Riders")}</dt><dd className="tnum">{int(s?.riders)}</dd></div>
           <div><dt>{t("Resultater", "Results")}</dt><dd className="tnum">{int(s?.results)}</dd></div>
         </dl>
-        <a className="hero-scroll" href="#siste" aria-label={t("Til innholdet", "To the content")}><span /></a>
       </section>
 
       <section className="section" id="siste" aria-labelledby="h-siste">
@@ -75,7 +74,7 @@ export default function Home({ index, example }: { index: IndexRider[]; example:
         <section className="section" aria-labelledby="h-fakta">
           <div className="section-head"><div><p className="eyebrow">{t("Fra listene", "From the lists")}{norge ? t(" · Norge-utvalget", " · Norway view") : ""}</p><h2 className="h-section" id="h-fakta">{t("Rekordene", "The records")}</h2></div></div>
           <div className="facts">
-            {best && <a className="fact-card" href={href.top("rating")}><p className="eyebrow">{t("Best nå", "Best now")} <i aria-hidden="true">→</i></p><b className="fact-num tnum">{best.rating}</b><p>{best.name} {t("leder Elo-ratingen i heat", "leads the Elo rating in heats")}{norge ? t(" blant kjørerne i Norge-utvalget", " among the riders in the Norway view") : ""}.</p></a>}
+            {best && <a className="fact-card" href={href.top("rating")}><p className="eyebrow">{t("Best nå", "Best now")} <i aria-hidden="true">→</i></p><b className="fact-num tnum">{best.rating}</b><p>{best.name} {t("leder ratingen i heat", "leads the rating in heats")}{norge ? t(" blant kjørerne i Norge-utvalget", " among the riders in the Norway view") : ""}.</p></a>}
             {v?.most_wins && <a className="fact-card" href={href.top("seire")}><p className="eyebrow">{t("Flest seire", "Most wins")} <i aria-hidden="true">→</i></p><b className="fact-num tnum">{v.most_wins.wins}</b><p>{v.most_wins.name}, {t("i finaler og heat.", "in finals and heats.")}</p></a>}
             {v?.closest && <a className="fact-card" href={href.top("jevnest")}><p className="eyebrow">{t("Jevneste tidskjøring", "Closest timed race")} <i aria-hidden="true">→</i></p><b className="fact-num tnum">{raw(v.closest.gap_s)} s</b><p>{t("skilte", "between")} {v.closest.a.name} {t("og", "and")} {v.closest.b.name} {t("i", "in")} {v.closest.name}.</p></a>}
             {v?.biggest && <a className="fact-card" href={href.top("felt")}><p className="eyebrow">{t("Største felt", "Biggest field")} <i aria-hidden="true">→</i></p><b className="fact-num tnum">{v.biggest.riders}</b><p>{t("kjørere i", "riders in")} {v.biggest.name}{v.biggest.cls ? ` (${v.biggest.cls})` : ""}.</p></a>}

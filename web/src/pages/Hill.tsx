@@ -1,6 +1,6 @@
 import { Suspense, lazy, useEffect, useState } from "react";
 import { POOLS, getJSON, hills, loadTrack, poolLabel, raceLists, type Hill as HillT, type HillRating, type Pool, type RaceList, type Summary, type Track } from "../data";
-import { dateLong, num, pct, typeLabel } from "../format";
+import { dateLong, dec, num, pct, typeLabel } from "../format";
 import { t } from "../lang";
 import { href } from "../nav";
 import { gradeLegend } from "../grade";
@@ -73,7 +73,7 @@ export default function Hill({ id }: { id: string }) {
   );
 }
 
-/** Who is best on this hill: the Elo run over the hill's races alone (sitedata.py), one pool at a time. */
+/** Who is best on this hill: the rating run over the hill's races alone (sitedata.py), one pool at a time. */
 function BestHere({ name, rating }: { name: string; rating: Partial<Record<Pool, HillRating>> }) {
   const pools = POOLS.filter((k) => rating[k]?.top.length);
   const [pick, setPick] = useState<Pool | null>(null);
@@ -86,15 +86,15 @@ function BestHere({ name, rating }: { name: string; rating: Partial<Record<Pool,
         <div>
           <p className="eyebrow">{t("Hvem som er best her", "Who is best here")}</p>
           <h2 className="h-section" id="h-best">{t("Rating i", "Rating at")} {name}</h2>
-          <p className="lead">{t(`Elo regnet bare over racene i denne bakken: ${p.races} ${pool === "race" ? "heat-race" : "race på tid"} og ${p.riders} kjørere. Minst ${p.min_races} race her for å stå på listen, og ratingen faller ikke av seg selv.`,
-            `Elo over this hill's races alone: ${p.races} ${pool === "race" ? "heat races" : "timed races"} and ${p.riders} riders. At least ${p.min_races} races here to be listed, and the rating does not decay.`)}</p>
+          <p className="lead">{t(`Ratingen regnet bare over racene i denne bakken: ${p.races} ${pool === "race" ? "heat-race" : "race på tid"} og ${p.riders} kjørere. Minst ${p.min_races} race her for å stå på listen, og ratingen faller ikke av seg selv. Snittplassering er over fullførte race.`,
+            `The rating over this hill's races alone: ${p.races} ${pool === "race" ? "heat races" : "timed races"} and ${p.riders} riders. At least ${p.min_races} races here to be listed, and the rating does not decay. Average place is over finished races.`)}</p>
         </div>
         {pools.length > 1 && <div className="chips" role="group" aria-label="Pool">{pools.map((k) => <button key={k} type="button" className="chip" aria-pressed={pool === k} onClick={() => setPick(k)}>{poolLabel(k)}</button>)}</div>}
       </div>
       <div className="card table-wrap"><table className="sheet top">
-        <thead><tr><th>#</th><th>Rating</th><th className="l">{t("Kjører", "Rider")}</th><th>{t("Topp", "Peak")}</th><th>{t("Race her", "Races here")}</th><th>{t("Sist", "Last")}</th></tr></thead>
+        <thead><tr><th>#</th><th>Rating</th><th className="l">{t("Kjører", "Rider")}</th><th>{t("Topp", "Peak")}</th><th>{t("Race her", "Races here")}</th><th>{t("Seiere", "Wins")}</th><th>{t("Snittplass", "Avg place")}</th><th>{t("Sist", "Last")}</th></tr></thead>
         <tbody>{p.top.map((r, i) => (
-          <tr key={r.id}><td className="tnum">{i + 1}</td><td className="tnum big">{r.rating}</td><td className="l">{r.page ? <a href={href.rider(r.id)}>{r.name}</a> : r.name}</td><td className="tnum muted">{r.peak} <small>{t("i", "in")} {r.peak_year}</small></td><td className="tnum">{r.races}</td><td className="tnum muted">{r.last}</td></tr>
+          <tr key={r.id}><td className="tnum">{i + 1}</td><td className="tnum big">{r.rating}</td><td className="l">{r.page ? <a href={href.rider(r.id)}>{r.name}</a> : r.name}</td><td className="tnum muted">{r.peak} <small>{t("i", "in")} {r.peak_year}</small></td><td className="tnum">{r.races}</td><td className="tnum">{r.wins || <span className="muted">–</span>}</td><td className="tnum">{dec(r.avg_place)}</td><td className="tnum muted">{r.last}</td></tr>
         ))}</tbody>
       </table></div>
     </section>

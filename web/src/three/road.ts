@@ -2,7 +2,8 @@ import * as THREE from "three";
 import { gradeColour } from "../grade";
 
 /* Geometry shared by the hero and the hill pages: a road ribbon coloured by how steep each stretch is,
-   a translucent curtain under it, and a wire terrain. Colours match the grade legend in the UI. */
+   a translucent curtain under it, a sheet between two lines, a terrain as a solid or a wire, and the
+   contour lines of a terrain. Colours match the grade legend in the UI. */
 
 const tmp = new THREE.Color();
 function rgb(hex: string): [number, number, number] { tmp.set(hex); return [tmp.r, tmp.g, tmp.b]; }
@@ -34,6 +35,23 @@ export function strip(pts: THREE.Vector3[], width: number, colourAt?: (i: number
   return g;
 }
 
+/** A dashed line along `pts`: `on` points of strip, then `off` points of gap, for points spaced evenly. */
+export function dashes(pts: THREE.Vector3[], width: number, on: number, off: number): THREE.BufferGeometry {
+  const parts: THREE.BufferGeometry[] = [];
+  for (let i = 0; i < pts.length - 1; i += on + off) parts.push(strip(pts.slice(i, i + on + 1), width));
+  const n = parts.reduce((s, g) => s + g.attributes.position.count, 0), pos = new Float32Array(n * 3), idx: number[] = [];
+  let at = 0;
+  for (const g of parts) {
+    pos.set(g.attributes.position.array as Float32Array, at * 3);
+    for (const k of g.index!.array) idx.push(k + at);
+    at += g.attributes.position.count; g.dispose();
+  }
+  const g = new THREE.BufferGeometry();
+  g.setAttribute("position", new THREE.BufferAttribute(pos, 3));
+  g.setIndex(idx);
+  return g;
+}
+
 /** A road ribbon coloured by `grades[i]` (downhill %). */
 export const ribbon = (pts: THREE.Vector3[], grades: number[], width: number) =>
   strip(pts, width, (i) => rgb(gradeColour(grades[Math.min(i, grades.length - 1)])));
@@ -52,6 +70,62 @@ export function curtain(pts: THREE.Vector3[], grades: number[], floor: number): 
   g.setAttribute("position", new THREE.BufferAttribute(pos, 3));
   g.setAttribute("color", new THREE.BufferAttribute(col, 4));
   g.setIndex(idx);
+  return g;
+}
+
+/** A surface between two polylines of the same length: quads from a[i] b[i] to a[i+1] b[i+1], with normals for shading. */
+export function sheet(a: THREE.Vector3[], b: THREE.Vector3[]): THREE.BufferGeometry {
+  const n = Math.min(a.length, b.length), pos = new Float32Array(n * 6), idx: number[] = [];
+  for (let i = 0; i < n; i++) {
+    pos.set([a[i].x, a[i].y, a[i].z, b[i].x, b[i].y, b[i].z], i * 6);
+    if (i < n - 1) { const k = i * 2; idx.push(k, k + 1, k + 2, k + 1, k + 3, k + 2); }
+  }
+  const g = new THREE.BufferGeometry();
+  g.setAttribute("position", new THREE.BufferAttribute(pos, 3));
+  g.setIndex(idx);
+  const flat = g.toNonIndexed(); flat.computeVertexNormals(); g.dispose();
+  return flat;
+}
+
+/** A solid height field: `nx` by `nz` cells from x0..x1, z0..z1, height from `h(x, z)`, faceted for flat shading. */
+export function solidTerrain(x0: number, x1: number, z0: number, z1: number, nx: number, nz: number, h: (x: number, z: number) => number): THREE.BufferGeometry {
+  const pos = new Float32Array((nx + 1) * (nz + 1) * 3), idx: number[] = [];
+  for (let j = 0; j <= nz; j++) for (let i = 0; i <= nx; i++) {
+    const x = x0 + ((x1 - x0) * i) / nx, z = z0 + ((z1 - z0) * j) / nz;
+    pos.set([x, h(x, z), z], (j * (nx + 1) + i) * 3);
+    if (i < nx && j < nz) { const a = j * (nx + 1) + i, b = a + 1, c = a + nx + 1, d = c + 1; idx.push(a, c, b, b, c, d); }
+  }
+  const g = new THREE.BufferGeometry();
+  g.setAttribute("position", new THREE.BufferAttribute(pos, 3));
+  g.setIndex(idx);
+  const flat = g.toNonIndexed(); flat.computeVertexNormals(); g.dispose();
+  return flat;
+}
+
+/** Contour lines of a height field every `every` units of height, as line segments (marching squares). */
+export function contours(x0: number, x1: number, z0: number, z1: number, nx: number, nz: number, h: (x: number, z: number) => number, every: number): THREE.BufferGeometry {
+  const H: number[][] = [];
+  for (let j = 0; j <= nz; j++) { H.push([]); for (let i = 0; i <= nx; i++) H[j].push(h(x0 + ((x1 - x0) * i) / nx, z0 + ((z1 - z0) * j) / nz)); }
+  const X = (i: number) => x0 + ((x1 - x0) * i) / nx, Z = (j: number) => z0 + ((z1 - z0) * j) / nz;
+  const out: number[] = [];
+  let lo = Infinity, hi = -Infinity;
+  for (const row of H) for (const v of row) { if (v < lo) lo = v; if (v > hi) hi = v; }
+  for (let lv = Math.ceil(lo / every) * every; lv <= hi; lv += every) {
+    for (let j = 0; j < nz; j++) for (let i = 0; i < nx; i++) {
+      // The four corners, and where the level crosses each edge.
+      const c = [H[j][i], H[j][i + 1], H[j + 1][i + 1], H[j + 1][i]];
+      const px = [X(i), X(i + 1), X(i + 1), X(i)], pz = [Z(j), Z(j), Z(j + 1), Z(j + 1)];
+      const pts: number[][] = [];
+      for (let e = 0; e < 4; e++) {
+        const a = c[e], b = c[(e + 1) % 4];
+        if ((a < lv) !== (b < lv)) { const t = (lv - a) / (b - a); pts.push([px[e] + (px[(e + 1) % 4] - px[e]) * t, lv + 0.04, pz[e] + (pz[(e + 1) % 4] - pz[e]) * t]); }
+      }
+      if (pts.length >= 2) out.push(...pts[0], ...pts[1]);
+      if (pts.length === 4) out.push(...pts[2], ...pts[3]);
+    }
+  }
+  const g = new THREE.BufferGeometry();
+  g.setAttribute("position", new THREE.BufferAttribute(new Float32Array(out), 3));
   return g;
 }
 

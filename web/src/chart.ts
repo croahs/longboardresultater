@@ -24,5 +24,5 @@ export function ticks(lo: number, hi: number): number[] {
   return out;
 }
 
-/** Colours for lines told apart by rider, in the order riders are listed. */
-export const PALETTE = ["#ff7a1f", "#4d8bff", "#43d17c", "#ff5c8a", "#ffd23f", "#b48cff", "#3ed1c7", "#f2f0ea", "#ff4d6d", "#9a9ca8"];
+/** Colours for lines told apart by rider, in the order riders are listed; inks that hold on paper. */
+export const PALETTE = ["#17150f", "#2b5fb3", "#b4501a", "#2a7a4b", "#b8336a", "#6b4fb3", "#1f8a84", "#a08400", "#c8322b", "#7a766c"];

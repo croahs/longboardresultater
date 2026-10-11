@@ -31,7 +31,7 @@ export default function TrackScene({ track, className }: { track: Track; classNa
     const grades = raw.map((p) => -p[3]); // tracks.py: negative = descending; here positive = descending
     const floor = Math.min(...pts.map((p) => p.y)) - 6;
 
-    scene.fog = new THREE.FogExp2(0x0a0b0e, 0.0045);
+    scene.fog = new THREE.FogExp2(0xf3efe6, 0.0045);
     const road = new THREE.Mesh(ribbon(pts, grades, Math.max(1.2, 8 * S)), new THREE.MeshBasicMaterial({ vertexColors: true, side: THREE.DoubleSide }));
     road.renderOrder = 2;
     scene.add(road);
@@ -40,7 +40,7 @@ export default function TrackScene({ track, className }: { track: Track; classNa
     scene.add(veil);
     // A quiet wire ground with a hint of relief, so the hill has somewhere to stand.
     const span = 90;
-    const wire = new THREE.LineSegments(wireTerrain(-span, span, -span, span, 36, 36, (x, z) => floor - 2 + fbm(x * 0.03, z * 0.03) * 3), new THREE.LineBasicMaterial({ color: 0x5a5f72, transparent: true, opacity: 0.25 }));
+    const wire = new THREE.LineSegments(wireTerrain(-span, span, -span, span, 36, 36, (x, z) => floor - 2 + fbm(x * 0.03, z * 0.03) * 3), new THREE.LineBasicMaterial({ color: 0x17150f, transparent: true, opacity: 0.14 }));
     scene.add(wire);
     const ring = (p: THREE.Vector3, colour: number) => {
       const m = new THREE.Mesh(new THREE.TorusGeometry(2.2, 0.28, 10, 40), new THREE.MeshBasicMaterial({ color: colour }));
@@ -48,7 +48,7 @@ export default function TrackScene({ track, className }: { track: Track; classNa
       const pole = new THREE.Mesh(new THREE.CylinderGeometry(0.12, 0.12, p.y - floor, 6), new THREE.MeshBasicMaterial({ color: colour, transparent: true, opacity: 0.5 }));
       pole.position.copy(p).setY((p.y + floor) / 2); scene.add(pole);
     };
-    ring(pts[0], 0xf2f0ea); ring(pts[pts.length - 1], 0xff5a1f);
+    ring(pts[0], 0x17150f); ring(pts[pts.length - 1], 0xf2c230);
 
     camera.near = 0.5; camera.far = 1000; camera.fov = 42; camera.updateProjectionMatrix();
     camera.position.set(70, 55, 95);

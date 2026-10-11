@@ -84,8 +84,8 @@ export interface RatingPool {
 }
 /** The rating after every race for the riders on the now and peak lists: the races [id, name, date, class], and per rider [race index, rating]. */
 export interface Timeline { races: [string, string, string, string][]; riders: Record<string, [number, number][]> }
-/** Elo run over one hill's races alone: who is best there. */
-export interface HillRating { races: number; riders: number; min_races: number; top: RatedWho[] }
+/** The rating run over one hill's races alone: who is best there, with wins and the average place on the hill (null when every race was a DNF). */
+export interface HillRating { races: number; riders: number; min_races: number; top: (RatedWho & { wins: number; avg_place: number | null })[] }
 /** The front page's lists and records, for everything or for the Norway view (the races in Norway, the riders in the view). */
 export interface Highlights {
   recent: { id: string; name: string; cls: string; date: string; date_known?: boolean; type: RaceType; finishers: number; fastest: Who | null; fastest_women: Who | null }[];

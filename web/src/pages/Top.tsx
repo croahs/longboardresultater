@@ -11,7 +11,7 @@ import { Delta, Empty, Loading } from "../ui";
    races and the riders with most wins. sitedata.py writes them into summary.json. */
 
 const title = (k: TopKind): [string, string] => ({
-  rating: ["Rating", t("Hvem som er best, regnet som Elo: hvert race er et oppgjør mot alle andre i listen, og å slå en sterk kjører gir mer enn å slå en svak.", "Who is best, counted as Elo: every race is a match against everyone else in the list, and beating a strong rider gives more than beating a weak one.")],
+  rating: ["Rating", t("Hvem som er best, regnet som rating: hvert race er et oppgjør mot alle andre i listen, og å slå en sterk kjører gir mer enn å slå en svak.", "Who is best, counted as a rating: every race is a match against everyone else in the list, and beating a strong rider gives more than beating a weak one.")],
   felt: [t("Største felt", "Biggest fields"), t("Racene med flest kjørere i resultatlisten.", "The races with the most riders in the result list.")],
   jevnest: [t("Jevneste tidskjøring", "Closest timed races"), t("Racene på tid der vinneren slo nummer to med minst.", "The timed races where the winner beat second place by the least.")],
   seire: [t("Flest seire", "Most wins"), t("Seire i heat-race: finaler og rankinger, ikke kvalifisering på tid.", "Wins in heat races: finals and rankings, not timed qualifying.")],
@@ -144,7 +144,7 @@ function Timeline({ p, riders: listed }: { p: RatingPool; riders: Who[] }) {
         {riders.map((w, i) => <button key={w.id} type="button" className="swatch" aria-pressed={on.has(w.id)} style={colour(i)} onClick={() => toggle(w.id)}><i />{w.name}</button>)}
       </div>
       <div className="chart" ref={ref}>
-        <svg viewBox={`0 0 ${W} ${H}`} width={W} height={H} role="img" aria-label={t("Elo-rating over tid, race for race", "Elo rating over time, race by race")} onMouseLeave={() => setHov(null)}>
+        <svg viewBox={`0 0 ${W} ${H}`} width={W} height={H} role="img" aria-label={t("Rating over tid, race for race", "Rating over time, race by race")} onMouseLeave={() => setHov(null)}>
           {ticks(lo, hi).map((v) => <g key={v}><line x1={L} x2={W - R} y1={y(v)} y2={y(v)} className="grid" /><text x={L - 8} y={y(v) + 4} textAnchor="end" className="tick">{v}</text></g>)}
           {yearTicks.map((yr) => <text key={yr} x={x(Date.parse(`${yr}-01-01`))} y={H - 8} className="tick" textAnchor="middle">{yr}</text>)}
           {shown.map(([w, i]) => <path key={w.id} className="line" style={colour(i)} d={tl.riders[w.id].map(([r, v], j) => `${j ? "L" : "M"}${x(at(r)).toFixed(1)},${y(v).toFixed(1)}`).join(" ")} />)}

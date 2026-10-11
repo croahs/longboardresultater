@@ -34,7 +34,7 @@ export default function Development({ a }: { a: Athlete }) {
       )}
       {rated.length >= 2 && (
         <section className="card card-pad">
-          <div className="section-head tight"><div><h3 className="h-card">{t("Elo-rating", "Elo rating")}</h3><p className="fine">{t("Ratingen etter hvert race som teller. Race og kvalik er hver sin pool, tallene kan ikke sammenlignes på tvers.", "The rating after every race that counts. Heats and qualifying are separate pools; the numbers do not compare across them.")}</p></div>
+          <div className="section-head tight"><div><h3 className="h-card">{t("Rating", "Rating")}</h3><p className="fine">{t("Ratingen etter hvert race som teller. Race og kvalik er hver sin pool, tallene kan ikke sammenlignes på tvers.", "The rating after every race that counts. Heats and qualifying are separate pools; the numbers do not compare across them.")}</p></div>
             <div className="legend">{POOLS.filter((p) => rated.some((r) => poolOf(r) === p)).map((p) => <span key={p} className={`swatch pool-${p}`}><i />{poolLabel(p)}</span>)}</div></div>
           <EloChart rows={rated} />
         </section>
@@ -92,7 +92,7 @@ function EloChart({ rows }: { rows: Result[] }) {
   const cur = i >= 0 ? rows[i] : null;
   return (
     <div className="chart" ref={ref}>
-      <svg viewBox={`0 0 ${W} ${H}`} width={W} height={H} role="img" aria-label={t("Elo-rating, race for race", "Elo rating, race by race")} onMouseLeave={() => setHov(null)}>
+      <svg viewBox={`0 0 ${W} ${H}`} width={W} height={H} role="img" aria-label={t("Rating, race for race", "Rating, race by race")} onMouseLeave={() => setHov(null)}>
         {ticks(lo, hi).map((v) => <g key={v}><line x1={L} x2={W - R} y1={y(v)} y2={y(v)} className="grid" /><text x={L - 8} y={y(v) + 4} textAnchor="end" className="tick">{v}</text></g>)}
         {yearTicks.map(([k, yr]) => <text key={yr} x={x(k)} y={H - 8} className="tick" textAnchor={k === 0 ? "start" : "middle"}>{yr}</text>)}
         {lines.map(([p, ks]) => <path key={p} className={`line pool-${p}`} d={ks.map((k, j) => `${j ? "L" : "M"}${x(k).toFixed(1)},${y(rows[k].elo!).toFixed(1)}`).join(" ")} />)}
@@ -103,7 +103,7 @@ function EloChart({ rows }: { rows: Result[] }) {
           </g>
         ))}
       </svg>
-      <div className="chart-tip" role="status">{cur ? <><b>{cur.race} {cur.year}</b> · {poolLabel(poolOf(cur))} · {placeOf(cur.place, cur.field)} · Elo <b className="tnum">{cur.elo}</b> <Delta d={cur.eloDelta} /></> : <span className="muted">{t("Pek på et punkt.", "Point at a dot.")}</span>}</div>
+      <div className="chart-tip" role="status">{cur ? <><b>{cur.race} {cur.year}</b> · {poolLabel(poolOf(cur))} · {placeOf(cur.place, cur.field)} · {t("Rating", "Rating")} <b className="tnum">{cur.elo}</b> <Delta d={cur.eloDelta} /></> : <span className="muted">{t("Pek på et punkt.", "Point at a dot.")}</span>}</div>
     </div>
   );
 }

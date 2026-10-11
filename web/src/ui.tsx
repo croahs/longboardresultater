@@ -23,9 +23,9 @@ export const Icon = {
   beer: () => <I d="M6 8h10v12H6zm10 3h2a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-2M6 8a3 3 0 0 1 3-4 3 3 0 0 1 5 0 2 2 0 0 1 2 4M10 12v5m3-5v5" />,
 };
 
-/** The mark: a steep road in two stripes. */
+/** The mark: a steep road in ink, with the centre line down it. */
 export const BrandMark = () => (
-  <svg className="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="7" fill="var(--ink)" /><path d="M5 8h9l13 16h-9z" fill="var(--accent)" /><path d="M5 24h5l3-4H8z" fill="var(--bg)" /></svg>
+  <svg className="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><path d="M5 8h9l13 16h-9z" fill="var(--ink)" /><path d="M9 8h2l13 16h-2z" fill="var(--mark)" /></svg>
 );
 
 export const Empty = ({ title, children }: { title: string; children?: ReactNode }) => <div className="empty"><b>{title}</b>{children}</div>;

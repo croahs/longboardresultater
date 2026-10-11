@@ -120,7 +120,8 @@ Hvert rated resultat på kjøreren har også `elo` (ratingen etter racet) og `el
 siden viser i «Alle race», i racedetaljen og som kurve under «Utvikling». `rating.<pool>.timeline` er den
 samme historikken for kjørerne på «nå»- og «alle tider»-listene (også Norge-utvalgets), til kurven på
 ratingsiden. `hill_rating` er den samme Elo-en regnet bare over racene i én bakke, per pool, for kjørere
-med minst 3 race der: hvem som er best i akkurat den bakken, på bakkesiden.
+med minst 3 race der, med antall seiere og snittplassering i bakken (DNF teller som race, ikke som
+plassering): hvem som er best i akkurat den bakken, på bakkesiden.
 
 ## Kjør lokalt
 
