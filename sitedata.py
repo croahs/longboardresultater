@@ -36,6 +36,7 @@ RATED_KINDS = {"Open", "Women", "Junior", "Masters"}  # stand-up longboard; luge
 POOLS = {"race": "bracket", "kvalik": "timed"}  # rating pool -> race format
 ELO_START, ELO_K_NEW, ELO_K, ELO_NEW = 1500, 40, 24, 8  # K for the rider's first ELO_NEW races in a pool, then K
 MIN_RATED, MIN_SEASON, ACTIVE_YEARS, TOP_N = 5, 3, 2, 25
+HILL_MIN = 3  # races on a hill before a rider is listed in the hill's own rating
 
 
 def dump(path, obj, indent=None):
@@ -448,33 +449,23 @@ def ratings(races, reg, index_ids, no):
     races so newcomers settle fast. Ratings never decay: "now" is the rating of riders who raced in the last
     ACTIVE_YEARS seasons, "peak" the highest rating ever held, and "seasons" the top at the end of each season
     among those who raced it. The same lists restricted to the Norway view (no) end in _no; the ratings
-    themselves are the same, everyone raced everyone. Returns (summary per pool, per rider per pool)."""
+    themselves are the same, everyone raced everyone. "timeline" is the rating after every race for the riders
+    on those lists, for the chart. Returns (summary per pool, per rider per pool, per rider the rating after
+    each race)."""
     page = lambda rid: {"id": rid, "name": reg.display(rid), "page": rid in index_ids}
-    out, per_rider = {}, defaultdict(dict)
+    out, per_rider, per_race = {}, defaultdict(dict), defaultdict(dict)
     for pool, fmt in POOLS.items():
         rating, n, peak, last, seasons = {}, Counter(), {}, {}, []
-        pool_races = [r for r in races if r["format"] == fmt and r["type"] in RATED_KINDS and len(r["rows"]) > 1]
+        pool_races = rated(races, fmt)
         years = sorted({r["date"][:4] for r in pool_races})
+        history = defaultdict(list)  # rid -> [(race index, rating after)]
         for i, r in enumerate(pool_races):
-            rows = r["rows"]
-            for y in rows:
-                rating.setdefault(y[0], ELO_START)
-            delta = {}
-            for me in rows:
-                s = e = 0.0
-                for other in rows:
-                    if other is me:
-                        continue
-                    s += {"w": 1.0, "l": 0.0, "d": 0.5}[meeting(r, me, other)[0]]
-                    e += 1 / (1 + 10 ** ((rating[other[0]] - rating[me[0]]) / 400))
-                k = ELO_K_NEW if n[me[0]] < ELO_NEW else ELO_K
-                delta[me[0]] = k * (s - e) / (len(rows) - 1)
-            for rid, d in delta.items():
-                rating[rid] += d
-                n[rid] += 1
+            for rid, d in elo_step(r, rating, n).items():
                 last[rid] = r["date"]
                 if rating[rid] > peak.get(rid, (0, ""))[0]:
                     peak[rid] = (rating[rid], r["date"][:4])
+                history[rid].append((i, round(rating[rid])))
+                per_race[rid][r["id"]] = [round(rating[rid]), round(d)]
             year = r["date"][:4]
             if i + 1 == len(pool_races) or pool_races[i + 1]["date"][:4] != year:
                 raced = {y[0] for x in pool_races[:i + 1] if x["date"][:4] == year for y in x["rows"]}
@@ -489,16 +480,73 @@ def ratings(races, reg, index_ids, no):
         now = sorted(active, key=lambda rid: -rating[rid])
         best = sorted((rid for rid in rating if n[rid] >= MIN_RATED), key=lambda rid: -peak[rid][0])
         now_no, best_no = [rid for rid in now if rid in no], [rid for rid in best if rid in no]
+        # The chart: every race the listed riders rode, numbered afresh, and each rider's rating after each of them.
+        charted = list(dict.fromkeys(now[:TOP_N] + best[:TOP_N] + now_no[:TOP_N] + best_no[:TOP_N]))
+        used = sorted({i for rid in charted for i, _ in history[rid]})
+        renum = {i: k for k, i in enumerate(used)}
+        timeline = {"races": [[pool_races[i]["id"], pool_races[i]["name"], pool_races[i]["date"], pool_races[i]["cls"]] for i in used],
+                    "riders": {rid: [[renum[i], x] for i, x in history[rid]] for rid in charted}}
         out[pool] = {"races": len(pool_races), "riders": len(rating), "since": int(years[0]) if years else None, "until": int(years[-1]) if years else None,
                      "min_races": MIN_RATED, "active_years": ACTIVE_YEARS,
                      "now": [row(rid) for rid in now[:TOP_N]], "peak": [row(rid) for rid in best[:TOP_N]], "seasons": seasons[::-1],
-                     "now_no": [row(rid) for rid in now_no[:TOP_N]], "peak_no": [row(rid) for rid in best_no[:TOP_N]]}
+                     "now_no": [row(rid) for rid in now_no[:TOP_N]], "peak_no": [row(rid) for rid in best_no[:TOP_N]], "timeline": timeline}
         rank_now = {rid: i + 1 for i, rid in enumerate(now)}
         rank_no = {rid: i + 1 for i, rid in enumerate(now_no)}
         for rid in rating:
             per_rider[rid][pool] = {"rating": round(rating[rid]), "peak": round(peak[rid][0]), "peak_year": int(peak[rid][1]),
                                     "races": n[rid], "rank": rank_now.get(rid), "of": len(now), "rank_no": rank_no.get(rid), "of_no": len(now_no)}
-    return out, per_rider
+    return out, per_rider, per_race
+
+
+def rated(races, fmt):
+    """The races that count in a pool: this format, a stand-up class, more than one rider."""
+    return [r for r in races if r["format"] == fmt and r["type"] in RATED_KINDS and len(r["rows"]) > 1]
+
+
+def elo_step(r, rating, n):
+    """One race into the ratings (in place; newcomers start at ELO_START). Returns {rid: change}."""
+    rows = r["rows"]
+    for y in rows:
+        rating.setdefault(y[0], ELO_START)
+    delta = {}
+    for me in rows:
+        s = e = 0.0
+        for other in rows:
+            if other is me:
+                continue
+            s += {"w": 1.0, "l": 0.0, "d": 0.5}[meeting(r, me, other)[0]]
+            e += 1 / (1 + 10 ** ((rating[other[0]] - rating[me[0]]) / 400))
+        k = ELO_K_NEW if n[me[0]] < ELO_NEW else ELO_K
+        delta[me[0]] = k * (s - e) / (len(rows) - 1)
+    for rid, d in delta.items():
+        rating[rid] += d
+        n[rid] += 1
+    return delta
+
+
+def hill_ratings(races, reg, index_ids):
+    """Who is best on each hill: the same Elo, per pool, run over that hill's races alone, so only what
+    happened there counts. Riders with at least HILL_MIN races on the hill, best first; no activity window,
+    hills are raced too seldom for one. {hill: {pool: {races, riders, min_races, top}}}."""
+    page = lambda rid: {"id": rid, "name": reg.display(rid), "page": rid in index_ids}
+    out = defaultdict(dict)
+    for pool, fmt in POOLS.items():
+        by_hill = defaultdict(list)
+        for r in rated(races, fmt):
+            if r["hill"]:
+                by_hill[r["hill"]].append(r)
+        for hill, rs in by_hill.items():
+            rating, n, peak, last = {}, Counter(), {}, {}
+            for r in rs:
+                for rid in elo_step(r, rating, n):
+                    last[rid] = r["date"]
+                    if rating[rid] > peak.get(rid, (0, ""))[0]:
+                        peak[rid] = (rating[rid], r["date"][:4])
+            top = sorted((rid for rid in rating if n[rid] >= HILL_MIN), key=lambda rid: -rating[rid])[:TOP_N]
+            out[hill][pool] = {"races": len(rs), "riders": len(rating), "min_races": HILL_MIN,
+                               "top": [dict(page(rid), rating=round(rating[rid]), peak=round(peak[rid][0]), peak_year=int(peak[rid][1]),
+                                            races=n[rid], last=int(last[rid][:4])) for rid in top]}
+    return dict(out)
 
 
 # ---------------------------------------------------------------- output
@@ -507,7 +555,7 @@ def shard_of(rid):
     return f"{int(rid[1:]) % SHARDS:02}"
 
 
-def summary(races, index_ids, reg, sex, rating, no):
+def summary(races, index_ids, reg, sex, rating, hill_rating, no):
     """data/summary.json: the front page and its top lists, for everything and ("no") for the Norway view:
     the races in Norway and the riders in the view."""
     page = lambda rid: {"id": rid, "name": reg.display(rid), "page": rid in index_ids}
@@ -516,7 +564,7 @@ def summary(races, index_ids, reg, sex, rating, no):
         "events": len({r["event"] for r in races}), "races": len(races), "results": sum(len(r["rows"]) for r in races), "riders": len(everyone),
         "years": sorted({int(r["date"][:4]) for r in races}),
         **highlights(races, races, everyone, page, reg, sex),
-        "rating": rating,
+        "rating": rating, "hill_rating": hill_rating,
     }
     home = [r for r in races if r["norway"]]
     out["no"] = {"events": len({r["event"] for r in home}), "races": len(home), "results": sum(len(r["rows"]) for r in home),
@@ -594,10 +642,13 @@ def main():
                   for r in races]})
 
     index_ids = set(by_rider)
-    rating, rider_rating = ratings(races, reg, index_ids, no)
+    rating, rider_rating, per_race = ratings(races, reg, index_ids, no)
     index, shards = [], defaultdict(dict)
     for rid, mine in by_rider.items():
         results, opps = build_rider(rid, mine, sex, reg, no)
+        for r in results:  # the rating after this race and what it moved, on the rated ones
+            if r["race_id"] in per_race[rid]:
+                r["elo"], r["elo_d"] = per_race[rid][r["race_id"]]
         ranked = rivals(opps)
         ins = insights(opps)
         named = set(ranked) | {x["id"] for v in ins.values() if isinstance(v, list) for x in v} \
@@ -622,7 +673,7 @@ def main():
     for k, v in shards.items():
         dump(os.path.join(riders_dir, f"shard-{k}.json"), v)
 
-    s = summary(races, index_ids, reg, sex, rating, no)
+    s = summary(races, index_ids, reg, sex, rating, hill_ratings(races, reg, index_ids), no)
     dump(os.path.join(DATA, "summary.json"), s)
     # site.json: the example rider on the front page is the one with most races, in the Norway view the same among them.
     dump(os.path.join(DATA, "site", "site.json"), {"default_rider": index[0]["id"] if index else None,

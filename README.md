@@ -115,6 +115,12 @@ kjørte den sesongen. Tallene er bare sammenlignbare innenfor samme pool, og nyk
 forsvinner drar poeng ut av systemet, så ratingene i store felt (2014–) ligger litt høyere enn i de små
 feltene før. Konstantene står øverst i `sitedata.py`.
 
+Hvert rated resultat på kjøreren har også `elo` (ratingen etter racet) og `elo_d` (hva racet flyttet), som
+siden viser i «Alle race», i racedetaljen og som kurve under «Utvikling». `rating.<pool>.timeline` er den
+samme historikken for kjørerne på «nå»- og «alle tider»-listene (også Norge-utvalgets), til kurven på
+ratingsiden. `hill_rating` er den samme Elo-en regnet bare over racene i én bakke, per pool, for kjørere
+med minst 3 race der: hvem som er best i akkurat den bakken, på bakkesiden.
+
 ## Kjør lokalt
 
 På Windows: bruk `py` (Python-launcheren) i stedet for `python3`, for eksempel `py markhills.py`. I PowerShell

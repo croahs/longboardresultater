@@ -33,5 +33,8 @@ export const Loading = ({ what }: { what: string }) => <div className="loading" 
 /** The class a race was run in, as a pill in the kind's colour: "Masters", "Open Eurotour", "Tidskjøring". */
 export const Cls = ({ type, cls, big }: { type: RaceType; cls?: string; big?: boolean }) => <span className={`pill type-${type}${big ? " big" : ""}`}>{cls || typeLabel(type)}</span>;
 
+/** A change in rating, signed and coloured. */
+export const Delta = ({ d }: { d: number | null }) => (d == null ? null : <small className={`delta ${d >= 0 ? "pos" : "neg"}`}>{d >= 0 ? "+" : "−"}{Math.abs(d)}</small>);
+
 /** The share of the field beaten, as a bar. */
 export const Beaten = ({ v }: { v: number }) => <span className="beaten" aria-hidden="true"><i style={{ width: `${Math.max(2, Math.min(100, v))}%` }} /></span>;

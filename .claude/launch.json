@@ -24,18 +24,6 @@
         "--strictPort"
       ],
       "port": 5174
-    },
-    {
-      "name": "web-elo",
-      "runtimeExecutable": "node",
-      "runtimeArgs": [
-        "C:/Users/--/longboardresultater-elo/web/node_modules/vite/bin/vite.js",
-        "C:/Users/--/longboardresultater-elo/web",
-        "--port",
-        "5180",
-        "--strictPort"
-      ],
-      "port": 5180
     }
   ]
 }

@@ -1,10 +1,11 @@
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { POOLS, getJSON, poolLabel, type Pool, type RatingPool, type Summary, type Who } from "../data";
+import { PALETTE, ticks, useWidth } from "../chart";
 import { dateLong, ord, raw, typeLabel } from "../format";
 import { t } from "../lang";
 import { TOP_KINDS, href, type TopKind } from "../nav";
 import { useNorge } from "../scope";
-import { Empty, Loading } from "../ui";
+import { Delta, Empty, Loading } from "../ui";
 
 /* The top lists behind the front page's record cards: the Elo rating, the biggest fields, the closest timed
    races and the riders with most wins. sitedata.py writes them into summary.json. */
@@ -61,7 +62,7 @@ type View = "now" | "peak" | "seasons";
 const VIEWS: View[] = ["now", "peak", "seasons"];
 const viewLabel = (k: View) => ({ now: t("Nå", "Now"), peak: t("Alle tider", "All time"), seasons: t("Sesong for sesong", "Season by season") })[k];
 
-/** The Elo lists: one pool (heats or timed runs) and one view at a time. */
+/** The Elo lists: one pool (heats or timed runs) and one view at a time, and the ratings over time below. */
 function Rating({ pools, norge }: { pools: Record<Pool, RatingPool>; norge: boolean }) {
   const [pool, setPool] = useState<Pool>("race");
   const [view, setView] = useState<View>("now");
@@ -104,6 +105,60 @@ function Rating({ pools, norge }: { pools: Record<Pool, RatingPool>; norge: bool
           ))}</tbody>
         </>}
       </table></div>
+      <Timeline key={`${pool}-${norge}`} p={p} riders={[...now, ...peak]} />
     </>
+  );
+}
+
+const colour = (i: number) => ({ "--c": PALETTE[i % PALETTE.length] }) as React.CSSProperties;
+
+/** The rating over time, race by race, for the riders on the lists above: pick who to draw. Every point is one
+    race; the x-axis is the date. */
+function Timeline({ p, riders: listed }: { p: RatingPool; riders: Who[] }) {
+  const tl = p.timeline;
+  const riders = useMemo(() => [...new Map(listed.map((w) => [w.id, w])).values()].filter((w) => tl?.riders[w.id]?.length), [listed, tl]);
+  const [on, setOn] = useState(() => new Set(riders.slice(0, 8).map((w) => w.id)));
+  const [ref, W] = useWidth<HTMLDivElement>();
+  const [hov, setHov] = useState<[string, number] | null>(null);
+  if (!tl || !riders.length) return null;
+  const shown = riders.map((w, i) => [w, i] as const).filter(([w]) => on.has(w.id));
+  const H = 340, L = 46, R = 14, T = 16, B = 30;
+  const at = (i: number) => Date.parse(tl.races[i][2]);
+  const pts = shown.flatMap(([w]) => tl.riders[w.id]);
+  const t0 = pts.length ? Math.min(...pts.map(([i]) => at(i))) : at(0), t1 = pts.length ? Math.max(...pts.map(([i]) => at(i))) : at(tl.races.length - 1);
+  const lo = pts.length ? Math.min(...pts.map(([, v]) => v)) - 20 : 1400, hi = pts.length ? Math.max(...pts.map(([, v]) => v)) + 20 : 1800;
+  const x = (ms: number) => L + ((ms - t0) / Math.max(t1 - t0, 1)) * (W - L - R);
+  const y = (v: number) => T + (1 - (v - lo) / Math.max(hi - lo, 1)) * (H - T - B);
+  const y0 = new Date(t0).getFullYear(), y1 = new Date(t1).getFullYear(), every = Math.ceil((y1 - y0 + 1) / 10);
+  const yearTicks: number[] = [];
+  for (let yr = y0; yr <= y1; yr += every) if (x(Date.parse(`${yr}-01-01`)) >= L) yearTicks.push(yr);
+  const cur = hov && (() => {
+    const [rid, k] = hov, w = riders.find((r) => r.id === rid)!, [i, v] = tl.riders[rid][k];
+    return { w, race: tl.races[i], v, d: v - (k ? tl.riders[rid][k - 1][1] : 1500) };
+  })();
+  const toggle = (id: string) => setOn((s) => { const n = new Set(s); if (!n.delete(id)) n.add(id); return n; });
+  return (
+    <section className="card card-pad timeline" aria-labelledby="h-timeline">
+      <div className="section-head tight"><div><h3 className="h-card" id="h-timeline">{t("Utviklingen", "Over time")}</h3><p className="fine">{t("Ratingen etter hvert race, for kjørerne på listene. Trykk på et navn for å vise eller skjule.", "The rating after every race, for the riders on the lists. Tap a name to show or hide it.")}</p></div></div>
+      <div className="legend picker" role="group" aria-label={t("Kjørere", "Riders")}>
+        {riders.map((w, i) => <button key={w.id} type="button" className="swatch" aria-pressed={on.has(w.id)} style={colour(i)} onClick={() => toggle(w.id)}><i />{w.name}</button>)}
+      </div>
+      <div className="chart" ref={ref}>
+        <svg viewBox={`0 0 ${W} ${H}`} width={W} height={H} role="img" aria-label={t("Elo-rating over tid, race for race", "Elo rating over time, race by race")} onMouseLeave={() => setHov(null)}>
+          {ticks(lo, hi).map((v) => <g key={v}><line x1={L} x2={W - R} y1={y(v)} y2={y(v)} className="grid" /><text x={L - 8} y={y(v) + 4} textAnchor="end" className="tick">{v}</text></g>)}
+          {yearTicks.map((yr) => <text key={yr} x={x(Date.parse(`${yr}-01-01`))} y={H - 8} className="tick" textAnchor="middle">{yr}</text>)}
+          {shown.map(([w, i]) => <path key={w.id} className="line" style={colour(i)} d={tl.riders[w.id].map(([r, v], j) => `${j ? "L" : "M"}${x(at(r)).toFixed(1)},${y(v).toFixed(1)}`).join(" ")} />)}
+          {shown.map(([w, i]) => tl.riders[w.id].map(([r, v], k) => (
+            <g key={`${w.id}-${k}`} className="pt small" style={colour(i)} onMouseEnter={() => setHov([w.id, k])}>
+              <circle cx={x(at(r))} cy={y(v)} r={hov && hov[0] === w.id && hov[1] === k ? 6 : 3} />
+              <circle cx={x(at(r))} cy={y(v)} r={8} fill="transparent" />
+            </g>
+          )))}
+        </svg>
+        <div className="chart-tip" role="status">{cur
+          ? <><b>{cur.w.name}</b> · <a href={href.race(cur.race[0])}>{cur.race[1]} {cur.race[2].slice(0, 4)}</a> <span className="muted">{cur.race[3]}</span> · {dateLong(cur.race[2])} · <b className="tnum">{cur.v}</b> <Delta d={cur.d} /></>
+          : <span className="muted">{shown.length ? t("Pek på et punkt.", "Point at a dot.") : t("Velg kjørere over.", "Pick riders above.")}</span>}</div>
+      </div>
+    </section>
   );
 }

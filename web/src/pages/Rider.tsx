@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from "react";
-import { POOLS, hills, poolLabel, loadAthlete, median, norgeOnly, womenOnly, years, type Athlete, type Hill, type IndexRider, type RaceType, type Result } from "../data";
+import { POOLS, hills, poolLabel, loadAthlete, median, norgeOnly, womenOnly, years, type Athlete, type Hill, type IndexRider, type Pool, type RaceType, type Result } from "../data";
 import { clock, count, dateLong, dateShort, firstName, initials, ord, pct, placeOf, span, typeLabel } from "../format";
 import { t } from "../lang";
 import { KlasseProvider, KlasseToggle, useFelt } from "../klasse";
@@ -7,7 +7,7 @@ import { TABS, href, tabLabel, type Tab } from "../nav";
 import { addRecent } from "../recent";
 import { useNorge } from "../scope";
 import { SelProvider, raceKey, useSel } from "../state";
-import { Beaten, Cls, Empty, Icon, Loading } from "../ui";
+import { Beaten, Cls, Delta, Empty, Icon, Loading } from "../ui";
 import Development from "./Development";
 import Races from "./Races";
 import Rivals from "./Rivals";
@@ -47,6 +47,8 @@ function Head({ a, tab }: { a: Athlete; tab: Tab }) {
   const wins = a.results.filter((r) => r.place === 1 && r.format === "bracket").length;
   const podiums = a.results.filter((r) => r.place <= 3).length;
   const best = a.results.reduce<Result | null>((b, r) => (!b || r.place < b.place || (r.place === b.place && r.field > b.field) ? r : b), null);
+  const pool: Pool | null = a.rating.race ? "race" : a.rating.kvalik ? "kvalik" : null; // the heat rating, or the timed one for a rider with no rated heats
+  const elo = pool ? a.rating[pool]! : null;
   return (
     <header className="rider-head">
       <div className="bib" aria-label={t(`Startkort for ${a.name}`, `Race bib for ${a.name}`)}>
@@ -58,6 +60,7 @@ function Head({ a, tab }: { a: Athlete; tab: Tab }) {
           <div><dt>{t("seire", "wins")}</dt><dd className="tnum">{wins}</dd></div>
           <div><dt>{t("pallplasser", "podiums")}</dt><dd className="tnum">{podiums}</dd></div>
           <div title={best ? `${placeOf(best.place, best.field)} ${t("i", "in")} ${best.race} ${best.year}` : undefined}><dt>{t("beste plass", "best place")}</dt><dd className="tnum">{best ? ord(best.place) : "–"}</dd></div>
+          <div title={elo ? t(`Elo i ${poolLabel(pool!).toLowerCase()}-poolen${elo.rank ? `, ${elo.rank}. av ${elo.of} aktive` : ""}, topp ${elo.peak} i ${elo.peak_year}`, `Elo in the ${poolLabel(pool!).toLowerCase()} pool${elo.rank ? `, ${ord(elo.rank)} of ${elo.of} active` : ""}, peak ${elo.peak} in ${elo.peak_year}`) : t("Ingen race som teller i ratingen", "No races that count in the rating")}><dt>elo{pool === "kvalik" ? ` ${poolLabel(pool).toLowerCase()}` : ""}</dt><dd className="tnum">{elo ? elo.rating : "–"}</dd></div>
         </dl>
         <div className="bib-foot"><span className="tnum">{span(ys)}{a.sex === "K" ? t(" · har kjørt dameklassen", " · has raced the women's class") : ""} · {t("resultatlister", "result lists")}</span><KlasseToggle /></div>
       </div>
@@ -234,6 +237,7 @@ function Detail({ r, rows, who }: { r: Result | null; rows: Result[]; who: strin
       <div className="detail-big"><b className="tnum">{ord(r.place)}</b><span>{t("av", "of")} {r.field} {r.basis === "blant kvinnene" ? t("blant kvinnene", "among the women") : t("i feltet", "in the field")}</span></div>
       <dl className="facts-list">
         <div><dt>{t("Slo", "Beat")}</dt><dd className="tnum">{pct(r.beaten)} <span className="muted">{t("av", "of")} {felt}</span></dd></div>
+        {r.elo != null && <div><dt>{t("Elo etter", "Elo after")}</dt><dd className="tnum">{r.elo} <Delta d={r.eloDelta} /></dd></div>}
         {r.time != null && <div><dt>{t("Tid", "Time")}</dt><dd className="tnum">{clock(r.time)}{r.winner != null && r.winner !== r.time ? <span className="muted"> · {t("vinner", "winner")} {clock(r.winner)}</span> : ""}</dd></div>}
         {r.behind != null && r.behind > 0 && <div><dt>{t("Bak vinneren", "Behind the winner")}</dt><dd className="tnum">{pct(r.behind, 1)}</dd></div>}
         {r.women && r.basis === "i feltet" && <div><dt>{t("Blant kvinnene", "Among the women")}</dt><dd className="tnum">{placeOf(r.women.place, r.women.field)}</dd></div>}

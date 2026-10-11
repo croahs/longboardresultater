@@ -21,6 +21,8 @@ export interface Result {
   time: number | null; winner: number | null; // seconds (timed races)
   link: string;       // the post on ndsf.no
   hill: string | null;
+  elo: number | null;      // Elo after this race, when it counted in a pool (sitedata.py)
+  eloDelta: number | null; // what the race moved the rating
   video?: string;     // the rider's own video from this race (data/videos.json)
   videos?: RaceVideo[]; // every rider's video from this race, the rider's own first
   women: Women | null; // placing among the women in the same race; null in women's races, for DNF or unknown sex
@@ -78,7 +80,12 @@ export interface RatingPool {
   peak: RatedWho[];  // the highest rating ever held
   now_no?: RatedWho[]; peak_no?: RatedWho[]; // the same among the riders in the Norway view
   seasons: { year: number; top: (Who & { rating: number; races: number })[]; top_no?: (Who & { rating: number; races: number })[] }[]; // the top at the end of each season, newest first
+  timeline?: Timeline;
 }
+/** The rating after every race for the riders on the now and peak lists: the races [id, name, date, class], and per rider [race index, rating]. */
+export interface Timeline { races: [string, string, string, string][]; riders: Record<string, [number, number][]> }
+/** Elo run over one hill's races alone: who is best there. */
+export interface HillRating { races: number; riders: number; min_races: number; top: RatedWho[] }
 /** The front page's lists and records, for everything or for the Norway view (the races in Norway, the riders in the view). */
 export interface Highlights {
   recent: { id: string; name: string; cls: string; date: string; date_known?: boolean; type: RaceType; finishers: number; fastest: Who | null; fastest_women: Who | null }[];
@@ -93,6 +100,7 @@ export interface Summary extends Highlights, Counts {
   years: number[];
   no?: Highlights & Counts;
   rating?: Record<Pool, RatingPool>;
+  hill_rating?: Record<string, Partial<Record<Pool, HillRating>>>; // per hill id
 }
 
 const cache = new Map<string, Promise<unknown>>();
@@ -121,7 +129,7 @@ function opponents(raw: RawOpp[] | undefined): Map<string, Opponent> {
 interface RawResult {
   race_id: string; race: string; cls: string; type: RaceType; format: Format; date: string;
   place: number | null; field: number; beaten_pct: number | null; time: number | null; winner: number | null;
-  behind_pct: number | null; link: string; hill: string | null; women_place?: number; women_field?: number;
+  behind_pct: number | null; link: string; hill: string | null; women_place?: number; women_field?: number; elo?: number; elo_d?: number;
 }
 interface RawProfile {
   id: string; name: string; club: string; sex?: Sex; no?: boolean; results: RawResult[];
@@ -135,7 +143,7 @@ function result(r: RawResult): Result | null {
   return {
     raceId: r.race_id, race: r.race, cls: r.cls, date: r.date, year: Number(r.date.slice(0, 4)), type: r.type, format: r.format,
     place, field, basis: "i feltet", top: (place / field) * 100, beaten: Math.max(0, Math.min(100, r.beaten_pct ?? beatenOf(place, field))),
-    behind: r.behind_pct, time: r.time, winner: r.winner, link: r.link || "", hill: r.hill,
+    behind: r.behind_pct, time: r.time, winner: r.winner, link: r.link || "", hill: r.hill, elo: r.elo ?? null, eloDelta: r.elo_d ?? null,
     women: r.women_place != null && r.women_field != null ? { place: r.women_place, field: r.women_field, beaten: beatenOf(r.women_place, r.women_field) } : null,
   };
 }

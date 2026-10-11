@@ -1,13 +1,13 @@
 import { Suspense, lazy, useEffect, useState } from "react";
-import { hills, loadTrack, raceLists, type Hill as HillT, type RaceList, type Track } from "../data";
+import { POOLS, getJSON, hills, loadTrack, poolLabel, raceLists, type Hill as HillT, type HillRating, type Pool, type RaceList, type Summary, type Track } from "../data";
 import { dateLong, num, pct, typeLabel } from "../format";
 import { t } from "../lang";
 import { href } from "../nav";
 import { gradeLegend } from "../grade";
 import { Empty, Loading } from "../ui";
 
-/* One hill: the road in 3D, coloured by steepness, and every race run on it. The road comes from tracks.py
-   once start and finish are marked in data/hills.json; until then the page says so. */
+/* One hill: the road in 3D, coloured by steepness, who is best here, and every race run on it. The road comes
+   from tracks.py once start and finish are marked in data/hills.json; until then the page says so. */
 
 const TrackScene = lazy(() => import("../three/TrackScene"));
 
@@ -15,12 +15,14 @@ export default function Hill({ id }: { id: string }) {
   const [hill, setHill] = useState<HillT | null | undefined>(undefined);
   const [track, setTrack] = useState<Track | null>(null);
   const [races, setRaces] = useState<RaceList[]>([]);
+  const [rating, setRating] = useState<Partial<Record<Pool, HillRating>>>({});
   useEffect(() => {
     let live = true;
-    Promise.all([hills(), loadTrack(id), raceLists()]).then(([hs, t, rs]) => {
+    Promise.all([hills(), loadTrack(id), raceLists(), getJSON<Summary>("summary.json").catch(() => null)]).then(([hs, tr, rs, s]) => {
       if (!live) return;
-      setHill(hs.find((h) => h.id === id) ?? null); setTrack(t);
+      setHill(hs.find((h) => h.id === id) ?? null); setTrack(tr);
       setRaces(rs.filter((r) => r.hill === id).sort((a, b) => b.date.localeCompare(a.date)));
+      setRating(s?.hill_rating?.[id] || {});
     }).catch(() => live && setHill(null));
     return () => { live = false; };
   }, [id]);
@@ -51,6 +53,7 @@ export default function Hill({ id }: { id: string }) {
         <div><dt>{t("Stevner", "Events")}</dt><dd className="tnum">{events.size}</dd></div>
         <div><dt>{t("Kjørere", "Riders")}</dt><dd className="tnum">{riders}</dd></div>
       </dl>
+      <BestHere name={hill.name} rating={rating} />
       <div className="section-head"><div><p className="eyebrow">{t("Kjørt her", "Raced here")}</p><h2 className="h-section">{t("Race i", "Races at")} {hill.name}</h2></div></div>
       {events.size === 0 ? <Empty title={t("Ingen resultatlister fra denne bakken ennå", "No result lists from this hill yet")} /> : (
         <div className="event-grid">
@@ -66,6 +69,34 @@ export default function Hill({ id }: { id: string }) {
         </div>
       )}
       {track && <p className="fine">{t("Vei fra", "Road from")} {track.source}.</p>}
+    </section>
+  );
+}
+
+/** Who is best on this hill: the Elo run over the hill's races alone (sitedata.py), one pool at a time. */
+function BestHere({ name, rating }: { name: string; rating: Partial<Record<Pool, HillRating>> }) {
+  const pools = POOLS.filter((k) => rating[k]?.top.length);
+  const [pick, setPick] = useState<Pool | null>(null);
+  const pool = pick && pools.includes(pick) ? pick : pools[0];
+  if (!pool) return null;
+  const p = rating[pool]!;
+  return (
+    <section className="hill-rating" aria-labelledby="h-best">
+      <div className="section-head">
+        <div>
+          <p className="eyebrow">{t("Hvem som er best her", "Who is best here")}</p>
+          <h2 className="h-section" id="h-best">{t("Rating i", "Rating at")} {name}</h2>
+          <p className="lead">{t(`Elo regnet bare over racene i denne bakken: ${p.races} ${pool === "race" ? "heat-race" : "race på tid"} og ${p.riders} kjørere. Minst ${p.min_races} race her for å stå på listen, og ratingen faller ikke av seg selv.`,
+            `Elo over this hill's races alone: ${p.races} ${pool === "race" ? "heat races" : "timed races"} and ${p.riders} riders. At least ${p.min_races} races here to be listed, and the rating does not decay.`)}</p>
+        </div>
+        {pools.length > 1 && <div className="chips" role="group" aria-label="Pool">{pools.map((k) => <button key={k} type="button" className="chip" aria-pressed={pool === k} onClick={() => setPick(k)}>{poolLabel(k)}</button>)}</div>}
+      </div>
+      <div className="card table-wrap"><table className="sheet top">
+        <thead><tr><th>#</th><th>Rating</th><th className="l">{t("Kjører", "Rider")}</th><th>{t("Topp", "Peak")}</th><th>{t("Race her", "Races here")}</th><th>{t("Sist", "Last")}</th></tr></thead>
+        <tbody>{p.top.map((r, i) => (
+          <tr key={r.id}><td className="tnum">{i + 1}</td><td className="tnum big">{r.rating}</td><td className="l">{r.page ? <a href={href.rider(r.id)}>{r.name}</a> : r.name}</td><td className="tnum muted">{r.peak} <small>{t("i", "in")} {r.peak_year}</small></td><td className="tnum">{r.races}</td><td className="tnum muted">{r.last}</td></tr>
+        ))}</tbody>
+      </table></div>
     </section>
   );
 }

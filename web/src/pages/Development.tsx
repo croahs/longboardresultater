@@ -1,13 +1,14 @@
-import { useEffect, useMemo, useRef, useState } from "react";
-import { median, years, type Athlete, type Result } from "../data";
+import { useMemo, useState } from "react";
+import { POOLS, median, poolLabel, years, type Athlete, type Pool, type Result } from "../data";
+import { ticks, useWidth } from "../chart";
 import { dateLong, firstName, ord, pct, placeOf, typeLabel } from "../format";
 import { t } from "../lang";
 import { useFelt } from "../klasse";
 import { raceKey, useSel } from "../state";
-import { Empty } from "../ui";
+import { Delta, Empty } from "../ui";
 
-/* How the rider has placed over time: one point per race, a thick line for the median of the last five,
-   and the same events year by year. */
+/* How the rider has placed over time: one point per race, a thick line for the median of the last five;
+   the Elo rating after every race that counted; and the same events year by year. */
 
 export default function Development({ a }: { a: Athlete }) {
   const felt = useFelt();
@@ -15,6 +16,7 @@ export default function Development({ a }: { a: Athlete }) {
   const ys = years(a);
   const who = firstName(a.name);
   const types = [...new Set(rows.map((r) => r.type))];
+  const rated = rows.filter((r) => r.elo != null);
   return (
     <>
       <div className="section-head">
@@ -30,21 +32,16 @@ export default function Development({ a }: { a: Athlete }) {
           <Chart rows={rows} />
         </section>
       )}
+      {rated.length >= 2 && (
+        <section className="card card-pad">
+          <div className="section-head tight"><div><h3 className="h-card">{t("Elo-rating", "Elo rating")}</h3><p className="fine">{t("Ratingen etter hvert race som teller. Race og kvalik er hver sin pool, tallene kan ikke sammenlignes på tvers.", "The rating after every race that counts. Heats and qualifying are separate pools; the numbers do not compare across them.")}</p></div>
+            <div className="legend">{POOLS.filter((p) => rated.some((r) => poolOf(r) === p)).map((p) => <span key={p} className={`swatch pool-${p}`}><i />{poolLabel(p)}</span>)}</div></div>
+          <EloChart rows={rated} />
+        </section>
+      )}
       <SameRace a={a} who={who} />
     </>
   );
-}
-
-function useWidth<T extends HTMLElement>(): [React.RefObject<T>, number] {
-  const ref = useRef<T>(null);
-  const [w, setW] = useState(760);
-  useEffect(() => {
-    if (!ref.current) return;
-    const ro = new ResizeObserver(([e]) => setW(Math.max(300, Math.round(e.contentRect.width))));
-    ro.observe(ref.current);
-    return () => ro.disconnect();
-  }, []);
-  return [ref, w];
 }
 
 function Chart({ rows }: { rows: Result[] }) {
@@ -73,6 +70,40 @@ function Chart({ rows }: { rows: Result[] }) {
         ))}
       </svg>
       <div className="chart-tip" role="status">{cur ? <><b>{cur.race} {cur.year}</b> · {dateLong(cur.date)} · {placeOf(cur.place, cur.field)} · {t("slo", "beat")} {pct(cur.beaten)}</> : <span className="muted">{t("Pek på et punkt.", "Point at a dot.")}</span>}</div>
+    </div>
+  );
+}
+
+const poolOf = (r: Result): Pool => (r.format === "bracket" ? "race" : "kvalik");
+
+/** The Elo rating after each rated race, in date order, one line per pool. */
+function EloChart({ rows }: { rows: Result[] }) {
+  const [ref, W] = useWidth<HTMLDivElement>();
+  const { sel, setSel } = useSel();
+  const [hov, setHov] = useState<number | null>(null);
+  const H = 260, L = 46, R = 14, T = 16, B = 30;
+  const n = rows.length, step = (W - L - R) / Math.max(n - 1, 1);
+  const vs = rows.map((r) => r.elo!);
+  const lo = Math.min(...vs) - 20, hi = Math.max(...vs) + 20;
+  const x = (i: number) => L + i * step, y = (v: number) => T + (1 - (v - lo) / (hi - lo)) * (H - T - B);
+  const yearTicks = rows.flatMap((r, i) => (i === 0 || r.year !== rows[i - 1].year ? [[i, r.year] as const] : []));
+  const lines = POOLS.map((p) => [p, rows.flatMap((r, k) => (poolOf(r) === p ? [k] : []))] as const).filter(([, ks]) => ks.length);
+  const i = hov ?? (sel ? rows.findIndex((r) => raceKey(r) === sel) : -1);
+  const cur = i >= 0 ? rows[i] : null;
+  return (
+    <div className="chart" ref={ref}>
+      <svg viewBox={`0 0 ${W} ${H}`} width={W} height={H} role="img" aria-label={t("Elo-rating, race for race", "Elo rating, race by race")} onMouseLeave={() => setHov(null)}>
+        {ticks(lo, hi).map((v) => <g key={v}><line x1={L} x2={W - R} y1={y(v)} y2={y(v)} className="grid" /><text x={L - 8} y={y(v) + 4} textAnchor="end" className="tick">{v}</text></g>)}
+        {yearTicks.map(([k, yr]) => <text key={yr} x={x(k)} y={H - 8} className="tick" textAnchor={k === 0 ? "start" : "middle"}>{yr}</text>)}
+        {lines.map(([p, ks]) => <path key={p} className={`line pool-${p}`} d={ks.map((k, j) => `${j ? "L" : "M"}${x(k).toFixed(1)},${y(rows[k].elo!).toFixed(1)}`).join(" ")} />)}
+        {rows.map((r, k) => (
+          <g key={raceKey(r)} className={`pt pool-${poolOf(r)}`} onMouseEnter={() => setHov(k)} onClick={() => setSel(sel === raceKey(r) ? null : raceKey(r))} style={{ cursor: "pointer" }}>
+            <circle cx={x(k)} cy={y(r.elo!)} r={k === i ? 7 : 4.5} />
+            <circle cx={x(k)} cy={y(r.elo!)} r={Math.max(9, step / 2)} fill="transparent" />
+          </g>
+        ))}
+      </svg>
+      <div className="chart-tip" role="status">{cur ? <><b>{cur.race} {cur.year}</b> · {poolLabel(poolOf(cur))} · {placeOf(cur.place, cur.field)} · Elo <b className="tnum">{cur.elo}</b> <Delta d={cur.eloDelta} /></> : <span className="muted">{t("Pek på et punkt.", "Point at a dot.")}</span>}</div>
     </div>
   );
 }

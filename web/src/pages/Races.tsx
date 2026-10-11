@@ -4,11 +4,11 @@ import { clock, dateLong, fold, pct, typeLabel } from "../format";
 import { t } from "../lang";
 import { href } from "../nav";
 import { useSel } from "../state";
-import { Beaten, Cls, Icon } from "../ui";
+import { Beaten, Cls, Delta, Icon } from "../ui";
 
 /* Every race the rider has placed in, as a sortable table. A race links to its full result list. */
 
-type SortKey = "date" | "beaten" | "place";
+type SortKey = "date" | "beaten" | "place" | "elo";
 
 export default function Races({ a }: { a: Athlete }) {
   const { season, setSeason } = useSel();
@@ -17,9 +17,10 @@ export default function Races({ a }: { a: Athlete }) {
   const [type, setType] = useState<RaceType | "all">("all");
   const [sort, setSort] = useState<{ k: SortKey; desc: boolean }>({ k: "date", desc: true });
   const types = [...new Set(a.results.map((r) => r.type))];
+  const rated = a.results.some((r) => r.elo != null);
   const rows = useMemo(() => {
     const s = fold(q.trim());
-    const val = (r: Result) => (sort.k === "date" ? r.date : sort.k === "beaten" ? r.beaten : r.place);
+    const val = (r: Result) => (sort.k === "date" ? r.date : sort.k === "beaten" ? r.beaten : sort.k === "elo" ? r.elo ?? -Infinity : r.place);
     return a.results.filter((r) => (season === "all" || r.year === season) && (type === "all" || r.type === type) && (!s || fold(`${r.race} ${r.year} ${r.cls}`).includes(s)))
       .sort((x, y) => { const d = val(x) < val(y) ? -1 : val(x) > val(y) ? 1 : 0; return sort.desc ? -d : d; });
   }, [a, q, type, sort, season]);
@@ -30,7 +31,7 @@ export default function Races({ a }: { a: Athlete }) {
   );
   return (
     <>
-      <div className="section-head"><div><p className="eyebrow">{t("Hele listen", "The full list")}</p><h2 className="h-section">{t("Alle race", "All races")}</h2><p className="lead">{t("Trykk på en kolonne for å sortere, og på et race for hele resultatlisten.", "Tap a column to sort, and a race for its full result list.")}</p></div></div>
+      <div className="section-head"><div><p className="eyebrow">{t("Hele listen", "The full list")}</p><h2 className="h-section">{t("Alle race", "All races")}</h2><p className="lead">{t("Trykk på en kolonne for å sortere, og på et race for hele resultatlisten.", "Tap a column to sort, and a race for its full result list.")}{rated ? t(" Elo er ratingen etter racet, og hva racet flyttet den.", " Elo is the rating after the race, and what the race moved it.") : ""}</p></div></div>
       <section className="card">
         <div className="toolbar">
           <input type="search" placeholder={t("Filtrer på navn", "Filter by name")} aria-label={t("Filtrer på navn", "Filter by name")} value={q} onChange={(e) => setQ(e.target.value)} />
@@ -45,7 +46,7 @@ export default function Races({ a }: { a: Athlete }) {
         </div>
         {rows.length === 0 ? <div className="empty"><b>{t("Ingen race passer filteret", "No races match the filter")}</b><button className="btn" onClick={() => { setQ(""); setType("all"); setSeason("all"); }}>{t("Nullstill", "Reset")}</button></div> : (
           <div className="table-wrap"><table className="sheet races">
-            <thead><tr>{th("date", t("Dato", "Date"), "l")}<th className="l">Race</th><th className="l">{t("Klasse", "Class")}</th>{th("place", t("Plass", "Place"))}{th("beaten", t("Slo", "Beat"), "l")}<th>{t("Tid", "Time")}</th><th>{t("Bak", "Behind")}</th><th></th></tr></thead>
+            <thead><tr>{th("date", t("Dato", "Date"), "l")}<th className="l">Race</th><th className="l">{t("Klasse", "Class")}</th>{th("place", t("Plass", "Place"))}{th("beaten", t("Slo", "Beat"), "l")}{rated && th("elo", "Elo")}<th>{t("Tid", "Time")}</th><th>{t("Bak", "Behind")}</th><th></th></tr></thead>
             <tbody>{rows.map((r) => (
               <tr key={r.raceId + r.basis} className={`type-${r.type}`}>
                 <td className="l muted nowrap">{dateLong(r.date)}</td>
@@ -53,6 +54,7 @@ export default function Races({ a }: { a: Athlete }) {
                 <td className="l"><Cls type={r.type} cls={r.cls} /></td>
                 <td className="tnum"><b>{r.place}</b><span className="muted">/{r.field}</span></td>
                 <td className="l beaten-cell"><Beaten v={r.beaten} /><span className="tnum">{Math.round(r.beaten)} %</span></td>
+                {rated && <td className="tnum nowrap">{r.elo != null ? <><b>{r.elo}</b> <Delta d={r.eloDelta} /></> : <span className="muted">–</span>}</td>}
                 <td className="tnum">{r.time != null ? clock(r.time) : <span className="muted">–</span>}</td>
                 <td className="tnum muted">{r.behind != null && r.behind > 0 ? pct(r.behind, 1) : ""}</td>
                 <td className="links">{r.video && <a href={r.video} target="_blank" rel="noopener" aria-label="Video" title="Video"><Icon.play /></a>}{r.link && <a href={r.link} target="_blank" rel="noopener" aria-label={t(`Kilden for ${r.race} ${r.year}`, `Source for ${r.race} ${r.year}`)} title={t("Kilden", "Source")}><Icon.out /></a>}</td>
