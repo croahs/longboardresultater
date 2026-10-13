@@ -405,11 +405,11 @@
      "dns": false
     },
     {
-     "place": null,
+     "place": 56,
      "name": "Simon Darre",
      "time": 109.97,
      "dnf": false,
-     "dns": true
+     "dns": false
     },
     {
      "place": 57,
@@ -426,11 +426,11 @@
      "dns": false
     },
     {
-     "place": null,
+     "place": 58,
      "name": "Torstein Tofte",
      "time": 111.54,
      "dnf": false,
-     "dns": true
+     "dns": false
     },
     {
      "place": 60,
@@ -538,11 +538,11 @@
      "dns": false
     },
     {
-     "place": null,
+     "place": 75,
      "name": "Morten Dale",
      "time": 119.16,
      "dnf": false,
-     "dns": true
+     "dns": false
     },
     {
      "place": 76,
@@ -594,11 +594,11 @@
      "dns": false
     },
     {
-     "place": null,
+     "place": 83,
      "name": "Erik Evensen",
      "time": 136.63,
      "dnf": false,
-     "dns": true
+     "dns": false
     }
    ]
   },

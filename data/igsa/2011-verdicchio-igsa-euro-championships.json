@@ -1223,755 +1223,755 @@
    "source": "http://web.archive.org/web/20111008011929id_/http://www.igsaworldcup.com/results/2011/2011_verdicio_euro_championships_co_qual.pdf / Downhill Skateboard / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Jackson Shapiera",
      "time": 187.17,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Ramón Königshausen",
      "time": 187.75,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Max Ballesteros",
      "time": 189.88,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Sebastian Hertler",
      "time": 190.05,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Nicolas Robert",
      "time": 190.07,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Christoph Batt",
      "time": 190.43,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Luke Melo",
      "time": 190.65,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Mischo Erban",
      "time": 190.66,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Justin Readings",
      "time": 190.8,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ENG"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Stefan Rüfli",
      "time": 191.32,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "Kevin Bouaich",
      "time": 191.58,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 12,
      "name": "Pierre Conan",
      "time": 192.73,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 13,
      "name": "Robin Sandberg",
      "time": 192.92,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 14,
      "name": "Christoph Haller",
      "time": 193.53,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 15,
      "name": "Daniel Hawes",
      "time": 193.63,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 16,
      "name": "Jakob Raab",
      "time": 193.64,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 17,
      "name": "Adam Persson",
      "time": 193.71,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 18,
      "name": "Yvon Labarthe",
      "time": 193.82,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 19,
      "name": "Leon Ritter",
      "time": 194.1,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 20,
      "name": "Alex Dehmel",
      "time": 194.27,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 21,
      "name": "Sebastien Tournissac",
      "time": 194.42,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 22,
      "name": "Olivier Bareaud",
      "time": 194.82,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 23,
      "name": "Courtois Thibault",
      "time": 195.41,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 24,
      "name": "Braden Tibbles",
      "time": 195.62,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 25,
      "name": "Marcos Costa",
      "time": 195.7,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "URU"
     },
     {
-     "place": null,
+     "place": 26,
      "name": "Aleix Gallimo",
      "time": 196.09,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SPA"
     },
     {
-     "place": null,
+     "place": 27,
      "name": "Alex Tongue",
      "time": 196.44,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 28,
      "name": "Michail slivenecky",
      "time": 196.5,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CZ"
     },
     {
-     "place": null,
+     "place": 29,
      "name": "Mathias Lessmann",
      "time": 196.51,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 30,
      "name": "Torbjon Sunde",
      "time": 196.79,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NOR"
     },
     {
-     "place": null,
+     "place": 31,
      "name": "Andi Gniadek",
      "time": 196.92,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 32,
      "name": "Gabin Piton",
      "time": 197.72,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 33,
      "name": "Michael Bowditch",
      "time": 197.74,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 34,
      "name": "Matias Unsvåg",
      "time": 198.37,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NOR"
     },
     {
-     "place": null,
+     "place": 35,
      "name": "Alex Plötz",
      "time": 198.55,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 36,
      "name": "Massimo Poletto",
      "time": 199.16,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 37,
      "name": "Felix Druschel",
      "time": 199.51,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 38,
      "name": "Sebastian Baßler",
      "time": 199.59,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 39,
      "name": "Olivier Dehmel",
      "time": 199.61,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 40,
      "name": "Johannes Krimm",
      "time": 199.66,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 41,
      "name": "Stephan Risch",
      "time": 199.9,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 42,
      "name": "Gundmundur Sökjer-petersen",
      "time": 200.29,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ICE"
     },
     {
-     "place": null,
+     "place": 43,
      "name": "Alexis Caillaud",
      "time": 200.42,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 44,
      "name": "Rebekka Gemperle",
      "time": 200.44,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 45,
      "name": "Axel Patricksson",
      "time": 200.71,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NOR"
     },
     {
-     "place": null,
+     "place": 46,
      "name": "Henning philip Patricksson",
      "time": 201.19,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NOR"
     },
     {
-     "place": null,
+     "place": 47,
      "name": "Matthias Mögele",
      "time": 201.22,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUT"
     },
     {
-     "place": null,
+     "place": 48,
      "name": "Kim Nilsson",
      "time": 201.62,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 49,
      "name": "Vincent Jordana",
      "time": 202.15,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 50,
      "name": "Clement Gayraud",
      "time": 202.28,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 51,
      "name": "Leon Schwall",
      "time": 203.36,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 52,
      "name": "Samy Cantieni",
      "time": 203.61,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 53,
      "name": "Janne Salminen",
      "time": 203.72,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FIN"
     },
     {
-     "place": null,
+     "place": 54,
      "name": "rodriguez Charlio Yagues",
      "time": 203.73,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SPA"
     },
     {
-     "place": null,
+     "place": 55,
      "name": "Mathieson Callum",
      "time": 204.83,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NZ"
     },
     {
-     "place": null,
+     "place": 56,
      "name": "Pierre Gamby",
      "time": 205.07,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 57,
      "name": "Konrad Leupold",
      "time": 205.12,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 58,
      "name": "Florian Wagner",
      "time": 205.18,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUT"
     },
     {
-     "place": null,
+     "place": 59,
      "name": "Marcel Roosen",
      "time": 205.56,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 60,
      "name": "reinem Petter Lindheim",
      "time": 206.14,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NOR"
     },
     {
-     "place": null,
+     "place": 61,
      "name": "Florian Klamm",
      "time": 206.84,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 62,
      "name": "Jan Lüsher",
      "time": 206.88,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 63,
      "name": "Marie Bougourd",
      "time": 208.16,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 64,
      "name": "Chris Harrison",
      "time": 208.21,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SCO"
     },
     {
-     "place": null,
+     "place": 65,
      "name": "Raul Claradetscher",
      "time": 208.38,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 66,
      "name": "Thibault Morgando",
      "time": 208.84,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 67,
      "name": "Artiom Missiri",
      "time": 209.19,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 68,
      "name": "Lenny Gires",
      "time": 210.96,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 69,
      "name": "Axel Serrat",
      "time": 211.81,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SPA"
     },
     {
-     "place": null,
+     "place": 70,
      "name": "Tom Bohannon",
      "time": 212.1,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 71,
      "name": "Marcus Aldinucci",
      "time": 214.01,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 72,
      "name": "Lele La rocca",
      "time": 214.91,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 73,
      "name": "Tamara Prader",
      "time": 215.36,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 74,
      "name": "Fee Buecheler",
      "time": 215.68,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 75,
      "name": "Michael Serek",
      "time": 216.55,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUT"
     },
     {
-     "place": null,
+     "place": 76,
      "name": "Uldis Tretmanis",
      "time": 216.71,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ME"
     },
     {
-     "place": null,
+     "place": 77,
      "name": "Marco Petrelli",
      "time": 216.95,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 78,
      "name": "Matze Bieneck",
      "time": 217.59,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 79,
      "name": "Dana Schitter",
      "time": 218.27,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUT"
     },
     {
-     "place": null,
+     "place": 80,
      "name": "Davide Buzzola",
      "time": 219.18,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 81,
      "name": "Andrea Moreni",
      "time": 219.47,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 82,
      "name": "Nathan Mozzetti",
      "time": 221.11,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 83,
      "name": "Olivier Gires",
      "time": 221.48,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 84,
      "name": "Lorenzo Lucchese",
      "time": 223.61,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 85,
      "name": "Mattia Polese",
      "time": 224.07,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 86,
      "name": "Federico Palpacelli",
      "time": 225.02,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 87,
      "name": "Nicola Ceccato",
      "time": 225.14,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 88,
      "name": "moura Leandro Pais de",
      "time": 226.93,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 89,
      "name": "Baptiste Couteau-pichon",
      "time": 231.64,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 90,
      "name": "David Marsili",
      "time": 233.76,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 91,
      "name": "italiano incognito",
      "time": 235.34,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 92,
      "name": "David Mapoko",
      "time": 239.88,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 93,
      "name": "Dunia Ariadna",
      "time": 261.22,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SPA"
     },
     {
-     "place": null,
+     "place": 94,
      "name": "Sascha Sobot",
      "time": 269.6,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUT"
     }
    ]
@@ -1983,51 +1983,51 @@
    "source": "http://web.archive.org/web/20111008011929id_/http://www.igsaworldcup.com/results/2011/2011_verdicio_euro_championships_co_qual.pdf / Women Downhill Skateboard / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Rebekka Gemperle",
      "time": 200.44,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Marie Bougourd",
      "time": 208.16,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Tamara Prader",
      "time": 215.36,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Fee Buecheler",
      "time": 215.68,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Dana Schitter",
      "time": 218.27,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUT"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Dunia Ariadna",
      "time": 261.22,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SPA"
     }
    ]
@@ -2039,83 +2039,83 @@
    "source": "http://web.archive.org/web/20111008011929id_/http://www.igsaworldcup.com/results/2011/2011_verdicio_euro_championships_co_qual.pdf / Junior 2 Downhill Skateboard / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Pierre Conan",
      "time": 192.72,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Gabin Piton",
      "time": 197.72,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Gundmundur Sökjer-petersen",
      "time": 198.37,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ICE"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Matias Unsvåg",
      "time": 200.29,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NOR"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Henning philip Patricksson",
      "time": 201.19,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NOR"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Raul Clavadetscher",
      "time": 208.38,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Marcus Aldinucci",
      "time": 214.01,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Andrea Moreni",
      "time": 219.47,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Lorenzo Lucchese",
      "time": 223.61,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Baptiste Couteau-pichon",
      "time": 231.64,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     }
    ]
@@ -2127,155 +2127,155 @@
    "source": "http://web.archive.org/web/20111008011929id_/http://www.igsaworldcup.com/results/2011/2011_verdicio_euro_championships_co_qual.pdf / Classic Luge / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Michael Serek",
      "time": 185.95,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUT"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Pierluigi Maspero",
      "time": 189.89,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Yvon Labarthe",
      "time": 191.65,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Craig Deltour",
      "time": 192.0,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Cedric Robert",
      "time": 192.18,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Matteo Demarchi",
      "time": 192.4,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Sebastien Tournissac",
      "time": 194.87,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Fabien Prual",
      "time": 196.54,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Mattia Polese",
      "time": 198.48,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Alexander Frischauf",
      "time": 198.69,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUT"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "Andrea Bossotto",
      "time": 198.7,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 12,
      "name": "Scott Peer",
      "time": 199.73,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 13,
      "name": "Vincent Jordana",
      "time": 200.62,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 14,
      "name": "Thibault Morgando",
      "time": 200.91,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 15,
      "name": "Daniele Aldinucci",
      "time": 202.68,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 16,
      "name": "Sascha Sobot",
      "time": 218.78,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUT"
     },
     {
-     "place": null,
+     "place": 17,
      "name": "Sophie Sentenac",
      "time": 226.5,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 18,
      "name": "Davide Longhin",
      "time": 228.13,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 19,
      "name": "Bride Chris Mc",
      "time": 231.12,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     }
    ]
@@ -2287,115 +2287,115 @@
    "source": "http://web.archive.org/web/20111008011929id_/http://www.igsaworldcup.com/results/2011/2011_verdicio_euro_championships_co_qual.pdf / Street Luge / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Yvon Labarthe",
      "time": 186.06,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Pierluigi Maspero",
      "time": 187.64,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Sebastien Tournissac",
      "time": 188.24,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Fabien Prual",
      "time": 190.03,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Cedric Robert",
      "time": 192.07,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Craig Deltour",
      "time": 192.54,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Michael Serek",
      "time": 192.63,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUT"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Matteo Demarchi",
      "time": 192.89,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Alexander Frischauf",
      "time": 193.85,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUT"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Bride Chris Mc",
      "time": 196.72,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "Cristian Benzoni",
      "time": 200.62,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 12,
      "name": "Samuele Magarò",
      "time": 201.62,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 13,
      "name": "Domenico Napoli",
      "time": 203.95,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 14,
      "name": "Sophie Sentenac",
      "time": 225.41,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     }
    ]

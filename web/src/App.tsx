@@ -48,7 +48,7 @@ function Shell() {
 
   return (
     <div className={`app${home ? " is-home" : ""}`}>
-      <a className="skip" href="#innhold">{t("Hopp til innholdet", "Skip to content")}</a>
+      <a className="skip" href="#innhold" onClick={(e) => { e.preventDefault(); document.getElementById("innhold")?.focus(); }}>{t("Hopp til innholdet", "Skip to content")}</a>
       <header className="topbar">
         <a className="brand" href={href.home()} aria-label={t("Longboardresultater, til forsiden", "Longboardresultater, to the front page")}><BrandMark /><span>Longboard<em>resultater</em></span></a>
         <nav className="topnav" aria-label={t("Hovedmeny", "Main menu")}>

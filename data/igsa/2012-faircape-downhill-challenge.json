@@ -2,8 +2,8 @@
  "id": "2012-faircape-downhill-challenge",
  "name": "Faircape Downhill Challenge",
  "year": 2012,
- "date": "2012-01-01",
- "date_known": false,
+ "date": "2012-03-18",
+ "date_known": true,
  "hill": null,
  "place": "Durbanville Hills",
  "level": "National",
@@ -231,19 +231,19 @@
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 27,
      "name": "Ben Malherbe",
      "time": 103.23,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 28,
      "name": "Josh Smit",
      "time": 103.28,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
@@ -351,11 +351,11 @@
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 42,
      "name": "Russel Naude",
      "time": 206.59,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     }
    ]
@@ -487,11 +487,11 @@
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Damon De Pinna",
      "time": 103.28,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
@@ -631,11 +631,11 @@
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 25,
      "name": "Oscar Armstrong",
      "time": 107.72,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
@@ -727,11 +727,11 @@
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Glen Phillips",
      "time": 100.72,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
@@ -775,11 +775,11 @@
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Monyene Hlapalosa",
      "time": 104.94,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {

@@ -80,11 +80,11 @@
      "nat": "PER"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Nicolas Fuentes",
      "time": 135.54,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {

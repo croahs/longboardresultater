@@ -746,6 +746,46 @@
    "name": "Luge",
    "kind": "Luge",
    "format": "bracket",
+   "source": "http://rankings.internationaldownhillfederation.org/2015/World-Rankings-2015-Street-Luge.html / La Violenta",
+   "results": [
+    {
+     "place": 1,
+     "name": "Joaquin Barrios",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 2,
+     "name": "Ramallo Augusto",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 3,
+     "name": "Luis Pablo Delamarre",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    },
+    {
+     "place": 4,
+     "name": "Hugo Lorenzo Salvatierra",
+     "time": null,
+     "dnf": false,
+     "dns": false,
+     "nat": "Argentina"
+    }
+   ]
+  },
+  {
+   "name": "Classic Luge",
+   "kind": "Luge",
+   "format": "bracket",
    "source": "http://rankings.internationaldownhillfederation.org/2015/World-Rankings-2015-Classic-Luge.html / La Violenta",
    "results": [
     {

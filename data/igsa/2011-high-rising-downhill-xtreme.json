@@ -2,8 +2,8 @@
  "id": "2011-high-rising-downhill-xtreme",
  "name": "High Rising Downhill Xtreme",
  "year": 2011,
- "date": "2011-01-01",
- "date_known": false,
+ "date": "2011-02-26",
+ "date_known": true,
  "hill": null,
  "place": "Houwteq Complex, Grabouw",
  "level": "National",
@@ -297,11 +297,11 @@
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Glen Phillips",
      "time": 53.23,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
@@ -337,19 +337,19 @@
    "source": "http://web.archive.org/web/20111008001726id_/http://www.igsaworldcup.com/results/2011/2011_high_rising_na.pdf / Classic Luge / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Russell Naude",
      "time": 54.4,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Glen Phillips",
      "time": 55.64,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     }
    ]

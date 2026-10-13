@@ -1010,11 +1010,11 @@
    "source": "sheet e/2PACX-1vRi_LbA7EmGqVTQtgR8A43LP9_6ul5Ekyh_bnEBCMwIFskVQ5I6U_YKdLFompuVY8z-Xt9LokALNDf_ / Ark 1 / Adaptive",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Sigurd Groven",
      "time": 131.84,
      "dnf": false,
-     "dns": true
+     "dns": false
     },
     {
      "place": 2,

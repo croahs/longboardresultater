@@ -2158,11 +2158,11 @@
      "nat": "NOR"
     },
     {
-     "place": null,
+     "place": 37,
      "name": "Nicolas Desmarais",
      "time": 149.82,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
@@ -2670,11 +2670,11 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 101,
      "name": "Finn Longwitz",
      "time": 160.01,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
@@ -2766,11 +2766,11 @@
      "nat": "ESP"
     },
     {
-     "place": null,
+     "place": 113,
      "name": "Jan Ove Lassen",
      "time": 162.49,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
@@ -2886,11 +2886,11 @@
      "nat": "NOR"
     },
     {
-     "place": null,
+     "place": 128,
      "name": "Steffen Eichmann",
      "time": 168.49,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
@@ -2966,11 +2966,11 @@
      "nat": "NOR"
     },
     {
-     "place": null,
+     "place": 138,
      "name": "Konstantin Kracht",
      "time": 172.1,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
@@ -2990,11 +2990,11 @@
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 141,
      "name": "Fabian Dietz",
      "time": 174.62,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
@@ -3014,11 +3014,11 @@
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 144,
      "name": "Leif Marks",
      "time": 179.33,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ESP"
     },
     {
@@ -3038,11 +3038,11 @@
      "nat": "MEX"
     },
     {
-     "place": null,
+     "place": 147,
      "name": "Roberto Marasca",
      "time": 181.44,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
@@ -3478,19 +3478,19 @@
      "nat": "ESP"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "Louis Pilloni",
      "time": 149.81,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 12,
      "name": "Peter Eliot",
      "time": 153.95,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GBR"
     },
     {
@@ -3598,11 +3598,11 @@
      "nat": "GBR"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Michael Serek",
      "time": 143.99,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUT"
     },
     {

@@ -25,6 +25,198 @@
    "results": [
     {
      "place": 1,
+     "name": "Kyle Martin",
+     "time": 55.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Patrick Switzer",
+     "time": 55.64,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 3,
+     "name": "Luke Melo",
+     "time": 56.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 4,
+     "name": "Jackson Shapiera",
+     "time": 56.29,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 5,
+     "name": "Riley Harris",
+     "time": 57.26,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 6,
+     "name": "Cam Brickenden",
+     "time": 57.38,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 7,
+     "name": "Zen Shikaze",
+     "time": 57.52,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 8,
+     "name": "Andrew Chapman",
+     "time": 57.56,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 9,
+     "name": "Justen Ortiz",
+     "time": 57.59,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 10,
+     "name": "George Mackenzie",
+     "time": 57.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 11,
+     "name": "Nicholas Breton",
+     "time": 58.12,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 12,
+     "name": "Travis Craig",
+     "time": 58.24,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 13,
+     "name": "Brendan Davidson",
+     "time": 58.76,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 14,
+     "name": "Cameron Kite",
+     "time": 58.93,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 15,
+     "name": "Justin Readings",
+     "time": 58.96,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 16,
+     "name": "Mathew Krotsch",
+     "time": 59.01,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 17,
+     "name": "Jacob Dutton",
+     "time": 59.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 18,
+     "name": "Cam Mcqueen",
+     "time": 59.24,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 19,
+     "name": "Keenan Domerecki",
+     "time": 59.28,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 20,
+     "name": "Quinn Finocchio",
+     "time": 59.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 21,
+     "name": "Graham Collingwood",
+     "time": 59.59,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 22,
+     "name": "Robin Sandberg",
+     "time": 59.73,
+     "dnf": false,
+     "dns": false,
+     "nat": "SWE"
+    },
+    {
+     "place": 23,
+     "name": "Mischo Erban",
+     "time": 59.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 24,
+     "name": "Steve Castleberry",
+     "time": 59.88,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 25,
      "name": "Tony Graves",
      "time": 60.24,
      "dnf": false,
@@ -32,15 +224,7 @@
      "nat": "CAN"
     },
     {
-     "place": 2,
-     "name": "Graham Collingwood",
-     "time": 60.42,
-     "dnf": false,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": 3,
+     "place": 26,
      "name": "Brandon Bean",
      "time": 60.45,
      "dnf": false,
@@ -48,7 +232,7 @@
      "nat": "CAN"
     },
     {
-     "place": 4,
+     "place": 27,
      "name": "Alex Johnston",
      "time": 60.48,
      "dnf": false,
@@ -56,7 +240,7 @@
      "nat": "CAN"
     },
     {
-     "place": 5,
+     "place": 28,
      "name": "Kole Galbraith",
      "time": 60.52,
      "dnf": false,
@@ -64,15 +248,7 @@
      "nat": "USA"
     },
     {
-     "place": 6,
-     "name": "Keenan Domerecki",
-     "time": 60.53,
-     "dnf": false,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": 7,
+     "place": 29,
      "name": "Maximilian Gradlmiller",
      "time": 60.78,
      "dnf": false,
@@ -80,15 +256,7 @@
      "nat": "CAN"
     },
     {
-     "place": 8,
-     "name": "Cameron Kite",
-     "time": 60.82,
-     "dnf": false,
-     "dns": false,
-     "nat": "AUS"
-    },
-    {
-     "place": 9,
+     "place": 30,
      "name": "Kelsey Crozier",
      "time": 60.94,
      "dnf": false,
@@ -96,7 +264,7 @@
      "nat": "CAN"
     },
     {
-     "place": 10,
+     "place": 31,
      "name": "Brian Cortright",
      "time": 61.15,
      "dnf": false,
@@ -104,7 +272,7 @@
      "nat": "USA"
     },
     {
-     "place": 11,
+     "place": 32,
      "name": "Katie Neilson",
      "time": 61.16,
      "dnf": false,
@@ -112,7 +280,7 @@
      "nat": "CAN"
     },
     {
-     "place": 12,
+     "place": 33,
      "name": "Taylor Riley",
      "time": 61.16,
      "dnf": false,
@@ -120,15 +288,7 @@
      "nat": "CAN"
     },
     {
-     "place": 13,
-     "name": "Robin Sandberg",
-     "time": 61.38,
-     "dnf": false,
-     "dns": false,
-     "nat": "SWE"
-    },
-    {
-     "place": 14,
+     "place": 34,
      "name": "Mischa Farivar",
      "time": 61.39,
      "dnf": false,
@@ -136,7 +296,7 @@
      "nat": "CAN"
     },
     {
-     "place": 15,
+     "place": 35,
      "name": "Jeremy Morrow",
      "time": 61.58,
      "dnf": false,
@@ -144,7 +304,7 @@
      "nat": "CAN"
     },
     {
-     "place": 16,
+     "place": 36,
      "name": "Downie Mitchel Martin",
      "time": 61.58,
      "dnf": false,
@@ -152,7 +312,7 @@
      "nat": "CAN"
     },
     {
-     "place": 17,
+     "place": 37,
      "name": "Dylan Alexander",
      "time": 61.58,
      "dnf": false,
@@ -160,15 +320,7 @@
      "nat": "CAN"
     },
     {
-     "place": 18,
-     "name": "Steve Castleberry",
-     "time": 61.59,
-     "dnf": false,
-     "dns": false,
-     "nat": "USA"
-    },
-    {
-     "place": 19,
+     "place": 38,
      "name": "Kelly Carter",
      "time": 61.92,
      "dnf": false,
@@ -176,7 +328,7 @@
      "nat": "AUS"
     },
     {
-     "place": 20,
+     "place": 39,
      "name": "Matthew Napier",
      "time": 62.25,
      "dnf": false,
@@ -184,7 +336,7 @@
      "nat": "CAN"
     },
     {
-     "place": 21,
+     "place": 40,
      "name": "Craig Connor",
      "time": 62.27,
      "dnf": false,
@@ -192,7 +344,7 @@
      "nat": "CAN"
     },
     {
-     "place": 22,
+     "place": 41,
      "name": "Callum Mathieson",
      "time": 62.51,
      "dnf": false,
@@ -200,15 +352,15 @@
      "nat": "NZL"
     },
     {
-     "place": null,
+     "place": 42,
      "name": "Jacob Johnson",
      "time": 62.68,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": 24,
+     "place": 43,
      "name": "Ryan Heffernam",
      "time": 62.84,
      "dnf": false,
@@ -216,7 +368,7 @@
      "nat": "USA"
     },
     {
-     "place": 25,
+     "place": 44,
      "name": "Wolfgang Coleman",
      "time": 63.14,
      "dnf": false,
@@ -224,7 +376,7 @@
      "nat": "CAN"
     },
     {
-     "place": 26,
+     "place": 45,
      "name": "Ty Peterson",
      "time": 63.3,
      "dnf": false,
@@ -232,7 +384,7 @@
      "nat": "CAN"
     },
     {
-     "place": 27,
+     "place": 46,
      "name": "Ian Russell",
      "time": 63.65,
      "dnf": false,
@@ -240,7 +392,7 @@
      "nat": "CAN"
     },
     {
-     "place": 28,
+     "place": 47,
      "name": "Marco Vidales",
      "time": 63.71,
      "dnf": false,
@@ -248,7 +400,7 @@
      "nat": "COL"
     },
     {
-     "place": 29,
+     "place": 48,
      "name": "Jack Craddock",
      "time": 63.87,
      "dnf": false,
@@ -256,7 +408,7 @@
      "nat": "CAN"
     },
     {
-     "place": 30,
+     "place": 49,
      "name": "Gary Lee",
      "time": 64.01,
      "dnf": false,
@@ -264,7 +416,7 @@
      "nat": "CAN"
     },
     {
-     "place": 31,
+     "place": 50,
      "name": "Oliver Korman",
      "time": 64.35,
      "dnf": false,
@@ -272,7 +424,7 @@
      "nat": "CAN"
     },
     {
-     "place": 32,
+     "place": 51,
      "name": "Marcel Robert",
      "time": 64.58,
      "dnf": false,
@@ -280,7 +432,7 @@
      "nat": "CAN"
     },
     {
-     "place": 33,
+     "place": 52,
      "name": "Josh Clark",
      "time": 64.59,
      "dnf": false,
@@ -288,7 +440,7 @@
      "nat": "CAN"
     },
     {
-     "place": 34,
+     "place": 53,
      "name": "Quinn Dubois",
      "time": 64.59,
      "dnf": false,
@@ -296,7 +448,7 @@
      "nat": "CAN"
     },
     {
-     "place": 35,
+     "place": 54,
      "name": "Charlie Darragh",
      "time": 64.74,
      "dnf": false,
@@ -304,7 +456,7 @@
      "nat": "CAN"
     },
     {
-     "place": 36,
+     "place": 55,
      "name": "Justice Long",
      "time": 64.74,
      "dnf": false,
@@ -312,7 +464,7 @@
      "nat": "CAN"
     },
     {
-     "place": 37,
+     "place": 56,
      "name": "Josh Padgett",
      "time": 64.83,
      "dnf": false,
@@ -320,7 +472,7 @@
      "nat": "CAN"
     },
     {
-     "place": 38,
+     "place": 57,
      "name": "Daniel Favela",
      "time": 64.92,
      "dnf": false,
@@ -328,7 +480,7 @@
      "nat": "MEX"
     },
     {
-     "place": 39,
+     "place": 58,
      "name": "Zoran Bos",
      "time": 65.19,
      "dnf": false,
@@ -336,7 +488,7 @@
      "nat": "CAN"
     },
     {
-     "place": 40,
+     "place": 59,
      "name": "Grant Phillips",
      "time": 65.38,
      "dnf": false,
@@ -344,7 +496,7 @@
      "nat": "USA"
     },
     {
-     "place": 41,
+     "place": 60,
      "name": "Dave Triomphe",
      "time": 65.44,
      "dnf": false,
@@ -352,7 +504,7 @@
      "nat": "CAN"
     },
     {
-     "place": 42,
+     "place": 61,
      "name": "Wes Sampson",
      "time": 65.58,
      "dnf": false,
@@ -360,7 +512,7 @@
      "nat": "CAN"
     },
     {
-     "place": 43,
+     "place": 62,
      "name": "Jes Izman",
      "time": 65.63,
      "dnf": false,
@@ -368,7 +520,7 @@
      "nat": "MAS"
     },
     {
-     "place": 44,
+     "place": 63,
      "name": "Mike Slota",
      "time": 65.79,
      "dnf": false,
@@ -376,7 +528,7 @@
      "nat": "CAN"
     },
     {
-     "place": 45,
+     "place": 64,
      "name": "Jody Wilcox",
      "time": 65.79,
      "dnf": false,
@@ -384,7 +536,7 @@
      "nat": "CAN"
     },
     {
-     "place": 46,
+     "place": 65,
      "name": "Taryn Macquarrie",
      "time": 66.47,
      "dnf": false,
@@ -392,7 +544,7 @@
      "nat": "CAN"
     },
     {
-     "place": 47,
+     "place": 66,
      "name": "Bryce Brandford",
      "time": 66.52,
      "dnf": false,
@@ -400,7 +552,7 @@
      "nat": "CAN"
     },
     {
-     "place": 48,
+     "place": 67,
      "name": "Nick Lutsenko",
      "time": 67.13,
      "dnf": false,
@@ -408,15 +560,15 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 68,
      "name": "Michael Boudreau",
      "time": 67.46,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": 50,
+     "place": 69,
      "name": "Nathan Anderson",
      "time": 67.53,
      "dnf": false,
@@ -424,7 +576,7 @@
      "nat": "AUS"
     },
     {
-     "place": 51,
+     "place": 70,
      "name": "Devin Nowlin",
      "time": 67.54,
      "dnf": false,
@@ -432,7 +584,7 @@
      "nat": "CAN"
     },
     {
-     "place": 52,
+     "place": 71,
      "name": "Anna Oneill",
      "time": 67.7,
      "dnf": false,
@@ -440,7 +592,7 @@
      "nat": "CAN"
     },
     {
-     "place": 53,
+     "place": 72,
      "name": "Michael Jones",
      "time": 68.84,
      "dnf": false,
@@ -448,15 +600,7 @@
      "nat": "CAN"
     },
     {
-     "place": 54,
-     "name": "Nicholas Breton",
-     "time": 69.21,
-     "dnf": false,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": 55,
+     "place": 73,
      "name": "Avery Kelcey",
      "time": 69.41,
      "dnf": false,
@@ -464,7 +608,7 @@
      "nat": "CAN"
     },
     {
-     "place": 56,
+     "place": 74,
      "name": "Bryan Reich",
      "time": 69.58,
      "dnf": false,
@@ -472,7 +616,7 @@
      "nat": "CAN"
     },
     {
-     "place": 57,
+     "place": 75,
      "name": "Andi Leslie",
      "time": 69.69,
      "dnf": false,
@@ -480,7 +624,7 @@
      "nat": "CAN"
     },
     {
-     "place": 58,
+     "place": 76,
      "name": "William Smallwood",
      "time": 70.0,
      "dnf": false,
@@ -488,7 +632,7 @@
      "nat": "CAN"
     },
     {
-     "place": 59,
+     "place": 77,
      "name": "Scott Campbell",
      "time": 70.56,
      "dnf": false,
@@ -496,7 +640,7 @@
      "nat": "USA"
     },
     {
-     "place": 60,
+     "place": 78,
      "name": "Kris Halford",
      "time": 71.33,
      "dnf": false,
@@ -504,15 +648,7 @@
      "nat": "CAN"
     },
     {
-     "place": 61,
-     "name": "Mischo Erban",
-     "time": 73.51,
-     "dnf": false,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": 62,
+     "place": 79,
      "name": "Jarrett Boe",
      "time": 73.63,
      "dnf": false,
@@ -520,7 +656,7 @@
      "nat": "CAN"
     },
     {
-     "place": 63,
+     "place": 80,
      "name": "Tristan Bell",
      "time": 75.78,
      "dnf": false,
@@ -528,146 +664,10 @@
      "nat": "CAN"
     },
     {
-     "place": 64,
-     "name": "Cam Mcqueen",
-     "time": 78.01,
-     "dnf": false,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": 65,
+     "place": 81,
      "name": "Dashiel Long",
      "time": 90.18,
      "dnf": false,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Kyle Martin",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Patrick Switzer",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Luke Melo",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Jackson Shapiera",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "AUS"
-    },
-    {
-     "place": null,
-     "name": "Riley Harris",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Cam Brickenden",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Zen Shikaze",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Andrew Chapman",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Justen Ortiz",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "George Mackenzie",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Travis Craig",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Brendan Davidson",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Justin Readings",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Mathew Krotsch",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Jacob Dutton",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Quinn Finocchio",
-     "time": null,
-     "dnf": true,
      "dns": false,
      "nat": "CAN"
     },
@@ -776,11 +776,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Michael Boudreau",
      "time": 67.46,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
@@ -825,6 +825,30 @@
    "results": [
     {
      "place": 1,
+     "name": "Brendan Davidson",
+     "time": 58.76,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 2,
+     "name": "Jacob Dutton",
+     "time": 59.1,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 3,
+     "name": "Quinn Finocchio",
+     "time": 59.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 4,
      "name": "Alex Johnston",
      "time": 60.48,
      "dnf": false,
@@ -832,7 +856,7 @@
      "nat": "CAN"
     },
     {
-     "place": 2,
+     "place": 5,
      "name": "Taylor Riley",
      "time": 61.16,
      "dnf": false,
@@ -840,7 +864,7 @@
      "nat": "CAN"
     },
     {
-     "place": 3,
+     "place": 6,
      "name": "Kelly Carter",
      "time": 61.92,
      "dnf": false,
@@ -848,15 +872,15 @@
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Jacob Johnson",
      "time": 62.68,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": 5,
+     "place": 8,
      "name": "Wolfgang Coleman",
      "time": 63.14,
      "dnf": false,
@@ -864,7 +888,7 @@
      "nat": "CAN"
     },
     {
-     "place": 6,
+     "place": 9,
      "name": "Ty Peterson",
      "time": 63.3,
      "dnf": false,
@@ -872,7 +896,7 @@
      "nat": "CAN"
     },
     {
-     "place": 7,
+     "place": 10,
      "name": "Ian Russell",
      "time": 63.65,
      "dnf": false,
@@ -880,7 +904,7 @@
      "nat": "CAN"
     },
     {
-     "place": 8,
+     "place": 11,
      "name": "Josh Clark",
      "time": 64.59,
      "dnf": false,
@@ -888,7 +912,7 @@
      "nat": "CAN"
     },
     {
-     "place": 9,
+     "place": 12,
      "name": "Charlie Darragh",
      "time": 64.74,
      "dnf": false,
@@ -896,7 +920,7 @@
      "nat": "CAN"
     },
     {
-     "place": 10,
+     "place": 13,
      "name": "Justice Long",
      "time": 64.74,
      "dnf": false,
@@ -904,7 +928,7 @@
      "nat": "CAN"
     },
     {
-     "place": 11,
+     "place": 14,
      "name": "Josh Padgett",
      "time": 64.83,
      "dnf": false,
@@ -912,7 +936,7 @@
      "nat": "CAN"
     },
     {
-     "place": 12,
+     "place": 15,
      "name": "Zoran Bos",
      "time": 65.19,
      "dnf": false,
@@ -920,7 +944,7 @@
      "nat": "CAN"
     },
     {
-     "place": 13,
+     "place": 16,
      "name": "Mike Slota",
      "time": 65.79,
      "dnf": false,
@@ -928,7 +952,7 @@
      "nat": "CAN"
     },
     {
-     "place": 14,
+     "place": 17,
      "name": "Taryn Macquarrie",
      "time": 66.47,
      "dnf": false,
@@ -936,7 +960,7 @@
      "nat": "CAN"
     },
     {
-     "place": 15,
+     "place": 18,
      "name": "Devin Nowlin",
      "time": 67.54,
      "dnf": false,
@@ -944,7 +968,7 @@
      "nat": "CAN"
     },
     {
-     "place": 16,
+     "place": 19,
      "name": "Avery Kelcey",
      "time": 69.41,
      "dnf": false,
@@ -952,34 +976,10 @@
      "nat": "CAN"
     },
     {
-     "place": 17,
+     "place": 20,
      "name": "Bryan Reich",
      "time": 69.58,
      "dnf": false,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Brendan Davidson",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Jacob Dutton",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Quinn Finocchio",
-     "time": null,
-     "dnf": true,
      "dns": false,
      "nat": "CAN"
     },
@@ -1056,26 +1056,26 @@
    "source": "http://web.archive.org/web/20111008025852id_/http://www.igsaworldcup.com/results/2011/2011_vernon_noram_championships_co.pdf / Street Luge / timed",
    "results": [
     {
-     "place": null,
-     "name": "Dylan Wall",
-     "time": 73.05,
-     "dnf": false,
-     "dns": true,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
+     "place": 1,
      "name": "Parks Kolby",
-     "time": null,
-     "dnf": true,
+     "time": 56.28,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "William Condon",
-     "time": null,
-     "dnf": true,
+     "time": 57.62,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 3,
+     "name": "Dylan Wall",
+     "time": 73.05,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     }
@@ -2185,27 +2185,27 @@
    "results": [
     {
      "place": 1,
+     "name": "Scott Peer",
+     "time": 55.73,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 2,
+     "name": "Davide Tacchini",
+     "time": 56.79,
+     "dnf": false,
+     "dns": false,
+     "nat": "ITA"
+    },
+    {
+     "place": 3,
      "name": "Justen Ortiz",
      "time": 60.72,
      "dnf": false,
      "dns": false,
      "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Scott Peer",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "USA"
-    },
-    {
-     "place": null,
-     "name": "Davide Tacchini",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "ITA"
     }
    ]
   }

@@ -54,11 +54,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Carlos Augusto",
      "time": 83.11,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -190,19 +190,19 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 22,
      "name": "Renan Vasques",
      "time": 86.84,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 23,
      "name": "Ricardo Reis",
      "time": 87.49,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -238,11 +238,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 28,
      "name": "Henrique Stein",
      "time": 87.92,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -398,11 +398,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 48,
      "name": "Lucas Bette",
      "time": 92.8,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -470,19 +470,19 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 57,
      "name": "Ricardo Sena",
      "time": 101.52,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 58,
      "name": "Dominique Vukorep",
      "time": 101.94,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
@@ -518,11 +518,11 @@
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 63,
      "name": "Lucas Ferreira",
      "time": 116.23,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -534,11 +534,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 65,
      "name": "Leonardo Fagundes",
      "time": 149.76,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     }
    ]
@@ -558,11 +558,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Dominique Vukorep",
      "time": 101.94,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     }
    ]
@@ -614,19 +614,19 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Mario Jardim",
      "time": 77.13,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Tiago Antunes",
      "time": 77.37,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -670,27 +670,27 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 13,
      "name": "Jorge Santos",
      "time": 81.35,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 14,
      "name": "Denis Araujo",
      "time": 81.58,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 15,
      "name": "Rafael Montanito",
      "time": 81.6,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -710,11 +710,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 18,
      "name": "Marcelo Santos",
      "time": 91.89,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     }
    ]

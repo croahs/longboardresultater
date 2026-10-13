@@ -3201,19 +3201,19 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 41,
      "name": "Duke Degen",
      "time": 191.31,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 42,
      "name": "Max Ballesteros",
      "time": 191.35,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -3297,11 +3297,11 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 53,
      "name": "AJ Haiby",
      "time": 193.08,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -3441,11 +3441,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 71,
      "name": "Riley Crone",
      "time": 194.95,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -3561,11 +3561,11 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 86,
      "name": "Fabian Gutierrez",
      "time": 196.49,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "MEX"
     },
     {
@@ -4249,11 +4249,11 @@
      "nat": "MEX"
     },
     {
-     "place": null,
+     "place": 172,
      "name": "Joe Ingersoll",
      "time": 204.84,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -4361,11 +4361,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 186,
      "name": "Ryan Sheridan",
      "time": 206.95,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
@@ -4401,11 +4401,11 @@
      "nat": "MEX"
     },
     {
-     "place": null,
+     "place": 191,
      "name": "Elija Vinograd",
      "time": 208.34,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -4481,11 +4481,11 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 201,
      "name": "Jeffery Diaz",
      "time": 215.11,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -4497,11 +4497,11 @@
      "nat": "PHI"
     },
     {
-     "place": null,
+     "place": 203,
      "name": "Scott Imbrie",
      "time": 215.39,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -4633,11 +4633,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 220,
      "name": "Adam Bornstein",
      "time": 232.21,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -4649,11 +4649,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 222,
      "name": "Gustaf Hallberg",
      "time": 249.49,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
@@ -4753,11 +4753,11 @@
      "nat": "MEX"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "Sara Paulshock",
      "time": 218.99,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -5273,11 +5273,11 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 44,
      "name": "Ryan Sheridan",
      "time": 206.95,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
@@ -5313,11 +5313,11 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 49,
      "name": "Jeffery Diaz",
      "time": 215.11,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -5337,19 +5337,19 @@
      "nat": "GUA"
     },
     {
-     "place": null,
+     "place": 52,
      "name": "Adam Bornstein",
      "time": 232.21,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 53,
      "name": "Gustaf Hallberg",
      "time": 249.49,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     }
    ]
@@ -5377,11 +5377,11 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "John Huey",
      "time": 191.57,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {

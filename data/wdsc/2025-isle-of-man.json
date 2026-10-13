@@ -10,7 +10,10 @@
   "https://worlddownhillskateboardingchampionship.com/standings-2025/"
  ],
  "titles": [],
- "notes": [],
+ "notes": [
+  "Open QS dropped: the Open CT list cut down to the QS riders",
+  "Luge QS dropped: the Luge CT list cut down to the QS riders"
+ ],
  "races": [
   {
    "name": "Open CT",
@@ -164,70 +167,6 @@
     },
     {
      "place": 9,
-     "name": "Juan Callister",
-     "time": null,
-     "dnf": false,
-     "dns": false,
-     "nat": "IMN"
-    }
-   ]
-  },
-  {
-   "name": "Open QS",
-   "kind": "Open",
-   "format": "bracket",
-   "source": "https://worlddownhillskateboardingchampionship.com/standings-2025/ / QS Open Skateboard",
-   "results": [
-    {
-     "place": 1,
-     "name": "Antonio Madariaga",
-     "time": null,
-     "dnf": false,
-     "dns": false,
-     "nat": "USA"
-    },
-    {
-     "place": 2,
-     "name": "Nick Broms",
-     "time": null,
-     "dnf": false,
-     "dns": false,
-     "nat": "USA"
-    },
-    {
-     "place": 3,
-     "name": "Vojtěch Žáček",
-     "time": null,
-     "dnf": false,
-     "dns": false,
-     "nat": "CZE"
-    }
-   ]
-  },
-  {
-   "name": "Luge QS",
-   "kind": "Luge",
-   "format": "bracket",
-   "source": "https://worlddownhillskateboardingchampionship.com/standings-2025/ / QS Open Street Luge",
-   "results": [
-    {
-     "place": 1,
-     "name": "George Cheeseman",
-     "time": null,
-     "dnf": false,
-     "dns": false,
-     "nat": "GBR"
-    },
-    {
-     "place": 2,
-     "name": "Mark Wilson",
-     "time": null,
-     "dnf": false,
-     "dns": false,
-     "nat": "GBR"
-    },
-    {
-     "place": 3,
      "name": "Juan Callister",
      "time": null,
      "dnf": false,

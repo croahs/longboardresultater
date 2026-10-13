@@ -1234,11 +1234,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "Maxime Rubi",
      "time": 151.94,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     },
     {

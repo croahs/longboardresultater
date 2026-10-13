@@ -1,6 +1,6 @@
 import { fold } from "./format";
 import { t } from "./lang";
-// Data model and loading. The site only reads static JSON under data/ (written by site.py).
+// Data model and loading. The site only reads static JSON under data/ (written by sitedata.py).
 
 /** The class a race was run in. "Other" covers stock races, intermediate, team and slalom events. */
 export type RaceType = "Open" | "Women" | "Junior" | "Masters" | "Luge" | "Adaptive" | "Inline" | "Other";
@@ -51,16 +51,21 @@ export interface Insights {
   right_behind?: (Who & { right_behind: number })[];
 }
 
-/* Elo rating (sitedata.py): two pools, heats ("race") and timed runs ("kvalik"), over the stand-up classes. */
-export type Pool = "race" | "kvalik";
-export const POOLS: Pool[] = ["race", "kvalik"];
-export const poolLabel = (k: Pool) => (k === "race" ? "Race" : t("Kvalik", "Qualifying"));
+/* Elo rating (sitedata.py): four pools, heats ("race") and timed runs ("kvalik") for the stand-up classes, and the
+   same two for luge (classic and street together). Adaptive, inline and other are unrated. */
+export type Pool = "race" | "kvalik" | "luge" | "luge_kvalik";
+export const POOLS: Pool[] = ["race", "kvalik", "luge", "luge_kvalik"];
+export const poolLabel = (k: Pool) => ({ race: "Race", kvalik: t("Kvalik", "Qualifying"), luge: "Luge", luge_kvalik: t("Luge kvalik", "Luge qualifying") })[k];
+const STANDUP: RaceType[] = ["Open", "Women", "Junior", "Masters"];
+/** The pool a result would count in, by class and format; null for the unrated classes. */
+export const poolOf = (r: { type: RaceType; format: Format }): Pool | null =>
+  r.type === "Luge" ? (r.format === "bracket" ? "luge" : "luge_kvalik") : STANDUP.includes(r.type) ? (r.format === "bracket" ? "race" : "kvalik") : null;
 export interface RiderRating { rating: number; peak: number; peak_year: number; races: number; rank: number | null; of: number; rank_no?: number | null; of_no?: number }
 
 export interface Athlete {
   id: string; name: string; club: string;
   sex: Sex;            // K when the rider has placed in a women's race; never from the name
-  no: boolean;         // in the Norway view: a Norwegian nationality in a list, or a start in a race in Norway
+  no: boolean;         // in the Norway view (the rule is in scope.tsx)
   rivalsWomen: string[]; // closest rivals among the women (rivals_women)
   channel?: string;    // the rider's own video channel (data/videos.json)
   results: Result[];
@@ -68,10 +73,10 @@ export interface Athlete {
   rating: Partial<Record<Pool, RiderRating>>;
 }
 
-export interface IndexRider { id: string; name: string; club: string; races: number; shard: string | null; sex?: Sex; wins?: number; no?: boolean }
+export interface IndexRider { id: string; name: string; club: string; races: number; sex?: Sex; wins?: number; no?: boolean }
 export interface Site { default_rider: string | null; default_rider_no?: string | null; contact?: string }
 
-/* summary.json (site.py): the front page and the top lists. */
+/* summary.json (sitedata.py): the front page and the top lists. */
 export interface TopRace { id: string; name: string; cls: string; date: string; type: RaceType }
 export interface RatedWho extends Who { rating: number; peak: number; peak_year: number; races: number; last: number }
 export interface RatingPool {
@@ -101,6 +106,7 @@ export interface Summary extends Highlights, Counts {
   no?: Highlights & Counts;
   rating?: Record<Pool, RatingPool>;
   hill_rating?: Record<string, Partial<Record<Pool, HillRating>>>; // per hill id
+  hills?: Record<string, { races: number; last: string }>; // per hill id: the races run there and the date of the last
 }
 
 const cache = new Map<string, Promise<unknown>>();
@@ -114,16 +120,11 @@ export function getJSON<T>(path: string): Promise<T> {
   return cache.get(path) as Promise<T>;
 }
 
-type RawMeeting = [string, string, RaceType, string, number | null, number | null, number | null, string | null, string | null, number];
-type RawOpp = [string, string, string, number, number, number | null, RawMeeting[], Sex?, (0 | 1)?];
+/** An opponent in the rider file: id, name, sex, in the Norway view. The meetings are filled in by withMeetings(). */
+type RawOpp = [string, string, Sex, 0 | 1];
 
 function opponents(raw: RawOpp[] | undefined): Map<string, Opponent> {
-  return new Map((raw || []).map(([id, name, club, w, l, med, ms, sex, no]) => [id, {
-    id, name, club, w, l, med, sex: sex ?? null, no: !!no,
-    ms: ms.map(([race, date, type, res, gs, gp, pl, mc, tc, same]) => ({
-      race, date, type, res: res[0] as Meeting["res"], gs, gp, pl, mc, tc, same: !!same,
-    })).sort((a, b) => a.date.localeCompare(b.date)),
-  }]));
+  return new Map((raw || []).map(([id, name, sex, no]) => [id, { id, name, club: "", w: 0, l: 0, med: null, ms: [], sex: sex ?? null, no: !!no }]));
 }
 
 interface RawResult {
@@ -193,11 +194,8 @@ export function withVideos(a: Athlete, file: VideoFile | null, names: (rid: stri
 
 export async function loadAthlete(id: string, index: IndexRider[], get: <T>(path: string) => Promise<T> = getJSON): Promise<Athlete> {
   const videos = get<VideoFile>("videos.json").catch(() => null); // optional: a missing file just means no videos
-  const entry = index.find((r) => r.id === id);
-  if (!entry?.shard) throw new Error("Fant ikke kjøreren");
-  const shard = await get<Record<string, RawProfile>>(`riders/shard-${entry.shard}.json`);
-  const raw = shard[id];
-  if (!raw) throw new Error("Fant ikke kjøreren");
+  if (!index.some((r) => r.id === id)) throw new Error("Fant ikke kjøreren");
+  const raw = await get<RawProfile>(`riders/${id}.json`);
   return withVideos(athlete({ ...raw, id }), await videos, (rid) => index.find((r) => r.id === rid)?.name || "");
 }
 
@@ -255,28 +253,61 @@ export interface RaceList {
 interface RacesFile { races: RaceList[] }
 export const raceLists = async () => (await getJSON<RacesFile>("races.json")).races;
 
-/** Head-to-head against any rider: in every race both rode, the better place wins; a DNF loses to anyone placed. */
-export async function headToHead(meId: string, other: IndexRider): Promise<Opponent> {
-  const ms: Meeting[] = [];
-  for (const race of await raceLists()) {
-    const me = race.rows.find((r) => r[0] === meId), o = race.rows.find((r) => r[0] === other.id);
-    if (!me || !o) continue;
-    const p = me[2], q = o[2];
-    let res: Meeting["res"], gs: number | null = null, gp: number | null = null, pl: number | null = null;
-    if (p == null && q == null) res = "d";
-    else if (q == null) res = "w";
-    else if (p == null) res = "l";
-    else {
-      res = p < q ? "w" : p > q ? "l" : "d";
-      pl = p === q ? null : p - q;
-      if (me[3] && o[3]) { gs = Math.round((me[3] - o[3]) * 100) / 100; gp = Math.round((1000 * gs) / o[3]) / 10; }
-    }
-    ms.push({ race: race.name, date: race.date, type: race.type, res, gs, gp, pl, mc: race.cls, tc: race.cls, same: true });
+/** x to n decimals the way Python's round() does it in sitedata.py: the exact value, a tie to the even digit. */
+function pyRound(x: number, n: number): number {
+  const r = Number(x.toFixed(n)); // the exact value rounded, a tie away from zero
+  const half = x * 2 ** (n + 1); // a tie is exactly an odd multiple of 1 / 2^(n+1)
+  if (!Number.isInteger(half) || half % 2 === 0 || Math.round(Math.abs(r) * 10 ** n) % 2 === 0) return r;
+  return Number((r - Math.sign(x) * 10 ** -n).toFixed(n));
+}
+
+/** Head-to-head: in every race both rode, the better place wins; a DNF loses to anyone placed. */
+function meeting(race: RaceList, me: RaceRow, o: RaceRow): Meeting {
+  const p = me[2], q = o[2];
+  let res: Meeting["res"], gs: number | null = null, gp: number | null = null, pl: number | null = null;
+  if (p == null && q == null) res = "d";
+  else if (q == null) res = "w";
+  else if (p == null) res = "l";
+  else {
+    res = p < q ? "w" : p > q ? "l" : "d";
+    pl = p === q ? null : p - q;
+    if (me[3] && o[3]) { gs = pyRound(me[3] - o[3], 2); gp = pyRound((100 * gs) / o[3], 1); }
   }
-  ms.sort((a, b) => a.date.localeCompare(b.date));
+  return { race: race.name, date: race.date, type: race.type, res, gs, gp, pl, mc: race.cls, tc: race.cls, same: true };
+}
+
+/** The meetings with each of these riders, oldest first. */
+async function meetings(meId: string, ids: Set<string>): Promise<Map<string, Meeting[]>> {
+  const out = new Map<string, Meeting[]>();
+  for (const race of await raceLists()) {
+    const me = race.rows.find((r) => r[0] === meId);
+    if (!me) continue;
+    for (const o of race.rows) {
+      if (o === me || !ids.has(o[0])) continue;
+      const ms = out.get(o[0]) || [];
+      ms.push(meeting(race, me, o));
+      out.set(o[0], ms);
+    }
+  }
+  for (const ms of out.values()) ms.sort((a, b) => a.date.localeCompare(b.date));
+  return out;
+}
+
+const withRecord = (o: Opponent, ms: Meeting[]): Opponent => {
   const pls = ms.filter((m) => m.pl != null).map((m) => m.pl!);
-  const rec = record(ms);
-  return { id: other.id, name: other.name, club: other.club, w: rec.w, l: rec.l, med: pls.length ? median(pls) : null, ms, sex: other.sex ?? null, no: !!other.no };
+  return { ...o, ...record(ms), med: pls.length ? median(pls) : null, ms };
+};
+
+/** The athlete with every meeting against the opponents in the rider file, from the result lists. */
+export async function withMeetings(a: Athlete): Promise<Athlete> {
+  const ms = await meetings(a.id, new Set(a.opponents.keys()));
+  return { ...a, opponents: new Map([...a.opponents].map(([id, o]) => [id, withRecord(o, ms.get(id) || [])])) };
+}
+
+/** Head-to-head against any rider. */
+export async function headToHead(meId: string, other: IndexRider): Promise<Opponent> {
+  const ms = (await meetings(meId, new Set([other.id]))).get(other.id) || [];
+  return withRecord({ id: other.id, name: other.name, club: other.club, w: 0, l: 0, med: null, ms: [], sex: other.sex ?? null, no: !!other.no }, ms);
 }
 
 /* Hills (data/hills.json) and their tracks (data/tracks/<id>.json, from tracks.py). */

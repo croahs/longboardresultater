@@ -1,14 +1,14 @@
 import { Suspense, lazy, useEffect, useState } from "react";
-import { RACE_TYPES, getJSON, hills, raceLists, type Hill, type IndexRider, type RaceType, type Summary, type Who } from "../data";
+import { RACE_TYPES, getJSON, hills, type Hill, type IndexRider, type RaceType, type Summary, type Who } from "../data";
 import { count, dateLong, int, raw, span, typeLabel } from "../format";
 import { t } from "../lang";
 import { href, type Tab } from "../nav";
 import { useNorge } from "../scope";
 import Search from "../Search";
-import { Cls, Icon } from "../ui";
+import { Cls, Failed, Icon } from "../ui";
 
 /* The front page: the road, the search, and what the result lists hold. Every number comes from summary.json
-   (site.py), so nothing here is typed in by hand. */
+   (sitedata.py), so nothing here is typed in by hand. */
 
 // three.js is its own chunk: the page reads before the road has loaded.
 const HeroScene = lazy(() => import("../three/HeroScene"));
@@ -17,15 +17,16 @@ const WhoLink = ({ w }: { w: Who }) => (w.page ? <a href={href.rider(w.id)}>{w.n
 export default function Home({ index, example }: { index: IndexRider[]; example: string | null }) {
   const norge = useNorge();
   const [s, setS] = useState<Summary | null>(null);
+  const [err, setErr] = useState(false);
   const v = s && norge && s.no ? s.no : s; // the lists and records: the Norway view or everything
   const best = norge ? s?.rating?.race.now_no?.[0] : s?.rating?.race.now[0];
   const [hs, setHs] = useState<(Hill & { races: number; last: string })[]>([]);
   useEffect(() => {
-    getJSON<Summary>("summary.json").then(setS).catch(() => setS(null));
-    Promise.all([hills(), raceLists()]).then(([h, rs]) => {
-      const by = new Map<string, { n: number; last: string }>();
-      for (const r of rs) if (r.hill) { const c = by.get(r.hill) || { n: 0, last: "" }; c.n++; if (r.date > c.last) c.last = r.date; by.set(r.hill, c); }
-      setHs(h.map((x) => ({ ...x, races: by.get(x.id)?.n || 0, last: by.get(x.id)?.last || "" })).filter((x) => x.races).sort((a, b) => b.races - a.races));
+    const summary = getJSON<Summary>("summary.json");
+    summary.then(setS).catch(() => setErr(true));
+    Promise.all([hills(), summary]).then(([h, s]) => {
+      const by = s.hills || {};
+      setHs(h.map((x) => ({ ...x, races: by[x.id]?.races || 0, last: by[x.id]?.last || "" })).filter((x) => x.races).sort((a, b) => b.races - a.races));
     }).catch(() => {});
   }, []);
   const features: [Tab, () => JSX.Element, string, string][] = [
@@ -66,7 +67,7 @@ export default function Home({ index, example }: { index: IndexRider[]; example:
               {r.fastest_women && <p className="recent-win"><span className="eyebrow">{t("Beste kvinne", "Best woman")}</span><WhoLink w={r.fastest_women} /></p>}
             </article>
           ))}
-          {!s && <div className="loading">{t("Henter racene …", "Loading the races …")}</div>}
+          {!s && (err ? <Failed what={t("racene", "the races")} /> : <div className="loading">{t("Henter racene …", "Loading the races …")}</div>)}
         </div>
       </section>
 

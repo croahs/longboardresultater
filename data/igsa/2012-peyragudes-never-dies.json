@@ -3627,11 +3627,11 @@
      "nat": "ESP"
     },
     {
-     "place": null,
+     "place": 17,
      "name": "Chris McBride",
      "time": 158.28,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -3819,11 +3819,11 @@
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 19,
      "name": "Rey Pablo Fouz",
      "time": 150.63,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ESP"
     },
     {

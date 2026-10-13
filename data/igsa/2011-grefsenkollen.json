@@ -1137,11 +1137,11 @@
      "nat": "NOR"
     },
     {
-     "place": null,
+     "place": 12,
      "name": "Torbjørn Sunde",
      "time": 95.96,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NOR"
     },
     {
@@ -1169,19 +1169,19 @@
      "nat": "NOR"
     },
     {
-     "place": null,
+     "place": 16,
      "name": "Jørn-Arve Kvåseth",
      "time": 97.3,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NOR"
     },
     {
-     "place": null,
+     "place": 17,
      "name": "Jarle Asheim",
      "time": 97.38,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NOR"
     },
     {
@@ -1337,11 +1337,11 @@
      "nat": "NOR"
     },
     {
-     "place": null,
+     "place": 37,
      "name": "Håkon Hansen",
      "time": 101.24,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NOR"
     },
     {
@@ -1457,11 +1457,11 @@
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 52,
      "name": "Kim Andrë Hansen",
      "time": 104.3,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NOR"
     },
     {
@@ -1497,11 +1497,11 @@
      "nat": "NOR"
     },
     {
-     "place": null,
+     "place": 57,
      "name": "Lars Petter Brevig",
      "time": 105.06,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
@@ -1521,19 +1521,19 @@
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 60,
      "name": "Mauricio Londono",
      "time": 106.26,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "COL"
     },
     {
-     "place": null,
+     "place": 61,
      "name": "Einbu Erland Lien",
      "time": 106.51,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NOR"
     },
     {
@@ -1633,11 +1633,11 @@
      "nat": "NOR"
     },
     {
-     "place": null,
+     "place": 74,
      "name": "Tom Ove Mygland",
      "time": 109.38,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NOR"
     },
     {
@@ -1713,19 +1713,19 @@
      "nat": "ISL"
     },
     {
-     "place": null,
+     "place": 84,
      "name": "Michael David Woodcock",
      "time": 115.45,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NOR"
     },
     {
-     "place": null,
+     "place": 85,
      "name": "Dunia Vidal",
      "time": 116.02,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ESP"
     },
     {
@@ -1737,19 +1737,19 @@
      "nat": "NOR"
     },
     {
-     "place": null,
+     "place": 87,
      "name": "Mikkel Olsenlund",
      "time": 119.2,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NOR"
     },
     {
-     "place": null,
+     "place": 88,
      "name": "Axel Patricksson",
      "time": 119.25,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NOR"
     },
     {
@@ -1817,11 +1817,11 @@
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Dunia Vidal",
      "time": 116.02,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ESP"
     }
    ]
@@ -1977,11 +1977,11 @@
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 19,
      "name": "Lars Petter Brevig",
      "time": 105.06,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {

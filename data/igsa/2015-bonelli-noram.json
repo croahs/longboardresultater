@@ -56,11 +56,11 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Andrew Haiby",
      "time": 63.37,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -184,19 +184,19 @@
    "source": "http://web.archive.org/web/20240719002742id_/http://www.igsaworldcup.com/results/2015/2015_bonelli_na_qual.pdf / Junior 1 Downhill Skateboard / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Nora Manger",
      "time": 100.46,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Shin Mason",
      "time": 106.09,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     }
    ]
@@ -312,11 +312,11 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Zachary Fernandez",
      "time": 98.58,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     }
    ]

@@ -3087,11 +3087,11 @@
      "dns": false
     },
     {
-     "place": null,
+     "place": 131,
      "name": "Carley Richardson",
      "time": 216.85,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
@@ -3205,11 +3205,11 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 146,
      "name": "Karin Feldbaum",
      "time": 237.66,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
@@ -3317,11 +3317,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Carley Richardson",
      "time": 216.85,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
@@ -3340,11 +3340,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Karin Feldbaum",
      "time": 237.66,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
@@ -3697,11 +3697,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 15,
      "name": "Bob Ozman",
      "time": 198.01,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -3793,11 +3793,11 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 27,
      "name": "David Lehman",
      "time": 223.28,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -3833,11 +3833,11 @@
      "nat": "AUT"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Riley Meehan",
      "time": 195.8,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -3944,11 +3944,11 @@
      "nat": "POR"
     },
     {
-     "place": null,
+     "place": 16,
      "name": "Christian Conaway",
      "time": 226.59,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -3959,11 +3959,11 @@
      "dns": false
     },
     {
-     "place": null,
+     "place": 18,
      "name": "Cedric Bob Touchette",
      "time": 249.35,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
@@ -4095,11 +4095,11 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Andreas Johnsen",
      "time": 215.16,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {

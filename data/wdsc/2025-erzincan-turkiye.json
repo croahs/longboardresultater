@@ -10,7 +10,10 @@
   "https://worlddownhillskateboardingchampionship.com/standings-2025/"
  ],
  "titles": [],
- "notes": [],
+ "notes": [
+  "Open QS dropped: the Open CT list cut down to the QS riders",
+  "Luge QS dropped: the Luge CT list cut down to the QS riders"
+ ],
  "races": [
   {
    "name": "Open CT",
@@ -313,110 +316,6 @@
      "dnf": false,
      "dns": false,
      "nat": "FRA"
-    }
-   ]
-  },
-  {
-   "name": "Open QS",
-   "kind": "Open",
-   "format": "bracket",
-   "source": "https://worlddownhillskateboardingchampionship.com/standings-2025/ / QS Open Skateboard",
-   "results": [
-    {
-     "place": 1,
-     "name": "Morgan Owens",
-     "time": null,
-     "dnf": false,
-     "dns": false,
-     "nat": "USA"
-    },
-    {
-     "place": 2,
-     "name": "Antonio Madariaga",
-     "time": null,
-     "dnf": false,
-     "dns": false,
-     "nat": "USA"
-    },
-    {
-     "place": 3,
-     "name": "Mitch Thompson",
-     "time": null,
-     "dnf": false,
-     "dns": false,
-     "nat": "AUS"
-    },
-    {
-     "place": 4,
-     "name": "Vojtěch Žáček",
-     "time": null,
-     "dnf": false,
-     "dns": false,
-     "nat": "CZE"
-    },
-    {
-     "place": 5,
-     "name": "Cam Brickenden",
-     "time": null,
-     "dnf": false,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": 6,
-     "name": "Wing tsun Thomas Ng",
-     "time": null,
-     "dnf": false,
-     "dns": false,
-     "nat": "HKG"
-    },
-    {
-     "place": 7,
-     "name": "Maria Sabrina Ambrosi Bordo",
-     "time": null,
-     "dnf": false,
-     "dns": false,
-     "nat": "ARG"
-    },
-    {
-     "place": 8,
-     "name": "Arman Jaberi",
-     "time": null,
-     "dnf": false,
-     "dns": false,
-     "nat": "USA"
-    }
-   ]
-  },
-  {
-   "name": "Luge QS",
-   "kind": "Luge",
-   "format": "bracket",
-   "source": "https://worlddownhillskateboardingchampionship.com/standings-2025/ / QS Open Street Luge",
-   "results": [
-    {
-     "place": 1,
-     "name": "Mark Wilson",
-     "time": null,
-     "dnf": false,
-     "dns": false,
-     "nat": "GBR"
-    },
-    {
-     "place": 2,
-     "name": "Alex Hale",
-     "time": null,
-     "dnf": false,
-     "dns": false,
-     "nat": "GBR"
-    },
-    {
-     "place": 3,
-     "name": "George Cheeseman",
-     "time": null,
-     "dnf": false,
-     "dns": false,
-     "nat": "GBR"
     }
    ]
   }

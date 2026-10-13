@@ -33,8 +33,10 @@ export const ord = (n: number) => {
 };
 /** A place in a field: "3. av 12" or "3rd of 12". */
 export const placeOf = (place: number, field: number) => `${ord(place)} ${t("av", "of")} ${field}`;
-/** A count with its noun: "3 race" or "3 races"; English adds an s past one unless told the plural. */
-export const count = (n: number, no: string, en: string, enMany = `${en}s`) => `${n} ${isEn() ? (n === 1 ? en : enMany) : no}`;
+/** A count with its noun: "3 race" or "3 races". Norwegian takes [one, many] when they differ; English adds an s
+    past one unless told the plural. */
+export const count = (n: number, no: string | [string, string], en: string, enMany = `${en}s`) =>
+  `${n} ${isEn() ? (n === 1 ? en : enMany) : typeof no === "string" ? no : no[n === 1 ? 0 : 1]}`;
 
 /** "2025" or "2024–2026" */
 export const span = (ys: number[]) => (!ys.length ? "" : ys[0] === ys[ys.length - 1] ? String(ys[0]) : `${ys[0]}–${ys[ys.length - 1]}`);

@@ -63,7 +63,7 @@ p { margin: 0; }
 .topnav a { padding: 6px 10px; font-weight: 500; color: var(--ink-2); font-size: .92rem; border-bottom: 1px solid transparent; }
 .topnav a:hover { color: var(--ink); border-bottom-color: var(--ink); }
 .topbar-search { margin-left: auto; min-width: 0; }
-.page { padding: 28px var(--gutter) 72px; display: grid; gap: 48px; max-width: var(--max); width: 100%; margin: 0 auto; }
+.page { padding: 28px var(--gutter) 72px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 48px; max-width: var(--max); width: 100%; margin: 0 auto; }
 .is-home .page { padding-top: 0; max-width: none; }
 .is-home .page > *:not(.hero) { max-width: var(--max); width: 100%; margin-inline: auto; }
 footer.site { margin-top: auto; padding: 20px var(--gutter) 40px; border-top: 1px solid var(--ink); color: var(--muted); font: 400 .78rem/1.6 var(--mono); display: grid; gap: 6px; max-width: var(--max); width: 100%; margin-inline: auto; }
@@ -95,7 +95,7 @@ footer.site a { text-decoration: underline; text-underline-offset: 3px; }
 .scope + .scope { margin-left: 0; }
 input[type="search"] { padding: 8px 12px; border: 1px solid var(--rule-2); background: var(--paper); color: var(--ink); min-width: 0; -webkit-appearance: none; appearance: none; border-radius: 0; }
 input[type="search"]::placeholder { color: var(--muted); }
-input[type="search"]:focus { border-color: var(--ink); outline: none; }
+input[type="search"]:focus { border-color: var(--ink); }
 .card { background: transparent; border-top: 1px solid var(--ink); }
 .card-pad { padding: 18px 0; }
 .empty { display: grid; gap: 10px; justify-items: start; padding: 24px 0; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--rule); color: var(--muted); }
@@ -270,7 +270,7 @@ table.sheet td.season-cell small { display: block; }
 .chart .line { fill: none; stroke: var(--c, var(--ink)); stroke-width: 1.8; stroke-linejoin: round; stroke-linecap: round; }
 .chart .pt.small circle:first-child { stroke-width: 1.5; }
 .chart-tip { min-height: 1.5em; font-size: .9rem; }
-.pool-race { --c: var(--ink); } .pool-kvalik { --c: var(--masters); }
+.pool-race { --c: var(--ink); } .pool-kvalik { --c: var(--masters); } .pool-luge { --c: var(--luge); } .pool-luge_kvalik { --c: var(--adaptive); }
 .delta { font-weight: 500; font-variant-numeric: tabular-nums; } .delta.pos { color: var(--win); } .delta.neg { color: var(--loss); }
 .timeline { margin-top: 14px; }
 .legend.picker { gap: 2px 4px; margin-bottom: 10px; }
@@ -335,6 +335,7 @@ table.meetings .res.d { background: var(--ghost); color: var(--muted); }
 .duel-sum { color: var(--ink-2); }
 .opp-search { position: relative; min-width: 260px; }
 .opp-search input { width: 100%; }
+.opp-search .fine { margin-top: 6px; color: var(--loss); }
 .opp-search .hits li button { display: flex; justify-content: space-between; gap: 10px; width: 100%; background: none; border: 0; padding: 0; text-align: left; cursor: pointer; }
 .hl-cards { grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); }
 .hl { display: grid; gap: 6px; align-content: start; padding: 14px 16px; border-top: 3px solid var(--muted); margin-top: -1px; }

@@ -24,259 +24,259 @@
    "source": "http://web.archive.org/web/20111008004233id_/http://www.igsaworldcup.com/results/2011/2011_king_of_the_fort_na_qual.pdf / Downhill Skateboard / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Paul Du Plessis",
      "time": 133.3,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Berg Raoul Van Den",
      "time": 135.03,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Terry Terblanche",
      "time": 136.36,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Glen Phillips",
      "time": 137.13,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Lloyd Clark",
      "time": 137.14,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Alex Duss",
      "time": 138.28,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Alejandro Puente",
      "time": 140.48,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "COL"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Gerhard Nel",
      "time": 141.16,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Mike Upham",
      "time": 141.2,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Christian Bowes",
      "time": 142.55,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "Darren Fielding",
      "time": 146.21,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 12,
      "name": "Gary Africa",
      "time": 146.25,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 13,
      "name": "Nik Jakins",
      "time": 147.2,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 14,
      "name": "Chris Lubbe",
      "time": 147.38,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 15,
      "name": "Sam Jakins",
      "time": 148.03,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 16,
      "name": "Brad Pinto",
      "time": 148.35,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 17,
      "name": "Nick Hook",
      "time": 148.36,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 18,
      "name": "Anton Pratt",
      "time": 149.3,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 19,
      "name": "John Upham",
      "time": 152.04,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 20,
      "name": "Stephen Gant",
      "time": 153.35,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 21,
      "name": "Justin Brown",
      "time": 154.0,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 22,
      "name": "Justin Boast",
      "time": 159.4,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 23,
      "name": "Nick Simic",
      "time": 160.0,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 24,
      "name": "Bergh Eebin Van Den",
      "time": 160.24,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 25,
      "name": "Robin Moodley",
      "time": 166.0,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 26,
      "name": "Craig Harvey",
      "time": 167.0,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 27,
      "name": "Renier Van Staden",
      "time": 172.4,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 28,
      "name": "Carlos Trancoso",
      "time": 178.45,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 29,
      "name": "Walt Anel Van Der",
      "time": 181.26,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 30,
      "name": "Tyne Laws",
      "time": 189.34,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 31,
      "name": "Gabi Murray-Roberts",
      "time": 222.0,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 32,
      "name": "Megan Forbes",
      "time": 335.36,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     }
    ]
@@ -288,27 +288,27 @@
    "source": "http://web.archive.org/web/20111008004233id_/http://www.igsaworldcup.com/results/2011/2011_king_of_the_fort_na_qual.pdf / Womens Downhill Skateboard / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Walt Anel Van Der",
      "time": 181.44,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Gabi Murray-Roberts",
      "time": 222.01,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Megan Forbes",
      "time": 223.19,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     }
    ]
@@ -320,35 +320,35 @@
    "source": "http://web.archive.org/web/20111008004233id_/http://www.igsaworldcup.com/results/2011/2011_king_of_the_fort_na_qual.pdf / Junior 2 Downhill Skateboard / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Nik Jakins",
      "time": 147.04,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Sam Jakins",
      "time": 148.11,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Nick Hook",
      "time": 148.38,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Justin Brown",
      "time": 164.43,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     }
    ]
@@ -360,99 +360,99 @@
    "source": "http://web.archive.org/web/20111008004233id_/http://www.igsaworldcup.com/results/2011/2011_king_of_the_fort_na_qual.pdf / Classic Luge / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Russell Naude",
      "time": 131.52,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Glen Phillips",
      "time": 134.49,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Marco Caromba",
      "time": 134.52,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Nikki Caromba",
      "time": 137.44,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Phil Du Plessis",
      "time": 137.53,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Lloyd Clark",
      "time": 139.36,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Jonathan Herbst",
      "time": 140.57,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Brad Pinto",
      "time": 141.54,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Trevor Mey",
      "time": 143.2,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Andries Haasbroek",
      "time": 146.01,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "Johan Aucamp",
      "time": 158.42,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 12,
      "name": "Robin Moodley",
      "time": 199.02,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     }
    ]
@@ -464,107 +464,107 @@
    "source": "http://web.archive.org/web/20111008004233id_/http://www.igsaworldcup.com/results/2011/2011_king_of_the_fort_na_qual.pdf / Street Luge / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Russell Naude",
      "time": 63.06,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Glen Phillips",
      "time": 63.1,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Marco Caromba",
      "time": 65.05,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Nikki Caromba",
      "time": 66.06,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Andries Haasbroek",
      "time": 66.54,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Phil Du Plessis",
      "time": 68.0,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Lloyd Clark",
      "time": 68.23,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Franco Megannon",
      "time": 69.0,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Brad Pinto",
      "time": 70.32,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Tyne Laws",
      "time": 71.06,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "Johan Aucamp",
      "time": 72.0,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 12,
      "name": "Jaco De Villiers",
      "time": 72.44,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 13,
      "name": "Jarrod Nyle",
      "time": 76.32,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     }
    ]

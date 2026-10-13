@@ -1361,11 +1361,11 @@
      "nat": "COL"
     },
     {
-     "place": null,
+     "place": 62,
      "name": "Mateo Vasquez",
      "time": 105.3,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "COL"
     },
     {
@@ -1465,11 +1465,11 @@
      "nat": "COL"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Lorena Barbosa",
      "time": 129.95,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "COL"
     },
     {
@@ -1577,11 +1577,11 @@
      "nat": "COL"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "Mateo Vasquez",
      "time": 105.3,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "COL"
     }
    ]
@@ -1593,35 +1593,35 @@
    "source": "http://web.archive.org/web/20130530035643id_/http://igsaworldcup.com/results/2012/2012_festival_de_la_Bajada_wc_qual.pdf / Classic Luge / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Alexandre Machado",
      "time": 87.95,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Andres Arias",
      "time": 90.5,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "COL"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Gonzalo Brandon",
      "time": 100.65,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "PER"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Felipe Buitrago",
      "time": 102.2,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "COL"
     },
     {

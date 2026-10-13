@@ -1949,11 +1949,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 14,
      "name": "Thiago Gomes Lessa",
      "time": 119.54,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -1989,11 +1989,11 @@
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 19,
      "name": "Calvin Staub",
      "time": 120.64,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -2101,11 +2101,11 @@
      "nat": "URU"
     },
     {
-     "place": null,
+     "place": 33,
      "name": "Zak Maytum",
      "time": 122.07,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -2501,11 +2501,11 @@
      "nat": "CZE"
     },
     {
-     "place": null,
+     "place": 83,
      "name": "Clarafond Gualfredo Bruno Di",
      "time": 127.87,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
@@ -2581,11 +2581,11 @@
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 93,
      "name": "Vegard Tvete",
      "time": 128.73,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NOR"
     },
     {
@@ -2709,11 +2709,11 @@
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 109,
      "name": "Tommaso Bohannon",
      "time": 130.61,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
@@ -2821,11 +2821,11 @@
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 123,
      "name": "Erik Buene",
      "time": 133.16,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NOR"
     },
     {
@@ -2877,11 +2877,11 @@
      "nat": "CZE"
     },
     {
-     "place": null,
+     "place": 130,
      "name": "Diez Mikel Echegaray",
      "time": 135.25,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ESP"
     },
     {
@@ -3341,11 +3341,11 @@
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Louis Pilloni",
      "time": 125.7,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -3461,11 +3461,11 @@
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 24,
      "name": "Clarafond Gualfredo Bruno Di",
      "time": 144.07,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     }
    ]

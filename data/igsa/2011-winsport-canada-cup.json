@@ -2,7 +2,7 @@
  "id": "2011-winsport-canada-cup",
  "name": "WinSport Canada Cup",
  "year": 2011,
- "date": "2011-02-03",
+ "date": "2011-09-02",
  "date_known": true,
  "hill": null,
  "place": "Calgary, Canada",
@@ -145,11 +145,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 16,
      "name": "Mike Synder",
      "time": 91.03,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -417,11 +417,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 50,
      "name": "Brandon Bean",
      "time": 94.54,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
@@ -465,19 +465,19 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 56,
      "name": "Andrew MacCannell",
      "time": 95.18,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 57,
      "name": "Jimmy Riha",
      "time": 95.35,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -505,11 +505,11 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 61,
      "name": "Matt Hoodie",
      "time": 96.09,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
@@ -657,19 +657,19 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 80,
      "name": "Sam Warsh",
      "time": 98.93,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 81,
      "name": "Brianne Davies",
      "time": 99.5,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
@@ -737,11 +737,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 90,
      "name": "Louis Ricard",
      "time": 102.17,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
@@ -1393,11 +1393,11 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Brandon Bean",
      "time": 105.67,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     }
    ]

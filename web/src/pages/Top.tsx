@@ -62,7 +62,14 @@ type View = "now" | "peak" | "seasons";
 const VIEWS: View[] = ["now", "peak", "seasons"];
 const viewLabel = (k: View) => ({ now: t("Nå", "Now"), peak: t("Alle tider", "All time"), seasons: t("Sesong for sesong", "Season by season") })[k];
 
-/** The Elo lists: one pool (heats or timed runs) and one view at a time, and the ratings over time below. */
+const poolLead = (k: Pool) => ({
+  race: t("Heat-race: finaler og rankinger.", "Heat races: finals and rankings."),
+  kvalik: t("Kvalifisering og annen kjøring på tid.", "Qualifying and other timed runs."),
+  luge: t("Luge, klassisk og street: heat-race, finaler og rankinger.", "Luge, classic and street: heat races, finals and rankings."),
+  luge_kvalik: t("Luge, klassisk og street: kvalifisering og annen kjøring på tid.", "Luge, classic and street: qualifying and other timed runs."),
+})[k];
+
+/** The Elo lists: one pool and one view at a time, and the ratings over time below. */
 function Rating({ pools, norge }: { pools: Record<Pool, RatingPool>; norge: boolean }) {
   const [pool, setPool] = useState<Pool>("race");
   const [view, setView] = useState<View>("now");
@@ -74,6 +81,7 @@ function Rating({ pools, norge }: { pools: Record<Pool, RatingPool>; norge: bool
     peak: t(`Den høyeste ratingen hver kjører har hatt, uansett når. Minst ${p.min_races} race i denne poolen.`, `The highest rating each rider has held, whenever it was. At least ${p.min_races} races in this pool.`),
     seasons: t("De fem beste ved slutten av hver sesong, blant dem som kjørte den sesongen.", "The top five at the end of each season, among those who raced that season."),
   }[view];
+  const none = (cols: number) => <tr><td colSpan={cols} className="l muted">{t("Ingen kjørere oppfyller kravene her ennå.", "No riders meet the bar here yet.")}</td></tr>;
   return (
     <>
       <div className="rating-bar">
@@ -84,19 +92,19 @@ function Rating({ pools, norge }: { pools: Record<Pool, RatingPool>; norge: bool
           {VIEWS.map((k) => <button key={k} type="button" className="chip" aria-pressed={view === k} onClick={() => setView(k)}>{viewLabel(k)}</button>)}
         </div>
       </div>
-      <p className="lead rating-lead">{pool === "race" ? t("Heat-race: finaler og rankinger.", "Heat races: finals and rankings.") : t("Kvalifisering og annen kjøring på tid.", "Qualifying and other timed runs.")} {lead} {t(`${p.races} race og ${p.riders} kjørere`, `${p.races} races and ${p.riders} riders`)}, {p.since}–{p.until}.</p>
+      <p className="lead rating-lead">{poolLead(pool)} {lead} {t(`${p.races} race og ${p.riders} kjørere`, `${p.races} races and ${p.riders} riders`)}, {p.since}–{p.until}.</p>
       <div className="card table-wrap"><table className="sheet top">
         {view === "now" && <>
           <thead><tr><th>#</th><th>Rating</th><th className="l">{t("Kjører", "Rider")}</th><th>{t("Topp", "Peak")}</th><th>{t("Race", "Races")}</th><th>{t("Sist", "Last")}</th></tr></thead>
           <tbody>{now.map((r, i) => (
             <tr key={r.id}><td className="tnum">{i + 1}</td><td className="tnum big">{r.rating}</td><td className="l">{who(r)}</td><td className="tnum muted">{r.peak} <small>{t("i", "in")} {r.peak_year}</small></td><td className="tnum">{r.races}</td><td className="tnum muted">{r.last}</td></tr>
-          ))}</tbody>
+          ))}{!now.length && none(6)}</tbody>
         </>}
         {view === "peak" && <>
           <thead><tr><th>#</th><th>{t("Topp", "Peak")}</th><th className="l">{t("Kjører", "Rider")}</th><th>{t("År", "Year")}</th><th>{t("Nå", "Now")}</th><th>{t("Race", "Races")}</th><th>{t("Sist", "Last")}</th></tr></thead>
           <tbody>{peak.map((r, i) => (
             <tr key={r.id}><td className="tnum">{i + 1}</td><td className="tnum big">{r.peak}</td><td className="l">{who(r)}</td><td className="tnum">{r.peak_year}</td><td className="tnum muted">{r.rating}</td><td className="tnum">{r.races}</td><td className="tnum muted">{r.last}</td></tr>
-          ))}</tbody>
+          ))}{!peak.length && none(7)}</tbody>
         </>}
         {view === "seasons" && <>
           <thead><tr><th className="l">{t("Sesong", "Season")}</th>{[1, 2, 3, 4, 5].map((n) => <th key={n} className="l">{ord(n)}</th>)}</tr></thead>

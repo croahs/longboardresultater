@@ -1023,11 +1023,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Mischo Erban",
      "time": 190.84,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
@@ -1439,11 +1439,11 @@
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 57,
      "name": "Gabriel Carrilho",
      "time": 207.52,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -1487,11 +1487,11 @@
      "nat": "PER"
     },
     {
-     "place": null,
+     "place": 63,
      "name": "Simon Butschek",
      "time": 210.88,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
@@ -1503,11 +1503,11 @@
      "nat": "COL"
     },
     {
-     "place": null,
+     "place": 65,
      "name": "Rodrigo Morante",
      "time": 213.92,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "PER"
     },
     {
@@ -1527,11 +1527,11 @@
      "nat": "COL"
     },
     {
-     "place": null,
+     "place": 68,
      "name": "Marco Torres",
      "time": 215.37,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "PER"
     },
     {
@@ -1575,11 +1575,11 @@
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 74,
      "name": "Pablo Emilio Llona",
      "time": 221.96,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "PER"
     },
     {
@@ -1670,27 +1670,27 @@
      "nat": "PER"
     },
     {
-     "place": null,
+     "place": 86,
      "name": "Rafaela Malaga",
      "time": 295.96,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "PER"
     },
     {
-     "place": null,
+     "place": 87,
      "name": "Mateo Jenkins",
      "time": 303.93,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "PER"
     },
     {
-     "place": null,
+     "place": 88,
      "name": "Rodrigo Fontana",
      "time": 661.44,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "PER"
     }
    ]
@@ -1757,11 +1757,11 @@
      "nat": "PER"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Rafaela Malaga",
      "time": 295.96,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "PER"
     }
    ]
@@ -1781,11 +1781,11 @@
      "nat": "PER"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Rodrigo Fontana",
      "time": 661.44,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "PER"
     }
    ]
@@ -1845,11 +1845,11 @@
      "nat": "PER"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Rodrigo Morante",
      "time": 213.92,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "PER"
     },
     {
@@ -1869,11 +1869,11 @@
      "nat": "PER"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Mateo Jenkins",
      "time": 303.93,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "PER"
     }
    ]
@@ -1917,35 +1917,35 @@
    "source": "http://web.archive.org/web/20160609230325id_/http://igsaworldcup.com/results/2011/2011_copa_de_Los_andes_tarma_qual.pdf / Street Luge / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Alexandre Machado",
      "time": 186.36,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Chris McBride",
      "time": 189.44,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Walter Ribeiro",
      "time": 190.05,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Rodrigo Bisquertt",
      "time": 192.36,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     }
    ]

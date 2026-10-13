@@ -681,11 +681,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 83,
      "name": "Jonathan Villegas",
      "time": 90.51,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "PER"
     },
     {
@@ -1009,11 +1009,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 124,
      "name": "Alex Silva",
      "time": 132.97,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     }
    ]
@@ -1329,11 +1329,11 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Marcos Filho",
      "time": 125.71,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     }
    ]
@@ -1473,11 +1473,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 17,
      "name": "Marcos Filho",
      "time": 107.87,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     }
    ]

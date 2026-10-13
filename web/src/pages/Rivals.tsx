@@ -1,16 +1,24 @@
 import { useEffect, useMemo, useState } from "react";
-import { RACE_TYPES, headToHead, record, type Athlete, type IndexRider, type Opponent, type RaceType, type Who } from "../data";
+import { RACE_TYPES, headToHead, record, withMeetings, type Athlete, type IndexRider, type Opponent, type RaceType, type Who } from "../data";
 import { clock, count, dateShort, firstName, fold, typeLabel } from "../format";
 import { t } from "../lang";
 import { href } from "../nav";
-import { Empty } from "../ui";
+import { Empty, Failed, Loading } from "../ui";
 
-/* Who the rider races against. The closest rivals come from site.py (met at least three times, few places
+/* Who the rider races against. The closest rivals come from sitedata.py (met at least three times, few places
    between, an even record); any other rider can be compared through the search box. */
 
 type TabKey = "closest" | RaceType;
 
 export default function Rivals({ a, index }: { a: Athlete; index: IndexRider[] }) {
+  const [full, setFull] = useState<Athlete | null>(null);
+  const [err, setErr] = useState(false);
+  useEffect(() => { let live = true; withMeetings(a).then((x) => live && setFull(x)).catch(() => live && setErr(true)); return () => { live = false; }; }, [a]);
+  if (err) return <Failed what={t("oppgjørene", "the meetings")} />;
+  return full ? <RivalsOf a={full} index={index} /> : <Loading what={t("oppgjørene", "the meetings")} />;
+}
+
+function RivalsOf({ a, index }: { a: Athlete; index: IndexRider[] }) {
   const [extra, setExtra] = useState<Map<string, Opponent>>(new Map());
   const O = useMemo(() => new Map([...a.opponents, ...extra]), [a.opponents, extra]);
   const ins = a.insights;
@@ -38,7 +46,7 @@ export default function Rivals({ a, index }: { a: Athlete; index: IndexRider[] }
           <ol>
             {list.map((id, i) => { const x = O.get(id)!; const ms = tab === "closest" ? x.ms : x.ms.filter((m) => m.type === tab); const rec = record(ms); return (
               <li key={id}><button type="button" aria-pressed={cur === id} onClick={() => open(id)}>
-                <span className="rank tnum">{i + 1}</span><span className="who"><b>{x.name}</b><small className="muted">{count(ms.length, "møter", "meeting")}</small></span>
+                <span className="rank tnum">{i + 1}</span><span className="who"><b>{x.name}</b><small className="muted">{count(ms.length, ["møte", "møter"], "meeting")}</small></span>
                 <span className={`rec tnum ${rec.w > rec.l ? "pos" : rec.w < rec.l ? "neg" : ""}`}>{rec.w}–{rec.l}</span>
               </button></li>
             ); })}
@@ -51,11 +59,11 @@ export default function Rivals({ a, index }: { a: Athlete; index: IndexRider[] }
       <section className="section" aria-labelledby="h-hl">
         <div className="section-head"><div><p className="eyebrow">{t("Fra oppgjørene", "From the meetings")}</p><h2 className="h-section" id="h-hl">{t("Mønstre", "Patterns")}</h2></div></div>
         <div className="hl-cards">
-          <HlCard title="Nemesis" sub={t(`Jevnbyrdige som slår ${who} oftest`, `Even matches who beat ${who} most often`)} tone="neg" rows={ins.nemesis} val={(r) => [`${r.wins}–${r.losses}`, count(r.races!, "møter", "meeting")]} onPick={open} />
-          <HlCard title={t("Offer", "Victims")} sub={t(`Jevnbyrdige ${who} slår oftest`, `Even matches ${who} beats most often`)} tone="pos" rows={ins.victims} val={(r) => [`${r.wins}–${r.losses}`, count(r.races!, "møter", "meeting")]} onPick={open} />
-          <HlCard title={t("Jakten", "The chase")} sub={t(`Ender oftest 1–3 plasser foran ${who}`, `Most often end 1–3 places ahead of ${who}`)} rows={ins.right_ahead} val={(r) => [`${(r as Who & { right_ahead: number }).right_ahead}×`, `${t("av", "of")} ${count(r.races!, "møter", "meeting")}`]} onPick={open} />
-          <HlCard title={t("I nakken", "On the tail")} sub={t(`Ender oftest 1–3 plasser bak ${who}`, `Most often end 1–3 places behind ${who}`)} rows={ins.right_behind} val={(r) => [`${(r as Who & { right_behind: number }).right_behind}×`, `${t("av", "of")} ${count(r.races!, "møter", "meeting")}`]} onPick={open} />
-          {!!ins.overtaken?.length && <HlCard title={t("Snudd", "Turned")} sub={t(`Slo ${who} ett år, tapte året etter`, `Beat ${who} one year, lost the year after`)} rows={ins.overtaken} val={(r) => [`${(r as Who & { lost_in: string }).lost_in} → ${(r as Who & { beat_in: string }).beat_in}`, count(r.races!, "møter", "meeting")]} onPick={open} />}
+          <HlCard title="Nemesis" sub={t(`Jevnbyrdige som slår ${who} oftest`, `Even matches who beat ${who} most often`)} tone="neg" rows={ins.nemesis} val={(r) => [`${r.wins}–${r.losses}`, count(r.races!, ["møte", "møter"], "meeting")]} onPick={open} />
+          <HlCard title={t("Offer", "Victims")} sub={t(`Jevnbyrdige ${who} slår oftest`, `Even matches ${who} beats most often`)} tone="pos" rows={ins.victims} val={(r) => [`${r.wins}–${r.losses}`, count(r.races!, ["møte", "møter"], "meeting")]} onPick={open} />
+          <HlCard title={t("Jakten", "The chase")} sub={t(`Ender oftest 1–3 plasser foran ${who}`, `Most often end 1–3 places ahead of ${who}`)} rows={ins.right_ahead} val={(r) => [`${(r as Who & { right_ahead: number }).right_ahead}×`, `${t("av", "of")} ${count(r.races!, ["møte", "møter"], "meeting")}`]} onPick={open} />
+          <HlCard title={t("I nakken", "On the tail")} sub={t(`Ender oftest 1–3 plasser bak ${who}`, `Most often end 1–3 places behind ${who}`)} rows={ins.right_behind} val={(r) => [`${(r as Who & { right_behind: number }).right_behind}×`, `${t("av", "of")} ${count(r.races!, ["møte", "møter"], "meeting")}`]} onPick={open} />
+          {!!ins.overtaken?.length && <HlCard title={t("Snudd", "Turned")} sub={t(`Slo ${who} ett år, tapte året etter`, `Beat ${who} one year, lost the year after`)} rows={ins.overtaken} val={(r) => [`${(r as Who & { lost_in: string }).lost_in} → ${(r as Who & { beat_in: string }).beat_in}`, count(r.races!, ["møte", "møter"], "meeting")]} onPick={open} />}
         </div>
       </section>
     </>
@@ -109,15 +117,17 @@ function HlCard({ title, sub, tone, rows, val, onPick }: { title: string; sub: s
   );
 }
 
-function OppSearch({ index, self, onPick }: { index: IndexRider[]; self: string; onPick: (r: IndexRider) => void }) {
+function OppSearch({ index, self, onPick }: { index: IndexRider[]; self: string; onPick: (r: IndexRider) => Promise<void> }) {
   const [q, setQ] = useState("");
   const [busy, setBusy] = useState(false);
+  const [err, setErr] = useState(false);
   const hits = useMemo(() => { const s = fold(q.trim()); if (s.length < 2) return []; return index.filter((r) => r.id !== self && fold(r.name).includes(s)).sort((a, b) => b.races - a.races).slice(0, 6); }, [q, index, self]);
-  useEffect(() => { setBusy(false); }, [q]);
+  useEffect(() => { setBusy(false); setErr(false); }, [q]);
   return (
     <div className="opp-search">
       <input type="search" placeholder={t("Sammenlign med hvem som helst", "Compare with anyone")} aria-label={t("Sammenlign med en annen kjører", "Compare with another rider")} value={q} onChange={(e) => setQ(e.target.value)} />
-      {hits.length > 0 && <ul className="hits" role="listbox">{hits.map((r) => <li key={r.id} role="option" aria-selected={false}><button type="button" disabled={busy} onClick={async () => { setBusy(true); await onPick(r); setQ(""); }}><b>{r.name}</b><small className="tnum muted">{count(r.races, "race", "race")}</small></button></li>)}</ul>}
+      {err && <p className="fine" role="alert">{t("Fikk ikke hentet oppgjørene. Prøv igjen.", "Could not load the meetings. Try again.")}</p>}
+      {hits.length > 0 && <ul className="hits" role="listbox">{hits.map((r) => <li key={r.id} role="option" aria-selected={false}><button type="button" disabled={busy} onClick={async () => { setBusy(true); setErr(false); try { await onPick(r); setQ(""); } catch { setBusy(false); setErr(true); } }}><b>{r.name}</b><small className="tnum muted">{count(r.races, "race", "race")}</small></button></li>)}</ul>}
     </div>
   );
 }

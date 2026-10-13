@@ -11,9 +11,7 @@
  "titles": [
   "Norgescup Ekstremsport Veko – Resultater"
  ],
- "notes": [
-  "sheet e/2PACX-1vTuEOaRcHnlxjVe4ltvAr: HTTP Error 404: Not Found"
- ],
+ "notes": [],
  "races": [
   {
    "name": "Open",
@@ -374,6 +372,56 @@
     {
      "place": 51,
      "name": "Alberto Penelas",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    }
+   ]
+  },
+  {
+   "name": "Adaptive",
+   "kind": "Adaptive",
+   "format": "bracket",
+   "source": "sheet e/2PACX-1vTuEOaRcHnlxjVe4ltvArFLLXvenRtvWYS4HHadTRqP1uvcxYYXD65UEXbmQyPuHYbhhAaYVX45gSKt / Results / FINAL RESULTS",
+   "results": [
+    {
+     "place": 1,
+     "name": "Derrick Duncan",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 2,
+     "name": "Ellen Knutsen",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 3,
+     "name": "Candy Dungan",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 4,
+     "name": "Jarno Kajova",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 5,
+     "name": "Carina Rogers",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 6,
+     "name": "Erik Evensen",
      "time": null,
      "dnf": false,
      "dns": false

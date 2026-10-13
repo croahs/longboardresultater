@@ -9,7 +9,7 @@ by column, that is every race's result list: the riders who placed, nobody else,
 races pages (/races/<year>/) give each race its date and country.
 
   python3 idf.py            read the cache, write data/idf/<event>.json
-  python3 idf.py fetch      also fetch the pages and sheets not cached yet
+  python3 idf.py fetch      fetch every page and sheet again, overwriting the cache
   python3 idf.py refetch    throw the cache away and fetch everything again
 
 Everything fetched is cached under cache/idf/ and committed.
@@ -172,6 +172,9 @@ def build(fetch=False):
             lists = race_lists(rows)
             title = next((c for c in rows[0] if c.strip()), "") if rows else ""
             kind = next((k for pat, k in CLASSES if re.search(pat, fold(f"{label} {title}"))), "Open")
+            rname = race_name(kind)
+            if kind == "Luge" and "classic" in fold(f"{label} {title}"):
+                rname = "Classic Luge"  # 2015 ranks Classic and Street Luge apart
             for col_name, results in lists.items():
                 ri = lookup(info, col_name)
                 name, hill = (ri[2] if ri else col_name), None
@@ -186,7 +189,7 @@ def build(fetch=False):
                     ev["titles"].append(col_name)
                 if not ri and not ev["notes"]:
                     ev["notes"].append(f"not on {SITE}/races/{year}/: date and country unknown")
-                add_race(ev, race_name(kind), kind, "bracket", f"{src} / {col_name}", results)
+                add_race(ev, rname, kind, "bracket", f"{src} / {col_name}", results)
     for ev in events.values():
         ev["needs_manual"] = not ev["races"]
     return events

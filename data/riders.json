@@ -1,17 +1,26 @@
 {
- "_help": "Rider ids for the site. Add other spellings of a name to \"aliases\" to merge riders; set \"fixed\": true to keep \"name\" as written here; set \"norsk\": true or false to put a rider in the Norway view or out of it, whatever the lists say.",
+ "_help": "Rider ids for the site. \"aliases\" holds every other spelling the rider was found under; move a spelling to another rider to change who it is, and give it a rider of its own by moving it into \"not\" (spellings that are someone else). Set \"fixed\": true to keep \"name\" as written here; set \"norsk\": true or false to put a rider in the Norway view or out of it, whatever the lists say. \"next\" is the next id to hand out.",
+ "next": 6192,
  "riders": {
   "r1": {
    "name": "Jørgen Stokke Halvorsen",
-   "aliases": []
+   "aliases": [
+    "Jørgen Halvorsen",
+    "Jørgen s. Halvorsen"
+   ]
   },
   "r2": {
    "name": "Morten Bechstrøm",
-   "aliases": []
+   "aliases": [
+    "Morten Bechstrom"
+   ]
   },
   "r3": {
    "name": "Alex Lyngaas",
-   "aliases": []
+   "aliases": [
+    "Alex Lyngås",
+    "Lyngaas Alex"
+   ]
   },
   "r4": {
    "name": "Cato Lægreid",
@@ -19,7 +28,11 @@
   },
   "r5": {
    "name": "Fredric Jacobsen",
-   "aliases": []
+   "aliases": [
+    "Fredric Jackobsen",
+    "Jacobsen Fredric",
+    "Jacobsen Fredrik"
+   ]
   },
   "r6": {
    "name": "Christoffer Sanne",
@@ -27,7 +40,13 @@
   },
   "r7": {
    "name": "Torbjørn Sunde",
-   "aliases": []
+   "aliases": [
+    "Sunde Torbjørn",
+    "Torbjon Sunde",
+    "Torbjorn Sunde",
+    "Torbjörn Sunde",
+    "TørBjørn Sunde"
+   ]
   },
   "r8": {
    "name": "Andy Helm",
@@ -37,14 +56,24 @@
    "name": "Mikael Jensen",
    "aliases": [
     "Michael Kula Jensen",
-    "Mikael Kula Jensen"
+    "Mikael Kula Jensen",
+    "Mikael S. Jensen",
+    "Mikael Sjødal Jensen",
+    "Mikael s. Jensen",
+    "Mikal Jensen"
    ]
   },
   "r10": {
    "name": "Trygve Flebu Jørundland",
    "aliases": [
+    "Jørundland Trygve",
     "Tryggve Jørunlund",
-    "Trygve Flebu Jørundland"
+    "Trygve F. Jørundland",
+    "Trygve Flebu Jorundland",
+    "Trygve Jorundland",
+    "Trygve Jørundland",
+    "Trygve Jørundsland",
+    "Trygve Jørunland"
    ]
   },
   "r11": {
@@ -57,7 +86,9 @@
   },
   "r13": {
    "name": "Oliver Nielsen",
-   "aliases": []
+   "aliases": [
+    "Oliver Grenaa Nielsen"
+   ]
   },
   "r14": {
    "name": "Robin Sandberg",
@@ -65,11 +96,16 @@
   },
   "r15": {
    "name": "Dennis Westphal",
-   "aliases": []
+   "aliases": [
+    "Westphal Dennis"
+   ]
   },
   "r16": {
    "name": "Steffen Eliassen",
-   "aliases": []
+   "aliases": [
+    "Eliassen Steffen",
+    "Steffen Eliasen"
+   ]
   },
   "r17": {
    "name": "Tomas Berg",
@@ -89,11 +125,25 @@
   },
   "r21": {
    "name": "Alex Hørthe",
-   "aliases": []
+   "aliases": [
+    "Alex Horthe",
+    "Alexander Horte",
+    "Alexander Horthe",
+    "Alexander Hørthe",
+    "Hørthe Alex",
+    "Hørthe Alexander"
+   ]
   },
   "r22": {
    "name": "Johan Simonsen",
-   "aliases": []
+   "aliases": [
+    "Johan Mørch-Simonsen",
+    "John Simonsen",
+    "Simonsen Johan"
+   ],
+   "not": [
+    "Johan Wendt Simonsen"
+   ]
   },
   "r23": {
    "name": "Kristian Alfsnes",
@@ -109,7 +159,9 @@
   },
   "r26": {
    "name": "Anton Rooth-Bagger",
-   "aliases": []
+   "aliases": [
+    "Anton r. Bagger"
+   ]
   },
   "r27": {
    "name": "Steinar Frykberg",
@@ -117,7 +169,9 @@
   },
   "r28": {
    "name": "Kristina Engstrand",
-   "aliases": []
+   "aliases": [
+    "Engstrand Kristina"
+   ]
   },
   "r29": {
    "name": "Jay d. Romano",
@@ -125,7 +179,12 @@
   },
   "r30": {
    "name": "Håkon Wegge",
-   "aliases": []
+   "aliases": [
+    "Haakon Wegge",
+    "Hakon Wegge",
+    "Wegge Haakon",
+    "Wegge Håkon"
+   ]
   },
   "r31": {
    "name": "Sven Renberg",
@@ -141,15 +200,22 @@
   },
   "r34": {
    "name": "Adrian Jancey",
-   "aliases": []
+   "aliases": [
+    "Adrian Jancy",
+    "Jancey Adrian"
+   ]
   },
   "r35": {
    "name": "Carl Johan Gårdelöf",
-   "aliases": []
+   "aliases": [
+    "Gårdeløf Carl Johan"
+   ]
   },
   "r36": {
    "name": "Bjørnulf Benstad",
-   "aliases": []
+   "aliases": [
+    "Bjørnulf Benestad"
+   ]
   },
   "r37": {
    "name": "C. Niklas H.Ursin",
@@ -157,15 +223,23 @@
   },
   "r38": {
    "name": "Joakim Løseth",
-   "aliases": []
+   "aliases": [
+    "Løseth Joakim"
+   ]
   },
   "r39": {
    "name": "Espen Eliassen",
-   "aliases": []
+   "aliases": [
+    "Eliassen Espen"
+   ]
   },
   "r40": {
    "name": "Audun Guneriussen",
-   "aliases": []
+   "aliases": [
+    "Audun Guneriusen",
+    "Audun Gunerlussen",
+    "Guneriussen Audun"
+   ]
   },
   "r41": {
    "name": "Jonas Hjelme",
@@ -177,7 +251,11 @@
   },
   "r43": {
    "name": "Jørn-Arve Kvålseth",
-   "aliases": []
+   "aliases": [
+    "Jørn Arve Kvålset",
+    "Jørn-Arne Kvålseth",
+    "Jørn-Arve Kvåseth"
+   ]
   },
   "r44": {
    "name": "Jørgen Ringstrøm",
@@ -185,7 +263,9 @@
   },
   "r45": {
    "name": "Mikko Aijala",
-   "aliases": []
+   "aliases": [
+    "Aijala Mikko"
+   ]
   },
   "r46": {
    "name": "Anna Engstrand",
@@ -193,11 +273,15 @@
   },
   "r47": {
    "name": "Jairo Carrasco",
-   "aliases": []
+   "aliases": [
+    "Jario Carrasco"
+   ]
   },
   "r48": {
    "name": "Simon Hasselberg",
-   "aliases": []
+   "aliases": [
+    "Hasselberg Simon"
+   ]
   },
   "r49": {
    "name": "Kjetil Smedal",
@@ -205,11 +289,16 @@
   },
   "r50": {
    "name": "Tord Tvedten",
-   "aliases": []
+   "aliases": [
+    "Tord E. Tvedten",
+    "Tord e. Tvedten"
+   ]
   },
   "r51": {
    "name": "Dale Morten",
-   "aliases": []
+   "aliases": [
+    "Morten Dale"
+   ]
   },
   "r52": {
    "name": "Erwan de M",
@@ -217,7 +306,9 @@
   },
   "r53": {
    "name": "Amund b. Aaeng",
-   "aliases": []
+   "aliases": [
+    "Amund Aaeng"
+   ]
   },
   "r54": {
    "name": "Johan j. Espensen",
@@ -233,7 +324,9 @@
   },
   "r58": {
    "name": "Anders Taube",
-   "aliases": []
+   "aliases": [
+    "Anders Taub"
+   ]
   },
   "r59": {
    "name": "J-Fox Halvorsen",
@@ -242,21 +335,25 @@
   "r60": {
    "name": "Anderssen Kim Mengshoel",
    "aliases": [
-    "Anderssen Kim Mengshoel",
+    "Anderssen Kim",
+    "Andersson Kim Mengshoel",
+    "Kim Andersen",
+    "Kim Anderssen",
+    "Kim M Andersen",
     "Kim M. Anderssen",
-    "Kim Mengshoel"
+    "Kim Mengshoel",
+    "Kim Mengshoel Andersen",
+    "Kim Mengshoel Anderssen",
+    "Mengshoel Andersson Kim"
    ]
   },
   "r61": {
    "name": "Ali Nas",
    "aliases": [
-    "Ali Al-Nasrallah"
+    "Ali Al-Nasrallah",
+    "Nas Ali"
    ],
    "fixed": true
-  },
-  "r62": {
-   "name": "Alexander Hørthe",
-   "aliases": []
   },
   "r63": {
    "name": "Jacob Espenes",
@@ -268,11 +365,15 @@
   },
   "r65": {
    "name": "Victor Mårtensson",
-   "aliases": []
+   "aliases": [
+    "Victor Martensson"
+   ]
   },
   "r66": {
    "name": "Bjørn-Erik Gabrielsen",
-   "aliases": []
+   "aliases": [
+    "Bjørn Erik Gabrielsen"
+   ]
   },
   "r67": {
    "name": "Frithjof Sohei",
@@ -284,7 +385,9 @@
   },
   "r69": {
    "name": "Albin Larsson",
-   "aliases": []
+   "aliases": [
+    "Larsson-Pierre Albin"
+   ]
   },
   "r70": {
    "name": "Adrian Paulsen",
@@ -296,19 +399,25 @@
   },
   "r72": {
    "name": "Calle Gårdelöv",
-   "aliases": []
+   "aliases": [
+    "Calle Gardløv"
+   ]
   },
   "r73": {
    "name": "Jens Drageset Dydland",
    "aliases": [
+    "Dydland Jens Drageset",
     "Jens D. Dydland",
+    "Jens Drageseth Dydland",
     "Jens Dragset Dydland",
     "Jens Dragseth Dyrland"
    ]
   },
   "r74": {
    "name": "Petter Hagman",
-   "aliases": []
+   "aliases": [
+    "Peter Hagman"
+   ]
   },
   "r75": {
    "name": "Fredrik Sårheim",
@@ -348,7 +457,15 @@
   },
   "r83": {
    "name": "Henning Philip Patricksson",
-   "aliases": []
+   "aliases": [
+    "Henning P Patricksson",
+    "Henning P. Patricksson",
+    "Henning Patricksson",
+    "Henning philip Patricksson",
+    "Henning-Philip Patricksson",
+    "Patricksson Henning",
+    "Patricksson Henning Philip"
+   ]
   },
   "r84": {
    "name": "Andreas Holm",
@@ -392,15 +509,22 @@
   },
   "r94": {
    "name": "Albin Ekbïck",
-   "aliases": []
+   "aliases": [
+    "Albin Ekback",
+    "Albin Ekbäck"
+   ]
   },
   "r95": {
    "name": "Mattias Karlberg",
-   "aliases": []
+   "aliases": [
+    "Mattias Kalberg"
+   ]
   },
   "r96": {
    "name": "Christer Lunde",
-   "aliases": []
+   "aliases": [
+    "Lunde Christer"
+   ]
   },
   "r97": {
    "name": "Øystein Larsen",
@@ -432,15 +556,22 @@
   },
   "r104": {
    "name": "Nicolas Holøien",
-   "aliases": []
+   "aliases": [
+    "Nicholas Holøien"
+   ]
   },
   "r105": {
    "name": "Andreas Bru",
-   "aliases": []
+   "aliases": [
+    "Andreas Bruu",
+    "Bru Andreas"
+   ]
   },
   "r106": {
    "name": "Lars Petter Sårheim",
-   "aliases": []
+   "aliases": [
+    "Lars Sårheim"
+   ]
   },
   "r107": {
    "name": "Dag Petter Hollevik",
@@ -464,7 +595,10 @@
   },
   "r112": {
    "name": "Gorgus Coward",
-   "aliases": []
+   "aliases": [
+    "Coward Gorgus",
+    "Gorgus T Coward"
+   ]
   },
   "r113": {
    "name": "Eirik V. Jacobsen",
@@ -472,18 +606,26 @@
   },
   "r114": {
    "name": "Fridtjof Schei",
-   "aliases": []
+   "aliases": [
+    "Schei Fridtjof"
+   ]
   },
   "r115": {
    "name": "Jarle Asheim",
-   "aliases": []
+   "aliases": [
+    "Jarle Åsheim"
+   ]
   },
   "r116": {
    "name": "Gudmundur Søkjer-Petersen",
    "aliases": [
+    "Gudmundur D.H Søkjer-Peterson",
     "Gudmundur Daniel Hannibal Søkjer",
     "Gudmundur Sökjer-Petersen",
+    "Gundmundur Sökjer-petersen",
     "Guðmundur Daniel Hannibal Sökjer-Petersen",
+    "Guðmundur S.-Petersen",
+    "Guðmundur-Hannibal Sökjer-Petersen",
     "Hannibal Søkjer",
     "Søkjer-Petersen Gudmundur"
    ],
@@ -491,13 +633,19 @@
   },
   "r117": {
    "name": "Matias Unsvåg",
-   "aliases": []
+   "aliases": [
+    "Mathias Unsvåg",
+    "Mattias Unsvåg",
+    "Unsvåg Matias"
+   ]
   },
   "r118": {
    "name": "Axel Patricksson",
    "aliases": [
     "Axel Patriccson",
-    "Axel Patricksson"
+    "Axel William Patricksson",
+    "Patricksson Axel",
+    "Patricksson Axel William"
    ]
   },
   "r120": {
@@ -506,23 +654,35 @@
   },
   "r122": {
    "name": "Fredrik Hederlund",
-   "aliases": []
+   "aliases": [
+    "Fredrik Hedelund"
+   ]
   },
   "r123": {
    "name": "Henning Pattrickson",
-   "aliases": []
+   "aliases": [
+    "Henning Philip Pattrickson"
+   ]
   },
   "r125": {
    "name": "Andreas Waal",
-   "aliases": []
+   "aliases": [
+    "Andres Waal",
+    "Waal Andreas"
+   ]
   },
   "r126": {
    "name": "Elias Kvarekvål",
-   "aliases": []
+   "aliases": [
+    "Elias Dalholt Kvarekvål",
+    "Kvarekvål Elias"
+   ]
   },
   "r127": {
    "name": "Svante Flodin",
-   "aliases": []
+   "aliases": [
+    "Flodin Svante"
+   ]
   },
   "r128": {
    "name": "Olav Røil",
@@ -530,7 +690,9 @@
   },
   "r129": {
    "name": "Håkon Dahl",
-   "aliases": []
+   "aliases": [
+    "Håkon Hadlund Dahl"
+   ]
   },
   "r130": {
    "name": "Ola Baugerød",
@@ -546,11 +708,19 @@
   },
   "r133": {
    "name": "Nicko Crozier",
-   "aliases": []
+   "aliases": [
+    "Croizer Nico",
+    "Nico Crozier"
+   ]
   },
   "r134": {
    "name": "Kim André Hansen",
-   "aliases": []
+   "aliases": [
+    "Kim Andre Hansen",
+    "Kim Andrë Hansen",
+    "Kim Hansen",
+    "Kim andre Hansen"
+   ]
   },
   "r135": {
    "name": "Alex Thorstensen",
@@ -566,7 +736,9 @@
   },
   "r138": {
    "name": "Vegard Giskehaug",
-   "aliases": []
+   "aliases": [
+    "Giskehaug Vegard"
+   ]
   },
   "r139": {
    "name": "Pål Erik Lystad",
@@ -578,7 +750,12 @@
   },
   "r141": {
    "name": "Birger Johansen",
-   "aliases": []
+   "aliases": [
+    "Birger Johannsen",
+    "Birger Johanssen",
+    "Birger er kul Johansen",
+    "Johansen Birger"
+   ]
   },
   "r142": {
    "name": "Sondre Selander",
@@ -587,6 +764,7 @@
   "r143": {
    "name": "Fancisco Fjeldstad",
    "aliases": [
+    "Francisco Fjeldstad",
     "Fransisco Fjellstad"
    ]
   },
@@ -594,8 +772,10 @@
    "name": "Erland Lien Einbu",
    "aliases": [
     "Einbu Erland",
+    "Einbu Erland Lien",
     "Erland Einbu",
-    "Erland Lien"
+    "Erland Lien",
+    "Lien Einbu Erland"
    ]
   },
   "r145": {
@@ -609,12 +789,16 @@
   "r147": {
    "name": "Yani Nait-Aissa",
    "aliases": [
-    "Nait Ayssa Yani"
+    "Nait Ayssa Yani",
+    "Nait-Aissa Yani",
+    "Yani Nait-Assa"
    ]
   },
   "r148": {
    "name": "Ola Smith-Erichsen",
-   "aliases": []
+   "aliases": [
+    "Ola Smith-Ericsen"
+   ]
   },
   "r149": {
    "name": "Tom Ove Mygland",
@@ -622,15 +806,21 @@
   },
   "r150": {
    "name": "Lars Petter Brevig",
-   "aliases": []
+   "aliases": [
+    "Lars-Petter Brevig"
+   ]
   },
   "r151": {
    "name": "Nicolai Lindberg",
-   "aliases": []
+   "aliases": [
+    "Nikolai Lindberg"
+   ]
   },
   "r152": {
    "name": "Daniel Løvaas",
-   "aliases": []
+   "aliases": [
+    "Løvaas Daniel"
+   ]
   },
   "r153": {
    "name": "Ola Skorgan",
@@ -643,16 +833,21 @@
   "r155": {
    "name": "Neraas Sander Magnussen",
    "aliases": [
+    "Sander Magnussen-Neraas",
     "Sander Neraas"
    ]
   },
   "r156": {
    "name": "Erkki Rustad",
-   "aliases": []
+   "aliases": [
+    "Rustad Erkki"
+   ]
   },
   "r157": {
    "name": "Erik Tørud",
-   "aliases": []
+   "aliases": [
+    "Tørud Erik"
+   ]
   },
   "r158": {
    "name": "Trygve Selnes",
@@ -664,7 +859,9 @@
   },
   "r160": {
    "name": "Zeke Janowicz",
-   "aliases": []
+   "aliases": [
+    "Janowicz Zeke"
+   ]
   },
   "r161": {
    "name": "Eirik Melby",
@@ -677,8 +874,10 @@
    ]
   },
   "r163": {
-   "name": "Michael Woodcock",
-   "aliases": []
+   "name": "Michael David Woodcock",
+   "aliases": [
+    "Michael Woodcock"
+   ]
   },
   "r164": {
    "name": "Repacharge heats: Clikk here",
@@ -690,11 +889,18 @@
   },
   "r166": {
    "name": "Adam Persson",
-   "aliases": []
+   "aliases": [
+    "Adam Perssan"
+   ]
   },
   "r167": {
    "name": "Erik Lundberg",
-   "aliases": []
+   "aliases": [
+    "Eirik Lundberg",
+    "Eric Lundberg",
+    "Lundberg Eirik",
+    "Lundberg Erik"
+   ]
   },
   "r168": {
    "name": "Sanne Christopher",
@@ -702,103 +908,176 @@
   },
   "r169": {
    "name": "Luca Coleman",
-   "aliases": []
+   "aliases": [
+    "Coleman Luca"
+   ]
   },
   "r170": {
    "name": "Herman Ottesen",
-   "aliases": []
+   "aliases": [
+    "Ottesen Herman"
+   ]
   },
   "r172": {
    "name": "Mattias Borg",
-   "aliases": []
+   "aliases": [
+    "Borg Mattias"
+   ]
   },
   "r175": {
    "name": "Julian Baxter",
-   "aliases": []
+   "aliases": [
+    "Baxter Julian"
+   ]
   },
   "r176": {
    "name": "Morten Espeseter",
-   "aliases": []
+   "aliases": [
+    "Espeseter Morten"
+   ]
   },
   "r177": {
    "name": "Terry Terblanche",
-   "aliases": []
+   "aliases": [
+    "Terblanch Terry",
+    "Terry Terblance"
+   ]
   },
   "r178": {
    "name": "Marius T. Jørgensen",
-   "aliases": []
+   "aliases": [
+    "Jörgensen Marius",
+    "Jørgensen Marius T",
+    "Mariuns T. Jørgensen",
+    "Marius Jörgensen",
+    "Marius Jørgensen",
+    "Marius T Jørgensen"
+   ]
   },
   "r179": {
    "name": "Victor Bo Larsen",
    "aliases": [
+    "Larsen Victor Bo",
+    "Victor Bo larsen",
     "Victor Larsen"
    ]
   },
   "r180": {
    "name": "Drageseth Jens",
-   "aliases": []
+   "aliases": [
+    "Jens Drageset"
+   ]
   },
   "r181": {
    "name": "Hans Kristian Henriksen",
-   "aliases": []
+   "aliases": [
+    "Hans Henriksen",
+    "Hans Kr. Henriksen",
+    "Hans Krsitian Henriksen",
+    "Hansa K. Henriksen",
+    "Hansk Kristian Henriksen",
+    "Henriksen Hans Kristian"
+   ]
   },
   "r182": {
    "name": "Emile Eknes Miller",
-   "aliases": []
+   "aliases": [
+    "Emila Eknes Miller",
+    "Emile E. Miller",
+    "Emile MIller",
+    "Emile Miller",
+    "Miller Emile",
+    "Miller Emile Eknes"
+   ]
   },
   "r183": {
    "name": "Roar Fønseth",
    "aliases": [
+    "Fönseth Roar",
+    "Fønseth Roar",
+    "Roar Frønseth",
+    "Roar Fönseth",
     "Roar Fønsert"
    ]
   },
   "r184": {
    "name": "Tommy Andersson",
-   "aliases": []
+   "aliases": [
+    "Andersson Tommy"
+   ]
   },
   "r185": {
    "name": "Fredrik Berven",
-   "aliases": []
+   "aliases": [
+    "Berven Fredrik",
+    "Fredrik Bevren"
+   ]
   },
   "r186": {
    "name": "Njaal Tangye",
-   "aliases": []
+   "aliases": [
+    "Njaal Eide Tangye",
+    "Njaal Tangje",
+    "Tangye Njaal"
+   ]
   },
   "r187": {
    "name": "Hustad Mats",
-   "aliases": []
+   "aliases": [
+    "Mats Hustad"
+   ]
   },
   "r188": {
    "name": "Sondre Braa",
-   "aliases": []
+   "aliases": [
+    "Braa Sondre"
+   ]
   },
   "r189": {
    "name": "Aldin Hodzic",
-   "aliases": []
+   "aliases": [
+    "Aldin Hodzik",
+    "Hodzic Aldin",
+    "Hozic Aldin"
+   ]
   },
   "r190": {
-   "name": "Petter Lindheim Reinem",
-   "aliases": []
+   "name": "reinem Petter Lindheim",
+   "aliases": [
+    "Petter Lindheim Reinem",
+    "Petter Reinem",
+    "Reinem Petter"
+   ]
   },
   "r191": {
    "name": "Caspian Baska",
-   "aliases": []
+   "aliases": [
+    "Baska Caspian"
+   ]
   },
   "r192": {
    "name": "Anders Inde",
-   "aliases": []
+   "aliases": [
+    "Inde Anders"
+   ]
   },
   "r194": {
    "name": "Luke Nelson",
-   "aliases": []
+   "aliases": [
+    "Nelson Luke"
+   ]
   },
   "r195": {
    "name": "Erik Buene",
-   "aliases": []
+   "aliases": [
+    "Buene Erik"
+   ]
   },
   "r197": {
    "name": "Vegard Tvete",
-   "aliases": []
+   "aliases": [
+    "Tvete Vegard"
+   ]
   },
   "r198": {
    "name": "Troye Anders",
@@ -806,21 +1085,29 @@
   },
   "r199": {
    "name": "Niklas Canerstam",
-   "aliases": []
+   "aliases": [
+    "Canerstam Niklas"
+   ]
   },
   "r200": {
    "name": "Caspar Grette",
-   "aliases": []
+   "aliases": [
+    "Grette Caspar"
+   ]
   },
   "r201": {
-   "name": "Olsenlund Mikkel Are",
+   "name": "Mikkel Olsenlund",
    "aliases": [
-    "Mikkel Olsenlund"
+    "Mikkel Are Olsenlund",
+    "Olsenlund Mikkel Are"
    ]
   },
   "r202": {
    "name": "Sam Priestly",
-   "aliases": []
+   "aliases": [
+    "Priestley Sam",
+    "Sam Priestley"
+   ]
   },
   "r203": {
    "name": "Alejandro Puente",
@@ -828,7 +1115,10 @@
   },
   "r204": {
    "name": "Kari Havnevik",
-   "aliases": []
+   "aliases": [
+    "Havnevik Kari",
+    "Kari Hanvevik"
+   ]
   },
   "r205": {
    "name": "Tveite Kenneth",
@@ -840,15 +1130,21 @@
   },
   "r207": {
    "name": "Kristian Bjørkedal",
-   "aliases": []
+   "aliases": [
+    "Bjørkedal Kristian"
+   ]
   },
   "r208": {
    "name": "Rune Askim",
-   "aliases": []
+   "aliases": [
+    "Askim Rune"
+   ]
   },
   "r210": {
    "name": "Bjertnes Thomas",
-   "aliases": []
+   "aliases": [
+    "Thomas Bjertnes"
+   ]
   },
   "r211": {
    "name": "Johansen Christer",
@@ -864,11 +1160,18 @@
   },
   "r214": {
    "name": "Jørund Bratset",
-   "aliases": []
+   "aliases": [
+    "Bratset Jørund",
+    "Jorund Brattset",
+    "Jørun Brattset"
+   ]
   },
   "r215": {
    "name": "Einar Kvam",
-   "aliases": []
+   "aliases": [
+    "Einar kvam",
+    "Kvam Einar"
+   ]
   },
   "r216": {
    "name": "Joakim Strømmen",
@@ -880,7 +1183,9 @@
   },
   "r218": {
    "name": "Mathias Bjørkedal",
-   "aliases": []
+   "aliases": [
+    "Matias Bjørkedal"
+   ]
   },
   "r219": {
    "name": "Alexander Teilgård",
@@ -888,11 +1193,16 @@
   },
   "r220": {
    "name": "Leif Arne Hatlem",
-   "aliases": []
+   "aliases": [
+    "Hatlem Leif Arne",
+    "Leif Hatlem"
+   ]
   },
   "r221": {
    "name": "Daniel Heltne",
-   "aliases": []
+   "aliases": [
+    "Heltne Daniel"
+   ]
   },
   "r222": {
    "name": "Nicolas Eriksen",
@@ -904,7 +1214,9 @@
   },
   "r224": {
    "name": "Håkon Heltne",
-   "aliases": []
+   "aliases": [
+    "Heltne Håkon"
+   ]
   },
   "r225": {
    "name": "Sigbjørn Melvær",
@@ -916,29 +1228,45 @@
   },
   "r227": {
    "name": "Sebastian Burr",
-   "aliases": []
+   "aliases": [
+    "Burr Sebastian"
+   ]
   },
   "r228": {
    "name": "Lucas Krown",
-   "aliases": []
+   "aliases": [
+    "Krown Lucas"
+   ]
   },
   "r230": {
    "name": "Sander Viste Mehus",
    "aliases": [
-    "Sander Viste"
+    "Mehus Sander",
+    "Mehus Sander Viste",
+    "Sander Mehus",
+    "Sander Melhus",
+    "Sander Viste",
+    "Sander Viste Melhus"
    ]
   },
   "r231": {
    "name": "Jakob Eriksson",
-   "aliases": []
+   "aliases": [
+    "Eriksson Jakob",
+    "Jacob Eriksson"
+   ]
   },
   "r232": {
    "name": "Sammy Hasselberg",
-   "aliases": []
+   "aliases": [
+    "Hasselberg Sammy"
+   ]
   },
   "r233": {
    "name": "Max Eriksson",
-   "aliases": []
+   "aliases": [
+    "Eriksson Max"
+   ]
   },
   "r234": {
    "name": "Rebekka Gemperle",
@@ -947,28 +1275,42 @@
   "r235": {
    "name": "Johannes Aalholm",
    "aliases": [
-    "Johannes Sagedal"
+    "Aalholm Johannes",
+    "Johannes Sagedahl Aalholm",
+    "Johannes Sagedal",
+    "Johannes Sagedal Aalholm"
    ]
   },
   "r236": {
    "name": "Magne Ørvik",
-   "aliases": []
+   "aliases": [
+    "Ørvik Magne"
+   ]
   },
   "r237": {
    "name": "Charlie Cockman",
-   "aliases": []
+   "aliases": [
+    "Cockman Charlie"
+   ]
   },
   "r238": {
    "name": "Lars Mikalsen",
-   "aliases": []
+   "aliases": [
+    "Lars Mikaelsen",
+    "Lars Mikelsen"
+   ]
   },
   "r239": {
    "name": "Terry Blanche",
-   "aliases": []
+   "aliases": [
+    "Blanche Terry"
+   ]
   },
   "r240": {
    "name": "Mauritz Armfelt",
-   "aliases": []
+   "aliases": [
+    "Mauritz Armfeldt"
+   ]
   },
   "r241": {
    "name": "Per Christner",
@@ -980,7 +1322,9 @@
   },
   "r243": {
    "name": "Esaja Ekman",
-   "aliases": []
+   "aliases": [
+    "Ekman Esaja"
+   ]
   },
   "r244": {
    "name": "Dennis Eriksson",
@@ -1000,7 +1344,9 @@
   },
   "r248": {
    "name": "Christoffer Nikolaisen",
-   "aliases": []
+   "aliases": [
+    "Nikolaisen Christoffer"
+   ]
   },
   "r249": {
    "name": "Kim Nilsson",
@@ -1008,11 +1354,15 @@
   },
   "r250": {
    "name": "Simon Palmhager",
-   "aliases": []
+   "aliases": [
+    "Palmhager Simon"
+   ]
   },
   "r251": {
    "name": "Max Walter",
-   "aliases": []
+   "aliases": [
+    "Walter Max"
+   ]
   },
   "r252": {
    "name": "Eivind Bache Blix",
@@ -1032,25 +1382,35 @@
   },
   "r256": {
    "name": "Johan Christensson",
-   "aliases": []
+   "aliases": [
+    "Christensson Johan",
+    "Johan christensson"
+   ]
   },
   "r257": {
    "name": "Alf Olsen",
    "aliases": [
+    "Alf Marius Foss Olsen",
     "Foss Olsen Alf Marius"
    ]
   },
   "r258": {
    "name": "Isac Printz",
-   "aliases": []
+   "aliases": [
+    "Printz Isac"
+   ]
   },
   "r259": {
    "name": "Emil Olsson",
-   "aliases": []
+   "aliases": [
+    "Olsson Emil"
+   ]
   },
   "r260": {
    "name": "Daniela Gaislerová",
-   "aliases": []
+   "aliases": [
+    "Daniela Gaislerova"
+   ]
   },
   "r261": {
    "name": "Tobias Orth",
@@ -1063,7 +1423,6 @@
   "r263": {
    "name": "Sonsoles Masia",
    "aliases": [
-    "Sonsoles Masia",
     "Sonsoles Masia Sanchez"
    ]
   },
@@ -1073,11 +1432,15 @@
   },
   "r265": {
    "name": "Hannes Larsson",
-   "aliases": []
+   "aliases": [
+    "Larsson Hannes"
+   ]
   },
   "r266": {
    "name": "Karl Porsner",
-   "aliases": []
+   "aliases": [
+    "Karl Porsnet"
+   ]
   },
   "r267": {
    "name": "Erik Sävenäs",
@@ -1085,7 +1448,9 @@
   },
   "r268": {
    "name": "Henning Hanshaugen",
-   "aliases": []
+   "aliases": [
+    "Hanshaugen Henning"
+   ]
   },
   "r269": {
    "name": "Emil Franzén",
@@ -1093,7 +1458,9 @@
   },
   "r270": {
    "name": "Aleksander Teilgård",
-   "aliases": []
+   "aliases": [
+    "Teilgård Aleksander"
+   ]
   },
   "r271": {
    "name": "David Gjengedal",
@@ -1105,7 +1472,9 @@
   },
   "r273": {
    "name": "Geir Tom Aasen",
-   "aliases": []
+   "aliases": [
+    "Geir Tom Aasen*"
+   ]
   },
   "r274": {
    "name": "John-Eirik Ose",
@@ -1113,11 +1482,18 @@
   },
   "r275": {
    "name": "Erik Evensen",
-   "aliases": []
+   "aliases": [
+    "Erik Sjon Evensen",
+    "Evensen Erik"
+   ]
   },
   "r276": {
    "name": "Jan Ståle Eriksen",
-   "aliases": []
+   "aliases": [
+    "Eriksen Jan Ståle",
+    "Jan Ståle Erikssen",
+    "Jen Ståle Erikssen"
+   ]
   },
   "r277": {
    "name": "Harald Christian Hoff",
@@ -1129,7 +1505,9 @@
   },
   "r279": {
    "name": "Adrian Persson",
-   "aliases": []
+   "aliases": [
+    "Persson Adrian"
+   ]
   },
   "r280": {
    "name": "Sølve Selander",
@@ -1141,7 +1519,9 @@
   },
   "r282": {
    "name": "Simen Skjeggerød Evensen",
-   "aliases": []
+   "aliases": [
+    "Simen Evensen"
+   ]
   },
   "r283": {
    "name": "Vegard Villbassen",
@@ -1165,7 +1545,9 @@
   },
   "r288": {
    "name": "Joel Hoholm",
-   "aliases": []
+   "aliases": [
+    "Joel A. Hoholm"
+   ]
   },
   "r289": {
    "name": "Jon Erik Tengesdal",
@@ -1177,7 +1559,10 @@
   },
   "r291": {
    "name": "Even Strand",
-   "aliases": []
+   "aliases": [
+    "Even Fish Strand",
+    "Strand Even"
+   ]
   },
   "r292": {
    "name": "Jørgen Reitan",
@@ -1189,7 +1574,9 @@
   },
   "r294": {
    "name": "Lorenza Walker",
-   "aliases": []
+   "aliases": [
+    "Walker Lorenza"
+   ]
   },
   "r295": {
    "name": "Niklas Molander",
@@ -1201,15 +1588,22 @@
   },
   "r297": {
    "name": "Matthew Kienzle",
-   "aliases": []
+   "aliases": [
+    "Kienzle Matthew",
+    "Matthew USA/CAN Kienzle"
+   ]
   },
   "r298": {
    "name": "Ville Hietala",
-   "aliases": []
+   "aliases": [
+    "Hietala Ville"
+   ]
   },
   "r299": {
    "name": "Martin Klawitter",
-   "aliases": []
+   "aliases": [
+    "Klawitter Martin"
+   ]
   },
   "r300": {
    "name": "Jorge Pernes",
@@ -1217,41 +1611,63 @@
   },
   "r301": {
    "name": "Ammann Philipp",
-   "aliases": []
+   "aliases": [
+    "Philipp Ammann"
+   ]
   },
   "r302": {
    "name": "Alex Duss",
-   "aliases": []
+   "aliases": [
+    "Duss Alex"
+   ]
   },
   "r303": {
    "name": "Andrew Louw",
-   "aliases": []
+   "aliases": [
+    "Louw Andrew"
+   ]
   },
   "r304": {
    "name": "Georges Siddiqi",
-   "aliases": []
+   "aliases": [
+    "Siddiqi Georges"
+   ]
   },
   "r305": {
    "name": "Rachel Rayne",
-   "aliases": []
+   "aliases": [
+    "Rayne Rachel"
+   ]
   },
   "r306": {
-   "name": "Darre Simon",
-   "aliases": []
+   "name": "Simon Darre",
+   "aliases": [
+    "Darre Simon"
+   ]
   },
   "r307": {
-   "name": "Tofte Torstein",
-   "aliases": []
+   "name": "Torstein Tofte",
+   "aliases": [
+    "Tofte Torstein"
+   ]
   },
   "r308": {
    "name": "Roy Helge Prestegard",
    "aliases": [
-    "Roy Helge"
+    "Prestegard Roy Helge",
+    "Roy H. Prestegard",
+    "Roy Helge",
+    "Roy Helge N. Prestegård",
+    "Roy Helge Nesbø Prestegard",
+    "Roy Helge Nesbø prestegard",
+    "Roy Helge Prestegård"
    ]
   },
   "r309": {
    "name": "Jon Dahlstrand",
-   "aliases": []
+   "aliases": [
+    "Dahlstrand Jon"
+   ]
   },
   "r310": {
    "name": "Markus Wegge",
@@ -1259,11 +1675,15 @@
   },
   "r311": {
    "name": "Lars Isaksen",
-   "aliases": []
+   "aliases": [
+    "Isaksen Lars"
+   ]
   },
   "r312": {
    "name": "Live Frisak",
-   "aliases": []
+   "aliases": [
+    "Frisak Live"
+   ]
   },
   "r313": {
    "name": "Herman Knutsen",
@@ -1279,7 +1699,10 @@
   },
   "r316": {
    "name": "Peter Andersson",
-   "aliases": []
+   "aliases": [
+    "Andersson Peter",
+    "Peter Anderson"
+   ]
   },
   "r317": {
    "name": "Emma Daigle",
@@ -1291,19 +1714,28 @@
   },
   "r319": {
    "name": "Fredrik Rogbrant",
-   "aliases": []
+   "aliases": [
+    "Fredrik Rogbrandt"
+   ]
   },
   "r320": {
    "name": "Lamin Cassama",
-   "aliases": []
+   "aliases": [
+    "Cassana Lamin",
+    "Lamin Cassana"
+   ]
   },
   "r321": {
    "name": "Max Meurling",
    "aliases": []
   },
   "r323": {
-   "name": "Jacob Heden Hatunen",
-   "aliases": []
+   "name": "Hatunen Jacob Hedén",
+   "aliases": [
+    "Hedén Hatunen Jacob",
+    "Jacob Heden Hatunen",
+    "Jacob Hedén Hatunen"
+   ]
   },
   "r324": {
    "name": "Daniel Parish",
@@ -1315,7 +1747,9 @@
   },
   "r326": {
    "name": "Robin Bergman",
-   "aliases": []
+   "aliases": [
+    "Bergman Robin"
+   ]
   },
   "r327": {
    "name": "David Berntsson",
@@ -1327,7 +1761,9 @@
   },
   "r329": {
    "name": "Rasmus Klintrot",
-   "aliases": []
+   "aliases": [
+    "Klintrot Rasmus"
+   ]
   },
   "r330": {
    "name": "Tash Graham",
@@ -1339,7 +1775,9 @@
   },
   "r332": {
    "name": "Marcus Tjernström",
-   "aliases": []
+   "aliases": [
+    "Tjernström Marcus"
+   ]
   },
   "r333": {
    "name": "Edwin Schölander",
@@ -1391,7 +1829,9 @@
   },
   "r346": {
    "name": "Morten Forsberg",
-   "aliases": []
+   "aliases": [
+    "Forsberg Morten"
+   ]
   },
   "r347": {
    "name": "Jon Øverdahl",
@@ -1411,7 +1851,9 @@
   },
   "r351": {
    "name": "Erland Hoholm",
-   "aliases": []
+   "aliases": [
+    "Erlend Hoholm"
+   ]
   },
   "r352": {
    "name": "Eymund Aadahl",
@@ -1440,7 +1882,10 @@
   "r359": {
    "name": "Jens Schøien Øvregård",
    "aliases": [
-    "Jens Schøien"
+    "Jens S. Øvregård",
+    "Jens Schøien",
+    "Jens Øvregård",
+    "Øvregård Jens Schøien"
    ]
   },
   "r360": {
@@ -1449,7 +1894,10 @@
   },
   "r361": {
    "name": "Alexander Frischauf",
-   "aliases": []
+   "aliases": [
+    "Alex Frischauf",
+    "Alexsnder Frischauf"
+   ]
   },
   "r362": {
    "name": "Jacob Romdahl",
@@ -1469,12 +1917,17 @@
   },
   "r366": {
    "name": "Richard Moe",
-   "aliases": []
+   "aliases": [
+    "Moe Richard",
+    "Richar Moe"
+   ]
   },
   "r367": {
    "name": "Kirsti Henriksen",
    "aliases": [
-    "Kirsti Øfsthus"
+    "Henriksen Kirsti",
+    "Kirsti Øfsthus",
+    "Kirsti Øfsthus Henriksen"
    ]
   },
   "r368": {
@@ -1503,11 +1956,17 @@
   },
   "r376": {
    "name": "Peder Bruem",
-   "aliases": []
+   "aliases": [
+    "Bruem Peder",
+    "Peder Brumem",
+    "Perder Buem"
+   ]
   },
   "r377": {
    "name": "Carl Larsson",
-   "aliases": []
+   "aliases": [
+    "Carl Larson"
+   ]
   },
   "r378": {
    "name": "Cato Aurtun",
@@ -1515,11 +1974,18 @@
   },
   "r379": {
    "name": "Øystein Nygård",
-   "aliases": []
+   "aliases": [
+    "Nygård Øystein",
+    "Øystein Nygaard"
+   ]
   },
   "r380": {
-   "name": "Haakon Aavik",
-   "aliases": []
+   "name": "Håkon Aavik",
+   "aliases": [
+    "Aavik Haakon",
+    "Haakon Aavik",
+    "Håkon Haavik"
+   ]
   },
   "r381": {
    "name": "Anders Berg",
@@ -1527,7 +1993,10 @@
   },
   "r382": {
    "name": "Jørgen Monkerud",
-   "aliases": []
+   "aliases": [
+    "Jørgen Munkerud",
+    "Monkerud Jørgen"
+   ]
   },
   "r383": {
    "name": "Vegard Aune",
@@ -1542,9 +2011,12 @@
    "aliases": [
     "Leif Ola Stampa Johannsen",
     "Leif Ole",
-    "Leif Ole Stampa",
     "Leif Ole Stampa Johannsen",
-    "Leif Ole Stampa-J"
+    "Leif Ole Stampa-J",
+    "Leif Ole Stampa-Johannsen",
+    "Leif Ole Stampa-Johansen",
+    "Leif-Ole Stampa",
+    "Stampa-johannsen Leif Ole"
    ]
   },
   "r386": {
@@ -1553,7 +2025,11 @@
   },
   "r387": {
    "name": "Magnus Pastor Harm",
-   "aliases": []
+   "aliases": [
+    "Harm Magnus",
+    "Magnus Harm",
+    "Magnus harm"
+   ]
   },
   "r388": {
    "name": "Fredrik Ognedal",
@@ -1561,7 +2037,10 @@
   },
   "r389": {
    "name": "Anton Lindén",
-   "aliases": []
+   "aliases": [
+    "Anton Linden",
+    "Linden Anton"
+   ]
   },
   "r390": {
    "name": "Kim-Tore Brendgen",
@@ -1619,9 +2098,12 @@
    "name": "Mina Nornes Westli",
    "aliases": [
     "Mina MW",
+    "Mina N Westli",
     "Mina N. Westli",
     "Mina NW",
-    "Mina Nornes"
+    "Mina Nordnes Westli",
+    "Mina Nornes",
+    "Westli Mina Nornes"
    ]
   },
   "r404": {
@@ -1646,12 +2128,21 @@
   },
   "r409": {
    "name": "Thiago Gomes Lessa",
-   "aliases": []
+   "aliases": [
+    "Lessa Thiago Gomes",
+    "Thiago Gomez Lessa",
+    "Thiago Lessa",
+    "Thiago-Gomes Lessa"
+   ]
   },
   "r410": {
    "name": "Carlos Paixão",
    "aliases": [
-    "Carlos Augusto"
+    "Carlos Augusto",
+    "Carlos Augusto Correia-Paixao",
+    "Carlos Augusto Paixão",
+    "Carlos Correia-Paixao",
+    "Carlos Paixâo"
    ]
   },
   "r411": {
@@ -1660,19 +2151,28 @@
   },
   "r412": {
    "name": "Harry Clarke",
-   "aliases": []
+   "aliases": [
+    "Clarke Harry"
+   ]
   },
   "r413": {
    "name": "Giorgio Garino",
-   "aliases": []
+   "aliases": [
+    "Garino Giorgio"
+   ]
   },
   "r414": {
    "name": "Zak Maytum",
-   "aliases": []
+   "aliases": [
+    "Zac Maytum",
+    "Zak Maytem"
+   ]
   },
   "r415": {
    "name": "Aleix Gallimo",
-   "aliases": []
+   "aliases": [
+    "Aliex Gallimo"
+   ]
   },
   "r416": {
    "name": "Quirin Ilmer",
@@ -1684,7 +2184,9 @@
   },
   "r418": {
    "name": "Tiago Mohr",
-   "aliases": []
+   "aliases": [
+    "Thiago Mohr"
+   ]
   },
   "r419": {
    "name": "Emily Pross",
@@ -1712,7 +2214,9 @@
   },
   "r425": {
    "name": "Douglas Silva",
-   "aliases": []
+   "aliases": [
+    "Douglas Da Silva"
+   ]
   },
   "r426": {
    "name": "Samuel D'Avignon",
@@ -1720,7 +2224,10 @@
   },
   "r427": {
    "name": "Andrea Moreni",
-   "aliases": []
+   "aliases": [
+    "Adrea Moreni",
+    "Ancrea Moreni"
+   ]
   },
   "r428": {
    "name": "Cassandra Duchesne",
@@ -1728,7 +2235,9 @@
   },
   "r429": {
    "name": "Patrick Lombardi",
-   "aliases": []
+   "aliases": [
+    "Patrick Lorenzo Lombardi"
+   ]
   },
   "r430": {
    "name": "Vojta Zacek",
@@ -1756,15 +2265,21 @@
   },
   "r436": {
    "name": "Lukas Übelhör",
-   "aliases": []
+   "aliases": [
+    "Lukas Ubelhor"
+   ]
   },
   "r437": {
    "name": "Damian Derek Blanquer Gelez",
-   "aliases": []
+   "aliases": [
+    "Damian-Derek Blanquer-Gelez"
+   ]
   },
   "r438": {
    "name": "Mitch Thompson",
-   "aliases": []
+   "aliases": [
+    "Mitchell Thompson"
+   ]
   },
   "r439": {
    "name": "Knox Heslop",
@@ -1780,11 +2295,15 @@
   },
   "r442": {
    "name": "Vašek Cvancara",
-   "aliases": []
+   "aliases": [
+    "Vašek Čvančara"
+   ]
   },
   "r443": {
    "name": "Stefano Barbizzi",
-   "aliases": []
+   "aliases": [
+    "Barbizzi Stefano"
+   ]
   },
   "r444": {
    "name": "Tommaso Bohannon",
@@ -1793,16 +2312,22 @@
   "r445": {
    "name": "Andrez Krob Pereira",
    "aliases": [
-    "Andrez Krob"
+    "Andrez Krob",
+    "Andrez Krop"
    ]
   },
   "r446": {
    "name": "Nicolas Desmarais",
-   "aliases": []
+   "aliases": [
+    "Nikolas Desmarais",
+    "Nikolas Desmaris"
+   ]
   },
   "r447": {
    "name": "Jasmijn Hanegraef",
-   "aliases": []
+   "aliases": [
+    "Jasmin Hanegraef"
+   ]
   },
   "r448": {
    "name": "Grace Wong",
@@ -1826,7 +2351,9 @@
   },
   "r453": {
    "name": "Odin Gløtheim",
-   "aliases": []
+   "aliases": [
+    "Odin Odin Gløtheim"
+   ]
   },
   "r454": {
    "name": "Christian Torkelsen",
@@ -1834,15 +2361,22 @@
   },
   "r455": {
    "name": "Sindre Kjæreng",
-   "aliases": []
+   "aliases": [
+    "Kjæreng Sindre"
+   ]
   },
   "r456": {
    "name": "Olav Øye",
-   "aliases": []
+   "aliases": [
+    "Øye Olav"
+   ]
   },
   "r457": {
    "name": "Jan-Petter Hammersland",
-   "aliases": []
+   "aliases": [
+    "Hammersland Jan-Petter",
+    "Jan Petter Hammersland"
+   ]
   },
   "r458": {
    "name": "Austin VanDyke",
@@ -1850,7 +2384,10 @@
   },
   "r459": {
    "name": "Sigbjørn Viste Mehus",
-   "aliases": []
+   "aliases": [
+    "Mehus Sigbjørn",
+    "Sigbjørn Mehus"
+   ]
   },
   "r460": {
    "name": "Cornelius Knudsen",
@@ -1866,26 +2403,39 @@
   },
   "r463": {
    "name": "Ketil Thorvaldsen",
-   "aliases": []
+   "aliases": [
+    "Ketil Thorvalsen",
+    "Thorvaldsen Ketil"
+   ]
   },
   "r464": {
    "name": "Torstein r Storaas",
-   "aliases": []
+   "aliases": [
+    "Storaas Torstein",
+    "Torstein R Storaas",
+    "Torstein Storaas"
+   ]
   },
   "r465": {
    "name": "Gard Eymundsson",
-   "aliases": []
+   "aliases": [
+    "Gard Eymundson"
+   ]
   },
   "r466": {
    "name": "Fredrik Håland Røvik",
    "aliases": [
     "Fredrik H. Røvik",
-    "Fredrik Håland"
+    "Fredrik Håland",
+    "Fredrik Rørvik",
+    "Fredrik Røvik"
    ]
   },
   "r467": {
    "name": "Ådne Håskjold Lade",
-   "aliases": []
+   "aliases": [
+    "Ådne Lade"
+   ]
   },
   "r468": {
    "name": "Ragnhild Kjelstrup",
@@ -1897,11 +2447,16 @@
   },
   "r470": {
    "name": "Helge Vignal",
-   "aliases": []
+   "aliases": [
+    "Helge François Vignal",
+    "Vignal Helge"
+   ]
   },
   "r471": {
    "name": "Elaine Maltezos",
-   "aliases": []
+   "aliases": [
+    "Elaine Moltezos"
+   ]
   },
   "r472": {
    "name": "Andreas Huseby Grønner",
@@ -1910,6 +2465,7 @@
   "r473": {
    "name": "Helene Walberg Liland",
    "aliases": [
+    "Helene Liland",
     "Helene W Liland",
     "Helene W. Liland",
     "Helene Walberg",
@@ -1922,7 +2478,10 @@
   },
   "r475": {
    "name": "André Føyn Berge",
-   "aliases": []
+   "aliases": [
+    "Andre Føyn Berge",
+    "Berge André Føyn"
+   ]
   },
   "r476": {
    "name": "Lorenza",
@@ -1935,33 +2494,49 @@
   "r480": {
    "name": "Josue Ismael Forster Ayovi",
    "aliases": [
-    "Josue Ismael Forster",
-    "Josue Ismael Forster Ayovi"
+    "Ayovi Josue Ismael Forster",
+    "Josue Ismael Forster"
    ]
   },
   "r481": {
    "name": "Ruben Piñango",
-   "aliases": []
+   "aliases": [
+    "Pinjango Ruben",
+    "Rubem Pinango",
+    "Ruben Pinago",
+    "Ruben Pinango"
+   ]
   },
   "r482": {
    "name": "Sami Hasselberg",
-   "aliases": []
+   "aliases": [
+    "Hasselberg Sami"
+   ]
   },
   "r483": {
    "name": "Jonathan Bertilsson",
-   "aliases": []
+   "aliases": [
+    "Bertilsson Jonathan"
+   ]
   },
   "r484": {
    "name": "Bendik Askløv",
-   "aliases": []
+   "aliases": [
+    "Askløv Bendik",
+    "Bendik Eidshaug Askløv"
+   ]
   },
   "r485": {
    "name": "Carina Rogers",
-   "aliases": []
+   "aliases": [
+    "Carina Morken Rogers",
+    "Rogers Carina"
+   ]
   },
   "r487": {
    "name": "Ane Smith",
    "aliases": [
+    "Ane Hedegaard Smith",
     "Smith Ane Hedegaard"
    ]
   },
@@ -2002,12 +2577,19 @@
   },
   "r497": {
    "name": "Per Mattis Fürst Holtmann",
-   "aliases": []
+   "aliases": [
+    "Per Holtmamnn",
+    "Per M Holtmann",
+    "Per Mattis Fürst Holtman"
+   ]
   },
   "r498": {
    "name": "Odd Steinar Syversen",
    "aliases": [
-    "Odd Steinar"
+    "Odd Steinar",
+    "Odd Steinar & May-Liz Syversen",
+    "Odd Steinar S Syversen",
+    "Odd Steinar Syvertsen"
    ]
   },
   "r499": {
@@ -2041,7 +2623,9 @@
   "r507": {
    "name": "Peder Holterman Solland",
    "aliases": [
-    "Peder Holterman"
+    "Peder Holterman",
+    "Peder Holtermann Solland",
+    "Peder Solland"
    ]
   },
   "r508": {
@@ -2050,7 +2634,9 @@
   },
   "r510": {
    "name": "audun Leikvoll Melvær",
-   "aliases": []
+   "aliases": [
+    "Audun Leikvoll Melvær"
+   ]
   },
   "r511": {
    "name": "Aud Helen S Syversen",
@@ -2058,7 +2644,11 @@
   },
   "r512": {
    "name": "Ellen Merete Knutsen",
-   "aliases": []
+   "aliases": [
+    "Ellen Knutsen",
+    "Ellen Knutzen",
+    "Ellen Merete Knutzen"
+   ]
   },
   "r513": {
    "name": "Ryder Hathaway",
@@ -2067,7 +2657,9 @@
   "r514": {
    "name": "Printz Albin Niva",
    "aliases": [
-    "Albin Niva"
+    "Albin Niva",
+    "Albin Niva Printz",
+    "Albin Niva-Printz"
    ]
   },
   "r515": {
@@ -2077,7 +2669,8 @@
   "r516": {
    "name": "Cristiano Borges de Araújo",
    "aliases": [
-    "Cristiano Borges"
+    "Cristiano Borges",
+    "Cristiano Borges De Araújo"
    ]
   },
   "r517": {
@@ -2095,19 +2688,21 @@
   "r520": {
    "name": "david georges dit rap",
    "aliases": [
-    "David Georges",
-    "david georges dit rap"
+    "David Georges"
    ]
   },
   "r521": {
    "name": "Adrian Fjelle Evensen",
    "aliases": [
+    "Adrian Evensen",
     "Adrian Fjelle"
    ]
   },
   "r522": {
    "name": "Patrick io",
-   "aliases": []
+   "aliases": [
+    "Patrick Io"
+   ]
   },
   "r523": {
    "name": "Alberto Penelas",
@@ -2139,7 +2734,9 @@
   },
   "r545": {
    "name": "Joris Plaščinskas",
-   "aliases": []
+   "aliases": [
+    "Joris Plascinskas"
+   ]
   },
   "r546": {
    "name": "Sebastian Petros Berglund",
@@ -2149,7 +2746,9 @@
   },
   "r547": {
    "name": "Morten Solvik Sæthre",
-   "aliases": []
+   "aliases": [
+    "Morten Sæthre"
+   ]
   },
   "r549": {
    "name": "Dre Nubine",
@@ -2157,11 +2756,15 @@
   },
   "r550": {
    "name": "Adrien Paynel",
-   "aliases": []
+   "aliases": [
+    "Paynel Adrien"
+   ]
   },
   "r551": {
    "name": "Jiří Kneifl",
-   "aliases": []
+   "aliases": [
+    "Jiří­ Kneifl"
+   ]
   },
   "r552": {
    "name": "Marcus Lopes",
@@ -2177,11 +2780,15 @@
   },
   "r556": {
    "name": "Callum Mathieson",
-   "aliases": []
+   "aliases": [
+    "Mathieson Callum"
+   ]
   },
   "r557": {
    "name": "Gustaf Hallberg",
-   "aliases": []
+   "aliases": [
+    "Gustav Hallberg"
+   ]
   },
   "r558": {
    "name": "Lucas Poulain",
@@ -2198,7 +2805,8 @@
   "r561": {
    "name": "Carlos Schärer",
    "aliases": [
-    "Carlos Schører"
+    "Carlos Schører",
+    "Carlos Shärer"
    ]
   },
   "r562": {
@@ -2219,7 +2827,9 @@
   },
   "r566": {
    "name": "Selina Theiler",
-   "aliases": []
+   "aliases": [
+    "Selinba Theiler"
+   ]
   },
   "r567": {
    "name": "Matthew Watson",
@@ -2232,17 +2842,20 @@
   "r569": {
    "name": "Jonathan Wong",
    "aliases": [
-    "Cho Hang Jonathan Wong",
-    "Jonathan Wong"
+    "Cho Hang Jonathan Wong"
    ]
   },
   "r570": {
    "name": "Jack Plummer",
-   "aliases": []
+   "aliases": [
+    "Plummer Jack"
+   ]
   },
   "r571": {
    "name": "Patrick Stoll",
-   "aliases": []
+   "aliases": [
+    "Stoll Patrick"
+   ]
   },
   "r572": {
    "name": "Marnix Zimmerman",
@@ -2266,7 +2879,10 @@
   },
   "r578": {
    "name": "Amelie Castain",
-   "aliases": []
+   "aliases": [
+    "Amalie Castain",
+    "Ameile Castain"
+   ]
   },
   "r579": {
    "name": "David Gonzalez",
@@ -2274,7 +2890,9 @@
   },
   "r580": {
    "name": "Garett Belanger",
-   "aliases": []
+   "aliases": [
+    "Garrett Belanger"
+   ]
   },
   "r581": {
    "name": "Ambroise Trauet",
@@ -2302,11 +2920,9 @@
   },
   "r587": {
    "name": "Antonio Madariaga",
-   "aliases": []
-  },
-  "r588": {
-   "name": "Mitchell Thompson",
-   "aliases": []
+   "aliases": [
+    "Antonio Flavio Madariaga"
+   ]
   },
   "r589": {
    "name": "Dexter Manning",
@@ -2323,8 +2939,9 @@
   "r592": {
    "name": "Wing Tsun Thomas Ng",
    "aliases": [
+    "Ng Wing Tsun Thomas",
     "Thomas Ng",
-    "Wing Tsun Thomas Ng"
+    "Wing tsun Thomas Ng"
    ]
   },
   "r593": {
@@ -2341,7 +2958,9 @@
   },
   "r597": {
    "name": "Alex Dehmel",
-   "aliases": []
+   "aliases": [
+    "Alexander Dehmel"
+   ]
   },
   "r598": {
    "name": "Lawrence Thompson",
@@ -2365,7 +2984,10 @@
   },
   "r603": {
    "name": "Vojtěch Žáček",
-   "aliases": []
+   "aliases": [
+    "Vojtech Zacek",
+    "Vojtech Žácek"
+   ]
   },
   "r604": {
    "name": "Eduard Winsch",
@@ -2373,7 +2995,10 @@
   },
   "r605": {
    "name": "Mariana MacHacná",
-   "aliases": []
+   "aliases": [
+    "Mariana Machačná",
+    "Maruana Machačná"
+   ]
   },
   "r606": {
    "name": "Marieke Wünsche",
@@ -2421,11 +3046,15 @@
   },
   "r617": {
    "name": "Caroline Boström",
-   "aliases": []
+   "aliases": [
+    "Boström Caroline"
+   ]
   },
   "r618": {
    "name": "Dennis Derramalare",
-   "aliases": []
+   "aliases": [
+    "Dennis Derramalaere"
+   ]
   },
   "r619": {
    "name": "Lee Dansie",
@@ -2493,11 +3122,16 @@
   },
   "r635": {
    "name": "Brad Strandlund",
-   "aliases": []
+   "aliases": [
+    "Brad Standland",
+    "Brad Strandland"
+   ]
   },
   "r636": {
    "name": "Darryl Thompson",
-   "aliases": []
+   "aliases": [
+    "Daryl Thompson"
+   ]
   },
   "r637": {
    "name": "Steve Fernando",
@@ -2517,7 +3151,9 @@
   },
   "r641": {
    "name": "John Lewis",
-   "aliases": []
+   "aliases": [
+    "John Lewls"
+   ]
   },
   "r642": {
    "name": "Michael Smith",
@@ -2533,7 +3169,9 @@
   },
   "r645": {
    "name": "Todd Gertz",
-   "aliases": []
+   "aliases": [
+    "Tod Gertz"
+   ]
   },
   "r646": {
    "name": "Mike Holland",
@@ -2597,7 +3235,9 @@
   },
   "r661": {
    "name": "Consuela Elliot",
-   "aliases": []
+   "aliases": [
+    "Consuela Elliott"
+   ]
   },
   "r662": {
    "name": "Dennis Derammelaere",
@@ -2689,7 +3329,9 @@
   },
   "r684": {
    "name": "Alexandre Ulrich",
-   "aliases": []
+   "aliases": [
+    "Alexandre ulrich"
+   ]
   },
   "r685": {
    "name": "Thiagor Tebet",
@@ -2701,7 +3343,10 @@
   },
   "r687": {
    "name": "Fredrik Lindstrom",
-   "aliases": []
+   "aliases": [
+    "Fredrick Lindstrom",
+    "Fredrik Lindström"
+   ]
   },
   "r688": {
    "name": "Hartmut Olpp",
@@ -2717,7 +3362,9 @@
   },
   "r691": {
    "name": "Sebastien Tournissac",
-   "aliases": []
+   "aliases": [
+    "Sebastian Tournissac"
+   ]
   },
   "r692": {
    "name": "Jonathan Martinez",
@@ -2725,11 +3372,16 @@
   },
   "r693": {
    "name": "Eugen Forschner",
-   "aliases": []
+   "aliases": [
+    "Engen Forschner"
+   ]
   },
   "r694": {
    "name": "Dan Andersson",
-   "aliases": []
+   "aliases": [],
+   "not": [
+    "Ian Anderson"
+   ]
   },
   "r695": {
    "name": "Adrian Schlotter",
@@ -2745,7 +3397,10 @@
   },
   "r698": {
    "name": "Mathias Goransson",
-   "aliases": []
+   "aliases": [
+    "Göransson Mathias",
+    "Mathias Göransson"
+   ]
   },
   "r699": {
    "name": "Daniel Vaisanen",
@@ -2773,11 +3428,15 @@
   },
   "r705": {
    "name": "Cyrille Harnay",
-   "aliases": []
+   "aliases": [
+    "Cyrille Harney"
+   ]
   },
   "r706": {
    "name": "Andreas Johnsen",
-   "aliases": []
+   "aliases": [
+    "Andreas Johnson"
+   ]
   },
   "r707": {
    "name": "Olle Van Keppel",
@@ -2805,7 +3464,9 @@
   },
   "r713": {
    "name": "Jens O. Thor",
-   "aliases": []
+   "aliases": [
+    "Jens O Thor"
+   ]
   },
   "r714": {
    "name": "Baltic Chayjanya",
@@ -2833,7 +3494,9 @@
   },
   "r721": {
    "name": "Stephane Bas",
-   "aliases": []
+   "aliases": [
+    "Stefhane Bas"
+   ]
   },
   "r722": {
    "name": "Adrien Massieye",
@@ -2857,7 +3520,9 @@
   },
   "r727": {
    "name": "Oscar Olmefors",
-   "aliases": []
+   "aliases": [
+    "Oscar Olmefers"
+   ]
   },
   "r728": {
    "name": "Stefan Jansson",
@@ -2899,15 +3564,9 @@
    "name": "Johan Zell",
    "aliases": []
   },
-  "r738": {
-   "name": "Peter Karlsson SWE",
-   "aliases": []
-  },
   "r739": {
    "name": "Dan Ahlstrom",
-   "aliases": [
-    "Dan Ahlstrom"
-   ]
+   "aliases": []
   },
   "r740": {
    "name": "Bettina Luginbuhl",
@@ -2951,7 +3610,9 @@
   },
   "r750": {
    "name": "Edgar De Wit",
-   "aliases": []
+   "aliases": [
+    "Edgar de Wit"
+   ]
   },
   "r751": {
    "name": "Beni Weber",
@@ -2983,7 +3644,9 @@
   },
   "r759": {
    "name": "Jorge Sousa",
-   "aliases": []
+   "aliases": [
+    "Jorge Souza"
+   ]
   },
   "r760": {
    "name": "Ronny Meier",
@@ -2995,13 +3658,13 @@
   },
   "r762": {
    "name": "Petter Osterling",
-   "aliases": [
-    "Petter Osterling"
-   ]
+   "aliases": []
   },
   "r763": {
    "name": "Konstantin Weigl",
-   "aliases": []
+   "aliases": [
+    "Kostantin Weigl"
+   ]
   },
   "r764": {
    "name": "David Kessler",
@@ -3009,10 +3672,6 @@
   },
   "r765": {
    "name": "Adam Ramirez",
-   "aliases": []
-  },
-  "r766": {
-   "name": "David Rimmel SWE",
    "aliases": []
   },
   "r767": {
@@ -3025,7 +3684,9 @@
   },
   "r769": {
    "name": "Scott Smith",
-   "aliases": []
+   "aliases": [
+    "Scoot Smith"
+   ]
   },
   "r770": {
    "name": "James Kelly",
@@ -3045,7 +3706,10 @@
   },
   "r774": {
    "name": "Mischo Erban",
-   "aliases": []
+   "aliases": [
+    "Mischo CZE/CAN Erban",
+    "Misho Erban"
+   ]
   },
   "r775": {
    "name": "Kevin Reimer",
@@ -3053,7 +3717,9 @@
   },
   "r776": {
    "name": "Jackson Shapiera",
-   "aliases": []
+   "aliases": [
+    "Jackson Shapeira"
+   ]
   },
   "r777": {
    "name": "Kyle Holland",
@@ -3061,7 +3727,9 @@
   },
   "r778": {
    "name": "Chris Chaput",
-   "aliases": []
+   "aliases": [
+    "Chris Chatput"
+   ]
   },
   "r779": {
    "name": "Nate Lang",
@@ -3077,7 +3745,9 @@
   },
   "r782": {
    "name": "J.M. Duran",
-   "aliases": []
+   "aliases": [
+    "JM Duran"
+   ]
   },
   "r783": {
    "name": "Kyle Martin",
@@ -3089,7 +3759,9 @@
   },
   "r785": {
    "name": "Andrew Mercado",
-   "aliases": []
+   "aliases": [
+    "Andrew Mercardo"
+   ]
   },
   "r786": {
    "name": "Billy Meiners",
@@ -3101,7 +3773,9 @@
   },
   "r788": {
    "name": "Olivier Bareaud",
-   "aliases": []
+   "aliases": [
+    "Bareaud Olivier"
+   ]
   },
   "r789": {
    "name": "Nick Jean",
@@ -3113,7 +3787,9 @@
   },
   "r791": {
    "name": "Graham Buksa",
-   "aliases": []
+   "aliases": [
+    "Grahm Buksa"
+   ]
   },
   "r792": {
    "name": "Jeff Budro",
@@ -3121,7 +3797,9 @@
   },
   "r793": {
    "name": "Andrew MacCannell",
-   "aliases": []
+   "aliases": [
+    "Andrew MacCannelll"
+   ]
   },
   "r794": {
    "name": "Steve Daddow",
@@ -3261,7 +3939,9 @@
   },
   "r828": {
    "name": "Hugh Johnston",
-   "aliases": []
+   "aliases": [
+    "Huge Jonhston"
+   ]
   },
   "r829": {
    "name": "Robert McKendry III",
@@ -3315,7 +3995,9 @@
   },
   "r841": {
    "name": "Sebastian Hertler",
-   "aliases": []
+   "aliases": [
+    "Sebastien Hertler"
+   ]
   },
   "r842": {
    "name": "Blake Startup",
@@ -3359,7 +4041,9 @@
   },
   "r852": {
    "name": "Micah Green",
-   "aliases": []
+   "aliases": [
+    "Micaha Green"
+   ]
   },
   "r853": {
    "name": "Sean Sorg",
@@ -3377,11 +4061,15 @@
   },
   "r856": {
    "name": "Jon Huey",
-   "aliases": []
+   "aliases": [
+    "John Huey"
+   ]
   },
   "r857": {
    "name": "Ryan Sorensen",
-   "aliases": []
+   "aliases": [
+    "Ryan Sorenson"
+   ]
   },
   "r858": {
    "name": "Jp Rowan",
@@ -3401,11 +4089,16 @@
   },
   "r862": {
    "name": "Katie Neilson",
-   "aliases": []
+   "aliases": [
+    "Katie Neilsen",
+    "Katie Nielson"
+   ]
   },
   "r863": {
    "name": "Mark Anderson",
-   "aliases": []
+   "aliases": [
+    "Marc Anderson"
+   ]
   },
   "r864": {
    "name": "Sam Warsh",
@@ -3469,7 +4162,9 @@
   },
   "r879": {
    "name": "Connor Wagner",
-   "aliases": []
+   "aliases": [
+    "Conner Wagner"
+   ]
   },
   "r880": {
    "name": "Connor Schmitt",
@@ -3481,7 +4176,9 @@
   },
   "r882": {
    "name": "Dasha Kornienko",
-   "aliases": []
+   "aliases": [
+    "Dasha Kornieko"
+   ]
   },
   "r883": {
    "name": "Chris Sheehy",
@@ -3521,7 +4218,9 @@
   },
   "r892": {
    "name": "Keith Henderson",
-   "aliases": []
+   "aliases": [
+    "Henderson Kieth"
+   ]
   },
   "r893": {
    "name": "Peter Brinson",
@@ -3561,7 +4260,9 @@
   },
   "r902": {
    "name": "Quinn Dubois",
-   "aliases": []
+   "aliases": [
+    "Quinn Dobois"
+   ]
   },
   "r903": {
    "name": "Christian Conaway",
@@ -3577,19 +4278,28 @@
   },
   "r906": {
    "name": "Peter Eliot",
-   "aliases": []
+   "aliases": [
+    "Pete Eliot",
+    "Peter Elliot"
+   ]
   },
   "r907": {
    "name": "Michael McIntyre",
-   "aliases": []
+   "aliases": [
+    "Michael Mcintyre"
+   ]
   },
   "r909": {
    "name": "Claes Meijer",
-   "aliases": []
+   "aliases": [
+    "Cleas Meijer"
+   ]
   },
   "r910": {
    "name": "Chris McBride",
-   "aliases": []
+   "aliases": [
+    "Chris Mcbride"
+   ]
   },
   "r911": {
    "name": "Brian Lee",
@@ -3597,11 +4307,18 @@
   },
   "r912": {
    "name": "Charles-Antoine Lavoie",
-   "aliases": []
+   "aliases": [
+    "Charle Antoine ''bob'' Lavoie",
+    "Charle Antoine Lavoie",
+    "Charles Lavoie",
+    "Charles-antoine Lavoie"
+   ]
   },
   "r913": {
    "name": "Cedric Touchette",
-   "aliases": []
+   "aliases": [
+    "Cedric Bob Touchette"
+   ]
   },
   "r914": {
    "name": "Paul Busse",
@@ -3609,7 +4326,9 @@
   },
   "r915": {
    "name": "Kolby Parks",
-   "aliases": []
+   "aliases": [
+    "Parks Kolby"
+   ]
   },
   "r916": {
    "name": "Michael Christopher",
@@ -3699,24 +4418,12 @@
    "name": "Aaron Truman",
    "aliases": []
   },
-  "r938": {
-   "name": "Noah Sakamoto",
-   "aliases": []
-  },
   "r939": {
    "name": "Steven Smock",
    "aliases": []
   },
-  "r940": {
-   "name": "David Ellett",
-   "aliases": []
-  },
   "r941": {
    "name": "Craig Ellis",
-   "aliases": []
-  },
-  "r942": {
-   "name": "Charlene Mitchell",
    "aliases": []
   },
   "r943": {
@@ -3795,10 +4502,6 @@
    "name": "Daniel Kiehlmann",
    "aliases": []
   },
-  "r962": {
-   "name": "Alex Frischauf",
-   "aliases": []
-  },
   "r963": {
    "name": "Robert Richter",
    "aliases": []
@@ -3813,7 +4516,10 @@
   },
   "r966": {
    "name": "Christoph Wiedmann",
-   "aliases": []
+   "aliases": [
+    "Cristoph Wiedmann",
+    "Wiedmann Cristoph"
+   ]
   },
   "r967": {
    "name": "Manu Kleiter",
@@ -3857,11 +4563,15 @@
   },
   "r977": {
    "name": "Fee Bücheler",
-   "aliases": []
+   "aliases": [
+    "Fee Buecheler"
+   ]
   },
   "r978": {
    "name": "Michael Müller",
-   "aliases": []
+   "aliases": [
+    "Michael Muller"
+   ]
   },
   "r979": {
    "name": "Georg Klotzberg",
@@ -3881,11 +4591,17 @@
   },
   "r983": {
    "name": "Stefan Rüfli",
-   "aliases": []
+   "aliases": [
+    "Stefan Ruefli",
+    "Stefan Rufli",
+    "Stefan Rüefli"
+   ]
   },
   "r984": {
    "name": "Christoph Batt",
-   "aliases": []
+   "aliases": [
+    "Cristoph Batt"
+   ]
   },
   "r985": {
    "name": "Christoph Haller",
@@ -3905,7 +4621,10 @@
   },
   "r989": {
    "name": "Martin Alexander D'Elia",
-   "aliases": []
+   "aliases": [
+    "Martín Alexander D'Elía",
+    "Martïn Alexander D'Elïa"
+   ]
   },
   "r990": {
    "name": "Bruno Fusch",
@@ -3913,7 +4632,9 @@
   },
   "r991": {
    "name": "Gabin Piton",
-   "aliases": []
+   "aliases": [
+    "Piton Gabin"
+   ]
   },
   "r992": {
    "name": "John Barnet",
@@ -3933,7 +4654,9 @@
   },
   "r997": {
    "name": "Vincent Jordana",
-   "aliases": []
+   "aliases": [
+    "Jordana Vincent"
+   ]
   },
   "r998": {
    "name": "Jean Philippe Pascassio",
@@ -3957,7 +4680,10 @@
   },
   "r1003": {
    "name": "Thibault Courtois",
-   "aliases": []
+   "aliases": [
+    "Courtois Thibault",
+    "Thibeault Courtois"
+   ]
   },
   "r1004": {
    "name": "Alexis Caillaud",
@@ -3981,19 +4707,30 @@
   },
   "r1009": {
    "name": "Jaroslav Kejr",
-   "aliases": []
+   "aliases": [
+    "Jaroslav Kejř"
+   ]
   },
   "r1010": {
    "name": "Clement Gayraud",
-   "aliases": []
+   "aliases": [
+    "Gayraud Clement"
+   ]
   },
   "r1011": {
    "name": "Oliver Dehmel",
-   "aliases": []
+   "aliases": [
+    "Olivier Dehmel",
+    "oliver Dehmel"
+   ]
   },
   "r1012": {
    "name": "Ramón Königshausen",
-   "aliases": []
+   "aliases": [
+    "Ramon Konigshausen",
+    "Ramon Königshausen",
+    "Ramón Konigshausen"
+   ]
   },
   "r1013": {
    "name": "Julien Yamba",
@@ -4009,7 +4746,9 @@
   },
   "r1016": {
    "name": "Michal Cerny",
-   "aliases": []
+   "aliases": [
+    "Michal Cerney"
+   ]
   },
   "r1017": {
    "name": "Sergi Garrudo",
@@ -4017,10 +4756,6 @@
   },
   "r1018": {
    "name": "Yoann Bethus",
-   "aliases": []
-  },
-  "r1019": {
-   "name": "Alexander Dehmel",
    "aliases": []
   },
   "r1020": {
@@ -4041,7 +4776,12 @@
   },
   "r1024": {
    "name": "Michal Slivenecky",
-   "aliases": []
+   "aliases": [
+    "Micha Slivenecký",
+    "Michail slivenecky",
+    "Michal Slivencky",
+    "Michal Slivenecký"
+   ]
   },
   "r1025": {
    "name": "Guillaume Piton",
@@ -4061,7 +4801,9 @@
   },
   "r1029": {
    "name": "Aaron Skippings",
-   "aliases": []
+   "aliases": [
+    "Aron Skippings"
+   ]
   },
   "r1030": {
    "name": "Johannes Krimm",
@@ -4077,7 +4819,9 @@
   },
   "r1033": {
    "name": "garcia san miguel Sergio Astray",
-   "aliases": []
+   "aliases": [
+    "garcia san mSergio Astray"
+   ]
   },
   "r1034": {
    "name": "Pierre Gamby",
@@ -4089,7 +4833,9 @@
   },
   "r1036": {
    "name": "Dominique Vukorep",
-   "aliases": []
+   "aliases": [
+    "dominique Vukorep"
+   ]
   },
   "r1037": {
    "name": "Pedro Duarte",
@@ -4105,7 +4851,9 @@
   },
   "r1040": {
    "name": "Michal Velharticky",
-   "aliases": []
+   "aliases": [
+    "Michal Velhartický"
+   ]
   },
   "r1041": {
    "name": "Henrik Gabinus",
@@ -4117,7 +4865,10 @@
   },
   "r1043": {
    "name": "Rodriguez Carles Yagues",
-   "aliases": []
+   "aliases": [
+    "Rodrigues Carlos Yages",
+    "Rodriguez Carles Yagües"
+   ]
   },
   "r1044": {
    "name": "Quentin Drouault",
@@ -4133,7 +4884,9 @@
   },
   "r1047": {
    "name": "Fredrik Molin",
-   "aliases": []
+   "aliases": [
+    "Frederik Molin"
+   ]
   },
   "r1048": {
    "name": "Marie Bougourd",
@@ -4145,11 +4898,15 @@
   },
   "r1050": {
    "name": "Eduardo-Eko Guimaraes",
-   "aliases": []
+   "aliases": [
+    "Eduardo eko Guimaries"
+   ]
   },
   "r1051": {
    "name": "Adam Roguljic",
-   "aliases": []
+   "aliases": [
+    "Adam Roguljič"
+   ]
   },
   "r1052": {
    "name": "zdog Leao",
@@ -4161,7 +4918,10 @@
   },
   "r1054": {
    "name": "Lenka Salacova",
-   "aliases": []
+   "aliases": [
+    "Lenka Salačová",
+    "Lenna Salacova"
+   ]
   },
   "r1056": {
    "name": "Craig Deltour",
@@ -4173,7 +4933,9 @@
   },
   "r1058": {
    "name": "Thibault Meline",
-   "aliases": []
+   "aliases": [
+    "Thibaut Meline"
+   ]
   },
   "r1059": {
    "name": "Maxime Rubi",
@@ -4185,11 +4947,17 @@
   },
   "r1061": {
    "name": "Helene Schmit",
-   "aliases": []
+   "aliases": [
+    "Helene Schmitt",
+    "Helenne Schmidt",
+    "Schmit Helene"
+   ]
   },
   "r1062": {
    "name": "Fabien Prual",
-   "aliases": []
+   "aliases": [
+    "fabien Prual"
+   ]
   },
   "r1063": {
    "name": "Fabien Wittebroet",
@@ -4197,7 +4965,9 @@
   },
   "r1064": {
    "name": "William Stephenson",
-   "aliases": []
+   "aliases": [
+    "Wiliam Stephenson"
+   ]
   },
   "r1065": {
    "name": "Nick Kinnish",
@@ -4205,7 +4975,9 @@
   },
   "r1066": {
    "name": "Pierre Hardillier",
-   "aliases": []
+   "aliases": [
+    "Pierre Hardiller"
+   ]
   },
   "r1067": {
    "name": "William Condon",
@@ -4225,7 +4997,9 @@
   },
   "r1071": {
    "name": "Sèverine Mordon",
-   "aliases": []
+   "aliases": [
+    "Severine Mordon"
+   ]
   },
   "r1072": {
    "name": "Marjorie Phlippoteau",
@@ -4237,7 +5011,9 @@
   },
   "r1074": {
    "name": "Jorge Alcalde",
-   "aliases": []
+   "aliases": [
+    "Jorge Alcade"
+   ]
   },
   "r1075": {
    "name": "Florent Duveau",
@@ -4245,7 +5021,9 @@
   },
   "r1076": {
    "name": "Lukasz Bunsch",
-   "aliases": []
+   "aliases": [
+    "Lukas Bunsch"
+   ]
   },
   "r1077": {
    "name": "Hannah Byrd",
@@ -4269,7 +5047,10 @@
   },
   "r1082": {
    "name": "Severine Christ-Thomas",
-   "aliases": []
+   "aliases": [
+    "Séverine Christ-Thomas",
+    "Thomas Severine Christ"
+   ]
   },
   "r1083": {
    "name": "Tobi Woehrie",
@@ -4277,7 +5058,9 @@
   },
   "r1084": {
    "name": "Davide Tacchini",
-   "aliases": []
+   "aliases": [
+    "David Tacchini"
+   ]
   },
   "r1085": {
    "name": "Regis Jacquin",
@@ -4317,23 +5100,34 @@
   },
   "r1094": {
    "name": "Boris Schinke",
-   "aliases": []
+   "aliases": [
+    "Boris Shinke"
+   ]
   },
   "r1095": {
    "name": "Phillippe Albiz",
-   "aliases": []
+   "aliases": [
+    "Philippe Albiz",
+    "Phillipe Albiz"
+   ]
   },
   "r1096": {
    "name": "Matthias Ebel",
-   "aliases": []
+   "aliases": [
+    "Mathias Ebel"
+   ]
   },
   "r1097": {
    "name": "Marcel Isler",
-   "aliases": []
+   "aliases": [
+    "Marcel Steven Isler"
+   ]
   },
   "r1098": {
    "name": "Jakob Raab",
-   "aliases": []
+   "aliases": [
+    "Jackob Raab"
+   ]
   },
   "r1099": {
    "name": "Stefan Kolpatzik",
@@ -4353,7 +5147,9 @@
   },
   "r1103": {
    "name": "Pavel Zajíc",
-   "aliases": []
+   "aliases": [
+    "Pavel Zajic"
+   ]
   },
   "r1104": {
    "name": "Andreas Gniadek",
@@ -4401,7 +5197,12 @@
   },
   "r1116": {
    "name": "Radek Lukes",
-   "aliases": []
+   "aliases": [
+    "Luke Radek",
+    "Lukes Radek",
+    "Lukeš Radek",
+    "Radek Lukeš"
+   ]
   },
   "r1117": {
    "name": "Jolanda Vogler",
@@ -4449,7 +5250,9 @@
   },
   "r1129": {
    "name": "Daniel Hawes",
-   "aliases": []
+   "aliases": [
+    "Daniel FIN-AUS Hawes"
+   ]
   },
   "r1130": {
    "name": "Alex Ireton",
@@ -4461,11 +5264,15 @@
   },
   "r1132": {
    "name": "Joshua Shanel",
-   "aliases": []
+   "aliases": [
+    "Joshua Sháněl"
+   ]
   },
   "r1133": {
    "name": "Simon Haverson",
-   "aliases": []
+   "aliases": [
+    "Simon SCO-CAN Haverson"
+   ]
   },
   "r1134": {
    "name": "Matthias Mögele",
@@ -4497,11 +5304,15 @@
   },
   "r1141": {
    "name": "Federico Palpacelli",
-   "aliases": []
+   "aliases": [
+    "Frederico Papacelli"
+   ]
   },
   "r1142": {
    "name": "Federico Barboni",
-   "aliases": []
+   "aliases": [
+    "Frederico Barboni"
+   ]
   },
   "r1143": {
    "name": "Robert McKie",
@@ -4555,13 +5366,12 @@
    "name": "Christine Maier",
    "aliases": []
   },
-  "r1156": {
-   "name": "Dr. Michael Serek",
-   "aliases": []
-  },
   "r1157": {
    "name": "Luca Santolamazza",
-   "aliases": []
+   "aliases": [
+    "Luca Santalamazza",
+    "Luca Santolmazza"
+   ]
   },
   "r1158": {
    "name": "Gerald Müller",
@@ -4569,7 +5379,9 @@
   },
   "r1159": {
    "name": "Cedric Robert",
-   "aliases": []
+   "aliases": [
+    "Cédric Robert"
+   ]
   },
   "r1160": {
    "name": "Gunnar Kalb",
@@ -4577,7 +5389,9 @@
   },
   "r1161": {
    "name": "Petr Kopac",
-   "aliases": []
+   "aliases": [
+    "Petr Kopáč"
+   ]
   },
   "r1162": {
    "name": "Carlo Righetti",
@@ -4593,7 +5407,9 @@
   },
   "r1165": {
    "name": "Frederique Berdon",
-   "aliases": []
+   "aliases": [
+    "Frédérique Berdon"
+   ]
   },
   "r1166": {
    "name": "Ben Bewley",
@@ -4625,7 +5441,9 @@
   },
   "r1173": {
    "name": "Martin Witzigmann",
-   "aliases": []
+   "aliases": [
+    "Martin Witzigman"
+   ]
   },
   "r1174": {
    "name": "Hendrik Brinkmann",
@@ -4649,7 +5467,9 @@
   },
   "r1179": {
    "name": "Massimo Poletto",
-   "aliases": []
+   "aliases": [
+    "Masimo Poletto"
+   ]
   },
   "r1180": {
    "name": "Ross Baradoy",
@@ -4665,7 +5485,9 @@
   },
   "r1184": {
    "name": "Jesper Broberg",
-   "aliases": []
+   "aliases": [
+    "Broberg Jesper"
+   ]
   },
   "r1185": {
    "name": "Benjamin Arcia",
@@ -4689,7 +5511,9 @@
   },
   "r1190": {
    "name": "Andrea Bossotto",
-   "aliases": []
+   "aliases": [
+    "Andrea Bossoto"
+   ]
   },
   "r1192": {
    "name": "Mattia Polese",
@@ -4700,10 +5524,11 @@
    "aliases": []
   },
   "r1194": {
-   "name": "Miquel Jan Tarradas",
+   "name": "Jan Tarradas Miquel",
    "aliases": [
     "Jan Miquel",
-    "Jan Tarradas"
+    "Jan Tarradas",
+    "Miquel Jan Tarradas"
    ]
   },
   "r1195": {
@@ -4716,7 +5541,9 @@
   },
   "r1197": {
    "name": "Torralba Gerard Marcuello",
-   "aliases": []
+   "aliases": [
+    "torralba Gerard Marcuello"
+   ]
   },
   "r1198": {
    "name": "Maurizio De Pollo",
@@ -4776,7 +5603,9 @@
   },
   "r1212": {
    "name": "Moritz Norel",
-   "aliases": []
+   "aliases": [
+    "Moritz Nörl"
+   ]
   },
   "r1213": {
    "name": "Kevin Maissin",
@@ -4912,7 +5741,9 @@
   },
   "r1246": {
    "name": "Udo Nörl",
-   "aliases": []
+   "aliases": [
+    "Udo Norel"
+   ]
   },
   "r1247": {
    "name": "Cyril Bouchet",
@@ -4972,7 +5803,10 @@
   },
   "r1261": {
    "name": "Fränky Sommer",
-   "aliases": []
+   "aliases": [
+    "Frank Sommer",
+    "Franky Sommer"
+   ]
   },
   "r1262": {
    "name": "Sebastian Baßler",
@@ -4980,7 +5814,9 @@
   },
   "r1263": {
    "name": "Fabrice Perez",
-   "aliases": []
+   "aliases": [
+    "Rabrice Perez"
+   ]
   },
   "r1264": {
    "name": "Oliver Spenner",
@@ -5000,7 +5836,9 @@
   },
   "r1268": {
    "name": "Abel Menessy",
-   "aliases": []
+   "aliases": [
+    "Abel Menessey"
+   ]
   },
   "r1269": {
    "name": "Robert Johansson",
@@ -5028,7 +5866,9 @@
   },
   "r1275": {
    "name": "Stephane Glaize",
-   "aliases": []
+   "aliases": [
+    "Stéphane Glaize"
+   ]
   },
   "r1276": {
    "name": "Michael Claessens",
@@ -5060,7 +5900,9 @@
   },
   "r1283": {
    "name": "Mathias Tanger",
-   "aliases": []
+   "aliases": [
+    "Matthias Tanger"
+   ]
   },
   "r1284": {
    "name": "Alexander Lorenz",
@@ -5120,7 +5962,9 @@
   },
   "r1298": {
    "name": "Andi Gniadek",
-   "aliases": []
+   "aliases": [
+    "Andy Gniadek"
+   ]
   },
   "r1299": {
    "name": "Arnaud Bailleul",
@@ -5128,7 +5972,9 @@
   },
   "r1300": {
    "name": "Tomas Pech",
-   "aliases": []
+   "aliases": [
+    "Tomáš Pech"
+   ]
   },
   "r1301": {
    "name": "Ales Loch",
@@ -5176,7 +6022,10 @@
   },
   "r1312": {
    "name": "Nic McKirdy",
-   "aliases": []
+   "aliases": [
+    "Nic Mckirdy",
+    "Nick McKirdy"
+   ]
   },
   "r1313": {
    "name": "Celine Dimola",
@@ -5192,7 +6041,9 @@
   },
   "r1316": {
    "name": "Mike Snyder",
-   "aliases": []
+   "aliases": [
+    "Mike Synder"
+   ]
   },
   "r1317": {
    "name": "Trevor Ovenden",
@@ -5208,7 +6059,9 @@
   },
   "r1320": {
    "name": "Jimmy Riha",
-   "aliases": []
+   "aliases": [
+    "Jimmy Rhia"
+   ]
   },
   "r1321": {
    "name": "Maxwell Capps",
@@ -5234,17 +6087,22 @@
   },
   "r1326": {
    "name": "Quin Finocchio",
-   "aliases": []
+   "aliases": [
+    "Quinn Finocchio"
+   ]
   },
   "r1327": {
-   "name": "Roland Somile",
-   "aliases": []
+   "name": "Roland Sumile",
+   "aliases": [
+    "Roland Somile"
+   ]
   },
   "r1328": {
    "name": "DJ Jackson",
    "aliases": [
     "DJ 1:10.253 Jackson",
-    "DJ 1:28.513 Jackson"
+    "DJ 1:28.513 Jackson",
+    "Dj Jackson"
    ]
   },
   "r1329": {
@@ -5271,7 +6129,9 @@
   },
   "r1334": {
    "name": "Ricky Kludy",
-   "aliases": []
+   "aliases": [
+    "Rick Kludy"
+   ]
   },
   "r1335": {
    "name": "Chance Gaul",
@@ -5333,10 +6193,6 @@
    "name": "Nathan Bryant",
    "aliases": []
   },
-  "r1354": {
-   "name": "Jesse Breiman",
-   "aliases": []
-  },
   "r1355": {
    "name": "Justin Tolman",
    "aliases": [
@@ -5347,7 +6203,8 @@
    "name": "Ronnie Iverson",
    "aliases": [
     "Ronnie 1:21.007 Iverson Jr",
-    "Ronnie Iverson"
+    "Ronnie Iverson Jr",
+    "Ronnie Iversson"
    ]
   },
   "r1357": {
@@ -5372,7 +6229,10 @@
   },
   "r1366": {
    "name": "Mike McIntyre",
-   "aliases": []
+   "aliases": [
+    "Mike McIntrye",
+    "Mike Mcintyre"
+   ]
   },
   "r1367": {
    "name": "Keenan Domerecki",
@@ -5385,12 +6245,19 @@
   "r1369": {
    "name": "Maxim Garant-Rousseau",
    "aliases": [
+    "Garant-Rousseau Maxim",
+    "Maxim Garant Rousseau",
+    "Maxim Rousseau",
+    "Maxime Garant-Rousseau",
+    "Maxime Rousseau",
     "Rousseau Maxime Garant"
    ]
   },
   "r1370": {
    "name": "George Mackenzie",
-   "aliases": []
+   "aliases": [
+    "Geoge Mackenzie"
+   ]
   },
   "r1371": {
    "name": "Braden Tibbles",
@@ -5430,7 +6297,9 @@
   },
   "r1380": {
    "name": "Evan Harris",
-   "aliases": []
+   "aliases": [
+    "Evans Harris"
+   ]
   },
   "r1381": {
    "name": "Ludovic Tremblay",
@@ -5510,7 +6379,9 @@
   },
   "r1400": {
    "name": "Andi Leslie",
-   "aliases": []
+   "aliases": [
+    "Andie Leslie"
+   ]
   },
   "r1401": {
    "name": "Trevor Jurica",
@@ -5530,7 +6401,9 @@
   },
   "r1405": {
    "name": "Justin Kleinstueber",
-   "aliases": []
+   "aliases": [
+    "Justin Kleinsteuber"
+   ]
   },
   "r1406": {
    "name": "Everton Nascimento",
@@ -5538,7 +6411,9 @@
   },
   "r1408": {
    "name": "Silon Garcia",
-   "aliases": []
+   "aliases": [
+    "Garcia Silon"
+   ]
   },
   "r1409": {
    "name": "Vinicius Brasil",
@@ -5550,11 +6425,16 @@
   },
   "r1411": {
    "name": "Otavio Munhoz",
-   "aliases": []
+   "aliases": [
+    "Otávio Munhoz"
+   ]
   },
   "r1412": {
    "name": "Fabio Lambs",
-   "aliases": []
+   "aliases": [
+    "Fabio Lamb",
+    "Fábio Lamps"
+   ]
   },
   "r1413": {
    "name": "Paluo Junior",
@@ -5566,11 +6446,15 @@
   },
   "r1415": {
    "name": "Antonio Rosa",
-   "aliases": []
+   "aliases": [
+    "Antônio Rosa"
+   ]
   },
   "r1417": {
    "name": "Rafael Sabella",
-   "aliases": []
+   "aliases": [
+    "Rafael Sabela"
+   ]
   },
   "r1418": {
    "name": "William Nadal",
@@ -5578,7 +6462,9 @@
   },
   "r1419": {
    "name": "Renan Vasques",
-   "aliases": []
+   "aliases": [
+    "Renan Wasques"
+   ]
   },
   "r1420": {
    "name": "Ricardo Reis",
@@ -5590,7 +6476,10 @@
   },
   "r1422": {
    "name": "Felipe Rosa",
-   "aliases": []
+   "aliases": [
+    "Felipe da Rosa",
+    "Filipe Rosa"
+   ]
   },
   "r1423": {
    "name": "Wendel Malessa",
@@ -5610,11 +6499,15 @@
   },
   "r1427": {
    "name": "Vitor Salazar",
-   "aliases": []
+   "aliases": [
+    "Victor Salazar"
+   ]
   },
   "r1428": {
    "name": "Italo Lima",
-   "aliases": []
+   "aliases": [
+    "Ítalo Lima"
+   ]
   },
   "r1429": {
    "name": "Daniel Gonçalves",
@@ -5623,7 +6516,9 @@
   "r1431": {
    "name": "Lucas Silva",
    "aliases": [
-    "Lucas Perdoná"
+    "Lucas Perdona",
+    "Lucas Perdoná",
+    "Lucas Perdoná Da Silva"
    ]
   },
   "r1432": {
@@ -5636,7 +6531,10 @@
   },
   "r1434": {
    "name": "Dillon Stephens",
-   "aliases": []
+   "aliases": [
+    "Dillion Stephens",
+    "Dillon Stephans"
+   ]
   },
   "r1435": {
    "name": "Juliano Cassemiro",
@@ -5644,7 +6542,9 @@
   },
   "r1436": {
    "name": "Ricardo Sabatovitch",
-   "aliases": []
+   "aliases": [
+    "Ricardo Sabatovich"
+   ]
   },
   "r1437": {
    "name": "Israel Oliveira",
@@ -5664,7 +6564,9 @@
   },
   "r1441": {
    "name": "Ribas Rogerio",
-   "aliases": []
+   "aliases": [
+    "Rogerio Ribas"
+   ]
   },
   "r1442": {
    "name": "Jose Neto",
@@ -5673,12 +6575,16 @@
   "r1443": {
    "name": "Gabriel Carrilho",
    "aliases": [
-    "Gabriel Kopplin"
+    "Gabriel Kopplin",
+    "Gabriel Kopplin Carrilho"
    ]
   },
   "r1444": {
    "name": "Lucas Bette",
-   "aliases": []
+   "aliases": [],
+   "not": [
+    "Lucas Beste"
+   ]
   },
   "r1445": {
    "name": "Rodrigo Echague",
@@ -5698,7 +6604,9 @@
   },
   "r1449": {
    "name": "Julian Flores",
-   "aliases": []
+   "aliases": [
+    "Jülian Flores"
+   ]
   },
   "r1450": {
    "name": "Delano Pozzetti",
@@ -5711,12 +6619,15 @@
   "r1452": {
    "name": "Ricardo Sena",
    "aliases": [
-    "Ricardo Oliveira"
+    "Ricardo Oliveira",
+    "Ricardo Oliveira De Sena"
    ]
   },
   "r1453": {
    "name": "Rafael Kiotheka",
-   "aliases": []
+   "aliases": [
+    "Rafael Da Silveira Kiotheka"
+   ]
   },
   "r1454": {
    "name": "Alexandre Andrade",
@@ -5736,7 +6647,9 @@
   },
   "r1458": {
    "name": "Manoel Formica",
-   "aliases": []
+   "aliases": [
+    "Manoel Formiga"
+   ]
   },
   "r1459": {
    "name": "Leonardo Fagundes",
@@ -5748,15 +6661,20 @@
   },
   "r1461": {
    "name": "Leo Borton",
-   "aliases": []
+   "aliases": [
+    "Léo Borton"
+   ]
   },
   "r1462": {
    "name": "Alexandre Machado",
-   "aliases": []
+   "aliases": [
+    "Alexandre Cerri MacHado"
+   ]
   },
   "r1464": {
    "name": "Jonathan Ogralha",
    "aliases": [
+    "Jonathan Gralha",
     "Jonathon Ogralhy"
    ]
   },
@@ -5765,8 +6683,9 @@
    "aliases": []
   },
   "r1466": {
-   "name": "Tiago Moreira",
+   "name": "Tiago Antunes",
    "aliases": [
+    "Thiago Moreira",
     "Tiago Moreira",
     "Tiago Moreira-Antunes"
    ]
@@ -5810,7 +6729,8 @@
   "r1476": {
    "name": "Willians Angenendt",
    "aliases": [
-    "William Angenendt"
+    "William Angenendt",
+    "Williams Angenendt"
    ]
   },
   "r1477": {
@@ -5843,7 +6763,9 @@
   },
   "r1484": {
    "name": "Tony Graves",
-   "aliases": []
+   "aliases": [
+    "Graves Tony"
+   ]
   },
   "r1485": {
    "name": "Ben Hay",
@@ -5859,7 +6781,9 @@
   },
   "r1488": {
    "name": "Stephen Daddow",
-   "aliases": []
+   "aliases": [
+    "Stephen Dadddow"
+   ]
   },
   "r1489": {
    "name": "Brad Pearson",
@@ -5879,7 +6803,9 @@
   },
   "r1493": {
    "name": "Dane Bond",
-   "aliases": []
+   "aliases": [
+    "Dane Jacob Bond"
+   ]
   },
   "r1494": {
    "name": "Alex Martin",
@@ -5895,7 +6821,9 @@
   },
   "r1497": {
    "name": "Mathias Lessmann",
-   "aliases": []
+   "aliases": [
+    "Mathias Lessman"
+   ]
   },
   "r1498": {
    "name": "Raine Kent",
@@ -5983,7 +6911,9 @@
   },
   "r1520": {
    "name": "Lachlan Carey",
-   "aliases": []
+   "aliases": [
+    "Carey Lachlan"
+   ]
   },
   "r1521": {
    "name": "Chad Gibson",
@@ -6035,7 +6965,9 @@
   },
   "r1533": {
    "name": "Michael Snyder",
-   "aliases": []
+   "aliases": [
+    "Micheal Snyder"
+   ]
   },
   "r1534": {
    "name": "Oliver Dowie",
@@ -6095,10 +7027,6 @@
   },
   "r1548": {
    "name": "Peter Whitehouse",
-   "aliases": []
-  },
-  "r1549": {
-   "name": "Arthur Moreira",
    "aliases": []
   },
   "r1550": {
@@ -6351,19 +7279,19 @@
   },
   "r1612": {
    "name": "Mark Frleetwood",
-   "aliases": []
+   "aliases": [
+    "Mark Fleetwood"
+   ]
   },
   "r1613": {
    "name": "Nic Down",
    "aliases": []
   },
-  "r1614": {
-   "name": "Frank Hurtley",
-   "aliases": []
-  },
   "r1615": {
    "name": "Len Stocker",
-   "aliases": []
+   "aliases": [
+    "Len Stoker"
+   ]
   },
   "r1616": {
    "name": "Jodie Fellows",
@@ -6399,7 +7327,9 @@
   },
   "r1624": {
    "name": "Christophe Gatignon",
-   "aliases": []
+   "aliases": [
+    "Chritstophe Gatignon"
+   ]
   },
   "r1625": {
    "name": "Hugo Madignier",
@@ -6411,7 +7341,9 @@
   },
   "r1627": {
    "name": "Thomas Lakomicky",
-   "aliases": []
+   "aliases": [
+    "Thomas Lakomicki"
+   ]
   },
   "r1628": {
    "name": "Eric Motard",
@@ -6475,7 +7407,9 @@
   },
   "r1643": {
    "name": "Pierre Hazera",
-   "aliases": []
+   "aliases": [
+    "Piere Hazera"
+   ]
   },
   "r1644": {
    "name": "Matthieu Denis",
@@ -6515,7 +7449,9 @@
   },
   "r1655": {
    "name": "Jonas Richter",
-   "aliases": []
+   "aliases": [
+    "Jonas Ricther"
+   ]
   },
   "r1656": {
    "name": "Andrew Dassie",
@@ -6547,7 +7483,10 @@
   },
   "r1663": {
    "name": "Carlos Silva",
-   "aliases": []
+   "aliases": [
+    "Carlos Da Silva",
+    "Carlos Eduardo Silva"
+   ]
   },
   "r1664": {
    "name": "Filho Evandro Silveira",
@@ -6589,7 +7528,9 @@
   },
   "r1673": {
    "name": "Thiago Dos Santos",
-   "aliases": []
+   "aliases": [
+    "Thiago Santos"
+   ]
   },
   "r1674": {
    "name": "Douglas Dos Santos",
@@ -6597,7 +7538,9 @@
   },
   "r1675": {
    "name": "Ignacio Perne",
-   "aliases": []
+   "aliases": [
+    "Perne Ignacio"
+   ]
   },
   "r1676": {
    "name": "Francis Marcante",
@@ -6606,7 +7549,8 @@
   "r1677": {
    "name": "Lucas Ribeiro",
    "aliases": [
-    "Lucas Furtado"
+    "Lucas Furtado",
+    "Lucas Furtado Leite Ribeiro"
    ]
   },
   "r1678": {
@@ -6619,11 +7563,15 @@
   },
   "r1680": {
    "name": "Guilherme Gonçalves",
-   "aliases": []
+   "aliases": [
+    "Guilhelme Goncalves"
+   ]
   },
   "r1681": {
    "name": "Luciano Vazconcelos",
-   "aliases": []
+   "aliases": [
+    "Luciano Vasconcelos"
+   ]
   },
   "r1682": {
    "name": "Thiago Sokalsky",
@@ -6631,15 +7579,22 @@
   },
   "r1683": {
    "name": "Vittorio Ferrero",
-   "aliases": []
+   "aliases": [
+    "Victtorio Ferrero"
+   ]
   },
   "r1684": {
    "name": "Luca Dragone",
-   "aliases": []
+   "aliases": [
+    "Lucas Dragone",
+    "Lucca Dragone"
+   ]
   },
   "r1685": {
    "name": "Régis Fonseca",
-   "aliases": []
+   "aliases": [
+    "Regis Fonseca"
+   ]
   },
   "r1686": {
    "name": "Juarez Pinto",
@@ -6651,7 +7606,9 @@
   },
   "r1688": {
    "name": "Pedro Azevedo",
-   "aliases": []
+   "aliases": [
+    "Pedro Henrique Oliveira Azevedo"
+   ]
   },
   "r1689": {
    "name": "Alisson Besutti",
@@ -6663,7 +7620,9 @@
   },
   "r1691": {
    "name": "Eduardo Costa",
-   "aliases": []
+   "aliases": [
+    "Eduardo Da Costa"
+   ]
   },
   "r1692": {
    "name": "Maike Rodrigues",
@@ -6671,7 +7630,9 @@
   },
   "r1693": {
    "name": "Pedro Fonseca",
-   "aliases": []
+   "aliases": [
+    "Pedro Paulo Fonseca"
+   ]
   },
   "r1694": {
    "name": "Alexandre Emerson",
@@ -6687,11 +7648,18 @@
   },
   "r1697": {
    "name": "Rafael De Campos Dobner",
-   "aliases": []
+   "aliases": [
+    "Rafael Dobner",
+    "Rafal De Campos Dobner"
+   ]
   },
   "r1698": {
    "name": "Andre Correia",
-   "aliases": []
+   "aliases": [
+    "Andre Correa",
+    "Andres Correa",
+    "André Correa"
+   ]
   },
   "r1699": {
    "name": "Juan Castro",
@@ -6699,7 +7667,9 @@
   },
   "r1700": {
    "name": "Andres Rubiño",
-   "aliases": []
+   "aliases": [
+    "Andres Rubino"
+   ]
   },
   "r1701": {
    "name": "V Joao Victor Cossia",
@@ -6723,7 +7693,9 @@
   },
   "r1708": {
    "name": "Rodrigo Bisquertt",
-   "aliases": []
+   "aliases": [
+    "Rodrigo Bisquert"
+   ]
   },
   "r1709": {
    "name": "Paulo Silva",
@@ -6731,7 +7703,9 @@
   },
   "r1710": {
    "name": "Danilo Ferraz",
-   "aliases": []
+   "aliases": [
+    "Danillo Ferraz"
+   ]
   },
   "r1711": {
    "name": "Juliano Wagner",
@@ -6743,7 +7717,9 @@
   },
   "r1713": {
    "name": "Carlos Teixeira",
-   "aliases": []
+   "aliases": [
+    "Carlos Alberto Teixeira"
+   ]
   },
   "r1714": {
    "name": "Evandro Filho",
@@ -6751,11 +7727,16 @@
   },
   "r1715": {
    "name": "Zen Shikaze",
-   "aliases": []
+   "aliases": [
+    "Zen JAP/CAN Shikaze",
+    "Zen JPN/CAN Shikaze"
+   ]
   },
   "r1716": {
    "name": "Max Wippermann",
-   "aliases": []
+   "aliases": [
+    "Max Wipperman"
+   ]
   },
   "r1717": {
    "name": "Brendan Davidson",
@@ -6803,7 +7784,10 @@
   },
   "r1728": {
    "name": "Justen Ortiz",
-   "aliases": []
+   "aliases": [
+    "Justin Oritz",
+    "Justin Ortiz"
+   ]
   },
   "r1729": {
    "name": "Alex Johnston",
@@ -6843,7 +7827,9 @@
   },
   "r1738": {
    "name": "Frank Cote",
-   "aliases": []
+   "aliases": [
+    "Frank Coté"
+   ]
   },
   "r1739": {
    "name": "Matt Hoodie",
@@ -6907,7 +7893,9 @@
   },
   "r1754": {
    "name": "Zach Baca",
-   "aliases": []
+   "aliases": [
+    "Zac Baca"
+   ]
   },
   "r1755": {
    "name": "Jarrett Boe",
@@ -6943,7 +7931,9 @@
   },
   "r1763": {
    "name": "Scott Lynn",
-   "aliases": []
+   "aliases": [
+    "Scott Lyn"
+   ]
   },
   "r1764": {
    "name": "Sheldon Lauzon",
@@ -6967,7 +7957,9 @@
   },
   "r1769": {
    "name": "Taryn MacQuarrie",
-   "aliases": []
+   "aliases": [
+    "Taryn Macquarrie"
+   ]
   },
   "r1770": {
    "name": "Jeremy Jackins",
@@ -7007,7 +7999,10 @@
   },
   "r1779": {
    "name": "Anna O'Neill",
-   "aliases": []
+   "aliases": [
+    "Anna O'neill",
+    "Anna Oneill"
+   ]
   },
   "r1780": {
    "name": "Jeffrey Castaneda",
@@ -7075,7 +8070,9 @@
   },
   "r1796": {
    "name": "Diego Alemparte",
-   "aliases": []
+   "aliases": [
+    "Diego Alempart"
+   ]
   },
   "r1797": {
    "name": "Nicolas Fuentes",
@@ -7085,11 +8082,16 @@
   },
   "r1798": {
    "name": "Lucas Falcioni",
-   "aliases": []
+   "aliases": [
+    "Lucas Falcione",
+    "Lukas Falcioni"
+   ]
   },
   "r1799": {
    "name": "Luiz Vinassa",
-   "aliases": []
+   "aliases": [
+    "Luis Vinassa"
+   ]
   },
   "r1800": {
    "name": "Max Myers",
@@ -7157,7 +8159,9 @@
   },
   "r1816": {
    "name": "Mariano Gentili",
-   "aliases": []
+   "aliases": [
+    "Gentilli Mariano"
+   ]
   },
   "r1817": {
    "name": "Federico Marchant",
@@ -7165,7 +8169,9 @@
   },
   "r1818": {
    "name": "Francisco Schuler",
-   "aliases": []
+   "aliases": [
+    "Francisco Schüler"
+   ]
   },
   "r1819": {
    "name": "Bruno Araujo",
@@ -7173,11 +8179,16 @@
   },
   "r1820": {
    "name": "André Preto",
-   "aliases": []
+   "aliases": [
+    "Andre Leonardo Preto",
+    "Andre Preto"
+   ]
   },
   "r1821": {
    "name": "Martin Mitideri",
-   "aliases": []
+   "aliases": [
+    "Mitidieri Martin"
+   ]
   },
   "r1822": {
    "name": "Alvaro Balcells",
@@ -7209,7 +8220,9 @@
   },
   "r1829": {
    "name": "Sebastian Perez",
-   "aliases": []
+   "aliases": [
+    "Perez Sebastian"
+   ]
   },
   "r1830": {
    "name": "Francisco Duran",
@@ -7221,15 +8234,22 @@
   },
   "r1832": {
    "name": "Santiago Gonzalez Salaberry",
-   "aliases": []
+   "aliases": [
+    "Santiago González Salaberry",
+    "Santiago Salaberry"
+   ]
   },
   "r1833": {
    "name": "Hernan Miguez",
-   "aliases": []
+   "aliases": [
+    "Hernan Alejandro Miguez"
+   ]
   },
   "r1834": {
    "name": "Tomas Lopez",
-   "aliases": []
+   "aliases": [
+    "Lopez Tomas"
+   ]
   },
   "r1835": {
    "name": "Andres Privitera",
@@ -7241,7 +8261,9 @@
   },
   "r1837": {
    "name": "Rodrigo Gandará",
-   "aliases": []
+   "aliases": [
+    "Rodrigo Gandara"
+   ]
   },
   "r1838": {
    "name": "Alvaro Valdés",
@@ -7249,7 +8271,9 @@
   },
   "r1839": {
    "name": "Fabian Gonzalez",
-   "aliases": []
+   "aliases": [
+    "Fabian Gonzales"
+   ]
   },
   "r1840": {
    "name": "Leo Navarro",
@@ -7293,7 +8317,9 @@
   },
   "r1850": {
    "name": "Pablo Calabresi",
-   "aliases": []
+   "aliases": [
+    "Pablon Calabresi"
+   ]
   },
   "r1851": {
    "name": "Nacho Castro",
@@ -7313,7 +8339,9 @@
   },
   "r1855": {
    "name": "Rodolfo Letieri",
-   "aliases": []
+   "aliases": [
+    "Rodolfo Lettieri"
+   ]
   },
   "r1856": {
    "name": "Fernando Santamaria",
@@ -7341,11 +8369,16 @@
   },
   "r1862": {
    "name": "Crhistian Viscaya",
-   "aliases": []
+   "aliases": [
+    "Cristian Vizcaya"
+   ]
   },
   "r1863": {
    "name": "Marcos Vasquez",
-   "aliases": []
+   "aliases": [
+    "Marcos Vasques",
+    "Marcos Vazquez"
+   ]
   },
   "r1864": {
    "name": "David Yañez",
@@ -7369,11 +8402,16 @@
   },
   "r1869": {
    "name": "Alejandro Fernandez",
-   "aliases": []
+   "aliases": [
+    "Alejandro Fernandes",
+    "Alejandro Nicolas Fernandez"
+   ]
   },
   "r1870": {
    "name": "Marcelo Pabon",
-   "aliases": []
+   "aliases": [
+    "Marcelo Pavon"
+   ]
   },
   "r1871": {
    "name": "Kennett Avalos",
@@ -7385,11 +8423,18 @@
   },
   "r1873": {
    "name": "Marisa Nunez",
-   "aliases": []
+   "aliases": [
+    "Maria Nunez",
+    "Marisa Nuñez",
+    "Mariza Nuñez"
+   ]
   },
   "r1874": {
    "name": "Chistie Aleixo",
-   "aliases": []
+   "aliases": [
+    "Christie Aleixo",
+    "Christie Alexio"
+   ]
   },
   "r1875": {
    "name": "Elina Pascucci",
@@ -7413,7 +8458,9 @@
   },
   "r1881": {
    "name": "Reine Oliveira",
-   "aliases": []
+   "aliases": [
+    "Reine Olivera"
+   ]
   },
   "r1882": {
    "name": "Daniel Machado",
@@ -7425,7 +8472,9 @@
   },
   "r1884": {
    "name": "Victor Patricio Pons",
-   "aliases": []
+   "aliases": [
+    "Victor Pons"
+   ]
   },
   "r1885": {
    "name": "Fabian Guerra",
@@ -7433,7 +8482,10 @@
   },
   "r1886": {
    "name": "Cristian Bovetti",
-   "aliases": []
+   "aliases": [
+    "Christian Bovetti",
+    "Cristian Boveti"
+   ]
   },
   "r1887": {
    "name": "German Werner",
@@ -7481,17 +8533,24 @@
   },
   "r1898": {
    "name": "Johannes Engstörm",
-   "aliases": []
+   "aliases": [
+    "Johannes Engström"
+   ]
   },
   "r1899": {
    "name": "Mathias Muller-Nilssen",
    "aliases": [
-    "Mathias Müller"
+    "Mathias Müller",
+    "Mathias Müller-Nilsen",
+    "Mathias Müller-Nilssen"
    ]
   },
   "r1900": {
    "name": "Martin Hulth",
-   "aliases": []
+   "aliases": [
+    "Martin Hull",
+    "Martin Hult"
+   ]
   },
   "r1901": {
    "name": "Erik Erlandsson",
@@ -7511,7 +8570,9 @@
   },
   "r1905": {
    "name": "Kristian Hammarsten",
-   "aliases": []
+   "aliases": [
+    "Kristian Hammersten"
+   ]
   },
   "r1906": {
    "name": "Richard Lindgren",
@@ -7575,7 +8636,9 @@
   },
   "r1921": {
    "name": "Anna Richardsson",
-   "aliases": []
+   "aliases": [
+    "Anna Richardson"
+   ]
   },
   "r1922": {
    "name": "Alexander Larsson",
@@ -7607,7 +8670,9 @@
   },
   "r1929": {
    "name": "Eliott Spenner",
-   "aliases": []
+   "aliases": [
+    "Eliot Spenner"
+   ]
   },
   "r1930": {
    "name": "Abbe Hussein",
@@ -7619,7 +8684,9 @@
   },
   "r1932": {
    "name": "Benjamin Tillius",
-   "aliases": []
+   "aliases": [
+    "Benjamin Tiilius"
+   ]
   },
   "r1933": {
    "name": "Jens Zerfass",
@@ -7631,7 +8698,9 @@
   },
   "r1935": {
    "name": "Mathew Krotsch",
-   "aliases": []
+   "aliases": [
+    "Mathew Kroetsch"
+   ]
   },
   "r1936": {
    "name": "Cam Mcqueen",
@@ -7643,7 +8712,9 @@
   },
   "r1938": {
    "name": "Ryan Heffernan",
-   "aliases": []
+   "aliases": [
+    "Ryan Heffernam"
+   ]
   },
   "r1939": {
    "name": "Taylor Riley",
@@ -7651,7 +8722,9 @@
   },
   "r1940": {
    "name": "Marcel Robert",
-   "aliases": []
+   "aliases": [
+    "Marcel Roberts"
+   ]
   },
   "r1941": {
    "name": "Maximilian Gradlmiller",
@@ -7723,7 +8796,9 @@
   },
   "r1958": {
    "name": "Jes Izman",
-   "aliases": []
+   "aliases": [
+    "Jes M Izman"
+   ]
   },
   "r1959": {
    "name": "Nathan Anderson",
@@ -7771,7 +8846,9 @@
   },
   "r1970": {
    "name": "Devin Nowlin",
-   "aliases": []
+   "aliases": [
+    "Devon Nowlin"
+   ]
   },
   "r1971": {
    "name": "Bryan Reich",
@@ -7791,13 +8868,17 @@
   },
   "r1975": {
    "name": "Berg Raoul Van Den",
-   "aliases": []
+   "aliases": [
+    "Berg Raoul Van Der",
+    "Berg Raoul Van den"
+   ]
   },
   "r1976": {
    "name": "Glen Phillips",
    "aliases": [
     "Glen 1:03.100 Phillips",
-    "Glen 2:14.490 Phillips"
+    "Glen 2:14.490 Phillips",
+    "Glen Phillps"
    ]
   },
   "r1977": {
@@ -7830,6 +8911,8 @@
   "r1983": {
    "name": "Nik Jakins",
    "aliases": [
+    "Nic Jakins",
+    "Nick Jakins",
     "Nik 2:27.040 Jakins"
    ]
   },
@@ -7864,7 +8947,9 @@
   },
   "r1990": {
    "name": "Stephan Gant",
-   "aliases": []
+   "aliases": [
+    "Stephen Gant"
+   ]
   },
   "r1991": {
    "name": "Justin Brown",
@@ -7878,11 +8963,17 @@
   },
   "r1993": {
    "name": "Nick Simic",
-   "aliases": []
+   "aliases": [
+    "Nic Simic"
+   ]
   },
   "r1994": {
    "name": "Bergh Eebin Van Den",
-   "aliases": []
+   "aliases": [
+    "Berg Eebin Van Den",
+    "Berg Eebin Van den",
+    "Bergh Eebin Van den"
+   ]
   },
   "r1995": {
    "name": "Robin Moodley",
@@ -7896,11 +8987,15 @@
   },
   "r1997": {
    "name": "Renier Van Staden",
-   "aliases": []
+   "aliases": [
+    "Renier Van Staaden"
+   ]
   },
   "r1998": {
    "name": "Carlos Trancoso",
-   "aliases": []
+   "aliases": [
+    "Carlos Trancosco"
+   ]
   },
   "r1999": {
    "name": "Walt Anel Van Der",
@@ -7916,7 +9011,10 @@
   },
   "r2001": {
    "name": "Gabi Murry-Roberts",
-   "aliases": []
+   "aliases": [
+    "Gabi Murray-Roberts",
+    "Gabi Murrey-Roberts"
+   ]
   },
   "r2002": {
    "name": "Megan Forbes",
@@ -7927,7 +9025,9 @@
   "r2008": {
    "name": "Russell Naude",
    "aliases": [
-    "Russell 1:03.060 Naude"
+    "Russel Naude",
+    "Russell 1:03.060 Naude",
+    "Russell Naudé"
    ]
   },
   "r2010": {
@@ -7990,7 +9090,11 @@
   },
   "r2035": {
    "name": "William Royce",
-   "aliases": []
+   "aliases": [
+    "Willaim Royce",
+    "Willam Royce",
+    "Willian Royce"
+   ]
   },
   "r2036": {
    "name": "Blake Smith",
@@ -8030,7 +9134,9 @@
   },
   "r2045": {
    "name": "Brandon Desjarlais",
-   "aliases": []
+   "aliases": [
+    "Brandon DesJarlais"
+   ]
   },
   "r2046": {
    "name": "Dave Price",
@@ -8058,7 +9164,9 @@
   },
   "r2052": {
    "name": "Malachi Greene",
-   "aliases": []
+   "aliases": [
+    "Malachi Green"
+   ]
   },
   "r2053": {
    "name": "Eric Singer",
@@ -8094,7 +9202,9 @@
   },
   "r2061": {
    "name": "Aidian O'Leyne",
-   "aliases": []
+   "aliases": [
+    "Aidan Oleyne"
+   ]
   },
   "r2062": {
    "name": "Ricky Mills",
@@ -8266,7 +9376,9 @@
   },
   "r2104": {
    "name": "Kelian Duplain",
-   "aliases": []
+   "aliases": [
+    "Kélian Duplain"
+   ]
   },
   "r2105": {
    "name": "Daniel Caro",
@@ -8278,7 +9390,11 @@
   },
   "r2107": {
    "name": "Ishtar Backlund",
-   "aliases": []
+   "aliases": [
+    "Ishtar Bäcklund",
+    "Ishtas Backlund",
+    "Ishtas Swe Backlund"
+   ]
   },
   "r2108": {
    "name": "Greg Zurfluh",
@@ -8386,23 +9502,35 @@
   },
   "r2134": {
    "name": "Matt Arderne",
-   "aliases": []
+   "aliases": [
+    "Matt Aderne"
+   ]
   },
   "r2135": {
    "name": "Tamara Prader",
-   "aliases": []
+   "aliases": [
+    "Tamra Prader"
+   ]
   },
   "r2136": {
    "name": "Pascal Weber",
-   "aliases": []
+   "aliases": [
+    "Pascal Beber"
+   ]
   },
   "r2137": {
    "name": "Oriol Galvez",
-   "aliases": []
+   "aliases": [
+    "Oriol Gàlvez"
+   ]
   },
   "r2138": {
    "name": "Raoul Clavadetscher",
-   "aliases": []
+   "aliases": [
+    "Raoul Clavadestscher",
+    "Raul Claradetscher",
+    "Raul Clavadetscher"
+   ]
   },
   "r2139": {
    "name": "Matthias Bieneck",
@@ -8454,7 +9582,10 @@
   },
   "r2151": {
    "name": "Philipp Schickor",
-   "aliases": []
+   "aliases": [
+    "Philip Schickor",
+    "Phillip Schickor"
+   ]
   },
   "r2152": {
    "name": "Dominik JXušek",
@@ -8463,7 +9594,10 @@
   "r2153": {
    "name": "Mikel Echegaray Diez",
    "aliases": [
-    "Mikel Echegaray"
+    "Diez Mikel Echegaray",
+    "Mikel Echegaray",
+    "Mikel Echegaray-DIez",
+    "Mikel Echegaray-Diez"
    ]
   },
   "r2154": {
@@ -8480,7 +9614,9 @@
   },
   "r2157": {
    "name": "Dominik Janoušek",
-   "aliases": []
+   "aliases": [
+    "Dominik Janousek"
+   ]
   },
   "r2158": {
    "name": "Flebu Trygve",
@@ -8492,7 +9628,9 @@
   },
   "r2160": {
    "name": "Alvaro Bajo",
-   "aliases": []
+   "aliases": [
+    "Bajo Alvaro"
+   ]
   },
   "r2161": {
    "name": "Fabian Laute",
@@ -8504,7 +9642,9 @@
   },
   "r2163": {
    "name": "Rey Pablo Fouz",
-   "aliases": []
+   "aliases": [
+    "Pablo Fouz Rey"
+   ]
   },
   "r2164": {
    "name": "Lutz Wagenhauser",
@@ -8516,7 +9656,9 @@
   },
   "r2166": {
    "name": "Lehtinen Janne",
-   "aliases": []
+   "aliases": [
+    "Janne Lehtinen"
+   ]
   },
   "r2167": {
    "name": "Jan Ove Lassen",
@@ -8525,7 +9667,9 @@
   "r2168": {
    "name": "Molina Javier",
    "aliases": [
-    "Molina Javier 2:01.478 Serrano"
+    "Javier Serrano Molina",
+    "Molina Javier 2:01.478 Serrano",
+    "Molina Javier Serrano"
    ]
   },
   "r2169": {
@@ -8538,11 +9682,16 @@
   },
   "r2171": {
    "name": "Marek Vanourek",
-   "aliases": []
+   "aliases": [
+    "Marek Vaňourek"
+   ]
   },
   "r2172": {
    "name": "Oscar Froelund",
-   "aliases": []
+   "aliases": [
+    "Oscar Frölund",
+    "Oscar Frølund"
+   ]
   },
   "r2173": {
    "name": "Alexander Willhöft",
@@ -8554,7 +9703,9 @@
   },
   "r2176": {
    "name": "Alexander Tobrand",
-   "aliases": []
+   "aliases": [
+    "Alexander Tobrant"
+   ]
   },
   "r2177": {
    "name": "Anssi Mattila",
@@ -8614,11 +9765,15 @@
   },
   "r2191": {
    "name": "George Cheeseman",
-   "aliases": []
+   "aliases": [
+    "Georges Cheeseman"
+   ]
   },
   "r2192": {
    "name": "rodriguez Charlio Yagues",
-   "aliases": []
+   "aliases": [
+    "Rodriguez Charlio Yagues"
+   ]
   },
   "r2193": {
    "name": "Axel Serrat",
@@ -8626,7 +9781,9 @@
   },
   "r2194": {
    "name": "Moura Leandro Pais de",
-   "aliases": []
+   "aliases": [
+    "moura Leandro Pais de"
+   ]
   },
   "r2195": {
    "name": "Samy Cantieni",
@@ -8710,7 +9867,10 @@
   },
   "r2215": {
    "name": "Davide Gabriele Longhin",
-   "aliases": []
+   "aliases": [
+    "Davide Longhin",
+    "Davide Longin"
+   ]
   },
   "r2216": {
    "name": "Bride Chris Mc",
@@ -8758,7 +9918,9 @@
   },
   "r2228": {
    "name": "Kyle Lahie",
-   "aliases": []
+   "aliases": [
+    "Kyle Lahaie"
+   ]
   },
   "r2229": {
    "name": "Ryan Sheridan",
@@ -8818,11 +9980,15 @@
   },
   "r2243": {
    "name": "Francesco De Chellis",
-   "aliases": []
+   "aliases": [
+    "Francesco de Chellis"
+   ]
   },
   "r2244": {
    "name": "Lorne Scanlon",
-   "aliases": []
+   "aliases": [
+    "Lorne Scanlan"
+   ]
   },
   "r2245": {
    "name": "Trevor Jones",
@@ -8886,7 +10052,9 @@
   },
   "r2260": {
    "name": "Blix Eyvind Bache",
-   "aliases": []
+   "aliases": [
+    "Bache Blix Eyvind"
+   ]
   },
   "r2261": {
    "name": "Henning gæær Kristiansen",
@@ -8946,7 +10114,9 @@
   },
   "r2276": {
    "name": "Kyle Wester",
-   "aliases": []
+   "aliases": [
+    "Kyle Westers"
+   ]
   },
   "r2277": {
    "name": "Zac Sharp",
@@ -9001,8 +10171,10 @@
    "aliases": []
   },
   "r2290": {
-   "name": "Peter W Morin",
-   "aliases": []
+   "name": "Peter Morin",
+   "aliases": [
+    "Peter W Morin"
+   ]
   },
   "r2291": {
    "name": "Justin Huiner",
@@ -9014,7 +10186,9 @@
   },
   "r2293": {
    "name": "Elijah Vinograd",
-   "aliases": []
+   "aliases": [
+    "Elija Vinograd"
+   ]
   },
   "r2294": {
    "name": "Gunnar Morin",
@@ -9022,7 +10196,9 @@
   },
   "r2295": {
    "name": "Sean Chantarachara",
-   "aliases": []
+   "aliases": [
+    "Sean Chantaracharat"
+   ]
   },
   "r2296": {
    "name": "Anthony Lang",
@@ -9050,7 +10226,9 @@
   },
   "r2303": {
    "name": "Mauricio Rodriguez",
-   "aliases": []
+   "aliases": [
+    "Mauricio Rodriguesz"
+   ]
   },
   "r2304": {
    "name": "Camilo Cespedes",
@@ -9058,7 +10236,9 @@
   },
   "r2306": {
    "name": "Juan Camilo Trujillo Botero",
-   "aliases": []
+   "aliases": [
+    "Juan Botero"
+   ]
   },
   "r2307": {
    "name": "Sergio Castro",
@@ -9082,7 +10262,9 @@
   },
   "r2312": {
    "name": "Juan Gonzalez",
-   "aliases": []
+   "aliases": [
+    "Juan Gonzales"
+   ]
   },
   "r2313": {
    "name": "Manuel Rivera",
@@ -9090,7 +10272,9 @@
   },
   "r2315": {
    "name": "Andres Felipe Lopez Marin",
-   "aliases": []
+   "aliases": [
+    "Andres Marin"
+   ]
   },
   "r2316": {
    "name": "Omar Perez",
@@ -9114,11 +10298,15 @@
   },
   "r2321": {
    "name": "Teo Mejia",
-   "aliases": []
+   "aliases": [
+    "Teo Meji"
+   ]
   },
   "r2322": {
    "name": "Falke Nehren",
-   "aliases": []
+   "aliases": [
+    "Falke-Andreas Nehren"
+   ]
   },
   "r2323": {
    "name": "Ricardo Foliaco",
@@ -9142,11 +10330,15 @@
   },
   "r2328": {
    "name": "Jenny Patiño",
-   "aliases": []
+   "aliases": [
+    "Jenny Patino"
+   ]
   },
   "r2329": {
    "name": "Julio Castro",
-   "aliases": []
+   "aliases": [
+    "Julio Cesar Canchon Castro"
+   ]
   },
   "r2330": {
    "name": "Alex Giusti",
@@ -9170,7 +10362,9 @@
   },
   "r2335": {
    "name": "Marcos Filho",
-   "aliases": []
+   "aliases": [
+    "Marco Filho"
+   ]
   },
   "r2336": {
    "name": "Javier Pulido",
@@ -9186,7 +10380,9 @@
   },
   "r2339": {
    "name": "Robert McWhinnie",
-   "aliases": []
+   "aliases": [
+    "Robert Mcwhinnie"
+   ]
   },
   "r2340": {
    "name": "Diego Guerra",
@@ -9195,14 +10391,18 @@
   "r2343": {
    "name": "Christian Montoya",
    "aliases": [
-    "Christian Montoya",
+    "Chistian Montoya",
+    "Christian Montoya-pradel",
     "Christian Pradel",
+    "Cristian Montoya",
     "Pradel Christian Montoya"
    ]
   },
   "r2344": {
    "name": "Alonso Riviera",
-   "aliases": []
+   "aliases": [
+    "Alonso Rivera"
+   ]
   },
   "r2345": {
    "name": "Cesar Mendoz",
@@ -9210,11 +10410,16 @@
   },
   "r2346": {
    "name": "Jonathan Villegas",
-   "aliases": []
+   "aliases": [
+    "Johnathan Villegas",
+    "Jonatthan Villegas"
+   ]
   },
   "r2347": {
    "name": "Victor Larco",
-   "aliases": []
+   "aliases": [
+    "Victor Federico Larco"
+   ]
   },
   "r2348": {
    "name": "Kenneth Falcon",
@@ -9238,7 +10443,9 @@
   },
   "r2354": {
    "name": "Andres Ricardo Canales",
-   "aliases": []
+   "aliases": [
+    "Andres Canales"
+   ]
   },
   "r2355": {
    "name": "Enrico Perea",
@@ -9255,7 +10462,8 @@
   "r2358": {
    "name": "Marco Arroyo Torres",
    "aliases": [
-    "Marco Arroyo"
+    "Marco Arroyo",
+    "Marco Torres"
    ]
   },
   "r2359": {
@@ -9304,7 +10512,9 @@
   },
   "r2370": {
    "name": "Magaly Mcwhinnie",
-   "aliases": []
+   "aliases": [
+    "Magaly McWhinnie"
+   ]
   },
   "r2371": {
    "name": "Rafaela Malaga",
@@ -9324,11 +10534,15 @@
   },
   "r2376": {
    "name": "Caio Cezar",
-   "aliases": []
+   "aliases": [
+    "Caio Cesar"
+   ]
   },
   "r2378": {
-   "name": "Alexandre De Castro",
-   "aliases": []
+   "name": "Alexandre Castro",
+   "aliases": [
+    "Alexandre De Castro"
+   ]
   },
   "r2379": {
    "name": "Bernardo Paixão",
@@ -9340,7 +10554,9 @@
   },
   "r2381": {
    "name": "Marcos Paiva",
-   "aliases": []
+   "aliases": [
+    "Marcos Diniz Paiva"
+   ]
   },
   "r2382": {
    "name": "Fabian Arellano",
@@ -9464,11 +10680,16 @@
   },
   "r2412": {
    "name": "Murry Chandler",
-   "aliases": []
+   "aliases": [
+    "Chandler Murray",
+    "Murray Chandler"
+   ]
   },
   "r2413": {
    "name": "Craig Mckune",
-   "aliases": []
+   "aliases": [
+    "Craig McCune"
+   ]
   },
   "r2414": {
    "name": "Richard Gibello",
@@ -9481,12 +10702,16 @@
   "r2416": {
    "name": "Trout Reece Pyro",
    "aliases": [
+    "Reece Pyro-Trout",
     "Reece Trout"
    ]
   },
   "r2417": {
    "name": "Kent Lingeveldt",
-   "aliases": []
+   "aliases": [
+    "Kent Lingeveld",
+    "Kent Lingevelt"
+   ]
   },
   "r2418": {
    "name": "Jean Pierre",
@@ -9494,11 +10719,15 @@
   },
   "r2419": {
    "name": "Leif Marks",
-   "aliases": []
+   "aliases": [
+    "Lief Marks"
+   ]
   },
   "r2420": {
    "name": "Merwe Deon Van de",
-   "aliases": []
+   "aliases": [
+    "Merwe Deon Van Der"
+   ]
   },
   "r2421": {
    "name": "Jaque Van Jaarsveld",
@@ -9506,7 +10735,9 @@
   },
   "r2422": {
    "name": "Cherri Morris",
-   "aliases": []
+   "aliases": [
+    "Cherri Morris Morris"
+   ]
   },
   "r2423": {
    "name": "Anni Lindenmaier",
@@ -9518,7 +10749,12 @@
   },
   "r2425": {
    "name": "Adam Lincoln-Lewis",
-   "aliases": []
+   "aliases": [
+    "Adam Lincoln-lewis"
+   ],
+   "not": [
+    "Adam Lewis"
+   ]
   },
   "r2426": {
    "name": "Daniel Stuck",
@@ -9534,11 +10770,17 @@
   },
   "r2429": {
    "name": "Matthew Macdonald",
-   "aliases": []
+   "aliases": [
+    "Mathew Macdonald",
+    "Mathew McDonald",
+    "Matthew MacDonald"
+   ]
   },
   "r2430": {
    "name": "Micheal McIver",
-   "aliases": []
+   "aliases": [
+    "Michael McIver"
+   ]
   },
   "r2431": {
    "name": "James Koen",
@@ -9571,7 +10813,9 @@
   "r2438": {
    "name": "Kevin Scott Toledo Guevara",
    "aliases": [
-    "Kevin Toledo"
+    "Kevin Guevara",
+    "Kevin Toledo",
+    "Kevin Toledo Guevara"
    ]
   },
   "r2439": {
@@ -9580,7 +10824,9 @@
   },
   "r2440": {
    "name": "Jose Carlos Manchego",
-   "aliases": []
+   "aliases": [
+    "Jose Manchego"
+   ]
   },
   "r2442": {
    "name": "Ignacio Ugarteche",
@@ -9624,7 +10870,9 @@
   },
   "r2454": {
    "name": "Francisco del Cuadr",
-   "aliases": []
+   "aliases": [
+    "Francisco Del Cuadro"
+   ]
   },
   "r2455": {
    "name": "Felipe Acson",
@@ -9712,7 +10960,9 @@
   },
   "r2476": {
    "name": "Matt Crevald",
-   "aliases": []
+   "aliases": [
+    "Matt Crevale"
+   ]
   },
   "r2477": {
    "name": "Charl Atkinson",
@@ -9721,7 +10971,8 @@
   "r2478": {
    "name": "Atilla Hery",
    "aliases": [
-    "Attila Hery"
+    "Attila Hery",
+    "Attilla Hery"
    ]
   },
   "r2479": {
@@ -9746,11 +10997,15 @@
   },
   "r2484": {
    "name": "Nick Coetzee",
-   "aliases": []
+   "aliases": [
+    "Nick Coetze"
+   ]
   },
   "r2485": {
    "name": "Rudi Wilcocks",
-   "aliases": []
+   "aliases": [
+    "Rudi Willcocks"
+   ]
   },
   "r2486": {
    "name": "Stii Pretorius",
@@ -9762,7 +11017,9 @@
   },
   "r2488": {
    "name": "Miles Kenmuir",
-   "aliases": []
+   "aliases": [
+    "Myles Kenmuir"
+   ]
   },
   "r2489": {
    "name": "Ryan Morris",
@@ -9774,7 +11031,9 @@
   },
   "r2491": {
    "name": "Hadrien Remondi",
-   "aliases": []
+   "aliases": [
+    "Hardien Remond"
+   ]
   },
   "r2492": {
    "name": "Greg Vardy",
@@ -9842,7 +11101,9 @@
   },
   "r2508": {
    "name": "Oliver Fellay",
-   "aliases": []
+   "aliases": [
+    "Oliver Fillay"
+   ]
   },
   "r2509": {
    "name": "Monyene Hlapalosa",
@@ -9886,7 +11147,9 @@
   },
   "r2520": {
    "name": "Carcelen Kevin",
-   "aliases": []
+   "aliases": [
+    "Kevin Carcelen"
+   ]
   },
   "r2521": {
    "name": "Pablo Caceres",
@@ -9902,7 +11165,9 @@
   },
   "r2524": {
    "name": "Juan Pablo Villegas",
-   "aliases": []
+   "aliases": [
+    "Juan Villegas"
+   ]
   },
   "r2525": {
    "name": "Julio Canchon",
@@ -9930,7 +11195,9 @@
   },
   "r2531": {
    "name": "Alejandro Velasquez",
-   "aliases": []
+   "aliases": [
+    "Alejandro Fresneda Velasquez"
+   ]
   },
   "r2532": {
    "name": "Julian Trujillo",
@@ -9982,11 +11249,16 @@
   },
   "r2545": {
    "name": "Decio Lourenco",
-   "aliases": []
+   "aliases": [
+    "Dec'io Lourenc'o",
+    "Dec'io Lourenco"
+   ]
   },
   "r2546": {
    "name": "Ross Druckery",
-   "aliases": []
+   "aliases": [
+    "Ross Druckrey"
+   ]
   },
   "r2547": {
    "name": "Tyrone Challis",
@@ -10034,7 +11306,9 @@
   },
   "r2559": {
    "name": "Mario Wernado",
-   "aliases": []
+   "aliases": [
+    "Wernado Friend Mario"
+   ]
   },
   "r2560": {
    "name": "Stefan Snyman",
@@ -10050,10 +11324,6 @@
   },
   "r2563": {
    "name": "Micheal Twana",
-   "aliases": []
-  },
-  "r2564": {
-   "name": "Micheal Hardham",
    "aliases": []
   },
   "r2565": {
@@ -10190,7 +11460,9 @@
   },
   "r2598": {
    "name": "Etham Denton",
-   "aliases": []
+   "aliases": [
+    "Ethan Denton"
+   ]
   },
   "r2599": {
    "name": "David Hanan",
@@ -10198,7 +11470,9 @@
   },
   "r2600": {
    "name": "Tyler Greg",
-   "aliases": []
+   "aliases": [
+    "Tyler Gregg"
+   ]
   },
   "r2601": {
    "name": "Andrew Dunaenko",
@@ -10350,7 +11624,9 @@
   },
   "r2638": {
    "name": "Levi Green",
-   "aliases": []
+   "aliases": [
+    "Levi Greene"
+   ]
   },
   "r2639": {
    "name": "Kelsey Skrobotz",
@@ -10407,8 +11683,10 @@
    "aliases": []
   },
   "r2653": {
-   "name": "Luiz Catani",
-   "aliases": []
+   "name": "Luis Vinicius Cattani",
+   "aliases": [
+    "Luiz Catani"
+   ]
   },
   "r2654": {
    "name": "Valmir Freitas",
@@ -10424,27 +11702,35 @@
   },
   "r2657": {
    "name": "Everton Festugatto",
-   "aliases": []
+   "aliases": [
+    "Everton Festugato"
+   ]
   },
   "r2658": {
    "name": "Jorge Galasso",
-   "aliases": []
+   "aliases": [
+    "Jorge Ariel Galasso"
+   ]
   },
   "r2659": {
    "name": "Luis Laber",
    "aliases": []
   },
   "r2660": {
-   "name": "Filipe Macedo",
-   "aliases": []
+   "name": "Felipe Macedo",
+   "aliases": [
+    "Filipe Macedo"
+   ]
   },
   "r2661": {
    "name": "Robson Cicarelli",
    "aliases": []
   },
   "r2662": {
-   "name": "Allan Haves",
-   "aliases": []
+   "name": "Allan Chaves",
+   "aliases": [
+    "Allan Haves"
+   ]
   },
   "r2663": {
    "name": "Bernardo Isolante",
@@ -10467,8 +11753,10 @@
    "aliases": []
   },
   "r2668": {
-   "name": "João Victor Marchi",
-   "aliases": []
+   "name": "João Vitor Marchi",
+   "aliases": [
+    "João Victor Marchi"
+   ]
   },
   "r2669": {
    "name": "Cristiano Barreto",
@@ -10484,7 +11772,9 @@
   },
   "r2672": {
    "name": "Ricardo Sierra",
-   "aliases": []
+   "aliases": [
+    "Ricardo Campanha Sierra"
+   ]
   },
   "r2673": {
    "name": "Silva Boneberger",
@@ -10512,7 +11802,9 @@
   },
   "r2679": {
    "name": "João Bier",
-   "aliases": []
+   "aliases": [
+    "Joao Bier"
+   ]
   },
   "r2680": {
    "name": "Eduardo Prestes",
@@ -10532,7 +11824,9 @@
   },
   "r2684": {
    "name": "Bianca Fior",
-   "aliases": []
+   "aliases": [
+    "Bianca Flor"
+   ]
   },
   "r2685": {
    "name": "Raíza Sartori",
@@ -10556,7 +11850,9 @@
   },
   "r2690": {
    "name": "Bruno Vidal Vieira",
-   "aliases": []
+   "aliases": [
+    "Bruno Vieira"
+   ]
   },
   "r2691": {
    "name": "Deryck Szymczak",
@@ -10568,11 +11864,15 @@
   },
   "r2694": {
    "name": "Yan Bertinati",
-   "aliases": []
+   "aliases": [
+    "Bertinati Yan"
+   ]
   },
   "r2696": {
    "name": "Leonardo Barros",
-   "aliases": []
+   "aliases": [
+    "Leonardo Vasconcelos Martinho De Barros"
+   ]
   },
   "r2697": {
    "name": "Jorge Andrei",
@@ -10588,7 +11888,9 @@
   },
   "r2700": {
    "name": "Luiz Peruch",
-   "aliases": []
+   "aliases": [
+    "Luiz Guilherme Peruch"
+   ]
   },
   "r2701": {
    "name": "Leonardo Laky",
@@ -10604,7 +11906,9 @@
   },
   "r2706": {
    "name": "William Silva",
-   "aliases": []
+   "aliases": [
+    "William da Silva"
+   ]
   },
   "r2707": {
    "name": "Leonardo Oliveira",
@@ -10684,7 +11988,9 @@
   },
   "r2727": {
    "name": "Flavian Vidal",
-   "aliases": []
+   "aliases": [
+    "Flavien Vidal"
+   ]
   },
   "r2728": {
    "name": "Trevor Wilder",
@@ -10692,7 +11998,9 @@
   },
   "r2729": {
    "name": "Stephan Vaast",
-   "aliases": []
+   "aliases": [
+    "Stephen Vaast"
+   ]
   },
   "r2730": {
    "name": "Mike Paproski",
@@ -10720,7 +12028,9 @@
   },
   "r2736": {
    "name": "Christophe Gagne",
-   "aliases": []
+   "aliases": [
+    "Christophe Gagné"
+   ]
   },
   "r2737": {
    "name": "Cindy Zhou",
@@ -10812,7 +12122,9 @@
   },
   "r2759": {
    "name": "Tim Koch",
-   "aliases": []
+   "aliases": [
+    "Tim Kock"
+   ]
   },
   "r2760": {
    "name": "Olivier Filiatrault",
@@ -10832,11 +12144,16 @@
   },
   "r2764": {
    "name": "Bernardo Brambila",
-   "aliases": []
+   "aliases": [
+    "Bernardo Brambilia",
+    "Bernardo Brambilla"
+   ]
   },
   "r2765": {
    "name": "Arion Netto",
-   "aliases": []
+   "aliases": [
+    "Arion Neto"
+   ]
   },
   "r2766": {
    "name": "Sergio Cordeiro",
@@ -10856,7 +12173,9 @@
   },
   "r2770": {
    "name": "Pedro Frangulis",
-   "aliases": []
+   "aliases": [
+    "Pedro Puccetti-Frangulis"
+   ]
   },
   "r2771": {
    "name": "Gabriel Carillho",
@@ -10884,7 +12203,9 @@
   },
   "r2778": {
    "name": "Pedro Barboza",
-   "aliases": []
+   "aliases": [
+    "Pedro Virginio Barbosa"
+   ]
   },
   "r2779": {
    "name": "Marcus Lara",
@@ -10892,7 +12213,9 @@
   },
   "r2780": {
    "name": "Erivelton Borges",
-   "aliases": []
+   "aliases": [
+    "Erivelto Borges"
+   ]
   },
   "r2781": {
    "name": "Jonathas Hortense",
@@ -10988,7 +12311,9 @@
   },
   "r2806": {
    "name": "Santiago Espeche",
-   "aliases": []
+   "aliases": [
+    "Espeche Santiago"
+   ]
   },
   "r2807": {
    "name": "Jorge Pinheiro",
@@ -11012,7 +12337,9 @@
   },
   "r2812": {
    "name": "Joaquin Barrios",
-   "aliases": []
+   "aliases": [
+    "Joaquim Barrios"
+   ]
   },
   "r2813": {
    "name": "Rodolfo Saldanha",
@@ -11036,7 +12363,9 @@
   },
   "r2819": {
    "name": "A.J. Haiby",
-   "aliases": []
+   "aliases": [
+    "AJ Haiby"
+   ]
   },
   "r2820": {
    "name": "Zarosh Eggleston",
@@ -11048,7 +12377,10 @@
   },
   "r2822": {
    "name": "Matt Kienzle",
-   "aliases": []
+   "aliases": [
+    "Matt CAN/USA Kienzle",
+    "Matt USA/CAN Kienzle"
+   ]
   },
   "r2823": {
    "name": "Dejan Djukic",
@@ -11192,7 +12524,9 @@
   },
   "r2859": {
    "name": "Juan diego Millones",
-   "aliases": []
+   "aliases": [
+    "Juan Diego Millones"
+   ]
   },
   "r2860": {
    "name": "Charlie Harris",
@@ -11292,7 +12626,9 @@
   },
   "r2884": {
    "name": "Humberto de Melo",
-   "aliases": []
+   "aliases": [
+    "Humberto De Melo"
+   ]
   },
   "r2885": {
    "name": "Ian Coggan",
@@ -11456,7 +12792,10 @@
   },
   "r2925": {
    "name": "Pearse D'Arcy",
-   "aliases": []
+   "aliases": [
+    "Pearse D'arcy",
+    "Pearse D’Arcy"
+   ]
   },
   "r2926": {
    "name": "Roberto Marasca",
@@ -11480,10 +12819,6 @@
   },
   "r2931": {
    "name": "Tony Moate",
-   "aliases": []
-  },
-  "r2932": {
-   "name": "Fleetwood Mark `",
    "aliases": []
   },
   "r2933": {
@@ -11524,7 +12859,9 @@
   },
   "r2942": {
    "name": "Brian Belcher",
-   "aliases": []
+   "aliases": [
+    "Brian Beicher"
+   ]
   },
   "r2943": {
    "name": "Brad Cameron",
@@ -11603,8 +12940,11 @@
    "aliases": []
   },
   "r2962": {
-   "name": "Kevin LeFrank",
-   "aliases": []
+   "name": "Kevin Lefrank",
+   "aliases": [
+    "Kevin Can Lefrank",
+    "Kevin LeFrank"
+   ]
   },
   "r2963": {
    "name": "William Deming",
@@ -11612,7 +12952,9 @@
   },
   "r2964": {
    "name": "Steven Sanchez",
-   "aliases": []
+   "aliases": [
+    "Steveen Sanchez"
+   ]
   },
   "r2965": {
    "name": "Shaquiel James",
@@ -11724,11 +13066,15 @@
   },
   "r2993": {
    "name": "Nayhomi Cruz Ramos",
-   "aliases": []
+   "aliases": [
+    "Ramos Nayhomi Cruz"
+   ]
   },
   "r2994": {
    "name": "Monica Restrepo",
-   "aliases": []
+   "aliases": [
+    "Monika Restrepo"
+   ]
   },
   "r2995": {
    "name": "Cami Best",
@@ -11742,17 +13088,15 @@
    "name": "Jerome Ouellet",
    "aliases": []
   },
-  "r2999": {
-   "name": "Juan Moliana",
-   "aliases": []
-  },
   "r3000": {
    "name": "Kyle Kay",
    "aliases": []
   },
   "r3001": {
    "name": "Julian Rodriguez",
-   "aliases": []
+   "aliases": [
+    "Julian F. Rodriguez"
+   ]
   },
   "r3002": {
    "name": "Niyan Anglero",
@@ -11836,7 +13180,9 @@
   },
   "r3022": {
    "name": "Francis Cote-Tremblay",
-   "aliases": []
+   "aliases": [
+    "Francis Côté-Tremblay"
+   ]
   },
   "r3023": {
    "name": "Alexis Labrecque",
@@ -11864,7 +13210,9 @@
   },
   "r3029": {
    "name": "Ben Desnyder",
-   "aliases": []
+   "aliases": [
+    "Ben DeSnyder"
+   ]
   },
   "r3030": {
    "name": "Scott Imbrie",
@@ -11920,7 +13268,9 @@
   },
   "r3043": {
    "name": "Kais Salam",
-   "aliases": []
+   "aliases": [
+    "Kai Salam"
+   ]
   },
   "r3044": {
    "name": "St-Jean Michael Labreche",
@@ -11988,7 +13338,9 @@
   },
   "r3060": {
    "name": "Key Dougherty",
-   "aliases": []
+   "aliases": [
+    "Key Clyde Dougherty"
+   ]
   },
   "r3061": {
    "name": "Alexandre DeCastro",
@@ -12040,7 +13392,9 @@
   },
   "r3074": {
    "name": "Lonnie Leonelli",
-   "aliases": []
+   "aliases": [
+    "Leonelli Lonnie"
+   ]
   },
   "r3075": {
    "name": "Doug Tolman",
@@ -12064,7 +13418,9 @@
   },
   "r3080": {
    "name": "Yun wook Jung",
-   "aliases": []
+   "aliases": [
+    "Yun Wook Jung"
+   ]
   },
   "r3081": {
    "name": "Luis Marrero",
@@ -12076,7 +13432,9 @@
   },
   "r3083": {
    "name": "Edward Aviña",
-   "aliases": []
+   "aliases": [
+    "Edward Avina"
+   ]
   },
   "r3084": {
    "name": "Andrew Barnes",
@@ -12160,7 +13518,9 @@
   },
   "r3104": {
    "name": "Fernando Bailleres",
-   "aliases": []
+   "aliases": [
+    "Fernando Balleres"
+   ]
   },
   "r3105": {
    "name": "Cameron Lawrence",
@@ -12200,7 +13560,9 @@
   },
   "r3114": {
    "name": "Estuardo-Tato Bustamante",
-   "aliases": []
+   "aliases": [
+    "Estuardo Bustamante"
+   ]
   },
   "r3115": {
    "name": "Ayumi Oride",
@@ -12322,10 +13684,6 @@
    "name": "Ivan Uriel Hernandez",
    "aliases": []
   },
-  "r3146": {
-   "name": "Carlos Enrique Figueroa",
-   "aliases": []
-  },
   "r3147": {
    "name": "Luca Lessing",
    "aliases": []
@@ -12344,7 +13702,10 @@
   },
   "r3151": {
    "name": "López David Sánchez",
-   "aliases": []
+   "aliases": [
+    "Lopez David Sanchez",
+    "López David Sanchez"
+   ]
   },
   "r3152": {
    "name": "Chommy Seastien",
@@ -12352,11 +13713,15 @@
   },
   "r3153": {
    "name": "Martin Dominik Kratochvíl",
-   "aliases": []
+   "aliases": [
+    "Martin Dominik Kratochvil"
+   ]
   },
   "r3154": {
    "name": "Jakub Los",
-   "aliases": []
+   "aliases": [
+    "Jakob Los"
+   ]
   },
   "r3155": {
    "name": "Leonel Maidana",
@@ -12364,7 +13729,9 @@
   },
   "r3156": {
    "name": "Adam Arenda",
-   "aliases": []
+   "aliases": [
+    "Adam Arendai"
+   ]
   },
   "r3157": {
    "name": "Finn Longwitz",
@@ -12384,7 +13751,9 @@
   },
   "r3161": {
    "name": "Roland Trachsel",
-   "aliases": []
+   "aliases": [
+    "Trachsel Roland"
+   ]
   },
   "r3162": {
    "name": "Fabian Dietz",
@@ -12392,11 +13761,15 @@
   },
   "r3163": {
    "name": "Locutura Marco Pujante",
-   "aliases": []
+   "aliases": [
+    "Locutura Marc Pujante"
+   ]
   },
   "r3164": {
    "name": "Sánchez Sonso Masiá",
-   "aliases": []
+   "aliases": [
+    "Sanchez Sonso Masia"
+   ]
   },
   "r3165": {
    "name": "Thomas Kreie",
@@ -12420,7 +13793,9 @@
   },
   "r3170": {
    "name": "Dominik Pesta",
-   "aliases": []
+   "aliases": [
+    "Dominik Pešta"
+   ]
   },
   "r3171": {
    "name": "Marek Grucka",
@@ -12428,10 +13803,6 @@
   },
   "r3172": {
    "name": "Tomasz Grucka",
-   "aliases": []
-  },
-  "r3173": {
-   "name": "Brinkmann Henric",
    "aliases": []
   },
   "r3174": {
@@ -12460,12 +13831,16 @@
   },
   "r3180": {
    "name": "Calicio Oriol Galvez",
-   "aliases": []
+   "aliases": [
+    "Calico Oriol Galvez"
+   ]
   },
   "r3181": {
    "name": "Nicola Nührig",
    "aliases": [
-    "Nicola Nøehrig"
+    "Nicola Nuhrig",
+    "Nicola Nøehrig",
+    "Nicola Nüehrig"
    ]
   },
   "r3182": {
@@ -12534,7 +13909,9 @@
   },
   "r3198": {
    "name": "Alessio Damato",
-   "aliases": []
+   "aliases": [
+    "Alessio D'Amato"
+   ]
   },
   "r3199": {
    "name": "Gianmarco Cai",
@@ -12570,7 +13947,9 @@
   },
   "r3207": {
    "name": "Riccardo Aldinucci",
-   "aliases": []
+   "aliases": [
+    "Riccardo Aldiniucci"
+   ]
   },
   "r3208": {
    "name": "Gabriele Maggiorelli",
@@ -12578,7 +13957,9 @@
   },
   "r3209": {
    "name": "Cécile Martigne",
-   "aliases": []
+   "aliases": [
+    "Cecile Martigne"
+   ]
   },
   "r3210": {
    "name": "Lara Barbero",
@@ -12606,7 +13987,9 @@
   },
   "r3217": {
    "name": "Zomeno Ruben Costa",
-   "aliases": []
+   "aliases": [
+    "Zomeo Ruben Costa"
+   ]
   },
   "r3218": {
    "name": "Stefan Risch",
@@ -12666,7 +14049,9 @@
   },
   "r3232": {
    "name": "Fernando Pecyner",
-   "aliases": []
+   "aliases": [
+    "Fernando Martin Pecyner"
+   ]
   },
   "r3233": {
    "name": "Ramirez Eduardo Basabe",
@@ -12706,7 +14091,9 @@
   },
   "r3242": {
    "name": "Cristian Cottali",
-   "aliases": []
+   "aliases": [
+    "Christian Cottali"
+   ]
   },
   "r3243": {
    "name": "Romain Bessiere",
@@ -12882,7 +14269,9 @@
   },
   "r3286": {
    "name": "Leonardo Macchi",
-   "aliases": []
+   "aliases": [
+    "Leonardo MacChi"
+   ]
   },
   "r3288": {
    "name": "Rafael Fonseca",
@@ -12922,7 +14311,9 @@
   },
   "r3299": {
    "name": "Manuel Pintos",
-   "aliases": []
+   "aliases": [
+    "Manuel Ignacio Pintos"
+   ]
   },
   "r3300": {
    "name": "Nicolas Alvares",
@@ -12950,7 +14341,9 @@
   },
   "r3306": {
    "name": "Alvarez Juan Gutierrez",
-   "aliases": []
+   "aliases": [
+    "Juan Gutierrez Alvarez"
+   ]
   },
   "r3307": {
    "name": "Pablo Marin",
@@ -13074,7 +14467,9 @@
   },
   "r3337": {
    "name": "Maurcio Gonzalez",
-   "aliases": []
+   "aliases": [
+    "Mauricio Gonzalez"
+   ]
   },
   "r3338": {
    "name": "Juliano Valiente",
@@ -13164,22 +14559,6 @@
    "name": "Vanina Cagnoli",
    "aliases": []
   },
-  "r3360": {
-   "name": "Rodriguez Sofia",
-   "aliases": []
-  },
-  "r3361": {
-   "name": "Julieta Arlettaz",
-   "aliases": []
-  },
-  "r3362": {
-   "name": "Paula Latimori",
-   "aliases": []
-  },
-  "r3363": {
-   "name": "Andrea Valdes",
-   "aliases": []
-  },
   "r3364": {
    "name": "Nestor Castro",
    "aliases": []
@@ -13214,7 +14593,9 @@
   },
   "r3372": {
    "name": "Augusto Ramallo",
-   "aliases": []
+   "aliases": [
+    "Ramallo Augusto"
+   ]
   },
   "r3373": {
    "name": "Manuel Martinez Juan",
@@ -13226,11 +14607,15 @@
   },
   "r3375": {
    "name": "Robinson Leao",
-   "aliases": []
+   "aliases": [
+    "Robinson Leão"
+   ]
   },
   "r3376": {
    "name": "Thomas Kaina",
-   "aliases": []
+   "aliases": [
+    "Thomas Kainã"
+   ]
   },
   "r3377": {
    "name": "Silvano Boneberg",
@@ -13241,9 +14626,10 @@
    "aliases": []
   },
   "r3379": {
-   "name": "Lucas Guaragni",
+   "name": "Lucas Coelho",
    "aliases": [
-    "Lucas Coelho"
+    "Lucas Coelho Guaragni",
+    "Lucas Guaragni"
    ]
   },
   "r3380": {
@@ -13264,7 +14650,9 @@
   },
   "r3384": {
    "name": "Jean Ritzel",
-   "aliases": []
+   "aliases": [
+    "Ritzel Jean"
+   ]
   },
   "r3385": {
    "name": "Fruke Alves",
@@ -13272,7 +14660,9 @@
   },
   "r3386": {
    "name": "Miguel Moreira",
-   "aliases": []
+   "aliases": [
+    "Miguel Vinícius Moreira"
+   ]
   },
   "r3387": {
    "name": "Kelvin Silva",
@@ -13312,7 +14702,9 @@
   },
   "r3396": {
    "name": "Antonio Scalise Neto",
-   "aliases": []
+   "aliases": [
+    "Antonio Neto"
+   ]
   },
   "r3397": {
    "name": "Patrick Sousa",
@@ -13320,7 +14712,9 @@
   },
   "r3398": {
    "name": "Ederson Colaco",
-   "aliases": []
+   "aliases": [
+    "Ederson Colaço"
+   ]
   },
   "r3400": {
    "name": "Morgana Luiz",
@@ -13352,7 +14746,9 @@
   },
   "r3407": {
    "name": "Octavio Goncalves",
-   "aliases": []
+   "aliases": [
+    "Octavio Gonçalves"
+   ]
   },
   "r3408": {
    "name": "Matheus Dihl",
@@ -13368,11 +14764,15 @@
   },
   "r3411": {
    "name": "Joao Pereira",
-   "aliases": []
+   "aliases": [
+    "João Pereira"
+   ]
   },
   "r3412": {
    "name": "Jeremias Gasparotto",
-   "aliases": []
+   "aliases": [
+    "Jeremias Gasparoto"
+   ]
   },
   "r3413": {
    "name": "Guilherme Andrade",
@@ -13408,7 +14808,9 @@
   },
   "r3421": {
    "name": "Leonardo Klein Verardi",
-   "aliases": []
+   "aliases": [
+    "Leonardo Verardi"
+   ]
   },
   "r3422": {
    "name": "Yuri Santos",
@@ -13436,7 +14838,9 @@
   },
   "r3428": {
    "name": "Otávio Fialho",
-   "aliases": []
+   "aliases": [
+    "Otavio Fialho"
+   ]
   },
   "r3429": {
    "name": "Marlon Silva",
@@ -13456,7 +14860,9 @@
   },
   "r3433": {
    "name": "Victor Goncalves",
-   "aliases": []
+   "aliases": [
+    "Victor Gonçalves"
+   ]
   },
   "r3434": {
    "name": "Felipe Almeida",
@@ -13492,7 +14898,10 @@
   },
   "r3442": {
    "name": "Joao Vitor Oliveira",
-   "aliases": []
+   "aliases": [
+    "João Oliveira",
+    "João Vitor Oliveira"
+   ]
   },
   "r3443": {
    "name": "Miguel Neto",
@@ -13504,7 +14913,9 @@
   },
   "r3445": {
    "name": "João Berlitz",
-   "aliases": []
+   "aliases": [
+    "Joao Berlitz"
+   ]
   },
   "r3446": {
    "name": "Gabriel Garcez",
@@ -13652,7 +15063,9 @@
   },
   "r3483": {
    "name": "Duane Espíndola",
-   "aliases": []
+   "aliases": [
+    "Duane Espindola"
+   ]
   },
   "r3484": {
    "name": "Lucas Batista",
@@ -13664,7 +15077,9 @@
   },
   "r3486": {
    "name": "Lucas Caribé",
-   "aliases": []
+   "aliases": [
+    "Lucas Vieira Caribe"
+   ]
   },
   "r3487": {
    "name": "Julio Henrique",
@@ -13676,7 +15091,9 @@
   },
   "r3489": {
    "name": "Iago Lima",
-   "aliases": []
+   "aliases": [
+    "Lago Lima"
+   ]
   },
   "r3490": {
    "name": "Murilo Medeiros",
@@ -13688,7 +15105,9 @@
   },
   "r3492": {
    "name": "Ryan Santos",
-   "aliases": []
+   "aliases": [
+    "Yan Santos"
+   ]
   },
   "r3493": {
    "name": "Victor Ludwig",
@@ -13704,7 +15123,9 @@
   },
   "r3496": {
    "name": "Lucas Fernandes",
-   "aliases": []
+   "aliases": [
+    "Fernandes Lucas"
+   ]
   },
   "r3497": {
    "name": "Pedro Meireles",
@@ -13741,7 +15162,8 @@
   "r3505": {
    "name": "Daniel Veiga",
    "aliases": [
-    "Daniel Lara"
+    "Daniel Lara",
+    "Daniel Lara Veiga"
    ]
   },
   "r3506": {
@@ -13794,7 +15216,9 @@
   },
   "r3519": {
    "name": "Nicolas Tagarra",
-   "aliases": []
+   "aliases": [
+    "Nícolas Tagarra"
+   ]
   },
   "r3520": {
    "name": "Filipe Souza",
@@ -13874,7 +15298,10 @@
   },
   "r3541": {
    "name": "Moizes Souza",
-   "aliases": []
+   "aliases": [
+    "Moises Souza",
+    "Moisés Souza"
+   ]
   },
   "r3542": {
    "name": "Landjunior Passos",
@@ -13900,34 +15327,19 @@
    "name": "Sixto Batista",
    "aliases": []
   },
-  "r3548": {
-   "name": "Priscilha Benitez",
-   "aliases": []
-  },
   "r3549": {
    "name": "Otavio Aglio",
-   "aliases": []
-  },
-  "r3550": {
-   "name": "Alvaro Grivicich",
    "aliases": []
   },
   "r3551": {
    "name": "Lucas Pacheco",
    "aliases": []
   },
-  "r3552": {
-   "name": "Vanil Darocha",
-   "aliases": []
-  },
-  "r3553": {
-   "name": "Wilson Wanderley",
-   "aliases": []
-  },
   "r3554": {
    "name": "Melvin Herrmann",
    "aliases": [
-    "Melvin Herman"
+    "Melvin Herman",
+    "Melvin Hermann"
    ]
   },
   "r3555": {
@@ -13948,11 +15360,15 @@
   },
   "r3559": {
    "name": "Tomas Turetta",
-   "aliases": []
+   "aliases": [
+    "Thomas Turetta"
+   ]
   },
   "r3560": {
    "name": "Martin Nörl",
-   "aliases": []
+   "aliases": [
+    "Martin Norl"
+   ]
   },
   "r3561": {
    "name": "Alberto Bressan",
@@ -13960,7 +15376,9 @@
   },
   "r3562": {
    "name": "Marco Bertucioli",
-   "aliases": []
+   "aliases": [
+    "Marco Bertuccioli"
+   ]
   },
   "r3563": {
    "name": "Scholl Marius",
@@ -13976,7 +15394,9 @@
   },
   "r3566": {
    "name": "Christoph Gahlert",
-   "aliases": []
+   "aliases": [
+    "Cristoph Gahlert"
+   ]
   },
   "r3567": {
    "name": "Rico Verdu",
@@ -13984,7 +15404,9 @@
   },
   "r3568": {
    "name": "Nicola Dall'Aglio",
-   "aliases": []
+   "aliases": [
+    "Nicola Dall:Aglio"
+   ]
   },
   "r3569": {
    "name": "Fedric Minaev",
@@ -14004,7 +15426,9 @@
   },
   "r3574": {
    "name": "Pier-olivier Desmarais",
-   "aliases": []
+   "aliases": [
+    "Pier-Olivier Desmarais"
+   ]
   },
   "r3575": {
    "name": "Camirand Sebastien Lemelin",
@@ -14024,7 +15448,9 @@
   },
   "r3579": {
    "name": "Maxime Beliveau",
-   "aliases": []
+   "aliases": [
+    "Maxime Béliveau"
+   ]
   },
   "r3580": {
    "name": "Craig Dooley",
@@ -14072,11 +15498,15 @@
   },
   "r3591": {
    "name": "Louis-Philippe Déry",
-   "aliases": []
+   "aliases": [
+    "Louis-Philippe Dery"
+   ]
   },
   "r3592": {
    "name": "Samual Ettorre",
-   "aliases": []
+   "aliases": [
+    "Samuel Ettorre"
+   ]
   },
   "r3593": {
    "name": "David Eberhard",
@@ -14108,7 +15538,9 @@
   },
   "r3600": {
    "name": "Filippo Salerni",
-   "aliases": []
+   "aliases": [
+    "Salerni Filippo"
+   ]
   },
   "r3601": {
    "name": "Andrew Schumaker",
@@ -14160,7 +15592,9 @@
   },
   "r3614": {
    "name": "Rene Riveros",
-   "aliases": []
+   "aliases": [
+    "Renne Rivieros"
+   ]
   },
   "r3615": {
    "name": "Thiago Costa",
@@ -14184,7 +15618,10 @@
   },
   "r3620": {
    "name": "Déberson Fernando Oliveira",
-   "aliases": []
+   "aliases": [
+    "Deberson Oliveira",
+    "Déberson Oliveira"
+   ]
   },
   "r3621": {
    "name": "Nadim Burkan",
@@ -14267,28 +15704,10 @@
    "aliases": []
   },
   "r3641": {
-   "name": "Danny Schemberg",
-   "aliases": []
-  },
-  "r3642": {
-   "name": "Marcos Kucarz",
-   "aliases": []
-  },
-  "r3643": {
-   "name": "Pablo Albano",
-   "aliases": []
-  },
-  "r3644": {
-   "name": "Tiago Passos",
-   "aliases": []
-  },
-  "r3645": {
-   "name": "Mauricio Andres",
-   "aliases": []
-  },
-  "r3646": {
-   "name": "Luiz Porpino",
-   "aliases": []
+   "name": "Danny Schemburg",
+   "aliases": [
+    "Danny Schemberg"
+   ]
   },
   "r3647": {
    "name": "Matias Lopez",
@@ -14296,7 +15715,9 @@
   },
   "r3648": {
    "name": "Adriano Silva",
-   "aliases": []
+   "aliases": [
+    "Adriano da Silva"
+   ]
   },
   "r3649": {
    "name": "Roberto Junior",
@@ -14352,14 +15773,6 @@
   },
   "r3662": {
    "name": "Rodrigo Silveira",
-   "aliases": []
-  },
-  "r3663": {
-   "name": "Elias Emanuel",
-   "aliases": []
-  },
-  "r3664": {
-   "name": "Bruno Moraes",
    "aliases": []
   },
   "r3665": {
@@ -14596,11 +16009,15 @@
   },
   "r3724": {
    "name": "Sidharta Rezende",
-   "aliases": []
+   "aliases": [
+    "Sidahrta Rezende"
+   ]
   },
   "r3725": {
    "name": "Willian César",
-   "aliases": []
+   "aliases": [
+    "William Cesar"
+   ]
   },
   "r3726": {
    "name": "James Charão",
@@ -14608,7 +16025,9 @@
   },
   "r3727": {
    "name": "Ezequiel Camaron",
-   "aliases": []
+   "aliases": [
+    "Camaron Ezequiel"
+   ]
   },
   "r3728": {
    "name": "Walter Gimenez",
@@ -14645,6 +16064,8 @@
   "r3736": {
    "name": "Adrià Arquimbau Codina",
    "aliases": [
+    "Adria Arquimbau",
+    "Adria' Arquimbau-Codina",
     "Adrià Arquimbau"
    ]
   },
@@ -14654,7 +16075,9 @@
   },
   "r3739": {
    "name": "Sergio Carrión",
-   "aliases": []
+   "aliases": [
+    "Sergio Carrion"
+   ]
   },
   "r3740": {
    "name": "David Sanchez",
@@ -14678,7 +16101,9 @@
   },
   "r3746": {
    "name": "Mattia Favero",
-   "aliases": []
+   "aliases": [
+    "Matia Favero"
+   ]
   },
   "r3748": {
    "name": "Roberto Fortini",
@@ -14698,7 +16123,9 @@
   },
   "r3752": {
    "name": "Bernardo Iandelli",
-   "aliases": []
+   "aliases": [
+    "Bernardo Landelli"
+   ]
   },
   "r3754": {
    "name": "Tilo Boebel",
@@ -14710,11 +16137,9 @@
   },
   "r3756": {
    "name": "Jana Muronova",
-   "aliases": []
-  },
-  "r3757": {
-   "name": "David Lombardi",
-   "aliases": []
+   "aliases": [
+    "Jana R.SL Muronova"
+   ]
   },
   "r3759": {
    "name": "Rafael Fazano",
@@ -14754,7 +16179,9 @@
   },
   "r3768": {
    "name": "Cian Lausch",
-   "aliases": []
+   "aliases": [
+    "Cain Lausch"
+   ]
   },
   "r3769": {
    "name": "Andrea Ferrucci",
@@ -14838,7 +16265,9 @@
   },
   "r3789": {
    "name": "Armando Hernández",
-   "aliases": []
+   "aliases": [
+    "Armando Ramos Hernández"
+   ]
   },
   "r3790": {
    "name": "Jose Velez",
@@ -15026,7 +16455,9 @@
   },
   "r3837": {
    "name": "Patrick Walker",
-   "aliases": []
+   "aliases": [
+    "Patick Walker"
+   ]
   },
   "r3838": {
    "name": "Riley Irvine",
@@ -15078,7 +16509,9 @@
   },
   "r3850": {
    "name": "John Rey Ricablanca",
-   "aliases": []
+   "aliases": [
+    "John Rex Ricablanca"
+   ]
   },
   "r3851": {
    "name": "John Tongco",
@@ -15283,9 +16716,9 @@
    ]
   },
   "r3901": {
-   "name": "Valeria Figueroa Fuentes",
+   "name": "Valeria Figueroa",
    "aliases": [
-    "Valeria Figueroa"
+    "Valeria Figueroa Fuentes"
    ]
   },
   "r3902": {
@@ -15396,10 +16829,6 @@
    "name": "Keenan MacArtney",
    "aliases": []
   },
-  "r3929": {
-   "name": "Frødørick Kapune",
-   "aliases": []
-  },
   "r3930": {
    "name": "James Mallette",
    "aliases": []
@@ -15486,7 +16915,9 @@
   },
   "r3954": {
    "name": "Job Crisostmo",
-   "aliases": []
+   "aliases": [
+    "Job Crisostomo"
+   ]
   },
   "r3955": {
    "name": "Noah Fischer",
@@ -15810,14 +17241,12 @@
   },
   "r4036": {
    "name": "Sabrina Riffenburgh",
-   "aliases": []
+   "aliases": [
+    "Sabrina Riffenburg"
+   ]
   },
   "r4037": {
    "name": "Zachary Fernandez",
-   "aliases": []
-  },
-  "r4038": {
-   "name": "Adriø Arquimbau Codina",
    "aliases": []
   },
   "r4039": {
@@ -15850,7 +17279,9 @@
   },
   "r4046": {
    "name": "Calum Alexander Yardley",
-   "aliases": []
+   "aliases": [
+    "Calum Yardley"
+   ]
   },
   "r4047": {
    "name": "Victor Reyes Martinez",
@@ -15867,6 +17298,7 @@
   "r4050": {
    "name": "Oscar Rodriguez Escoin",
    "aliases": [
+    "Escoin Oscar Rodriguez",
     "Oscar Rodriguez"
    ]
   },
@@ -15876,7 +17308,9 @@
   },
   "r4052": {
    "name": "Yanis Markarian",
-   "aliases": []
+   "aliases": [
+    "Markarian Yanis"
+   ]
   },
   "r4054": {
    "name": "Miguel Molinares Vallejo",
@@ -15912,11 +17346,10 @@
   },
   "r4064": {
    "name": "Juan Calvo Lazaro",
-   "aliases": []
-  },
-  "r4065": {
-   "name": "Frødørique Berdon",
-   "aliases": []
+   "aliases": [
+    "Juan Calvo Lajzaro",
+    "Juan Calvo Lázaro"
+   ]
   },
   "r4066": {
    "name": "Evzen Masat",
@@ -15928,7 +17361,11 @@
   },
   "r4068": {
    "name": "Gustav Funck Norrhäll",
-   "aliases": []
+   "aliases": [
+    "Funck Norehäll Gustav",
+    "Norehäll Gustav Funck",
+    "Norrhäll Gustav Funck"
+   ]
   },
   "r4069": {
    "name": "Jasper D'Haene",
@@ -15980,7 +17417,9 @@
   },
   "r4081": {
    "name": "Ben Stainer",
-   "aliases": []
+   "aliases": [
+    "Stainer Ben"
+   ]
   },
   "r4082": {
    "name": "Leandro Cordon",
@@ -16031,8 +17470,11 @@
    "aliases": []
   },
   "r4095": {
-   "name": "Kevinn Blomqvist",
-   "aliases": []
+   "name": "Kevin Blomqvist",
+   "aliases": [
+    "Blomqvist Kevin",
+    "Kevinn Blomqvist"
+   ]
   },
   "r4096": {
    "name": "Fabian Krebs",
@@ -16042,17 +17484,15 @@
    "name": "Christopher Ehret",
    "aliases": []
   },
-  "r4098": {
-   "name": "Maximiliøn Odrøka",
-   "aliases": []
-  },
   "r4099": {
    "name": "Germain Dageville",
    "aliases": []
   },
   "r4100": {
    "name": "Lev Seidl",
-   "aliases": []
+   "aliases": [
+    "Liv Seidl"
+   ]
   },
   "r4101": {
    "name": "Christoph Schmalz",
@@ -16088,7 +17528,9 @@
   },
   "r4109": {
    "name": "Fabio Minnig",
-   "aliases": []
+   "aliases": [
+    "Minnig Fabio"
+   ]
   },
   "r4110": {
    "name": "Remy Sneek",
@@ -16319,8 +17761,11 @@
    "aliases": []
   },
   "r4168": {
-   "name": "Samuel Esaja Ekman",
-   "aliases": []
+   "name": "Samuel Ekman",
+   "aliases": [
+    "Ekman Samuel",
+    "Samuel Esaja Ekman"
+   ]
   },
   "r4169": {
    "name": "Hobbart Cornelis",
@@ -16328,7 +17773,9 @@
   },
   "r4170": {
    "name": "Robreto Caliò",
-   "aliases": []
+   "aliases": [
+    "Roberto Caliò"
+   ]
   },
   "r4171": {
    "name": "Derek Blanquer",
@@ -16792,7 +18239,9 @@
   },
   "r4288": {
    "name": "Mason Shin",
-   "aliases": []
+   "aliases": [
+    "Shin Mason"
+   ]
   },
   "r4289": {
    "name": "Jimmy Flint",
@@ -16868,7 +18317,9 @@
   },
   "r4309": {
    "name": "Laura Munoz",
-   "aliases": []
+   "aliases": [
+    "Laura Serna Munoz"
+   ]
   },
   "r4310": {
    "name": "Angie Duque",
@@ -16933,6 +18384,7 @@
   "r4325": {
    "name": "Fabián Gutiérrez Roa",
    "aliases": [
+    "Fabian Gutierres",
     "Fabian Gutierrez"
    ]
   },
@@ -17086,7 +18538,9 @@
   },
   "r4367": {
    "name": "Victor Kerr",
-   "aliases": []
+   "aliases": [
+    "Victor De Almeida Prado Kerr"
+   ]
   },
   "r4368": {
    "name": "Fernando Alves",
@@ -17394,7 +18848,9 @@
   },
   "r4447": {
    "name": "Hugo Salvatierra",
-   "aliases": []
+   "aliases": [
+    "Hugo Lorenzo Salvatierra"
+   ]
   },
   "r4448": {
    "name": "Joshua Hardwick",
@@ -17646,7 +19102,9 @@
   },
   "r4510": {
    "name": "Areum Amy Jung",
-   "aliases": []
+   "aliases": [
+    "Areum Jung"
+   ]
   },
   "r4511": {
    "name": "Roh Jinyeop",
@@ -17710,7 +19168,9 @@
   },
   "r4526": {
    "name": "Allison Zhu",
-   "aliases": []
+   "aliases": [
+    "Allison Chu"
+   ]
   },
   "r4527": {
    "name": "Wei She",
@@ -18228,7 +19688,9 @@
   },
   "r4657": {
    "name": "Luis Garcia",
-   "aliases": []
+   "aliases": [
+    "Luis Giron Garcia"
+   ]
   },
   "r4658": {
    "name": "Edoardo Barbi",
@@ -18340,7 +19802,9 @@
   },
   "r4685": {
    "name": "Andrej Ilic",
-   "aliases": []
+   "aliases": [
+    "Andrej Ilič"
+   ]
   },
   "r4686": {
    "name": "Daan Pierik",
@@ -18360,7 +19824,9 @@
   },
   "r4690": {
    "name": "Ignacy Swiatkowski",
-   "aliases": []
+   "aliases": [
+    "Ignacy Świątkowski"
+   ]
   },
   "r4691": {
    "name": "Gareth Chamberlain",
@@ -18476,7 +19942,9 @@
   },
   "r4719": {
    "name": "Janosch Müller",
-   "aliases": []
+   "aliases": [
+    "Janosch Ber Müller"
+   ]
   },
   "r4720": {
    "name": "Sebastian Wefers",
@@ -18677,7 +20145,8 @@
   "r4771": {
    "name": "Shirley Yuliana Tabares Builes",
    "aliases": [
-    "Sirley Tabares"
+    "Sirley Tabares",
+    "Sirley Tabares Builes"
    ]
   },
   "r4772": {
@@ -18994,7 +20463,9 @@
   },
   "r4850": {
    "name": "Jorge Lozano Lozano",
-   "aliases": []
+   "aliases": [
+    "Jorge Ernesto Marin Lozano"
+   ]
   },
   "r4851": {
    "name": "Jeff Suchy",
@@ -19070,7 +20541,9 @@
   },
   "r4871": {
    "name": "Camilo Mendez",
-   "aliases": []
+   "aliases": [
+    "Camilo Mendes"
+   ]
   },
   "r4872": {
    "name": "Oscar Zambrano Paladines",
@@ -19118,7 +20591,9 @@
   },
   "r4883": {
    "name": "Anderson Maldonado",
-   "aliases": []
+   "aliases": [
+    "Anderson Maldonato"
+   ]
   },
   "r4884": {
    "name": "Pablo Guerrero",
@@ -19238,7 +20713,9 @@
   },
   "r4913": {
    "name": "Alexandros Tzouganakis",
-   "aliases": []
+   "aliases": [
+    "Alexandros Tzougankis"
+   ]
   },
   "r4914": {
    "name": "Vojtech Roudnický",
@@ -19282,10 +20759,6 @@
   },
   "r4924": {
    "name": "Michal Karpianus",
-   "aliases": []
-  },
-  "r4925": {
-   "name": "Marek Tomø Mircev",
    "aliases": []
   },
   "r4926": {
@@ -19444,10 +20917,6 @@
    "name": "João Plentz",
    "aliases": []
   },
-  "r4968": {
-   "name": "Weslei Cassão",
-   "aliases": []
-  },
   "r4969": {
    "name": "Dacio Franco",
    "aliases": []
@@ -19542,7 +21011,9 @@
   },
   "r4992": {
    "name": "Nick D'Bk",
-   "aliases": []
+   "aliases": [
+    "Nick D’bk"
+   ]
   },
   "r4993": {
    "name": "Nori Tamura",
@@ -19694,7 +21165,9 @@
   },
   "r5031": {
    "name": "Vincent Bapst",
-   "aliases": []
+   "aliases": [
+    "Bapst Vincent"
+   ]
   },
   "r5032": {
    "name": "Jan Martin Von Bergen",
@@ -19758,7 +21231,10 @@
   },
   "r5047": {
    "name": "Grégoire Schwab",
-   "aliases": []
+   "aliases": [
+    "Grègoire Schwab",
+    "Schwab Grégoire"
+   ]
   },
   "r5048": {
    "name": "Angel Aparicio",
@@ -19770,7 +21246,9 @@
   },
   "r5050": {
    "name": "Arno Long Tien",
-   "aliases": []
+   "aliases": [
+    "Arno Tien"
+   ]
   },
   "r5051": {
    "name": "Jaime De Cardenas",
@@ -19804,10 +21282,6 @@
    "name": "Nawin Thiry",
    "aliases": []
   },
-  "r5059": {
-   "name": "Vojtech øøcek",
-   "aliases": []
-  },
   "r5060": {
    "name": "Remy Mialon",
    "aliases": []
@@ -19822,7 +21296,10 @@
   },
   "r5063": {
    "name": "Anaël Lecomte",
-   "aliases": []
+   "aliases": [
+    "Anael Leconte",
+    "Lecomte Anael"
+   ]
   },
   "r5064": {
    "name": "Andre Dante Olmedo Talavera",
@@ -19914,11 +21391,15 @@
   },
   "r5086": {
    "name": "Luca Dall'Aglio",
-   "aliases": []
+   "aliases": [
+    "Luca Dall:Aglio"
+   ]
   },
   "r5087": {
    "name": "Ortega Rafael Causapé",
-   "aliases": []
+   "aliases": [
+    "Rafael Causapé Ortega"
+   ]
   },
   "r5088": {
    "name": "Maitane Calatayud",
@@ -20002,7 +21483,9 @@
   },
   "r5108": {
    "name": "Joel Millman",
-   "aliases": []
+   "aliases": [
+    "Joel Millamn"
+   ]
   },
   "r5109": {
    "name": "Ian Ashby",
@@ -20042,7 +21525,9 @@
   },
   "r5118": {
    "name": "Ryan Lesueur",
-   "aliases": []
+   "aliases": [
+    "Ryan LeSueur"
+   ]
   },
   "r5119": {
    "name": "Nick Gagliano",
@@ -20082,7 +21567,9 @@
   },
   "r5128": {
    "name": "Frederik Laberge",
-   "aliases": []
+   "aliases": [
+    "Frederic Laberge"
+   ]
   },
   "r5129": {
    "name": "Austin Manning",
@@ -20282,7 +21769,9 @@
   },
   "r5179": {
    "name": "Winny Cheryl Hyldebre Lujan",
-   "aliases": []
+   "aliases": [
+    "Winny Cheryl Hyldbere Lujan"
+   ]
   },
   "r5180": {
    "name": "Jeferson Rojas",
@@ -20564,10 +22053,6 @@
    "name": "Daniel Schwär",
    "aliases": []
   },
-  "r5250": {
-   "name": "Frødøric Potthast",
-   "aliases": []
-  },
   "r5251": {
    "name": "Giuseppe Cucciniello",
    "aliases": []
@@ -20638,7 +22123,9 @@
   },
   "r5268": {
    "name": "Benoit Said",
-   "aliases": []
+   "aliases": [
+    "Said Benoit"
+   ]
   },
   "r5269": {
    "name": "Sten Lengsfeld",
@@ -20670,7 +22157,9 @@
   },
   "r5277": {
    "name": "Adrien Duchâtel",
-   "aliases": []
+   "aliases": [
+    "Adrien Duchatel"
+   ]
   },
   "r5278": {
    "name": "Martins Kivlinieks",
@@ -21006,7 +22495,9 @@
   },
   "r5363": {
    "name": "Andréas Bouclier",
-   "aliases": []
+   "aliases": [
+    "Andreas Bouclier"
+   ]
   },
   "r5364": {
    "name": "Tiberghien Mathis",
@@ -21034,7 +22525,9 @@
   },
   "r5370": {
    "name": "Amaury Derout",
-   "aliases": []
+   "aliases": [
+    "Deout Amaury"
+   ]
   },
   "r5371": {
    "name": "Petr Křesťan",
@@ -21054,7 +22547,9 @@
   },
   "r5376": {
    "name": "Julien Girardin",
-   "aliases": []
+   "aliases": [
+    "Girardin Julien"
+   ]
   },
   "r5377": {
    "name": "Diego González Marlatto",
@@ -21122,7 +22617,9 @@
   },
   "r5393": {
    "name": "Antonio francesco Bonventre",
-   "aliases": []
+   "aliases": [
+    "Antonio Francesco Bonventre"
+   ]
   },
   "r5394": {
    "name": "Jose Rogelio Valdes Bennett",
@@ -21134,7 +22631,9 @@
   },
   "r5396": {
    "name": "Ian Martland",
-   "aliases": []
+   "aliases": [
+    "Martland Ian"
+   ]
   },
   "r5397": {
    "name": "John Robinson",
@@ -21181,8 +22680,10 @@
    "aliases": []
   },
   "r5408": {
-   "name": "Bumpy Hales",
-   "aliases": []
+   "name": "Hales Bumpy",
+   "aliases": [
+    "Bumpy Hales"
+   ]
   },
   "r5409": {
    "name": "Rogers Richie",
@@ -21190,7 +22691,9 @@
   },
   "r5410": {
    "name": "Josh Fieldwick",
-   "aliases": []
+   "aliases": [
+    "Fieldwick Josh"
+   ]
   },
   "r5412": {
    "name": "Jules Chaperon",
@@ -21602,7 +23105,9 @@
   },
   "r5519": {
    "name": "Weixin Ji",
-   "aliases": []
+   "aliases": [
+    "Ji Weixin"
+   ]
   },
   "r5520": {
    "name": "He Yuan",
@@ -21648,22 +23153,6 @@
    "name": "Olyver Goodwin",
    "aliases": []
   },
-  "r5531": {
-   "name": "Muscio Gianluca Ferrero/Lo",
-   "aliases": []
-  },
-  "r5532": {
-   "name": "Anthony Solier",
-   "aliases": []
-  },
-  "r5533": {
-   "name": "Peter Karlsson",
-   "aliases": []
-  },
-  "r5534": {
-   "name": "David Rimmel",
-   "aliases": []
-  },
   "r5535": {
    "name": "Tibor Hery",
    "aliases": []
@@ -21686,7 +23175,9 @@
   },
   "r5540": {
    "name": "Brian Isham",
-   "aliases": []
+   "aliases": [
+    "Brain Isham"
+   ]
   },
   "r5541": {
    "name": "Warren Smith",
@@ -22130,8 +23621,10 @@
   },
   "r5659": {
    "name": "David Ramos",
-   "aliases": [
-    "David Suarez"
+   "aliases": [],
+   "not": [
+    "David Suarez",
+    "David Suarez Romos"
    ]
   },
   "r5662": {
@@ -22150,344 +23643,186 @@
    "name": "James Burgess",
    "aliases": []
   },
-  "r5666": {
-   "name": "Tjernström Marcus x001",
-   "aliases": []
-  },
-  "r5667": {
-   "name": "Ekman Samuel x002",
-   "aliases": []
-  },
   "r5668": {
-   "name": "Lillecreutz Gustav x003",
-   "aliases": []
-  },
-  "r5669": {
-   "name": "Inde Anders x004",
-   "aliases": []
-  },
-  "r5670": {
-   "name": "Cassana Lamin x005",
-   "aliases": []
-  },
-  "r5671": {
-   "name": "Dahlstrand Jon x006",
-   "aliases": []
+   "name": "Gustaf Lillecreutz",
+   "aliases": [
+    "Gustav Lillecreutz"
+   ]
   },
   "r5672": {
-   "name": "Göransson Anton x007",
-   "aliases": []
-  },
-  "r5673": {
-   "name": "Eriksson Max x008",
+   "name": "Anton Göransson",
    "aliases": []
   },
   "r5674": {
-   "name": "Odenheim Anton x009",
-   "aliases": []
-  },
-  "r5675": {
-   "name": "Larsson Hannes x010",
+   "name": "Anton Odenheim",
    "aliases": []
   },
   "r5676": {
-   "name": "Parsmo Sebastian x011",
+   "name": "Sebastian Parsmo",
    "aliases": []
   },
   "r5677": {
-   "name": "Särnhed Oliver x012",
+   "name": "Oliver Särnhed",
    "aliases": []
   },
   "r5678": {
-   "name": "Andrén Olof x013",
+   "name": "Olof Andrén",
    "aliases": []
   },
   "r5679": {
-   "name": "Wiklander Carl Jonas x014",
+   "name": "Carl Jonas Wiklander",
    "aliases": []
   },
   "r5680": {
-   "name": "Lindgren Oskar x015",
-   "aliases": []
+   "name": "Oskar Lindgren",
+   "aliases": [
+    "Oscar Lindgren"
+   ]
   },
   "r5681": {
-   "name": "Blomqvist Fredrik x016",
+   "name": "Fredrik Blomqvist",
    "aliases": []
   },
   "r5682": {
-   "name": "Aronsson Kalle x017",
+   "name": "Kalle Aronsson",
    "aliases": []
   },
   "r5683": {
-   "name": "Urban Aaron x018",
+   "name": "Aaron Urban",
    "aliases": []
   },
   "r5684": {
-   "name": "Hulth Max x019",
+   "name": "Max Hulth",
    "aliases": []
   },
   "r5685": {
-   "name": "Linder Kristoffer x020",
+   "name": "Kristoffer Linder",
    "aliases": []
   },
   "r5686": {
-   "name": "Rockström Alex x021",
+   "name": "Alex Rockström",
    "aliases": []
   },
   "r5687": {
-   "name": "Löfström Mattias x022",
+   "name": "Mattias Löfström",
    "aliases": []
   },
   "r5688": {
-   "name": "Erlandsson John x023",
+   "name": "John Erlandsson",
    "aliases": []
   },
   "r5689": {
-   "name": "Kalmér Elis x024",
-   "aliases": []
-  },
-  "r5690": {
-   "name": "Olsson Emil x025",
+   "name": "Elis Kalmér",
    "aliases": []
   },
   "r5691": {
-   "name": "Rockström Isak x026",
-   "aliases": []
-  },
-  "r5692": {
-   "name": "Walter Max x027",
-   "aliases": []
-  },
-  "r5693": {
-   "name": "Palmhager Simon x028",
+   "name": "Isak Rockström",
    "aliases": []
   },
   "r5694": {
-   "name": "Lindström Olle x029",
+   "name": "Olle Lindström",
    "aliases": []
   },
   "r5695": {
-   "name": "Aus Jacob x030",
+   "name": "Jacob Aus",
    "aliases": []
   },
   "r5696": {
-   "name": "Söderström Aron x031",
+   "name": "Aron Söderström",
    "aliases": []
   },
   "r5697": {
-   "name": "Stolpe Wikström Ville x032",
-   "aliases": []
-  },
-  "r5698": {
-   "name": "Funck Norehäll Gustav x033",
+   "name": "Wikström Ville Stolpe",
    "aliases": []
   },
   "r5699": {
-   "name": "Persson Odd x034",
+   "name": "Odd Persson",
    "aliases": []
   },
   "r5700": {
-   "name": "Prahl Noak x035",
+   "name": "Noak Prahl",
    "aliases": []
   },
   "r5701": {
-   "name": "Andersson Anton x036",
-   "aliases": []
-  },
-  "r5702": {
-   "name": "Hedén Hatunen Jacob x037",
-   "aliases": []
-  },
-  "r5703": {
-   "name": "Janowicz Zeke x038",
-   "aliases": []
-  },
-  "r5704": {
-   "name": "Printz Isac x039",
+   "name": "Anton Andersson",
    "aliases": []
   },
   "r5705": {
-   "name": "Olsson Axel x040",
+   "name": "Axel Olsson",
    "aliases": []
   },
   "r5706": {
-   "name": "Medbrant Carl x041",
+   "name": "Carl Medbrant",
    "aliases": []
   },
   "r5707": {
-   "name": "Lundqvist Frifelt Tim x042",
+   "name": "Frifelt Tim Lundqvist",
    "aliases": []
   },
   "r5708": {
-   "name": "El Mansouri Mattias x043",
+   "name": "Mansouri Mattias El",
    "aliases": []
   },
   "r5709": {
-   "name": "Hultman Kalle x044",
+   "name": "Kalle Hultman",
    "aliases": []
   },
   "r5710": {
-   "name": "Söderberg Martin x045",
-   "aliases": []
-  },
-  "r5711": {
-   "name": "Blomqvist Kevin x046",
+   "name": "Martin Söderberg",
    "aliases": []
   },
   "r5712": {
-   "name": "Fisher Eliot x047",
-   "aliases": []
+   "name": "Eliot Fisher",
+   "aliases": [
+    "Elliot Fisher"
+   ]
   },
   "r5713": {
-   "name": "Hedén Hautanen Jacob x037",
-   "aliases": []
-  },
-  "r5714": {
-   "name": "Lundberg Erik x020",
-   "aliases": []
-  },
-  "r5715": {
-   "name": "Mengshoel Andersson Kim x022",
-   "aliases": []
-  },
-  "r5716": {
-   "name": "Bache Blix Eyvind x023",
+   "name": "Hautanen Jacob Hedén",
    "aliases": []
   },
   "r5717": {
-   "name": "Persson Sara x031",
+   "name": "Sara Persson",
    "aliases": []
   },
   "r5718": {
    "name": "Abel Mennesey",
    "aliases": []
   },
-  "r5719": {
-   "name": "Jörgensen Marius x024",
-   "aliases": []
-  },
-  "r5720": {
-   "name": "Burr Sebastian x026",
-   "aliases": []
-  },
-  "r5721": {
-   "name": "Printz Isac x017",
-   "aliases": []
-  },
-  "r5722": {
-   "name": "Bergman Robin x028",
-   "aliases": []
-  },
-  "r5723": {
-   "name": "Olsson Axel x018",
-   "aliases": []
-  },
-  "r5724": {
-   "name": "Kalmér Elis x012",
-   "aliases": []
-  },
-  "r5725": {
-   "name": "Särnhed Oliver x009",
-   "aliases": []
-  },
-  "r5726": {
-   "name": "Fönseth Roar x025",
-   "aliases": []
-  },
-  "r5727": {
-   "name": "Broberg Jesper x027",
-   "aliases": []
-  },
   "r5728": {
-   "name": "Hardorp Vidar x030",
-   "aliases": []
-  },
-  "r5729": {
-   "name": "Göransson Mathias x021",
-   "aliases": []
-  },
-  "r5730": {
-   "name": "Löfström Mattias x011",
-   "aliases": []
-  },
-  "r5731": {
-   "name": "Andersson Anton x015",
+   "name": "Vidar Hardorp",
    "aliases": []
   },
   "r5732": {
-   "name": "Falkengren William x029",
-   "aliases": []
-  },
-  "r5733": {
-   "name": "Lindström Olle x013",
+   "name": "William Falkengren",
    "aliases": []
   },
   "r5734": {
-   "name": "Peterson Simon x032",
+   "name": "Simon Peterson",
    "aliases": []
   },
   "r5735": {
-   "name": "Castro Nilsson Manu x033",
+   "name": "Nilsson Manu Castro",
    "aliases": []
   },
   "r5736": {
-   "name": "Granli Erik x034",
-   "aliases": []
-  },
-  "r5737": {
-   "name": "Söderberg Martin x019",
-   "aliases": []
-  },
-  "r5738": {
-   "name": "Hedén Hatunen Jacob x016",
+   "name": "Erik Granli",
    "aliases": []
   },
   "r5739": {
-   "name": "Kovac Viktor x035",
+   "name": "Viktor Kovac",
    "aliases": []
   },
   "r5740": {
-   "name": "Persson Love x036",
-   "aliases": []
-  },
-  "r5741": {
-   "name": "Linder Kristoffer x037",
+   "name": "Love Persson",
    "aliases": []
   },
   "r5742": {
-   "name": "Sundgren Johan x038",
+   "name": "Johan Sundgren",
    "aliases": []
   },
   "r5743": {
-   "name": "Backlund Fredrik x039",
-   "aliases": []
-  },
-  "r5744": {
-   "name": "Boström Caroline x040",
-   "aliases": []
-  },
-  "r5745": {
-   "name": "Funck Norehäll Gustav x014",
-   "aliases": []
-  },
-  "r5746": {
-   "name": "Boström Caroline x066",
-   "aliases": []
-  },
-  "r5747": {
-   "name": "Persson Sara x057",
-   "aliases": []
-  },
-  "r5748": {
-   "name": "Hardorp Vidar x056",
-   "aliases": []
-  },
-  "r5749": {
-   "name": "Persson Love x062",
-   "aliases": []
-  },
-  "r5750": {
-   "name": "Sundgren Johan x064",
+   "name": "Fredrik Backlund",
    "aliases": []
   },
   "r5751": {
@@ -22504,10 +23839,6 @@
   },
   "r5755": {
    "name": "Chase Orta",
-   "aliases": []
-  },
-  "r5756": {
-   "name": "Bradley Kiehn",
    "aliases": []
   },
   "r5758": {
@@ -22625,207 +23956,342 @@
   "r6062": {
    "name": "Gerardo Novoa",
    "aliases": [
-    "Gerardo Novoa"
+    "Gerardo Novoa Rey",
+    "Ray Gerardo Novoa",
+    "Rey Gerardo Novoa"
    ]
   },
   "r6063": {
    "name": "Louis-Etienne Bouchard",
    "aliases": [
-    "Louis-Etienne Bouchard"
+    "Louis Bouchard",
+    "Louis Etienne Bouchard",
+    "Louis-Etienne Bouchard-Pouliot",
+    "Lous Etienne ''bob'' Bouchard"
    ]
   },
   "r6064": {
    "name": "Bernardo Borges",
    "aliases": [
-    "Bernardo Borges"
+    "Bernardo Borges Negrão",
+    "Bernardo Negrão",
+    "Borges Bernardo"
    ]
   },
   "r6065": {
    "name": "Callum O'Callaghan",
    "aliases": [
-    "Callum O'Callaghan"
+    "Callum O'Callaghan-Daft"
    ]
   },
   "r6066": {
    "name": "Javier Velasco",
    "aliases": [
-    "Javier Velasco"
+    "Javier Velasco Francisco",
+    "Javierv Velasco Francisco"
    ]
   },
   "r6067": {
    "name": "Jonathan Guardia",
    "aliases": [
-    "Jonathan Guardia"
+    "Jonathan Arturo Cuya",
+    "Jonathan Arturo Guardia Cuya",
+    "Jonathan Guardia Cuya",
+    "Jonathan Guardya"
    ]
   },
   "r6068": {
-   "name": "Lucas Santos",
+   "name": "Lucas Herbst",
    "aliases": [
-    "Lucas Herbst"
+    "Lucas Herbst O Santos"
+   ],
+   "not": [
+    "Lucas Santos"
    ]
   },
   "r6069": {
    "name": "Walter Ribeiro",
    "aliases": [
-    "Walter Ribeiro"
+    "Walter Andre Werbinski Ribeiro",
+    "Walter Baresi",
+    "Walter Ribeiro-Baresi"
    ]
   },
   "r6070": {
    "name": "Cristina Verdú",
    "aliases": [
-    "Cristina Verdú"
+    "Cristina Verdu-Rico"
    ]
   },
   "r6071": {
    "name": "Giorgina Ferrero",
    "aliases": [
-    "Giorgina Ferrero"
+    "Giorgina Ferrero Vottero",
+    "Giorgina Ferrero-Vottero"
    ]
   },
   "r6072": {
    "name": "Dejaune Jones",
    "aliases": [
-    "Dejaune Jones"
+    "Dejaune Jones-Norman"
    ]
   },
   "r6073": {
    "name": "Gustavo Paredes",
    "aliases": [
-    "Gustavo Paredes"
+    "Gustavo Parede",
+    "Gustavo Paredes Mena"
    ]
   },
   "r6074": {
    "name": "Melissa Brogni",
    "aliases": [
-    "Melissa Brogni"
+    "Melissa Brogni Da Luz"
    ]
   },
   "r6075": {
    "name": "Danky Dean",
    "aliases": [
-    "Danky Dean"
+    "Danky Dean Garcia Ovalhe"
    ]
   },
   "r6076": {
    "name": "Sasha Reis",
    "aliases": [
-    "Sasha Reis"
+    "Reis Sasha",
+    "Sasha Reis Lacerda De Queiroz"
    ]
   },
   "r6077": {
    "name": "Rafael Garrido",
    "aliases": [
-    "Rafael Garrido"
+    "Rafael Garrido Sanchez"
    ]
   },
   "r6078": {
    "name": "Martin Depass",
    "aliases": [
-    "Martin Depass"
+    "Martin Depass Cheek"
    ]
   },
   "r6079": {
    "name": "Daniel Calle",
    "aliases": [
-    "Daniel Calle"
+    "Daniel Calle Mourin"
    ]
   },
   "r6080": {
    "name": "Willian Rubim",
    "aliases": [
-    "Willian Rubim"
+    "William Rubin",
+    "Willian Rubim De Carlen",
+    "Willian Rubin"
    ]
   },
   "r6081": {
    "name": "Gabriel Silva",
    "aliases": [
-    "Gabriel Silva"
+    "Gabriel Silva De Maria"
    ]
   },
   "r6082": {
-   "name": "Igor Brenner Maas",
+   "name": "Igor Brenner",
    "aliases": [
-    "Igor Brenner"
+    "Igor Brenner Maas"
    ]
   },
   "r6083": {
    "name": "Eduardo Tonini",
    "aliases": [
-    "Eduardo Tonini"
+    "Eduardo Tonini Ferreira"
    ]
   },
   "r6084": {
    "name": "Leonardo Ferraz",
    "aliases": [
-    "Leonardo Ferraz"
+    "Leonardo Ferraz Martins"
    ]
   },
   "r6085": {
    "name": "Juan Jose Sarquis",
    "aliases": [
-    "Juan Jose Sarquis"
+    "Juan Jose Sarquis Poblete"
    ]
   },
   "r6086": {
    "name": "William Ortiz",
    "aliases": [
-    "William Ortiz"
+    "William Ortiz Rodrigues"
    ]
   },
   "r6087": {
    "name": "Luca Visconti",
    "aliases": [
-    "Luca Visconti"
+    "Luca Visconti De Paula"
    ]
   },
   "r6088": {
    "name": "Luana Chaves",
    "aliases": [
-    "Luana Chaves"
+    "Luana Chaves Dos Santos Silva"
    ]
   },
   "r6089": {
    "name": "Lucas Londono",
    "aliases": [
-    "Lucas Londono"
+    "Lucas Londonio",
+    "Lucas Londoño Garcia"
    ]
   },
   "r6090": {
    "name": "Agustin-Pablo Virgolini",
    "aliases": [
-    "Agustin-Pablo Virgolini"
+    "Agustin Pablo Virgolini",
+    "Agustin Pablo Virgolini Padro",
+    "Agustin Virgolini",
+    "Augustin Virgolini"
    ]
   },
   "r6091": {
    "name": "Nicolas Robert",
    "aliases": [
-    "Nicolas Robert"
+    "Nicolas Robert-Nicoud"
    ]
   },
   "r6092": {
    "name": "Tim Del Rosario",
    "aliases": [
-    "Tim Del Rosario"
+    "Tim Del Rosario Rojas"
    ]
   },
   "r6093": {
-   "name": "Camilo Montes C",
+   "name": "Camilo Montes",
    "aliases": [
-    "Camilo Montes"
+    "Camilo Montes C"
    ]
   },
   "r6094": {
    "name": "Juan Carlos Rincón",
    "aliases": [
-    "Juan Carlos Rincón",
+    "Juan Carlos Rincón Pabón",
     "Juan Carlos Rincøn"
    ]
   },
   "r6095": {
    "name": "Jaime Arche",
    "aliases": [
-    "Jaime Arche"
+    "Jaime Arche Martinez"
    ]
+  },
+  "r6127": {
+   "name": "Johan Wendt Simonsen",
+   "aliases": []
+  },
+  "r6133": {
+   "name": "Ian Anderson",
+   "aliases": []
+  },
+  "r6138": {
+   "name": "Cesar La Barrera",
+   "aliases": []
+  },
+  "r6139": {
+   "name": "David Suarez",
+   "aliases": [
+    "David Suarez Romos"
+   ]
+  },
+  "r6140": {
+   "name": "Lucas Santos",
+   "aliases": []
+  },
+  "r6141": {
+   "name": "Gabe Maher",
+   "aliases": []
+  },
+  "r6142": {
+   "name": "Paul Carey",
+   "aliases": []
+  },
+  "r6143": {
+   "name": "Julian Forde",
+   "aliases": []
+  },
+  "r6144": {
+   "name": "Shannon Hearse",
+   "aliases": []
+  },
+  "r6145": {
+   "name": "Tom Rentoul",
+   "aliases": []
+  },
+  "r6146": {
+   "name": "Chris Kobier",
+   "aliases": []
+  },
+  "r6147": {
+   "name": "Noel Edmondson",
+   "aliases": []
+  },
+  "r6148": {
+   "name": "Steven Collins",
+   "aliases": []
+  },
+  "r6154": {
+   "name": "Daniel Adams",
+   "aliases": []
+  },
+  "r6155": {
+   "name": "Adam Gates",
+   "aliases": []
+  },
+  "r6160": {
+   "name": "Kazuki Yoshihara",
+   "aliases": []
+  },
+  "r6161": {
+   "name": "Charo De Leon",
+   "aliases": []
+  },
+  "r6163": {
+   "name": "Vicente Alonso",
+   "aliases": []
+  },
+  "r6164": {
+   "name": "Tanguy Braud",
+   "aliases": []
+  },
+  "r6174": {
+   "name": "Matthew Yan",
+   "aliases": []
+  },
+  "r6176": {
+   "name": "Ricard Tena",
+   "aliases": []
+  },
+  "r6177": {
+   "name": "Lucas Beste",
+   "aliases": []
+  },
+  "r6180": {
+   "name": "Miao Ho",
+   "aliases": []
+  },
+  "r6181": {
+   "name": "Cheng-Lun Wu",
+   "aliases": []
+  },
+  "r6182": {
+   "name": "Adam Lewis",
+   "aliases": []
+  },
+  "r6186": {
+   "name": "Ajay Daniels",
+   "aliases": []
+  },
+  "r6188": {
+   "name": "Ling Chieh Chang",
+   "aliases": []
   }
  }
 }

@@ -350,11 +350,11 @@
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 42,
      "name": "Haakon Wegge",
      "time": 152.69,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NOR"
     },
     {
@@ -702,11 +702,11 @@
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 86,
      "name": "Stephane Glaize",
      "time": 165.72,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     },
     {
@@ -726,11 +726,11 @@
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 89,
      "name": "Federico Palpacelli",
      "time": 168.41,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
@@ -790,11 +790,11 @@
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 97,
      "name": "Jakub Buchtik",
      "time": 207.88,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SVK"
     },
     {
@@ -862,11 +862,11 @@
      "nat": "NOR"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Haakon Wegge",
      "time": 152.69,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NOR"
     },
     {
@@ -1014,11 +1014,11 @@
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 13,
      "name": "William Condon",
      "time": 151.57,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
@@ -1062,11 +1062,11 @@
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 19,
      "name": "Petr Kopáč",
      "time": 153.26,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CZK"
     },
     {

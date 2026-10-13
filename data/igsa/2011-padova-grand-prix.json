@@ -87,11 +87,11 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Adam Persson",
      "time": 121.9,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
@@ -207,11 +207,11 @@
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 24,
      "name": "Thibault Courtois",
      "time": 125.0,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     },
     {
@@ -622,11 +622,11 @@
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 76,
      "name": "Daniel Hawes",
      "time": 151.02,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUS"
     }
    ]

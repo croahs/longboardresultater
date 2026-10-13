@@ -31,11 +31,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Carlos Paixâo",
      "time": 83.02,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -71,19 +71,19 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Bruno Splenger",
      "time": 85.9,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Douglas Silva",
      "time": 85.9,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -103,11 +103,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "Daniel Lara",
      "time": 87.4,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -127,11 +127,11 @@
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 14,
      "name": "Rafael Sabela",
      "time": 89.2,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -151,11 +151,11 @@
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 17,
      "name": "Jeremias Gasparoto",
      "time": 90.07,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -222,11 +222,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 26,
      "name": "Matheus Ribeiro",
      "time": 94.97,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -262,11 +262,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 31,
      "name": "Sixto Batista",
      "time": 99.88,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -278,11 +278,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 33,
      "name": "Dida Arendt",
      "time": 104.53,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -294,35 +294,35 @@
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 35,
      "name": "Jonatas Carvalho",
      "time": 105.65,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 36,
      "name": "Lucas Pereira",
      "time": 106.18,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 37,
      "name": "William Santos",
      "time": 113.57,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 38,
      "name": "Jorge Penalosa",
      "time": 120.25,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     }
    ]
@@ -334,19 +334,19 @@
    "source": "http://web.archive.org/web/20240830225933id_/https://igsaworldcup.com/results/2017/2017_teutonia_worldchampionships-qual / Women Downhill Skateboard / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Melissa Brogni",
      "time": 98.87,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Josefa Porter",
      "time": 104.43,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
@@ -462,11 +462,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Dacio Franco",
      "time": 90.15,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -534,19 +534,19 @@
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 13,
      "name": "Hugo Freitas",
      "time": 102.23,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 14,
      "name": "Alexandre Castilho",
      "time": 102.52,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -558,11 +558,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 16,
      "name": "Walter Junior",
      "time": 115.22,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     }
    ]
@@ -702,19 +702,19 @@
    "source": "http://web.archive.org/web/20240830225933id_/https://igsaworldcup.com/results/2017/2017_teutonia_worldchampionships-qual / Classic Luge / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Konstantin Weigl",
      "time": 86.28,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Ignacio Palacios",
      "time": 89.4,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
@@ -750,99 +750,99 @@
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Anderson Dantas",
      "time": 89.86,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Pablo Haedo",
      "time": 90.08,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Dimitri Ivanov",
      "time": 91.45,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Fausto Guedes",
      "time": 92.21,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Rodolfo Tanno",
      "time": 94.02,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Charles Alves",
      "time": 95.01,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Jimmy Rockpack",
      "time": 95.19,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "PER"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Hilmar Schmitz",
      "time": 96.93,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Danilo Ferraz",
      "time": 96.94,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "Cristiano Sens",
      "time": 104.22,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 12,
      "name": "Anderson Olimpo",
      "time": 104.59,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 13,
      "name": "Leandro Pelayes",
      "time": 109.18,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {

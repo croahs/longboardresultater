@@ -201,19 +201,19 @@
      "nat": "GBR"
     },
     {
-     "place": null,
+     "place": 23,
      "name": "Michael Thirtle",
      "time": 69.0,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GBR"
     },
     {
-     "place": null,
+     "place": 24,
      "name": "Alex Parfitt",
      "time": 75.7,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GBR"
     },
     {
@@ -377,11 +377,11 @@
    "source": "http://web.archive.org/web/20111008005633id_/http://www.igsaworldcup.com/results/2011/2011_bopeep_rg.pdf / Street Luge / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "William Stephenson",
      "time": 43.34,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GBR"
     },
     {
@@ -449,11 +449,11 @@
      "nat": "GBR"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Pete Davies",
      "time": 56.91,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GBR"
     }
    ]

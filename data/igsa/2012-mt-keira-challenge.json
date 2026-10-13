@@ -1213,6 +1213,167 @@
      "dnf": false,
      "dns": false,
      "nat": "AUS"
+    },
+    {
+     "place": 16,
+     "name": "Henry Robson",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 17,
+     "name": "Caspian Baska",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 18,
+     "name": "Blake George",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 19,
+     "name": "Sam Gerber",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 20,
+     "name": "Lewis Carroll",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 21,
+     "name": "Alexander Groth",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 22,
+     "name": "James Stokes",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 23,
+     "name": "Addison Lucchesi",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 24,
+     "name": "Charlie Pemberton",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 25,
+     "name": "Jasper Marshall",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 26,
+     "name": "Charlie Harris",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 27,
+     "name": "Conrad To",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 28,
+     "name": "Harry Oman",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 29,
+     "name": "Alejandro Waring",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 30,
+     "name": "Chad Gibson",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 31,
+     "name": "Josh Musumeci",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 32,
+     "name": "Tommy Pritchard-Davies",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 33,
+     "name": "Kyle Summers",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 34,
+     "name": "Bayley Richardson",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 35,
+     "name": "Kirby Seeley",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 36,
+     "name": "Ben Halls",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 37,
+     "name": "Harry Hope",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 38,
+     "name": "Oliver Price-Reeve",
+     "time": null,
+     "dnf": false,
+     "dns": false
     }
    ]
   },
@@ -1415,995 +1576,995 @@
    "source": "http://web.archive.org/web/20250502041238id_/http://www.igsaworldcup.com/results/2012/2012_mt_keira_wc_qual.pdf / Downhill Skateboard / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Alex Tongue",
-     "time": null,
-     "dnf": true,
+     "time": 113.09,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Patrick Switzer",
-     "time": null,
-     "dnf": true,
+     "time": 113.74,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Mischo Erban",
-     "time": null,
-     "dnf": true,
+     "time": 115.11,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "James Kelly",
-     "time": null,
-     "dnf": true,
+     "time": 115.36,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Duke Degen",
-     "time": null,
-     "dnf": true,
+     "time": 115.36,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Torbjørn Sunde",
-     "time": null,
-     "dnf": true,
+     "time": 116.71,
+     "dnf": false,
      "dns": false,
      "nat": "NOR"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Louis Pilloni",
-     "time": null,
-     "dnf": true,
+     "time": 116.79,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Cameron Kite",
-     "time": null,
-     "dnf": true,
+     "time": 116.99,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Dillon Stephens",
-     "time": null,
-     "dnf": true,
+     "time": 117.86,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Richy Hornbrook",
-     "time": null,
-     "dnf": true,
+     "time": 117.87,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "Kyle Martin",
-     "time": null,
-     "dnf": true,
+     "time": 117.94,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 12,
      "name": "Ben Hay",
-     "time": null,
-     "dnf": true,
+     "time": 118.58,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 13,
      "name": "Adam Yates",
-     "time": null,
-     "dnf": true,
+     "time": 119.54,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 14,
      "name": "Mathias Lessmann",
-     "time": null,
-     "dnf": true,
+     "time": 119.68,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 15,
      "name": "Matt Kienzle",
-     "time": null,
-     "dnf": true,
+     "time": 119.84,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 16,
      "name": "Jayden Mitchell",
-     "time": null,
-     "dnf": true,
+     "time": 120.02,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 17,
      "name": "Curtis Onchi",
-     "time": null,
-     "dnf": true,
+     "time": 120.62,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 18,
      "name": "Raine Kent",
-     "time": null,
-     "dnf": true,
+     "time": 121.3,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 19,
      "name": "Chris O'Brien",
-     "time": null,
-     "dnf": true,
+     "time": 121.64,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 20,
      "name": "Michael Mifsud",
-     "time": null,
-     "dnf": true,
+     "time": 121.73,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 21,
      "name": "Scott Smith",
-     "time": null,
-     "dnf": true,
+     "time": 122.05,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 22,
      "name": "Anthony Graves",
-     "time": null,
-     "dnf": true,
+     "time": 122.24,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 23,
      "name": "Liam Bemrose",
-     "time": null,
-     "dnf": true,
+     "time": 122.28,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 24,
      "name": "Christoph Batt",
-     "time": null,
-     "dnf": true,
+     "time": 122.32,
+     "dnf": false,
      "dns": false,
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 25,
      "name": "Rob Mcwhinnie",
-     "time": null,
-     "dnf": true,
+     "time": 122.6,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 26,
      "name": "Caspian Baska",
-     "time": null,
-     "dnf": true,
+     "time": 122.62,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 27,
      "name": "Craig Bond",
-     "time": null,
-     "dnf": true,
+     "time": 122.67,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 28,
      "name": "Lars Mikalsen",
-     "time": null,
-     "dnf": true,
+     "time": 122.67,
+     "dnf": false,
      "dns": false,
      "nat": "NOR"
     },
     {
-     "place": null,
+     "place": 29,
      "name": "Corey Leeson",
-     "time": null,
-     "dnf": true,
+     "time": 122.84,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 30,
      "name": "Luca Coleman",
-     "time": null,
-     "dnf": true,
+     "time": 122.99,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 31,
      "name": "Ville Hietala",
-     "time": null,
-     "dnf": true,
+     "time": 123.08,
+     "dnf": false,
      "dns": false,
      "nat": "FIN"
     },
     {
-     "place": null,
+     "place": 32,
      "name": "Simon Duber",
-     "time": null,
-     "dnf": true,
+     "time": 123.36,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 33,
      "name": "Quin Finocchio",
-     "time": null,
-     "dnf": true,
+     "time": 123.75,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 34,
      "name": "Ethan Lau",
-     "time": null,
-     "dnf": true,
+     "time": 123.78,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 35,
      "name": "Douglas Silva",
-     "time": null,
-     "dnf": true,
+     "time": 123.92,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 36,
      "name": "James Kaczmarek",
-     "time": null,
-     "dnf": true,
+     "time": 124.17,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 37,
      "name": "Robin Sandberg",
-     "time": null,
-     "dnf": true,
+     "time": 124.31,
+     "dnf": false,
      "dns": false,
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 38,
      "name": "Austin Moncrieff",
-     "time": null,
-     "dnf": true,
+     "time": 124.61,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 39,
      "name": "Api Ihaia",
-     "time": null,
-     "dnf": true,
+     "time": 124.95,
+     "dnf": false,
      "dns": false,
      "nat": "NZL"
     },
     {
-     "place": null,
+     "place": 40,
      "name": "Callum O'Callaghan",
-     "time": null,
-     "dnf": true,
+     "time": 125.28,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 41,
      "name": "Shane Dennehy",
-     "time": null,
-     "dnf": true,
+     "time": 125.74,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 42,
      "name": "Josh Monk",
-     "time": null,
-     "dnf": true,
+     "time": 126.06,
+     "dnf": false,
      "dns": false,
      "nat": "GBR"
     },
     {
-     "place": null,
+     "place": 43,
      "name": "Leigh Griffiths",
-     "time": null,
-     "dnf": true,
+     "time": 126.27,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 44,
      "name": "Dylan Baddeley",
-     "time": null,
-     "dnf": true,
+     "time": 126.44,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 45,
      "name": "Dane Bond",
-     "time": null,
-     "dnf": true,
+     "time": 126.62,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 46,
      "name": "Sam Dalton",
-     "time": null,
-     "dnf": true,
+     "time": 126.92,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 47,
      "name": "Alex Martin",
-     "time": null,
-     "dnf": true,
+     "time": 126.93,
+     "dnf": false,
      "dns": false,
      "nat": "ESP"
     },
     {
-     "place": null,
+     "place": 48,
      "name": "Matthew Rae",
-     "time": null,
-     "dnf": true,
+     "time": 127.04,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 49,
      "name": "Scott Hammond",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "AUS"
-    },
-    {
-     "place": null,
-     "name": "Mark Hepple",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "AUS"
-    },
-    {
-     "place": null,
-     "name": "Stephen Daddow",
-     "time": null,
+     "time": 127.3,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 50,
+     "name": "Mark Hepple",
+     "time": 127.62,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 51,
+     "name": "Stephen Daddow",
+     "time": 127.67,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 52,
      "name": "Agustin-Pablo Virgolini",
-     "time": null,
-     "dnf": true,
+     "time": 127.69,
+     "dnf": false,
      "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 53,
      "name": "Ted Dwyer",
-     "time": null,
-     "dnf": true,
+     "time": 127.79,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 54,
      "name": "Matthew Cassar",
-     "time": null,
-     "dnf": true,
+     "time": 127.98,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 55,
      "name": "Lachlan Carey",
-     "time": null,
-     "dnf": true,
+     "time": 128.22,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 56,
      "name": "Harry Oman",
-     "time": null,
-     "dnf": true,
+     "time": 128.82,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 57,
      "name": "Neil Duddy",
-     "time": null,
-     "dnf": true,
+     "time": 128.86,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 58,
      "name": "Glenn Mills",
-     "time": null,
-     "dnf": true,
+     "time": 128.93,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 59,
      "name": "Ash Hughes",
-     "time": null,
-     "dnf": true,
+     "time": 129.41,
+     "dnf": false,
      "dns": false,
      "nat": "NZL"
     },
     {
-     "place": null,
+     "place": 60,
      "name": "Matt Boortman",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "AUS"
-    },
-    {
-     "place": null,
-     "name": "Jonatan Lundmark",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "AUS"
-    },
-    {
-     "place": null,
-     "name": "Jack Kent",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "AUS"
-    },
-    {
-     "place": null,
-     "name": "Owen Davey",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "AUS"
-    },
-    {
-     "place": null,
-     "name": "Will Morphett",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "AUS"
-    },
-    {
-     "place": null,
-     "name": "Ryan Nicholls",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "AUS"
-    },
-    {
-     "place": null,
-     "name": "Alejandro Waring",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "AUS"
-    },
-    {
-     "place": null,
-     "name": "Tim Day",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "AUS"
-    },
-    {
-     "place": null,
-     "name": "Steve Stuart-Smith",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "AUS"
-    },
-    {
-     "place": null,
-     "name": "Gabriel Gwynne",
-     "time": null,
+     "time": 129.95,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 61,
+     "name": "Jonatan Lundmark",
+     "time": 130.08,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 62,
+     "name": "Jack Kent",
+     "time": 130.43,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 63,
+     "name": "Owen Davey",
+     "time": 130.75,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 64,
+     "name": "Will Morphett",
+     "time": 131.12,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 65,
+     "name": "Ryan Nicholls",
+     "time": 131.55,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 66,
+     "name": "Alejandro Waring",
+     "time": 132.02,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 67,
+     "name": "Tim Day",
+     "time": 132.08,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 68,
+     "name": "Steve Stuart-Smith",
+     "time": 132.13,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 69,
+     "name": "Gabriel Gwynne",
+     "time": 132.47,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 70,
      "name": "Dejan Djukic",
-     "time": null,
-     "dnf": true,
+     "time": 132.54,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 71,
      "name": "Jeremy Rodgers",
-     "time": null,
-     "dnf": true,
+     "time": 132.58,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 72,
      "name": "Marisa Nunez",
-     "time": null,
-     "dnf": true,
+     "time": 132.92,
+     "dnf": false,
      "dns": false,
      "nat": "PER"
     },
     {
-     "place": null,
+     "place": 73,
      "name": "Ian Coggan",
-     "time": null,
-     "dnf": true,
+     "time": 133.06,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 74,
      "name": "Mikael Jensen",
-     "time": null,
-     "dnf": true,
+     "time": 133.35,
+     "dnf": false,
      "dns": false,
      "nat": "NOR"
     },
     {
-     "place": null,
+     "place": 75,
      "name": "Christopher Hardy",
-     "time": null,
-     "dnf": true,
+     "time": 133.56,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 76,
      "name": "Lea Robertson",
-     "time": null,
-     "dnf": true,
+     "time": 133.85,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 77,
      "name": "Josh Musumeci",
-     "time": null,
-     "dnf": true,
+     "time": 133.95,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 78,
      "name": "Nicolas Robert",
-     "time": null,
-     "dnf": true,
+     "time": 134.02,
+     "dnf": false,
      "dns": false,
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 79,
      "name": "Jarrod Starr",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "AUS"
-    },
-    {
-     "place": null,
-     "name": "Jack Glenn",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "AUS"
-    },
-    {
-     "place": null,
-     "name": "Addison Lucchesi",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "AUS"
-    },
-    {
-     "place": null,
-     "name": "Kelly Carter",
-     "time": null,
+     "time": 134.11,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 80,
+     "name": "Jack Glenn",
+     "time": 134.48,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 81,
+     "name": "Addison Lucchesi",
+     "time": 134.51,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 82,
+     "name": "Kelly Carter",
+     "time": 135.15,
+     "dnf": false,
+     "dns": false,
+     "nat": "AUS"
+    },
+    {
+     "place": 83,
      "name": "Blake George",
-     "time": null,
-     "dnf": true,
+     "time": 135.38,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 84,
      "name": "Charlie Pemberton",
-     "time": null,
-     "dnf": true,
+     "time": 135.66,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 85,
      "name": "Paul Gwillim",
-     "time": null,
-     "dnf": true,
+     "time": 136.24,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 86,
      "name": "Sam Gerber",
-     "time": null,
-     "dnf": true,
+     "time": 136.35,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 87,
      "name": "Dasha Kornienko",
-     "time": null,
-     "dnf": true,
+     "time": 136.65,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 88,
      "name": "Timothy Green",
-     "time": null,
-     "dnf": true,
+     "time": 137.02,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 89,
      "name": "Juan diego Millones",
-     "time": null,
-     "dnf": true,
+     "time": 137.09,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 90,
      "name": "Chad Gibson",
-     "time": null,
-     "dnf": true,
+     "time": 137.45,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 91,
      "name": "David Evans",
-     "time": null,
-     "dnf": true,
+     "time": 138.83,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 92,
      "name": "Josh Evans",
-     "time": null,
-     "dnf": true,
+     "time": 139.02,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 93,
      "name": "David Traina",
-     "time": null,
-     "dnf": true,
+     "time": 139.08,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 94,
      "name": "Jasper Marshall",
-     "time": null,
-     "dnf": true,
+     "time": 139.17,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 95,
      "name": "Tom Wolinski",
-     "time": null,
-     "dnf": true,
+     "time": 139.49,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 96,
      "name": "Zach Maclachlan",
-     "time": null,
-     "dnf": true,
+     "time": 139.81,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 97,
      "name": "Jason Wright",
-     "time": null,
-     "dnf": true,
+     "time": 139.9,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 98,
      "name": "Lewis Carroll",
-     "time": null,
-     "dnf": true,
+     "time": 139.99,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 99,
      "name": "Alexander Groth",
-     "time": null,
-     "dnf": true,
+     "time": 140.07,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 100,
      "name": "Charlie Harris",
-     "time": null,
-     "dnf": true,
+     "time": 140.08,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 101,
      "name": "Henry Robson",
-     "time": null,
-     "dnf": true,
+     "time": 140.23,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 102,
      "name": "Conrad To",
-     "time": null,
-     "dnf": true,
+     "time": 140.27,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 103,
      "name": "Hudson Proudman",
-     "time": null,
-     "dnf": true,
+     "time": 142.84,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 104,
      "name": "Tommy Pritchard-Davies",
-     "time": null,
-     "dnf": true,
+     "time": 144.02,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 105,
      "name": "James Stokes",
-     "time": null,
-     "dnf": true,
+     "time": 144.87,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 106,
      "name": "Daniel Guzzardi",
-     "time": null,
-     "dnf": true,
+     "time": 146.77,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 107,
      "name": "Kyle Summers",
-     "time": null,
-     "dnf": true,
+     "time": 147.1,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 108,
      "name": "Ishtar Bäcklund",
-     "time": null,
-     "dnf": true,
+     "time": 148.92,
+     "dnf": false,
      "dns": false,
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 109,
      "name": "Jamie Gwillim",
-     "time": null,
-     "dnf": true,
+     "time": 150.11,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 110,
      "name": "Bayley Richardson",
-     "time": null,
-     "dnf": true,
+     "time": 154.43,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 111,
      "name": "Patrick Hurel",
-     "time": null,
+     "time": 155.61,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 112,
      "name": "Gemma Holland",
-     "time": null,
+     "time": 155.65,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 113,
      "name": "Cory Ellis",
-     "time": null,
+     "time": 155.9,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 114,
      "name": "Kirby Seeley",
-     "time": null,
-     "dnf": true,
+     "time": 156.06,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 115,
      "name": "Ben Halls",
-     "time": null,
-     "dnf": true,
+     "time": 156.52,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 116,
      "name": "Ching-ling Ho",
-     "time": null,
-     "dnf": true,
+     "time": 156.53,
+     "dnf": false,
      "dns": false,
      "nat": "MAS"
     },
     {
-     "place": null,
+     "place": 117,
      "name": "Magaly Mcwhinnie",
-     "time": null,
-     "dnf": true,
+     "time": 157.96,
+     "dnf": false,
      "dns": false,
      "nat": "PER"
     },
     {
-     "place": null,
+     "place": 118,
      "name": "Daniel Hawes",
-     "time": null,
+     "time": 161.19,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 119,
      "name": "William Stephenson",
-     "time": null,
+     "time": 164.06,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GBR"
     },
     {
-     "place": null,
+     "place": 120,
      "name": "Harry Hope",
-     "time": null,
+     "time": 164.59,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 121,
      "name": "Jack Meyn",
-     "time": null,
+     "time": 165.09,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 122,
      "name": "Amy London",
-     "time": null,
-     "dnf": true,
+     "time": 166.35,
+     "dnf": false,
      "dns": false,
      "nat": "NZL"
     },
     {
-     "place": null,
+     "place": 123,
      "name": "Humberto de Melo",
-     "time": null,
-     "dnf": true,
+     "time": 173.43,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 124,
      "name": "Oliver Price-Reeve",
-     "time": null,
+     "time": 178.16,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUS"
     }
    ]
@@ -2415,66 +2576,66 @@
    "source": "http://web.archive.org/web/20250502041238id_/http://www.igsaworldcup.com/results/2012/2012_mt_keira_wc_qual.pdf / Women Downhill Skateboard / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Marisa Nunez",
-     "time": null,
-     "dnf": true,
+     "time": 132.92,
+     "dnf": false,
      "dns": false,
      "nat": "PER"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Lea Robertson",
-     "time": null,
-     "dnf": true,
+     "time": 133.85,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Dasha Kornienko",
-     "time": null,
-     "dnf": true,
+     "time": 136.65,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Ishtar Bäcklund",
-     "time": null,
-     "dnf": true,
+     "time": 148.92,
+     "dnf": false,
      "dns": false,
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Gemma Holland",
-     "time": null,
+     "time": 155.65,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Ching-ling Ho",
-     "time": null,
-     "dnf": true,
+     "time": 156.53,
+     "dnf": false,
      "dns": false,
      "nat": "MAS"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Magaly Mcwhinnie",
-     "time": null,
-     "dnf": true,
+     "time": 157.96,
+     "dnf": false,
      "dns": false,
      "nat": "PER"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Amy London",
-     "time": null,
-     "dnf": true,
+     "time": 166.35,
+     "dnf": false,
      "dns": false,
      "nat": "NZL"
     }
@@ -2487,307 +2648,307 @@
    "source": "http://web.archive.org/web/20250502041238id_/http://www.igsaworldcup.com/results/2012/2012_mt_keira_wc_qual.pdf / Junior 2 Downhill Skateboard / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Jayden Mitchell",
-     "time": null,
-     "dnf": true,
+     "time": 120.02,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Chris O'Brien",
-     "time": null,
-     "dnf": true,
+     "time": 121.64,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Michael Mifsud",
-     "time": null,
-     "dnf": true,
+     "time": 121.73,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Liam Bemrose",
-     "time": null,
-     "dnf": true,
+     "time": 122.28,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Caspian Baska",
-     "time": null,
-     "dnf": true,
+     "time": 122.62,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Quin Finocchio",
-     "time": null,
-     "dnf": true,
+     "time": 123.75,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Dylan Baddeley",
-     "time": null,
-     "dnf": true,
+     "time": 126.44,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Sam Dalton",
-     "time": null,
-     "dnf": true,
+     "time": 126.92,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Ted Dwyer",
-     "time": null,
-     "dnf": true,
+     "time": 127.79,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Harry Oman",
-     "time": null,
-     "dnf": true,
+     "time": 128.82,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "Alejandro Waring",
-     "time": null,
-     "dnf": true,
+     "time": 132.02,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 12,
      "name": "Dejan Djukic",
-     "time": null,
-     "dnf": true,
+     "time": 132.54,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 13,
      "name": "Ian Coggan",
-     "time": null,
-     "dnf": true,
+     "time": 133.06,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 14,
      "name": "Christopher Hardy",
-     "time": null,
-     "dnf": true,
+     "time": 133.56,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 15,
      "name": "Josh Musumeci",
-     "time": null,
-     "dnf": true,
+     "time": 133.95,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 16,
      "name": "Jack Glenn",
-     "time": null,
-     "dnf": true,
+     "time": 134.48,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 17,
      "name": "Addison Lucchesi",
-     "time": null,
-     "dnf": true,
+     "time": 134.51,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 18,
      "name": "Kelly Carter",
-     "time": null,
-     "dnf": true,
+     "time": 135.15,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 19,
      "name": "Blake George",
-     "time": null,
-     "dnf": true,
+     "time": 135.38,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 20,
      "name": "Charlie Pemberton",
-     "time": null,
-     "dnf": true,
+     "time": 135.66,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 21,
      "name": "Sam Gerber",
-     "time": null,
-     "dnf": true,
+     "time": 136.35,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 22,
      "name": "Chad Gibson",
-     "time": null,
-     "dnf": true,
+     "time": 137.45,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 23,
      "name": "Josh Evans",
-     "time": null,
-     "dnf": true,
+     "time": 139.02,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 24,
      "name": "Jasper Marshall",
-     "time": null,
-     "dnf": true,
+     "time": 139.17,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 25,
      "name": "Lewis Carroll",
-     "time": null,
-     "dnf": true,
+     "time": 139.99,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 26,
      "name": "Alexander Groth",
-     "time": null,
-     "dnf": true,
+     "time": 140.07,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 27,
      "name": "Charlie Harris",
-     "time": null,
-     "dnf": true,
+     "time": 140.08,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 28,
      "name": "Henry Robson",
-     "time": null,
-     "dnf": true,
+     "time": 140.23,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 29,
      "name": "Conrad To",
-     "time": null,
-     "dnf": true,
+     "time": 140.27,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 30,
      "name": "Hudson Proudman",
-     "time": null,
-     "dnf": true,
+     "time": 142.84,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 31,
      "name": "Tommy Pritchard-Davies",
-     "time": null,
-     "dnf": true,
+     "time": 144.02,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 32,
      "name": "James Stokes",
-     "time": null,
-     "dnf": true,
+     "time": 144.87,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 33,
      "name": "Kyle Summers",
-     "time": null,
-     "dnf": true,
+     "time": 147.1,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 34,
      "name": "Bayley Richardson",
-     "time": null,
-     "dnf": true,
+     "time": 154.43,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 35,
      "name": "Kirby Seeley",
-     "time": null,
-     "dnf": true,
+     "time": 156.06,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 36,
      "name": "Ben Halls",
-     "time": null,
-     "dnf": true,
+     "time": 156.52,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 37,
      "name": "Harry Hope",
-     "time": null,
+     "time": 164.59,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 38,
      "name": "Oliver Price-Reeve",
-     "time": null,
+     "time": 178.16,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUS"
     }
    ]
@@ -2799,98 +2960,98 @@
    "source": "http://web.archive.org/web/20250502041238id_/http://www.igsaworldcup.com/results/2012/2012_mt_keira_wc_qual.pdf / Classic Luge / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Abdil Mahdzan",
-     "time": null,
-     "dnf": true,
+     "time": 121.44,
+     "dnf": false,
      "dns": false,
      "nat": "MAS"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "David Anderson",
-     "time": null,
-     "dnf": true,
+     "time": 121.89,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Nic McKirdy",
-     "time": null,
-     "dnf": true,
+     "time": 124.12,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Frank Williams",
-     "time": null,
-     "dnf": true,
+     "time": 124.93,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Adam Sparks",
-     "time": null,
-     "dnf": true,
+     "time": 125.66,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Adam Yates",
-     "time": null,
-     "dnf": true,
+     "time": 126.05,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Daniel Newton",
-     "time": null,
-     "dnf": true,
+     "time": 127.22,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Stephen Daddow",
-     "time": null,
-     "dnf": true,
+     "time": 130.06,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Nicolas Robert",
-     "time": null,
-     "dnf": true,
+     "time": 131.66,
+     "dnf": false,
      "dns": false,
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Simon Godfrey",
-     "time": null,
-     "dnf": true,
+     "time": 132.86,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "David Miller",
-     "time": null,
-     "dnf": true,
+     "time": 134.53,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 12,
      "name": "Jeremy Rodgers",
-     "time": null,
-     "dnf": true,
+     "time": 141.61,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     }
@@ -2903,122 +3064,122 @@
    "source": "http://web.archive.org/web/20250502041238id_/http://www.igsaworldcup.com/results/2012/2012_mt_keira_wc_qual.pdf / Street Luge / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Abdil Mahdzan",
-     "time": null,
-     "dnf": true,
+     "time": 109.73,
+     "dnf": false,
      "dns": false,
      "nat": "MAS"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "William Stephenson",
-     "time": null,
-     "dnf": true,
+     "time": 113.15,
+     "dnf": false,
      "dns": false,
      "nat": "GBR"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Brendan Burke",
-     "time": null,
-     "dnf": true,
+     "time": 113.18,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "David Thompson",
-     "time": null,
-     "dnf": true,
+     "time": 115.53,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Frank Williams",
-     "time": null,
-     "dnf": true,
+     "time": 117.44,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "David Anderson",
-     "time": null,
-     "dnf": true,
+     "time": 118.16,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Steven Knudsen",
-     "time": null,
-     "dnf": true,
+     "time": 118.19,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Daniel Newton",
-     "time": null,
-     "dnf": true,
+     "time": 119.3,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Lance Evans",
-     "time": null,
-     "dnf": true,
+     "time": 119.39,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Adam Sparks",
-     "time": null,
-     "dnf": true,
+     "time": 119.84,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "Nic McKirdy",
-     "time": null,
-     "dnf": true,
+     "time": 120.38,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 12,
      "name": "David Miller",
-     "time": null,
-     "dnf": true,
+     "time": 120.76,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 13,
      "name": "Mark Anderson",
-     "time": null,
-     "dnf": true,
+     "time": 120.82,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 14,
      "name": "Simon Godfrey",
-     "time": null,
-     "dnf": true,
+     "time": 121.22,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 15,
      "name": "Mikael Jensen",
-     "time": null,
-     "dnf": true,
+     "time": 123.23,
+     "dnf": false,
      "dns": false,
      "nat": "NOR"
     }

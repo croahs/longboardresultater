@@ -2434,11 +2434,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 71,
      "name": "Alejandro Fernandes",
      "time": 82.03,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
@@ -2578,11 +2578,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "Morgana Luiz",
      "time": 106.16,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -2738,11 +2738,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 18,
      "name": "Otavio Aglio",
      "time": 79.83,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -3114,11 +3114,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 36,
      "name": "Leonardo Laky",
      "time": 76.88,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -3330,11 +3330,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 63,
      "name": "Thiago Tittoni",
      "time": 92.41,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -3378,11 +3378,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Alexandre Maia",
      "time": 75.91,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -3426,11 +3426,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Marinho Marcante",
      "time": 77.61,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -3450,11 +3450,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 12,
      "name": "Ivandro Silveira",
      "time": 80.75,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -3482,11 +3482,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 16,
      "name": "Marcelo Fiori",
      "time": 82.36,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -3514,11 +3514,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 20,
      "name": "Sandro Vargas",
      "time": 91.95,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -3570,11 +3570,11 @@
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Léo Borton",
      "time": 76.47,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -3594,11 +3594,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Walter Ribeiro-Baresi",
      "time": 78.5,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -3618,11 +3618,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Alexandre Machado",
      "time": 82.48,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     }
    ]
@@ -3634,11 +3634,11 @@
    "source": "http://web.archive.org/web/20240925015408id_/https://www.igsaworldcup.com/results/2013/2013_mad_rats_wc_qual.pdf / Street Luge / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Léo Borton",
      "time": 72.36,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -3666,19 +3666,19 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Gabriel Bernardes",
      "time": 73.6,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Alexandre Machado",
      "time": 74.88,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -3690,19 +3690,19 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Mario Jardim",
      "time": 75.02,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Walter Ribeiro-Baresi",
      "time": 77.0,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -3722,35 +3722,35 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 12,
      "name": "Claudemir Santos",
      "time": 79.35,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 13,
      "name": "Duane Espíndola",
      "time": 80.56,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 14,
      "name": "Fabrício Fachini",
      "time": 80.78,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 15,
      "name": "Leonardo Verardi",
      "time": 81.9,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -3762,19 +3762,19 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 17,
      "name": "Jades Santos",
      "time": 88.1,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 18,
      "name": "Marcos Rittef",
      "time": 98.26,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     }
    ]

@@ -233,11 +233,11 @@
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 27,
      "name": "Axel Bergström",
      "time": 63.75,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
@@ -369,19 +369,19 @@
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 44,
      "name": "Dennis Eriksson",
      "time": 66.13,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 45,
      "name": "Andreas Holm",
      "time": 66.22,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
@@ -473,19 +473,19 @@
      "nat": "NOR"
     },
     {
-     "place": null,
+     "place": 57,
      "name": "Nicolai Lindberg",
      "time": 67.54,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 58,
      "name": "Jonathan Kull",
      "time": 67.59,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
@@ -497,11 +497,11 @@
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 60,
      "name": "Erik Erlandsson",
      "time": 67.78,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
@@ -513,11 +513,11 @@
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 62,
      "name": "Sander Magnussen-Neraas",
      "time": 68.0,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NOR"
     },
     {
@@ -593,11 +593,11 @@
      "nat": "NOR"
     },
     {
-     "place": null,
+     "place": 72,
      "name": "Olav Røil",
      "time": 68.91,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NOR"
     },
     {
@@ -649,11 +649,11 @@
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 79,
      "name": "Ming Chan",
      "time": 71.47,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
@@ -673,11 +673,11 @@
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 82,
      "name": "Ola Smith-Erichsen",
      "time": 72.53,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NOR"
     },
     {
@@ -705,11 +705,11 @@
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 86,
      "name": "Jesper Rossing",
      "time": 74.94,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
@@ -744,35 +744,35 @@
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 91,
      "name": "Alexander Larsson",
      "time": 76.16,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 92,
      "name": "Ruben Higgins",
      "time": 76.22,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 93,
      "name": "Lars-Petter Brevig",
      "time": 77.03,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NOR"
     },
     {
-     "place": null,
+     "place": 94,
      "name": "Francisco Fjeldstad",
      "time": 77.18,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NOR"
     },
     {
@@ -784,11 +784,11 @@
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 96,
      "name": "Max-Philip Michelsen",
      "time": 78.44,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NOR"
     },
     {
@@ -808,11 +808,11 @@
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 99,
      "name": "Olof Wahlgren",
      "time": 79.78,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
@@ -832,11 +832,11 @@
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 102,
      "name": "Mathias Tams",
      "time": 93.59,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     }
    ]
@@ -880,99 +880,99 @@
    "source": "http://web.archive.org/web/20111008024333id_/http://www.igsaworldcup.com/results/2011/2011_ravenhill_rg_qual.pdf / Classic Luge / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Stefan Torstensson",
      "time": 67.81,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Victor Mårtensson",
      "time": 69.35,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Axel Nyström",
      "time": 69.44,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Jairo Carrasco",
      "time": 71.47,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "PER"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Henrique Bond",
      "time": 71.66,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Martin Klawitter",
      "time": 75.0,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Klaes Johansson",
      "time": 77.41,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Max Meurling",
      "time": 80.72,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Abbe Hussein",
      "time": 84.25,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Martin Edoff",
      "time": 85.22,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "Kim Nilsson",
      "time": 86.94,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 12,
      "name": "Anton Rooth-Bagger",
      "time": 124.97,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {

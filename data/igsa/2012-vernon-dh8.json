@@ -145,11 +145,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 16,
      "name": "Nick Breton",
      "time": 70.17,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
@@ -257,11 +257,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 30,
      "name": "Kelly Carter",
      "time": 72.53,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUS"
     },
     {
@@ -273,11 +273,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 32,
      "name": "Mischo Erban",
      "time": 72.91,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
@@ -353,11 +353,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 42,
      "name": "Kevin Breton",
      "time": 75.29,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
@@ -369,11 +369,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 44,
      "name": "Matt Ryan",
      "time": 76.45,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUT"
     },
     {
@@ -393,11 +393,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 47,
      "name": "Wolfgang Coleman",
      "time": 76.69,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
@@ -433,11 +433,11 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 52,
      "name": "Quinn Finocchio",
      "time": 79.73,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
@@ -457,11 +457,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 55,
      "name": "Aaron Christiensen",
      "time": 80.67,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
@@ -505,11 +505,11 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 61,
      "name": "Charlie Daigneault",
      "time": 83.0,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
@@ -537,19 +537,19 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 65,
      "name": "Rachel Rayne",
      "time": 89.63,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 66,
      "name": "Erica Greenup",
      "time": 91.39,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
@@ -577,11 +577,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 70,
      "name": "Marisa Nunez",
      "time": 107.73,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "PER"
     },
     {
@@ -617,11 +617,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Charlie Daigneault",
      "time": 83.0,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
@@ -633,19 +633,19 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Rachel Rayne",
      "time": 89.63,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Erica Greenup",
      "time": 91.39,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
@@ -657,11 +657,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Marisa Nunez",
      "time": 107.73,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "PER"
     }
    ]
@@ -761,11 +761,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Kelly Carter",
      "time": 72.53,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUS"
     },
     {
@@ -809,11 +809,11 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 14,
      "name": "Quinn Finocchio",
      "time": 79.73,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
@@ -905,11 +905,11 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Chris McBride",
      "time": 73.16,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -961,11 +961,11 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Chris McBride",
      "time": 77.58,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {

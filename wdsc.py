@@ -201,7 +201,7 @@ def parse_page(url, h, events):
             if re.match(r"^[a-z ]+ race \d results$", f):
                 event_timed = False
                 continue
-            m = re.match(r"^(?P<qs>qs\s*[-–]\s*)?(?P<place>.+?)\s+(?P<year>20\d\d)$", f)
+            m = re.match(r"^(?P<qs>qs\b[\s-]*)?(?P<place>.+?)\s+(?P<year>20\d\d)$", f)  # fold() drops the dash in "QS – Wales"
             if m and not re.search(r"wdsc|standings|championship|rankings", m.group("place")):
                 event, series, event_timed, rank_cls = new_event(events, _place(body), int(m.group("year")), "", url), "QS" if m.group("qs") else "", False, None
                 continue
@@ -243,11 +243,28 @@ def _place(heading):
     return t.strip(" -–")
 
 
+def drop_qs_copies(ev):
+    """A QS list that is the CT list of its class cut down to the QS riders, in the same order, is the same
+    race scored twice, not a race of its own: drop it. Names compare as word sets ('Vogel Paul' = 'Paul Vogel')."""
+    key = lambda n: frozenset(fold(n).split())
+    for qs in [r for r in ev["races"] if r["name"].endswith(" QS")]:
+        base = qs["name"][:-3]
+        ct = next((r for r in ev["races"] if r["name"] in (f"{base} CT", base) and r["format"] == qs["format"]), None)
+        if not ct:
+            continue
+        order = {key(x["name"]): i for i, x in enumerate(ct["results"])}
+        at = [order.get(key(x["name"])) for x in qs["results"]]
+        if None not in at and at == sorted(at):
+            ev["races"].remove(qs)
+            ev["notes"].append(f"{qs['name']} dropped: the {ct['name']} list cut down to the QS riders")
+
+
 def build(fetch=False):
     events = {}
     for url in pages(fetch):
         parse_page(url, page(url, fetch), events)
     for ev in events.values():
+        drop_qs_copies(ev)
         ev["needs_manual"] = not ev["races"]
     return events
 

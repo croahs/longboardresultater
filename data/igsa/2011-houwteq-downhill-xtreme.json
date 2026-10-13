@@ -593,6 +593,94 @@
    "results": [
     {
      "place": 1,
+     "name": "Oliver Nielsen",
+     "time": 57.18,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 2,
+     "name": "Paul Du Plessis",
+     "time": 57.99,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 3,
+     "name": "Torbjørn Sunde",
+     "time": 58.03,
+     "dnf": false,
+     "dns": false,
+     "nat": "NOR"
+    },
+    {
+     "place": 4,
+     "name": "Misho Erban",
+     "time": 58.06,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 5,
+     "name": "Murry Chandler",
+     "time": 58.55,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 6,
+     "name": "Anton Pratt",
+     "time": 58.98,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 7,
+     "name": "Glen Phillips",
+     "time": 59.06,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 8,
+     "name": "Mike Upham",
+     "time": 59.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 9,
+     "name": "Terry Terblanche",
+     "time": 59.33,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 10,
+     "name": "Richard Dweza",
+     "time": 59.47,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 11,
+     "name": "Attila Hery",
+     "time": 59.53,
+     "dnf": false,
+     "dns": false,
+     "nat": "RSA"
+    },
+    {
+     "place": 12,
      "name": "Justin Readings",
      "time": 60.01,
      "dnf": false,
@@ -600,7 +688,7 @@
      "nat": "CAN"
     },
     {
-     "place": 2,
+     "place": 13,
      "name": "Trout Reece Pyro",
      "time": 60.05,
      "dnf": false,
@@ -608,7 +696,7 @@
      "nat": "RSA"
     },
     {
-     "place": 3,
+     "place": 14,
      "name": "Andreas Valebjørg",
      "time": 60.3,
      "dnf": false,
@@ -616,23 +704,7 @@
      "nat": "NOR"
     },
     {
-     "place": 4,
-     "name": "Paul Du Plessis",
-     "time": 60.31,
-     "dnf": false,
-     "dns": false,
-     "nat": "RSA"
-    },
-    {
-     "place": 5,
-     "name": "Mike Upham",
-     "time": 60.44,
-     "dnf": false,
-     "dns": false,
-     "nat": "RSA"
-    },
-    {
-     "place": 6,
+     "place": 15,
      "name": "Nick Hook",
      "time": 60.75,
      "dnf": false,
@@ -640,15 +712,7 @@
      "nat": "RSA"
     },
     {
-     "place": 7,
-     "name": "Attila Hery",
-     "time": 60.83,
-     "dnf": false,
-     "dns": false,
-     "nat": "RSA"
-    },
-    {
-     "place": 8,
+     "place": 16,
      "name": "Stefan Rüfli",
      "time": 60.9,
      "dnf": false,
@@ -656,7 +720,7 @@
      "nat": "SUI"
     },
     {
-     "place": 9,
+     "place": 17,
      "name": "Matt Arderne",
      "time": 61.2,
      "dnf": false,
@@ -664,7 +728,7 @@
      "nat": "RSA"
     },
     {
-     "place": 10,
+     "place": 18,
      "name": "Lloyd Clark",
      "time": 61.22,
      "dnf": false,
@@ -672,7 +736,7 @@
      "nat": "RSA"
     },
     {
-     "place": 11,
+     "place": 19,
      "name": "Alex Duss",
      "time": 61.47,
      "dnf": false,
@@ -680,7 +744,7 @@
      "nat": "RSA"
     },
     {
-     "place": 12,
+     "place": 20,
      "name": "Berg Raoul Van Den",
      "time": 62.07,
      "dnf": false,
@@ -688,7 +752,7 @@
      "nat": "RSA"
     },
     {
-     "place": 13,
+     "place": 21,
      "name": "Sam Jakins",
      "time": 62.99,
      "dnf": false,
@@ -696,14 +760,14 @@
      "nat": "RSA"
     },
     {
-     "place": 14,
+     "place": 22,
      "name": "Gerhard Nel",
      "time": 63.19,
      "dnf": false,
      "dns": false
     },
     {
-     "place": 15,
+     "place": 23,
      "name": "Craig Mckune",
      "time": 63.41,
      "dnf": false,
@@ -711,7 +775,7 @@
      "nat": "RSA"
     },
     {
-     "place": 16,
+     "place": 24,
      "name": "Kent Lingevelt",
      "time": 63.5,
      "dnf": false,
@@ -719,7 +783,7 @@
      "nat": "RSA"
     },
     {
-     "place": 17,
+     "place": 25,
      "name": "Vegard Tvete",
      "time": 64.33,
      "dnf": false,
@@ -727,14 +791,14 @@
      "nat": "NOR"
     },
     {
-     "place": 18,
+     "place": 26,
      "name": "Justin Brown",
      "time": 64.45,
      "dnf": false,
      "dns": false
     },
     {
-     "place": 19,
+     "place": 27,
      "name": "Rebekka Gemperle",
      "time": 64.67,
      "dnf": false,
@@ -742,14 +806,14 @@
      "nat": "SUI"
     },
     {
-     "place": 20,
+     "place": 28,
      "name": "Philip Elliott",
      "time": 65.23,
      "dnf": false,
      "dns": false
     },
     {
-     "place": 21,
+     "place": 29,
      "name": "Craig Harvey",
      "time": 65.33,
      "dnf": false,
@@ -757,21 +821,21 @@
      "nat": "RSA"
     },
     {
-     "place": 22,
+     "place": 30,
      "name": "Steve Sharp",
      "time": 66.83,
      "dnf": false,
      "dns": false
     },
     {
-     "place": 23,
+     "place": 31,
      "name": "Ren Huisamen",
      "time": 66.92,
      "dnf": false,
      "dns": false
     },
     {
-     "place": 24,
+     "place": 32,
      "name": "Richard Gibello",
      "time": 67.7,
      "dnf": false,
@@ -779,14 +843,14 @@
      "nat": "RSA"
     },
     {
-     "place": 25,
+     "place": 33,
      "name": "Enrique Engel",
      "time": 69.12,
      "dnf": false,
      "dns": false
     },
     {
-     "place": 26,
+     "place": 34,
      "name": "Robin Moodley",
      "time": 69.41,
      "dnf": false,
@@ -794,7 +858,7 @@
      "nat": "RSA"
     },
     {
-     "place": 27,
+     "place": 35,
      "name": "Anni Lindenmaier",
      "time": 69.56,
      "dnf": false,
@@ -802,14 +866,14 @@
      "nat": "GER"
     },
     {
-     "place": 28,
+     "place": 36,
      "name": "Gary Africa",
      "time": 69.59,
      "dnf": false,
      "dns": false
     },
     {
-     "place": 29,
+     "place": 37,
      "name": "Tamara Prader",
      "time": 69.83,
      "dnf": false,
@@ -817,75 +881,11 @@
      "nat": "SUI"
     },
     {
-     "place": 30,
-     "name": "Richard Dweza",
-     "time": 78.53,
-     "dnf": false,
-     "dns": false,
-     "nat": "RSA"
-    },
-    {
-     "place": 31,
+     "place": 38,
      "name": "Bergh Eebin Van Den",
      "time": 90.19,
      "dnf": false,
      "dns": false
-    },
-    {
-     "place": null,
-     "name": "Oliver Nielsen",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "RSA"
-    },
-    {
-     "place": null,
-     "name": "Torbjørn Sunde",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "NOR"
-    },
-    {
-     "place": null,
-     "name": "Misho Erban",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Murry Chandler",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "RSA"
-    },
-    {
-     "place": null,
-     "name": "Anton Pratt",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "RSA"
-    },
-    {
-     "place": null,
-     "name": "Glen Phillips",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "RSA"
-    },
-    {
-     "place": null,
-     "name": "Terry Terblanche",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "RSA"
     }
    ]
   },
@@ -938,7 +938,7 @@
     {
      "place": 1,
      "name": "Adam Lincoln-Lewis",
-     "time": 60.27,
+     "time": 59.85,
      "dnf": false,
      "dns": false,
      "nat": "RSA"

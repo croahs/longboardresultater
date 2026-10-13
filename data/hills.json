@@ -13,6 +13,7 @@
   {"id": "tryvann", "name": "Tryvann", "place": "Oslo", "center": [59.98, 10.67], "start": null, "finish": null},
   {"id": "hoddevik", "name": "Hoddevik", "place": "Stad", "center": [62.11, 5.05], "start": [62.115125, 5.197241], "finish": [62.116449, 5.191426]},
   {"id": "kdf", "name": "KDF", "place": "unknown", "center": null, "start": null, "finish": null},
+  {"id": "hasselbakken", "name": "Hasselbakken", "place": "Lier", "center": null, "start": null, "finish": null},
   {"id": "djupdalsveien", "name": "Djupdalsveien", "place": "Drammen", "center": [59.75, 10.17], "start": null, "finish": null},
   {"id": "skyggen", "name": "Skyggen", "place": "unknown", "center": null, "start": null, "finish": null},
   {"id": "graveyard", "name": "The Graveyard Call", "place": "unknown", "center": null, "start": null, "finish": null}

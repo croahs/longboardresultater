@@ -1,6 +1,6 @@
 // Copies the JSON the site reads into public/data before dev/build:
 //   ../data/site/*       (sitedata.py: site.json)
-//   ../data/riders/*     (sitedata.py: search index + every rider, in shards)
+//   ../data/riders/*     (sitedata.py: search index + one file per rider)
 //   ../data/races.json   (sitedata.py: every result list)
 //   ../data/summary.json (sitedata.py: front page numbers and top lists)
 //   ../data/videos.json  (hand-kept: riders' YouTube channels and race videos)

@@ -10,7 +10,9 @@
   "https://worlddownhillskateboardingchampionship.com/standings-2024/"
  ],
  "titles": [],
- "notes": [],
+ "notes": [
+  "Luge QS dropped: the Luge list cut down to the QS riders"
+ ],
  "races": [
   {
    "name": "Open",
@@ -232,6 +234,84 @@
     {
      "place": 8,
      "name": "Martland Ian",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    }
+   ]
+  },
+  {
+   "name": "Open QS",
+   "kind": "Open",
+   "format": "bracket",
+   "source": "https://worlddownhillskateboardingchampionship.com/standings-2024/ / QS Open Stand Up Skateboard",
+   "results": [
+    {
+     "place": 1,
+     "name": "Oscar Gutierrez",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 2,
+     "name": "Dexter Manning",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 3,
+     "name": "Hussain Al-Nasrallah",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 4,
+     "name": "Micaiah Harness",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 5,
+     "name": "Lisa Peters",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 6,
+     "name": "Valera Fles",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 7,
+     "name": "Antonio francesco Bonventre",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 8,
+     "name": "Cristiano Borges de Araújo",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 9,
+     "name": "William Aston",
+     "time": null,
+     "dnf": false,
+     "dns": false
+    },
+    {
+     "place": 10,
+     "name": "Jose Rogelio Valdes Bennett",
      "time": null,
      "dnf": false,
      "dns": false

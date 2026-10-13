@@ -367,11 +367,11 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Kyle Belcher",
      "time": 68.66,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {

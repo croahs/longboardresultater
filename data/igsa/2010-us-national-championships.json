@@ -23,11 +23,11 @@
    "source": "http://web.archive.org/web/20111018095500id_/http://www.igsaworldcup.com/results/2010//2010_us_nationals_na_qual.pdf / Downhill Skateboard / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Erik Lundberg",
      "time": 64.09,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
@@ -55,19 +55,19 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Nick Ronzani",
      "time": 66.32,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Evren Ozan",
      "time": 66.64,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -135,11 +135,11 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 15,
      "name": "Brett McCansland",
      "time": 70.18,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -151,19 +151,19 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 17,
      "name": "David Quezada",
      "time": 70.9,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 18,
      "name": "Brian Vigil",
      "time": 71.2,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -175,19 +175,19 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 20,
      "name": "Roland Sumile",
      "time": 71.75,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 21,
      "name": "DJ Jackson",
      "time": 71.76,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -207,11 +207,11 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 24,
      "name": "Brian Ward",
      "time": 71.95,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "IRL"
     },
     {
@@ -231,19 +231,19 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 27,
      "name": "Hunter Schwirtz",
      "time": 73.42,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 28,
      "name": "Ricky Kludy",
      "time": 75.27,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -263,35 +263,35 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 31,
      "name": "Wyatt Gibbs",
      "time": 84.55,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 32,
      "name": "Hunter Swanson",
      "time": 85.64,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 33,
      "name": "Jake Fast",
      "time": 86.98,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 34,
      "name": "Noah Rutherford",
      "time": 94.41,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -319,43 +319,43 @@
    "source": "http://web.archive.org/web/20111018095500id_/http://www.igsaworldcup.com/results/2010//2010_us_nationals_na_qual.pdf / Junior 1 Downhill Skateboard / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Chance Gaul",
      "time": 75.02,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Wyatt Gibbs",
      "time": 80.48,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Roger Jones",
      "time": 81.84,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Jake Fast",
      "time": 84.12,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Tanner Flagstad",
      "time": 94.0,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     }
    ]
@@ -367,163 +367,163 @@
    "source": "http://web.archive.org/web/20111018095500id_/http://www.igsaworldcup.com/results/2010//2010_us_nationals_na_qual.pdf / Junior 2 Downhill Skateboard / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Micah Green",
      "time": 65.41,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Evren Ozan",
      "time": 66.63,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Connor Wagner",
      "time": 67.18,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Quin Finocchio",
      "time": 67.84,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Riley Crone",
      "time": 68.18,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Zachery Baca",
      "time": 68.19,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Nick Ronzani",
      "time": 68.75,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "DJ Jackson",
      "time": 70.25,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Alex Gradillas",
      "time": 71.87,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Arthur Wexell",
      "time": 72.47,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "Austin Nicassio",
      "time": 72.83,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 12,
      "name": "Bryn Jones",
      "time": 72.9,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 13,
      "name": "Liam Morgan",
      "time": 73.8,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 14,
      "name": "Scott Hamilton",
      "time": 74.54,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 15,
      "name": "Hunter Schwirtz",
      "time": 75.0,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 16,
      "name": "Avery Crowl",
      "time": 77.34,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 17,
      "name": "Nathan Bryant",
      "time": 82.27,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 18,
      "name": "Hunter Swanson",
      "time": 82.8,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 19,
      "name": "David Quezada",
      "time": 87.09,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 20,
      "name": "Christian Conaway",
      "time": 94.36,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -551,91 +551,91 @@
    "source": "http://web.archive.org/web/20111018095500id_/http://www.igsaworldcup.com/results/2010//2010_us_nationals_na_qual.pdf / Street Luge / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Christian Conaway",
      "time": 65.57,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "John Rogers",
      "time": 66.24,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Brian Lee",
      "time": 66.84,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Kyle Castaneda",
      "time": 67.36,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Justin Tolman",
      "time": 67.48,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Ronnie Iverson Jr",
      "time": 71.23,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Samuele Schoenberg",
      "time": 71.75,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Marianne Guarena",
      "time": 72.85,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Noah Rutherford",
      "time": 73.91,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Tabitha Mitchell",
      "time": 82.05,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "Ron Iverson Sr",
      "time": 107.81,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     }
    ]
@@ -647,51 +647,51 @@
    "source": "http://web.archive.org/web/20111018095500id_/http://www.igsaworldcup.com/results/2010//2010_us_nationals_na_qual.pdf / Classic Luge / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Kyle Castaneda",
      "time": 69.94,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Scott Peer",
      "time": 72.14,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Christian Conaway",
      "time": 74.29,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Justin Tolman",
      "time": 77.31,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Ronnie Iverson Jr",
      "time": 81.01,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "DJ Jackson",
      "time": 88.51,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     }
    ]

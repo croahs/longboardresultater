@@ -6,18 +6,19 @@ import { KlasseProvider, KlasseToggle } from "../klasse";
 import { href } from "../nav";
 import { useNorge } from "../scope";
 import { Sources } from "../sources";
-import { Cls, Empty, Icon, Loading } from "../ui";
+import { Cls, Empty, Failed, Icon, Loading } from "../ui";
 
 /* One result list, for anyone: «Åpen» is everybody, «Kvinner» the women placed among themselves.
    DNF comes after everyone who finished. Other lists from the same event sit under it. */
 
 export default function Race({ id, index }: { id: string; index: IndexRider[] }) {
   const [all, setAll] = useState<RaceList[] | null>(null);
+  const [err, setErr] = useState(false);
   const [women, setWomen] = useState(false);
   const norge = useNorge();
   const [vfile, setVfile] = useState<VideoFile | null>(null);
   const [hs, setHs] = useState<Hill[]>([]);
-  useEffect(() => { let live = true; raceLists().then((l) => live && setAll(l)).catch(() => live && setAll([])); loadVideos().then((f) => live && setVfile(f)); hills().then((h) => live && setHs(h)).catch(() => {}); return () => { live = false; }; }, []);
+  useEffect(() => { let live = true; raceLists().then((l) => live && setAll(l)).catch(() => live && setErr(true)); loadVideos().then((f) => live && setVfile(f)); hills().then((h) => live && setHs(h)).catch(() => {}); return () => { live = false; }; }, []);
   const race = all?.find((r) => r.id === id);
   const siblings = useMemo(() => (race ? all!.filter((r) => r.event === race.event && r.id !== race.id) : []), [all, race]);
   const known = useMemo(() => new Set(index.map((r) => r.id)), [index]);
@@ -29,6 +30,7 @@ export default function Race({ id, index }: { id: string; index: IndexRider[] })
     const done = pick.filter((r) => r[2] != null).sort((a, b) => a[2]! - b[2]!);
     return [...done, ...pick.filter((r) => r[2] == null)];
   }, [race, women, only]);
+  if (err) return <Failed what={t("resultatlisten", "the result list")} />;
   if (all === null) return <Loading what={t("resultatlisten", "the result list")} />;
   if (!race) return <Empty title={t("Fant ikke racet", "Could not find the race")}><a href={href.home()}>{t("Til forsiden", "To the front page")}</a></Empty>;
   const hill = hs.find((h) => h.id === race.hill);
@@ -44,7 +46,7 @@ export default function Race({ id, index }: { id: string; index: IndexRider[] })
             <p className="eyebrow"><span className="type-dot" /> {typeLabel(race.type)} · {race.date_known ? dateLong(race.date) : race.date.slice(0, 4)}{hill && <> · <a href={href.hill(hill.id)}>{hill.name}</a></>}</p>
             <h1 className="h-display" id="h-race">{race.name} <span className="muted">{race.date.slice(0, 4)}</span></h1>
             <p className="race-cls"><Cls type={race.type} cls={race.cls} big /></p>
-            <p className="lead">{women ? t(`${finished} kvinner i mål`, `${finished} women finished`) : only ? t(`${finished} fra Norge-utvalget i mål`, `${finished} from the Norway view finished`) : t(`${finished} i mål`, `${finished} finished`)}{rows.length > finished ? `, ${rows.length - finished} DNF` : ""}. {timed ? t("Rangert på tid.", "Ranked on time.") : t("Plassering fra heatene.", "Placings from the heats.")}{women ? t(" Plassene er regnet blant kvinnene.", " Places are counted among the women.") : only ? t(` Plassene er regnet blant dem; hele listen har ${race.rows.length} kjørere.`, ` Places are counted among them; the full list has ${race.rows.length} riders.`) : ""}</p>
+            <p className="lead">{women ? t(`${finished} kvinner i mål`, `${finished} women finished`) : only ? t(`${finished} fra Norge-utvalget i mål`, `${finished} from the Norway view finished`) : t(`${finished} i mål`, `${finished} finished`)}{rows.length > finished ? `, ${rows.length - finished} DNF` : ""}. {timed ? t("Rangert på tid.", "Ranked on time.") : t("Plassering fra heatene.", "Placings from the heats.")}{women ? t(" Plassene er regnet blant kvinnene.", " Places are counted among the women.") : only ? t(` Plassene er regnet blant dem; hele listen har ${count(race.rows.length, ["kjører", "kjørere"], "rider")}.`, ` Places are counted among them; the full list has ${count(race.rows.length, ["kjører", "kjørere"], "rider")}.`) : ""}</p>
           </div>
           <div className="filters"><KlasseToggle />{race.url && <a className="btn ghost" href={race.url} target="_blank" rel="noopener">{t("Kilden", "Source")} <Icon.out /></a>}</div>
         </div>
@@ -67,7 +69,7 @@ export default function Race({ id, index }: { id: string; index: IndexRider[] })
         {siblings.length > 0 && (
           <div className="siblings">
             <p className="eyebrow">{t("Andre klasser i", "Other classes in")} {race.name} {race.date.slice(0, 4)}</p>
-            <ul>{siblings.map((r) => <li key={r.id} className={`type-${r.type}`}><a href={href.race(r.id)}><b><i className="type-dot" /> {r.cls}</b><span className="muted">{typeLabel(r.type) !== r.cls ? `${typeLabel(r.type)} · ` : ""}{count(r.rows.length, "kjørere", "rider")}</span></a></li>)}</ul>
+            <ul>{siblings.map((r) => <li key={r.id} className={`type-${r.type}`}><a href={href.race(r.id)}><b><i className="type-dot" /> {r.cls}</b><span className="muted">{typeLabel(r.type) !== r.cls ? `${typeLabel(r.type)} · ` : ""}{count(r.rows.length, ["kjører", "kjørere"], "rider")}</span></a></li>)}</ul>
           </div>
         )}
         <p className="fine">{t("Fra", "From")} <Sources />. {timed ? t("Tider er som i kildelisten.", "Times are as in the source list.") : t("Heat-formatet gir bare plasseringen, ikke tid.", "The heat format gives only the placing, not a time.")}</p>

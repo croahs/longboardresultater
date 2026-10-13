@@ -42,9 +42,9 @@ CLASSES = [(r"women|ladies|girl", "Women"), (r"junior", "Junior"), (r"master|vet
            (r"inline", "Inline"), (r"gravity bike|buttboard|king of the hill|slalom|team|open class", "Other"),
            (r"skateboard|downhill|stand ?up|street", "Open")]
 HEADING_RE = re.compile(r"^(?P<label>[A-Za-z][A-Za-z0-9 ()/&'+-]{0,70}?)\s*(?P<what>qualifying|results?)\b(?P<rest>.*)$", re.I)
-TIME_TOKEN = re.compile(r"^\d{1,2}[:.]\d{2}[.,:]\d{1,3}$|^\d{2}\.\d{3}$")
+TIME_TOKEN = re.compile(r"^\d{1,2}[:.]\d{2}[.,:]\d{1,3}$|^\d{2,3}\.\d{3}$")
 SHORT_TIME = re.compile(r"^\d{2}\.\d{2}$")  # 50.14: seconds, only trusted when the row has no fuller time
-ROW_RE = re.compile(r"^\s*[=T]?(\d{1,3}|DQ|DSQ|DNF|DNS)\.?\s+(?:(\d{1,4}|-)\s+)?([A-Za-z(].+?)\s*$", re.I)
+ROW_RE = re.compile(r"^\s*[=T]?(\d{1,3}|DQ|DSQ|DNF|DNS)\.?\s+(?:(x?\d{1,4}|-)\s+)?([A-Za-z(].+?)\s*$", re.I)  # bib x020 (2012 Swedish races)
 BRACKET_RE = re.compile(r"^(Round [A-Z]|QUAL\b|Pos\.? ?\d|Qual Finish)", re.I)
 PARTICLE = re.compile(r"^(jr|sr|ii|iii|iv|de|da|do|dos|das|del|della|di|du|la|le|van|von|der|den|ten|ter|y|e)\.?$", re.I)
 NOT_NAME_TOKEN = re.compile(r"^[\d.,$%-]+$|^(DNS|DNF|DQ|DSQ|NQT|N/A)$", re.I)
@@ -168,10 +168,11 @@ def header(text):
 
 
 def parse_date(s, year):
-    """'July 23, 2011', 'Dec 8-10, 2011', '10/1/2011', '6/29-30/2012', '6-30-05', '31-Aug-08' -> (date, known).
-    American month/day order. The year must be the file's; else the first of January, marked unknown."""
+    """'July 23, 2011', 'Dec 8-10, 2011', 'Sept-2-3-2011', '10/1/2011', '6/29-30/2012', '6-30-05', '31-Aug-08',
+    '18th March 2012', '9-10 May 2009' -> (date, known). American month/day order where both are numbers.
+    The year must be the file's; else the first of January, marked unknown."""
     s = s.replace("–", "-")
-    m = re.search(r"\b(\d{1,2})[/.-](\d{1,2})(?:-\d{1,2})?[/.-](\d{2,4})\b", s)
+    m = re.search(r"(?<![A-Za-z]-)\b(\d{1,2})[/.-](\d{1,2})(?:-\d{1,2})?[/.-](\d{2,4})\b", s)  # not the days of 'Sept-2-3-2011'
     if m:
         mo, d, y = int(m.group(1)), int(m.group(2)), int(m.group(3))
         y = y + 2000 if y < 100 else y
@@ -185,9 +186,14 @@ def parse_date(s, year):
         y = y + 2000 if y < 100 else y
         if y == year and 1 <= d <= 31:
             return f"{y}-{mo:02}-{d:02}", True
-    m = re.search(r"\b([A-Za-z]{3})[a-z]*\.?\s+(\d{1,2})(?:\s*-\s*(?:[A-Za-z]+\s+)?\d{1,2})?,?\s+(\d{4})\b", s)
+    m = re.search(r"\b([A-Za-z]{3})[a-z]*\.?[\s-]+(\d{1,2})(?:\s*-\s*(?:[A-Za-z]+\s+)?\d{1,2})?,?[\s-]+(\d{4})\b", s)
     if m and m.group(1).lower() in MONTHS:
         mo, d, y = MONTHS.index(m.group(1).lower()) + 1, int(m.group(2)), int(m.group(3))
+        if y == year and 1 <= d <= 31:
+            return f"{y}-{mo:02}-{d:02}", True
+    m = re.search(r"\b(\d{1,2})(?:st|nd|rd|th)?(?:\s*-\s*\d{1,2}(?:st|nd|rd|th)?)?\s+([A-Za-z]{3})[a-z]*\.?,?\s+(\d{4})\b", s)
+    if m and m.group(2).lower() in MONTHS:
+        d, mo, y = int(m.group(1)), MONTHS.index(m.group(2).lower()) + 1, int(m.group(3))
         if y == year and 1 <= d <= 31:
             return f"{y}-{mo:02}-{d:02}", True
     return f"{year}-01-01", False

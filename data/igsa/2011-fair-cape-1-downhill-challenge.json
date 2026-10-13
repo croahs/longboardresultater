@@ -265,11 +265,11 @@
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 31,
      "name": "Bradley Pinto",
      "time": 115.27,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     }
    ]
@@ -409,35 +409,35 @@
    "source": "http://web.archive.org/web/20111008051930id_/http://www.igsaworldcup.com/results/2011/2011_fair_cape_1_na.pdf / Classic Luge / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Russell Naude",
      "time": 99.68,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Glen Phillips",
      "time": 102.55,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Marco Caromba",
      "time": 104.11,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Nikki Caromba",
      "time": 104.64,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     }
    ]

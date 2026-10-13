@@ -4,7 +4,7 @@ import { dateLong, dec, num, pct, typeLabel } from "../format";
 import { t } from "../lang";
 import { href } from "../nav";
 import { gradeLegend } from "../grade";
-import { Empty, Loading } from "../ui";
+import { Empty, Failed, Loading } from "../ui";
 
 /* One hill: the road in 3D, coloured by steepness, who is best here, and every race run on it. The road comes
    from tracks.py once start and finish are marked in data/hills.json; until then the page says so. */
@@ -13,6 +13,7 @@ const TrackScene = lazy(() => import("../three/TrackScene"));
 
 export default function Hill({ id }: { id: string }) {
   const [hill, setHill] = useState<HillT | null | undefined>(undefined);
+  const [err, setErr] = useState(false);
   const [track, setTrack] = useState<Track | null>(null);
   const [races, setRaces] = useState<RaceList[]>([]);
   const [rating, setRating] = useState<Partial<Record<Pool, HillRating>>>({});
@@ -23,9 +24,10 @@ export default function Hill({ id }: { id: string }) {
       setHill(hs.find((h) => h.id === id) ?? null); setTrack(tr);
       setRaces(rs.filter((r) => r.hill === id).sort((a, b) => b.date.localeCompare(a.date)));
       setRating(s?.hill_rating?.[id] || {});
-    }).catch(() => live && setHill(null));
+    }).catch(() => live && setErr(true));
     return () => { live = false; };
   }, [id]);
+  if (err) return <Failed what={t("bakken", "the hill")} />;
   if (hill === undefined) return <Loading what={t("bakken", "the hill")} />;
   if (!hill) return <Empty title={t("Fant ikke bakken", "Could not find the hill")}><a href={href.home()}>{t("Til forsiden", "To the front page")}</a></Empty>;
   const events = new Map<string, RaceList[]>();
@@ -86,8 +88,8 @@ function BestHere({ name, rating }: { name: string; rating: Partial<Record<Pool,
         <div>
           <p className="eyebrow">{t("Hvem som er best her", "Who is best here")}</p>
           <h2 className="h-section" id="h-best">{t("Rating i", "Rating at")} {name}</h2>
-          <p className="lead">{t(`Ratingen regnet bare over racene i denne bakken: ${p.races} ${pool === "race" ? "heat-race" : "race på tid"} og ${p.riders} kjørere. Minst ${p.min_races} race her for å stå på listen, og ratingen faller ikke av seg selv. Snittplassering er over fullførte race.`,
-            `The rating over this hill's races alone: ${p.races} ${pool === "race" ? "heat races" : "timed races"} and ${p.riders} riders. At least ${p.min_races} races here to be listed, and the rating does not decay. Average place is over finished races.`)}</p>
+          <p className="lead">{t(`Ratingen regnet bare over racene i denne bakken: ${p.races} ${{ race: "heat-race", kvalik: "race på tid", luge: "luge heat-race", luge_kvalik: "luge-race på tid" }[pool]} og ${p.riders} kjørere. Minst ${p.min_races} race her for å stå på listen, og ratingen faller ikke av seg selv. Snittplassering er over fullførte race.`,
+            `The rating over this hill's races alone: ${p.races} ${{ race: "heat races", kvalik: "timed races", luge: "luge heat races", luge_kvalik: "timed luge races" }[pool]} and ${p.riders} riders. At least ${p.min_races} races here to be listed, and the rating does not decay. Average place is over finished races.`)}</p>
         </div>
         {pools.length > 1 && <div className="chips" role="group" aria-label="Pool">{pools.map((k) => <button key={k} type="button" className="chip" aria-pressed={pool === k} onClick={() => setPick(k)}>{poolLabel(k)}</button>)}</div>}
       </div>

@@ -63,11 +63,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Brent Dubendorff",
      "time": 205.23,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -263,11 +263,11 @@
      "nat": "MEX"
     },
     {
-     "place": null,
+     "place": 31,
      "name": "Jorge Celes",
      "time": 263.44,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "MEX"
     },
     {
@@ -319,19 +319,19 @@
      "nat": "MEX"
     },
     {
-     "place": null,
+     "place": 38,
      "name": "Donovan Garcia",
      "time": 306.97,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "MEX"
     },
     {
-     "place": null,
+     "place": 39,
      "name": "Valeria Figueroa",
      "time": 325.38,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "MEX"
     },
     {
@@ -343,19 +343,19 @@
      "nat": "MEX"
     },
     {
-     "place": null,
+     "place": 41,
      "name": "Mauricio Rodriguez",
      "time": 386.65,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "MEX"
     },
     {
-     "place": null,
+     "place": 42,
      "name": "Ayumi Oride",
      "time": 397.39,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "JAP"
     },
     {
@@ -407,19 +407,19 @@
      "nat": "MEX"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Valeria Figueroa",
      "time": 325.38,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "MEX"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Ayumi Oride",
      "time": 397.39,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "JAP"
     }
    ]
@@ -479,11 +479,11 @@
    "source": "http://web.archive.org/web/20130530050556id_/http://igsaworldcup.com/results/2012/2012_monterrea_%20longboard_fest_co_qual.pdf / Classic Luge / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Jon Huey",
      "time": 217.03,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {

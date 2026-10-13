@@ -23,155 +23,155 @@
    "source": "http://web.archive.org/web/20190915074023id_/http://www.igsaworldcup.com/results/2015/2015_padova_wc_wc_qual / Downhill Skateboard / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Quirin Ilmer",
      "time": 118.66,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUT"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Jimmy Riha",
      "time": 118.94,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Aleix Gallimo",
      "time": 119.35,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ESP"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Nicola Nührig",
      "time": 119.92,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUT"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Adam Persson",
      "time": 120.6,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Marc Escoda",
      "time": 120.74,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ESP"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Giorgio Garino",
      "time": 121.28,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Adria Arquimbau",
      "time": 122.08,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ESP"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Salerni Filippo",
      "time": 122.35,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Philipp Schickor",
      "time": 122.39,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "Stefano Barbizzi",
      "time": 122.43,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 12,
      "name": "Marcus Aldinucci",
      "time": 122.59,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 13,
      "name": "Oscar Rodriguez",
      "time": 122.62,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ESP"
     },
     {
-     "place": null,
+     "place": 14,
      "name": "Patrick Lorenzo Lombardi",
      "time": 122.64,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 15,
      "name": "Samuel Esaja Ekman",
      "time": 122.66,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 16,
      "name": "Giuseppe Maltese",
      "time": 123.36,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 17,
      "name": "Alessio D'Amato",
      "time": 123.37,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 18,
      "name": "Erik Lundberg",
      "time": 123.38,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SUE"
     },
     {
-     "place": null,
+     "place": 19,
      "name": "Tomas Turetta",
      "time": 124.84,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
@@ -183,35 +183,35 @@
      "nat": "AUT"
     },
     {
-     "place": null,
+     "place": 21,
      "name": "Javier Velasco",
      "time": 125.12,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ESP"
     },
     {
-     "place": null,
+     "place": 22,
      "name": "Ian Freire",
      "time": 125.43,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 23,
      "name": "Robreto Caliò",
      "time": 125.68,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 24,
      "name": "Matia Favero",
      "time": 126.02,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
@@ -223,19 +223,19 @@
      "nat": "ESP"
     },
     {
-     "place": null,
+     "place": 26,
      "name": "Niccolò Erba",
      "time": 127.45,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 27,
      "name": "Cristina Verdú",
      "time": 129.52,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ESP"
     },
     {
@@ -247,51 +247,51 @@
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 29,
      "name": "Mariano Conti",
      "time": 129.53,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 30,
      "name": "Marco Bertuccioli",
      "time": 129.57,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 31,
      "name": "Ross Baradoy",
      "time": 129.92,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 32,
      "name": "Alessandro Rinaldi",
      "time": 130.02,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 33,
      "name": "Danilo Pianese",
      "time": 130.07,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 34,
      "name": "Lilian Gutsch",
      "time": 130.99,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
@@ -351,11 +351,11 @@
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 42,
      "name": "Dominik Sponring",
      "time": 138.26,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUT"
     },
     {
@@ -375,11 +375,11 @@
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 45,
      "name": "Elena Deubner",
      "time": 142.15,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
@@ -391,19 +391,19 @@
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 47,
      "name": "Anna Pixner",
      "time": 145.5,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUT"
     },
     {
-     "place": null,
+     "place": 48,
      "name": "Francesca Avallone",
      "time": 159.64,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     }
    ]
@@ -479,51 +479,51 @@
    "source": "http://web.archive.org/web/20190915074023id_/http://www.igsaworldcup.com/results/2015/2015_padova_wc_wc_qual / Junior 2 Downhill Skateboard / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Giorgio Garino",
      "time": 121.28,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Philipp Schickor",
      "time": 122.39,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Patrick Lorenzo Lombardi",
      "time": 122.64,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Tomas Turetta",
      "time": 124.84,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Niccolò Erba",
      "time": 127.45,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Mariano Conti",
      "time": 129.53,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     }
    ]
@@ -535,11 +535,11 @@
    "source": "http://web.archive.org/web/20190915074023id_/http://www.igsaworldcup.com/results/2015/2015_padova_wc_wc_qual / Classic Luge / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Diez Mikel Echegaray",
      "time": 118.18,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ESP"
     },
     {
@@ -551,27 +551,27 @@
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Molina Javier Serrano",
      "time": 121.48,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ESP"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Rey Pablo Fouz",
      "time": 122.73,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ESP"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Alexander Frischauf",
      "time": 123.66,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUT"
     },
     {
@@ -583,11 +583,11 @@
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Daniele Aldinucci",
      "time": 126.34,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
@@ -607,67 +607,67 @@
    "source": "http://web.archive.org/web/20190915074023id_/http://www.igsaworldcup.com/results/2015/2015_padova_wc_wc_qual / Street Luge / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Diez Mikel Echegaray",
      "time": 116.1,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ESP"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Luca Santolamazza",
      "time": 119.48,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Alexander Frischauf",
      "time": 120.93,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUT"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Andrea Bossotto",
      "time": 121.87,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Daniele Aldinucci",
      "time": 122.33,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Rey Pablo Fouz",
      "time": 122.95,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ESP"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Patrice Espau",
      "time": 125.73,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Piere Hazera",
      "time": 126.03,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     },
     {
@@ -679,35 +679,35 @@
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Maurizio De Pollo",
      "time": 127.46,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "Gabriele Maggiorelli",
      "time": 127.81,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 12,
      "name": "Riccardo Aldinucci",
      "time": 128.32,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 13,
      "name": "Alberto Barbero",
      "time": 128.62,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
@@ -719,11 +719,11 @@
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 15,
      "name": "Ross Baradoy",
      "time": 132.67,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     }
    ]

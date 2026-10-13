@@ -35,7 +35,7 @@ export default function Rider({ id, tab, index }: { id: string; tab: Tab; index:
         <Head a={shown} tab={tab} />
         {tab === "oversikt" && <Overview a={shown} />}
         {tab === "utvikling" && <Development a={shown} />}
-        {tab === "rivaler" && <Rivals a={shown} index={index} />}
+        {tab === "rivaler" && <Rivals key={`${norge}-${klasse.women}`} a={shown} index={index} />}
         {tab === "race" && <Races a={shown} />}
       </SelProvider>
     </KlasseProvider>
@@ -47,7 +47,7 @@ function Head({ a, tab }: { a: Athlete; tab: Tab }) {
   const wins = a.results.filter((r) => r.place === 1 && r.format === "bracket").length;
   const podiums = a.results.filter((r) => r.place <= 3).length;
   const best = a.results.reduce<Result | null>((b, r) => (!b || r.place < b.place || (r.place === b.place && r.field > b.field) ? r : b), null);
-  const pool: Pool | null = a.rating.race ? "race" : a.rating.kvalik ? "kvalik" : null; // the heat rating, or the timed one for a rider with no rated heats
+  const pool: Pool | null = POOLS.find((k) => a.rating[k]) ?? null; // the first pool the rider is rated in: stand-up heats, timed, then luge
   const elo = pool ? a.rating[pool]! : null;
   return (
     <header className="rider-head">
@@ -60,7 +60,7 @@ function Head({ a, tab }: { a: Athlete; tab: Tab }) {
           <div><dt>{t("seire", "wins")}</dt><dd className="tnum">{wins}</dd></div>
           <div><dt>{t("pallplasser", "podiums")}</dt><dd className="tnum">{podiums}</dd></div>
           <div title={best ? `${placeOf(best.place, best.field)} ${t("i", "in")} ${best.race} ${best.year}` : undefined}><dt>{t("beste plass", "best place")}</dt><dd className="tnum">{best ? ord(best.place) : "–"}</dd></div>
-          <div title={elo ? t(`Rating i ${poolLabel(pool!).toLowerCase()}-poolen${elo.rank ? `, ${elo.rank}. av ${elo.of} aktive` : ""}, topp ${elo.peak} i ${elo.peak_year}`, `Rating in the ${poolLabel(pool!).toLowerCase()} pool${elo.rank ? `, ${ord(elo.rank)} of ${elo.of} active` : ""}, peak ${elo.peak} in ${elo.peak_year}`) : t("Ingen race som teller i ratingen", "No races that count in the rating")}><dt>rating{pool === "kvalik" ? ` ${poolLabel(pool).toLowerCase()}` : ""}</dt><dd className="tnum">{elo ? elo.rating : "–"}</dd></div>
+          <div title={elo ? t(`Rating i ${poolLabel(pool!).toLowerCase()}-poolen${elo.rank ? `, ${elo.rank}. av ${elo.of} aktive` : ""}, topp ${elo.peak} i ${elo.peak_year}`, `Rating in the ${poolLabel(pool!).toLowerCase()} pool${elo.rank ? `, ${ord(elo.rank)} of ${elo.of} active` : ""}, peak ${elo.peak} in ${elo.peak_year}`) : t("Ingen race som teller i ratingen", "No races that count in the rating")}><dt>rating{pool && pool !== "race" ? ` ${poolLabel(pool).toLowerCase()}` : ""}</dt><dd className="tnum">{elo ? elo.rating : "–"}</dd></div>
         </dl>
         <div className="bib-foot"><span className="tnum">{span(ys)}{a.sex === "K" ? t(" · har kjørt dameklassen", " · has raced the women's class") : ""} · {t("resultatlister", "result lists")}</span><KlasseToggle /></div>
       </div>
@@ -144,7 +144,7 @@ function Overview({ a }: { a: Athlete }) {
             })}
           </ol>
           <aside className="board-side">
-            <Detail r={selected} rows={rows} who={who} />
+            <Detail r={selected} rows={rows} who={who} hs={hs} />
             {byType.length > 1 && (
               <div className="card card-pad">
                 <h3 className="h-card">{t("Klassene", "The classes")}</h3>
@@ -210,7 +210,7 @@ function HillRuns({ hill, who, felt, onClose }: { hill: { id: string; name: stri
   );
 }
 
-function Detail({ r, rows, who }: { r: Result | null; rows: Result[]; who: string }) {
+function Detail({ r, rows, who, hs }: { r: Result | null; rows: Result[]; who: string; hs: Hill[] }) {
   const felt = useFelt();
   const { setSel } = useSel();
   if (!rows.length) return null;
@@ -241,7 +241,7 @@ function Detail({ r, rows, who }: { r: Result | null; rows: Result[]; who: strin
         {r.time != null && <div><dt>{t("Tid", "Time")}</dt><dd className="tnum">{clock(r.time)}{r.winner != null && r.winner !== r.time ? <span className="muted"> · {t("vinner", "winner")} {clock(r.winner)}</span> : ""}</dd></div>}
         {r.behind != null && r.behind > 0 && <div><dt>{t("Bak vinneren", "Behind the winner")}</dt><dd className="tnum">{pct(r.behind, 1)}</dd></div>}
         {r.women && r.basis === "i feltet" && <div><dt>{t("Blant kvinnene", "Among the women")}</dt><dd className="tnum">{placeOf(r.women.place, r.women.field)}</dd></div>}
-        {r.hill && <div><dt>{t("Bakke", "Hill")}</dt><dd><a href={href.hill(r.hill)}>{r.hill}</a></dd></div>}
+        {r.hill && <div><dt>{t("Bakke", "Hill")}</dt><dd><a href={href.hill(r.hill)}>{hs.find((h) => h.id === r.hill)?.name || r.hill}</a></dd></div>}
       </dl>
       <div className="row-actions">
         <a className="btn" href={href.race(r.raceId)}>{t("Hele listen", "Full list")}</a>

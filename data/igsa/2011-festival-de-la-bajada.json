@@ -903,11 +903,11 @@
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 42,
      "name": "Nicolas Moreno",
      "time": 84.2,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "COL"
     },
     {
@@ -1047,11 +1047,11 @@
      "nat": "COL"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Nicolas Moreno",
      "time": 84.2,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "COL"
     },
     {

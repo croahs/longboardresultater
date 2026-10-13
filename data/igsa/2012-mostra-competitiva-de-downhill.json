@@ -25,595 +25,595 @@
    "source": "http://web.archive.org/web/20130514023129id_/http://igsaworldcup.com/results/2012/2012_mostra_competitiva_de_downhill_co_qual.pdf / Downhill Skateboard / timed",
    "results": [
     {
-     "place": null,
-     "name": "Filipe Otta",
-     "time": 63.81,
-     "dnf": false,
-     "dns": true,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
+     "place": 1,
      "name": "Douglas Silva",
-     "time": null,
+     "time": 44.25,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Kyle Wester",
-     "time": null,
+     "time": 45.02,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Dillon Stephans",
-     "time": null,
+     "time": 45.04,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Rodrigo Steinbach",
-     "time": null,
+     "time": 45.04,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Ricardo Reis",
-     "time": null,
+     "time": 45.25,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Diego Alemparte",
-     "time": null,
+     "time": 45.42,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Ovalhe Danky Dean",
-     "time": null,
+     "time": 45.44,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Felipe Malaga",
-     "time": null,
+     "time": 45.49,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "PER"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Jonas Richter",
-     "time": null,
+     "time": 45.7,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Willaim Royce",
-     "time": null,
+     "time": 45.87,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "Marcos Paiva",
-     "time": null,
+     "time": 46.11,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 12,
      "name": "Silon Garcia",
-     "time": null,
+     "time": 46.13,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 13,
      "name": "Juliano Cassemiro",
-     "time": null,
+     "time": 46.15,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 14,
      "name": "Santiago Salaberry",
-     "time": null,
+     "time": 46.33,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 15,
      "name": "Lucas Dragone",
-     "time": null,
+     "time": 46.42,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 16,
      "name": "Evandro Filho",
-     "time": null,
+     "time": 46.47,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 17,
      "name": "Luiz Vinassa",
-     "time": null,
+     "time": 46.52,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 18,
      "name": "Rafael Kiotheka",
-     "time": null,
+     "time": 46.64,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 19,
      "name": "Max Gradlmiller",
-     "time": null,
+     "time": 46.66,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 20,
      "name": "Manuel Mordcovich",
-     "time": null,
+     "time": 46.75,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 21,
      "name": "Regis Fonseca",
-     "time": null,
+     "time": 46.75,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 22,
      "name": "Rogerio Baum",
-     "time": null,
+     "time": 46.86,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 23,
      "name": "Vinicius Macaco",
-     "time": null,
+     "time": 46.87,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 24,
      "name": "Vitor Salazar",
-     "time": null,
+     "time": 46.89,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 25,
      "name": "Fabian Arellano",
-     "time": null,
+     "time": 46.95,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 26,
      "name": "Thiago Duarte",
-     "time": null,
+     "time": 46.95,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 27,
      "name": "Renato Reche",
-     "time": null,
+     "time": 46.98,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 28,
      "name": "Rossano Alves",
-     "time": null,
+     "time": 47.33,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 29,
      "name": "Juan Stabio",
-     "time": null,
+     "time": 47.42,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 30,
      "name": "Luis Vinicius Cattani",
-     "time": null,
+     "time": 47.57,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 31,
      "name": "Valmir Freitas",
-     "time": null,
+     "time": 47.61,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 32,
      "name": "Rafael Sabella",
-     "time": null,
+     "time": 47.65,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 33,
      "name": "Pons Diego Medel",
-     "time": null,
+     "time": 47.69,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 34,
      "name": "Sergio Leonardo",
-     "time": null,
+     "time": 47.73,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 35,
      "name": "Everton Festugato",
-     "time": null,
+     "time": 47.87,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 36,
      "name": "Camilo Cespedes",
-     "time": null,
+     "time": 47.9,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "COL"
     },
     {
-     "place": null,
+     "place": 37,
      "name": "Jorge Ariel Galasso",
-     "time": null,
+     "time": 47.94,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 38,
      "name": "Fabio Lambs",
-     "time": null,
+     "time": 48.03,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 39,
      "name": "Andres Privitera",
-     "time": null,
+     "time": 48.22,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 40,
      "name": "Yvon Labarthe",
-     "time": null,
+     "time": 48.27,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 41,
      "name": "Luis Laber",
-     "time": null,
+     "time": 48.28,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 42,
      "name": "Marcos Mendez",
-     "time": null,
+     "time": 48.58,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 43,
      "name": "Felipe Macedo",
-     "time": null,
+     "time": 48.62,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 44,
      "name": "Robson Cicarelli",
-     "time": null,
+     "time": 48.65,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 45,
      "name": "Felipe Rosa",
-     "time": null,
+     "time": 48.66,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 46,
      "name": "Allan Chaves",
-     "time": null,
+     "time": 48.67,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 47,
      "name": "Wendel Malessa",
-     "time": null,
+     "time": 48.76,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 48,
      "name": "Ricardo Sena",
-     "time": null,
+     "time": 48.88,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 49,
      "name": "Perne Ignacio",
-     "time": null,
+     "time": 49.21,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 50,
      "name": "Bernardo Isolante",
-     "time": null,
+     "time": 49.23,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 51,
      "name": "Elton Peruzzo",
-     "time": null,
+     "time": 49.48,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 52,
      "name": "Johann Serrano",
-     "time": null,
+     "time": 49.54,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 53,
      "name": "Jonatthan Villegas",
-     "time": null,
+     "time": 49.74,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "PER"
     },
     {
-     "place": null,
+     "place": 54,
      "name": "Jonathan Guardia",
-     "time": null,
+     "time": 49.76,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "PER"
     },
     {
-     "place": null,
+     "place": 55,
      "name": "Felipe Pereira",
-     "time": null,
+     "time": 50.1,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 56,
      "name": "Ruben Pinago",
-     "time": null,
+     "time": 50.2,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "VEM"
     },
     {
-     "place": null,
+     "place": 57,
      "name": "Henrique Peroni",
-     "time": null,
+     "time": 50.22,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 58,
      "name": "João Vitor Marchi",
-     "time": null,
+     "time": 50.23,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 59,
      "name": "Cristian Montaño",
-     "time": null,
+     "time": 50.25,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "COL"
     },
     {
-     "place": null,
+     "place": 60,
      "name": "Cristiano Barreto",
-     "time": null,
+     "time": 50.53,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 61,
      "name": "Fernando Agnoletto",
-     "time": null,
+     "time": 50.59,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 62,
      "name": "Barroco Felipe Obermuller",
-     "time": null,
+     "time": 50.8,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 63,
      "name": "Ricardo Sierra",
-     "time": null,
+     "time": 50.94,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 64,
      "name": "Silva Boneberger",
-     "time": null,
+     "time": 51.15,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 65,
      "name": "Lorenzo Salcedo",
-     "time": null,
+     "time": 51.46,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 66,
      "name": "Davi Medeiros",
-     "time": null,
+     "time": 52.44,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 67,
      "name": "Bruno Pereira",
-     "time": null,
+     "time": 53.01,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 68,
      "name": "Fernando Rocha",
-     "time": null,
+     "time": 53.29,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 69,
      "name": "Felipe Prietro",
-     "time": null,
+     "time": 53.39,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 70,
      "name": "João Bier",
-     "time": null,
+     "time": 53.83,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 71,
      "name": "Eduardo Prestes",
-     "time": null,
+     "time": 54.24,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 72,
      "name": "Douglas Tondin",
-     "time": null,
+     "time": 56.36,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 73,
      "name": "Luis Gomes",
-     "time": null,
+     "time": 56.61,
      "dnf": false,
-     "dns": true,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 74,
+     "name": "Filipe Otta",
+     "time": 63.81,
+     "dnf": false,
+     "dns": false,
      "nat": "BRA"
     }
    ]
@@ -625,51 +625,51 @@
    "source": "http://web.archive.org/web/20130514023129id_/http://igsaworldcup.com/results/2012/2012_mostra_competitiva_de_downhill_co_qual.pdf / Women Downhill Skateboard / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Chistie Aleixo",
-     "time": null,
+     "time": 50.22,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Georgia Bontorin",
-     "time": null,
+     "time": 50.3,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Reine Oliveira",
-     "time": null,
+     "time": 56.95,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Bianca Flor",
-     "time": null,
+     "time": 57.56,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Raíza Sartori",
-     "time": null,
+     "time": 58.68,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Cami Pucheta",
-     "time": null,
+     "time": 59.79,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     }
    ]
@@ -681,51 +681,51 @@
    "source": "http://web.archive.org/web/20130514023129id_/http://igsaworldcup.com/results/2012/2012_mostra_competitiva_de_downhill_co_qual.pdf / Junior 1 Downhill Skateboard / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
+     "name": "Lucas Rocha",
+     "time": 49.45,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 2,
+     "name": "Otávio Wolf",
+     "time": 54.85,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 3,
+     "name": "Leonardo Mozin",
+     "time": 55.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 4,
+     "name": "Bruno Vieira",
+     "time": 56.61,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 5,
+     "name": "Deryck Szymczak",
+     "time": 59.08,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 6,
      "name": "Alvaro Librelotto",
      "time": 61.7,
      "dnf": false,
-     "dns": true,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Lucas Rocha",
-     "time": null,
-     "dnf": false,
-     "dns": true,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Otávio Wolf",
-     "time": null,
-     "dnf": false,
-     "dns": true,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Leonardo Mozin",
-     "time": null,
-     "dnf": false,
-     "dns": true,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Bruno Vieira",
-     "time": null,
-     "dnf": false,
-     "dns": true,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Deryck Szymczak",
-     "time": null,
-     "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     }
    ]
@@ -737,243 +737,243 @@
    "source": "http://web.archive.org/web/20130514023129id_/http://igsaworldcup.com/results/2012/2012_mostra_competitiva_de_downhill_co_qual.pdf / Junior 2 Downhill Skateboard / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Bernardo Banbila",
-     "time": null,
+     "time": 45.63,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Jonas Richter",
-     "time": null,
+     "time": 45.7,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Willian Rubim",
-     "time": null,
+     "time": 46.41,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Yan Bertinati",
-     "time": null,
+     "time": 46.78,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Thiago Mohr",
-     "time": null,
+     "time": 47.21,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Oliveira Bruno Silva De",
-     "time": null,
+     "time": 47.21,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Andrez Krob",
-     "time": null,
+     "time": 47.99,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Leonardo Barros",
-     "time": null,
+     "time": 48.1,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Jorge Andrei",
-     "time": null,
+     "time": 48.47,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Victor Patricio Pons",
-     "time": null,
+     "time": 48.54,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "Gonzalo Brandon",
-     "time": null,
+     "time": 48.77,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "PER"
     },
     {
-     "place": null,
+     "place": 12,
      "name": "Renan Zimmer",
-     "time": null,
+     "time": 49.03,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 13,
      "name": "Tallys Dias",
-     "time": null,
+     "time": 49.21,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 14,
      "name": "Francisco Figueira",
-     "time": null,
+     "time": 49.22,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 15,
      "name": "Luiz Guilherme Peruch",
-     "time": null,
+     "time": 49.5,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 16,
      "name": "Leonardo Laky",
-     "time": null,
+     "time": 50.07,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 17,
      "name": "Georgia Bontorin",
-     "time": null,
+     "time": 50.3,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 18,
      "name": "Eduardo Tonini",
-     "time": null,
+     "time": 50.48,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 19,
      "name": "Lucas Perdoná",
-     "time": null,
+     "time": 51.08,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 20,
      "name": "Matheus Medeiros",
-     "time": null,
+     "time": 52.04,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 21,
      "name": "Wellington Baptista",
-     "time": null,
+     "time": 52.38,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 22,
      "name": "William da Silva",
-     "time": null,
+     "time": 52.49,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 23,
      "name": "Leonardo Oliveira",
-     "time": null,
+     "time": 52.63,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 24,
      "name": "Bruno Schaedler",
-     "time": null,
+     "time": 52.73,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 25,
      "name": "Cristian Henz",
-     "time": null,
+     "time": 53.17,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 26,
      "name": "Pedro Oliveira",
-     "time": null,
+     "time": 53.76,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 27,
      "name": "Matheus da Silva",
-     "time": null,
+     "time": 53.86,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 28,
      "name": "Gregory Optis",
-     "time": null,
+     "time": 54.8,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 29,
      "name": "Lucas Coelho",
-     "time": null,
+     "time": 57.09,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 30,
      "name": "Calvin Oliveira",
-     "time": null,
+     "time": 58.04,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     }
    ]
@@ -985,36 +985,36 @@
    "source": "http://web.archive.org/web/20130514023129id_/http://igsaworldcup.com/results/2012/2012_mostra_competitiva_de_downhill_co_qual.pdf / Classic Luge / timed",
    "results": [
     {
-     "place": null,
-     "name": "Marcos Filho",
-     "time": 80.21,
-     "dnf": false,
-     "dns": true,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Nacho Palacios",
-     "time": 85.04,
-     "dnf": false,
-     "dns": true,
-     "nat": "AR"
-    },
-    {
-     "place": null,
+     "place": 1,
      "name": "Rodrigo Bisquert",
-     "time": null,
+     "time": 57.98,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Yvon Labarthe",
-     "time": null,
+     "time": 58.75,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SUI"
+    },
+    {
+     "place": 3,
+     "name": "Marcos Filho",
+     "time": 80.21,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 4,
+     "name": "Nacho Palacios",
+     "time": 85.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "AR"
     },
     {
      "place": null,
@@ -1049,84 +1049,84 @@
    "source": "http://web.archive.org/web/20130514023129id_/http://igsaworldcup.com/results/2012/2012_mostra_competitiva_de_downhill_co_qual.pdf / Street Luge / timed",
    "results": [
     {
-     "place": null,
-     "name": "Marcos Filho",
-     "time": 67.83,
-     "dnf": false,
-     "dns": true,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
+     "place": 1,
      "name": "Rodolpho Saldanha",
-     "time": null,
+     "time": 48.57,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Mario Jardim",
-     "time": null,
+     "time": 48.79,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Leo Borton",
-     "time": null,
+     "time": 48.94,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Frank Williams",
-     "time": null,
+     "time": 50.32,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "André Pastori",
-     "time": null,
+     "time": 50.4,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Paulo Silva",
-     "time": null,
+     "time": 52.0,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Rodrigo Bisquert",
-     "time": null,
+     "time": 53.17,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Marcelo Santos",
-     "time": null,
+     "time": 53.22,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Yvon Labarthe",
-     "time": null,
+     "time": 56.04,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SUI"
+    },
+    {
+     "place": 10,
+     "name": "Marcos Filho",
+     "time": 67.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
     }
    ]
   },

@@ -135,11 +135,11 @@
      "nat": "PER"
     },
     {
-     "place": null,
+     "place": 15,
      "name": "Curtis Onchi",
      "time": 88.22,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -311,11 +311,11 @@
      "nat": "PER"
     },
     {
-     "place": null,
+     "place": 37,
      "name": "Rafael Candela",
      "time": 104.3,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "PER"
     },
     {
@@ -575,11 +575,11 @@
    "source": "http://web.archive.org/web/20260115202930id_/http://www.igsaworldcup.com/results/2012/2012_copa_de_ciudad_co_qual.pdf / Classic Luge / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Gonzalo Brandon",
      "time": 98.42,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "PER"
     },
     {
@@ -591,11 +591,11 @@
      "nat": "PER"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Rodrigo Bisquertt",
      "time": 124.52,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     }
    ]

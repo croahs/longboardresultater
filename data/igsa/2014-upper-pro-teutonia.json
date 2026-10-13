@@ -1654,11 +1654,11 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 30,
      "name": "Danky Dean",
      "time": 85.44,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -2150,11 +2150,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 18,
      "name": "Jeremias Gasparotto",
      "time": 88.36,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -2262,19 +2262,19 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 32,
      "name": "Victor Rodrigues",
      "time": 106.08,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 33,
      "name": "Alyson Luis",
      "time": 139.76,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     }
    ]
@@ -2406,11 +2406,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 16,
      "name": "Reis Sasha",
      "time": 95.11,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -2430,11 +2430,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 19,
      "name": "Sandro Santana",
      "time": 99.87,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -2478,11 +2478,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 25,
      "name": "Sidahrta Rezende",
      "time": 115.55,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     }
    ]

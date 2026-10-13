@@ -25,1514 +25,1514 @@
    "source": "http://web.archive.org/web/20130530044948id_/http://igsaworldcup.com/results/2012/2012_calgary_wc_qual.pdf / Downhill Skateboard / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Kevin Reimer",
-     "time": null,
+     "time": 129.16,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Dillon Stephens",
-     "time": null,
+     "time": 130.06,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Nicolas Desmarais",
-     "time": null,
+     "time": 130.09,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Kyle Wester",
-     "time": null,
+     "time": 130.42,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Nick Breton",
-     "time": null,
-     "dnf": true,
+     "time": 130.43,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Adam Persson",
-     "time": null,
+     "time": 130.51,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Louis Pilloni",
-     "time": null,
+     "time": 130.59,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Zak Maytum",
-     "time": null,
+     "time": 130.62,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Kyle Martin",
-     "time": null,
+     "time": 130.66,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Fredrik Lindstrom",
-     "time": null,
-     "dnf": true,
+     "time": 130.85,
+     "dnf": false,
      "dns": false,
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "Patrick Switzer",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Byron Essert",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "USA"
-    },
-    {
-     "place": null,
-     "name": "Chip Wood",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "USA"
-    },
-    {
-     "place": null,
-     "name": "Zen Shikaze",
-     "time": null,
+     "time": 130.95,
      "dnf": false,
-     "dns": true,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "George Mackenzie",
-     "time": null,
-     "dnf": true,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 12,
+     "name": "Byron Essert",
+     "time": 131.0,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 13,
+     "name": "Chip Wood",
+     "time": 131.09,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 14,
+     "name": "Zen Shikaze",
+     "time": 131.12,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 15,
+     "name": "George Mackenzie",
+     "time": 131.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 16,
      "name": "Jonas Richter",
-     "time": null,
-     "dnf": true,
+     "time": 131.29,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 17,
      "name": "Brendan Davidson",
-     "time": null,
-     "dnf": true,
+     "time": 131.31,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 18,
      "name": "James Kelly",
-     "time": null,
-     "dnf": true,
+     "time": 131.36,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 19,
      "name": "Jose Guzman",
-     "time": null,
-     "dnf": true,
+     "time": 131.41,
+     "dnf": false,
      "dns": false,
      "nat": "PUR"
     },
     {
-     "place": null,
+     "place": 20,
      "name": "Micah Green",
-     "time": null,
-     "dnf": true,
+     "time": 131.42,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 21,
      "name": "Jimmy Riha",
-     "time": null,
+     "time": 131.45,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 22,
      "name": "Alex Tongue",
-     "time": null,
+     "time": 131.45,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 23,
      "name": "Erik Lundberg",
-     "time": null,
-     "dnf": true,
+     "time": 131.5,
+     "dnf": false,
      "dns": false,
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 24,
      "name": "Jeff Budro",
-     "time": null,
-     "dnf": true,
+     "time": 131.58,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 25,
      "name": "Ovalhe Danky Dean",
-     "time": null,
-     "dnf": true,
+     "time": 131.59,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 26,
      "name": "Josh Rolf",
-     "time": null,
-     "dnf": true,
+     "time": 131.64,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 27,
      "name": "Andrew Chapman",
-     "time": null,
-     "dnf": true,
+     "time": 131.65,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 28,
      "name": "Ethan Lau",
-     "time": null,
+     "time": 131.72,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 29,
      "name": "Rain Daley",
-     "time": null,
-     "dnf": true,
+     "time": 131.78,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 30,
      "name": "Maximilian Gradlmiller",
-     "time": null,
-     "dnf": true,
+     "time": 131.97,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 31,
      "name": "Duke Degen",
-     "time": null,
-     "dnf": true,
+     "time": 132.03,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 32,
      "name": "Tony Graves",
-     "time": null,
-     "dnf": true,
+     "time": 132.07,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 33,
      "name": "Calvin Staub",
-     "time": null,
-     "dnf": true,
+     "time": 132.11,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 34,
      "name": "Matthew Kienzle",
-     "time": null,
-     "dnf": true,
+     "time": 132.13,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 35,
      "name": "Adam Yates",
-     "time": null,
-     "dnf": true,
+     "time": 132.17,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 36,
      "name": "Graham Collingwood",
-     "time": null,
-     "dnf": true,
+     "time": 132.18,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 37,
      "name": "Quin Finocchio",
-     "time": null,
-     "dnf": true,
+     "time": 132.2,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 38,
      "name": "Kelly Carter",
-     "time": null,
-     "dnf": true,
+     "time": 132.23,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 39,
      "name": "Cam Brickenden",
-     "time": null,
-     "dnf": true,
+     "time": 132.26,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 40,
      "name": "Jacob Dutton",
-     "time": null,
-     "dnf": true,
+     "time": 132.35,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 41,
      "name": "Matt Rae",
-     "time": null,
-     "dnf": true,
+     "time": 132.38,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 42,
      "name": "James Ware",
-     "time": null,
-     "dnf": true,
+     "time": 132.42,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 43,
      "name": "Luke Melo",
-     "time": null,
-     "dnf": true,
+     "time": 132.46,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 44,
      "name": "Mathew Kroetsch",
-     "time": null,
-     "dnf": true,
+     "time": 132.55,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 45,
      "name": "Spencer Smith",
-     "time": null,
-     "dnf": true,
+     "time": 132.7,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 46,
      "name": "Justen Ortiz",
-     "time": null,
-     "dnf": true,
+     "time": 132.7,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 47,
      "name": "Dave Price",
-     "time": null,
-     "dnf": true,
+     "time": 132.74,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 48,
      "name": "Jayden Mitchell",
-     "time": null,
-     "dnf": true,
+     "time": 132.95,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 49,
      "name": "Riley Harris",
-     "time": null,
-     "dnf": true,
+     "time": 133.02,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 50,
      "name": "Mike Slota",
-     "time": null,
+     "time": 133.15,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 51,
      "name": "Nick Jean",
-     "time": null,
-     "dnf": true,
+     "time": 133.21,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 52,
      "name": "Peter Mackenzie",
-     "time": null,
-     "dnf": true,
+     "time": 133.25,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 53,
      "name": "Maxim Garant-Rousseau",
-     "time": null,
-     "dnf": true,
+     "time": 133.28,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 54,
      "name": "Lee Cation",
-     "time": null,
-     "dnf": true,
+     "time": 133.31,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 55,
      "name": "Bradley Cameron",
-     "time": null,
-     "dnf": true,
+     "time": 133.38,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 56,
      "name": "Braden Tibbles",
-     "time": null,
-     "dnf": true,
+     "time": 133.44,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 57,
      "name": "Ian Rudge",
-     "time": null,
-     "dnf": true,
+     "time": 133.5,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 58,
      "name": "Alex Hannigan",
-     "time": null,
-     "dnf": true,
+     "time": 133.52,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 59,
      "name": "Kyle Holland",
-     "time": null,
-     "dnf": true,
+     "time": 133.78,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 60,
      "name": "Charlie Darragh",
-     "time": null,
-     "dnf": true,
+     "time": 133.82,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 61,
      "name": "Hayden Conroy",
-     "time": null,
+     "time": 133.92,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 62,
      "name": "Elijah Vinograd",
-     "time": null,
-     "dnf": true,
+     "time": 133.99,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 63,
      "name": "Cameron McQueen",
-     "time": null,
-     "dnf": true,
+     "time": 134.27,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 64,
      "name": "Brent Dubendorff",
-     "time": null,
+     "time": 134.29,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 65,
      "name": "Riley Richters",
-     "time": null,
-     "dnf": true,
+     "time": 134.3,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 66,
      "name": "Tyler Gillingham",
-     "time": null,
-     "dnf": true,
+     "time": 134.34,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 67,
      "name": "Frank Cote",
-     "time": null,
-     "dnf": true,
+     "time": 134.38,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 68,
      "name": "Tommy Watson",
-     "time": null,
-     "dnf": true,
+     "time": 134.47,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 69,
      "name": "Keith Henderson",
-     "time": null,
-     "dnf": true,
+     "time": 134.5,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 70,
      "name": "Alex Johnston",
-     "time": null,
-     "dnf": true,
+     "time": 134.52,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 71,
      "name": "Daniel Luna",
-     "time": null,
+     "time": 134.53,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 72,
      "name": "David Mitchell",
-     "time": null,
+     "time": 134.58,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 73,
      "name": "Chance Gaul",
-     "time": null,
-     "dnf": true,
+     "time": 134.69,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 74,
      "name": "Aidan Lynds",
-     "time": null,
-     "dnf": true,
+     "time": 134.74,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 75,
      "name": "Hoodie Shaw",
-     "time": null,
+     "time": 134.78,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 76,
      "name": "Mike Snyder",
-     "time": null,
-     "dnf": true,
+     "time": 134.82,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 77,
      "name": "Ian Russell",
-     "time": null,
+     "time": 134.93,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 78,
      "name": "Bryce Brady",
-     "time": null,
-     "dnf": true,
+     "time": 134.96,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 79,
      "name": "Nick Dunmall",
-     "time": null,
+     "time": 134.99,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 80,
      "name": "Ryan Vitale",
-     "time": null,
-     "dnf": true,
+     "time": 135.0,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 81,
      "name": "Jason Epp",
-     "time": null,
+     "time": 135.04,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 82,
      "name": "Jake Wilkinson",
-     "time": null,
-     "dnf": true,
+     "time": 135.09,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 83,
      "name": "Abel Cardenas",
-     "time": null,
-     "dnf": true,
+     "time": 135.14,
+     "dnf": false,
      "dns": false,
      "nat": "MEX"
     },
     {
-     "place": null,
+     "place": 84,
      "name": "Brennan Abildt",
-     "time": null,
+     "time": 135.18,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 85,
      "name": "Malachi Greene",
-     "time": null,
-     "dnf": true,
+     "time": 135.35,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 86,
      "name": "Jack Craddock",
-     "time": null,
+     "time": 135.41,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 87,
      "name": "Brandon Bean",
-     "time": null,
+     "time": 135.42,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 88,
      "name": "Ethan Vinograd",
-     "time": null,
-     "dnf": true,
+     "time": 135.48,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 89,
      "name": "Justin Readings",
-     "time": null,
-     "dnf": true,
+     "time": 135.5,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 90,
      "name": "Curtis Pangrass",
-     "time": null,
-     "dnf": true,
+     "time": 135.77,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 91,
      "name": "Jacob Johnson",
-     "time": null,
+     "time": 135.85,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 92,
      "name": "Jeremy Banting",
-     "time": null,
-     "dnf": true,
+     "time": 135.91,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 93,
      "name": "Brett Ciabattini",
-     "time": null,
+     "time": 135.97,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 94,
      "name": "Jackson Wells",
-     "time": null,
+     "time": 136.04,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 95,
      "name": "Kelsey Crozier",
-     "time": null,
+     "time": 136.16,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 96,
      "name": "Oliver Korman",
-     "time": null,
-     "dnf": true,
+     "time": 136.27,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 97,
      "name": "Etham Denton",
-     "time": null,
+     "time": 136.3,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 98,
      "name": "Michael Boudreau",
-     "time": null,
-     "dnf": true,
+     "time": 136.34,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 99,
      "name": "Zac Baca",
-     "time": null,
+     "time": 136.4,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 100,
      "name": "Jacob Gellatly",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "USA"
-    },
-    {
-     "place": null,
-     "name": "David Hanan",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "USA"
-    },
-    {
-     "place": null,
-     "name": "William Smallwood",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Tyler Greg",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "USA"
-    },
-    {
-     "place": null,
-     "name": "Andrew Dunaenko",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Danny Carlson",
-     "time": null,
+     "time": 136.62,
      "dnf": false,
-     "dns": true,
-     "nat": "CAN"
+     "dns": false,
+     "nat": "USA"
     },
     {
-     "place": null,
-     "name": "Mike Sanders",
-     "time": null,
-     "dnf": true,
+     "place": 101,
+     "name": "David Hanan",
+     "time": 136.79,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 102,
+     "name": "William Smallwood",
+     "time": 137.22,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 103,
+     "name": "Tyler Greg",
+     "time": 137.38,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 104,
+     "name": "Andrew Dunaenko",
+     "time": 137.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 105,
+     "name": "Danny Carlson",
+     "time": 137.68,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 106,
+     "name": "Mike Sanders",
+     "time": 137.94,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 107,
      "name": "Marie Bougourd",
-     "time": null,
-     "dnf": true,
+     "time": 138.18,
+     "dnf": false,
      "dns": false,
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 108,
      "name": "Roger Jones",
-     "time": null,
-     "dnf": true,
+     "time": 138.24,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 109,
      "name": "Andrew MacCannell",
-     "time": null,
+     "time": 138.31,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 110,
      "name": "Rebekka Gemperle",
-     "time": null,
-     "dnf": true,
+     "time": 138.38,
+     "dnf": false,
      "dns": false,
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 111,
      "name": "Dominique Vukorep",
-     "time": null,
-     "dnf": true,
+     "time": 138.57,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 112,
      "name": "Connor Wagner",
-     "time": null,
-     "dnf": true,
+     "time": 138.66,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 113,
      "name": "Shaun Douglas",
-     "time": null,
+     "time": 138.66,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 114,
      "name": "Jolanda Vogler",
-     "time": null,
-     "dnf": true,
+     "time": 138.82,
+     "dnf": false,
      "dns": false,
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 115,
      "name": "Kyle Lahey",
-     "time": null,
-     "dnf": true,
+     "time": 138.87,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 116,
      "name": "Eric Douglas",
-     "time": null,
-     "dnf": true,
+     "time": 138.91,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 117,
      "name": "Lamin Cassama",
-     "time": null,
-     "dnf": true,
+     "time": 138.91,
+     "dnf": false,
      "dns": false,
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 118,
      "name": "Eric Albee",
-     "time": null,
-     "dnf": true,
+     "time": 139.05,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 119,
      "name": "Bryan Reich",
-     "time": null,
-     "dnf": true,
+     "time": 139.51,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 120,
      "name": "Ian Brown",
-     "time": null,
-     "dnf": true,
+     "time": 139.52,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 121,
      "name": "Nathaniel Gomez",
-     "time": null,
-     "dnf": true,
+     "time": 139.53,
+     "dnf": false,
      "dns": false,
      "nat": "PUR"
     },
     {
-     "place": null,
+     "place": 122,
      "name": "Jake Fast",
-     "time": null,
+     "time": 139.75,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 123,
      "name": "Vincent Lee",
-     "time": null,
+     "time": 139.9,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 124,
      "name": "Thomas Higgins",
-     "time": null,
+     "time": 139.95,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 125,
      "name": "Jesse French",
-     "time": null,
+     "time": 139.99,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 126,
      "name": "Avery Tron",
-     "time": null,
-     "dnf": true,
+     "time": 140.09,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 127,
      "name": "Ryan Trang",
-     "time": null,
-     "dnf": true,
+     "time": 140.19,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 128,
      "name": "Marcel Robert",
-     "time": null,
-     "dnf": true,
+     "time": 140.43,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 129,
      "name": "Gary Lee",
-     "time": null,
-     "dnf": true,
+     "time": 140.83,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 130,
      "name": "Wyatt Gibbs",
-     "time": null,
+     "time": 140.84,
      "dnf": false,
-     "dns": true,
-     "nat": "USA"
-    },
-    {
-     "place": null,
-     "name": "Colm Lyons",
-     "time": null,
-     "dnf": false,
-     "dns": true,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Travis Davenport",
-     "time": null,
-     "dnf": true,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 131,
+     "name": "Colm Lyons",
+     "time": 140.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 132,
+     "name": "Travis Davenport",
+     "time": 140.95,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 133,
      "name": "Cedric Cornell",
-     "time": null,
-     "dnf": true,
+     "time": 141.05,
+     "dnf": false,
      "dns": false,
      "nat": "NOR"
     },
     {
-     "place": null,
+     "place": 134,
      "name": "Luca Poscente",
-     "time": null,
-     "dnf": true,
+     "time": 141.34,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 135,
      "name": "Quinn Dubois",
-     "time": null,
+     "time": 141.62,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 136,
      "name": "Shea Lyons",
-     "time": null,
+     "time": 141.65,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 137,
      "name": "Kevin Yue",
-     "time": null,
-     "dnf": true,
+     "time": 141.82,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 138,
      "name": "Katie Neilson",
-     "time": null,
+     "time": 141.86,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 139,
      "name": "Scott Lyn",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Wolfgang Coleman",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Anna O'Neill",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Robert Collinge",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Jonathan Douglas",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Simon Haverson",
-     "time": null,
+     "time": 142.15,
      "dnf": false,
-     "dns": true,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 140,
+     "name": "Wolfgang Coleman",
+     "time": 142.35,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 141,
+     "name": "Anna O'Neill",
+     "time": 142.44,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 142,
+     "name": "Robert Collinge",
+     "time": 142.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 143,
+     "name": "Jonathan Douglas",
+     "time": 143.11,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 144,
+     "name": "Simon Haverson",
+     "time": 143.35,
+     "dnf": false,
+     "dns": false,
      "nat": "GBR"
     },
     {
-     "place": null,
+     "place": 145,
      "name": "Charlie Daigneault",
-     "time": null,
-     "dnf": true,
+     "time": 143.38,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 146,
      "name": "Liam Brown",
-     "time": null,
-     "dnf": true,
+     "time": 143.51,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 147,
      "name": "Max Wipperman",
-     "time": null,
-     "dnf": true,
+     "time": 143.68,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 148,
      "name": "Tamara Prader",
-     "time": null,
-     "dnf": true,
+     "time": 143.94,
+     "dnf": false,
      "dns": false,
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 149,
      "name": "Vasco Sousa",
-     "time": null,
+     "time": 144.96,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "PER"
     },
     {
-     "place": null,
+     "place": 150,
      "name": "Mason Hamilton",
-     "time": null,
+     "time": 145.55,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 151,
      "name": "Elena Corrigall",
-     "time": null,
-     "dnf": true,
+     "time": 145.98,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 152,
      "name": "Justice Long",
-     "time": null,
-     "dnf": true,
+     "time": 146.24,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 153,
      "name": "Drew Marston",
-     "time": null,
+     "time": 146.67,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 154,
      "name": "Riley Sibbet",
-     "time": null,
-     "dnf": true,
+     "time": 146.72,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 155,
      "name": "Scott Lembach",
-     "time": null,
-     "dnf": true,
+     "time": 146.91,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 156,
      "name": "James Curtis",
-     "time": null,
-     "dnf": true,
+     "time": 147.29,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 157,
      "name": "Maia Johnson",
-     "time": null,
-     "dnf": true,
+     "time": 148.26,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 158,
      "name": "Mark McKeown",
-     "time": null,
-     "dnf": true,
+     "time": 148.34,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 159,
      "name": "Alicia Fillback",
-     "time": null,
-     "dnf": true,
+     "time": 148.57,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 160,
      "name": "Jack Lavallee",
-     "time": null,
-     "dnf": true,
+     "time": 148.96,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 161,
      "name": "Matthew Van Buuren",
-     "time": null,
-     "dnf": true,
+     "time": 149.05,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 162,
      "name": "Brodie McGrady",
-     "time": null,
-     "dnf": true,
+     "time": 150.91,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 163,
      "name": "Tylor Mason",
-     "time": null,
-     "dnf": true,
+     "time": 150.93,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 164,
      "name": "Geoff Treadwell",
-     "time": null,
-     "dnf": true,
+     "time": 151.04,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 165,
      "name": "Sam Ettorre",
-     "time": null,
-     "dnf": true,
+     "time": 152.72,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 166,
      "name": "Ryan Calabrese",
-     "time": null,
+     "time": 154.42,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 167,
      "name": "Hadyn Brown",
-     "time": null,
+     "time": 154.51,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 168,
      "name": "Cam Sodergren",
-     "time": null,
+     "time": 155.52,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 169,
      "name": "Rick Kludy",
-     "time": null,
+     "time": 156.07,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 170,
      "name": "Victoria Waddington",
-     "time": null,
-     "dnf": true,
+     "time": 156.58,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 171,
      "name": "Alejandro Castro",
-     "time": null,
-     "dnf": true,
+     "time": 156.8,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 172,
      "name": "Adam Bornstein",
-     "time": null,
+     "time": 159.25,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 173,
      "name": "Winston Fox",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "USA"
-    },
-    {
-     "place": null,
-     "name": "Matthew Taylor",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Cameron Cotter",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "USA"
-    },
-    {
-     "place": null,
-     "name": "Levi Green",
-     "time": null,
+     "time": 200.23,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
-     "name": "Dashiel Long",
-     "time": null,
-     "dnf": true,
+     "place": 174,
+     "name": "Matthew Taylor",
+     "time": 201.84,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 175,
+     "name": "Cameron Cotter",
+     "time": 202.23,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 176,
+     "name": "Levi Green",
+     "time": 202.3,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 177,
+     "name": "Dashiel Long",
+     "time": 204.95,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 178,
      "name": "Marisa Nunez",
-     "time": null,
-     "dnf": true,
+     "time": 206.58,
+     "dnf": false,
      "dns": false,
      "nat": "PER"
     },
     {
-     "place": null,
+     "place": 179,
      "name": "Kelsey Skrobotz",
-     "time": null,
-     "dnf": true,
+     "time": 207.57,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 180,
      "name": "Tyer Augustine",
-     "time": null,
+     "time": 207.9,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 181,
      "name": "Sara Paulshock",
-     "time": null,
+     "time": 208.99,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 182,
      "name": "Liam Grundy",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Darcy Bond",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Brandon Millichamp",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Sondre Selander",
-     "time": null,
+     "time": 209.49,
      "dnf": false,
-     "dns": true,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 183,
+     "name": "Darcy Bond",
+     "time": 212.59,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 184,
+     "name": "Brandon Millichamp",
+     "time": 212.77,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 185,
+     "name": "Sondre Selander",
+     "time": 212.85,
+     "dnf": false,
+     "dns": false,
      "nat": "NOR"
     },
     {
-     "place": null,
+     "place": 186,
      "name": "Mike Grochowolski",
-     "time": null,
+     "time": 217.3,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 187,
      "name": "Tristan Bell",
-     "time": null,
-     "dnf": true,
+     "time": 220.21,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 188,
      "name": "Joe Cummings",
-     "time": null,
-     "dnf": true,
+     "time": 220.59,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 189,
      "name": "Aaron Libby",
-     "time": null,
-     "dnf": true,
+     "time": 226.62,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     }
@@ -1545,123 +1545,123 @@
    "source": "http://web.archive.org/web/20130530044948id_/http://igsaworldcup.com/results/2012/2012_calgary_wc_qual.pdf / Women Downhill Skateboard / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Marie Bougourd",
-     "time": null,
-     "dnf": true,
+     "time": 138.18,
+     "dnf": false,
      "dns": false,
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Rebekka Gemperle",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "SUI"
-    },
-    {
-     "place": null,
-     "name": "Dominique Vukorep",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Jolanda Vogler",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "SUI"
-    },
-    {
-     "place": null,
-     "name": "Katie Neilson",
-     "time": null,
+     "time": 138.38,
      "dnf": false,
-     "dns": true,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Anna O'Neill",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Charlie Daigneault",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Tamara Prader",
-     "time": null,
-     "dnf": true,
      "dns": false,
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 3,
+     "name": "Dominique Vukorep",
+     "time": 138.57,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 4,
+     "name": "Jolanda Vogler",
+     "time": 138.82,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 5,
+     "name": "Katie Neilson",
+     "time": 141.86,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 6,
+     "name": "Anna O'Neill",
+     "time": 142.44,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 7,
+     "name": "Charlie Daigneault",
+     "time": 143.38,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 8,
+     "name": "Tamara Prader",
+     "time": 143.94,
+     "dnf": false,
+     "dns": false,
+     "nat": "SUI"
+    },
+    {
+     "place": 9,
      "name": "Elena Corrigall",
-     "time": null,
-     "dnf": true,
+     "time": 145.98,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Maia Johnson",
-     "time": null,
-     "dnf": true,
+     "time": 148.26,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "Alicia Fillback",
-     "time": null,
-     "dnf": true,
+     "time": 148.57,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 12,
      "name": "Victoria Waddington",
-     "time": null,
-     "dnf": true,
+     "time": 156.58,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 13,
      "name": "Marisa Nunez",
-     "time": null,
-     "dnf": true,
+     "time": 206.58,
+     "dnf": false,
      "dns": false,
      "nat": "PER"
     },
     {
-     "place": null,
+     "place": 14,
      "name": "Kelsey Skrobotz",
-     "time": null,
-     "dnf": true,
+     "time": 207.57,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 15,
      "name": "Sara Paulshock",
-     "time": null,
+     "time": 208.99,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     }
    ]
@@ -1673,82 +1673,82 @@
    "source": "http://web.archive.org/web/20130530044948id_/http://igsaworldcup.com/results/2012/2012_calgary_wc_qual.pdf / Junior 1 Downhill Skateboard / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Elijah Vinograd",
-     "time": null,
-     "dnf": true,
+     "time": 133.99,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Jack Craddock",
-     "time": null,
+     "time": 135.41,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Ethan Vinograd",
-     "time": null,
-     "dnf": true,
+     "time": 135.48,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Oliver Korman",
-     "time": null,
-     "dnf": true,
+     "time": 136.27,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Jesse French",
-     "time": null,
+     "time": 139.99,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Quinn Dubois",
-     "time": null,
+     "time": 141.62,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Vasco Sousa",
-     "time": null,
+     "time": 144.96,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "PER"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Ryan Calabrese",
-     "time": null,
+     "time": 154.42,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Liam Grundy",
-     "time": null,
-     "dnf": true,
+     "time": 209.49,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Tristan Bell",
-     "time": null,
-     "dnf": true,
+     "time": 220.21,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     }
@@ -1761,451 +1761,451 @@
    "source": "http://web.archive.org/web/20130530044948id_/http://igsaworldcup.com/results/2012/2012_calgary_wc_qual.pdf / Junior 2 Downhill Skateboard / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Byron Essert",
-     "time": null,
-     "dnf": true,
+     "time": 131.0,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Jonas Richter",
-     "time": null,
-     "dnf": true,
+     "time": 131.29,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Brendan Davidson",
-     "time": null,
-     "dnf": true,
+     "time": 131.31,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Quin Finocchio",
-     "time": null,
-     "dnf": true,
+     "time": 132.2,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Kelly Carter",
-     "time": null,
-     "dnf": true,
+     "time": 132.23,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Jacob Dutton",
-     "time": null,
-     "dnf": true,
+     "time": 132.35,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Spencer Smith",
-     "time": null,
-     "dnf": true,
+     "time": 132.7,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Jayden Mitchell",
-     "time": null,
-     "dnf": true,
+     "time": 132.95,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Mike Slota",
-     "time": null,
+     "time": 133.15,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Peter Mackenzie",
-     "time": null,
-     "dnf": true,
+     "time": 133.25,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "Bradley Cameron",
-     "time": null,
-     "dnf": true,
+     "time": 133.38,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 12,
      "name": "Ian Rudge",
-     "time": null,
-     "dnf": true,
+     "time": 133.5,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 13,
      "name": "Alex Hannigan",
-     "time": null,
-     "dnf": true,
+     "time": 133.52,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 14,
      "name": "Charlie Darragh",
-     "time": null,
-     "dnf": true,
+     "time": 133.82,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 15,
      "name": "Riley Richters",
-     "time": null,
-     "dnf": true,
+     "time": 134.3,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 16,
      "name": "Tyler Gillingham",
-     "time": null,
-     "dnf": true,
+     "time": 134.34,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 17,
      "name": "Keith Henderson",
-     "time": null,
-     "dnf": true,
+     "time": 134.5,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 18,
      "name": "Alex Johnston",
-     "time": null,
-     "dnf": true,
+     "time": 134.52,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 19,
      "name": "Daniel Luna",
-     "time": null,
+     "time": 134.53,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 20,
      "name": "Chance Gaul",
-     "time": null,
-     "dnf": true,
+     "time": 134.69,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 21,
      "name": "Aidan Lynds",
-     "time": null,
-     "dnf": true,
+     "time": 134.74,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 22,
      "name": "Ian Russell",
-     "time": null,
+     "time": 134.93,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 23,
      "name": "Ryan Vitale",
-     "time": null,
-     "dnf": true,
+     "time": 135.0,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 24,
      "name": "Jake Wilkinson",
-     "time": null,
-     "dnf": true,
+     "time": 135.09,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 25,
      "name": "Brennan Abildt",
-     "time": null,
+     "time": 135.18,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 26,
      "name": "Malachi Greene",
-     "time": null,
-     "dnf": true,
+     "time": 135.35,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 27,
      "name": "Curtis Pangrass",
-     "time": null,
-     "dnf": true,
+     "time": 135.77,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 28,
      "name": "Jacob Johnson",
-     "time": null,
+     "time": 135.85,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 29,
      "name": "Brett Ciabattini",
-     "time": null,
+     "time": 135.97,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 30,
      "name": "Jackson Wells",
-     "time": null,
+     "time": 136.04,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 31,
      "name": "Etham Denton",
-     "time": null,
+     "time": 136.3,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 32,
      "name": "Michael Boudreau",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Jacob Gellatly",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "USA"
-    },
-    {
-     "place": null,
-     "name": "William Smallwood",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Roger Jones",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "USA"
-    },
-    {
-     "place": null,
-     "name": "Shaun Douglas",
-     "time": null,
+     "time": 136.34,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 33,
+     "name": "Jacob Gellatly",
+     "time": 136.62,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 34,
+     "name": "William Smallwood",
+     "time": 137.22,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 35,
+     "name": "Roger Jones",
+     "time": 138.24,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 36,
+     "name": "Shaun Douglas",
+     "time": 138.66,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 37,
      "name": "Lamin Cassama",
-     "time": null,
-     "dnf": true,
+     "time": 138.91,
+     "dnf": false,
      "dns": false,
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 38,
      "name": "Bryan Reich",
-     "time": null,
-     "dnf": true,
+     "time": 139.51,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 39,
      "name": "Nathaniel Gomez",
-     "time": null,
-     "dnf": true,
+     "time": 139.53,
+     "dnf": false,
      "dns": false,
      "nat": "PUR"
     },
     {
-     "place": null,
+     "place": 40,
      "name": "Jake Fast",
-     "time": null,
+     "time": 139.75,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 41,
      "name": "Wyatt Gibbs",
-     "time": null,
+     "time": 140.84,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 42,
      "name": "Colm Lyons",
-     "time": null,
+     "time": 140.84,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 43,
      "name": "Shea Lyons",
-     "time": null,
+     "time": 141.65,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 44,
      "name": "Kevin Yue",
-     "time": null,
-     "dnf": true,
+     "time": 141.82,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 45,
      "name": "Liam Brown",
-     "time": null,
-     "dnf": true,
+     "time": 143.51,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 46,
      "name": "Justice Long",
-     "time": null,
-     "dnf": true,
+     "time": 146.24,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 47,
      "name": "Riley Sibbet",
-     "time": null,
-     "dnf": true,
+     "time": 146.72,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 48,
      "name": "Jack Lavallee",
-     "time": null,
-     "dnf": true,
+     "time": 148.96,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 49,
      "name": "Brodie McGrady",
-     "time": null,
-     "dnf": true,
+     "time": 150.91,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 50,
      "name": "Sam Ettorre",
-     "time": null,
-     "dnf": true,
+     "time": 152.72,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 51,
      "name": "Hadyn Brown",
-     "time": null,
+     "time": 154.51,
      "dnf": false,
-     "dns": true,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Cam Sodergren",
-     "time": null,
-     "dnf": false,
-     "dns": true,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Alejandro Castro",
-     "time": null,
-     "dnf": true,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
-     "name": "Adam Bornstein",
-     "time": null,
+     "place": 52,
+     "name": "Cam Sodergren",
+     "time": 155.52,
      "dnf": false,
-     "dns": true,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 53,
+     "name": "Alejandro Castro",
+     "time": 156.8,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 54,
+     "name": "Adam Bornstein",
+     "time": 159.25,
+     "dnf": false,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 55,
      "name": "Matthew Taylor",
-     "time": null,
-     "dnf": true,
+     "time": 201.84,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 56,
      "name": "Sondre Selander",
-     "time": null,
+     "time": 212.85,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NOR"
     }
    ]
@@ -2217,59 +2217,59 @@
    "source": "http://web.archive.org/web/20130530044948id_/http://igsaworldcup.com/results/2012/2012_calgary_wc_qual.pdf / Masters Downhill Skateboard / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Frank Cote",
-     "time": null,
-     "dnf": true,
+     "time": 134.38,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Mike Sanders",
-     "time": null,
-     "dnf": true,
+     "time": 137.94,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Gary Lee",
-     "time": null,
-     "dnf": true,
+     "time": 140.83,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Cedric Cornell",
-     "time": null,
-     "dnf": true,
+     "time": 141.05,
+     "dnf": false,
      "dns": false,
      "nat": "NOR"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Scott Lembach",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "USA"
-    },
-    {
-     "place": null,
-     "name": "Geoff Treadwell",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "USA"
-    },
-    {
-     "place": null,
-     "name": "Rick Kludy",
-     "time": null,
+     "time": 146.91,
      "dnf": false,
-     "dns": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 6,
+     "name": "Geoff Treadwell",
+     "time": 151.04,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 7,
+     "name": "Rick Kludy",
+     "time": 156.07,
+     "dnf": false,
+     "dns": false,
      "nat": "USA"
     }
    ]
@@ -2281,163 +2281,163 @@
    "source": "http://web.archive.org/web/20130530044948id_/http://igsaworldcup.com/results/2012/2012_calgary_wc_qual.pdf / Classic Luge / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Andy Lally",
-     "time": null,
-     "dnf": true,
+     "time": 132.27,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Frank Williams",
-     "time": null,
-     "dnf": true,
+     "time": 132.27,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Kolby Parks",
-     "time": null,
-     "dnf": true,
+     "time": 135.4,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Christian Conaway",
-     "time": null,
-     "dnf": true,
+     "time": 135.54,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Adam Yates",
-     "time": null,
-     "dnf": true,
+     "time": 136.04,
+     "dnf": false,
      "dns": false,
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Keith Henderson",
-     "time": null,
-     "dnf": true,
+     "time": 136.29,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Andrew Chapman",
-     "time": null,
-     "dnf": true,
+     "time": 136.81,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Dylan Wall",
-     "time": null,
-     "dnf": true,
+     "time": 136.87,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Riley Harris",
-     "time": null,
-     "dnf": true,
+     "time": 138.74,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Scott Peer",
-     "time": null,
-     "dnf": true,
+     "time": 139.88,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "William Condon",
-     "time": null,
-     "dnf": true,
+     "time": 140.51,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 12,
      "name": "Mike Mcintyre",
-     "time": null,
-     "dnf": true,
+     "time": 140.89,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 13,
      "name": "John Fritz",
-     "time": null,
+     "time": 141.53,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 14,
      "name": "Nick Jean",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Nick Kamink",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Chris McBride",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "USA"
-    },
-    {
-     "place": null,
-     "name": "Wolfgang Coleman",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Maxim Moisanen",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "USA"
-    },
-    {
-     "place": null,
-     "name": "Jan Moisanen",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "USA"
-    },
-    {
-     "place": null,
-     "name": "Mason Hamilton",
-     "time": null,
+     "time": 141.76,
      "dnf": false,
-     "dns": true,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 15,
+     "name": "Nick Kamink",
+     "time": 143.09,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 16,
+     "name": "Chris McBride",
+     "time": 143.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 17,
+     "name": "Wolfgang Coleman",
+     "time": 145.01,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 18,
+     "name": "Maxim Moisanen",
+     "time": 157.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 19,
+     "name": "Jan Moisanen",
+     "time": 158.44,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 20,
+     "name": "Mason Hamilton",
+     "time": 243.09,
+     "dnf": false,
+     "dns": false,
      "nat": "CAN"
     },
     {
@@ -2481,138 +2481,138 @@
    "source": "http://web.archive.org/web/20130530044948id_/http://igsaworldcup.com/results/2012/2012_calgary_wc_qual.pdf / Street Luge / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Andy Lally",
-     "time": null,
-     "dnf": true,
+     "time": 128.02,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Kolby Parks",
-     "time": null,
-     "dnf": true,
+     "time": 131.14,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "David Dean",
-     "time": null,
-     "dnf": true,
+     "time": 131.19,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Christian Conaway",
-     "time": null,
-     "dnf": true,
+     "time": 131.24,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Frank Williams",
-     "time": null,
-     "dnf": true,
+     "time": 132.23,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Mike Mcintyre",
-     "time": null,
-     "dnf": true,
+     "time": 132.33,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Dylan Wall",
-     "time": null,
-     "dnf": true,
+     "time": 133.31,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Nick Kamink",
-     "time": null,
+     "time": 134.02,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Keith Henderson",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "USA"
-    },
-    {
-     "place": null,
-     "name": "William Condon",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Eric Douglas",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "John Fritz",
-     "time": null,
+     "time": 134.22,
      "dnf": false,
-     "dns": true,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 10,
+     "name": "William Condon",
+     "time": 135.31,
+     "dnf": false,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 11,
+     "name": "Eric Douglas",
+     "time": 137.59,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 12,
+     "name": "John Fritz",
+     "time": 138.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 13,
      "name": "Luca Poscente",
-     "time": null,
-     "dnf": true,
+     "time": 139.02,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 14,
      "name": "Chris McBride",
-     "time": null,
-     "dnf": true,
+     "time": 139.88,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 15,
      "name": "Marcel Robert",
-     "time": null,
-     "dnf": true,
+     "time": 143.22,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 16,
      "name": "Jan Moisanen",
-     "time": null,
-     "dnf": true,
+     "time": 145.44,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 17,
      "name": "Maxim Moisanen",
-     "time": null,
-     "dnf": true,
+     "time": 202.81,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     }
@@ -2625,74 +2625,74 @@
    "source": "http://web.archive.org/web/20130530044948id_/http://igsaworldcup.com/results/2012/2012_calgary_wc_qual.pdf / Downhill Inline / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Scott Peer",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "USA"
-    },
-    {
-     "place": null,
-     "name": "David Hughes",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Craig Ellis",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "USA"
-    },
-    {
-     "place": null,
-     "name": "Kyle Holland",
-     "time": null,
+     "time": 132.35,
      "dnf": false,
-     "dns": true,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Ian Brown",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "CAN"
-    },
-    {
-     "place": null,
-     "name": "Connor Wagner",
-     "time": null,
-     "dnf": true,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 2,
+     "name": "David Hughes",
+     "time": 134.88,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 3,
+     "name": "Craig Ellis",
+     "time": 134.99,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 4,
+     "name": "Kyle Holland",
+     "time": 138.87,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 5,
+     "name": "Ian Brown",
+     "time": 139.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "CAN"
+    },
+    {
+     "place": 6,
+     "name": "Connor Wagner",
+     "time": 140.91,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 7,
      "name": "Mike Rensmaag",
-     "time": null,
-     "dnf": true,
+     "time": 141.14,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Mike Grochowolski",
-     "time": null,
-     "dnf": true,
+     "time": 142.11,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Justen Ortiz",
-     "time": null,
-     "dnf": true,
+     "time": 142.56,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     }

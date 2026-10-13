@@ -591,11 +591,11 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 15,
      "name": "James Olson",
      "time": 74.68,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -783,19 +783,19 @@
    "source": "http://web.archive.org/web/20240901174938id_/http://www.igsaworldcup.com/results/2012/2012_noram_finals_co_qual.pdf / Gravity Bike / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Michael McIntyre",
      "time": 66.45,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Frank Williams",
      "time": 77.05,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     }
    ]

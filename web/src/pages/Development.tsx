@@ -1,5 +1,5 @@
 import { useMemo, useState } from "react";
-import { POOLS, median, poolLabel, years, type Athlete, type Pool, type Result } from "../data";
+import { POOLS, median, poolLabel, poolOf, years, type Athlete, type Result } from "../data";
 import { ticks, useWidth } from "../chart";
 import { dateLong, firstName, ord, pct, placeOf, typeLabel } from "../format";
 import { t } from "../lang";
@@ -34,7 +34,7 @@ export default function Development({ a }: { a: Athlete }) {
       )}
       {rated.length >= 2 && (
         <section className="card card-pad">
-          <div className="section-head tight"><div><h3 className="h-card">{t("Rating", "Rating")}</h3><p className="fine">{t("Ratingen etter hvert race som teller. Race og kvalik er hver sin pool, tallene kan ikke sammenlignes på tvers.", "The rating after every race that counts. Heats and qualifying are separate pools; the numbers do not compare across them.")}</p></div>
+          <div className="section-head tight"><div><h3 className="h-card">{t("Rating", "Rating")}</h3><p className="fine">{t("Ratingen etter hvert race som teller. Hver pool rates for seg, tallene kan ikke sammenlignes på tvers.", "The rating after every race that counts. Each pool is rated on its own; the numbers do not compare across them.")}</p></div>
             <div className="legend">{POOLS.filter((p) => rated.some((r) => poolOf(r) === p)).map((p) => <span key={p} className={`swatch pool-${p}`}><i />{poolLabel(p)}</span>)}</div></div>
           <EloChart rows={rated} />
         </section>
@@ -74,8 +74,6 @@ function Chart({ rows }: { rows: Result[] }) {
   );
 }
 
-const poolOf = (r: Result): Pool => (r.format === "bracket" ? "race" : "kvalik");
-
 /** The Elo rating after each rated race, in date order, one line per pool. */
 function EloChart({ rows }: { rows: Result[] }) {
   const [ref, W] = useWidth<HTMLDivElement>();
@@ -103,7 +101,7 @@ function EloChart({ rows }: { rows: Result[] }) {
           </g>
         ))}
       </svg>
-      <div className="chart-tip" role="status">{cur ? <><b>{cur.race} {cur.year}</b> · {poolLabel(poolOf(cur))} · {placeOf(cur.place, cur.field)} · {t("Rating", "Rating")} <b className="tnum">{cur.elo}</b> <Delta d={cur.eloDelta} /></> : <span className="muted">{t("Pek på et punkt.", "Point at a dot.")}</span>}</div>
+      <div className="chart-tip" role="status">{cur ? <><b>{cur.race} {cur.year}</b> · {poolLabel(poolOf(cur)!)} · {placeOf(cur.place, cur.field)} · {t("Rating", "Rating")} <b className="tnum">{cur.elo}</b> <Delta d={cur.eloDelta} /></> : <span className="muted">{t("Pek på et punkt.", "Point at a dot.")}</span>}</div>
     </div>
   );
 }

@@ -54,11 +54,11 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Jackson Shapiera",
      "time": 171.08,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUS"
     },
     {
@@ -238,11 +238,11 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 28,
      "name": "Andrew Chapman",
      "time": 175.08,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
@@ -766,11 +766,11 @@
      "nat": "POL"
     },
     {
-     "place": null,
+     "place": 94,
      "name": "Fredric Jacobsen",
      "time": 184.74,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NOR"
     },
     {
@@ -1045,11 +1045,11 @@
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 129,
      "name": "Mauritz Armfelt",
      "time": 191.84,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
@@ -1604,11 +1604,11 @@
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 19,
      "name": "Mauritz Armfelt",
      "time": 191.84,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
@@ -1956,11 +1956,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 38,
      "name": "Alexandre Markiewicz",
      "time": 243.3,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     }
    ]

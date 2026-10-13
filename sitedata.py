@@ -1,14 +1,15 @@
 """Build the data the site reads (data/site/, data/riders/, data/races.json, data/summary.json)
-from the events in data/ndsf/ (ndsf.py) and data/manual/ (hand-written, same shape; a manual
-file replaces the automatic one with the same name).
+from the events in data/igsa/, data/idf/, data/wdsc/, data/ndsf/ (igsa.py, idf.py, wdsc.py, ndsf.py)
+and data/manual/ (hand-written, same shape). The same event in several folders is taken from the
+latest one in SOURCES that has races, so a manual file replaces everything else.
 
   python3 sitedata.py          write everything
   python3 sitedata.py names    list names that may be the same rider spelt differently
 
 Riders are matched on their name: the same words in any order, folded to ASCII, so
-"Patricksson Henning" and "Henning Patricksson" are one rider. Other spellings are joined
-by hand in data/riders.json ("aliases"), which also holds every rider's id ("r12"); ids
-are given in order of first appearance and never change. Sex is only known for riders who
+"Patricksson Henning" and "Henning Patricksson" are one rider. data/riders.json holds every
+rider's id ("r12") and every spelling it was found under ("aliases"), so ids never change;
+name matching only places spellings not seen before (Registry). Sex is only known for riders who
 have placed in a women's race (K); everyone else is null, never guessed from the name.
 
 Head-to-head: in every race two riders both rode, the better place wins; a DNF loses to
@@ -27,13 +28,14 @@ from ndsf import fold, slug
 HERE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(HERE, "data")
 REGISTRY = os.path.join(DATA, "riders.json")
-SHARDS = 16
 MIN_RACES = 3  # to be called a rival
 MAX_LIST = 10
 CONTACT = "peder@holterman.no"
 KINDS = ["Open", "Women", "Junior", "Masters", "Luge", "Adaptive", "Inline", "Other"]
-RATED_KINDS = {"Open", "Women", "Junior", "Masters"}  # stand-up longboard; luge, adaptive and inline are other disciplines
-POOLS = {"race": "bracket", "kvalik": "timed"}  # rating pool -> race format
+STANDUP = {"Open", "Women", "Junior", "Masters"}
+# Rating pool -> (classes, race format). Stand-up and luge (classic and street together) are rated apart;
+# adaptive, inline and other are unrated.
+POOLS = {"race": (STANDUP, "bracket"), "kvalik": (STANDUP, "timed"), "luge": ({"Luge"}, "bracket"), "luge_kvalik": ({"Luge"}, "timed")}
 ELO_START, ELO_K_NEW, ELO_K, ELO_NEW = 1500, 40, 24, 8  # K for the rider's first ELO_NEW races in a pool, then K
 MIN_RATED, MIN_SEASON, ACTIVE_YEARS, TOP_N = 5, 3, 2, 25
 HILL_MIN = 3  # races on a hill before a rider is listed in the hill's own rating
@@ -100,15 +102,25 @@ def name_key(name):
     return " ".join(sorted(fold(name).replace(".", " ").replace("-", " ").split()))
 
 
-class Registry:
-    """data/riders.json: id -> {name, aliases}. Stable ids, hand-kept aliases."""
+num = lambda rid: int(rid[1:])
 
-    def __init__(self):
+
+class Registry:
+    """data/riders.json: id -> {name, aliases, ...}. Every spelling a rider has been found under is saved in
+    "aliases", so the next run finds each name again by itself and ids never move. Name matching only places
+    spellings not seen before: one that is a variant of a known rider's (same_person) joins that rider, the
+    rest get the next free id ("next", never handed out twice). "not" on a rider lists spellings that are
+    someone else, so matching never puts them there."""
+
+    def __init__(self, events):
         try:
             with open(REGISTRY, encoding="utf-8") as f:
-                self.riders = json.load(f)["riders"]
+                data = json.load(f)
         except (OSError, ValueError):
-            self.riders = {}
+            data = {}
+        self.riders = data.get("riders", {})
+        self.next = data.get("next") or 1 + max(map(num, self.riders), default=0)
+        self.known = set(self.riders)
         self.by_key = {}
         self.spellings = defaultdict(Counter)
         # A rider is found by the first or last word of any spelling, give or take a letter: the index maps
@@ -116,10 +128,20 @@ class Registry:
         # or dropped, or two letters swapped still meet on a shared key). Thousands of riders make the
         # pairwise search below far too slow without it.
         self.index = defaultdict(set)
-        for rid, r in self.riders.items():
+        for rid in sorted(self.riders, key=num, reverse=True):  # a spelling on two riders is the lower id's
+            r = self.riders[rid]
+            nots = {name_key(n) for n in r.get("not", [])}
             for n in [r["name"]] + r.get("aliases", []):
-                self.by_key[name_key(n)] = rid
-                self._index(rid, n)
+                if name_key(n) not in nots:
+                    self.by_key[name_key(n)] = rid
+                    self._index(rid, n)
+        # Two names in the same list are two people: the races each name rode, to keep them apart.
+        self.lists = defaultdict(set)
+        for ev in events:
+            for i, r in enumerate(ev["races"]):
+                for x in r["results"]:
+                    if not x.get("dns"):
+                        self.lists[name_key(x["name"])].add((ev["id"], i))
 
     def _index(self, rid, spelled):
         t = _toks(spelled)
@@ -134,11 +156,24 @@ class Registry:
             return set()
         return set().union(*(self.index.get(k, set()) for k in _keys(t[0]) | _keys(t[-1])))
 
+    def names(self, rid):
+        r = self.riders[rid]
+        return [r["name"]] + r.get("aliases", []) + list(self.spellings[rid])
+
+    def apart(self, rid, names):
+        """These spellings can not be this rider: listed in its "not", or in the same list as one of its own."""
+        keys = {name_key(n) for n in names}
+        mine = {name_key(n) for n in self.names(rid)}
+        if keys & {name_key(n) for n in self.riders[rid].get("not", [])}:
+            return True
+        return any(self.lists[k] & self.lists[m] for k in keys - mine for m in mine)
+
     def id_for(self, name):
         k = name_key(name)
         rid = self.by_key.get(k) or self.same_person(name)
         if not rid:
-            rid = f"r{1 + max((int(x[1:]) for x in self.riders), default=0)}"
+            rid = f"r{self.next}"
+            self.next += 1
             self.riders[rid] = {"name": name, "aliases": []}
         self.by_key[k] = rid
         self.spellings[rid][name.strip()] += 1
@@ -147,37 +182,30 @@ class Registry:
 
     def same_person(self, name, only=None):
         """A rider already registered under a spelling this name is a variant of: the same words with a
-        typo in one or two of them (Jørundland / Jørunland), the same name with a middle name or initial
-        added, dropped or abbreviated (Trygve Jørundland / Trygve Flebu Jørundland / Trygve F. Jørundland),
-        in any order (Coward Gorgus / Gorgus T Coward). Two different people can share a name, so this is
-        only a start; "aliases" in data/riders.json is the authority."""
+        typo in one of them (Jørundland / Jørunland), the same name with a middle name or initial added,
+        dropped or abbreviated (Trygve Jørundland / Trygve Flebu Jørundland / Trygve F. Jørundland), in any
+        order (Coward Gorgus / Gorgus T Coward). Never a rider the name raced against or one whose "not"
+        lists it. Two different people can share a name, so this is only a start; "aliases" and "not" in
+        data/riders.json are the authority."""
         toks = _toks(name)
         if len(toks) < 2:
             return None
-        for rid in sorted({only} if only else self.candidates(name), key=lambda x: int(x[1:])):
-            r = self.riders.get(rid)
-            if r is None:
+        for rid in sorted({only} if only else self.candidates(name), key=num):
+            if rid not in self.riders or self.apart(rid, [name]):
                 continue
-            for spelled in [r["name"]] + r.get("aliases", []) + list(self.spellings[rid]):
-                t = _toks(spelled)
-                if len(t) < 2:
-                    continue
-                for short, long in ((toks, t), (t, toks)):
-                    # First and last name must both be there (in either order): "Pål Erik" alone is not
-                    # "Pål Erik Lystad", it could as well be "Pål Eirik Svanevik".
-                    ends = _close(short[0], long[0]) and _close(short[-1], long[-1]) or \
-                        _close(short[0], long[-1]) and _close(short[-1], long[0])
-                    if ends and all(_in(x, long) for x in short) and sum(_in(x, long) == 2 for x in short) >= 2:
-                        return rid
+            if any(_variant(toks, _toks(spelled)) for spelled in self.names(rid)):
+                return rid
         return None
 
     def consolidate(self):
-        """Second pass: two riders registered apart because the joining spelling came later ("Einbu Erland"
-        in 2012, "Erland Lien" in 2013, "Erland Lien Einbu" in 2014) are one rider. Returns {old id: kept id}."""
+        """Second pass over the riders new this run: two registered apart because the joining spelling came
+        later ("Einbu Erland" in 2012, "Erland Lien" in 2013, "Erland Lien Einbu" in 2014) are one rider,
+        under the lower id. Riders from data/riders.json are never joined to each other here. Returns {old id:
+        kept id}."""
         moved = {}
-        num = lambda x: int(x[1:])
 
         def merge(b, a):
+            b, a = max(a, b, key=num), min(a, b, key=num)
             moved[b] = a
             self.spellings[a].update(self.spellings[b])
             for sp in self.spellings[b]:
@@ -185,12 +213,12 @@ class Registry:
             self.riders[a]["aliases"] = sorted(set(self.riders[a].get("aliases", [])) | {self.riders[b]["name"]} | set(self.riders[b].get("aliases", [])))
             del self.riders[b]
 
-        for b in sorted(self.riders, key=num):
+        for b in sorted(set(self.riders) - self.known, key=num):
             if b in moved:
                 continue
             hits = {a for sp in self.spellings[b] for a in self.candidates(sp) if a in self.riders and num(a) < num(b)}
             for a in sorted(hits, key=num):
-                if any(self.same_person(sp, only=a) for sp in self.spellings[b]):
+                if not self.apart(a, self.names(b)) and not self.apart(b, self.names(a)) and                         any(self.same_person(sp, only=a) for sp in self.spellings[b]):
                     merge(b, a)
                     break
         # A name cut short ("Roy Helge", "Sander Viste") is the one rider whose name starts that way.
@@ -199,9 +227,11 @@ class Registry:
                 continue
             t = _toks(self.riders[b]["name"])
             hits = {a for a in self.index.get(t[0], ()) if a != b and a in self.riders and any(
-                len(ft) > len(t) and ft[:len(t)] == t for ft in (_toks(sp) for sp in self.spellings[a]))} if t else set()
-            if len(hits) == 1 and len(t) >= 2:
-                merge(b, hits.pop())
+                len(ft) > len(t) and ft[:len(t)] == t for ft in (_toks(sp) for sp in self.spellings[a]))} if len(t) >= 2 else set()
+            if len(hits) == 1:
+                a = hits.pop()
+                if {a, b} - self.known and not self.apart(a, self.names(b)) and not self.apart(b, self.names(a)):
+                    merge(b, a)
         self.by_key = {k: moved.get(rid, rid) for k, rid in self.by_key.items()}
         return moved
 
@@ -216,15 +246,20 @@ class Registry:
         for rid, r in self.riders.items():
             if not r.get("fixed") and self.spellings[rid]:
                 r["name"] = self.display(rid)
-        dump(REGISTRY, {"_help": "Rider ids for the site. Add other spellings of a name to \"aliases\" to merge "
-                                 "riders; set \"fixed\": true to keep \"name\" as written here; set \"norsk\": true or false "
-                                 "to put a rider in the Norway view or out of it, whatever the lists say.",
-                        "riders": dict(sorted(self.riders.items(), key=lambda kv: int(kv[0][1:])))}, indent=1)
+            nots = {name_key(n) for n in r.get("not", [])}
+            r["aliases"] = sorted(n for n in set(r.get("aliases", [])) | set(self.spellings[rid]) if n != r["name"] and name_key(n) not in nots)
+        dump(REGISTRY, {"_help": "Rider ids for the site. \"aliases\" holds every other spelling the rider was found under; "
+                                 "move a spelling to another rider to change who it is, and give it a rider of its own "
+                                 "by moving it into \"not\" (spellings that are someone else). Set \"fixed\": true to "
+                                 "keep \"name\" as written here; set \"norsk\": true or false to put a rider in the "
+                                 "Norway view or out of it, whatever the lists say. \"next\" is the next id to hand out.",
+                        "next": self.next,
+                        "riders": dict(sorted(self.riders.items(), key=lambda kv: num(kv[0])))}, indent=1)
 
     def suspects(self):
         """Pairs of riders that may be the same person: same first word and similar last word, or one
         name inside the other."""
-        ids = sorted(self.riders, key=lambda x: int(x[1:]))
+        ids = sorted(self.riders, key=num)
         toks = {rid: fold(self.display(rid)).split() for rid in ids}
         out = []
         for i, a in enumerate(ids):
@@ -251,12 +286,34 @@ def _keys(tok):
     return {tok} | {tok[:i] + tok[i + 1:] for i in range(len(tok))}
 
 
+def _variant(a, b):
+    """Two spellings (as words) of one name: first and last name both there, in either order ("Pål Erik"
+    alone is not "Pål Erik Lystad", it could as well be "Pål Eirik Svanevik"), every word of the shorter one
+    in the longer, at least two of them in full, and at most one with a typo."""
+    if len(a) < 2 or len(b) < 2:
+        return False
+    for short, long in ((a, b), (b, a)):
+        ends = _typo(short[0], long[0]) and _typo(short[-1], long[-1]) or \
+            _typo(short[0], long[-1]) and _typo(short[-1], long[0])
+        found = [_in(x, long) for x in short]
+        if ends and all(found) and sum(f >= 2 for f in found) >= 2 and found.count(2) <= 1:
+            return True
+    return False
+
+
 def _in(tok, toks):
-    """2 when a word (or a one-letter typo of it) is among toks, 1 when it is an initial or short form of
-    one (D. or Kr. for Drageset or Kristian), else 0."""
-    if any(_close(tok, x) for x in toks):
+    """3 when a word is among toks, 2 when a typo of it is, 1 when it is an initial or short form of one
+    (D. or Kr. for Drageset or Kristian), else 0."""
+    if tok in toks:
+        return 3
+    if any(_typo(tok, x) for x in toks):
         return 2
     return 1 if len(tok) <= 2 and any(x.startswith(tok) for x in toks) else 0
+
+
+def _typo(a, b):
+    """The same word give or take a typo that keeps the first letter (Jørundland / Jørunland; not Dan / Ian)."""
+    return a == b or a[:1] == b[:1] and _close(a, b)
 
 
 def _close(a, b):
@@ -287,7 +344,7 @@ def races_of(events, reg):
         for r in ev["races"]:
             for x in r["results"]:
                 t = _toks(x["name"])
-                if len(t) > 1:
+                if len(t) > 1 and not x.get("dns"):
                     full[tuple(t)] = reg.id_for(x["name"])
         def cut(t):
             hits = {rid for ft, rid in full.items() if len(ft) > len(t) and ft[:len(t)] == tuple(t)}
@@ -299,7 +356,10 @@ def races_of(events, reg):
                     continue  # did not start: not part of the field
                 t = _toks(x["name"])
                 rid = (cut(t) if tuple(t) not in full else None) or reg.id_for(x["name"])
-                if any(y[0] == rid for y in rows):
+                twin = next((y for y in rows if y[0] == rid), None)
+                if twin:
+                    print(f"{ev['id']} {r['name']}: \"{twin[1]}\" and \"{x['name']}\" are both {rid}, the second is left out "
+                          f"(two people: move one to \"not\" in data/riders.json)")
                     continue
                 rows.append([rid, x["name"], None if x.get("dnf") else x["place"], x.get("time"), bool(x.get("dnf")), x.get("nat")])
             placed = [y for y in rows if y[2] is not None]
@@ -442,7 +502,7 @@ def insights(opps):
 # ---------------------------------------------------------------- rating
 
 def ratings(races, reg, index_ids, no):
-    """Elo per pool (POOLS: heats and timed runs apart), over the stand-up classes (RATED_KINDS). A race is every
+    """Elo per pool (POOLS: stand-up and luge apart, heats and timed runs apart). A race is every
     pair of riders in it: the better place wins, a DNF loses to everyone placed and draws with another DNF. A
     rider's score is the share of those pairs won, the expected share is the mean Elo expectation against each,
     and the rating moves K times the difference. Everyone starts at ELO_START; K is higher for a rider's first
@@ -454,9 +514,9 @@ def ratings(races, reg, index_ids, no):
     each race)."""
     page = lambda rid: {"id": rid, "name": reg.display(rid), "page": rid in index_ids}
     out, per_rider, per_race = {}, defaultdict(dict), defaultdict(dict)
-    for pool, fmt in POOLS.items():
+    for pool in POOLS:
         rating, n, peak, last, seasons = {}, Counter(), {}, {}, []
-        pool_races = rated(races, fmt)
+        pool_races = rated(races, pool)
         years = sorted({r["date"][:4] for r in pool_races})
         history = defaultdict(list)  # rid -> [(race index, rating after)]
         for i, r in enumerate(pool_races):
@@ -498,9 +558,10 @@ def ratings(races, reg, index_ids, no):
     return out, per_rider, per_race
 
 
-def rated(races, fmt):
-    """The races that count in a pool: this format, a stand-up class, more than one rider."""
-    return [r for r in races if r["format"] == fmt and r["type"] in RATED_KINDS and len(r["rows"]) > 1]
+def rated(races, pool):
+    """The races that count in a pool: its format, one of its classes, more than one rider."""
+    kinds, fmt = POOLS[pool]
+    return [r for r in races if r["format"] == fmt and r["type"] in kinds and len(r["rows"]) > 1]
 
 
 def elo_step(r, rating, n):
@@ -531,9 +592,9 @@ def hill_ratings(races, reg, index_ids):
     over the placed finishes (a DNF counts as a race but not a place). {hill: {pool: {races, riders, min_races, top}}}."""
     page = lambda rid: {"id": rid, "name": reg.display(rid), "page": rid in index_ids}
     out = defaultdict(dict)
-    for pool, fmt in POOLS.items():
+    for pool in POOLS:
         by_hill = defaultdict(list)
-        for r in rated(races, fmt):
+        for r in rated(races, pool):
             if r["hill"]:
                 by_hill[r["hill"]].append(r)
         for hill, rs in by_hill.items():
@@ -557,10 +618,6 @@ def hill_ratings(races, reg, index_ids):
 
 # ---------------------------------------------------------------- output
 
-def shard_of(rid):
-    return f"{int(rid[1:]) % SHARDS:02}"
-
-
 def summary(races, index_ids, reg, sex, rating, hill_rating, no):
     """data/summary.json: the front page and its top lists, for everything and ("no") for the Norway view:
     the races in Norway and the riders in the view."""
@@ -571,10 +628,22 @@ def summary(races, index_ids, reg, sex, rating, hill_rating, no):
         "years": sorted({int(r["date"][:4]) for r in races}),
         **highlights(races, races, everyone, page, reg, sex),
         "rating": rating, "hill_rating": hill_rating,
+        "hills": hill_counts(races),
     }
     home = [r for r in races if r["norway"]]
     out["no"] = {"events": len({r["event"] for r in home}), "races": len(home), "results": sum(len(r["rows"]) for r in home),
                  "riders": len(no & everyone), **highlights(home, races, no, page, reg, sex)}
+    return out
+
+
+def hill_counts(races):
+    """Per hill id: how many races were run there and the date of the last one."""
+    out = {}
+    for r in races:
+        if r["hill"]:
+            c = out.setdefault(r["hill"], {"races": 0, "last": ""})
+            c["races"] += 1
+            c["last"] = max(c["last"], r["date"])
     return out
 
 
@@ -629,8 +698,8 @@ def highlights(event_races, races, riders, page, reg, sex):
 
 
 def main():
-    reg = Registry()
     events = load_events()
+    reg = Registry(events)
     races = races_of(events, reg)
     if reg.consolidate():
         races = races_of(events, reg)
@@ -649,7 +718,7 @@ def main():
 
     index_ids = set(by_rider)
     rating, rider_rating, per_race = ratings(races, reg, index_ids, no)
-    index, shards = [], defaultdict(dict)
+    index, profiles = [], {}
     for rid, mine in by_rider.items():
         results, opps = build_rider(rid, mine, sex, reg, no)
         for r in results:  # the rating after this race and what it moved, on the rated ones
@@ -659,25 +728,25 @@ def main():
         ins = insights(opps)
         named = set(ranked) | {x["id"] for v in ins.values() if isinstance(v, list) for x in v} \
             | {x["id"] for v in ins["rivals_by_type"].values() for x in v}
-        entry = {"id": rid, "name": reg.display(rid), "club": "", "races": len(mine), "shard": shard_of(rid), "sex": sex.get(rid),
+        entry = {"id": rid, "name": reg.display(rid), "club": "", "races": len(mine), "sex": sex.get(rid),
                  "wins": sum(1 for r in results if r["place"] == 1 and r["format"] == "bracket"), "no": rid in no}
         index.append(entry)
         obj = {"id": rid, "name": entry["name"], "club": "", "sex": sex.get(rid), "no": rid in no, "results": sorted(results, key=lambda r: r["date"]),
                "rivals": ranked, "insights": ins, "rating": rider_rating.get(rid, {}),
-               "opponents": [[o["id"], o["name"], "", o["w"], o["l"], o["med"], o["ms"], o["sex"], int(o["no"])]
-                             for o in opps.values() if len(o["ms"]) >= 2 or o["id"] in named],
+               # who the site shows head-to-head with; the meetings themselves come from races.json in the browser
+               "opponents": [[o["id"], o["name"], o["sex"], int(o["no"])] for o in opps.values() if len(o["ms"]) >= 2 or o["id"] in named],
                "record": {"opponents": len(opps), "wins": sum(o["w"] for o in opps.values()), "losses": sum(o["l"] for o in opps.values())}}
         if sex.get(rid) == "K":
             obj["rivals_women"] = [x for x in ranked if sex.get(x) == "K"]
-        shards[entry["shard"]][rid] = obj
+        profiles[rid] = obj
     index.sort(key=lambda r: (-r["races"], r["name"]))
     riders_dir = os.path.join(DATA, "riders")
     os.makedirs(riders_dir, exist_ok=True)
     for f in os.listdir(riders_dir):
         os.remove(os.path.join(riders_dir, f))
     dump(os.path.join(riders_dir, "index.json"), index)
-    for k, v in shards.items():
-        dump(os.path.join(riders_dir, f"shard-{k}.json"), v)
+    for rid, obj in profiles.items():
+        dump(os.path.join(riders_dir, f"{rid}.json"), obj)
 
     s = summary(races, index_ids, reg, sex, rating, hill_ratings(races, reg, index_ids), no)
     dump(os.path.join(DATA, "summary.json"), s)
@@ -693,8 +762,9 @@ def main():
 
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "names":
-        reg = Registry()
-        races_of(load_events(), reg)
+        events = load_events()
+        reg = Registry(events)
+        races_of(events, reg)
         for a, b in reg.suspects():
             print(f"{a:>6} {reg.display(a):<32} {b:>6} {reg.display(b)}")
     else:

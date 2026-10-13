@@ -239,11 +239,11 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 28,
      "name": "Brian Vigil",
      "time": 70.52,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -383,11 +383,11 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 46,
      "name": "Joseph Marshall",
      "time": 78.95,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
@@ -655,115 +655,115 @@
    "source": "http://web.archive.org/web/20160606094904id_/http://igsaworldcup.com/results/2011/2011_us_nationals_na_qual / Classic Luge / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Christian Conaway",
      "time": 69.65,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Keith Henderson",
      "time": 69.65,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Kyle Castaneda",
      "time": 70.32,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Justin Tolman",
      "time": 71.12,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "William Condon",
      "time": 71.2,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Dan Kasmar",
      "time": 71.53,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Kolby Parks",
      "time": 71.81,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Scott Peer",
      "time": 72.25,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Frank Williams",
      "time": 72.65,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "William Myrvold",
      "time": 72.97,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "Mike McIntyre",
      "time": 76.72,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 12,
      "name": "Ronnie Iverson",
      "time": 77.65,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 13,
      "name": "Dylan Wall",
      "time": 96.85,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 14,
      "name": "Benjamin Zehner",
      "time": 106.42,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "USA"
     }
    ]

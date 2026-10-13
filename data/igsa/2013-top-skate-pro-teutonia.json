@@ -785,19 +785,19 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 96,
      "name": "Thiago Batista",
      "time": 98.21,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 97,
      "name": "André Correa",
      "time": 100.43,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -825,11 +825,11 @@
      "nat": "CZE"
     },
     {
-     "place": null,
+     "place": 101,
      "name": "Ayslan Avelino",
      "time": 109.95,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -841,19 +841,19 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 103,
      "name": "Marcos Vergara",
      "time": 112.77,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 104,
      "name": "Alexandre Arauji",
      "time": 120.17,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -1289,11 +1289,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 36,
      "name": "Rodrigo Silveira",
      "time": 107.34,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -1433,11 +1433,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Hugo Campelo",
      "time": 92.25,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -1465,11 +1465,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 14,
      "name": "Sasha Reis",
      "time": 103.24,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -1641,11 +1641,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Rodolpho Saldanha",
      "time": 77.25,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -1689,11 +1689,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Abdil Mahdzan",
      "time": 79.45,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "MAL"
     },
     {
@@ -1833,11 +1833,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Guilherme Burjato",
      "time": 87.54,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {

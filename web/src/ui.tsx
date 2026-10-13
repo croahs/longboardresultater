@@ -30,6 +30,8 @@ export const BrandMark = () => (
 
 export const Empty = ({ title, children }: { title: string; children?: ReactNode }) => <div className="empty"><b>{title}</b>{children}</div>;
 export const Loading = ({ what }: { what: string }) => <div className="loading" role="status">{t("Henter", "Loading")} {what} …</div>;
+/** A fetch that failed, as opposed to something that does not exist. */
+export const Failed = ({ what }: { what: string }) => <Empty title={`${t("Fikk ikke hentet", "Could not load")} ${what}`}>{t("Sjekk nettet og last siden på nytt.", "Check the connection and reload the page.")}</Empty>;
 
 /** The class a race was run in, as a pill in the kind's colour: "Masters", "Open Eurotour", "Tidskjøring". */
 export const Cls = ({ type, cls, big }: { type: RaceType; cls?: string; big?: boolean }) => <span className={`pill type-${type}${big ? " big" : ""}`}>{cls || typeLabel(type)}</span>;

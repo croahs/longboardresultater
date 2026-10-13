@@ -55,11 +55,16 @@ ikke med; listen står i `SKIP_POSTS` i `ndsf.py`.
 - **Et stevne som ikke ble lest** (bilder, borte PDF): skriv `data/manual/<samme-id>.json` i samme form som
   filene i `data/ndsf/`. `sitedata.py` tar den manuelle filen foran den automatiske. `ndsf.py` skriver ut hvilke
   stevner som mangler (`needs manual`).
-- **Samme kjører, ulik stavemåte**: `sitedata.py` slår sammen navn med samme ord i annen rekkefølge, én skrivefeil
-  eller et mellomnavn mer eller mindre. Resten legges i `"aliases"` på kjøreren i `data/riders.json`.
-  `python3 sitedata.py names` lister navn som kan være samme person. Id-ene (`r12`) deles ut i rekkefølge og
-  endres aldri; sett `"fixed": true` for å låse navnet slik det står. Profilen viser registernavnet, mens
-  racelistene med vilje viser navnet slik kilden skrev det.
+- **Samme kjører, ulik stavemåte**: `data/riders.json` er fasiten. Hver kjører har en id (`r12`) og i
+  `"aliases"` alle stavemåtene den er funnet under, så neste kjøring finner dem igjen og id-ene endres aldri.
+  Bare stavemåter som ikke er sett før, matches: samme ord i annen rekkefølge, én skrivefeil (ikke i første
+  bokstav) eller et mellomnavn mer eller mindre gir samme kjører, men aldri en kjører navnet står sammen med i
+  samme liste. Slå sammen to kjørere ved å flytte stavemåtene til den ene og slette den andre. Skill to
+  personer ved å flytte stavemåten fra `"aliases"` til `"not"` (f.eks. `"not": ["Ian Anderson"]` på Dan
+  Andersson); den får egen id neste gang. `"next"` er neste id som deles ut, så en slettet id brukes aldri
+  igjen. Står to stavemåter av samme kjører i én liste, skriver `sitedata.py` det ut og tar bare den første.
+  `python3 sitedata.py names` lister navn som kan være samme person; sett `"fixed": true` for å låse navnet
+  slik det står. Profilen viser registernavnet, mens racelistene med vilje viser navnet slik kilden skrev det.
 - **Bakkene**: `python3 markhills.py` åpner et kart på localhost der du velger bakke, klikker start og mål
   på veien og lagrer. Følger ikke veien racet (OSRM tar raskeste bilvei), legg til via-punkter langs riktig
   vei. Lagring skriver `data/hills.json`, kjører `tracks.py` for bakken og tegner veien med stigning med en gang. Commit `data/hills.json` og `data/tracks/`. `python3 tracks.py check` viser hva som
@@ -76,7 +81,7 @@ Alle tre hentere leser cachen uten nett; `fetch` henter det som mangler (IGSA) e
 |---|---|---|---|
 | IGSA (`igsa.py`) | 1997–2015 (tyngst 2009–2013) | igsaworldcup.com er borte; Wayback Machine har `/results/<år>/`-filene, funnet via CDX-indeksen (`cache/igsa/cdx.json`) | Én PDF per stevne og liste (kvalik og finale) fra 2009, Excel-eksportert HTML 2005–2008. Toppen gir stevne, sted, dato og nivå; så én seksjon per klasse. Finalelisten rangerer alle som kjørte (heatene avgjør), kvaliklisten har tider |
 | IDF (`idf.py`) | 2015–2019 | internationaldownhillfederation.org/rankings/: HTML-tabeller på `rankings.`-underdomenet (2015–2018) og Google Sheets (2019) | Sesongrankingen per klasse og region gir plass per race for hver rangert kjører; lest kolonne for kolonne er det hvert race sin liste (bare de som fikk plass, ingen DNF). Dato og land fra `/races/<år>/`. 2013–2014 har bare sesongsum, 2020– ble aldri rangert |
-| WDSC (`wdsc.py`) | 2022– | worlddownhillskateboardingchampionship.com, standings-sidene i menyen «Riders & Standings» | HTML-tabeller per stevne og klasse, med serien (CT = Championship Tour, QS = Qualifying Series) i racenavnet, og kvaliktider der de finnes. 2022–2023 gir også plass per race i sesongtabellen (flere kjørere enn topp 10-listene). 2019 har bare sesongpoeng |
+| WDSC (`wdsc.py`) | 2022– | worlddownhillskateboardingchampionship.com, standings-sidene i menyen «Riders & Standings» | HTML-tabeller per stevne og klasse, med serien (CT = Championship Tour, QS = Qualifying Series) i racenavnet, og kvaliktider der de finnes. En QS-liste som bare er CT-listen i samme klasse kortet ned til QS-kjørerne, i samme rekkefølge, er samme race og droppes (med en note), så det ikke teller dobbelt i ratingen. 2022–2023 gir også plass per race i sesongtabellen (flere kjørere enn topp 10-listene). 2019 har bare sesongpoeng |
 
 Kjente hull: de fleste IGSA-filene fra 2009 (og noen fra 2010–2011 med et rart skilletegn i navnet) er aldri arkivert,
 Wayback har bare feilsider for dem; IGSA-PDF-ene mister bokstaver utenfor ASCII (ø skrives inn igjen for NOR-kjørere, ellers faller
@@ -96,23 +101,23 @@ racerader og motstandere, `norway` på race, egne lister (`now_no`, `peak_no`, `
 
 ## Hva siden får
 
-`web/` leser `data/site/site.json`, `data/riders/index.json` og `data/riders/shard-NN.json` (hver kjører med
-resultater, rivaler og innsikt), `data/races.json` (hver resultatliste, for racesidene og innbyrdes oppgjør
-mellom hvem som helst), `data/summary.json` (forsiden og topplistene), `data/hills.json` og
+`web/` leser `data/site/site.json`, `data/riders/index.json` og `data/riders/<id>.json` (én fil per kjører med
+resultater, rivaler og innsikt), `data/races.json` (hver resultatliste, for racesidene og innbyrdes oppgjør:
+møtene regnes ut i nettleseren herfra), `data/summary.json` (forsiden og topplistene), `data/hills.json` og
 `data/tracks/`. Stigningen i `tracks` er negativ nedover; fargene på siden er rød fra 9 %, oransje fra 7 %,
 gul fra 5 %, grønn under 5 % og blå oppover.
 
 Innbyrdes oppgjør: i hvert race begge kjørte, vinner den beste plassen. DNF taper mot alle som fikk plass og
 deler mot en annen DNF. Tidskjøringer gir i tillegg avstanden i sekunder og prosent.
 
-Rating (`summary.json` → `rating`, og `rating` på hver kjører): Elo i to pooler, `race` (heat, `format: bracket`)
-og `kvalik` (`format: timed`), over klassene Open, Damer, Junior og Masters (luge, adaptive, inline og annet
-er andre disipliner). Hvert race er et oppgjør mot alle andre i listen etter samme regel som innbyrdes oppgjør;
+Rating (`summary.json` → `rating`, og `rating` på hver kjører): Elo i fire pooler: `race` (heat, `format: bracket`)
+og `kvalik` (`format: timed`) over klassene Open, Damer, Junior og Masters, og `luge` og `luge_kvalik` på samme
+måte for luge (klassisk og street sammen). Adaptive, inline og annet rates ikke. Hvert race er et oppgjør mot alle andre i listen etter samme regel som innbyrdes oppgjør;
 kjørerens poeng er andelen oppgjør vunnet, forventningen er snittet av Elo-forventningen mot hver, og ratingen
 flyttes K ganger differansen (K = 40 de første 8 racene i poolen, så 24; alle starter på 1500). Ratingen
 faller ikke av seg selv: «nå» er kjørere med minst 5 race i poolen som har kjørt de siste to sesongene,
 «alle tider» er høyeste rating noen har hatt, og «sesong for sesong» er topp 5 ved sesongslutt blant dem som
-kjørte den sesongen. Tallene er bare sammenlignbare innenfor samme pool, og nykommere som kjører ett race og
+kjørte den sesongen og har minst 3 race i poolen så langt. Tallene er bare sammenlignbare innenfor samme pool, og nykommere som kjører ett race og
 forsvinner drar poeng ut av systemet, så ratingene i store felt (2014–) ligger litt høyere enn i de små
 feltene før. Konstantene står øverst i `sitedata.py`.
 

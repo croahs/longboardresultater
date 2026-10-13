@@ -751,11 +751,11 @@
      "nat": "ESP"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Riccardo Aldinucci",
      "time": 134.09,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
@@ -807,11 +807,11 @@
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Luca Lusini",
      "time": 120.04,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
@@ -831,11 +831,11 @@
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Esposti Daniele Degli",
      "time": 126.85,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {

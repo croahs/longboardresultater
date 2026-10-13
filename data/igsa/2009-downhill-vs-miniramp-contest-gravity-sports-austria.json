@@ -150,11 +150,11 @@
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 17,
      "name": "Dennis Wangler",
      "time": 109.54,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
@@ -326,11 +326,11 @@
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Fee Bücheler",
      "time": 148.75,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     }
    ]

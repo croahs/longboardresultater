@@ -23,595 +23,595 @@
    "source": "http://web.archive.org/web/20160606092306id_/http://igsaworldcup.com/results/2011/2011_chacahills_co_qual.pdf / Downhill Skateboard / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Thiago Lessa",
      "time": 203.12,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Douglas Silva",
      "time": 204.53,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Alysson Garcia",
      "time": 204.72,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Federico Manzitti",
      "time": 205.94,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Nicolas Fuentes",
      "time": 206.91,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Diego Alemparte",
      "time": 207.22,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Juliano Cassemiro",
      "time": 207.61,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Vinicius Castagna",
      "time": 207.69,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Felipe Malaga",
      "time": 209.23,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "PER"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Luis Vinassa",
      "time": 209.46,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "Italo Rocha",
      "time": 210.81,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 12,
      "name": "Lucas Falcione",
      "time": 210.93,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 13,
      "name": "Otavio Munhoz",
      "time": 210.95,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 14,
      "name": "Caio Cezar",
      "time": 211.86,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 15,
      "name": "Bernardo Borges",
      "time": 212.49,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 16,
      "name": "Juan Guevara",
      "time": 212.51,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 17,
      "name": "Alexandre Castro",
      "time": 213.07,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 18,
      "name": "Bernardo Paixão",
      "time": 213.07,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 19,
      "name": "Agustin Allub",
      "time": 213.29,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 20,
      "name": "Arthur Pacifin",
      "time": 213.4,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 21,
      "name": "Marcos Paiva",
      "time": 214.08,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 22,
      "name": "Thiago Duarte",
      "time": 214.49,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 23,
      "name": "Damian Gana",
      "time": 215.4,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 24,
      "name": "Fabian Arellano",
      "time": 215.5,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 25,
      "name": "Luis Lins",
      "time": 216.22,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 26,
      "name": "Federico Formento",
      "time": 216.43,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 27,
      "name": "Alvaro Balcells",
      "time": 217.06,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 28,
      "name": "Ovalhe Danky Dean",
      "time": 217.15,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 29,
      "name": "Mario Duran",
      "time": 217.16,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 30,
      "name": "Marcos Vazquez",
      "time": 218.42,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 31,
      "name": "Rodrigo Panades",
      "time": 219.98,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 32,
      "name": "Leo Navarro",
      "time": 220.07,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 33,
      "name": "Ignacio Perne",
      "time": 220.12,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 34,
      "name": "Lucas Dragone",
      "time": 220.21,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 35,
      "name": "Maria Ambrosio Santa",
      "time": 222.41,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 36,
      "name": "Alejandro Fernandez",
      "time": 222.82,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 37,
      "name": "Nano Tobar",
      "time": 222.9,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 38,
      "name": "Andres Privitera",
      "time": 222.94,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 39,
      "name": "Claudio Perez",
      "time": 223.11,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 40,
      "name": "Gustavo Perez",
      "time": 223.13,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 41,
      "name": "Edgardo Pechar",
      "time": 223.47,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 42,
      "name": "Juan Stabio",
      "time": 223.69,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 43,
      "name": "Marcos Mendez",
      "time": 223.82,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 44,
      "name": "Carlos Soto",
      "time": 224.98,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 45,
      "name": "Daniel Heinsohn",
      "time": 225.12,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 46,
      "name": "Jonathan Villegas",
      "time": 225.69,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "PER"
     },
     {
-     "place": null,
+     "place": 47,
      "name": "Andres Rubiño",
      "time": 226.21,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 48,
      "name": "Halston Ferreira",
      "time": 226.21,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 49,
      "name": "Mariano Gentili",
      "time": 226.64,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 50,
      "name": "Marcelo Destefani",
      "time": 227.39,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 51,
      "name": "Freddy Flores",
      "time": 227.43,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 52,
      "name": "Sebastian Perez",
      "time": 227.45,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 53,
      "name": "Carlos Fernandez",
      "time": 228.3,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 54,
      "name": "Francisco Zamora",
      "time": 229.5,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 55,
      "name": "Emerson Fabricio",
      "time": 229.64,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 56,
      "name": "Hernan Miguez",
      "time": 230.16,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 57,
      "name": "Franco Urciuolo",
      "time": 231.16,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 58,
      "name": "Leonardo Heros",
      "time": 231.86,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 59,
      "name": "Alvaro Araya",
      "time": 233.39,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 60,
      "name": "David Garcia",
      "time": 235.27,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 61,
      "name": "Nicolas Martinez",
      "time": 237.28,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 62,
      "name": "Felipe Solar",
      "time": 239.21,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 63,
      "name": "Leonardo Nonis",
      "time": 242.84,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 64,
      "name": "Ignacio Palacios",
      "time": 244.34,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 65,
      "name": "Luis Sepulveda",
      "time": 245.35,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 66,
      "name": "Sebastian Avendaño",
      "time": 247.6,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 67,
      "name": "Christian Hoffman",
      "time": 248.24,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 68,
      "name": "Mahon Nicolas Mac",
      "time": 248.96,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 69,
      "name": "Giuliano Salgado",
      "time": 249.13,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 70,
      "name": "Francisco Fuentealba",
      "time": 251.41,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 71,
      "name": "Jose Quiroga",
      "time": 252.99,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 72,
      "name": "Agustin-Pablo Virgolini",
      "time": 255.05,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 73,
      "name": "Nicolas Gastelumendi",
      "time": 260.27,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "URU"
     },
     {
-     "place": null,
+     "place": 74,
      "name": "Luis Manta",
      "time": 262.51,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     }
    ]
@@ -623,67 +623,67 @@
    "source": "http://web.archive.org/web/20160606092306id_/http://igsaworldcup.com/results/2011/2011_chacahills_co_qual.pdf / Women Downhill Skateboard / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Marisa Nunez",
      "time": 228.42,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "PER"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Ishtar Backlund",
      "time": 231.67,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Christie Aleixo",
      "time": 237.06,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Andrea Rossel",
      "time": 261.27,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Vicky Simian",
      "time": 262.13,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Mailen Martinez",
      "time": 273.76,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Reine Oliveira",
      "time": 281.75,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Manuela Bayugar",
      "time": 291.55,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     }
    ]
@@ -695,67 +695,67 @@
    "source": "http://web.archive.org/web/20160606092306id_/http://igsaworldcup.com/results/2011/2011_chacahills_co_qual.pdf / Junior 2 Downhill Skateboard / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Victor Pons",
      "time": 211.41,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Jonas Richter",
      "time": 211.6,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Gustavo Parede",
      "time": 211.86,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "PER"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Fabian Guerra",
      "time": 214.68,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Cristian Porta",
      "time": 214.9,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Rene Garcia",
      "time": 226.4,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Melian Matias",
      "time": 229.88,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Osvaldo Matta",
      "time": 241.52,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     }
    ]
@@ -767,59 +767,59 @@
    "source": "http://web.archive.org/web/20160606092306id_/http://igsaworldcup.com/results/2011/2011_chacahills_co_qual.pdf / Street Luge / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Walter Ribeiro",
      "time": 198.43,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Thiago Moreira",
      "time": 200.03,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Alexandre Machado",
      "time": 200.87,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Rodrigo Bisquertt",
      "time": 201.73,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Jonathan Ogralha",
      "time": 208.75,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Guillaumen Michallat",
      "time": 215.87,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Javier Trujillo",
      "time": 223.08,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CHI"
     },
     {
@@ -839,19 +839,19 @@
    "source": "http://web.archive.org/web/20160606092306id_/http://igsaworldcup.com/results/2011/2011_chacahills_co_qual.pdf / Classic Luge / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Alexandre Machado",
      "time": 198.43,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Marco Filho",
      "time": 200.03,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     }
    ]

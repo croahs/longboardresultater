@@ -1320,433 +1320,433 @@
    "results": [
     {
      "place": 1,
-     "name": "Lucas Guaragni",
-     "time": 60.03,
+     "name": "Ricardo Reis",
+     "time": 47.08,
      "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
      "place": 2,
-     "name": "Santiago Espeche",
-     "time": 60.44,
+     "name": "Silon Garcia",
+     "time": 47.36,
      "dnf": false,
      "dns": false,
-     "nat": "ARG"
+     "nat": "BRA"
     },
     {
      "place": 3,
-     "name": "Alexandre Rausini",
-     "time": 60.78,
+     "name": "Willian Rubim",
+     "time": 47.39,
      "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
      "place": 4,
-     "name": "Silvano Boneberg",
-     "time": 66.66,
+     "name": "Douglas Silva",
+     "time": 47.4,
      "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
      "place": 5,
-     "name": "Antonio Neto",
-     "time": 68.16,
+     "name": "Kyle Wester",
+     "time": 47.49,
      "dnf": false,
      "dns": false,
-     "nat": "BRA"
+     "nat": "USA"
     },
     {
      "place": 6,
-     "name": "Sandro Oliveira",
-     "time": 69.42,
+     "name": "Bernardo Brambila",
+     "time": 47.63,
      "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
      "place": 7,
-     "name": "Allan Haves",
-     "time": 69.81,
+     "name": "Rogerio Baum",
+     "time": 47.69,
      "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
      "place": 8,
-     "name": "Jonas Junior",
-     "time": 70.13,
+     "name": "Danky Dean",
+     "time": 47.76,
      "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
      "place": 9,
-     "name": "Guilherme Santos",
-     "time": 72.33,
+     "name": "Vinicius Brasil",
+     "time": 47.8,
      "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
      "place": 10,
-     "name": "Paulo Gartner",
-     "time": 76.58,
+     "name": "Juliano Cassemiro",
+     "time": 47.92,
      "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
      "place": 11,
-     "name": "Evandro Filho",
-     "time": 82.49,
-     "dnf": false,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Ricardo Reis",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Silon Garcia",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Willian Rubim",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Douglas Silva",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Kyle Wester",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "USA"
-    },
-    {
-     "place": null,
-     "name": "Bernardo Brambila",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Rogerio Baum",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Danky Dean",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Vinicius Brasil",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Juliano Cassemiro",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
      "name": "Robert Rodrigues",
-     "time": null,
-     "dnf": true,
+     "time": 48.13,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 12,
      "name": "Rafael Kiotheka",
-     "time": null,
-     "dnf": true,
+     "time": 48.2,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 13,
      "name": "Tiago Mohr",
-     "time": null,
-     "dnf": true,
+     "time": 48.27,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 14,
      "name": "William Royce",
-     "time": null,
-     "dnf": true,
+     "time": 48.35,
+     "dnf": false,
      "dns": false,
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 15,
      "name": "Rafael Bonato",
-     "time": null,
+     "time": 48.52,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 16,
      "name": "Robinson Leao",
-     "time": null,
-     "dnf": true,
+     "time": 48.53,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 17,
      "name": "Luiz Peruch",
-     "time": null,
-     "dnf": true,
+     "time": 48.61,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 18,
      "name": "Rafael Sabella",
-     "time": null,
-     "dnf": true,
+     "time": 48.63,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 19,
      "name": "Yan Bertinati",
-     "time": null,
-     "dnf": true,
+     "time": 48.67,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 20,
+     "name": "Evandro Filho",
+     "time": 49.01,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 21,
      "name": "Alexandre Fernandes",
-     "time": null,
-     "dnf": true,
+     "time": 49.07,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 22,
      "name": "Vitor Salazar",
-     "time": null,
-     "dnf": true,
+     "time": 49.14,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 23,
      "name": "Bruno Oliveira",
-     "time": null,
-     "dnf": true,
+     "time": 49.29,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 24,
      "name": "Antonio Rosa",
-     "time": null,
-     "dnf": true,
+     "time": 49.64,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 25,
+     "name": "Alexandre Rausini",
+     "time": 49.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 26,
      "name": "Diego Schaberle",
-     "time": null,
-     "dnf": true,
+     "time": 49.69,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 27,
      "name": "Lee Cation",
-     "time": null,
-     "dnf": true,
+     "time": 49.82,
+     "dnf": false,
      "dns": false,
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 28,
      "name": "Jean Ritzel",
-     "time": null,
-     "dnf": true,
+     "time": 49.84,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 29,
+     "name": "Allan Haves",
+     "time": 49.88,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 30,
      "name": "Luis Gomes",
-     "time": null,
-     "dnf": true,
+     "time": 49.88,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 31,
      "name": "Sergio Cordeiro",
-     "time": null,
-     "dnf": true,
+     "time": 49.88,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 32,
      "name": "William Usui",
-     "time": null,
-     "dnf": true,
+     "time": 50.01,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 33,
      "name": "Patrick Sousa",
-     "time": null,
-     "dnf": true,
+     "time": 50.02,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 34,
      "name": "Thomas Kaina",
-     "time": null,
-     "dnf": true,
+     "time": 50.18,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 35,
      "name": "Fruke Alves",
-     "time": null,
-     "dnf": true,
+     "time": 50.28,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 36,
+     "name": "Paulo Gartner",
+     "time": 50.42,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 37,
+     "name": "Lucas Guaragni",
+     "time": 50.44,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 38,
      "name": "Miguel Moreira",
-     "time": null,
-     "dnf": true,
+     "time": 50.51,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 39,
      "name": "Filipe Macedo",
-     "time": null,
-     "dnf": true,
+     "time": 50.55,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 40,
      "name": "Pedro Oliveira",
-     "time": null,
-     "dnf": true,
+     "time": 50.62,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 41,
+     "name": "Santiago Espeche",
+     "time": 50.65,
+     "dnf": false,
+     "dns": false,
+     "nat": "ARG"
+    },
+    {
+     "place": 42,
      "name": "Luis Silva",
-     "time": null,
-     "dnf": true,
+     "time": 50.78,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 43,
      "name": "Fabio Lambs",
-     "time": null,
-     "dnf": true,
+     "time": 50.87,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 44,
+     "name": "Silvano Boneberg",
+     "time": 51.21,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 45,
      "name": "Kelvin Silva",
-     "time": null,
-     "dnf": true,
+     "time": 51.99,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 46,
+     "name": "Guilherme Santos",
+     "time": 51.99,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 47,
      "name": "Douglas Gomes",
-     "time": null,
-     "dnf": true,
+     "time": 53.43,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 48,
      "name": "Neri Junior",
-     "time": null,
-     "dnf": true,
+     "time": 53.84,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 49,
+     "name": "Antonio Neto",
+     "time": 53.84,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 50,
+     "name": "Sandro Oliveira",
+     "time": 54.22,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 51,
      "name": "Raphael Almeida",
-     "time": null,
-     "dnf": true,
+     "time": 54.54,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 52,
+     "name": "Jonas Junior",
+     "time": 54.72,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 53,
      "name": "Ederson Colaco",
-     "time": null,
-     "dnf": true,
+     "time": 55.83,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 54,
      "name": "Joao Possani",
-     "time": null,
-     "dnf": true,
+     "time": 56.72,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     }
@@ -1760,57 +1760,57 @@
    "results": [
     {
      "place": 1,
-     "name": "Raíza Peruzzo",
-     "time": 61.36,
+     "name": "Franciele Cardoso",
+     "time": 55.17,
      "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
      "place": 2,
-     "name": "Clara Perez",
-     "time": 63.35,
+     "name": "Raíza Peruzzo",
+     "time": 55.94,
      "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
      "place": 3,
-     "name": "Reine Oliveira",
-     "time": 70.17,
+     "name": "Melissa Brogni",
+     "time": 56.02,
      "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
      "place": 4,
-     "name": "Amanda Souza",
-     "time": 83.61,
+     "name": "Reine Oliveira",
+     "time": 56.3,
      "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
      "place": 5,
-     "name": "Morgana Luiz",
-     "time": 96.31,
+     "name": "Amanda Souza",
+     "time": 57.02,
      "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
-     "name": "Franciele Cardoso",
-     "time": null,
-     "dnf": true,
+     "place": 6,
+     "name": "Morgana Luiz",
+     "time": 59.12,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
-     "name": "Melissa Brogni",
-     "time": null,
-     "dnf": true,
+     "place": 7,
+     "name": "Clara Perez",
+     "time": 63.35,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     }
@@ -1824,169 +1824,169 @@
    "results": [
     {
      "place": 1,
-     "name": "Vicenzo Voiciechovski",
-     "time": 60.55,
+     "name": "Eric Soares",
+     "time": 50.45,
      "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
      "place": 2,
-     "name": "Alexandre Trindade",
-     "time": 61.79,
+     "name": "Lucas Rocha",
+     "time": 51.13,
      "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
      "place": 3,
-     "name": "Matheus Dihl",
-     "time": 65.62,
+     "name": "Deryck Szymczak",
+     "time": 51.26,
      "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
      "place": 4,
-     "name": "Vitor Quadros",
-     "time": 65.95,
+     "name": "Gabriel Drachemberg",
+     "time": 51.5,
      "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
      "place": 5,
-     "name": "Gustavo Pinheiro",
-     "time": 66.44,
+     "name": "Joao Pereira",
+     "time": 51.66,
      "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
      "place": 6,
-     "name": "Julio Acauan",
-     "time": 67.3,
+     "name": "Alexandre Trindade",
+     "time": 51.9,
      "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
      "place": 7,
-     "name": "Matheus Silveira",
-     "time": 71.17,
+     "name": "Bruno Ferroni",
+     "time": 52.17,
      "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
-     "name": "Eric Soares",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Lucas Rocha",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Deryck Szymczak",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Gabriel Drachemberg",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Joao Pereira",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Bruno Ferroni",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
+     "place": 8,
      "name": "Otavio Dell'aglio",
-     "time": null,
-     "dnf": true,
+     "time": 52.32,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Jeremias Gasparotto",
-     "time": null,
-     "dnf": true,
+     "time": 52.48,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Guilherme Andrade",
-     "time": null,
-     "dnf": true,
+     "time": 52.82,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 11,
+     "name": "Gustavo Pinheiro",
+     "time": 53.38,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 12,
      "name": "Nathan Machado",
-     "time": null,
-     "dnf": true,
+     "time": 53.41,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 13,
+     "name": "Julio Acauan",
+     "time": 53.75,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 14,
+     "name": "Matheus Silveira",
+     "time": 53.98,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 15,
      "name": "Octavio Goncalves",
-     "time": null,
-     "dnf": true,
+     "time": 54.07,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 16,
      "name": "Gabriel Kramer",
-     "time": null,
-     "dnf": true,
+     "time": 54.1,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 17,
+     "name": "Matheus Dihl",
+     "time": 54.54,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 18,
      "name": "Leonardo Verardi",
-     "time": null,
-     "dnf": true,
+     "time": 54.64,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 19,
+     "name": "Vitor Quadros",
+     "time": 56.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 20,
      "name": "Yuri Santos",
-     "time": null,
-     "dnf": true,
+     "time": 58.07,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 21,
+     "name": "Vicenzo Voiciechovski",
+     "time": 60.55,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     }
@@ -2000,22 +2000,390 @@
    "results": [
     {
      "place": 1,
-     "name": "Marlon Silva",
-     "time": 60.65,
+     "name": "Tiago Mohr",
+     "time": 48.27,
      "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
      "place": 2,
-     "name": "Italo Lima",
-     "time": 60.83,
+     "name": "Robinson Leao",
+     "time": 48.53,
      "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
      "place": 3,
+     "name": "Luiz Peruch",
+     "time": 48.61,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 4,
+     "name": "Yan Bertinati",
+     "time": 48.67,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 5,
+     "name": "Lucas Silva",
+     "time": 49.16,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 6,
+     "name": "Jorge Pinheiro",
+     "time": 49.22,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 7,
+     "name": "Otavio Fialho",
+     "time": 49.23,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 8,
+     "name": "Felipe Rosa",
+     "time": 49.25,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 9,
+     "name": "Bruno Oliveira",
+     "time": 49.29,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 10,
+     "name": "Renan Zimmer",
+     "time": 49.41,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 11,
+     "name": "Bruno Monti",
+     "time": 49.56,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 12,
+     "name": "Felipe Almeida",
+     "time": 49.78,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 13,
+     "name": "Guilherme Senna",
+     "time": 49.79,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 14,
+     "name": "Bruno Schaedler",
+     "time": 49.89,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 15,
+     "name": "William Silva",
+     "time": 50.17,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 16,
+     "name": "Douglas Marques",
+     "time": 50.4,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 17,
+     "name": "Matheus Nina",
+     "time": 50.43,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 18,
+     "name": "Leonardo Laky",
+     "time": 50.49,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 19,
+     "name": "Marlon Silva",
+     "time": 50.5,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 20,
+     "name": "Miguel Moreira",
+     "time": 50.51,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 21,
+     "name": "Danrlei Silva",
+     "time": 50.58,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 22,
+     "name": "Eduardo Tonini",
+     "time": 50.61,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 23,
+     "name": "Pedro Oliveira",
+     "time": 50.62,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 24,
+     "name": "Guilherme Karnal",
+     "time": 50.75,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 25,
+     "name": "Cristian Henz",
+     "time": 50.76,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 26,
+     "name": "Luiz Veloso",
+     "time": 50.83,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 27,
+     "name": "Ian Freire",
+     "time": 51.01,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 28,
+     "name": "Uriel Liares",
+     "time": 51.54,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 29,
+     "name": "Lua Silva",
+     "time": 51.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 30,
+     "name": "Gabriel Reis",
+     "time": 51.68,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 31,
+     "name": "Joao Vitor Oliveira",
+     "time": 51.79,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 32,
+     "name": "Weslei Leal",
+     "time": 51.88,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 33,
+     "name": "Henrique Conterato",
+     "time": 51.89,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 34,
+     "name": "Kelvin Silva",
+     "time": 51.99,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 35,
+     "name": "Guilherme Santos",
+     "time": 51.99,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 36,
+     "name": "Victor Goncalves",
+     "time": 52.27,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 37,
+     "name": "Matheus Nunes",
+     "time": 52.37,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 38,
+     "name": "Guilherme Soares",
+     "time": 52.52,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 39,
+     "name": "Matheus Medeiros",
+     "time": 52.64,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 40,
+     "name": "Mateus Venturella",
+     "time": 52.8,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 41,
+     "name": "Lucas Harenza",
+     "time": 52.95,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 42,
+     "name": "Miguel Neto",
+     "time": 53.22,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 43,
+     "name": "Joao Brasil",
+     "time": 53.32,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 44,
+     "name": "Victor Pereira",
+     "time": 53.47,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 45,
+     "name": "Joao Berlitz",
+     "time": 54.66,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 46,
+     "name": "Italo Lima",
+     "time": 56.34,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 47,
+     "name": "Gabriel Garcez",
+     "time": 56.52,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 48,
+     "name": "Ricardo Horta",
+     "time": 57.34,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 49,
      "name": "Murilo Oliveira",
      "time": 61.22,
      "dnf": false,
@@ -2023,23 +2391,7 @@
      "nat": "BRA"
     },
     {
-     "place": 4,
-     "name": "Cristian Henz",
-     "time": 61.72,
-     "dnf": false,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": 5,
-     "name": "Danrlei Silva",
-     "time": 62.12,
-     "dnf": false,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": 6,
+     "place": 50,
      "name": "Gustavo Bittencourt",
      "time": 62.51,
      "dnf": false,
@@ -2047,362 +2399,10 @@
      "nat": "BRA"
     },
     {
-     "place": 7,
-     "name": "Guilherme Karnal",
-     "time": 62.9,
-     "dnf": false,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": 8,
+     "place": 51,
      "name": "Wellington Baptista",
      "time": 64.12,
      "dnf": false,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": 9,
-     "name": "Mateus Venturella",
-     "time": 64.21,
-     "dnf": false,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": 10,
-     "name": "Guilherme Soares",
-     "time": 65.13,
-     "dnf": false,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": 11,
-     "name": "Ricardo Horta",
-     "time": 65.97,
-     "dnf": false,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": 12,
-     "name": "Guilherme Santos",
-     "time": 72.33,
-     "dnf": false,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Tiago Mohr",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Robinson Leao",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Luiz Peruch",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Yan Bertinati",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Lucas Silva",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Jorge Pinheiro",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Otavio Fialho",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Felipe Rosa",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Bruno Oliveira",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Renan Zimmer",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Bruno Monti",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Felipe Almeida",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Guilherme Senna",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Bruno Schaedler",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "William Silva",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Douglas Marques",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Matheus Nina",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Leonardo Laky",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Miguel Moreira",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Eduardo Tonini",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Pedro Oliveira",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Luiz Veloso",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Ian Freire",
-     "time": null,
-     "dnf": false,
-     "dns": true,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Uriel Liares",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Lua Silva",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Gabriel Reis",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Joao Vitor Oliveira",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Weslei Leal",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Henrique Conterato",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Kelvin Silva",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Victor Goncalves",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Matheus Nunes",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Matheus Medeiros",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Lucas Harenza",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Miguel Neto",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Joao Brasil",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Victor Pereira",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Joao Berlitz",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Gabriel Garcez",
-     "time": null,
-     "dnf": true,
      "dns": false,
      "nat": "BRA"
     },
@@ -2424,50 +2424,50 @@
    "results": [
     {
      "place": 1,
+     "name": "Walter Ribeiro",
+     "time": 52.39,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 2,
+     "name": "Frank Williams",
+     "time": 53.6,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 3,
+     "name": "Leo Borton",
+     "time": 54.21,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 4,
      "name": "Maximiliano Benedetto",
-     "time": 69.65,
+     "time": 57.5,
      "dnf": false,
      "dns": false,
      "nat": "ARG"
     },
     {
-     "place": null,
-     "name": "Walter Ribeiro",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Frank Williams",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "USA"
-    },
-    {
-     "place": null,
-     "name": "Leo Borton",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
+     "place": 5,
      "name": "Silvano Boneberg",
-     "time": null,
-     "dnf": true,
+     "time": 57.67,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Fernando Rocha",
-     "time": null,
+     "time": 58.39,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     }
    ]
@@ -2480,8 +2480,8 @@
    "results": [
     {
      "place": 1,
-     "name": "Fabrício Fachini",
-     "time": 61.55,
+     "name": "Leo Borton",
+     "time": 50.72,
      "dnf": false,
      "dns": false,
      "nat": "BRA"
@@ -2489,7 +2489,7 @@
     {
      "place": 2,
      "name": "Walter Ribeiro",
-     "time": 63.01,
+     "time": 51.38,
      "dnf": false,
      "dns": false,
      "nat": "BRA"
@@ -2497,48 +2497,48 @@
     {
      "place": 3,
      "name": "Tiago Moreira-Antunes",
-     "time": 69.89,
+     "time": 51.81,
      "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
      "place": 4,
+     "name": "Frank Williams",
+     "time": 52.54,
+     "dnf": false,
+     "dns": false,
+     "nat": "USA"
+    },
+    {
+     "place": 5,
      "name": "Gabriel Bernardes",
-     "time": 74.85,
+     "time": 53.76,
      "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
-     "name": "Leo Borton",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "BRA"
-    },
-    {
-     "place": null,
-     "name": "Frank Williams",
-     "time": null,
-     "dnf": true,
-     "dns": false,
-     "nat": "USA"
-    },
-    {
-     "place": null,
+     "place": 6,
      "name": "Fernando Rocha",
-     "time": null,
-     "dnf": true,
+     "time": 53.77,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Leonardo Verardi",
-     "time": null,
-     "dnf": true,
+     "time": 56.76,
+     "dnf": false,
+     "dns": false,
+     "nat": "BRA"
+    },
+    {
+     "place": 8,
+     "name": "Fabrício Fachini",
+     "time": 61.55,
+     "dnf": false,
      "dns": false,
      "nat": "BRA"
     }

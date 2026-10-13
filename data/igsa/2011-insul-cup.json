@@ -1799,11 +1799,11 @@
      "nat": "USA"
     },
     {
-     "place": null,
+     "place": 14,
      "name": "Dominik Kowalski",
      "time": 149.36,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
@@ -2007,11 +2007,11 @@
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 40,
      "name": "Stephan Risch",
      "time": 152.99,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
@@ -2167,11 +2167,11 @@
      "nat": "GBR"
     },
     {
-     "place": null,
+     "place": 60,
      "name": "Lutz Wagenhauser",
      "time": 156.25,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
@@ -2223,11 +2223,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 67,
      "name": "Marco Althoff",
      "time": 157.39,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
@@ -2383,11 +2383,11 @@
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 87,
      "name": "Marek Vanourek",
      "time": 161.22,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CZE"
     },
     {
@@ -2479,11 +2479,11 @@
      "nat": "FRA"
     },
     {
-     "place": null,
+     "place": 99,
      "name": "Alexandre Markiewicz",
      "time": 163.67,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "FRA"
     },
     {
@@ -2511,11 +2511,11 @@
      "nat": "GBR"
     },
     {
-     "place": null,
+     "place": 103,
      "name": "Fredric Jackobsen",
      "time": 164.29,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NOR"
     },
     {
@@ -2583,11 +2583,11 @@
      "nat": "SWE"
     },
     {
-     "place": null,
+     "place": 112,
      "name": "Jan Dederer",
      "time": 166.55,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
@@ -2615,19 +2615,19 @@
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 116,
      "name": "Jan Hahlbrock",
      "time": 167.92,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 117,
      "name": "Felix Buchholz",
      "time": 168.27,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     },
     {
@@ -2751,11 +2751,11 @@
      "nat": "GER"
     },
     {
-     "place": null,
+     "place": 133,
      "name": "Felix Schreckenberg",
      "time": 185.18,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "GER"
     }
    ]
@@ -3183,11 +3183,11 @@
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Michael Serek",
      "time": 146.03,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUT"
     },
     {

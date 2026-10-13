@@ -4,7 +4,7 @@ ndsf.no is WordPress without pretty permalinks, so its REST API lives at
 ?rest_route=/wp/v2/posts. The result posts (category "Resultater" and the year
 categories) hold the lists in four forms, oldest first: plain text in the post
 (2007–2010), PDFs on ndsf.no (2012–2013; the 2010–2011 files are gone), embedded
-Google Sheets (2014–), and photos (2025 Granåsen, 2026 Vallerås). Everything but
+Google Sheets (2014–), and photos (2025 Granåsen). Everything but
 the photos is read here. A published sheet exports as CSV without a login
 (…/pub?output=csv&gid=<tab>); the tabs come from the pubhtml page.
 
@@ -99,7 +99,7 @@ KINDS = [
 # Sheet tabs that never hold a result list: seeding, heats, forms and helper tabs.
 IGNORE_TAB = re.compile(r"registration|rego|instruction|bracket|tree|heats?\b|startlist|randomize|condensed|csv|"
                         r"^\d+$|repech|dirty|seeding|poengskala|_list$|list$", re.I)
-TIME_RE = re.compile(r"^\s*\(?(\d{1,2}[:.,]\d{2}[:.,]\d{1,3}|\d{1,2}[:.]\d{2}|\d{2,3}[.,]\d{1,2})\)?\s*$")
+TIME_RE = re.compile(r"^\s*\(?(\d{1,2}[:.,]\d{2}[:.,]\d{1,3}|\d{1,2}[:.]\d{2}|\d{2,3}[.,]\d{1,3})\)?\s*$")
 NAME_RE = re.compile(r"[A-Za-zÀ-ÿ]{2,}")
 NOT_NAME = re.compile(r"^(bye|rider|team)\s*\d*$|^#n/a$|^-+$|^\?+$|^(dns|dnf|dsq)$", re.I)
 
@@ -200,7 +200,7 @@ def pdf_text(url, fetch=False):
     if cached is not None and not fetch:
         return cached or None
     try:
-        data = get(url, binary=True)
+        data = get(urllib.parse.quote(url, safe=":/%"), binary=True)  # "files/KPH 2010 Heats.pdf": spaces as %20
     except Exception:
         _write(path, "")  # remember that it is gone
         return None
@@ -249,7 +249,7 @@ def clean_name(s):
 
 
 def secs(t):
-    """'2:09.72', '02:08,15', '1.10.5', '17.3', '1:03:55' (minutes:seconds:hundredths) -> seconds, or None.
+    """'2:09.72', '02:08,15', '1.10.5', '17.3', '129.157', '1:03:55' (minutes:seconds:hundredths) -> seconds, or None.
     A downhill run takes under 20 minutes, so three groups are m:ss.ff unless that is impossible."""
     t = (t or "").strip().strip("()")
     if not TIME_RE.match(t):
@@ -527,7 +527,8 @@ def parse_text(text):
         if not line:
             continue
         m = LINE_RE.match(line)
-        if m and 0 < int(m.group(1)) <= 200 and clean_name(m.group(2)):
+        # "38 Repacharge heats: Clikk here" is a link to a list, not a rider; a time after a colon still counts.
+        if m and 0 < int(m.group(1)) <= 200 and clean_name(m.group(2)) and not re.search(r":\s*[A-Za-zÀ-ÿ]", m.group(2)):
             place, rest = int(m.group(1)), m.group(2)
             if cur and place < expect - 1:
                 flush()
@@ -599,7 +600,8 @@ def post_date(p, year):
     months = "januar|februar|mars|april|mai|juni|juli|august|september|oktober|november|desember|january|february|march|may|june|july|october|december"
     for m in re.finditer(rf"(\d{{1,2}})\.?\s+({months})\s+(20\d\d)", p["content"], re.I):
         if int(m.group(3)) == year:
-            mo = 1 + [x[:3] for x in months.split("|")].index(fold(m.group(2))[:3]) % 12
+            k = fold(m.group(2))[:3]
+            mo = 1 + "jan feb mar apr mai jun jul aug sep okt nov des".split().index({"may": "mai", "oct": "okt", "dec": "des"}.get(k, k))
             return f"{year}-{mo:02}-{int(m.group(1)):02}", True
     if p["date"].startswith(str(year)):
         return p["date"], True
@@ -620,7 +622,7 @@ def parse_post(p, fetch=False):
     heading = ""
     for part in parts:
         if part.startswith("<iframe"):
-            m = re.search(r"spreadsheets/d/(e/)?([A-Za-z0-9_\-]+)", html.unescape(part))
+            m = re.search(r"spreadsheets/d/(e/)?([A-Za-z0-9_\-]+)", re.sub(r"[\r\n]", "", html.unescape(part)))  # a src broken over two lines
             if not m:
                 continue
             sh = sheet((m.group(1) or "") + m.group(2), fetch)
@@ -703,8 +705,9 @@ def build(fetch=False):
 
 def add_race(ev, rname, kind, fmt, src, results):
     """Add one list to an event: rows deduped by name, DNS and DNF marked, a nationality kept when the source
-    gives one. results: [(place, name, time, note[, nat])]. Two lists with the same name and format in one
-    event (the same race posted twice) keep the longer."""
+    gives one. results: [(place, name, time, note[, nat])]. A DNS on a timed row with a time is one run
+    missed, not the race: the rider started. Two lists with the same name and format in one event (the same
+    race posted twice) keep the longer."""
     if any(r["source"] == src for r in ev["races"]):
         return
     seen, rows = set(), []
@@ -712,7 +715,7 @@ def add_race(ev, rname, kind, fmt, src, results):
         if fold(nm) in seen:
             continue
         seen.add(fold(nm))
-        dns = bool(re.search(r"dns", note or "", re.I))
+        dns = bool(re.search(r"dns", note or "", re.I)) and not (fmt == "timed" and t)
         row = {"place": None if dns else place, "name": nm, "time": round(t, 2) if t else None,
                "dnf": not dns and (bool(re.search(r"dnf|dsq", note or "", re.I)) or place is None), "dns": dns}
         if extra and extra[0]:

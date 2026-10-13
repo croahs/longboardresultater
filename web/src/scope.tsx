@@ -1,9 +1,9 @@
 import { t } from "./lang";
 import { createContext, useContext, useEffect, useState, type ReactNode } from "react";
 
-/* «Norge | Verden», in the top bar on every page. Norge keeps the riders in the Norway view (a Norwegian
-   nationality in a list, or a start in a race in Norway; sitedata.py marks them) and the races run in Norway.
-   It is the default and sticks in this browser. */
+/* «Norge | Verden», in the top bar on every page. Norge keeps the riders in the Norway view (NOR in a list, or
+   at least half their races run in Norway, with "norsk" in data/riders.json overriding; sitedata.py marks them)
+   and the races run in Norway. It is the default and sticks in this browser. */
 interface Scope { norge: boolean; setNorge: (v: boolean) => void }
 const Ctx = createContext<Scope>({ norge: true, setNorge: () => {} });
 export const useNorge = () => useContext(Ctx).norge;
@@ -19,7 +19,7 @@ export function ScopeToggle() {
   const { norge, setNorge } = useContext(Ctx);
   return (
     <div className="chips scope" role="group" aria-label={t("Utvalg", "Scope")}>
-      <button type="button" className="chip" aria-pressed={norge} onClick={() => setNorge(true)} title={t("Nordmenn og alle som har kjørt race i Norge, og racene i Norge", "Norwegians and everyone who has raced in Norway, and the races in Norway")}>{t("Norge", "Norway")}</button>
+      <button type="button" className="chip" aria-pressed={norge} onClick={() => setNorge(true)} title={t("Nordmenn og de som har kjørt minst halvparten av racene sine i Norge, og racene i Norge", "Norwegians and riders with at least half their races in Norway, and the races in Norway")}>{t("Norge", "Norway")}</button>
       <button type="button" className="chip" aria-pressed={!norge} onClick={() => setNorge(false)} title={t("Alle kjørere og alle race", "All riders and all races")}>{t("Verden", "World")}</button>
     </div>
   );

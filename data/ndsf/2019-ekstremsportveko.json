@@ -113,11 +113,11 @@
      "dns": false
     },
     {
-     "place": null,
+     "place": 14,
      "name": "Jens Schøien Øvregård",
      "time": 105.72,
      "dnf": false,
-     "dns": true
+     "dns": false
     },
     {
      "place": 15,
@@ -169,11 +169,11 @@
      "dns": false
     },
     {
-     "place": null,
+     "place": 22,
      "name": "Håkon Aavik",
      "time": 110.35,
      "dnf": false,
-     "dns": true
+     "dns": false
     },
     {
      "place": 23,
@@ -197,11 +197,11 @@
      "dns": false
     },
     {
-     "place": null,
+     "place": 26,
      "name": "Roy Helge Prestegård",
      "time": 111.07,
      "dnf": false,
-     "dns": true
+     "dns": false
     },
     {
      "place": 27,

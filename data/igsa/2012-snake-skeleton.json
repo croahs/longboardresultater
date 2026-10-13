@@ -321,11 +321,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 38,
      "name": "Christian Bovetti",
      "time": 153.44,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
@@ -929,11 +929,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 114,
      "name": "Alexis Rojo",
      "time": 163.59,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
@@ -961,11 +961,11 @@
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 118,
      "name": "Arthur Pacifici",
      "time": 164.53,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -1001,11 +1001,11 @@
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 123,
      "name": "Thiago Duarte",
      "time": 165.81,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     },
     {
@@ -1337,11 +1337,11 @@
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 165,
      "name": "Juan Abendano",
      "time": 196.34,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ARG"
     },
     {
@@ -1729,11 +1729,11 @@
      "nat": "ARG"
     },
     {
-     "place": null,
+     "place": 19,
      "name": "Falke Nehren",
      "time": 171.51,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
@@ -1777,11 +1777,11 @@
      "nat": "BRA"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Yvon Labarthe",
      "time": 152.1,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SUI"
     },
     {
@@ -1809,11 +1809,11 @@
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Marcos Filho",
      "time": 187.53,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     }
    ]
@@ -1937,11 +1937,11 @@
      "nat": "CHI"
     },
     {
-     "place": null,
+     "place": 15,
      "name": "Marcos Filho",
      "time": 182.79,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "BRA"
     }
    ]

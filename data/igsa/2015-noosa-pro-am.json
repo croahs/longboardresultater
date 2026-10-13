@@ -23,139 +23,139 @@
    "source": "http://web.archive.org/web/20240730042417id_/http://www.igsaworldcup.com/results/2015/2015_noosa_pro_am_na_qual / Downhill Skateboard / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Wip Fox",
      "time": 141.25,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Zach Hewett",
      "time": 141.68,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Patick Walker",
      "time": 142.28,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Connor Ferguson",
      "time": 144.06,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Michael English",
      "time": 145.46,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Jacob Friend",
      "time": 146.47,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Lucian Psarros",
      "time": 147.22,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NSW"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Matthys Van Lille",
      "time": 147.84,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Cameron Hancock",
      "time": 148.25,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Brandon Ross",
      "time": 151.91,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "Jamie Gwillim",
      "time": 155.28,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 12,
      "name": "Ben Butterworth",
      "time": 156.02,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 13,
      "name": "Michael Coppleman",
      "time": 157.3,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 14,
      "name": "Tyson Schmid",
      "time": 167.28,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 15,
      "name": "Will Deyoung",
      "time": 187.06,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 16,
      "name": "Graham Brittain",
      "time": 190.11,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 17,
      "name": "Craig Symes",
      "time": 245.47,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NSW"
     }
    ]
@@ -167,51 +167,51 @@
    "source": "http://web.archive.org/web/20240730042417id_/http://www.igsaworldcup.com/results/2015/2015_noosa_pro_am_na_qual / Junior 1 Downhill Skateboard / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Finlay Wilson",
      "time": 161.67,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Zane Bonser",
      "time": 175.56,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NSW"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Riley Young",
      "time": 180.28,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NSW"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Tom Bloemendal",
      "time": 187.34,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Tom Davidson",
      "time": 199.23,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Morgan Campbell",
      "time": 218.82,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     }
    ]
@@ -223,19 +223,19 @@
    "source": "http://web.archive.org/web/20240730042417id_/http://www.igsaworldcup.com/results/2015/2015_noosa_pro_am_na_qual / Junior 2 Downhill Skateboard / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Patrick Leslie",
      "time": 166.84,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NSW"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Bryn Young",
      "time": 192.05,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NSW"
     }
    ]
@@ -247,99 +247,99 @@
    "source": "http://web.archive.org/web/20240730042417id_/http://www.igsaworldcup.com/results/2015/2015_noosa_pro_am_na_qual / Classic Luge / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Matthew Gartrell",
      "time": 155.1,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Graham Brittain",
      "time": 157.19,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Darryl Gough",
      "time": 164.69,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Michael English",
      "time": 164.75,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Connor Ferguson",
      "time": 165.35,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Stuart Long",
      "time": 169.55,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Nic McKirdy",
      "time": 172.72,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NSW"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Ken Doyle",
      "time": 174.59,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NSW"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Simon Godfrey",
      "time": 178.76,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ACT"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Tyson Schmid",
      "time": 187.47,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "David Cameron",
      "time": 187.78,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NSW"
     },
     {
-     "place": null,
+     "place": 12,
      "name": "Cameron Hancock",
      "time": 188.31,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     }
    ]
@@ -351,219 +351,219 @@
    "source": "http://web.archive.org/web/20240730042417id_/http://www.igsaworldcup.com/results/2015/2015_noosa_pro_am_na_qual / Street Luge / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Michael English",
      "time": 139.81,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Nic McKirdy",
      "time": 140.34,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NSW"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Graham Brittain",
      "time": 140.47,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Garry Browning",
      "time": 143.34,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 5,
      "name": "Shaun Fletcher",
      "time": 143.46,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 6,
      "name": "Stuart Long",
      "time": 143.72,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 7,
      "name": "Matthew Gartrell",
      "time": 143.89,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Michaelangelo Cecconi",
      "time": 144.03,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Eddie Priest",
      "time": 144.1,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 10,
      "name": "Davide Longin",
      "time": 144.25,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ITA"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "Ken Doyle",
      "time": 147.59,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NSW"
     },
     {
-     "place": null,
+     "place": 12,
      "name": "Darryl Gough",
      "time": 147.73,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 13,
      "name": "Luke Webb",
      "time": 149.37,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 14,
      "name": "Keith King",
      "time": 149.46,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NSW"
     },
     {
-     "place": null,
+     "place": 15,
      "name": "Andrew Galloway",
      "time": 149.94,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 16,
      "name": "Simon Godfrey",
      "time": 150.75,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "ACT"
     },
     {
-     "place": null,
+     "place": 17,
      "name": "Ian Kemp",
      "time": 151.09,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 18,
      "name": "Michael Coppleman",
      "time": 151.66,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 19,
      "name": "Connor Ferguson",
      "time": 152.25,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 20,
      "name": "Patrick Walker",
      "time": 153.22,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 21,
      "name": "Perry Hunter",
      "time": 155.65,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 22,
      "name": "Jennifer Triebe",
      "time": 156.13,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 23,
      "name": "David Cameron",
      "time": 157.23,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NSW"
     },
     {
-     "place": null,
+     "place": 24,
      "name": "Jason Beard",
      "time": 157.7,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 25,
      "name": "Ben Butterworth",
      "time": 157.81,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 26,
      "name": "David King",
      "time": 162.94,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NSW"
     },
     {
-     "place": null,
+     "place": 27,
      "name": "Clive Remmer",
      "time": 169.47,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     }
    ]
@@ -575,27 +575,27 @@
    "source": "http://web.archive.org/web/20240730042417id_/http://www.igsaworldcup.com/results/2015/2015_noosa_pro_am_na_qual / Gravity Bike / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Clive Remmer",
      "time": 145.8,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "QLD"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Maurie King",
      "time": 162.91,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NSW"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "John Graham",
      "time": 166.5,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "NSW"
     }
    ]

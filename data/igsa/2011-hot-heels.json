@@ -199,11 +199,11 @@
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 23,
      "name": "Glen Phillips",
      "time": 114.48,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
@@ -303,11 +303,11 @@
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 36,
      "name": "Bergh Eebin Van Den",
      "time": 122.23,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
@@ -671,11 +671,11 @@
    "source": "http://web.archive.org/web/20160606095117id_/http://igsaworldcup.com/results/2011/2011_hotheels_africa_wc_qual.pdf / Street Luge / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Michael Serek",
      "time": 101.89,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "AUT"
     },
     {
@@ -687,11 +687,11 @@
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Glen Phillips",
      "time": 104.67,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
@@ -727,11 +727,11 @@
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Phillip Du Plessis",
      "time": 116.78,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {

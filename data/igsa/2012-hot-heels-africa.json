@@ -1354,11 +1354,11 @@
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 17,
      "name": "Marek Vanourek",
      "time": 118.0,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CZE"
     },
     {
@@ -1498,19 +1498,19 @@
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 35,
      "name": "John Upham",
      "time": 123.49,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 36,
      "name": "Alyosha Diebold",
      "time": 123.59,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
@@ -1570,11 +1570,11 @@
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 44,
      "name": "Tom Lautenbach",
      "time": 124.65,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
@@ -1610,11 +1610,11 @@
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 49,
      "name": "Nic Simic",
      "time": 126.5,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
@@ -1658,11 +1658,11 @@
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 55,
      "name": "Gustavs Gailitis",
      "time": 129.31,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "LAT"
     },
     {
@@ -1746,11 +1746,11 @@
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 66,
      "name": "Craig Harvey",
      "time": 139.82,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
@@ -1762,11 +1762,11 @@
      "nat": "LAT"
     },
     {
-     "place": null,
+     "place": 68,
      "name": "Merwe Deon Van Der",
      "time": 141.63,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
@@ -1850,11 +1850,11 @@
      "nat": "SUI"
     },
     {
-     "place": null,
+     "place": 2,
      "name": "Tamra Prader",
      "time": 135.34,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "SUI"
     },
     {
@@ -1882,11 +1882,11 @@
    "source": "http://web.archive.org/web/20130510233803id_/http://igsaworldcup.com/results/2012/2012_hotheels_africa_wc_qual / Junior 1 Downhill Skateboard / timed",
    "results": [
     {
-     "place": null,
+     "place": 1,
      "name": "Myles Kenmuir",
      "time": 127.66,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
@@ -1906,11 +1906,11 @@
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Nicholas Taylor",
      "time": 136.03,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
@@ -1962,11 +1962,11 @@
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 11,
      "name": "Ryan Morris",
      "time": 171.65,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     }
    ]
@@ -2298,11 +2298,11 @@
      "nat": "AUS"
     },
     {
-     "place": null,
+     "place": 8,
      "name": "Franco Megannon",
      "time": 124.87,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     }
    ]
@@ -2330,11 +2330,11 @@
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Andries Haasbroek",
      "time": 109.72,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {
@@ -2378,11 +2378,11 @@
      "nat": "RSA"
     },
     {
-     "place": null,
+     "place": 9,
      "name": "Nikki Coramba",
      "time": 117.59,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "RSA"
     },
     {

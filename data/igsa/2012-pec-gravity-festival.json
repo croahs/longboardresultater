@@ -519,11 +519,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 63,
      "name": "Jordan Baldwin",
      "time": 104.78,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
@@ -815,11 +815,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 18,
      "name": "Jordan Baldwin",
      "time": 104.78,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
@@ -871,11 +871,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 4,
      "name": "Patrick Switzer",
      "time": 91.04,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
@@ -967,11 +967,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 16,
      "name": "Quin Finocchio",
      "time": 104.52,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
@@ -1142,11 +1142,11 @@
      "nat": "CAN"
     },
     {
-     "place": null,
+     "place": 3,
      "name": "Quin Finocchio",
      "time": 104.52,
      "dnf": false,
-     "dns": true,
+     "dns": false,
      "nat": "CAN"
     },
     {
