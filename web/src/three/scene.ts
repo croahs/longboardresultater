@@ -2,10 +2,11 @@ import { useEffect, useRef, type RefObject } from "react";
 import * as THREE from "three";
 
 /* One WebGL canvas in a container div: sizes to the container, renders only while visible, stops when the
-   tab is hidden, and disposes everything on unmount. The scene builder returns a frame function and a cleanup. */
+   tab is hidden, and disposes everything on unmount. The scene builder returns a frame function and a cleanup.
+   A still scene (reduced motion) renders once on start, resize and coming back into view, never in a loop. */
 
 export interface Frame { dt: number; t: number; w: number; h: number }
-export interface Built { frame: (f: Frame) => void; dispose?: () => void; onResize?: (w: number, h: number) => void }
+export interface Built { frame: (f: Frame) => void; dispose?: () => void; onResize?: (w: number, h: number) => void; still?: boolean }
 export type Builder = (ctx: { scene: THREE.Scene; camera: THREE.PerspectiveCamera; renderer: THREE.WebGLRenderer; el: HTMLDivElement }) => Built;
 
 export const reducedMotion = () => typeof matchMedia !== "undefined" && matchMedia("(prefers-reduced-motion: reduce)").matches;
@@ -33,7 +34,7 @@ export function useScene(build: Builder, deps: unknown[] = []): RefObject<HTMLDi
       built.onResize?.(w, h);
     };
     size();
-    const ro = new ResizeObserver(size);
+    const ro = new ResizeObserver(() => { size(); if (built.still) kick(); });
     ro.observe(el);
     let visible = true, hidden = document.hidden, raf = 0, last = performance.now(), t = 0;
     const loop = (now: number) => {
@@ -42,7 +43,7 @@ export function useScene(build: Builder, deps: unknown[] = []): RefObject<HTMLDi
       const dt = Math.min(0.05, (now - last) / 1000); last = now; t += dt;
       built.frame({ dt, t, w, h });
       renderer.render(scene, camera);
-      raf = requestAnimationFrame(loop);
+      if (!built.still) raf = requestAnimationFrame(loop);
     };
     const kick = () => { if (!raf && visible && !hidden) { last = performance.now(); raf = requestAnimationFrame(loop); } };
     const io = new IntersectionObserver(([e]) => { visible = e.isIntersecting; kick(); }, { threshold: 0.01 });

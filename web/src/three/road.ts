@@ -87,12 +87,19 @@ export function sheet(a: THREE.Vector3[], b: THREE.Vector3[]): THREE.BufferGeome
   return flat;
 }
 
-/** A solid height field: `nx` by `nz` cells from x0..x1, z0..z1, height from `h(x, z)`, faceted for flat shading. */
-export function solidTerrain(x0: number, x1: number, z0: number, z1: number, nx: number, nz: number, h: (x: number, z: number) => number): THREE.BufferGeometry {
+/** Heights of `h(x, z)` on a grid of `nx` by `nz` cells from x0..x1, z0..z1, row by row: sample once, share it. */
+export function heights(x0: number, x1: number, z0: number, z1: number, nx: number, nz: number, h: (x: number, z: number) => number): number[][] {
+  const H: number[][] = [];
+  for (let j = 0; j <= nz; j++) { H.push([]); for (let i = 0; i <= nx; i++) H[j].push(h(x0 + ((x1 - x0) * i) / nx, z0 + ((z1 - z0) * j) / nz)); }
+  return H;
+}
+
+/** A solid height field over the grid `H` from `heights`, spanning x0..x1, z0..z1, faceted for flat shading. */
+export function solidTerrain(x0: number, x1: number, z0: number, z1: number, H: number[][]): THREE.BufferGeometry {
+  const nz = H.length - 1, nx = H[0].length - 1;
   const pos = new Float32Array((nx + 1) * (nz + 1) * 3), idx: number[] = [];
   for (let j = 0; j <= nz; j++) for (let i = 0; i <= nx; i++) {
-    const x = x0 + ((x1 - x0) * i) / nx, z = z0 + ((z1 - z0) * j) / nz;
-    pos.set([x, h(x, z), z], (j * (nx + 1) + i) * 3);
+    pos.set([x0 + ((x1 - x0) * i) / nx, H[j][i], z0 + ((z1 - z0) * j) / nz], (j * (nx + 1) + i) * 3);
     if (i < nx && j < nz) { const a = j * (nx + 1) + i, b = a + 1, c = a + nx + 1, d = c + 1; idx.push(a, c, b, b, c, d); }
   }
   const g = new THREE.BufferGeometry();
@@ -102,20 +109,17 @@ export function solidTerrain(x0: number, x1: number, z0: number, z1: number, nx:
   return flat;
 }
 
-/** Contour lines of a height field every `every` units of height, as line segments (marching squares). */
-export function contours(x0: number, x1: number, z0: number, z1: number, nx: number, nz: number, h: (x: number, z: number) => number, every: number): THREE.BufferGeometry {
-  const H: number[][] = [];
-  for (let j = 0; j <= nz; j++) { H.push([]); for (let i = 0; i <= nx; i++) H[j].push(h(x0 + ((x1 - x0) * i) / nx, z0 + ((z1 - z0) * j) / nz)); }
+/** Contour lines of the grid `H` from `heights` every `every` units of height, as line segments (marching squares). */
+export function contours(x0: number, x1: number, z0: number, z1: number, H: number[][], every: number): THREE.BufferGeometry {
+  const nz = H.length - 1, nx = H[0].length - 1;
   const X = (i: number) => x0 + ((x1 - x0) * i) / nx, Z = (j: number) => z0 + ((z1 - z0) * j) / nz;
   const out: number[] = [];
-  let lo = Infinity, hi = -Infinity;
-  for (const row of H) for (const v of row) { if (v < lo) lo = v; if (v > hi) hi = v; }
-  for (let lv = Math.ceil(lo / every) * every; lv <= hi; lv += every) {
-    for (let j = 0; j < nz; j++) for (let i = 0; i < nx; i++) {
-      // The four corners, and where the level crosses each edge.
-      const c = [H[j][i], H[j][i + 1], H[j + 1][i + 1], H[j + 1][i]];
-      const px = [X(i), X(i + 1), X(i + 1), X(i)], pz = [Z(j), Z(j), Z(j + 1), Z(j + 1)];
-      const pts: number[][] = [];
+  for (let j = 0; j < nz; j++) for (let i = 0; i < nx; i++) {
+    // The four corners, the levels that pass between the lowest and highest, and where each crosses an edge.
+    const c = [H[j][i], H[j][i + 1], H[j + 1][i + 1], H[j + 1][i]];
+    const px = [X(i), X(i + 1), X(i + 1), X(i)], pz = [Z(j), Z(j), Z(j + 1), Z(j + 1)];
+    for (let k = Math.floor(Math.min(...c) / every) + 1, top = Math.floor(Math.max(...c) / every); k <= top; k++) {
+      const lv = k * every, pts: number[][] = [];
       for (let e = 0; e < 4; e++) {
         const a = c[e], b = c[(e + 1) % 4];
         if ((a < lv) !== (b < lv)) { const t = (lv - a) / (b - a); pts.push([px[e] + (px[(e + 1) % 4] - px[e]) * t, lv + 0.04, pz[e] + (pz[(e + 1) % 4] - pz[e]) * t]); }
