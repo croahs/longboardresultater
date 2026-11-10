@@ -116,8 +116,12 @@ class Registry:
         try:
             with open(REGISTRY, encoding="utf-8") as f:
                 data = json.load(f)
-        except (OSError, ValueError):
+        except FileNotFoundError:
             data = {}
+        except ValueError as e:
+            # A hand edit that broke the JSON must stop the run: read as empty, every rider would get a
+            # new id and save() would overwrite the hand-kept aliases.
+            sys.exit(f"{REGISTRY} is not valid JSON ({e}). Fix it by hand; nothing was written.")
         self.riders = data.get("riders", {})
         self.next = data.get("next") or 1 + max(map(num, self.riders), default=0)
         self.known = set(self.riders)
