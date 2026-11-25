@@ -30,6 +30,7 @@ DATA = os.path.join(HERE, "data")
 REGISTRY = os.path.join(DATA, "riders.json")
 MIN_RACES = 3  # to be called a rival
 MAX_LIST = 10
+MAX_RIVALS = 25
 CONTACT = "peder@holterman.no"
 KINDS = ["Open", "Women", "Junior", "Masters", "Luge", "Adaptive", "Inline", "Other"]
 STANDUP = {"Open", "Women", "Junior", "Masters"}
@@ -236,6 +237,12 @@ class Registry:
                 a = hits.pop()
                 if {a, b} - self.known and not self.apart(a, self.names(b)) and not self.apart(b, self.names(a)):
                     merge(b, a)
+        def resolve(rid):
+            while rid in moved:
+                rid = moved[rid]
+            return rid
+
+        moved = {k: resolve(v) for k, v in moved.items()}
         self.by_key = {k: moved.get(rid, rid) for k, rid in self.by_key.items()}
         return moved
 
@@ -365,7 +372,10 @@ def races_of(events, reg):
                     print(f"{ev['id']} {r['name']}: \"{twin[1]}\" and \"{x['name']}\" are both {rid}, the second is left out "
                           f"(two people: move one to \"not\" in data/riders.json)")
                     continue
-                rows.append([rid, x["name"], None if x.get("dnf") else x["place"], x.get("time"), bool(x.get("dnf")), x.get("nat")])
+                time_val = x.get("time") if r["format"] == "timed" else None
+                rows.append([rid, x["name"], None if x.get("dnf") else x["place"], time_val, bool(x.get("dnf")), x.get("nat")])
+            if not rows:
+                continue
             placed = [y for y in rows if y[2] is not None]
             placed.sort(key=lambda y: y[2])
             rid_ = f"{ev['id']}/{slug(r['name'])}"
@@ -406,7 +416,7 @@ def meeting(race, me, other):
         return "l", None, None, None
     res = "w" if p < q else "l" if p > q else "d"
     gs = gp = None
-    if me[3] and other[3]:
+    if race["format"] == "timed" and me[3] and other[3]:
         gs = round(me[3] - other[3], 2)
         gp = round(100 * gs / other[3], 1)
     places = q - p  # positive: I was ahead, by this many places
@@ -422,11 +432,14 @@ def build_rider(rid, mine, sex, reg, no):
         # A bye in a bracket leaves a gap in the places (1-6 and 8): the field is at least the last place.
         field = max(len(race["rows"]), max((y[2] for y in placed), default=0))
         winner = placed[0] if placed else None
+        timed = race["format"] == "timed"
+        time_val = me[3] if timed else None
+        win_time = winner[3] if timed and winner else None
         beaten = (field - me[2]) / (field - 1) * 100 if me[2] and field > 1 else (100.0 if me[2] == 1 else None)
-        behind = round(100 * (me[3] / winner[3] - 1), 1) if me[3] and winner and winner[3] and me[2] else None
+        behind = round(100 * (time_val / win_time - 1), 1) if timed and time_val and win_time and me[2] else None
         r = {"race_id": race["id"], "race": race["name"], "cls": race["cls"], "type": race["type"], "format": race["format"],
              "date": race["date"], "place": me[2], "field": field, "beaten_pct": round(beaten, 1) if beaten is not None else None,
-             "time": me[3], "winner": winner[3] if winner else None, "behind_pct": behind, "link": race["url"], "hill": race["hill"]}
+             "time": time_val, "winner": win_time, "behind_pct": behind, "link": race["url"], "hill": race["hill"]}
         wp = women_place(race, rid, sex)
         if wp:
             r["women_place"], r["women_field"] = wp
@@ -455,6 +468,13 @@ def rivals(opps, key=lambda o: o["ms"]):
             w, l = sum(m[3] == "w" for m in ms), sum(m[3] == "l" for m in ms)
             rs.append((statistics.median(pls) + 3 * abs(w - l) / len(ms), o["id"]))
     return [rid for _, rid in sorted(rs)]
+
+
+def cap_rivals(ranked, no, limit=MAX_RIVALS, no_limit=MAX_LIST):
+    """Keep the top limit rivals, plus up to no_limit from the Norway view so Norway mode never comes up empty."""
+    keep = set(ranked[:limit])
+    keep.update([rid for rid in ranked if rid in no][:no_limit])
+    return [rid for rid in ranked if rid in keep]
 
 
 def who(o, **extra):
@@ -664,7 +684,7 @@ def highlights(event_races, races, riders, page, reg, sex):
         w = r["rows"][0] if r["rows"] and r["rows"][0][2] else None
         # Best woman: the winner of the same event's women's class if there is one,
         # else the best-placed woman in the Open bracket.
-        damer = next((d for d in races if d["event"] == r["event"] and d["type"] == "Women" and d["rows"] and d["rows"][0][2]), None)
+        damer = next((d for d in races if d["event"] == r["event"] and d["type"] == "Women" and d["format"] == "bracket" and d["rows"] and d["rows"][0][2]), None)
         women = [y for y in r["rows"] if sex.get(y[0]) == "K" and y[2]]
         best_w = damer["rows"][0][0] if damer else women[0][0] if women else None
         recent.append({"id": r["id"], "name": r["name"], "cls": r["cls"], "date": r["date"], "date_known": r["date_known"], "type": r["type"],
@@ -728,9 +748,11 @@ def main():
         for r in results:  # the rating after this race and what it moved, on the rated ones
             if r["race_id"] in per_race[rid]:
                 r["elo"], r["elo_d"] = per_race[rid][r["race_id"]]
-        ranked = rivals(opps)
+        ranked_all = rivals(opps)
+        ranked = cap_rivals(ranked_all, no)
+        ranked_women = cap_rivals([x for x in ranked_all if sex.get(x) == "K"], no) if sex.get(rid) == "K" else []
         ins = insights(opps)
-        named = set(ranked) | {x["id"] for v in ins.values() if isinstance(v, list) for x in v} \
+        named = set(ranked) | set(ranked_women) | {x["id"] for v in ins.values() if isinstance(v, list) for x in v} \
             | {x["id"] for v in ins["rivals_by_type"].values() for x in v}
         entry = {"id": rid, "name": reg.display(rid), "club": "", "races": len(mine), "sex": sex.get(rid),
                  "wins": sum(1 for r in results if r["place"] == 1 and r["format"] == "bracket"), "no": rid in no}
@@ -738,10 +760,10 @@ def main():
         obj = {"id": rid, "name": entry["name"], "club": "", "sex": sex.get(rid), "no": rid in no, "results": sorted(results, key=lambda r: r["date"]),
                "rivals": ranked, "insights": ins, "rating": rider_rating.get(rid, {}),
                # who the site shows head-to-head with; the meetings themselves come from races.json in the browser
-               "opponents": [[o["id"], o["name"], o["sex"], int(o["no"])] for o in opps.values() if len(o["ms"]) >= 2 or o["id"] in named],
+               "opponents": [[o["id"], o["name"], o["sex"], int(o["no"])] for o in opps.values() if o["id"] in named],
                "record": {"opponents": len(opps), "wins": sum(o["w"] for o in opps.values()), "losses": sum(o["l"] for o in opps.values())}}
         if sex.get(rid) == "K":
-            obj["rivals_women"] = [x for x in ranked if sex.get(x) == "K"]
+            obj["rivals_women"] = ranked_women
         profiles[rid] = obj
     index.sort(key=lambda r: (-r["races"], r["name"]))
     riders_dir = os.path.join(DATA, "riders")

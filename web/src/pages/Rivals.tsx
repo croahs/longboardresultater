@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
-import { RACE_TYPES, headToHead, record, withMeetings, type Athlete, type IndexRider, type Opponent, type RaceType, type Who } from "../data";
-import { clock, count, dateShort, firstName, fold, typeLabel } from "../format";
+import { RACE_TYPES, headToHead, median, record, withMeetings, type Athlete, type IndexRider, type Opponent, type RaceType, type Who } from "../data";
+import { clock, count, dateShort, firstName, fold, raw, typeLabel } from "../format";
 import { t } from "../lang";
 import { href } from "../nav";
 import { Empty, Failed, Loading } from "../ui";
@@ -23,8 +23,9 @@ function RivalsOf({ a, index }: { a: Athlete; index: IndexRider[] }) {
   const O = useMemo(() => new Map([...a.opponents, ...extra]), [a.opponents, extra]);
   const ins = a.insights;
   const ids = (k: TabKey): string[] => (k === "closest" ? a.rivals : (ins.rivals_by_type?.[k] || []).map((r) => r.id)).filter((id) => O.has(id));
-  const tabs = useMemo(() => (["closest", ...RACE_TYPES] as TabKey[]).filter((k) => ids(k).length), [a, O]); // eslint-disable-line react-hooks/exhaustive-deps
+  const tabs = useMemo(() => (["closest", ...RACE_TYPES] as TabKey[]).filter((k) => ids(k).length), [a, O]);
   const [tab, setTab] = useState<TabKey>("closest");
+  const activeTab: TabKey = tabs.includes(tab) ? tab : tabs[0] || "closest";
   const [cur, setCur] = useState<string | undefined>(() => ids("closest")[0] || ids(tabs[0] || "closest")[0]);
   const who = firstName(a.name);
   const open = (id: string) => { setCur(id); setTimeout(() => document.getElementById("duel")?.scrollIntoView({ behavior: "smooth", block: "nearest" }), 50); };
@@ -33,7 +34,7 @@ function RivalsOf({ a, index }: { a: Athlete; index: IndexRider[] }) {
     open(r.id);
   };
   const o = cur ? O.get(cur) : undefined;
-  const list = ids(tabs.includes(tab) ? tab : tabs[0] || "closest");
+  const list = ids(activeTab);
   return (
     <>
       <div className="section-head">
@@ -42,9 +43,9 @@ function RivalsOf({ a, index }: { a: Athlete; index: IndexRider[] }) {
       </div>
       <div className="rivals-layout">
         <div className="rival-list card">
-          {tabs.length > 1 && <div className="chips" role="tablist" aria-label={t("Klasse", "Class")}>{tabs.map((k) => <button key={k} type="button" role="tab" className="chip" aria-selected={tab === k} onClick={() => { setTab(k); setCur(ids(k)[0]); }}>{k === "closest" ? t("Jevneste", "Closest") : typeLabel(k)}</button>)}</div>}
+          {tabs.length > 1 && <div className="chips" role="tablist" aria-label={t("Klasse", "Class")}>{tabs.map((k) => <button key={k} type="button" role="tab" className="chip" aria-selected={activeTab === k} onClick={() => { setTab(k); setCur(ids(k)[0]); }}>{k === "closest" ? t("Jevneste", "Closest") : typeLabel(k)}</button>)}</div>}
           <ol>
-            {list.map((id, i) => { const x = O.get(id)!; const ms = tab === "closest" ? x.ms : x.ms.filter((m) => m.type === tab); const rec = record(ms); return (
+            {list.map((id, i) => { const x = O.get(id)!; const ms = activeTab === "closest" ? x.ms : x.ms.filter((m) => m.type === activeTab); const rec = record(ms); return (
               <li key={id}><button type="button" aria-pressed={cur === id} onClick={() => open(id)}>
                 <span className="rank tnum">{i + 1}</span><span className="who"><b>{x.name}</b><small className="muted">{count(ms.length, ["møte", "møter"], "meeting")}</small></span>
                 <span className={`rec tnum ${rec.w > rec.l ? "pos" : rec.w < rec.l ? "neg" : ""}`}>{rec.w}–{rec.l}</span>
@@ -75,7 +76,7 @@ function Duel({ a, o, inIndex }: { a: Athlete; o: Opponent; inIndex: boolean }) 
   const draws = o.ms.length - rec.w - rec.l;
   const me = firstName(a.name), them = firstName(o.name);
   const places = o.ms.filter((m) => m.pl != null).map((m) => m.pl!);
-  const med = places.length ? places.sort((x, y) => x - y)[places.length >> 1] : null;
+  const med = places.length ? median(places) : null;
   const first = o.ms[0], last = o.ms[o.ms.length - 1];
   return (
     <div className="card duel">
@@ -85,7 +86,7 @@ function Duel({ a, o, inIndex }: { a: Athlete; o: Opponent; inIndex: boolean }) 
         <div className="duel-side right"><span className="eyebrow">{inIndex ? <a href={href.rider(o.id)}>{o.name}</a> : o.name}</span><b className="duel-n tnum neg">{rec.l}</b></div>
       </div>
       <p className="duel-sum">
-        {rec.w === rec.l ? t("Helt jevnt", "Dead even") : t(`${rec.w > rec.l ? me : them} leder`, `${rec.w > rec.l ? me : them} leads`)}{med != null ? t(`, typisk ${Math.abs(med)} ${Math.abs(med) === 1 ? "plass" : "plasser"} ${med < 0 ? "foran" : "bak"} ${them}`, `, typically ${Math.abs(med)} ${Math.abs(med) === 1 ? "place" : "places"} ${med < 0 ? "ahead of" : "behind"} ${them}`) : ""}.
+        {rec.w === rec.l ? t("Helt jevnt", "Dead even") : t(`${rec.w > rec.l ? me : them} leder`, `${rec.w > rec.l ? me : them} leads`)}{med != null && med !== 0 ? t(`, typisk ${raw(Math.abs(med))} ${Math.abs(med) === 1 ? "plass" : "plasser"} ${med < 0 ? "foran" : "bak"} ${them}`, `, typically ${raw(Math.abs(med))} ${Math.abs(med) === 1 ? "place" : "places"} ${med < 0 ? "ahead of" : "behind"} ${them}`) : med === 0 && rec.w !== rec.l ? t(", typisk helt jevnt på plassering", ", typically dead even on places") : ""}.
         {first && last && first !== last ? t(` Første møte ${first.date.slice(0, 4)}, siste ${last.date.slice(0, 4)}.`, ` First meeting ${first.date.slice(0, 4)}, last ${last.date.slice(0, 4)}.`) : ""}
       </p>
       <div className="table-wrap"><table className="sheet meetings">
@@ -121,7 +122,12 @@ function OppSearch({ index, self, onPick }: { index: IndexRider[]; self: string;
   const [q, setQ] = useState("");
   const [busy, setBusy] = useState(false);
   const [err, setErr] = useState(false);
-  const hits = useMemo(() => { const s = fold(q.trim()); if (s.length < 2) return []; return index.filter((r) => r.id !== self && fold(r.name).includes(s)).sort((a, b) => b.races - a.races).slice(0, 6); }, [q, index, self]);
+  const hits = useMemo(() => {
+    const s = fold(q.trim());
+    if (s.length < 2) return [];
+    const words = s.split(/\s+/);
+    return index.filter((r) => r.id !== self && words.every((w) => fold(r.name).includes(w))).sort((a, b) => b.races - a.races).slice(0, 6);
+  }, [q, index, self]);
   useEffect(() => { setBusy(false); setErr(false); }, [q]);
   return (
     <div className="opp-search">

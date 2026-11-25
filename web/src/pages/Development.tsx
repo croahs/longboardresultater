@@ -15,7 +15,8 @@ export default function Development({ a }: { a: Athlete }) {
   const { rows, season, setSeason } = useSel();
   const ys = years(a);
   const who = firstName(a.name);
-  const types = [...new Set(rows.map((r) => r.type))];
+  const placed = rows.filter((r) => r.place != null && r.beaten != null);
+  const types = [...new Set(placed.map((r) => r.type))];
   const rated = rows.filter((r) => r.elo != null);
   return (
     <>
@@ -25,11 +26,11 @@ export default function Development({ a }: { a: Athlete }) {
           {(["all", ...ys] as const).map((y) => <button key={y} type="button" className="chip" aria-pressed={season === y} onClick={() => setSeason(y)}>{y === "all" ? t("Alle år", "All years") : y}</button>)}
         </div>
       </div>
-      {rows.length < 2 ? <Empty title={t("For få race til å vise en utvikling", "Too few races to show progress")}>{t("Det trengs minst to race i perioden.", "It takes at least two races in the period.")}</Empty> : (
+      {placed.length < 2 ? <Empty title={t("For få race til å vise en utvikling", "Too few races to show progress")}>{t("Det trengs minst to race i perioden.", "It takes at least two races in the period.")}</Empty> : (
         <section className="card card-pad">
           <div className="section-head tight"><div><h3 className="h-card">{t(`Andel av ${felt} slått`, `Share of ${felt} beaten`)}</h3><p className="fine">{t("Høyere er bedre.", "Higher is better.")}</p></div>
             <div className="legend">{types.map((k) => <span key={k} className={`swatch type-${k}`}><i />{typeLabel(k)}</span>)}</div></div>
-          <Chart rows={rows} />
+          <Chart rows={placed} />
         </section>
       )}
       {rated.length >= 2 && (
@@ -51,7 +52,7 @@ function Chart({ rows }: { rows: Result[] }) {
   const H = 260, L = 38, R = 14, T = 16, B = 30;
   const n = rows.length, step = (W - L - R) / Math.max(n - 1, 1);
   const x = (i: number) => L + i * step, y = (v: number) => T + (1 - v / 100) * (H - T - B);
-  const med = rows.map((_, i) => median(rows.slice(Math.max(0, i - 4), i + 1).map((r) => r.beaten)));
+  const med = rows.map((_, i) => median(rows.slice(Math.max(0, i - 4), i + 1).map((r) => r.beaten!)));
   const line = med.map((v, i) => `${i ? "L" : "M"}${x(i).toFixed(1)},${y(v).toFixed(1)}`).join(" ");
   const yearTicks = rows.flatMap((r, i) => (i === 0 || r.year !== rows[i - 1].year ? [[i, r.year] as const] : []));
   const i = hov ?? (sel ? rows.findIndex((r) => raceKey(r) === sel) : -1);
@@ -64,12 +65,12 @@ function Chart({ rows }: { rows: Result[] }) {
         <path d={line} className="median" />
         {rows.map((r, k) => (
           <g key={raceKey(r)} className={`pt type-${r.type}`} onMouseEnter={() => setHov(k)} onClick={() => setSel(sel === raceKey(r) ? null : raceKey(r))} style={{ cursor: "pointer" }}>
-            <circle cx={x(k)} cy={y(r.beaten)} r={k === i ? 7 : 4.5} />
-            <circle cx={x(k)} cy={y(r.beaten)} r={Math.max(9, step / 2)} fill="transparent" />
+            <circle cx={x(k)} cy={y(r.beaten!)} r={k === i ? 7 : 4.5} />
+            <circle cx={x(k)} cy={y(r.beaten!)} r={Math.max(9, step / 2)} fill="transparent" />
           </g>
         ))}
       </svg>
-      <div className="chart-tip" role="status">{cur ? <><b>{cur.race} {cur.year}</b> · {dateLong(cur.date)} · {placeOf(cur.place, cur.field)} · {t("slo", "beat")} {pct(cur.beaten)}</> : <span className="muted">{t("Pek på et punkt.", "Point at a dot.")}</span>}</div>
+      <div className="chart-tip" role="status">{cur ? <><b>{cur.race} {cur.year}</b> · {dateLong(cur.date)} · {placeOf(cur.place!, cur.field)} · {t("slo", "beat")} {pct(cur.beaten)}</> : <span className="muted">{t("Pek på et punkt.", "Point at a dot.")}</span>}</div>
     </div>
   );
 }
@@ -101,7 +102,7 @@ function EloChart({ rows }: { rows: Result[] }) {
           </g>
         ))}
       </svg>
-      <div className="chart-tip" role="status">{cur ? <><b>{cur.race} {cur.year}</b> · {poolLabel(poolOf(cur)!)} · {placeOf(cur.place, cur.field)} · {t("Rating", "Rating")} <b className="tnum">{cur.elo}</b> <Delta d={cur.eloDelta} /></> : <span className="muted">{t("Pek på et punkt.", "Point at a dot.")}</span>}</div>
+      <div className="chart-tip" role="status">{cur ? <><b>{cur.race} {cur.year}</b> · {poolLabel(poolOf(cur)!)} · {cur.place != null ? placeOf(cur.place, cur.field) : `DNF (${cur.field})`} · {t("Rating", "Rating")} <b className="tnum">{cur.elo}</b> <Delta d={cur.eloDelta} /></> : <span className="muted">{t("Pek på et punkt.", "Point at a dot.")}</span>}</div>
     </div>
   );
 }
@@ -124,7 +125,7 @@ function SameRace({ a, who }: { a: Athlete; who: string }) {
           <tbody>{groups.map((rs) => (
             <tr key={`${rs[0].race}|${rs[0].cls}`}>
               <td className="l"><b>{rs[0].race}</b>{rs[0].cls ? <span className="muted"> · {rs[0].cls}</span> : null}</td>
-              {ys.map((y) => { const r = rs.find((r) => r.year === y); return <td key={y} className="tnum">{r ? <><b>{ord(r.place)}</b><small className="muted"> {t("av", "of")} {r.field}</small><br /><small>{Math.round(r.beaten)} %</small></> : <span className="muted">–</span>}</td>; })}
+              {ys.map((y) => { const r = rs.find((r) => r.year === y); return <td key={y} className="tnum">{r ? (r.place != null ? <><b>{ord(r.place)}</b><small className="muted"> {t("av", "of")} {r.field}</small><br /><small>{Math.round(r.beaten!)} %</small></> : <><b>DNF</b><small className="muted"> {t("av", "of")} {r.field}</small></>) : <span className="muted">–</span>}</td>; })}
             </tr>
           ))}</tbody>
         </table>

@@ -13,10 +13,12 @@ Map tiles from Kartverket (open, no key), Leaflet from a CDN, place search from 
 Nominatim. Nothing else leaves the machine.
 """
 import json
+import math
 import os
 import subprocess
 import sys
 import threading
+import urllib.parse
 import webbrowser
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
@@ -24,6 +26,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 HILLS = os.path.join(HERE, "data", "hills.json")
 TRACKS = os.path.join(HERE, "data", "tracks")
 PORT = 8765
+SAVE_LOCK = threading.Lock()
+LOCAL_HOSTS = {"localhost", "127.0.0.1", "::1"}
 
 PAGE = r"""<!doctype html>
 <html lang="nb"><head><meta charset="utf-8"><title>Marker bakker</title>
@@ -83,8 +87,24 @@ const clearVias = () => { for (const m of vias) map.removeLayer(m); vias = []; }
 
 async function load() {
   hills = (await (await fetch("/hills")).json()).hills;
-  $("hills").innerHTML = hills.map((h) => `<li><button type="button" data-id="${h.id}" aria-pressed="${cur && cur.id === h.id}"><span>${h.name}</span><span class="${h.start && h.finish ? "ok" : "note"}">${h.start && h.finish ? "✓" : "–"}</span></button></li>`).join("");
-  for (const b of $("hills").querySelectorAll("button")) b.onclick = () => select(b.dataset.id);
+  const ul = $("hills");
+  ul.replaceChildren();
+  for (const h of hills) {
+    const li = document.createElement("li");
+    const b = document.createElement("button");
+    b.type = "button";
+    b.dataset.id = h.id;
+    b.setAttribute("aria-pressed", String(Boolean(cur && cur.id === h.id)));
+    const nm = document.createElement("span");
+    nm.textContent = h.name;
+    const st = document.createElement("span");
+    st.className = h.start && h.finish ? "ok" : "note";
+    st.textContent = h.start && h.finish ? "✓" : "–";
+    b.append(nm, st);
+    b.onclick = () => select(h.id);
+    li.appendChild(b);
+    ul.appendChild(li);
+  }
 }
 function setMarker(kind, latlng) {
   if (marks[kind]) marks[kind].setLatLng(latlng);
@@ -141,14 +161,40 @@ $("save").onclick = async () => {
 };
 let timer;
 $("q").oninput = () => { clearTimeout(timer); timer = setTimeout(async () => {
-  const q = $("q").value.trim(); if (q.length < 3) { $("hits").innerHTML = ""; return; }
+  const q = $("q").value.trim(); const hits = $("hits");
+  if (q.length < 3) { hits.replaceChildren(); return; }
   const res = await (await fetch(`https://nominatim.openstreetmap.org/search?format=json&limit=6&countrycodes=no&q=${encodeURIComponent(q)}`)).json();
-  $("hits").innerHTML = res.map((h) => `<button type="button" data-lat="${h.lat}" data-lon="${h.lon}">${h.display_name}</button>`).join("");
-  for (const b of $("hits").querySelectorAll("button")) b.onclick = () => { map.setView([+b.dataset.lat, +b.dataset.lon], 14); $("hits").innerHTML = ""; };
+  hits.replaceChildren();
+  for (const h of res) {
+    const b = document.createElement("button");
+    b.type = "button";
+    b.textContent = h.display_name || h.name || "";
+    b.onclick = () => { map.setView([+h.lat, +h.lon], 14); hits.replaceChildren(); };
+    hits.appendChild(b);
+  }
 }, 400); };
 load();
 </script></body></html>
 """
+
+
+def _valid_point(p):
+    return (isinstance(p, list) and len(p) == 2
+            and all(isinstance(v, (int, float)) and not isinstance(v, bool) and math.isfinite(v) for v in p)
+            and -90 <= p[0] <= 90 and -180 <= p[1] <= 180)
+
+
+def _local_request(headers):
+    host = headers.get("Host") or ""
+    host_name = urllib.parse.urlsplit(f"http://{host}").hostname
+    if host_name not in LOCAL_HOSTS:
+        return False
+    origin = headers.get("Origin")
+    if origin:
+        parsed = urllib.parse.urlsplit(origin)
+        if parsed.scheme not in ("http", "https") or parsed.hostname not in LOCAL_HOSTS:
+            return False
+    return True
 
 
 def read_hills():
@@ -193,24 +239,37 @@ class Handler(BaseHTTPRequestHandler):
     def do_POST(self):
         if self.path != "/save":
             return self.send(404, "{}")
-        body = json.loads(self.rfile.read(int(self.headers.get("Content-Length", 0))))
-        obj = read_hills()
-        hill = next((h for h in obj["hills"] if h["id"] == body["id"]), None)
-        if not hill:
-            return self.send(404, json.dumps({"error": "unknown hill"}))
-        hill["start"], hill["finish"] = body["start"], body["finish"]
-        if body.get("via"):
-            hill["via"] = body["via"]
-        else:
-            hill.pop("via", None)
-        write_hills(obj)
-        run = subprocess.run([sys.executable, "-X", "utf8", os.path.join(HERE, "tracks.py"), hill["id"]],
-                             capture_output=True, text=True, encoding="utf-8", errors="replace", cwd=HERE)
-        path = os.path.join(TRACKS, f"{hill['id']}.json")
-        if run.returncode == 0 and os.path.exists(path):
-            with open(path, encoding="utf-8") as f:
-                return self.send(200, json.dumps({"track": json.load(f), "log": run.stdout}))
-        self.send(200, json.dumps({"error": (run.stdout + run.stderr).strip()[-1500:]}))
+        if not _local_request(self.headers):
+            return self.send(403, json.dumps({"error": "forbidden origin"}))
+        try:
+            length = int(self.headers.get("Content-Length", 0))
+            body = json.loads(self.rfile.read(length))
+        except (ValueError, json.JSONDecodeError):
+            return self.send(400, json.dumps({"error": "invalid json"}))
+        if (not isinstance(body, dict) or not isinstance(body.get("id"), str)
+                or not _valid_point(body.get("start")) or not _valid_point(body.get("finish"))):
+            return self.send(400, json.dumps({"error": "invalid coordinates"}))
+        via = body.get("via")
+        if via is not None and (not isinstance(via, list) or not all(_valid_point(p) for p in via)):
+            return self.send(400, json.dumps({"error": "invalid via coordinates"}))
+        with SAVE_LOCK:
+            obj = read_hills()
+            hill = next((h for h in obj["hills"] if h["id"] == body["id"]), None)
+            if not hill:
+                return self.send(404, json.dumps({"error": "unknown hill"}))
+            hill["start"], hill["finish"] = body["start"], body["finish"]
+            if via:
+                hill["via"] = via
+            else:
+                hill.pop("via", None)
+            write_hills(obj)
+            run = subprocess.run([sys.executable, "-X", "utf8", os.path.join(HERE, "tracks.py"), hill["id"]],
+                                 capture_output=True, text=True, encoding="utf-8", errors="replace", cwd=HERE)
+            path = os.path.join(TRACKS, f"{hill['id']}.json")
+            if run.returncode == 0 and os.path.exists(path):
+                with open(path, encoding="utf-8") as f:
+                    return self.send(200, json.dumps({"track": json.load(f), "log": run.stdout}))
+            self.send(200, json.dumps({"error": (run.stdout + run.stderr).strip()[-1500:]}))
 
 
 if __name__ == "__main__":

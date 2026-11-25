@@ -44,10 +44,12 @@ export const span = (ys: number[]) => (!ys.length ? "" : ys[0] === ys[ys.length 
 /** Seconds as a race clock: 69.5 -> "1:09,50" ("1:09.50" in English), 17.3 -> "17,30". Downhill runs are timed to the hundredth. */
 export const clock = (s: number | null | undefined) => {
   if (s == null || Number.isNaN(s)) return "–";
-  const neg = s < 0; s = Math.abs(s);
-  const m = Math.floor(s / 60), x = s - m * 60;
-  const sec = num(x, 2);
-  return (neg ? "−" : "") + (m ? `${m}:${x < 10 ? "0" : ""}${sec}` : sec);
+  const neg = s < 0;
+  const totalCs = Math.round(Math.abs(s) * 100);
+  const m = Math.floor(totalCs / 6000);
+  const cs = totalCs % 6000;
+  const sec = num(cs / 100, 2);
+  return (neg && totalCs > 0 ? "−" : "") + (m ? `${m}:${cs < 1000 ? "0" : ""}${sec}` : sec);
 };
 
 export const initials = (n: string) =>

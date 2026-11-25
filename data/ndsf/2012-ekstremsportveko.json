@@ -723,7 +723,7 @@
     {
      "place": 44,
      "name": "Hustad Mats",
-     "time": 184.7,
+     "time": null,
      "dnf": false,
      "dns": false
     },
@@ -842,7 +842,7 @@
     {
      "place": 61,
      "name": "Troye Anders",
-     "time": 154.6,
+     "time": null,
      "dnf": false,
      "dns": false
     },
@@ -912,7 +912,7 @@
     {
      "place": 71,
      "name": "Rustad Erkki",
-     "time": 138.8,
+     "time": null,
      "dnf": false,
      "dns": false
     },

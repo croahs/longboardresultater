@@ -33,9 +33,9 @@ from ndsf import add_race, clean_name, event_of, fold, get, race_name, secs, slu
 HERE = os.path.dirname(os.path.abspath(__file__))
 CACHE = os.path.join(HERE, "cache", "igsa")
 OUT = os.path.join(HERE, "data", "igsa")
-CDX = ("http://web.archive.org/cdx/search/cdx?url=igsaworldcup.com/results/*&output=json"
+CDX = ("https://web.archive.org/cdx/search/cdx?url=igsaworldcup.com/results/*&output=json"
        "&fl=timestamp,original,mimetype&filter=statuscode:200&limit=5000")
-WAYBACK = "http://web.archive.org/web/{ts}id_/{url}"
+WAYBACK = "https://web.archive.org/web/{ts}id_/{url}"
 MONTHS = "jan feb mar apr may jun jul aug sep oct nov dec".split()
 # The class a section heading names; first match wins.
 CLASSES = [(r"women|ladies|girl", "Women"), (r"junior", "Junior"), (r"master|veteran", "Masters"), (r"luge", "Luge"),
@@ -133,12 +133,16 @@ def text_of(ts, url, mime, key, fetch=False):
         if not shutil.which("pdftotext"):
             print(f"  pdftotext missing, skipping {key}", file=sys.stderr)
             return None
+        os.makedirs(os.path.dirname(path), exist_ok=True)
         pdf = path[:-4] + ".pdf"
-        with open(pdf, "wb") as f:
-            f.write(data)
-        text = subprocess.run(["pdftotext", "-raw", "-enc", "UTF-8", pdf, "-"], capture_output=True, text=True,
-                              encoding="utf-8", errors="replace").stdout
-        os.remove(pdf)
+        try:
+            with open(pdf, "wb") as f:
+                f.write(data)
+            text = subprocess.run(["pdftotext", "-raw", "-enc", "UTF-8", pdf, "-"], capture_output=True, text=True,
+                                  encoding="utf-8", errors="replace").stdout
+        finally:
+            if os.path.exists(pdf):
+                os.remove(pdf)
     elif b"<table" in data[:100000].lower():
         m = re.search(rb"charset=([\w-]+)", data[:3000])
         try:
@@ -346,8 +350,11 @@ def build(fetch=False):
         if long:
             for r in events[short]["races"]:
                 add_race(events[long], r["name"], r["kind"], r["format"], r["source"], [(x["place"], x["name"], x["time"], "DNS" if x["dns"] else "DNF" if x["dnf"] else "", x.get("nat")) for x in r["results"]])
+            if events[short]["date_known"] and not events[long]["date_known"]:
+                events[long]["date"], events[long]["date_known"] = events[short]["date"], True
             events[long]["sources"] += events[short]["sources"]
-            events[long]["titles"] += events[short]["titles"]
+            events[long]["titles"] += [t for t in events[short]["titles"] if t not in events[long]["titles"]]
+            events[long]["notes"] += events[short]["notes"]
             del events[short]
     for ev in events.values():
         ev["needs_manual"] = not ev["races"]

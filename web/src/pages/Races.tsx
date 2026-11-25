@@ -20,7 +20,7 @@ export default function Races({ a }: { a: Athlete }) {
   const rated = a.results.some((r) => r.elo != null);
   const rows = useMemo(() => {
     const s = fold(q.trim());
-    const val = (r: Result) => (sort.k === "date" ? r.date : sort.k === "beaten" ? r.beaten : sort.k === "elo" ? r.elo ?? -Infinity : r.place);
+    const val = (r: Result) => (sort.k === "date" ? r.date : sort.k === "beaten" ? r.beaten ?? -1 : sort.k === "elo" ? r.elo ?? -Infinity : r.place ?? Infinity);
     return a.results.filter((r) => (season === "all" || r.year === season) && (type === "all" || r.type === type) && (!s || fold(`${r.race} ${r.year} ${r.cls}`).includes(s)))
       .sort((x, y) => { const d = val(x) < val(y) ? -1 : val(x) > val(y) ? 1 : 0; return sort.desc ? -d : d; });
   }, [a, q, type, sort, season]);
@@ -52,8 +52,8 @@ export default function Races({ a }: { a: Athlete }) {
                 <td className="l muted nowrap">{dateLong(r.date)}</td>
                 <td className="l"><a href={href.race(r.raceId)}><b>{r.race}</b> <span className="muted">{r.year}</span></a></td>
                 <td className="l"><Cls type={r.type} cls={r.cls} /></td>
-                <td className="tnum"><b>{r.place}</b><span className="muted">/{r.field}</span></td>
-                <td className="l beaten-cell"><Beaten v={r.beaten} /><span className="tnum">{Math.round(r.beaten)} %</span></td>
+                <td className="tnum"><b>{r.place != null ? r.place : "DNF"}</b><span className="muted">/{r.field}</span></td>
+                <td className="l beaten-cell">{r.beaten != null ? <><Beaten v={r.beaten} /><span className="tnum">{Math.round(r.beaten)} %</span></> : <span className="muted">–</span>}</td>
                 {rated && <td className="tnum nowrap">{r.elo != null ? <><b>{r.elo}</b> <Delta d={r.eloDelta} /></> : <span className="muted">–</span>}</td>}
                 <td className="tnum">{r.time != null ? clock(r.time) : <span className="muted">–</span>}</td>
                 <td className="tnum muted">{r.behind != null && r.behind > 0 ? pct(r.behind, 1) : ""}</td>

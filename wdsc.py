@@ -46,7 +46,7 @@ def page(url, fetch=False):
         text = get(url)
     except Exception as e:
         print(f"  {url}: {e}", file=sys.stderr)
-        text = ""
+        return cached or ""
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8", newline="\n") as f:
         f.write(text)
@@ -89,8 +89,9 @@ def new_event(events, place, year, date_text, url):
     place = re.sub(r"\brace\s+(\d)\b", r"\1", place, flags=re.I).strip(" -–")
     eid = f"{year}-{slug(place)}"
     m = re.search(DATE_RE, fold(date_text or ""))
-    date, known = (f"{year}-{MONTHS.index(m.group('mon')) + 1:02}-{int(m.group('day')):02}", True) \
-        if m and m.group("mon") in MONTHS and int(m.group("year")) == year else (f"{year}-01-01", False)
+    day = int(m.group("day")) if m else 0
+    date, known = (f"{year}-{MONTHS.index(m.group('mon')) + 1:02}-{day:02}", True) \
+        if m and m.group("mon") in MONTHS and int(m.group("year")) == year and 1 <= day <= 31 else (f"{year}-01-01", False)
     ev = events.setdefault(eid, {"id": eid, "name": f"WDSC {place}", "year": year, "date": date, "date_known": known, "hill": None,
                                  "place": place, "sources": [], "titles": [], "notes": [], "races": []})
     if known and not ev["date_known"]:
@@ -178,11 +179,11 @@ def parse_page(url, h, events):
             if m and not re.search(r"championship|rankings|season", m.group("place")):
                 year = int(re.search(r"20\d\d", m.group("date")).group(0))
                 event = new_event(events, _place(body), year, body, url)
-                series, event_timed, rank_cls = "", False, None
+                series, cls, event_timed, rank_cls = "", "", False, None
                 continue
             m = re.match(r"^world rankings (20\d\d): (.+)$", f)
             if m:
-                event, rank_cls = None, (int(m.group(1)), m.group(2))
+                event, cls, rank_cls = None, "", (int(m.group(1)), m.group(2))
                 continue
             if re.match(r"^day \d qualifying", f):
                 event_timed = True
@@ -192,21 +193,21 @@ def parse_page(url, h, events):
                 continue
             m = re.match(r"^(?P<place>.+?) (?P<what>race|qualifying) results$", f)
             if m and year_hint:
-                event, series, event_timed, rank_cls = new_event(events, _place(body), year_hint, "", url), "", m.group("what") == "qualifying", None
+                event, series, cls, event_timed, rank_cls = new_event(events, _place(body), year_hint, "", url), "", "", m.group("what") == "qualifying", None
                 continue
             m = re.match(r"^(?P<place>[a-z ]+?) race (?P<n>\d)$", f)
             if m and year_hint:
-                event, series, event_timed, rank_cls = new_event(events, f"{m.group('place').title()} {m.group('n')}", year_hint, "", url), "", False, None
+                event, series, cls, event_timed, rank_cls = new_event(events, f"{m.group('place').title()} {m.group('n')}", year_hint, "", url), "", "", False, None
                 continue
             if re.match(r"^[a-z ]+ race \d results$", f):
                 event_timed = False
                 continue
             m = re.match(r"^(?P<qs>qs\b[\s-]*)?(?P<place>.+?)\s+(?P<year>20\d\d)$", f)  # fold() drops the dash in "QS – Wales"
             if m and not re.search(r"wdsc|standings|championship|rankings", m.group("place")):
-                event, series, event_timed, rank_cls = new_event(events, _place(body), int(m.group("year")), "", url), "QS" if m.group("qs") else "", False, None
+                event, series, cls, event_timed, rank_cls = new_event(events, _place(body), int(m.group("year")), "", url), "QS" if m.group("qs") else "", "", False, None
                 continue
             if re.search(r"standings|rankings|championship|wdsc", f):
-                event, rank_cls = None, None
+                event, cls, rank_cls = None, "", None
                 continue
             cls = body
             m = re.match(r"^(ct|qs)\b", f)

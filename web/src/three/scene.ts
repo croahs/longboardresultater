@@ -64,6 +64,6 @@ export function useScene(build: Builder, deps: unknown[] = []): RefObject<HTMLDi
       renderer.dispose();
       renderer.domElement.remove();
     };
-  }, deps); // eslint-disable-line react-hooks/exhaustive-deps
+  }, deps);
   return ref;
 }

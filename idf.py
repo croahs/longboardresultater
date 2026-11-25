@@ -48,7 +48,7 @@ def page(url, fetch=False):
             text = data.decode("cp1252", "replace")  # the rankings.* pages are Windows-1252 (Paixão, Wünsche)
     except Exception as e:
         print(f"  {url}: {e}", file=sys.stderr)
-        text = ""
+        return cached or ""
     os.makedirs(os.path.dirname(path), exist_ok=True)
     with open(path, "w", encoding="utf-8", newline="\n") as f:
         f.write(text)
@@ -105,8 +105,9 @@ def race_info(year, fetch=False):
     for t in tables(page(f"{SITE}/races/{year}/", fetch)):
         for r in t:
             if len(r) >= 3 and re.fullmatch(r"\d{1,2}/\d{1,2}", r[1].strip()):
-                d, m = r[1].split("/")
-                out[fold(r[0])] = (f"{year}-{int(m):02}-{int(d):02}", r[2].strip(), r[0].strip())
+                d, m = (int(x) for x in r[1].split("/"))
+                if 1 <= m <= 12 and 1 <= d <= 31:
+                    out[fold(r[0])] = (f"{year}-{m:02}-{d:02}", r[2].strip(), r[0].strip())
     return out
 
 

@@ -125,19 +125,21 @@ def _write(path, text):
         f.write(text)
 
 
-def get(url, binary=False, tries=3):
+def get(url, binary=False, tries=3, with_headers=False):
     """One HTTP GET with the site's pace in mind: a short pause and a plain browser-like agent."""
     for i in range(tries):
         try:
             with urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=60) as r:
                 data = r.read()
+                hdrs = r.headers
             time.sleep(0.4)
-            return data if binary else data.decode("utf-8", "replace")
+            payload = data if binary else data.decode("utf-8", "replace")
+            return (payload, hdrs) if with_headers else payload
         except urllib.error.HTTPError as e:
             if e.code in (401, 403, 404) or i == tries - 1:
                 raise
             time.sleep(3)
-    return None
+    return (None, {}) if with_headers else None
 
 
 def rest(route, **params):
@@ -146,17 +148,23 @@ def rest(route, **params):
 
 
 def posts(fetch=False):
-    """Every post on ndsf.no (id, date, title, categories, content), cached in cache/ndsf/posts.json."""
+    """Result posts on ndsf.no (id, date, title, categories, content), cached in cache/ndsf/posts.json."""
     path = _path("posts.json")
     cached = _read(path)
     if cached and not fetch:
         return json.loads(cached)
+    cats = ",".join(str(c) for c in (RESULTS_CAT, *YEAR_CATS))
     out, page = [], 1
     while True:
-        batch = rest("/wp/v2/posts", per_page=100, page=page, _fields="id,date,title,link,categories,content")
+        q = urllib.parse.urlencode({"rest_route": "/wp/v2/posts", "per_page": 100, "page": page,
+                                    "categories": cats, "_fields": "id,date,title,link,categories,content"})
+        body, hdrs = get(f"{SITE}/?{q}", with_headers=True)
+        batch = json.loads(body)
         out += [{"id": p["id"], "date": p["date"][:10], "title": html.unescape(p["title"]["rendered"]),
-                 "categories": p["categories"], "content": p["content"]["rendered"]} for p in batch]
-        if len(batch) < 100:
+                 "categories": p["categories"], "content": p["content"]["rendered"]} for p in batch
+                if RESULTS_CAT in p["categories"] or any(c in YEAR_CATS for c in p["categories"])]
+        total_pages = int(hdrs.get("X-WP-TotalPages") or 1)
+        if page >= total_pages or len(batch) < 100:
             break
         page += 1
     _write(path, json.dumps(out, ensure_ascii=False, indent=0))
@@ -208,11 +216,14 @@ def pdf_text(url, fetch=False):
         print(f"  pdftotext missing, skipping {url}", file=sys.stderr)
         return None
     pdf = _path("pdf", name)
-    with open(pdf, "wb") as f:
-        f.write(data)
-    text = subprocess.run(["pdftotext", "-layout", "-enc", "UTF-8", pdf, "-"], capture_output=True, text=True,
-                          encoding="utf-8", errors="replace").stdout
-    os.remove(pdf)
+    try:
+        with open(pdf, "wb") as f:
+            f.write(data)
+        text = subprocess.run(["pdftotext", "-layout", "-enc", "UTF-8", pdf, "-"], capture_output=True, text=True,
+                              encoding="utf-8", errors="replace").stdout
+    finally:
+        if os.path.exists(pdf):
+            os.remove(pdf)
     _write(path, text)
     return text or None
 
@@ -349,7 +360,7 @@ def place_lists(rows, label):
             best_cols = [tc for tc in time_cols if head[tc].startswith(("best", "total"))]
             time_cols = best_cols or time_cols
             diff_cols = {tc for tc, h in enumerate(head) if h.startswith("diff")}
-            out, expect = [], 1
+            out, row_idxs, expect = [], [], 1
             for i in range(start, len(rows)):
                 v = col[i]
                 if v is None:
@@ -378,17 +389,22 @@ def place_lists(rows, label):
                             break
                 note = next((x for x in rows[i][name_col + 1:] if re.fullmatch(r"(consi|dnf|dns|dsq|dq|3rd in qf\.?)", x, re.I)), "")
                 out.append((v, name, t, note))
+                row_idxs.append(i)
                 expect = v + 1
             class_col = next((j for j, h in enumerate(head) if h in ("class", "klasse", "category", "kategori")), None) if head else None
-            if class_col is not None and len({rows[i][class_col] for i in range(start, start + len(out))}) > 1:
+            if class_col is not None and len({rows[i][class_col] for i in row_idxs}) > 1:
                 # One list per class, each ranked on its own ("Rank ... Class ... Total Time").
                 by = {}
-                for k, row in enumerate(out):
-                    by.setdefault(rows[start + k][class_col].strip() or "Open", []).append(row)
+                for i, row in zip(row_idxs, out):
+                    by.setdefault(rows[i][class_col].strip() or "Open", []).append(row)
+                added = False
                 for cls, rows_ in by.items():
                     ranked = [(j + 1, n, t, note) for j, (_, n, t, note) in enumerate(rows_)]
                     if len(ranked) >= 2:
                         lists.append(((start, c + 100 + len(lists)), (cls, ranked)))
+                        added = True
+                if added:
+                    taken.update((i, name_col) for i in row_idxs)
                 continue
             if len(out) >= 2:
                 heading = rows[start - 1][name_col] if start and clean_name(rows[start - 1][name_col]) and not NAME_RE.search(
@@ -402,7 +418,7 @@ def place_lists(rows, label):
                 above = f"{rows[start - 1][c]} {rows[start - 1][name_col]}" if start else ""
                 if re.search(r"seed|startliste|start ?list|registr", fold(f"{heading or ''} {above}")):
                     continue
-                taken.update((start + k, name_col) for k in range(len(out)))
+                taken.update((i, name_col) for i in row_idxs)
                 lists.append(((start, c), (heading, out)))
     # Drop a list that is only a copy of another one (the bracket sheets repeat names in helper columns).
     final = []
@@ -464,6 +480,8 @@ def parse_sheet(sh, heading):
                 and not re.search(r"result", fold(tab["name"]))
             if timed:
                 results = [(p, n, t, note) if t else (None, n, None, "DNF") for p, n, t, note in results]
+            else:
+                results = [(p, n, None, note) for p, n, _, note in results]
             label = sub_heading or ""
             many = len(found) > 1 or len([t for t in sh["tabs"] if t.get("csv") and not IGNORE_TAB.search(t["name"])]) > 1
             kind = kind_of(label, tab["name"] if many else "", heading, sh.get("title") or "") or "Open"
@@ -579,7 +597,7 @@ def parse_pdf(text):
                 timed = bool(re.search(r"kval|time|tid", fold(heading)))
                 col = m.start(1)
             # The time, wherever it sits: later pages often collapse the columns to single spaces.
-            ts = [secs(c) for c in rest.split() if secs(c) is not None and not re.fullmatch(r"\d{3}[.,]\d\d", c)]
+            ts = [secs(c) for c in rest.split() if secs(c) is not None and not re.fullmatch(r"\d{3}[.,]\d{1,2}", c)] if timed else []
             cur.append((n, name, ts[0] if ts else None, (re.search(r"\b(DNS|DNF|DSQ)\b", rest) or [""])[0]))
         elif re.search(r"[A-Za-zÀ-ÿ]{3,}", line):
             pending = line.strip()  # a heading for the next list, if one starts here
@@ -599,10 +617,11 @@ def post_date(p, year):
             return f"{y}-{mo:02}-{d:02}", True
     months = "januar|februar|mars|april|mai|juni|juli|august|september|oktober|november|desember|january|february|march|may|june|july|october|december"
     for m in re.finditer(rf"(\d{{1,2}})\.?\s+({months})\s+(20\d\d)", p["content"], re.I):
-        if int(m.group(3)) == year:
+        d = int(m.group(1))
+        if int(m.group(3)) == year and 1 <= d <= 31:
             k = fold(m.group(2))[:3]
             mo = 1 + "jan feb mar apr mai jun jul aug sep okt nov des".split().index({"may": "mai", "oct": "okt", "dec": "des"}.get(k, k))
-            return f"{year}-{mo:02}-{int(m.group(1)):02}", True
+            return f"{year}-{mo:02}-{d:02}", True
     if p["date"].startswith(str(year)):
         return p["date"], True
     return f"{year}-01-01", False
@@ -716,7 +735,7 @@ def add_race(ev, rname, kind, fmt, src, results):
             continue
         seen.add(fold(nm))
         dns = bool(re.search(r"dns", note or "", re.I)) and not (fmt == "timed" and t)
-        row = {"place": None if dns else place, "name": nm, "time": round(t, 2) if t else None,
+        row = {"place": None if dns else place, "name": nm, "time": round(t, 2) if t and fmt == "timed" else None,
                "dnf": not dns and (bool(re.search(r"dnf|dsq", note or "", re.I)) or place is None), "dns": dns}
         if extra and extra[0]:
             row["nat"] = extra[0]

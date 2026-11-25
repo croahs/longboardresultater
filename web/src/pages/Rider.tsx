@@ -43,12 +43,16 @@ export default function Rider({ id, tab, index }: { id: string; tab: Tab; index:
 }
 
 function Head({ a, tab }: { a: Athlete; tab: Tab }) {
+  const norge = useNorge();
   const ys = years(a);
+  const placed = a.results.filter((r) => r.place != null);
   const wins = a.results.filter((r) => r.place === 1 && r.format === "bracket").length;
-  const podiums = a.results.filter((r) => r.place <= 3).length;
-  const best = a.results.reduce<Result | null>((b, r) => (!b || r.place < b.place || (r.place === b.place && r.field > b.field) ? r : b), null);
+  const podiums = placed.filter((r) => r.place! <= 3).length;
+  const best = placed.reduce<Result | null>((b, r) => (!b || r.place! < b.place! || (r.place === b.place && r.field > b.field) ? r : b), null);
   const pool: Pool | null = POOLS.find((k) => a.rating[k]) ?? null; // the first pool the rider is rated in: stand-up heats, timed, then luge
   const elo = pool ? a.rating[pool]! : null;
+  const rank = elo ? (norge ? elo.rank_no : elo.rank) : null;
+  const of = elo ? (norge ? elo.of_no : elo.of) : null;
   return (
     <header className="rider-head">
       <div className="bib" aria-label={t(`Startkort for ${a.name}`, `Race bib for ${a.name}`)}>
@@ -59,8 +63,8 @@ function Head({ a, tab }: { a: Athlete; tab: Tab }) {
           <div><dt>{t("race", "races")}</dt><dd className="tnum">{a.results.length}</dd></div>
           <div><dt>{t("seire", "wins")}</dt><dd className="tnum">{wins}</dd></div>
           <div><dt>{t("pallplasser", "podiums")}</dt><dd className="tnum">{podiums}</dd></div>
-          <div title={best ? `${placeOf(best.place, best.field)} ${t("i", "in")} ${best.race} ${best.year}` : undefined}><dt>{t("beste plass", "best place")}</dt><dd className="tnum">{best ? ord(best.place) : "–"}</dd></div>
-          <div title={elo ? t(`Rating i ${poolLabel(pool!).toLowerCase()}-poolen${elo.rank ? `, ${elo.rank}. av ${elo.of} aktive` : ""}, topp ${elo.peak} i ${elo.peak_year}`, `Rating in the ${poolLabel(pool!).toLowerCase()} pool${elo.rank ? `, ${ord(elo.rank)} of ${elo.of} active` : ""}, peak ${elo.peak} in ${elo.peak_year}`) : t("Ingen race som teller i ratingen", "No races that count in the rating")}><dt>rating{pool && pool !== "race" ? ` ${poolLabel(pool).toLowerCase()}` : ""}</dt><dd className="tnum">{elo ? elo.rating : "–"}</dd></div>
+          <div title={best ? `${placeOf(best.place!, best.field)} ${t("i", "in")} ${best.race} ${best.year}` : undefined}><dt>{t("beste plass", "best place")}</dt><dd className="tnum">{best ? ord(best.place!) : "–"}</dd></div>
+          <div title={elo ? t(`Rating i ${poolLabel(pool!).toLowerCase()}-poolen${rank && of ? `, ${rank}. av ${of} aktive${norge ? " i Norge-utvalget" : ""}` : ""}, topp ${elo.peak} i ${elo.peak_year}`, `Rating in the ${poolLabel(pool!).toLowerCase()} pool${rank && of ? `, ${ord(rank)} of ${of} active${norge ? " in the Norway view" : ""}` : ""}, peak ${elo.peak} in ${elo.peak_year}`) : t("Ingen race som teller i ratingen", "No races that count in the rating")}><dt>rating{pool && pool !== "race" ? ` ${poolLabel(pool).toLowerCase()}` : ""}</dt><dd className="tnum">{elo ? elo.rating : "–"}</dd></div>
         </dl>
         <div className="bib-foot"><span className="tnum">{span(ys)}{a.sex === "K" ? t(" · har kjørt dameklassen", " · has raced the women's class") : ""} · {t("resultatlister", "result lists")}</span><KlasseToggle /></div>
       </div>
@@ -77,8 +81,9 @@ function Overview({ a }: { a: Athlete }) {
   const { season, setSeason, sel, setSel, rows } = useSel();
   const ys = years(a);
   const last = a.results[a.results.length - 1];
-  const typical = median(rows.map((r) => r.beaten));
-  const bestRun = rows.reduce<Result | null>((b, r) => (!b || r.beaten > b.beaten || (r.beaten === b.beaten && r.field > b.field) ? r : b), null); // ties (every win is 100 %): the bigger field
+  const placed = rows.filter((r) => r.place != null && r.beaten != null);
+  const typical = median(placed.map((r) => r.beaten!));
+  const bestRun = placed.reduce<Result | null>((b, r) => (!b || r.beaten! > b.beaten! || (r.beaten === b.beaten && r.field > b.field) ? r : b), null); // ties (every win is 100 %): the bigger field
   const timed = rows.filter((r) => r.behind != null);
   const behind = median(timed.map((r) => r.behind!));
   const who = firstName(a.name);
@@ -87,8 +92,14 @@ function Overview({ a }: { a: Athlete }) {
   const byHill = useMemo(() => {
     const m = new Map<string, Result[]>();
     for (const r of rows) if (r.hill) m.set(r.hill, [...(m.get(r.hill) || []), r]);
-    return [...m].map(([id, rs]) => ({ id, name: hs.find((h) => h.id === id)?.name || id, rs, med: median(rs.map((r) => r.beaten)), best: rs.reduce((b, r) => (r.place < b.place ? r : b)) }))
-      .sort((x, y) => y.rs.length - x.rs.length);
+    return [...m].map(([id, rs]) => {
+      const p = rs.filter((r) => r.place != null && r.beaten != null);
+      return {
+        id, name: hs.find((h) => h.id === id)?.name || id, rs,
+        med: median(p.map((r) => r.beaten!)),
+        best: p.reduce<Result | null>((b, r) => (!b || r.place! < b.place! ? r : b), null),
+      };
+    }).sort((x, y) => y.rs.length - x.rs.length);
   }, [rows, hs]);
   const byType = useMemo(() => {
     const m = new Map<RaceType, Result[]>();
@@ -106,7 +117,7 @@ function Overview({ a }: { a: Athlete }) {
       <div className="stat-trio">
         <div className="stat"><span className="eyebrow">{t("Slår typisk", "Typically beats")}</span><b className="tnum">{pct(typical)}</b><small>{t("av", "of")} {felt}, median{season === "all" ? t(" over alle race", " over all races") : ` ${t("i", "in")} ${season}`}</small></div>
         {bestRun
-          ? <a className="stat link" href={href.race(bestRun.raceId)}><span className="eyebrow">{t("Beste race", "Best race")} <i aria-hidden="true">→</i></span><b>{placeOf(bestRun.place, bestRun.field)}</b><small>{bestRun.race} {bestRun.year}, {t("slo", "beat")} {pct(bestRun.beaten)} {t("av", "of")} {felt}. {t("Se resultatlisten.", "See the result list.")}</small></a>
+          ? <a className="stat link" href={href.race(bestRun.raceId)}><span className="eyebrow">{t("Beste race", "Best race")} <i aria-hidden="true">→</i></span><b>{placeOf(bestRun.place!, bestRun.field)}</b><small>{bestRun.race} {bestRun.year}, {t("slo", "beat")} {pct(bestRun.beaten)} {t("av", "of")} {felt}. {t("Se resultatlisten.", "See the result list.")}</small></a>
           : <div className="stat"><span className="eyebrow">{t("Beste race", "Best race")}</span><b>–</b><small>{t("Ingen race", "No races")}</small></div>}
         <div className="stat"><span className="eyebrow">{t("Bak vinneren", "Behind the winner")}</span><b className="tnum">{timed.length ? pct(behind, 1) : "–"}</b><small>{timed.length ? t(`typisk, i ${timed.length} race på tid`, `typically, in ${count(timed.length, "", "timed race")}`) : t("ingen race på tid", "no timed races")}</small></div>
       </div>
@@ -115,7 +126,7 @@ function Overview({ a }: { a: Athlete }) {
           <span key={k}>{i ? " · " : ""}{poolLabel(k).toLowerCase()} <b className="tnum">{r.rating}</b>{(norge ? r.rank_no : r.rank) ? ` (${placeOf((norge ? r.rank_no : r.rank)!, (norge ? r.of_no : r.of)!)} ${t("aktive", "active")}${norge ? t(" i Norge-utvalget", " in the Norway view") : ""})` : ""}{r.peak > r.rating ? t(`, topp ${r.peak} i ${r.peak_year}`, `, peak ${r.peak} in ${r.peak_year}`) : ""}</span>
         ); })}.</span><a href={href.top("rating")}>{t("Hele listen", "Full list")}</a></p>
       )}
-      {last && <p className="latest" role="note"><Icon.flag /><span>{t("Sist", "Latest")}: {last.race} {last.year} <Cls type={last.type} cls={last.cls} />: {placeOf(last.place, last.field)}. {who} {t("slo", "beat")} {Math.round(last.beaten)} % {t("av", "of")} {felt}.</span><a href={href.race(last.raceId)}>{t("Resultatlisten", "Result list")}</a></p>}
+      {last && <p className="latest" role="note"><Icon.flag /><span>{t("Sist", "Latest")}: {last.race} {last.year} <Cls type={last.type} cls={last.cls} />: {last.place != null ? <>{placeOf(last.place, last.field)}. {who} {t("slo", "beat")} {Math.round(last.beaten!)} % {t("av", "of")} {felt}.</> : <>DNF ({t("av", "of")} {last.field}).</>}</span><a href={href.race(last.raceId)}>{t("Resultatlisten", "Result list")}</a></p>}
 
       <section className="section" aria-labelledby="h-race">
         <div className="section-head">
@@ -132,12 +143,12 @@ function Overview({ a }: { a: Athlete }) {
               return (
                 <li key={k} className={`run type-${r.type}`}>
                   <button type="button" aria-pressed={on} onClick={() => setSel(on ? null : k)}>
-                    <span className="run-place tnum">{r.place}<small>/{r.field}</small></span>
+                    <span className="run-place tnum">{r.place != null ? r.place : "DNF"}<small>/{r.field}</small></span>
                     <span className="run-main">
                       <span className="run-name">{r.race} <span className="muted">{r.year}</span> <Cls type={r.type} cls={r.cls} /></span>
                       <span className="run-sub muted">{dateShort(r.date)}{r.cls && r.cls !== typeLabel(r.type) ? ` · ${typeLabel(r.type)}` : ""}{r.basis === "blant kvinnene" ? t(" · blant kvinnene", " · among the women") : ""}</span>
                     </span>
-                    <span className="run-beaten"><Beaten v={r.beaten} /><small className="tnum">{Math.round(r.beaten)} %</small></span>
+                    <span className="run-beaten">{r.beaten != null ? <><Beaten v={r.beaten} /><small className="tnum">{Math.round(r.beaten)} %</small></> : <small className="tnum muted">DNF</small>}</span>
                   </button>
                 </li>
               );
@@ -148,7 +159,10 @@ function Overview({ a }: { a: Athlete }) {
             {byType.length > 1 && (
               <div className="card card-pad">
                 <h3 className="h-card">{t("Klassene", "The classes")}</h3>
-                <ul className="class-list">{byType.map(([k, rs]) => <li key={k} className={`type-${k}`}><i /><span>{typeLabel(k)}</span><small className="muted tnum">{count(rs.length, "race", "race")}</small><b className="tnum">{Math.round(median(rs.map((r) => r.beaten)))} %</b></li>)}</ul>
+                <ul className="class-list">{byType.map(([k, rs]) => {
+                  const p = rs.filter((r) => r.beaten != null);
+                  return <li key={k} className={`type-${k}`}><i /><span>{typeLabel(k)}</span><small className="muted tnum">{count(rs.length, "race", "race")}</small><b className="tnum">{p.length ? `${Math.round(median(p.map((r) => r.beaten!)))} %` : "–"}</b></li>;
+                })}</ul>
                 <p className="fine">{t(`Andel av ${felt} slått, median.`, `Share of ${felt} beaten, median.`)}</p>
               </div>
             )}
@@ -164,8 +178,8 @@ function Overview({ a }: { a: Athlete }) {
             {byHill.map((h) => (
               <button key={h.id} type="button" className="hill-stat" aria-pressed={hillSel === h.id} onClick={() => setHillSel(hillSel === h.id ? null : h.id)}>
                 <span className="hill-stat-name">{h.name}</span>
-                <span className="muted tnum">{count(h.rs.length, "race", "race")} · {t("beste", "best")} {placeOf(h.best.place, h.best.field)}</span>
-                <span className="hill-stat-bar"><Beaten v={h.med} /><b className="tnum">{Math.round(h.med)} %</b></span>
+                <span className="muted tnum">{count(h.rs.length, "race", "race")}{h.best ? <> · {t("beste", "best")} {placeOf(h.best.place!, h.best.field)}</> : ""}</span>
+                <span className="hill-stat-bar">{!Number.isNaN(h.med) ? <><Beaten v={h.med} /><b className="tnum">{Math.round(h.med)} %</b></> : <span className="muted">–</span>}</span>
               </button>
             ))}
           </div>
@@ -177,18 +191,20 @@ function Overview({ a }: { a: Athlete }) {
 }
 
 /** Every race the rider ran on one hill, newest first, with what the hill usually gives: a comparison across the years. */
-function HillRuns({ hill, who, felt, onClose }: { hill: { id: string; name: string; rs: Result[]; med: number; best: Result }; who: string; felt: string; onClose: () => void }) {
+function HillRuns({ hill, who, felt, onClose }: { hill: { id: string; name: string; rs: Result[]; med: number; best: Result | null }; who: string; felt: string; onClose: () => void }) {
   const rs = [...hill.rs].sort((x, y) => y.date.localeCompare(x.date));
   const timed = rs.filter((r) => r.time != null);
   const first = rs[rs.length - 1], last = rs[0];
-  const trend = rs.length > 1 && first.year !== last.year ? last.beaten - first.beaten : null;
+  const placed = rs.filter((r) => r.beaten != null);
+  const pFirst = placed[placed.length - 1], pLast = placed[0];
+  const trend = placed.length > 1 && pFirst.year !== pLast.year ? pLast.beaten! - pFirst.beaten! : null;
   return (
     <div className="card hill-runs" id="hill-runs">
       <div className="hill-runs-head">
         <div>
           <p className="eyebrow">{who} {t("i", "at")}</p>
           <h3 className="h-section">{hill.name}</h3>
-          <p className="lead">{count(rs.length, "race", "race")}{first.year !== last.year ? t(` fra ${first.year} til ${last.year}`, ` from ${first.year} to ${last.year}`) : ` ${t("i", "in")} ${last.year}`}. {t("Slår typisk", "Typically beats")} {Math.round(hill.med)} % {t("av", "of")} {felt} {t("her, beste", "here, best")} {placeOf(hill.best.place, hill.best.field)} {t("i", "in")} {hill.best.year}.
+          <p className="lead">{count(rs.length, "race", "race")}{first.year !== last.year ? t(` fra ${first.year} til ${last.year}`, ` from ${first.year} to ${last.year}`) : ` ${t("i", "in")} ${last.year}`}.{!Number.isNaN(hill.med) && hill.best ? <> {t("Slår typisk", "Typically beats")} {Math.round(hill.med)} % {t("av", "of")} {felt} {t("her, beste", "here, best")} {placeOf(hill.best.place!, hill.best.field)} {t("i", "in")} {hill.best.year}.</> : ""}
             {trend != null ? ` ${trend >= 0 ? t("Opp", "Up") : t("Ned", "Down")} ${Math.abs(Math.round(trend))} ${t("prosentpoeng fra første til siste gang.", "percentage points from the first time to the last.")}` : ""}</p>
         </div>
         <div className="filters"><a className="btn ghost" href={href.hill(hill.id)}>{t("Om bakken", "About the hill")} <Icon.hill /></a><button type="button" className="btn ghost" onClick={onClose} aria-label={t("Lukk", "Close")}><Icon.close /></button></div>
@@ -199,8 +215,8 @@ function HillRuns({ hill, who, felt, onClose }: { hill: { id: string; name: stri
           <tr key={r.raceId} className={`type-${r.type}`}>
             <td className="l"><b className="tnum">{r.year}</b> <span className="muted">{dateShort(r.date)}</span></td>
             <td className="l"><Cls type={r.type} cls={r.cls} /></td>
-            <td className="tnum"><b>{r.place}</b><span className="muted">/{r.field}</span></td>
-            <td className="l beaten-cell"><Beaten v={r.beaten} /><span className="tnum">{Math.round(r.beaten)} %</span></td>
+            <td className="tnum"><b>{r.place != null ? r.place : "DNF"}</b><span className="muted">/{r.field}</span></td>
+            <td className="l beaten-cell">{r.beaten != null ? <><Beaten v={r.beaten} /><span className="tnum">{Math.round(r.beaten)} %</span></> : <span className="muted">–</span>}</td>
             {timed.length > 0 && <><td className="tnum">{r.time != null ? clock(r.time) : <span className="muted">–</span>}</td><td className="tnum muted">{r.behind != null && r.behind > 0 ? pct(r.behind, 1) : ""}</td></>}
             <td className="links"><a href={href.race(r.raceId)} aria-label={t(`Resultatlisten for ${r.race} ${r.year}`, `Result list for ${r.race} ${r.year}`)} title={t("Resultatlisten", "Result list")}><Icon.races /></a></td>
           </tr>
@@ -215,7 +231,8 @@ function Detail({ r, rows, who, hs }: { r: Result | null; rows: Result[]; who: s
   const { setSel } = useSel();
   if (!rows.length) return null;
   if (!r) {
-    const n = rows.length, wins = rows.filter((x) => x.place === 1).length, top3 = rows.filter((x) => x.place <= 3).length;
+    const n = rows.length, placed = rows.filter((x) => x.place != null);
+    const wins = rows.filter((x) => x.place === 1 && x.format === "bracket").length, top3 = placed.filter((x) => x.place! <= 3).length;
     return (
       <div className="card card-pad detail">
         <p className="eyebrow">{t("Perioden", "The period")}</p>
@@ -223,7 +240,7 @@ function Detail({ r, rows, who, hs }: { r: Result | null; rows: Result[]; who: s
         <dl className="facts-list">
           <div><dt>{t("Seire", "Wins")}</dt><dd className="tnum">{wins}</dd></div>
           <div><dt>{t("Pallplasser", "Podiums")}</dt><dd className="tnum">{top3}</dd></div>
-          <div><dt>{t("Typisk plass", "Typical place")}</dt><dd className="tnum">{ord(Math.round(median(rows.map((x) => x.place))))} <span className="muted">{t("av", "of")} {Math.round(median(rows.map((x) => x.field)))}</span></dd></div>
+          <div><dt>{t("Typisk plass", "Typical place")}</dt><dd className="tnum">{placed.length ? <>{ord(Math.round(median(placed.map((x) => x.place!))))} <span className="muted">{t("av", "of")} {Math.round(median(placed.map((x) => x.field)))}</span></> : "–"}</dd></div>
         </dl>
         <p className="fine">{t("Trykk på et race i listen for å se detaljene.", "Tap a race in the list to see the details.")}</p>
       </div>
@@ -234,9 +251,9 @@ function Detail({ r, rows, who, hs }: { r: Result | null; rows: Result[]; who: s
       <p className="eyebrow">{dateLong(r.date)}</p>
       <h3 className="h-card">{r.race} {r.year}</h3>
       <p><Cls type={r.type} cls={r.cls} big /></p>
-      <div className="detail-big"><b className="tnum">{ord(r.place)}</b><span>{t("av", "of")} {r.field} {r.basis === "blant kvinnene" ? t("blant kvinnene", "among the women") : t("i feltet", "in the field")}</span></div>
+      <div className="detail-big"><b className="tnum">{r.place != null ? ord(r.place) : "DNF"}</b><span>{t("av", "of")} {r.field} {r.basis === "blant kvinnene" ? t("blant kvinnene", "among the women") : t("i feltet", "in the field")}</span></div>
       <dl className="facts-list">
-        <div><dt>{t("Slo", "Beat")}</dt><dd className="tnum">{pct(r.beaten)} <span className="muted">{t("av", "of")} {felt}</span></dd></div>
+        {r.beaten != null && <div><dt>{t("Slo", "Beat")}</dt><dd className="tnum">{pct(r.beaten)} <span className="muted">{t("av", "of")} {felt}</span></dd></div>}
         {r.elo != null && <div><dt>{t("Rating etter", "Rating after")}</dt><dd className="tnum">{r.elo} <Delta d={r.eloDelta} /></dd></div>}
         {r.time != null && <div><dt>{t("Tid", "Time")}</dt><dd className="tnum">{clock(r.time)}{r.winner != null && r.winner !== r.time ? <span className="muted"> · {t("vinner", "winner")} {clock(r.winner)}</span> : ""}</dd></div>}
         {r.behind != null && r.behind > 0 && <div><dt>{t("Bak vinneren", "Behind the winner")}</dt><dd className="tnum">{pct(r.behind, 1)}</dd></div>}

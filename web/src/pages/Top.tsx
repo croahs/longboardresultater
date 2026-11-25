@@ -30,7 +30,7 @@ export default function Top({ kind }: { kind: TopKind }) {
   return (
     <section className="race-page" aria-labelledby="h-top">
       <div className="section-head">
-        <div><p className="eyebrow">{t("Toppliste", "Top list")}{norge ? t(" · Norge-utvalget", " · Norway view") : ""}</p><h1 className="h-display" id="h-top">{head}</h1><p className="lead">{lead}{norge ? (kind === "seire" ? t(" Bare kjørere i Norge-utvalget.", " Only riders in the Norway view.") : kind === "rating" ? t(" Bare kjørere i Norge-utvalget: nordmenn og alle som har kjørt race i Norge.", " Only riders in the Norway view: Norwegians and everyone who has raced in Norway.") : t(" Bare race i Norge.", " Only races in Norway.")) : ""}</p></div>
+        <div><p className="eyebrow">{t("Toppliste", "Top list")}{norge ? t(" · Norge-utvalget", " · Norway view") : ""}</p><h1 className="h-display" id="h-top">{head}</h1><p className="lead">{lead}{norge ? (kind === "seire" ? t(" Bare kjørere i Norge-utvalget.", " Only riders in the Norway view.") : kind === "rating" ? t(" Bare kjørere i Norge-utvalget: nordmenn og de som har kjørt minst halvparten av racene sine i Norge.", " Only riders in the Norway view: Norwegians and riders with at least half their races in Norway.") : t(" Bare race i Norge.", " Only races in Norway.")) : ""}</p></div>
         <nav className="chips" aria-label={t("Topplister", "Top lists")}>{TOP_KINDS.map((k) => <a key={k} className="chip" aria-current={k === kind ? "page" : undefined} href={href.top(k)}>{title(k)[0]}</a>)}</nav>
       </div>
       {kind === "rating" && (s.rating ? <Rating pools={s.rating} norge={norge} /> : <Empty title={t("Ratingen er ikke regnet ut ennå", "The rating has not been worked out yet")} />)}

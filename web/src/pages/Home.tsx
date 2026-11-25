@@ -47,10 +47,10 @@ export default function Home({ index, example }: { index: IndexRider[]; example:
           {example && <p className="fine">{t("Eller", "Or")} <a href={href.rider(example)}>{t("se et eksempel", "see an example")}</a> {t("først.", "first.")}</p>}
         </div>
         <dl className="hero-stats" aria-label={t("Innholdet i tall", "The contents in numbers")}>
-          <div><dt>{t("Stevner", "Events")}</dt><dd className="tnum">{int(s?.events)}</dd></div>
-          <div><dt>{t("Race", "Races")}</dt><dd className="tnum">{int(s?.races)}</dd></div>
-          <div><dt>{t("Kjørere", "Riders")}</dt><dd className="tnum">{int(s?.riders)}</dd></div>
-          <div><dt>{t("Resultater", "Results")}</dt><dd className="tnum">{int(s?.results)}</dd></div>
+          <div><dt>{t("Stevner", "Events")}</dt><dd className="tnum">{int(v?.events)}</dd></div>
+          <div><dt>{t("Race", "Races")}</dt><dd className="tnum">{int(v?.races)}</dd></div>
+          <div><dt>{t("Kjørere", "Riders")}</dt><dd className="tnum">{int(v?.riders)}</dd></div>
+          <div><dt>{t("Resultater", "Results")}</dt><dd className="tnum">{int(v?.results)}</dd></div>
         </dl>
       </section>
 
@@ -120,7 +120,7 @@ export default function Home({ index, example }: { index: IndexRider[]; example:
         </div>
       </section>
 
-      <p className="note">{t("Med er", "Included are")} {s ? `${t(`${s.events} stevner og ${s.races} race`, `${s.events} events and ${s.races} races`)}, ${span(s.years)}` : t("racene", "the races")}, {t("i klassene", "in the classes")} {RACE_TYPES.filter((k) => k !== "Other").map(typeLabel).join(", ").toLowerCase()} {t("og andre. Tallene oppdateres når nye lister kommer til.", "and others. The numbers update as new lists come in.")}</p>
+      <p className="note">{t("Med er", "Included are")} {s && v ? `${t(`${v.events} stevner og ${v.races} race`, `${v.events} events and ${v.races} races`)}, ${span(s.years)}` : t("racene", "the races")}, {t("i klassene", "in the classes")} {RACE_TYPES.filter((k) => k !== "Other").map(typeLabel).join(", ").toLowerCase()} {t("og andre. Tallene oppdateres når nye lister kommer til.", "and others. The numbers update as new lists come in.")}</p>
     </>
   );
 }

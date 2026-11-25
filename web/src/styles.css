@@ -380,8 +380,9 @@ table.meetings .res.d { background: var(--ghost); color: var(--muted); }
 }
 @media (max-width: 640px) {
   body { font-size: 14px; }
-  .topbar { gap: 10px; padding: 10px 16px; }
-  .topnav { display: none; }
+  .topbar { gap: 8px 10px; padding: 10px 16px; }
+  .topnav { margin-left: 0; }
+  .topnav a { padding: 4px 6px; font-size: .84rem; }
   /* The two toggles take the wordmark's room; the search gets a row of its own. */
   .topbar { flex-wrap: wrap; }
   .brand span { display: none; }

@@ -13,10 +13,10 @@ export interface Result {
   race: string;       // the event: "Ekstremsportveko"
   cls: string;        // the race within the event: "NM Open", "Damer", "Tidskjøring"
   date: string; year: number; type: RaceType; format: Format;
-  place: number; field: number;
+  place: number | null; field: number;
   basis: "i feltet" | "blant kvinnene"; // what place/field count: the whole list, or the women in it
-  top: number;        // place as % of field, lower is better
-  beaten: number;     // % of the others beaten (the winner beat 100 %), higher is better
+  top: number | null;        // place as % of field, lower is better (null for DNF)
+  beaten: number | null;     // % of the others beaten (the winner beat 100 %), higher is better (null for DNF)
   behind: number | null; // % behind the fastest time (timed races)
   time: number | null; winner: number | null; // seconds (timed races)
   link: string;       // the post on ndsf.no
@@ -137,10 +137,17 @@ interface RawProfile {
   opponents?: RawOpp[]; rivals?: string[]; insights?: Insights; rivals_women?: string[]; rating?: Partial<Record<Pool, RiderRating>>;
 }
 
-function result(r: RawResult): Result | null {
-  if (r.place == null) return null; // DNF: counted in others' fields, no placing of its own
-  const place = r.place, field = Math.max(r.field, place); // a sheet can skip a number: never "8. av 7"
+function result(r: RawResult): Result {
   const beatenOf = (p: number, f: number) => (f > 1 ? ((f - p) / (f - 1)) * 100 : 100);
+  if (r.place == null) {
+    return {
+      raceId: r.race_id, race: r.race, cls: r.cls, date: r.date, year: Number(r.date.slice(0, 4)), type: r.type, format: r.format,
+      place: null, field: r.field, basis: "i feltet", top: null, beaten: null,
+      behind: null, time: null, winner: r.winner, link: r.link || "", hill: r.hill, elo: r.elo ?? null, eloDelta: r.elo_d ?? null,
+      women: null,
+    };
+  }
+  const place = r.place, field = Math.max(r.field, place); // a sheet can skip a number: never "8. av 7"
   return {
     raceId: r.race_id, race: r.race, cls: r.cls, date: r.date, year: Number(r.date.slice(0, 4)), type: r.type, format: r.format,
     place, field, basis: "i feltet", top: (place / field) * 100, beaten: Math.max(0, Math.min(100, r.beaten_pct ?? beatenOf(place, field))),
@@ -152,7 +159,7 @@ function result(r: RawResult): Result | null {
 function athlete(p: RawProfile): Athlete {
   return {
     id: p.id, name: p.name, club: p.club || "", sex: p.sex ?? null, no: !!p.no, rivalsWomen: p.rivals_women || [],
-    results: p.results.map(result).filter((r): r is Result => !!r).sort((a, b) => a.date.localeCompare(b.date)),
+    results: p.results.map(result).sort((a, b) => a.date.localeCompare(b.date)),
     opponents: opponents(p.opponents), rivals: p.rivals || [], insights: p.insights || {}, rating: p.rating || {},
   };
 }
@@ -271,7 +278,7 @@ function meeting(race: RaceList, me: RaceRow, o: RaceRow): Meeting {
   else {
     res = p < q ? "w" : p > q ? "l" : "d";
     pl = p === q ? null : p - q;
-    if (me[3] && o[3]) { gs = pyRound(me[3] - o[3], 2); gp = pyRound((100 * gs) / o[3], 1); }
+    if (race.format === "timed" && me[3] && o[3]) { gs = pyRound(me[3] - o[3], 2); gp = pyRound((100 * gs) / o[3], 1); }
   }
   return { race: race.name, date: race.date, type: race.type, res, gs, gp, pl, mc: race.cls, tc: race.cls, same: true };
 }
